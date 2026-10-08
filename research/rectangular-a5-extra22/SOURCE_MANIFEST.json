@@ -1,0 +1,236 @@
+{
+  "base_repository": "rohanarun/integer-mult-bounds",
+  "base_commit": "3eafe5a35b572fe38e7d64a55ce5cac1d8838bee",
+  "base_tree": "d6286b49e3e598a610ec63968c616a67a6320648",
+  "source_files": [
+    {
+      "published_path": "GEOMETRY_PROOF.md",
+      "original_sha256": "5fa2898d04a656b42cc04fa6b6b3d2a10c78f17625bef69e67a5412116f34752",
+      "published_sha256": "236248ff9c244170434d5eab9553240430cc7fa04e335f063388cee975acffec",
+      "original_bytes": 5678,
+      "published_bytes": 5853,
+      "changes": [
+        "Portable scientific references or metadata-only omissions; mathematical statements/control algorithms preserved."
+      ]
+    },
+    {
+      "published_path": "GEOMETRY_CERTIFICATE.json",
+      "original_sha256": "bb2c5ec29f38e667cd0a3a13c735c140875d94f7017611edb6a842027b96511d",
+      "published_sha256": "1553c82067f703addcdea3e312eb2656b6456c82a55ff099629c95623c7af8de",
+      "original_bytes": 66335,
+      "published_bytes": 66302,
+      "changes": [
+        "Portable scientific references or metadata-only omissions; mathematical statements/control algorithms preserved."
+      ]
+    },
+    {
+      "published_path": "COMMON_CORNER_LEMMA.md",
+      "original_sha256": "ac6601c778ab1b2fda48ca136f83379751ec488c9ef4f0e5e3b58e17ef539c68",
+      "published_sha256": "a980205c2bc2a111cd1b5f2ef76b23e8435c7b3ea443c25bb6b089bd9b550390",
+      "original_bytes": 8472,
+      "published_bytes": 8886,
+      "changes": [
+        "Portable scientific references or metadata-only omissions; mathematical statements/control algorithms preserved."
+      ]
+    },
+    {
+      "published_path": "helpers/rank_cuts.py",
+      "original_sha256": "df07d28c3575db048c9507e5d7f2e3caaca53cacd0a704794b268a41a5e5d944",
+      "published_sha256": "df07d28c3575db048c9507e5d7f2e3caaca53cacd0a704794b268a41a5e5d944",
+      "original_bytes": 3166,
+      "published_bytes": 3166,
+      "changes": []
+    },
+    {
+      "published_path": "helpers/explore_corners.py",
+      "original_sha256": "ec4526d8dea25ab7c19d86e6291a44b46527545f0a6c32678292abdad5269f96",
+      "published_sha256": "ec4526d8dea25ab7c19d86e6291a44b46527545f0a6c32678292abdad5269f96",
+      "original_bytes": 1784,
+      "published_bytes": 1784,
+      "changes": []
+    },
+    {
+      "published_path": "prove_geometry.py",
+      "original_sha256": "72792848086cad4705e323d3a348c6da8981ea6ba6010a2bb01126a63af2d6ad",
+      "published_sha256": "4cda67cb2d8e412db4aa52d6803f49ffa390106a0fcbd1b2b323237f4acf67b3",
+      "original_bytes": 1318,
+      "published_bytes": 1283,
+      "changes": [
+        "Portable scientific references or metadata-only omissions; mathematical statements/control algorithms preserved."
+      ]
+    },
+    {
+      "published_path": "check_geometry_independent.py",
+      "original_sha256": "96735c9debac803ce3364b366ab25d9ff5339cd9956082ff02039dac96f71841",
+      "published_sha256": "92049fdb5457fdfdc5c2da41a53d9cccd8ccd4adc115f57552a5c993c193c215",
+      "original_bytes": 9355,
+      "published_bytes": 8793,
+      "changes": [
+        "Portable scientific references or metadata-only omissions; mathematical statements/control algorithms preserved."
+      ]
+    },
+    {
+      "published_path": "ASSEMBLY_PROOF.md",
+      "original_sha256": "db6f28c88f14adbd003cf6a5a378a9b17a7608ed78bf8fe6ffe55ed0ba6f23af",
+      "published_sha256": "2bc6b2ed8800737151228dec9deb5b4d13c18a1f00913e388ae1fb0dfbd2e0f9",
+      "original_bytes": 15534,
+      "published_bytes": 15683,
+      "changes": [
+        "Portable scientific references or metadata-only omissions; mathematical statements/control algorithms preserved."
+      ]
+    },
+    {
+      "published_path": "check_assembly.py",
+      "original_sha256": "a6f3f002132723b24f94de919e288ea8958927572c083022d1a2cd39fee44982",
+      "published_sha256": "a6f3f002132723b24f94de919e288ea8958927572c083022d1a2cd39fee44982",
+      "original_bytes": 14324,
+      "published_bytes": 14324,
+      "changes": []
+    },
+    {
+      "published_path": "ASSEMBLY_CERTIFICATE.json",
+      "original_sha256": "339339b956c6f2932ba8a609ad4cef02fe26731269657379f40ebbb471cf8742",
+      "published_sha256": "339339b956c6f2932ba8a609ad4cef02fe26731269657379f40ebbb471cf8742",
+      "original_bytes": 36405,
+      "published_bytes": 36405,
+      "changes": []
+    },
+    {
+      "published_path": "check_assembly_independent.py",
+      "original_sha256": "47d670b2c6d8737f0d31ed5e678756199384d3f6753276e2da4851fb21fca01c",
+      "published_sha256": "9d501963a2b0128c18436303479eb9de5848a002f44112af52fd96cdf1fb14b6",
+      "original_bytes": 22121,
+      "published_bytes": 20893,
+      "changes": [
+        "Disabled archival bookkeeping branch omitted; native mode required. Exact mathematical body and functions preserved."
+      ]
+    }
+  ],
+  "inherited_primary_sources": [
+    {
+      "path": "research/rectangular-semantic/certificate.json",
+      "git_blob_sha": "a368d91a62fee2b77e93c12b43334adcd671b656",
+      "sha256": "95440e6e5cbdc4e9a8d4485ae2492585f1eb0a326c8f103563af562ee445cabe",
+      "bytes": 115413
+    },
+    {
+      "path": "research/rectangular-semantic/inputs.json",
+      "git_blob_sha": "5872d8319452500d4e81c7ca6b05d820e998e184",
+      "sha256": "3815466a9d90fcf900c68ae756660a899696bcf5ba6f6b0890bccf344f41def4",
+      "bytes": 84415
+    },
+    {
+      "path": "research/rectangular-semantic/compatibility-theorem.txt",
+      "git_blob_sha": "0afc0cd1da3ba4341621bad4897f5c37a6f2fa02",
+      "sha256": "a8129e544a4f662d6172b627905165ca5a0590c2b1e9cad700bcc899fc0eb9ce",
+      "bytes": 7894
+    },
+    {
+      "path": "research/rectangular-semantic/a5-28-27-proof.txt",
+      "git_blob_sha": "ae6f2346f4718ddcad335e5a97c8d733f768d605",
+      "sha256": "622172aaf4e38025c3e3b411d5a71d3b06e3add0294fd3d342d8f54283be7f0c",
+      "bytes": 1993
+    },
+    {
+      "path": "research/translated-partial/complex-certificate.json",
+      "git_blob_sha": "fb6726518e25d601f34edae289822f393abe94db",
+      "sha256": "399f102e9bab4d098604971c22d1ec39a787ca39dce84c455791d857e97739f0",
+      "bytes": 33355
+    },
+    {
+      "path": "notes/semantic-bulk-17-note.tex",
+      "git_blob_sha": "abd5e0f2cea9de2a09bc0bfee844224ab3155520",
+      "sha256": "652242b05174bb776ffc6165af170df9c8cf220dbd0fc26c24d778f320dbabc8",
+      "bytes": 18648
+    },
+    {
+      "path": "references/rad20/SOURCE.json",
+      "git_blob_sha": "f19aa02a1d430ab30133727ddee5f6686b49ac37",
+      "sha256": "63477ee5103e4c1d0d1665bf2d1cfb91af5bcdef59cac6e46f4d6a1579b8eb2e",
+      "bytes": 3994
+    },
+    {
+      "path": "references/rad20/reports/bulk-resampling-tape-transfer.md",
+      "git_blob_sha": "7141f84808633e22760e6ca760302ec153f3770a",
+      "sha256": "cda26d5aca04b9c824eb6c4f50bee564fb7fa908b09a72e76852df5e0b9d2622",
+      "bytes": 11364
+    },
+    {
+      "path": "references/rad20/reports/compact-arbitrary-source-routing.md",
+      "git_blob_sha": "366f97407b6c8c46f1263c2bbcf2a46be5f40de7",
+      "sha256": "3df36853a181fd5d331811b5c4859a1980116c69f447eb78c40a551ff28cde79",
+      "bytes": 10684
+    },
+    {
+      "path": "references/rad20/reports/downstream-microbox-resampling.md",
+      "git_blob_sha": "27f962de34b6943aee33cc0d40b8c7883ccf56f2",
+      "sha256": "9598c236eed7e44ac5eb41cc20f7c23249829e195247d15e2857a34e14222c49",
+      "bytes": 15468
+    },
+    {
+      "path": "references/rad20/reports/downstream-phase-cell-inverse.md",
+      "git_blob_sha": "d72345a0aa748443c4efcddf87aa10d524664841",
+      "sha256": "3cdf492bcb719db4295658604dc202d6a2c5a008b87de43ec54f0107c64db730",
+      "bytes": 23129
+    },
+    {
+      "path": "references/rad20/reports/downstream-semantic-bulk-assembly.md",
+      "git_blob_sha": "c9262e908a0ef014699d175f7bf427aed6469577",
+      "sha256": "ccdeaeac7c6a1c08483fea2285a7d089d782f2c18b7be867c3fc9f77457637fd",
+      "bytes": 7031
+    },
+    {
+      "path": "references/rad20/reports/downstream-semantic-child-guard.md",
+      "git_blob_sha": "970927dcf8e26447fe95be2edda6f20087dcba15",
+      "sha256": "dda9f678ab5afee88b70e405fb70ad47fa2273bd940e9daf603831925d0ef087",
+      "bytes": 8245
+    },
+    {
+      "path": "references/rad20/reports/review-arbitrary-routing.md",
+      "git_blob_sha": "b0818f69e68174de819692d68bb6edc69254d491",
+      "sha256": "f18f535a096abae473db71a4ae3f275d0116d7438fb18594d5b160571db670fd",
+      "bytes": 7639
+    },
+    {
+      "path": "references/rad20/reports/review-balanced-transform.md",
+      "git_blob_sha": "5a173f4e62ee4ec1ee39aa5d7eefdd63a652e411",
+      "sha256": "0c3a5b6f17188205d35cd421ef0c35c71f6111698f497e89da3ef7f870fef862",
+      "bytes": 10501
+    },
+    {
+      "path": "references/rad20/reports/review-bulk-resampling.md",
+      "git_blob_sha": "9731a03fdb7a1cecaddab737545befa238cb9ad3",
+      "sha256": "12aefaa9a0eee367fb71e8f910ed5f0094e1203d2caa29836b0c37887c446c29",
+      "bytes": 13666
+    },
+    {
+      "path": "references/rad20/reports/review-phase-cell-inverse.md",
+      "git_blob_sha": "395eab8ee1d58e84353f554dcfe9473b5913dda5",
+      "sha256": "113927dd4fb77a55a457bd5f6da8cbfc7262d0fbc4e9d708b591a1d632e6caf6",
+      "bytes": 16576
+    },
+    {
+      "path": "references/rad20/reports/review-semantic-child-guard.md",
+      "git_blob_sha": "a12a6dca1758bee3855834c0c60b17e1d00ec718",
+      "sha256": "5ded175dbc723df9e45b8a7abc1b729ff77e170d188b0d77102fd8a8f7e0da7e",
+      "bytes": 8344
+    }
+  ],
+  "evidence_status": "Independently accepted conditional paper and exact finite arithmetic",
+  "accepted_scopes": [
+    {
+      "component": "IM-PAPER-RECTANGULAR-A5-BLOCKS-030",
+      "accepted_utc": "2026-10-08T11:30:33.148106+00:00",
+      "evidence_tier": "independently-reviewed-paper",
+      "scope": "PR28 fixed prescribed common-basis late22 contiguous A5 block, seven singletons+25+22+648, rank702 preserved, calls31 to10 per occurrence. Uniform incidence rank identities, strict rational nonvanishing witnesses, actual physical order/common-family argument. No numerical exponent or assembly claim.",
+      "full_machine_or_Lean_claim": false
+    },
+    {
+      "component": "IM-PAPER-PR28-BALANCED-002",
+      "accepted_utc": "2026-10-08T11:39:29.783061+00:00",
+      "evidence_tier": "independently-reviewed-paper",
+      "scope": "PR28 late22 regrouping and attributed balanced semantic/bulk composition, conditional kappa1228547206/10^14. Full finite histogram/moments, rigorous lower-bound negatives, unchanged complex guard, product stock96000 and50 strict rational inequalities checked; geometry independently accepted and bound. Inherited machine/analytic hypotheses explicit, no current-record or Lean claim.",
+      "full_machine_or_Lean_claim": false
+    }
+  ]
+}
