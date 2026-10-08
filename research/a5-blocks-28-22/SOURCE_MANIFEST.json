@@ -1,0 +1,196 @@
+{
+  "base_commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+  "base_tree": "d220c16097a95b03878ce6f41cc2a71125dc9bcf",
+  "source_scope": "Scientific hashes and primary-source attribution only",
+  "source_files": [
+    {
+      "published_path": "GEOMETRY_PROOF.md",
+      "original_sha256": "ac6601c778ab1b2fda48ca136f83379751ec488c9ef4f0e5e3b58e17ef539c68",
+      "published_sha256": "4e150d7b5d1b45272256bc53dde12b2b66831397c7387f0479187a808ac24a12",
+      "original_bytes": 8472,
+      "published_bytes": 8664,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "MOMENT_PROOF.md",
+      "original_sha256": "d87bd0c1bc2a8d6c5502611e8870d6e120ff89e2f23ee70d0ffdd3e97337b313",
+      "published_sha256": "86d9f20763fec53b2c67f277a01586edd4a7b30e43214f67f820b8ac170cbcb7",
+      "original_bytes": 2948,
+      "published_bytes": 3175,
+      "changes": []
+    },
+    {
+      "published_path": "rank_cuts.json",
+      "original_sha256": "e08718de3dad66e2f1aad48e1d8570aee941bb20df134dc3fe0f82bc81d0ec9f",
+      "published_sha256": "3017a7f5cddd5c59bec8c58ba9830348859cc01aeea9e30132bb5e2907c6c8ad",
+      "original_bytes": 112004,
+      "published_bytes": 111971,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "explore_corners.py",
+      "original_sha256": "ec4526d8dea25ab7c19d86e6291a44b46527545f0a6c32678292abdad5269f96",
+      "published_sha256": "ec4526d8dea25ab7c19d86e6291a44b46527545f0a6c32678292abdad5269f96",
+      "original_bytes": 1784,
+      "published_bytes": 1784,
+      "changes": []
+    },
+    {
+      "published_path": "corner_runs.json",
+      "original_sha256": "ac4de892d7f09eab611816f2670ce561c8b50eb71f1f2cec4bd11c73460adb2b",
+      "published_sha256": "3e4e5dc75c9006070da16dbd5ecca59c9921508f512e84857e9c02e24c66127e",
+      "original_bytes": 57786,
+      "published_bytes": 57752,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "EXACT_MOMENTS.json",
+      "original_sha256": "d90777fd7c67d35cff8cb8724457a02599b30bc53475711c8996508eac4a42a7",
+      "published_sha256": "1c553eb6f7adbef3601893abc63b422db70370542cb3492c869dcf1b094cffb6",
+      "original_bytes": 25900,
+      "published_bytes": 25422,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "check_rank_certificates.py",
+      "original_sha256": "da56fc22d6b1b036ff0d8bf2462f942c4c2d9d7dd8deb6f0aae91df886555637",
+      "published_sha256": "f036b349838932e1d9a80b2bd124cd16fdf4f3c66b2c960070caaaa51196d20d",
+      "original_bytes": 3865,
+      "published_bytes": 3787,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "check_geometry.py",
+      "original_sha256": "81470043a8485bd81a18e5235b5cde79c1a3e750ad2234370d11ee501959f252",
+      "published_sha256": "33054b40c93912bcc0fd557d3e291721e5bd601ed818dcfc0be2a71d7b8e40c6",
+      "original_bytes": 3553,
+      "published_bytes": 3507,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "COMPOSITION_PROOF.md",
+      "original_sha256": "7b514ce121acd79a4f8da1fa503ef2fa0fc1bd30595389c4712dba97ae61cf8c",
+      "published_sha256": "2357e0ee6806de8e96bcb30a645fc99b19f9bb15f64975df51a19f7f373f9ea6",
+      "original_bytes": 13199,
+      "published_bytes": 13281,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "check_composition.py",
+      "original_sha256": "1d98f622baae37e1463620089d11f68270d7cc7399884220f06c148db6ebd6a8",
+      "published_sha256": "1d98f622baae37e1463620089d11f68270d7cc7399884220f06c148db6ebd6a8",
+      "original_bytes": 10641,
+      "published_bytes": 10641,
+      "changes": []
+    },
+    {
+      "published_path": "CERTIFICATE.json",
+      "original_sha256": "6731b8bbec1c86e1e1784b1ee540cd057256662dabdd81e15cb3fee3231f87e9",
+      "published_sha256": "6731b8bbec1c86e1e1784b1ee540cd057256662dabdd81e15cb3fee3231f87e9",
+      "original_bytes": 31644,
+      "published_bytes": 31644,
+      "changes": []
+    },
+    {
+      "published_path": "check_moment_independent.py",
+      "original_sha256": "4ef8654c10e98ee6e6b2411307699ecce203ee143b01631f86896ba8a612e8b7",
+      "published_sha256": "981dd1cd761dffd92d9371fca52730dd3d9b6cab6f9b98d4df995baf96c4a1ab",
+      "original_bytes": 4166,
+      "published_bytes": 3843,
+      "changes": [
+        "Portable paths, current scoped status and/or omitted operational identity fields; mathematical statements and control functions preserved."
+      ]
+    },
+    {
+      "published_path": "check_final_assembly.py",
+      "original_sha256": "29262e362b5de6975fd8d349c1c905f5d743480e7e525417598daf5fd3081fc8",
+      "published_sha256": "29262e362b5de6975fd8d349c1c905f5d743480e7e525417598daf5fd3081fc8",
+      "original_bytes": 6225,
+      "published_bytes": 6225,
+      "changes": []
+    }
+  ],
+  "inherited_primary_sources": [
+    {
+      "repository": "DominikScholz/integer-mult-bounds",
+      "commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+      "path": "certificates/endpoint-gauge-network.json",
+      "git_blob_sha": "a9e5b52e3ca64c0930539ee33de5eed55266eb03",
+      "url": "https://github.com/DominikScholz/integer-mult-bounds/blob/c297233e788a23e9833ad1ee07fc8517accd0f42/certificates/endpoint-gauge-network.json"
+    },
+    {
+      "repository": "DominikScholz/integer-mult-bounds",
+      "commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+      "path": "research/translated-partial/complex-certificate.json",
+      "git_blob_sha": "fb6726518e25d601f34edae289822f393abe94db",
+      "url": "https://github.com/DominikScholz/integer-mult-bounds/blob/c297233e788a23e9833ad1ee07fc8517accd0f42/research/translated-partial/complex-certificate.json"
+    },
+    {
+      "repository": "DominikScholz/integer-mult-bounds",
+      "commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+      "path": "notes/endpoint-semantic-composition.tex",
+      "git_blob_sha": "8f1b4207f924ec788738e8316a54a6ee3fa498c5",
+      "url": "https://github.com/DominikScholz/integer-mult-bounds/blob/c297233e788a23e9833ad1ee07fc8517accd0f42/notes/endpoint-semantic-composition.tex"
+    },
+    {
+      "repository": "DominikScholz/integer-mult-bounds",
+      "commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+      "path": "notes/semantic-bulk-17-note.tex",
+      "git_blob_sha": "abd5e0f2cea9de2a09bc0bfee844224ab3155520",
+      "url": "https://github.com/DominikScholz/integer-mult-bounds/blob/c297233e788a23e9833ad1ee07fc8517accd0f42/notes/semantic-bulk-17-note.tex"
+    },
+    {
+      "repository": "DominikScholz/integer-mult-bounds",
+      "commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+      "path": "references/rad20/reports/review-balanced-transform.md",
+      "git_blob_sha": "5a173f4e62ee4ec1ee39aa5d7eefdd63a652e411",
+      "url": "https://github.com/DominikScholz/integer-mult-bounds/blob/c297233e788a23e9833ad1ee07fc8517accd0f42/references/rad20/reports/review-balanced-transform.md"
+    },
+    {
+      "repository": "DominikScholz/integer-mult-bounds",
+      "commit": "c297233e788a23e9833ad1ee07fc8517accd0f42",
+      "path": "references/rad20/reports/downstream-semantic-bulk-assembly.md",
+      "git_blob_sha": "c9262e908a0ef014699d175f7bf427aed6469577",
+      "url": "https://github.com/DominikScholz/integer-mult-bounds/blob/c297233e788a23e9833ad1ee07fc8517accd0f42/references/rad20/reports/downstream-semantic-bulk-assembly.md"
+    }
+  ],
+  "full_Lean_verification": false,
+  "independent_review_status": "Independent geometry, finite moment and conditional assembly reviews accepted",
+  "accepted_scopes": [
+    {
+      "component": "IM-PAPER-GEOMETRIC-BLOCKS-028",
+      "accepted_utc": "2026-10-08T11:14:58.070808+00:00",
+      "evidence_tier": "independently-reviewed-paper",
+      "scope": "Uniform prescribed-basis A5 geometry: PR24 additional increasing contiguous widths28 and22, PR25 width5 extension. Universal incidence rank cuts and rational nonvanishing witnesses, common-basis compatibility, physical block translation and rank/call conservation. No numerical final exponent or global assembly claim.",
+      "full_machine_or_Lean_claim": false
+    },
+    {
+      "component": "IM-CERT-GEOMETRIC-MOMENT-001",
+      "accepted_utc": "2026-10-08T11:15:13.187100+00:00",
+      "evidence_tier": "independently-reviewed-paper",
+      "scope": "Independent exact revised A5 child histogram and rational moment certificates, including final bit saving2405333/200000000000, unchanged rank mass/max child and rigorous lower-enclosure next-grid negatives. Geometry theorem separately accepted; no final multiplication assembly claim.",
+      "full_machine_or_Lean_claim": false
+    },
+    {
+      "component": "IM-PAPER-SEMANTIC-ENDPOINT-001",
+      "accepted_utc": "2026-10-08T11:19:32.807040+00:00",
+      "evidence_tier": "independently-reviewed-paper",
+      "scope": "Conditional A5-regrouped balanced semantic/bulk composition kappa1202652036/10^14 with positive exact absorption gap, unchanged PR21 complex and accepted finite geometry/moment dependencies. Actual balanced routing, complete-word transfer, scalar guard and product stock interfaces checked; inherited machine/analytic hypotheses explicit. No current-record, Lean or unconditional theorem claim.",
+      "full_machine_or_Lean_claim": false
+    }
+  ]
+}
