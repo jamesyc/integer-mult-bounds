@@ -37,3 +37,13 @@ The comparisons below use supplied scientific snapshots. At logging, PR #37's li
 **Disposition:** Parked because [PR #57](https://github.com/CrocSwap/integer-mult-bounds/pull/57)'s scientific snapshot `cd350f76c9bc01489ec83568bded532cb69be938` claims κ = 4.669442391e-5. Reuse only after compatibility with the new compiler/graph and full costs are rechecked against the newest base.
 
 **Private checkpoint:** Compact proof archive, SHA-256 `edfa7abdab4bd3e4987771dd41318ee2d304091bc02be3ba1ff8e02b4067c32e`. No public download is provided.
+
+## 2026-10-08 — Complex transfer, streamed scatter and center obstruction
+
+**Complex cyclic transfer (parked):** Coupled h28 support DAG: R = 66,714; W = 458,574,480; total rank = 359,516,613,456. Independent exact rational evaluation, conditional on the supplied histogram, brackets the complex moment root between 7.4496963e-5 and 7.4496964e-5, missing 7.8e-5. Local signed cyclic transfer was independently checked; no independent complete coupled-DAG/dirty audit or new physical cap is admitted. Preserve cross-bank sharing before reuse. This is not a global bound.
+
+**Streamed scatter (parked):** Local all-dirty identities are valid, but fixed-frame and simple staged examples flatten to static scatter matrices and establish no economic advantage. A separate hierarchical pair-cube design has 26 inputs, 68 target-tree uses and 42 extra copies; h24 total R = 26,664. Its idealized root 5.54015344e-5 and rigorous conditional ceiling 5.54063445e-5 are optimistic headroom, not achieved bounds. Park pending cheaper aggregate production or fewer branch copies.
+
+**Center obstruction:** A reviewed rank-one general-position obstruction gives ℓ ≥ v under the specified bidirectional-zero/support-containment model. Dependent source families remain open.
+
+References: [#62](https://github.com/CrocSwap/integer-mult-bounds/pull/62), [#71](https://github.com/CrocSwap/integer-mult-bounds/pull/71), [#75](https://github.com/CrocSwap/integer-mult-bounds/pull/75). Research notes for future reuse; no novelty, human-review or full-formalization claims.
