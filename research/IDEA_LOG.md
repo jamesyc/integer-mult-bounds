@@ -27,3 +27,13 @@ The comparisons below use supplied scientific snapshots. At logging, PR #37's li
 **Disposition:** Remains parked for inclusion in a future substantial advance, after mathematical compatibility and full composed costs are checked against the newest base. The author's structural assessment is that the current anchored complements are maximal on the fixed implication graph. Restart only for joint carrier/constraint optimization or another route to a much larger gain; avoid standalone tiny-gain publication.
 
 **Packet:** A complete compact proof/review/checker restart archive is privately checkpointed in the user's Drive: 887,936 bytes; SHA-256 `37774501fcd08c46c73df1b75c280e4744469022a7e0d2271a36fdf459664d67`. The primary verified raw archive readback. This is a private checkpoint, with no public download provided.
+
+## Cyclic-interval complements (superseded)
+
+**Construction:** Based on [PR #53](https://github.com/CrocSwap/integer-mult-bounds/pull/53). Exact strip role count 2n+1 for the specified construction, not a universal optimum. W = 154387408; R23 = 31591; R25 = 41548; fixed deficit = 1846900.
+
+**Evidence:** Independently agent-reviewed conditional κ = 4583/10^8 = 4.5830e-5, with bit saving 45836/10^9. A distinct agent reconstruction passed the complete changed-layer scalar, dirty, profile and moment checks, all 47 assembly conditions and seven margins. Inherited all-size theorem, tape, data and complex dependencies remain; no formal verification or human review is claimed.
+
+**Disposition:** Parked because [PR #57](https://github.com/CrocSwap/integer-mult-bounds/pull/57)'s scientific snapshot `cd350f76c9bc01489ec83568bded532cb69be938` claims κ = 4.669442391e-5. Reuse only after compatibility with the new compiler/graph and full costs are rechecked against the newest base.
+
+**Private checkpoint:** Compact proof archive, SHA-256 `edfa7abdab4bd3e4987771dd41318ee2d304091bc02be3ba1ff8e02b4067c32e`. No public download is provided.
