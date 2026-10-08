@@ -16,12 +16,14 @@ The comparisons below use supplied scientific snapshots. At logging, PR #37's li
 
 **Packet:** Locally preserved by the primary; external archive link pending.
 
-## Indefinite output-annihilator frame candidate
+## Indefinite output-annihilator frame component
 
-**Evidence:** Preliminary author claim supported by an author paper and certificates; distinct independent large-axis review is still running. The claimed conditional bound is κ = 486803559/12500000000000 = 3.894428472e-5. Anchored h23/h25 use 64,652 indefinite addition frames with unchanged matching, role count and retained-center loss. The author reports improved local profiles through exact discrete-concavity certificates; copied schedules remain paid. No fixed-basis combination is claimed.
+**Evidence:** Independently agent-reviewed and accepted by the primary research agent as a conditional paper component. The distinct review independently reconstructed h16/h23/h25 and all three variants: exact frames, matching, carriers, histograms, copied schedules, all 47 inequalities and seven margins. No mathematical repair was required. The conditional saving remains κ = 486803559/12500000000000 = 3.894428472e-5. Anchored h23/h25 use 64,652 indefinite addition frames with unchanged matching, role count and retained-center loss. Exact discrete-concavity certificates support the improved local profiles; copied schedules remain paid.
 
-**Comparison:** [PR #39](https://github.com/CrocSwap/integer-mult-bounds/pull/39)'s scientific snapshot `50e54ece17afa4bd3cccd1927e9cdea5098038c2` claims κ = 3.886675852e-5, so this candidate's numerical upside is about 0.20%. This compares conditional exponent savings, not measured runtime.
+**Scope:** Inherited geometry, the complex producer, and machine, analytic and transfer hypotheses remain. No Lean verification or fixed-basis combination is claimed. Agent review and primary acceptance do not establish the full multiplication theorem or external expert acceptance.
 
-**Disposition:** Park the numerical increment after the existing review; do not chase publication. The author's structural assessment is that the current anchored complements are maximal on the fixed implication graph. Restart only for joint carrier/constraint optimization or another route to a much larger gain. The candidate is not independently verified at this stage.
+**Comparison:** [PR #39](https://github.com/CrocSwap/integer-mult-bounds/pull/39)'s scientific snapshot `50e54ece17afa4bd3cccd1927e9cdea5098038c2` claims κ = 3.886675852e-5, so this component's numerical upside is about 0.20%. This compares conditional exponent savings, not measured runtime.
 
-**Packet:** Locally preserved by the primary; external archive link pending.
+**Disposition:** Remains parked for inclusion in a future substantial advance, after mathematical compatibility and full composed costs are checked against the newest base. The author's structural assessment is that the current anchored complements are maximal on the fixed implication graph. Restart only for joint carrier/constraint optimization or another route to a much larger gain; avoid standalone tiny-gain publication.
+
+**Packet:** A complete compact proof/review/checker restart archive is privately checkpointed in the user's Drive: 887,936 bytes; SHA-256 `37774501fcd08c46c73df1b75c280e4744469022a7e0d2271a36fdf459664d67`. The primary verified raw archive readback. This is a private checkpoint, with no public download provided.
