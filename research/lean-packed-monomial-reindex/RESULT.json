@@ -1,0 +1,55 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "f01a114baadceaed707eb91020f5be61ae3ca45d",
+  "source_sha256": "d10b0131e6c0f4ace66c638bda6fd79047472f3bf4eed86a88ff55b110fc25f3",
+  "object_sha256": "dcd418ce55808597695f199febf11bfb625f6f291894a8ded4498e870c8221d2",
+  "receipt_sha256": "ed01d1e9df1a67b7c9e1e9ba9e32c976ab54e846798eedf20963706190621746",
+  "log_sha256": "cff4432ea8a03d3730cf3185f07541fde7a14be29f531fbd0bafa088d73e406c",
+  "acceptance_sha256": "0c563e0f6a49f7352042f7777377e34953254c79591a28e3a90c3281ef5464ab",
+  "independent_terminal_review_sha256": "814cc7c381f926c5b8b826bf0811639a6d2a11105b4c42ded8b83f6003aa33f7",
+  "current_import_closure": 15,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.PackedMonomialReindex.source_xor",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedMonomialReindex.offset_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedMonomialReindex.phase_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedMonomialReindex.monomial_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 5.275346249996801,
+  "fifo_seconds": 0.0006700559897581115,
+  "peak_vm_bytes": 2682413056,
+  "claim": "Literal packed D then P then X then full stored phase equals the accepted decoded monomial for arbitrary payloads, with both inverse equations, three nine-entry length premises and the bounded offset explicit.",
+  "remaining": [
+    "Exact selected raw record and circuit decoding",
+    "Selected canonical child and event executor binding",
+    "Complete expanded physical-work execution"
+  ],
+  "publication": "No publication authorized or performed."
+}
