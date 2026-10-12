@@ -1,0 +1,54 @@
+{
+  "status": "ASSIGNED_SOURCE_ONLY_PREPARATION_NOT_EMITTED_OR_CHECKED",
+  "selected_head": "c3a9a436b84fe44fdc223a5784d84736d1c2d3c7",
+  "selected_kappa": "1517760977820331/1000000000000000000",
+  "package": "research/e8-bit-carrier-skeleton",
+  "first_proposal": {
+    "suggested_data_module": "F19BitBoundaryData",
+    "suggested_check_module": "F19BitBoundaryCheck",
+    "source_fields": [
+      "h",
+      "v",
+      "R",
+      "format",
+      "form",
+      "lines",
+      "frames",
+      "start",
+      "final",
+      "ret"
+    ],
+    "binding": "Strict typed literal projection from exact gzip/decoded hashes; preserve every entry/order for these fields, retain all original16fields in the immutable source. No producer execution. Decoder audit and inverse literal comparison precede any compiler gate.",
+    "finite_goals": [
+      "Exact h8,v120,R489,n729;120 integer8-coordinate rows;672 frame lists;729 start/final entries;9 retained entries.",
+      "All frame root indices<120 and all start/final frame IDs<672 with explicit Fin/bounded lookup, no valid-default-row argument.",
+      "frame0=[]; frame1=List.range120; first8 literal coordinate rows are2I. These are source equalities, not a field-independent rank/invertibility claim.",
+      "All source starts select their own singleton frame;609 non-source starting labels are0; all609 source/helper final labels are1.",
+      "retained IDs exactly720..728 and each is an actual helper; every projected accessor tied to its original field and index."
+    ],
+    "closure": "Not inventoried or admitted: no new Lean source/imports/runtime claim exists yet. Prefer a core-only exact finite boundary, then measure data/check separately.",
+    "scope": "Closes a narrow selected source/data boundary only. It does not prove the physical word, scalar semantics or all frames nondegenerate."
+  },
+  "later_obligations": [
+    "Emit exact A/B/C/D/scatter rows from the same immutable word with source order/multiplicity. Check all register/frame domains and destination distinct from sources. Maximum observed multi-source gate arity265 must be represented faithfully.",
+    "Prove no target feeds source/helper; D target<-helper at frame0; A destinations source/helper; B destinations targets; C exactly reverse of source/helper gate subsequence with frame reset1. Observed source equality is not yet a kernel theorem.",
+    "Tie multi-source XOR gate semantics and involution to cleanup; source writes577 into117 sources are essential. The unmodified older never-write-source checker is inapplicable.",
+    "Prove actual frame climbs/common-frame legality and source/helper arrival at full frame before cleanup, not merely the eventual final labels. Prove full-frame geometry/invertibility in the intended field and all used frame/rank/Gram conditions.",
+    "Prove exact dirty-helper/source restoration and target shear for arbitrary729 input columns, including9 retained-copy/scatter lifetimes and target cap endpoints.",
+    "Connect raw local gates to exported MOVE/ADD/COPY/ERASE records and the actual11-stage/8-replica hosted program, its physical ownership, global frame charts, residual wrappers and invoice.",
+    "Arithmetic selected bit rate remains supplied to analytic certificates until its finite profile, enclosures and transfer assumptions are discharged."
+  ],
+  "existing_reuse": {
+    "frame_owner": "No selected120/489 Lean source/checker in frame's owned preparation; its current phase work is complex112/504. Historical bit72/1760 evidence is not this data.",
+    "machine_pointer": "TEAM/signed_word/SignedWord.lean inverse_involutive:98 and reverse_run_eq_undo:187 are generic signed-step source pointers only. Exact Boolean multi-source compatibility/current acceptance is unestablished; no replacement generic proof authored.",
+    "published_PR425": "Mutable-basis interface cited by eumemic's package; source-only plan must bind its hypotheses to this exact word and preserve original attribution."
+  },
+  "attribution": "eumemic, with substantial Anthropic Claude assistance; PR425 Zhihao Chen; PR370 Dylan Crow; PR472/445 chafreaky and PR442/381 DaysSky as retained in LICENSE/NOTICE. This inventory prepared with OpenAI assistance.",
+  "not_actions": [
+    "No new Lean source emitted",
+    "No generator/supplier execution",
+    "No compiler",
+    "No package import/promotion",
+    "No publication"
+  ]
+}

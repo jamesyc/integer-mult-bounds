@@ -1,0 +1,115 @@
+{
+  "status": "SOURCE_ONLY_FINITE_DOMAIN_CHECK_PENDING",
+  "context": {
+    "selected_upstream_head": "c3a9a436b84fe44fdc223a5784d84736d1c2d3c7",
+    "worktree_base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+    "selected_conditional_kappa": "1517760977820331/1000000000000000000"
+  },
+  "source_identity_inventory": {
+    "path": "research/selected-bit-carrier-preparation/SOURCE_INVENTORY.json",
+    "sha256": "5c419253f64676419a207729a18362007905f2f67da8cdd107fe0a5df61f7b42",
+    "bytes": 29032
+  },
+  "immutable_gzip": {
+    "path": "research/e8-bit-carrier-skeleton/data/bit/bitE8mut-r489.json.gz",
+    "sha256": "835eb96e147740fc7454f8cfb3dbd34ae89524b1dbd89a61e9288eae8ab6a5b9",
+    "bytes": 49154
+  },
+  "decoded_sha256": "88435b75b8d6e5c722eb2aa1449f3a5e8e9601a9ffe243839ce1ec932ab76547",
+  "decoded_bytes": 247056,
+  "source_manifest": {
+    "path": "research/community-pr531-audit/SOURCE.json",
+    "sha256": "6aa7dcaae7967651404f951f7fbbb227cbda1c29a5a9640261f5e90a55dab928",
+    "bytes": 42058
+  },
+  "package_manifest": {
+    "path": "research/e8-bit-carrier-skeleton/MANIFEST.sha256",
+    "sha256": "7f25c41d0400ef5adf763eae6e166003a9b59e5a655b860c04b052f6731c7297",
+    "bytes": 8963
+  },
+  "literal_audit": {
+    "path": "research/selected-bit-carrier-preparation/BOUNDARY_LITERAL_AUDIT.json",
+    "sha256": "47b9bd72c341b3e12ffc361093360a0d4690c55c4ef04ae590b75c6fb5eabeb0",
+    "bytes": 1366
+  },
+  "emitter": {
+    "path": "research/selected-bit-carrier-preparation/emit_boundary.py",
+    "sha256": "be4b1da4ea50c23d445ec5825517610da77902b1743de2ae02f3ed8849fbfe91",
+    "bytes": 4106
+  },
+  "data": {
+    "path": "research/selected-bit-carrier-preparation/SelectedBitCarrierBoundaryData.lean",
+    "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+    "bytes": 68966
+  },
+  "check": {
+    "path": "research/selected-bit-carrier-preparation/SelectedBitCarrierBoundaryCheck.lean",
+    "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+    "bytes": 2859
+  },
+  "projected_fields": [
+    "h",
+    "v",
+    "R",
+    "format",
+    "form",
+    "lines",
+    "frames",
+    "start",
+    "final",
+    "ret"
+  ],
+  "omitted_fields": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "coords",
+    "scatter"
+  ],
+  "independent_literal_readback": {
+    "status": "PASS_OWN_INVERSION_AWAITING_INDEPENDENT_REVIEW",
+    "completed_utc": "2026-10-12T11:21:22.532804+00:00",
+    "method": "Strict decimal/list/string literal inversion of all ten Lean field definitions; complete order/value equality with the immutable JSON fields. Derived registers definition is exactly2*v+R."
+  },
+  "public_probes": [
+    "CurrentMain.SelectedBitCarrierBoundary.selected_shape",
+    "CurrentMain.SelectedBitCarrierBoundary.line_shape",
+    "CurrentMain.SelectedBitCarrierBoundary.frame_domain",
+    "CurrentMain.SelectedBitCarrierBoundary.boundary_domain",
+    "CurrentMain.SelectedBitCarrierBoundary.zero_full_rows",
+    "CurrentMain.SelectedBitCarrierBoundary.coordinate_prefix",
+    "CurrentMain.SelectedBitCarrierBoundary.source_entrances",
+    "CurrentMain.SelectedBitCarrierBoundary.nonsource_entrances",
+    "CurrentMain.SelectedBitCarrierBoundary.source_helper_final_full",
+    "CurrentMain.SelectedBitCarrierBoundary.retained_helper_ids"
+  ],
+  "finite_goals": [
+    "120 sources,489 helpers,729 registers; exact format/form/h/v/R.",
+    "120 rows of8 integers;672 frame lists; every root index<120.",
+    "729 start/final IDs, all<672.",
+    "Optional-index frame0=[] and frame1=range120.",
+    "First8 integer rows exactly2I.",
+    "Each source start frame is its singleton root; all609 nonsource starts0.",
+    "120 source plus489 helper final IDs equal1.",
+    "Retained list exactly720..728, all actual helper IDs."
+  ],
+  "next_semantic_condition": {
+    "name": "No target feedback and zero-frame dirt compensation",
+    "needs_fields": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "scatter"
+    ],
+    "statement": "For every source/helper-destination gate, every source is also a source/helper; D writes targets from helpers at frame0, A writes source/helpers, B writes targets. Preserve577 source writes and exact chronology. This is a future source-bound finite gate-shape condition, not proved by the boundary module."
+  },
+  "exclusions": [
+    "No gate rows are emitted or checked.",
+    "No rank/Gram/geometry nondegeneracy or inverse over arbitrary characteristic.",
+    "No actual label chronology/common-frame legality/cleanup semantics.",
+    "No scalar restoration, target shear, physical operator/hosting, cost or all-size multiplier theorem."
+  ],
+  "attribution": "Supplier eumemic with Anthropic Claude assistance, Apache-2.0; original NOTICE/LICENSE retained. Decoder and finite-boundary preparation with OpenAI assistance."
+}

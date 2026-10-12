@@ -1,0 +1,63 @@
+{
+  "status": "ROOT_AUTHORIZED_PREPARATION_BOUNDED_ADMISSION_AWAITS_INTEGRATION",
+  "local_scope": {
+    "roots": 2,
+    "current": 0,
+    "pending": 2
+  },
+  "ordered_roots": [
+    "SelectedBitCarrierBoundaryData",
+    "SelectedBitCarrierBoundaryCheck"
+  ],
+  "sources": [
+    {
+      "path": "research/selected-bit-carrier-preparation/SelectedBitCarrierBoundaryData.lean",
+      "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+      "bytes": 68966,
+      "module": "SelectedBitCarrierBoundaryData",
+      "explicit_imports": [
+        "Init"
+      ],
+      "public_probes": []
+    },
+    {
+      "path": "research/selected-bit-carrier-preparation/SelectedBitCarrierBoundaryCheck.lean",
+      "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+      "bytes": 2859,
+      "module": "SelectedBitCarrierBoundaryCheck",
+      "explicit_imports": [
+        "SelectedBitCarrierBoundaryData"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedBitCarrierBoundary.selected_shape",
+        "CurrentMain.SelectedBitCarrierBoundary.line_shape",
+        "CurrentMain.SelectedBitCarrierBoundary.frame_domain",
+        "CurrentMain.SelectedBitCarrierBoundary.boundary_domain",
+        "CurrentMain.SelectedBitCarrierBoundary.zero_full_rows",
+        "CurrentMain.SelectedBitCarrierBoundary.coordinate_prefix",
+        "CurrentMain.SelectedBitCarrierBoundary.source_entrances",
+        "CurrentMain.SelectedBitCarrierBoundary.nonsource_entrances",
+        "CurrentMain.SelectedBitCarrierBoundary.source_helper_final_full",
+        "CurrentMain.SelectedBitCarrierBoundary.retained_helper_ids"
+      ]
+    }
+  ],
+  "source_binding": {
+    "path": "research/selected-bit-carrier-preparation/SOURCE_BINDING.json",
+    "sha256": "1108ebafa33f752e62a7fb3173052a6a93cee54605124baa467a6de33d547c82",
+    "bytes": 4810
+  },
+  "external_boundary": "Core Init only; exact current runtime/import inventory and first-match resolution still require integration guard. No numerical kernel job has run.",
+  "compiler_owner": "Integration assigns the sole bounded owner; this proposal does not activate a source or client.",
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "scope": "Selected raw decoder/domain boundary only. Historical P193 and bit72 proof families are not imported.",
+  "projection_source_bytes": 68966
+}

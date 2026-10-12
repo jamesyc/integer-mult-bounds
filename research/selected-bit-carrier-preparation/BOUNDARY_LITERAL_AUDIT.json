@@ -1,0 +1,60 @@
+{
+  "status": "EXACT_LITERAL_PROJECTION_ONLY",
+  "created_utc": "2026-10-12T11:20:06.686400+00:00",
+  "input_path": "research/e8-bit-carrier-skeleton/data/bit/bitE8mut-r489.json.gz",
+  "compressed_sha256": "835eb96e147740fc7454f8cfb3dbd34ae89524b1dbd89a61e9288eae8ab6a5b9",
+  "decoded_sha256": "88435b75b8d6e5c722eb2aa1449f3a5e8e9601a9ffe243839ce1ec932ab76547",
+  "compressed_bytes": 49154,
+  "decoded_bytes": 247056,
+  "emitter_sha256": "be4b1da4ea50c23d445ec5825517610da77902b1743de2ae02f3ed8849fbfe91",
+  "expected_raw_fields": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "R",
+    "coords",
+    "final",
+    "form",
+    "format",
+    "frames",
+    "h",
+    "lines",
+    "ret",
+    "scatter",
+    "start",
+    "v"
+  ],
+  "projected_fields": [
+    "h",
+    "v",
+    "R",
+    "format",
+    "form",
+    "lines",
+    "frames",
+    "start",
+    "final",
+    "ret"
+  ],
+  "omitted_fields": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "coords",
+    "scatter"
+  ],
+  "source_sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+  "source_bytes": 68966,
+  "source_order_and_integer_literals_preserved": true,
+  "upstream_execution": false,
+  "compiler": false,
+  "elapsed_seconds": 0.012358358995697927,
+  "maxrss_bytes": 13934592,
+  "limits": {
+    "input_uncompressed_bytes": 1048576,
+    "cpu_seconds": 15,
+    "address_space_bytes": 268435456
+  }
+}
