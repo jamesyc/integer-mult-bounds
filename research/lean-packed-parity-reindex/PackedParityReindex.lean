@@ -36,6 +36,7 @@ theorem parity_sum (n x : Nat) :
     · apply Finset.sum_congr rfl
       intro i _
       rw [Nat.testBit_div_two]
+      rfl
 
 /-- AND with a nine-bit address bounds the parity input even when the stored
 row has unused high bits. PR593's already checked par9_spec is reused. -/
