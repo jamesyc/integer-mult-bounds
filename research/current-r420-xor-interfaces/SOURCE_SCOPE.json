@@ -1,0 +1,50 @@
+{
+  "status": "SOURCE_ONLY_B_BAND_TERMINAL_PENDING",
+  "utc": "2026-10-12T17:31:04.608721+00:00",
+  "source_files": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/CurrentR420PhaseBXor.lean",
+      "sha256": "5ab8ca016e7e53de76b13ef553fe85412d7c9100b30851fa4a81c31ad77d1c11",
+      "bytes": 5712
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/BitXorTwoLevelCleanup.lean",
+      "sha256": "8ccef0a189360038b140c1a9e0ab1688d2e32baab89b828439be963b798daaf2",
+      "bytes": 4265
+    }
+  ],
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/SOURCE_TRANSFORMS.json",
+    "sha256": "b8679c3b89bd375d9988fa29d24a08ef2430b1bb28e07bd3f82afaf94fc140e2",
+    "bytes": 4559
+  },
+  "current_domain_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/SOURCE_BINDING.json",
+    "sha256": "e955e71e2eef798a5aa0de4d3269bd9276ce448073bb65aa9d3d250c61a87c5c",
+    "bytes": 18698
+  },
+  "successor_plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_comparison/THIN_AND_TWO_LEVEL_SUCCESSOR_PLAN.json",
+    "sha256": "72fc8cf06391d2f0a6e8b7412956d2816fff1e3fc666e69e660e2ec6f037d5c3",
+    "bytes": 4823
+  },
+  "probes": 11,
+  "authority": "Root2026-10-12T16:17:42 source preparation; first minimal check only after domain/B terminal and independent semantic/API/binding reviews.",
+  "scope": "Exact current B target-independence/helper preservation plus conditional generic two-level cleanup. No source preservation across597 B source writes.",
+  "remaining": [
+    "Actual current A/C typed bindings and no-self/read/write hypotheses",
+    "M0 scatter/first target band and M1 final target band instance",
+    "D parity equality",
+    "Physical transport and full selected theorem"
+  ],
+  "import_amendment": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/IMPORT_SIMPLIFICATION.json",
+    "sha256": "d10e73fc13ac54823575b40a5db1d415dcd4bcc6e4ea591a2c78e025c961b0ce",
+    "bytes": 2824
+  },
+  "band_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_band_facts/ACCEPTANCE.json",
+    "sha256": "24d4df8588e6b60ecae91afe5f94539abb495a66170a215219e74c6267fdcdea",
+    "bytes": 366013
+  }
+}

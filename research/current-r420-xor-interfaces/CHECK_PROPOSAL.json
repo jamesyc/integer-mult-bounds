@@ -1,0 +1,56 @@
+{
+  "status": "THIN_SELECTED_ONLY_FIRST_GATE_SOURCE_READY",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/CurrentR420PhaseBXor.lean",
+    "sha256": "5ab8ca016e7e53de76b13ef553fe85412d7c9100b30851fa4a81c31ad77d1c11",
+    "bytes": 5712
+  },
+  "explicit_imports": [
+    "CurrentR420BBandCheck",
+    "BitXorTargetTranslation"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.decode_roundtrip",
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.ordered_word_binding",
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.decoded_gate_properties",
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.helpers_preserved",
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.target_translation",
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.target_identity",
+    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.contribution_independent_of_targets"
+  ],
+  "scope": [
+    326,
+    325,
+    1
+  ],
+  "local": [
+    9,
+    8,
+    1
+  ],
+  "official_core": 317,
+  "protected_prior_outputs": 37,
+  "source_dfs": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/THIN_DFS_SOURCE_INVENTORY.json",
+    "sha256": "aef7ec08ffedc9134e25e57893b29fc03758387f1c080c7d79258b082538b529",
+    "bytes": 285577
+  },
+  "authority": "Root 2026-10-12T17:20:39 authorizes first minimal bounded thin XOR after band terminal and exact import/DFS/API/binding review.",
+  "conclusion": "Exact660-register B target-translation and helper preservation, with arbitrary target-erased contribution. Source values may change across597 middle writes.",
+  "excluded": [
+    "Generic two-level source not in this compiler scope",
+    "Six scatter/temp facts",
+    "Actual A/C and middle-map instances",
+    "D parity equality",
+    "Physical transport/full selected theorem"
+  ],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  }
+}

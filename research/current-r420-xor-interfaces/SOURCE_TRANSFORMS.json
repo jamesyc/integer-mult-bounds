@@ -1,0 +1,75 @@
+{
+  "reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480PhaseBXor.lean",
+    "sha256": "94582eb91bfc9cebbf2fa892f3b8bb633c9b92c729d1f6a78079a77f7fa3239a",
+    "bytes": 5006
+  },
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/CurrentR420PhaseBXor.lean",
+    "sha256": "14e6b1cf0d903bdd97dc87fe5fafc36a5a8b068575e5624851b5e523ee8a6c2f",
+    "bytes": 5715
+  },
+  "ordered_replacements": [
+    {
+      "before": "/-! The exact selected R480 B tuples are decoded into actual Fin720 references using\naccepted domain proofs. No default-valued register read is introduced. Frame IDs\nand all operand occurrences are retained by the roundtrip theorem. The scalar\ninterpreter intentionally ignores frame metadata; physical transport, phase-B\nentrance-state realization and the retained-major temporary720 COPY lifecycle\nare separate. The raw scatter table is not executed by this B-only theorem. -/\n",
+      "after": "/-! Current R420 B semantics over all660 original registers. Exact tuple order,\nframe metadata and every operand occurrence are preserved by the decoder.\nThe middle597 gates write sources, so only helper preservation is concluded.\nNo-target operands carry arbitrary initial target perturbations unchanged.\nThe target-erased state is a comparison state, not a clean-input assumption.\nPhysical common-frame transport, A/C/D and the661-register COPY lifecycle\nare separate. Prepared with OpenAI assistance; original attribution retained. -/\n",
+      "count": 1
+    },
+    {
+      "before": "SelectedR480Boundary",
+      "after": "CurrentR420Boundary",
+      "count": 3
+    },
+    {
+      "before": "SelectedR480PhaseBXor",
+      "after": "CurrentR420PhaseBXor",
+      "count": 9
+    },
+    {
+      "before": "Fin 720",
+      "after": "Fin 660",
+      "count": 1
+    },
+    {
+      "before": "r < 720",
+      "after": "r < 660",
+      "count": 1
+    },
+    {
+      "before": "g.2.1 < 720",
+      "after": "g.2.1 < 660",
+      "count": 1
+    },
+    {
+      "before": "import CurrentR420Boundary\n",
+      "after": "import CurrentR420BoundaryCheck\n",
+      "count": 1
+    },
+    {
+      "before": "theorem decoded_gate_properties",
+      "after": "private theorem raw_write_region (g : RawGate) (hg : g \u2208 Data.phaseB) :\n    g.2.1 < 240 := by\n  unfold Data.phaseB at hg\n  rcases List.mem_append.mp hg with hleft | hlast\n  \u00b7 rcases List.mem_append.mp hleft with hfirst | hmiddle\n    \u00b7 have h := Bool.and_eq_true_iff.mp ((List.all_eq_true.mp first_target_band) g hfirst)\n      exact (of_decide_eq_true h.1).2.1\n    \u00b7 have h := of_decide_eq_true ((List.all_eq_true.mp middle_source_band) g hmiddle)\n      exact Nat.lt_trans h.1 (by decide)\n  \u00b7 have h := Bool.and_eq_true_iff.mp ((List.all_eq_true.mp last_target_band) g hlast)\n    exact (of_decide_eq_true h.1).2.1\n\ntheorem decoded_gate_properties",
+      "count": 1
+    },
+    {
+      "before": "    IsTarget g.dst \u2227 \u2200 r \u2208 g.sources, \u00ac IsTarget r := by",
+      "after": "    g.dst.val < 240 \u2227 \u2200 r \u2208 g.sources, \u00ac IsTarget r := by",
+      "count": 1
+    },
+    {
+      "before": "  \u00b7 change 120 \u2264 raw.val.2.1 \u2227 raw.val.2.1 < 240\n    exact of_decide_eq_true ((List.all_eq_true.mp target_destinations) raw.val raw.property)",
+      "after": "  \u00b7 change raw.val.2.1 < 240\n    exact raw_write_region raw.val raw.property",
+      "count": 1
+    },
+    {
+      "before": "/-- Every source/helper bit is unchanged for arbitrary720 input bits. -/\ntheorem sources_helpers_preserved (s : State) (r : Register) (hr : \u00ac IsTarget r) :\n    executeB s r = s r :=\n  BitXor.run_off_target IsTarget decodedPhaseB\n    (fun g hg => (decoded_gate_properties g hg).1) s r hr",
+      "after": "/-- Helpers240..659 are unchanged for arbitrary660 original input bits.\nThe597 source writes prohibit an analogous source-preservation conclusion. -/\ntheorem helpers_preserved (s : State) (r : Register) (hr : 240 \u2264 r.val) :\n    executeB s r = s r :=\n  BitXor.run_off_target (fun q : Register => q.val < 240) decodedPhaseB\n    (fun g hg => (decoded_gate_properties g hg).1) s r (Nat.not_lt_of_ge hr)",
+      "count": 1
+    },
+    {
+      "before": "#print axioms CurrentMain.CurrentR420PhaseBXor.sources_helpers_preserved",
+      "after": "#print axioms CurrentMain.CurrentR420PhaseBXor.helpers_preserved",
+      "count": 1
+    }
+  ],
+  "inverse_exact": true
+}
