@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_SYMBOLIC_INTERFACE_NORMALIZATION_SOURCE_PROPOSAL",
+  "change": "One private universal four-part source interface normalization theorem; both monomial source-action proofs use the same complete bundle. No extra finite cases, premises, public statements, operator definitions or imports.",
+  "measured_residual": "Both last goals compare coe(imagUnit)^n and payloadEquiv.symm v x against Complex.I^n and v(join x). No other operator diagnostic.",
+  "scope": {
+    "total": 14,
+    "current": 13,
+    "new": 1
+  },
+  "external_pairs": 2620,
+  "public_probes": 6,
+  "source_authority": "Root requires a complete symbolic normalization lemma after this failed repair, before any further retry. This packet is source preparation only; no compiler admission inferred.",
+  "candidate_sha256": "04f34a7e78027e76c128b1bd3bc9d0b9dabad4625208620e9e9bc57b4f85a2c7",
+  "proposal_sha256": "7c770289abbcd05b93ec1dfe010f4c27f8d37644b92f66f6b24382a9c76f9e53",
+  "failed_source_sha256": "5f93e61d7ea22673b361414bf1706235daf0f6bcee9785a7bd30774619cd3fb1"
+}

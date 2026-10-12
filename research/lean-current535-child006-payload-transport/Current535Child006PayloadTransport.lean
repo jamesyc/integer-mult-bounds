@@ -40,6 +40,19 @@ theorem gaussian_transport : carry CliffordChild009Canonical.gaussian =
   rw [offset_rows]
   rfl
 
+/-- One symbolic boundary for all source-address, lifted-pair, payload and
+complex-unit coercions used by both monomial source actions. -/
+private theorem source_interface_normalization :
+    (∀ x : SplitAddress, addressEquiv.symm x = join x) ∧
+    (∀ (A : Low ≃ Low) (x : SplitAddress),
+      CliffordChild009Decoder.liftAddress A x = (A x.1, x.2)) ∧
+    (∀ (v : Address → ℂ) (x : SplitAddress), payloadEquiv.symm v x = v (join x)) ∧
+    (∀ n : Nat, (↑(CliffordChild009Canonical.imagUnit ^ n) : ℂ) = Complex.I ^ n) := by
+  refine ⟨(fun _ => rfl), (fun _ _ => rfl), (fun _ _ => rfl), ?_⟩
+  intro n
+  rw [Units.val_pow_eq_pow_val]
+  rfl
+
 /-- Exact forward source monomial action, with its phase at the input address. -/
 theorem left_source_action (v : Address → ℂ) (x : Address) :
     leftPacked v (matrix CliffordChild009Decoder.leftRows *ᵥ x) =
@@ -47,16 +60,16 @@ theorem left_source_action (v : Address → ℂ) (x : Address) :
         CliffordChild009Decoder.leftAlpha x) % 4) * v x := by
   obtain ⟨z, rfl⟩ := addressEquiv.symm.surjective x
   rcases z with ⟨z, h⟩
-  simp only [show addressEquiv.symm (z, h) = join (z, h) from rfl]
+  rcases source_interface_normalization with ⟨haddr, hlift, hpayload, hphase⟩
+  rw [haddr]
   rw [left_rows]
   change CliffordChild009Decoder.leftDecoded CliffordChild009Canonical.imagUnit
     (payloadEquiv.symm v) (split (join
       (CliffordChild009Decoder.liftAddress CliffordChild009Decoder.leftEquiv (z, h)))) = _
   rw [split_join]
-  change CliffordChild009Decoder.leftDecoded CliffordChild009Canonical.imagUnit
-    (payloadEquiv.symm v) (CliffordChild009Decoder.leftEquiv z, h) = _
+  simp only [hlift]
   rw [CliffordChild009Decoder.left_decoded_apply, left_phase]
-  simpa only [Units.val_pow_eq_pow_val]
+  rw [hphase, hpayload]
 
 /-- Right offset1 and global phase1 remain literal, including for dirty payloads. -/
 theorem right_source_action (v : Address → ℂ) (x : Address) :
@@ -65,18 +78,17 @@ theorem right_source_action (v : Address → ℂ) (x : Address) :
         CliffordChild009Decoder.rightAlpha x) % 4) * v x := by
   obtain ⟨z, rfl⟩ := addressEquiv.symm.surjective x
   rcases z with ⟨z, h⟩
-  simp only [show addressEquiv.symm (z, h) = join (z, h) from rfl]
+  rcases source_interface_normalization with ⟨haddr, hlift, hpayload, hphase⟩
+  rw [haddr]
   rw [right_rows, offset_rows]
   change CliffordChild009Decoder.rightDecoded CliffordChild009Canonical.imagUnit
     (payloadEquiv.symm v) (split (join
       (CliffordChild009Decoder.liftAddress CliffordChild009Decoder.offsetEquiv
         (CliffordChild009Decoder.liftAddress CliffordChild009Decoder.rightEquiv (z, h))))) = _
   rw [split_join]
-  change CliffordChild009Decoder.rightDecoded CliffordChild009Canonical.imagUnit
-    (payloadEquiv.symm v)
-    (CliffordChild009Decoder.offsetEquiv (CliffordChild009Decoder.rightEquiv z), h) = _
+  simp only [hlift]
   rw [CliffordChild009Decoder.right_decoded_apply, right_phase]
-  simpa only [Units.val_pow_eq_pow_val]
+  rw [hphase, hpayload]
 
 theorem canonicalK_source_action (v : Address → ℂ) (x : Address) :
     canonicalKPacked v x =
