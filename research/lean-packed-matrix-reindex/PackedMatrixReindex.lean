@@ -55,6 +55,21 @@ theorem packed_matrix (rows : List Nat) (hl : rows.length = 9) (x : Packed) :
   rfl
 
 noncomputable section
+private theorem permutation_normal_form (rows inverseRows : List Nat)
+    (hf : matrix rows * matrix inverseRows = 1)
+    (hb : matrix inverseRows * matrix rows = 1) (v : Packed → ℂ) (x : Packed) :
+    (payloadEquiv (HyperplaneEnd.Clifford.gC 512 (.pm rows inverseRows) v)
+        (addressEquiv x) =
+      CliffordMonomialDecoder.push (K := ℂ)
+        (coordinateEquiv rows inverseRows hf hb).toEquiv (payloadEquiv v)
+        (addressEquiv x)) ↔
+    v (HyperplaneEnd.Clifford.fx 512 (mv inverseRows x.val)) =
+      v (pack (matrix inverseRows *ᵥ unpack x)) := by
+  rw [show addressEquiv x = unpack x from rfl]
+  simp only [payload_apply, pack_unpack, CliffordMonomialDecoder.push_apply,
+    LinearEquiv.coe_symm_toEquiv, coordinateEquiv_symm_apply,
+    HyperplaneEnd.Clifford.gC]
+
 /-- Source P reads the inverse rows. Its payload action is the accepted push
 along the certified coordinate equivalence, rather than the forward read. -/
 theorem permutation_reindex (rows inverseRows : List Nat)
@@ -66,10 +81,7 @@ theorem permutation_reindex (rows inverseRows : List Nat)
         (coordinateEquiv rows inverseRows hf hb).toEquiv (payloadEquiv v) := by
   funext a
   obtain ⟨x, rfl⟩ := addressEquiv.surjective a
-  simp only [payload_apply, pack_unpack, CliffordMonomialDecoder.push_apply]
-  simp only [LinearEquiv.coe_symm_toEquiv, coordinateEquiv_symm_apply]
-  change v (HyperplaneEnd.Clifford.fx 512 (mv inverseRows x.val)) =
-    v (pack (matrix inverseRows *ᵥ unpack x))
+  apply (permutation_normal_form rows inverseRows hf hb v x).2
   rw [← packed_matrix inverseRows hi x, pack_unpack]
 end
 end CurrentMain.PackedMatrixReindex
