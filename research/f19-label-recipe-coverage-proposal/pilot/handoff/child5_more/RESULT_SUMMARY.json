@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED_549_ROWS_PER_DIRECTION_INDEPENDENTLY_REVIEWED",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5_more/ACCEPTANCE.json",
+    "sha256": "43b4d78f902cf673a4218cf76b1c61482c9d1717b53909eb229a439ac4d2d846",
+    "bytes": 72011
+  },
+  "terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_CHILD5_MORE_TERMINAL_REVIEW.json",
+    "sha256": "172448053376d7d575d80713911f5056742560e9feab0ed81d03cb5a4859ba06",
+    "bytes": 3668
+  },
+  "new_rows_per_direction": 48,
+  "new_raw_indices": [
+    11352,
+    11399
+  ],
+  "cumulative_branch_counts_per_direction": {
+    "ADD": 455,
+    "relabel": 94
+  },
+  "scope": "Exact projected label/catalog coverage and full736-label checkpoint only; omitted earlier prefix/adapters and operators remain open.",
+  "measured_jobs": []
+}
