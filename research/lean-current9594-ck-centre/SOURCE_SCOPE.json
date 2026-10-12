@@ -1,0 +1,82 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW",
+  "utc": "2026-10-12T16:51:02.511686+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current9594-ck-centre/Current9594CKCentre.lean",
+    "sha256": "76514d06b0265d395db9b60c24c01bab9f43fe695e81f64fc650352bb94afd5c",
+    "bytes": 32943
+  },
+  "current_selected_source": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "materialization_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/ck_generation_review/CK_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "494a086aeb335cfa54f6f2a2d07a807fba2ff8e8d9c211f8d7b374d8e5fe7919",
+    "bytes": 8262
+  },
+  "inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    }
+  ],
+  "read_only_comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_scalar_comparison/SCALAR_CENTRE_REUSE_COMPARISON.json",
+    "sha256": "13f0bb002b2276930d79d825efdadaff89f58d9650ecd11e25af5e3f7e5e8e77",
+    "bytes": 37741
+  },
+  "historical_dependency_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_CENTRE_BAND_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "f3fdee8876d4579a5d226119db80d0213bda4181015163febe8f9a730d76d72f",
+    "bytes": 8220
+  },
+  "source_ranges_zero_based": {
+    "forward": [
+      12927,
+      13182
+    ],
+    "backward": [
+      12927,
+      13182
+    ]
+  },
+  "frame_domain": 1079,
+  "register_domain": 736,
+  "annotation_change": "0 fixed; historical412..419 become429..436, with fresh current child ordinals.",
+  "probes": [
+    "CurrentMain.Current9594CKCentre.raw_run_congr_events",
+    "CurrentMain.Current9594CKCentre.forward_scalar_events",
+    "CurrentMain.Current9594CKCentre.backward_scalar_events",
+    "CurrentMain.Current9594CKCentre.forward_run_eq",
+    "CurrentMain.Current9594CKCentre.backward_run_eq",
+    "CurrentMain.Current9594CKCentre.forward_independent",
+    "CurrentMain.Current9594CKCentre.forward_interpreted",
+    "CurrentMain.Current9594CKCentre.backward_independent",
+    "CurrentMain.Current9594CKCentre.backward_interpreted",
+    "CurrentMain.Current9594CKCentre.exact_source_indices"
+  ],
+  "finite_decisions": "Two denominator checks and two index lists. The two ordered scalar-event equalities use reflexivity. No bandCertificate replay.",
+  "prospective_scope": [
+    10,
+    9,
+    1
+  ],
+  "cached_pairs": 2232,
+  "authority": "Root16:43 minimal fresh Fin1079 centre proposal and first bounded gate after independent comparison/API/binding reviews, unchanged caps.",
+  "exclusions": [
+    "No old Fin997 label theorem is transferred.",
+    "Scalar frame erasure is not an operator/frame equality.",
+    "Dirty incoming centre values arbitrary; equal728 L inputs explicit.",
+    "Full prefix/suffix, omitted adapters, physical executor/endpoints and all-size conclusions remain separate."
+  ],
+  "compiler_runs": 0
+}
