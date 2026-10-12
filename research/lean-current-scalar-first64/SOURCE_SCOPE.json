@@ -1,0 +1,88 @@
+{
+  "status": "SOURCE_ONLY_CURRENT_MAIN535_SLICE_PENDING_INDEPENDENT_REVIEW",
+  "utc": "2026-10-12T13:55:18.861094+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-first64/CurrentScalarFirst64.lean",
+    "sha256": "13b1f65a3f38044e5ab4d2d2132ea031e911310a6cdf7b4e6e8ab893a72dedef",
+    "bytes": 10974
+  },
+  "current_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "current_conditional_kappa": "1584931111785787/1000000000000000000 = 0.001584931111785787",
+  "current_manifest": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+    "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+    "bytes": 67710
+  },
+  "current_program": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+    "bytes": 184042
+  },
+  "historical_program": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_four_inputs/extracted/research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+    "bytes": 187483
+  },
+  "historical_identity_scope": "Only ordered raw rows1..64 in each direction; full stream differs and historical centre theorem is not instantiated here.",
+  "comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_main_scalar_supplier/RAW_FIRST64_CURRENT_COMPARISON.json",
+    "sha256": "9e12b59e9d10304cbf018297a0a0e06f25b4913aed6eceeced3dfd9802faa52c",
+    "bytes": 34355
+  },
+  "literal_projection": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_main_scalar_supplier/FIRST64_LITERAL_PROJECTION.json",
+    "sha256": "fc77272ab9c8f527f6a6d0a4d3bc2835d891908f26969be228bce407048006f5",
+    "bytes": 41658
+  },
+  "rows_per_direction": 64,
+  "source_indices": [
+    1,
+    64
+  ],
+  "counts_per_direction": {
+    "scale": 22,
+    "add": 42
+  },
+  "register_embedding": "Reuses Fin736 and Fin983 only as typed containers for actual L112..219/frame0. No complete current-domain correspondence is asserted.",
+  "signed_denominators": "Forward{1,2}; backward{-1,1,2}; exact raw integer pairs retained, including backward(2,-1).",
+  "claims": [
+    "A reusable Boolean L-only/nonzero-denominator test implies accepted LOnlyRows.",
+    "A short ordered mapM totality lemma reuses accepted decodeEvent/decodeCoefficient; no new run semantics.",
+    "Both exact current64-row typed lists satisfy LOnlyRows and decodeRows succeeds.",
+    "Both source-index lists are exactly1..64 in order."
+  ],
+  "excluded": [
+    "Raw0 phase precondition and all rows after64.",
+    "No label admissibility, child lookup, complete prefix/suffix supplier or current centre identity.",
+    "No interpretation of omitted adapters/residuals or physical whole-work endpoint.",
+    "No full multiplier/kappa or historical-to-current whole-stream transfer."
+  ],
+  "minimal_scope": [
+    9,
+    8,
+    1
+  ],
+  "external_pairs": 2232,
+  "new_external_imports": 0,
+  "expected_public_probes": [
+    "CurrentMain.CurrentScalarFirst64.rowsLOnlyB_sound",
+    "CurrentMain.CurrentScalarFirst64.lonly_rows_decode",
+    "CurrentMain.CurrentScalarFirst64.forward_lonly",
+    "CurrentMain.CurrentScalarFirst64.backward_lonly",
+    "CurrentMain.CurrentScalarFirst64.exact_source_indices",
+    "CurrentMain.CurrentScalarFirst64.forward_decodes",
+    "CurrentMain.CurrentScalarFirst64.backward_decodes"
+  ],
+  "closed_kernel_decisions": 3,
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "attribution": [
+    "Reuses accepted PR509 LemmaG and exact signed row syntax; DreamingOfClouds/Claude-assisted upstream attribution preserved.",
+    "Current post-center-rank4 selected source and historical direct-delivery source are separately pinned.",
+    "Prepared with OpenAI assistance. Apache-2.0."
+  ]
+}
