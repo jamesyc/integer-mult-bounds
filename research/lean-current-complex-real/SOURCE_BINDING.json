@@ -1,11 +1,11 @@
 {
-  "status": "SOURCE_PROPOSAL_CURRENT_REAL_BRIDGE_UNCHECKED",
+  "status": "FIRST_PROOF_LOCAL_RANK8_LOG_POWER_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T14:15:54.005448+00:00",
   "source": {
     "module": "CurrentComplexRealEnclosure",
     "file": "CurrentComplexRealEnclosure.lean",
-    "sha256": "de667a5977ef85137fd6f4658cdf7ca9283353e31ce327815658c6c3f1e43fc2",
-    "bytes": 10956,
+    "sha256": "455a29fb1a31afe0101480005d9d7a06ab5dd2d4c3fa7ccfaad33a9ef4c28245",
+    "bytes": 10994,
     "explicit_imports": [
       "CurrentComplexUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -170,5 +170,13 @@
     "bytes": 9111
   },
   "new_numeric_checkpoints": 0,
-  "new_analytic_tail_estimates": 0
+  "new_analytic_tail_estimates": 0,
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_complex_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "8a1ffb063e85520f3b2845b587eb64881e2bb4c8057bf212cf27b24770b8f4d3",
+      "bytes": 7324
+    },
+    "scope": "One proof-only ending: specialize existing Real.log_pow at2 and3, normalize its closed power, then rewrite the exact measured residual. Definitions/statements/imports/options/current data unchanged."
+  }
 }

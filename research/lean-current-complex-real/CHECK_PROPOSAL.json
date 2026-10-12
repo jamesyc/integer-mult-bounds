@@ -1,11 +1,11 @@
 {
-  "status": "CONDITIONALLY_ADMITTED_SOURCE_REVIEW_AND_EXACT_GUARD_PENDING",
+  "status": "FIRST_PROOF_LOCAL_RANK8_LOG_POWER_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T14:15:54.005448+00:00",
   "source": {
     "module": "CurrentComplexRealEnclosure",
     "file": "CurrentComplexRealEnclosure.lean",
-    "sha256": "de667a5977ef85137fd6f4658cdf7ca9283353e31ce327815658c6c3f1e43fc2",
-    "bytes": 10956,
+    "sha256": "455a29fb1a31afe0101480005d9d7a06ab5dd2d4c3fa7ccfaad33a9ef4c28245",
+    "bytes": 10994,
     "explicit_imports": [
       "CurrentComplexUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -17,7 +17,7 @@
       "CurrentMain.CurrentComplexRealEnclosure.currentRealMoment_strict"
     ]
   },
-  "source_binding_sha256": "3ccca7bb0e05db2d4e90ebcbf76550690c1f63c321e83dc2fe9537adb3ce8ecc",
+  "source_binding_sha256": "31602eb4d69783682a88d2643ff0f6b5d143789546613171663746186b90ffb0",
   "scope": [
     7,
     6,
@@ -704,5 +704,13 @@
   },
   "resource_qualification": "Exact existing3260 cached inputs; no dependency rebuild. Prior Real checks are historical measurements, not a new-root fit guarantee. All ten accepted current quadruples remain exact.",
   "source_pin_guard": "Preserve exact six-file detached7dfa source/Git-blob guard and per-root historical runtime receipt paths.",
-  "authority": "Root authorized exact7/6/1 source preparation and one bounded first check via integration2026-10-12T14:09:30Z, contingent on independent science/API/runtime/driver review and fresh guard; analytic is sole next execution owner."
+  "authority": "Root authorized exact7/6/1 source preparation and one bounded first check via integration2026-10-12T14:09:30Z, contingent on independent science/API/runtime/driver review and fresh guard; analytic is sole next execution owner.",
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_complex_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "8a1ffb063e85520f3b2845b587eb64881e2bb4c8057bf212cf27b24770b8f4d3",
+      "bytes": 7324
+    },
+    "scope": "One proof-only ending: specialize existing Real.log_pow at2 and3, normalize its closed power, then rewrite the exact measured residual. Definitions/statements/imports/options/current data unchanged."
+  }
 }

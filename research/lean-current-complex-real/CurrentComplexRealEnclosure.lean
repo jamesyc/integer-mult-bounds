@@ -32,7 +32,9 @@ theorem log_rank8_upper :
       Real.log ((73 : ℝ)/64) + 3*Real.log 2 := by
     rw [show (73 : ℝ)/8 = ((73 : ℝ)/64)*(2:ℝ)^3 by norm_num]
     rw [Real.log_mul (by norm_num) (by norm_num)]
-    norm_num only [Real.log_pow]
+    have hp := Real.log_pow (2 : ℝ) 3
+    norm_num at hp
+    rw [hp]
   have hc : ((unitUpper 9 137 + (3:Rat)*unitUpper 1 3 : Rat):ℝ) ≤
       (roundedLog 3 9 137 : ℝ) := by
     change ((unitUpper 9 137 + (3:Rat)*unitUpper 1 3 : Rat):ℝ) ≤
