@@ -4,6 +4,7 @@ import F19CoverageCheckDecomposition
 
 set_option maxRecDepth 8192
 set_option maxHeartbeats 2000000
+set_option Elab.async false
 set_option profiler true
 set_option profiler.threshold 100
 namespace CurrentMain.F19SelectedCoverage.ChunkBDirect

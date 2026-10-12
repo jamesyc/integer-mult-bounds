@@ -1,0 +1,653 @@
+{
+  "status": "ROOT_RELEASED_REMAINING_TWO_AFTER_OPTION_SOURCE_RUNTIME_REVIEW",
+  "local_scope": {
+    "modules": 13,
+    "current": 11,
+    "pending": 2
+  },
+  "ordered_pending_roots": [
+    "F19CoverageChunkBDirect",
+    "F19CoverageChunkBSplit"
+  ],
+  "pending_sources": [
+    {
+      "module": "F19CoverageChunkBDirect",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageChunkBDirect.lean",
+        "sha256": "8935ce0be11acee4f4162b3028a4e96a5e574d0e4b16647952c63b990484781a",
+        "bytes": 2460
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageChunkBDirect.lean",
+      "imports": [
+        "F19CoverageChunkA",
+        "F19CoverageCheckDecomposition"
+      ],
+      "source_object_receipt_log_absent": true
+    },
+    {
+      "module": "F19CoverageChunkBSplit",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageChunkBSplit.lean",
+        "sha256": "0b6550032206a8206845f648cb7f864ccfc55eddd6f4681a0ac942bfcbdf9912",
+        "bytes": 3388
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageChunkBSplit.lean",
+      "imports": [
+        "F19CoverageChunkA",
+        "F19CoverageCheckDecomposition"
+      ],
+      "source_object_receipt_log_absent": true
+    }
+  ],
+  "preserved_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      },
+      "historical_execution_seconds": 6.246807060999345,
+      "historical_queue_seconds": 0.0005243800005700905,
+      "historical_peak_vm_bytes": 3301388288
+    },
+    {
+      "module": "F19CoverageStatement",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+        "sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+        "bytes": 363832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+        "sha256": "f8dde87d974d62ba82aa7ebf63ba6fcfd2a21d03e0d5715f391774458ae139de",
+        "bytes": 3493
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+        "sha256": "ad9b5a3aea4bcad7a4bc034a1d631323fdb8bbfa89153f8936ca4a3c7e421ea1",
+        "bytes": 254
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+        "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+        "bytes": 82366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+        "sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+        "bytes": 7177224
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.json",
+        "sha256": "e44a6ae95ba4d27b08d0c0a8180a76c455e4683f727bcada009448fcf06761d2",
+        "bytes": 3513
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+        "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+        "bytes": 1316
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.olean",
+        "sha256": "42a79ef3a064316b3dc9f16136315ff54e111987c07f37d6fd9609c0b1ac315a",
+        "bytes": 42576
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+        "sha256": "5a1673a7962c881e5a840900abf3291d91430c6a6348de2a055d266e75eae4df",
+        "bytes": 3517
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+        "sha256": "77e4fbe3c285cf8da16b49122eca9f4c240557947218563465093e3e9be7e197",
+        "bytes": 294
+      },
+      "receipt_dependencies": {
+        "F19CoveragePilotData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+          "olean_sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+          "source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageNextData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextData.lean",
+        "sha256": "5dc5f53b220310fd4094c64d0c57911bae2740dbd9e0b6d6b950c246ccede54f",
+        "bytes": 7815
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextData.olean",
+        "sha256": "6e8b6d9203a2ffb16d2e37b91f3cc09e1a3e93d19da2e8c613db1d9a8dc8afcd",
+        "bytes": 477664
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_handoff__F19CoverageNextData.lean.json",
+        "sha256": "06ac828c053a1066ce398cce8465a34ace79bdb9e81bd08323f9ec97c3fc52b0",
+        "bytes": 3518
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_handoff__F19CoverageNextData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "F19CoveragePilotData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+          "olean_sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+          "source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotBoundary",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoveragePilotBoundary.lean",
+        "sha256": "8acddbafd1fcd2ac0c0d7689c86d67c820e0bb52774da6dc850069d182b1c3e1",
+        "bytes": 3177
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoveragePilotBoundary.olean",
+        "sha256": "7f5cdad524ed4cb302cdab5dbd2d3e622cd8d0f7a5bbeea4028d907ea8ac456b",
+        "bytes": 113848
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_handoff__F19CoveragePilotBoundary.lean.json",
+        "sha256": "755538f7c3a3cff80eee95cbd04f5439b949da17f44b07d1d71ed21c1ff31ddb",
+        "bytes": 3933
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_handoff__F19CoveragePilotBoundary.lean.log",
+        "sha256": "974b3b9ed0bc7a1302e9122487d6baae520ab1fd3f8e9c7bb1f0cd50bc843fa4",
+        "bytes": 591
+      },
+      "receipt_dependencies": {
+        "F19CoveragePilotCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.olean",
+          "olean_sha256": "42a79ef3a064316b3dc9f16136315ff54e111987c07f37d6fd9609c0b1ac315a",
+          "source_sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4"
+        },
+        "F19CoverageNextData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextData.olean",
+          "olean_sha256": "6e8b6d9203a2ffb16d2e37b91f3cc09e1a3e93d19da2e8c613db1d9a8dc8afcd",
+          "source_sha256": "5dc5f53b220310fd4094c64d0c57911bae2740dbd9e0b6d6b950c246ccede54f"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageNextCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextCheck.lean",
+        "sha256": "682184651c36f00b946d0a0a0d28cc1b877ff26680647fc864d7870b7e02b44b",
+        "bytes": 2416
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextCheck.olean",
+        "sha256": "3c70a9ccfc3ca00f553ccfd2a9f24f4cac2c316f1f0d799e7c1c2c47e170160a",
+        "bytes": 50464
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_handoff__F19CoverageNextCheck.lean.json",
+        "sha256": "e08ddae116dfdd6f4334d3a0816ba802bf924a6409a563a13156ba56dcc006c5",
+        "bytes": 3537
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_handoff__F19CoverageNextCheck.lean.log",
+        "sha256": "2336192e31446f19d715455e6da291f394318054aa43fb7ea85f2a80db2f60ea",
+        "bytes": 698
+      },
+      "receipt_dependencies": {
+        "F19CoveragePilotBoundary": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoveragePilotBoundary.olean",
+          "olean_sha256": "7f5cdad524ed4cb302cdab5dbd2d3e622cd8d0f7a5bbeea4028d907ea8ac456b",
+          "source_sha256": "8acddbafd1fcd2ac0c0d7689c86d67c820e0bb52774da6dc850069d182b1c3e1"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageCheckDecomposition",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageCheckDecomposition.lean",
+        "sha256": "b96261fb4ffd6efb88d66b5809e508c4e08439d5ead7fdab4eac1e64f6edf2b0",
+        "bytes": 1176
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageCheckDecomposition.olean",
+        "sha256": "6284c2650669ea55e351601c219bea7af24466da712830227c85466801a8fa81",
+        "bytes": 92296
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_scaling__F19CoverageCheckDecomposition.lean.json",
+        "sha256": "03dc07a4a5be3ff515ff07aed3d19a27f6f87e4d7d0ac76fb42e8680a0f67707",
+        "bytes": 3556
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_scaling__F19CoverageCheckDecomposition.lean.log",
+        "sha256": "f0445e48b7d95bd78e39c58768a3f0369ac13271260e019938c8017acb37615f",
+        "bytes": 502
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageBatchData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageBatchData.lean",
+        "sha256": "9cd0f389f52c4657c2859386fb1e9713d1d6456f720a4ec8dac9a2140df4fce3",
+        "bytes": 14657
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageBatchData.olean",
+        "sha256": "8d434f557180948c41e5f2f3440465eeb2d119109faa640f8e2e4c080c69db32",
+        "bytes": 773640
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_scaling__F19CoverageBatchData.lean.json",
+        "sha256": "d512430606ab4318314c81864ad17c8bb41d4eab151fc078878b763ccf0f94b8",
+        "bytes": 3523
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_scaling__F19CoverageBatchData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "F19CoverageNextCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextCheck.olean",
+          "olean_sha256": "3c70a9ccfc3ca00f553ccfd2a9f24f4cac2c316f1f0d799e7c1c2c47e170160a",
+          "source_sha256": "682184651c36f00b946d0a0a0d28cc1b877ff26680647fc864d7870b7e02b44b"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageBoundary192",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageBoundary192.lean",
+        "sha256": "40fcc578f3b4f0a2611c47c4081130ff5f1a71eb72f2edadfea9643d2e62a647",
+        "bytes": 3922
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageBoundary192.olean",
+        "sha256": "10d7ad04e2291914223b92b66cad146a05b4fa93da14af93a8d09949341444d1",
+        "bytes": 118872
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_scaling__F19CoverageBoundary192.lean.json",
+        "sha256": "55b934cbe97e12be29870984c1c7901176ede7767607882b08cc1cf3362d9c0e",
+        "bytes": 3531
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_scaling__F19CoverageBoundary192.lean.log",
+        "sha256": "75ef434eecb8d03ea99930514e1ec201647aa9005f1eff014894226faf793c58",
+        "bytes": 1470
+      },
+      "receipt_dependencies": {
+        "F19CoverageBatchData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageBatchData.olean",
+          "olean_sha256": "8d434f557180948c41e5f2f3440465eeb2d119109faa640f8e2e4c080c69db32",
+          "source_sha256": "9cd0f389f52c4657c2859386fb1e9713d1d6456f720a4ec8dac9a2140df4fce3"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageChunkA",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageChunkA.lean",
+        "sha256": "5f52cdcfba421074c85b3969b54ed405c05e7650d9babf247eb7f56a274cf59f",
+        "bytes": 4582
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageChunkA.olean",
+        "sha256": "9c726749587925ea5e624a86517d40dea28e4c6d815423d498a529af05cd9d4f",
+        "bytes": 63256
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_scaling__F19CoverageChunkA.lean.json",
+        "sha256": "74232a65dad3040b3802fe2e5f0911599456ac80d50aff0bf1527958b40d0a94",
+        "bytes": 3519
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_scaling__F19CoverageChunkA.lean.log",
+        "sha256": "0a085a3ab95d9107554caef5d3ba19723242b8fdc4899720fc7176c66f9f9b66",
+        "bytes": 1996
+      },
+      "receipt_dependencies": {
+        "F19CoverageBoundary192": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_scaling/F19CoverageBoundary192.olean",
+          "olean_sha256": "10d7ad04e2291914223b92b66cad146a05b4fa93da14af93a8d09949341444d1",
+          "source_sha256": "40fcc578f3b4f0a2611c47c4081130ff5f1a71eb72f2edadfea9643d2e62a647"
+        }
+      }
+    }
+  ],
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_scaling_serial_B/SOURCE_CURRENT_INVENTORY.json",
+    "sha256": "dfa4bb2912042f2fae772532c9664bd2fca128fd513c25f0ad1b31b16dcf781f",
+    "bytes": 23534
+  },
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/new_main_binding/pr509_reuse/SOURCE_IMPORT_FOOTPRINT_V2.json",
+    "sha256": "8ab51a655fff02741615eb04281d62a1e18236f773d8bc2c5b599bfddc929b1c",
+    "bytes": 2386951
+  },
+  "runtime_pins": {
+    "binary": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/bin/lean",
+      "sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "bytes": 8992
+    },
+    "runner": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/tools/lean_check.py",
+      "sha256": "b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207",
+      "bytes": 9277
+    },
+    "environment_file": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/LIBRARY_PATHS.env",
+      "sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b",
+      "bytes": 1104
+    },
+    "runtime_manifest": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/RUNTIME_MANIFEST.json",
+      "sha256": "ab464201c227220435a5f886c70b547d5456da32d5d526b4be077667957724cf",
+      "bytes": 4012
+    }
+  },
+  "external_library_paths": [
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/Qq/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/aesop/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/plausible/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "source_provenance": {
+    "scaling_plan": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/SCALING_PLAN.md",
+      "sha256": "2d1725e0348f03e879a089fc8a025dcdb3b38f848eef7f7e5048901d233c7f14",
+      "bytes": 6186
+    },
+    "source_pins": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/SOURCE_PINS.json",
+      "sha256": "a421dbba26b1e586c6517bf011fa8ab481929ae687c124a508416b6b149c861f",
+      "bytes": 3525
+    },
+    "decoder": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/decode_next.py",
+      "sha256": "d7df3c8a0d07bb618cda52ca1b3a2d9743a983da812e816898d044b1b981d647",
+      "bytes": 4238
+    },
+    "decoder_audit": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/LITERAL_AUDIT.json",
+      "sha256": "d6364fa0499e97fbb28ec97064067cdbfa52e0938a1f9afc4fd82eea93f58944",
+      "bytes": 59220
+    },
+    "pilot_branch_exercise": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/BRANCH_EXERCISE.json",
+      "sha256": "b4715727bab4be5bb5611c8a244c39b199a79101c5f4c3ba2d5e16557687f41f",
+      "bytes": 1738
+    },
+    "pilot_terminal_review": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_LABEL_COVERAGE_PILOT_TERMINAL_REVIEW.json",
+      "sha256": "d7a47364ed8fda79670ad4ddac7fe7056f73e2ef430642d36ff14f49a4431ad8",
+      "bytes": 13463
+    },
+    "boundary_acceptance": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_handoff/ACCEPTANCE.json",
+      "sha256": "bb8c50d329637d4acf30576683ba65f8ceb0625dae1cd8aca461e396e985a772",
+      "bytes": 16880
+    },
+    "boundary_source": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/F19CoveragePilotBoundary.lean",
+      "sha256": "8acddbafd1fcd2ac0c0d7689c86d67c820e0bb52774da6dc850069d182b1c3e1",
+      "bytes": 3177
+    },
+    "next_data_source": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/F19CoverageNextData.lean",
+      "sha256": "5dc5f53b220310fd4094c64d0c57911bae2740dbd9e0b6d6b950c246ccede54f",
+      "bytes": 7815
+    },
+    "boundary_scientific_review": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-sparse-boundary/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "2f305cef9a4726078d1fbb32a9c293ca1ff4471773cec0be5c24d69c76fb180b",
+      "bytes": 7678
+    },
+    "accepted192": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_next_check/ACCEPTANCE.json",
+      "sha256": "d258b485364298565fa543e3e81350ebb6fafedcf66bc7e7310e21f5ac0f1dcd",
+      "bytes": 23928
+    },
+    "terminal192": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_NEXT64_TERMINAL_REVIEW.json",
+      "sha256": "a5f077178f3f0f16600e20249efbd88b8d050a49cd301e87b7bc0b62c184e9cf",
+      "bytes": 5745
+    },
+    "frozen_scaling_proposal": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/PROPOSAL.md",
+      "sha256": "4f780ced55a6cbdeec68d12f3127c47db2763ec555e6c34901e9174ba574bf5e",
+      "bytes": 6567
+    },
+    "source_hotspot_and_slice_inventory": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/SOURCE_HOTSPOT_AND_SLICE_INVENTORY.json",
+      "sha256": "70b522b4d864981dada613bf060bc10fc80e6aa206bc906bafafa8b8b09be485",
+      "bytes": 8434
+    },
+    "batch_decoder": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/decode_batch.py",
+      "sha256": "d1cd0046a2ce1aaa57deb25fc1b16213dac8552b5298443a14e1b729c69591a6",
+      "bytes": 3279
+    },
+    "batch_literal_audit": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/BATCH_LITERAL_AUDIT.json",
+      "sha256": "8f6b13e13e13e126ec6372b35f48c3fd07e56a22b5d2e28c0ce72bc20a302be6",
+      "bytes": 115370
+    },
+    "stop_acceptance": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_scaling/STOP_ACCEPTANCE.json",
+      "sha256": "f4d71b03a691e14ccb223fbc7a45cc62d2734b83a49cec57c59a5aa6fdf00bfd",
+      "bytes": 32960
+    },
+    "stop_terminal_review": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_SCALING_REVIEW_STOP_TERMINAL_REVIEW.json",
+      "sha256": "ba7c8996f8b04ea0f5656206b2d5daff35b51fda87c05c91e09c1efce61f8b83",
+      "bytes": 5432
+    },
+    "integration_stop_readback": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_scaling/INTEGRATION_REVIEW_STOP_READBACK.json",
+      "sha256": "3c653e4c329303d3f156588f7871637015c2377f9dcd56a63f514f0eb448db1c",
+      "bytes": 7960
+    },
+    "option_amendment": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/serial_B/OPTION_AMENDMENT.json",
+      "sha256": "ede8a6280089314691f4294f259093af9d81850af233e7ea9568a609bc24e73d",
+      "bytes": 2288
+    },
+    "direct_source_preimage": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/serial_B/preimages/F19CoverageChunkBDirect.lean.source.txt",
+      "sha256": "9894850baf40c1c7ed1837fdc9530f45c4beab33fb0307cce2fdb96ee69ba87a",
+      "bytes": 2432
+    },
+    "split_source_preimage": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/serial_B/preimages/F19CoverageChunkBSplit.lean.source.txt",
+      "sha256": "ed6299383974d3d1520f28c7f90bc605db9d7440f25d5662ef8fd7275486e9c9",
+      "bytes": 3360
+    },
+    "prior_scientific_review": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-scaling-experiment/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "abba618eb53032af99acd3af06ac2c96adf2e907373f9b3cc508cda4c89a4a22",
+      "bytes": 5385
+    }
+  },
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_VM_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_VM_bytes": 3758096384,
+    "serial_client": true,
+    "shared_slots_used": 1,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "source_model": "Unchanged selected B goals and proved checker factorization, identical direct imports; only explicit synchronous elaboration option added. Compare Direct/Split only if both pass below review.",
+  "data_scope": {
+    "new_rows_each": 128,
+    "new_raw_indices_inclusive": [
+      11043,
+      11170
+    ],
+    "chunkA_each": {
+      "add": 63,
+      "relabel": 1,
+      "child_ordinals": [
+        0
+      ]
+    },
+    "chunkB_each": {
+      "add": 56,
+      "relabel": 8,
+      "child_ordinals": [
+        1,
+        2
+      ],
+      "child_counts": {
+        "1": 4,
+        "2": 4
+      }
+    },
+    "composed_rows_each": 320,
+    "composed_branch_counts_each": {
+      "add": 268,
+      "relabel": 52
+    },
+    "checkpoint_representation": "Layered sparse overrides: existing41 + two indices126/218 + one index216. Both complete function equalities are proof goals. No accepted prefix is re-reduced.",
+    "changed_accepted_data": false
+  },
+  "excluded_scope": [
+    "Earlier prefix or omitted boundary adapters",
+    "Centre branch exercise",
+    "Clifford/scalar/whole-owner endpoints",
+    "Full-stream throughput or representation optimization adoption"
+  ],
+  "expected_probes": {
+    "F19CoverageChunkBDirect": [
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.exact_source_indices",
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.forward_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.forward_wellLabelled",
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.forward_composed_wellLabelled",
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.backward_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.backward_wellLabelled",
+      "CurrentMain.F19SelectedCoverage.ChunkBDirect.backward_composed_wellLabelled"
+    ],
+    "F19CoverageChunkBSplit": [
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.exact_source_indices",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.forward_labels_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.forward_children_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.forward_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.forward_wellLabelled",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.forward_composed_wellLabelled",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.backward_labels_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.backward_children_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.backward_checked",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.backward_wellLabelled",
+      "CurrentMain.F19SelectedCoverage.ChunkBSplit.backward_composed_wellLabelled"
+    ]
+  },
+  "resource_caution": "Only two still-unattempted jobs, no extra repetition. Each source adds Elab.async false identically. Scheduling/virtual-stack explanation remains a hypothesis; no memory saving guaranteed. Stop on first failure or review. Four prior passes retained.",
+  "same_input_comparison": {
+    "direct_root": "F19CoverageChunkBDirect",
+    "split_root": "F19CoverageChunkBSplit",
+    "identical_direct_imports": [
+      "F19CoverageChunkA",
+      "F19CoverageCheckDecomposition"
+    ],
+    "identical_prerequisite_order": [
+      "PR509Stream",
+      "F19CoverageStatement",
+      "F19CoveragePilotData",
+      "F19CoveragePilotCheck",
+      "F19CoverageNextData",
+      "F19CoveragePilotBoundary",
+      "F19CoverageNextCheck",
+      "F19CoverageBatchData",
+      "F19CoverageBoundary192",
+      "F19CoverageChunkA",
+      "F19CoverageCheckDecomposition"
+    ],
+    "profiler": "Installed profiler true, threshold100ms; no extra output file. If insufficient attribution, report inconclusive."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "ONE_IDENTICAL_SCHEDULING_OPTION_ADDED_TO_TWO_UNATTEMPTED_SOURCES",
+  "utc": "2026-10-12T11:20:32.574908+00:00",
+  "change": "Add exactly set_option Elab.async false after maxHeartbeats, once per file.",
+  "sources": [
+    {
+      "module": "F19CoverageChunkBDirect",
+      "preimage": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/serial_B/preimages/F19CoverageChunkBDirect.lean.source.txt",
+        "sha256": "9894850baf40c1c7ed1837fdc9530f45c4beab33fb0307cce2fdb96ee69ba87a",
+        "bytes": 2432
+      },
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageChunkBDirect.lean",
+        "sha256": "8935ce0be11acee4f4162b3028a4e96a5e574d0e4b16647952c63b990484781a",
+        "bytes": 2460
+      },
+      "inverse_exact": true
+    },
+    {
+      "module": "F19CoverageChunkBSplit",
+      "preimage": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/serial_B/preimages/F19CoverageChunkBSplit.lean.source.txt",
+        "sha256": "ed6299383974d3d1520f28c7f90bc605db9d7440f25d5662ef8fd7275486e9c9",
+        "bytes": 3360
+      },
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageChunkBSplit.lean",
+        "sha256": "0b6550032206a8206845f648cb7f864ccfc55eddd6f4681a0ac942bfcbdf9912",
+        "bytes": 3388
+      },
+      "inverse_exact": true
+    }
+  ],
+  "unchanged": [
+    "Every import, theorem statement, proof body, selected row, profiling option and resource cap",
+    "Four accepted sources/objects/receipts/logs"
+  ],
+  "scope": "Two remaining named jobs only; no accepted-root retry. Hypothesis about declaration scheduling/virtual memory, no asserted memory saving.",
+  "prior_source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-scaling-experiment/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "abba618eb53032af99acd3af06ac2c96adf2e907373f9b3cc508cda4c89a4a22"
+  }
+}
