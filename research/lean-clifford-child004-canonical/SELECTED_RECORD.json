@@ -1,0 +1,157 @@
+{
+  "status": "UNTRUSTED_LITERAL_WITNESSES_REQUIRING_KERNEL_CERTIFICATES",
+  "created_utc": "2026-10-12T12:48:08.923510+00:00",
+  "source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "catalog_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+  "canonical_word_sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+  "retained_family_sha256": "307c5523e27f675d0c97c72c90d60ce3a54f6d2a7c105c6542a8a0c5e53a77c5",
+  "record_sha256_compact_sorted": "1f58cf55f831b03117d5a400f4df8a3b84c05ae947428af085607a2fd90bdc5d",
+  "ordinal": 2,
+  "record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        3,
+        4,
+        9,
+        17,
+        32,
+        65,
+        128,
+        257,
+        1
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 4,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "matrix_rows": [
+        173,
+        257,
+        2,
+        260,
+        264,
+        16,
+        288,
+        64,
+        384
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        429,
+        0,
+        429,
+        429,
+        0,
+        429,
+        0,
+        429,
+        173
+      ]
+    }
+  },
+  "singleton_mask": 429,
+  "left_inverse_rows": [
+    256,
+    257,
+    2,
+    260,
+    264,
+    16,
+    288,
+    64,
+    384
+  ],
+  "right_inverse_rows": [
+    345,
+    4,
+    339,
+    331,
+    32,
+    283,
+    128,
+    91,
+    347
+  ],
+  "canonical_basis": [
+    429,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "canonical_rows": [
+    3,
+    4,
+    9,
+    17,
+    32,
+    65,
+    128,
+    257,
+    1
+  ],
+  "canonical_inverse_rows": [
+    256,
+    257,
+    2,
+    260,
+    264,
+    16,
+    288,
+    64,
+    384
+  ],
+  "canonical_Q": [
+    256,
+    0,
+    256,
+    256,
+    0,
+    256,
+    0,
+    256,
+    429
+  ],
+  "method": "Own bounded9-coordinate witness arithmetic only. No upstream script imported/executed, no scalar/physical replay and no compiler. Every computed inverse/basis/Q remains an explicit Lean goal."
+}

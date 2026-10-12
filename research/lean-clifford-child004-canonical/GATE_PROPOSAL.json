@@ -1,0 +1,87 @@
+{
+  "status": "SOURCE_ONLY_SELECTED_ORDINAL2_SIX_BIT_PROPOSAL",
+  "root": {
+    "module": "CliffordChild004Canonical",
+    "source": "CliffordChild004Canonical.lean",
+    "sha256": "cd5d3b64a17e896094db048b7788809120b7cf5f1a63427255d11067922a66ec"
+  },
+  "direct_imports": [
+    "CliffordNineBitDecoder"
+  ],
+  "local_scope": {
+    "total": 10,
+    "current": 9,
+    "pending": 1
+  },
+  "retained_current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child004_canonical_pilot/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "5969bfcbe62eb9125bf94cb79e4167930e8d91432856c20d84c4e83bfdedd45b",
+    "bytes": 19740
+  },
+  "external_scope": {
+    "source_object_pairs": 2620,
+    "new_pairs": 0,
+    "footprint_sha256": "eb44d49b0b6e2d5a9f334b3d5e42abfb6f5d2615e5d1f386c6d6be4a8c37fa12"
+  },
+  "raw_record": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-clifford-child004-canonical/SELECTED_RECORD.json",
+    "sha256": "5c53f9d63f55c24ab5bb88385102784af829fb9eb18de552842cfc54532f169d",
+    "bytes": 2427
+  },
+  "phase_coordinates": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "parametric_address_coordinates": [
+    1,
+    4,
+    6
+  ],
+  "scalar_phase_cases": 64,
+  "kernel_goals": [
+    "Exact selected ordinal2/key0->4 raw fields and bounds.",
+    "Both actual left/right inverses; canonical inverse reuse only because raw lists are identical.",
+    "Original source greedy basis with fuel10, transpose and Gram correction.",
+    "Actual first column and inherited binary linearity.",
+    "Rinv*Linv=I+outer(mask429,mask429) and Rinv*mask1=mask429.",
+    "Parametric full-address source0/source1 and exact source qvalue reductions.",
+    "64 scalar ZMod2 phase cases including swapped Gaussian branch.",
+    "All-payload operator identity via the accepted sandwich theorem, including pointwise external spectators."
+  ],
+  "preserved_siblings": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child004_canonical_pilot/PRESERVED_SIBLINGS.json",
+    "sha256": "f1e44daaff4c80051ac1ce49b8b80cdfffb805dbc772e951853b67f06f908add",
+    "bytes": 3619
+  },
+  "proposed_check": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "expected_probes": [
+      "CurrentMain.CliffordChild004Canonical.record_key",
+      "CurrentMain.CliffordChild004Canonical.raw_fields_bounded",
+      "CurrentMain.CliffordChild004Canonical.left_inverses",
+      "CurrentMain.CliffordChild004Canonical.right_inverses",
+      "CurrentMain.CliffordChild004Canonical.canonical_inverses",
+      "CurrentMain.CliffordChild004Canonical.canonical_source_certificate",
+      "CurrentMain.CliffordChild004Canonical.canonical_first_column",
+      "CurrentMain.CliffordChild004Canonical.branch_phase_certificate",
+      "CurrentMain.CliffordChild004Canonical.canonical_transport",
+      "CurrentMain.CliffordChild004Canonical.selected_child_operator",
+      "CurrentMain.CliffordChild004Canonical.selected_child_with_spectators"
+    ]
+  },
+  "remaining_suppliers": [
+    "Other catalog records.",
+    "Raw packed-address/event execution and complete phase-tagged physical recipes.",
+    "Residual/endpoint wrappers, expanded coefficient/tableau work, full dirty rows/columns, global ownership/stage/chart and costs."
+  ],
+  "authority": "Root authorized source-only next proposal while ordinal1 proceeds. Independent exact source/model/API/resource review and a separate first-check release are required.",
+  "limits": "No supplier execution, no finite scalar/physical replay, no bulk119-family, no native_decide or cap increase, no publication admission."
+}
