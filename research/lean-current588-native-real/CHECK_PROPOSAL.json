@@ -1,11 +1,11 @@
 {
-  "status": "SOURCE_REVIEW_READY_COMPILER_ADMISSION_PENDING",
+  "status": "FIRST_PROOF_LOCAL_CAST_ONE_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T16:50:01.749957+00:00",
   "source": {
     "module": "Current588NativeRealEnclosure",
     "file": "Current588NativeRealEnclosure.lean",
-    "sha256": "02f553fb96eee4f1824210e912a35e3d9d9c1225d9f11bd3ef28fd8008eecb56",
-    "bytes": 10961,
+    "sha256": "04708c3d3d59029cbca2256cfa067020ff7e99c7905a44df45a2f97b5cefd8e7",
+    "bytes": 10975,
     "explicit_imports": [
       "Current588NativeUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -18,7 +18,7 @@
       "CurrentMain.Current588NativeRealEnclosure.currentRealMoment_strict"
     ]
   },
-  "source_binding_sha256": "7331d6e1b94094033a3d773f40b8c210cb9209f2efe8614e4baf7e398a1062d1",
+  "source_binding_sha256": "c5a3c47428502ac86aac96df9e4dcf24c31332fb15bdd77282658613b67d7930",
   "scope": [
     9,
     8,
@@ -1049,5 +1049,13 @@
   },
   "resource_qualification": "Exact unchanged3260 cached inputs; no dependency rebuild. Prior Real measurements are not a fit guarantee for this new root. All17 prior quadruples remain exact.",
   "source_pin_guard": "Use accepted six-file detached9594 source/Git-blob guard and per-root historical runtime paths.",
-  "authority": "Root authorized source preparation of native Real join; request exact9/8/1 first-check admission after source/API/scientific and binding review."
+  "authority": "Root authorized source preparation of native Real join; request exact9/8/1 first-check admission after source/API/scientific and binding review.",
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_588_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "5b8e7cbb92cdee1bcbcfc82e88c99e033d5ed622335c10444e48b72729bbc44e",
+      "bytes": 7195
+    },
+    "scope": "The rank30 proof-only restricted simp set gains Rat.cast_one to align the measured cast of one. Statements/literals/imports/options/current data unchanged."
+  }
 }

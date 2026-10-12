@@ -66,7 +66,7 @@ theorem log_rank30_upper :
   calc
     Real.log ((73:ℝ)/30) = Real.log ((73:ℝ)/60) + 1*Real.log 2 := he
     _ ≤ ((unitUpper 13 133 + (1:Rat)*unitUpper 1 3 : Rat):ℝ) := by
-      simpa only [Rat.cast_add, Rat.cast_mul, Rat.cast_ofNat] using hs
+      simpa only [Rat.cast_add, Rat.cast_mul, Rat.cast_ofNat, Rat.cast_one] using hs
     _ ≤ (roundedLog 1 13 133 : ℝ) := hc
 
 /-- The source rational sum, before its one outward ceiling. -/

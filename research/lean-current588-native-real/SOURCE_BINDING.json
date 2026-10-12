@@ -1,11 +1,11 @@
 {
-  "status": "SOURCE_PROPOSAL_CURRENT_NATIVE_REAL_JOIN_UNCHECKED",
+  "status": "FIRST_PROOF_LOCAL_CAST_ONE_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T16:50:01.749957+00:00",
   "source": {
     "module": "Current588NativeRealEnclosure",
     "file": "Current588NativeRealEnclosure.lean",
-    "sha256": "02f553fb96eee4f1824210e912a35e3d9d9c1225d9f11bd3ef28fd8008eecb56",
-    "bytes": 10961,
+    "sha256": "04708c3d3d59029cbca2256cfa067020ff7e99c7905a44df45a2f97b5cefd8e7",
+    "bytes": 10975,
     "explicit_imports": [
       "Current588NativeUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -231,5 +231,13 @@
     "No complete current selected-kappa theorem."
   ],
   "new_numeric_checkpoints": 0,
-  "new_analytic_tail_estimates": 0
+  "new_analytic_tail_estimates": 0,
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_588_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "5b8e7cbb92cdee1bcbcfc82e88c99e033d5ed622335c10444e48b72729bbc44e",
+      "bytes": 7195
+    },
+    "scope": "The rank30 proof-only restricted simp set gains Rat.cast_one to align the measured cast of one. Statements/literals/imports/options/current data unchanged."
+  }
 }
