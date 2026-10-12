@@ -1,0 +1,158 @@
+{
+  "status": "READ_ONLY_CHANGED_INTERFACE_REUSE_MAP_NO_EXECUTION_OR_ADOPTION",
+  "utc": "2026-10-12T12:45:05.816780+00:00",
+  "pr": "https://github.com/CrocSwap/integer-mult-bounds/pull/587",
+  "head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+  "base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+  "changed_files": 14,
+  "capture": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/reuse_PR587/CAPTURE_VERIFICATION.json",
+    "sha256": "70b8b05be04c88daecfce3feddc9a164518aa69de8db521e335d0050116afcfd",
+    "bytes": 5408
+  },
+  "source_pins": [
+    {
+      "path": "NOTICE",
+      "git_blob": "f216552c46a4d857584127ffaffef58f62c6fe1d",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/NOTICE",
+      "sha256": "6256c1b1474ff404407f540e0cc2c86ace3801a8eab70d8eef1e143e0711ff46",
+      "bytes": 1755
+    },
+    {
+      "path": "README.md",
+      "git_blob": "4b06bd55324d8e91027138b033e7a666fd3d277d",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/README.md",
+      "sha256": "1e879f626bb054d50776e4f400b5535f79b6881328d268eeebf85aecad5a6400",
+      "bytes": 7927
+    },
+    {
+      "path": "code/assemble.py",
+      "git_blob": "8a1dd2692173e76abde744f5c9ad60f22ec25d37",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/assemble.py",
+      "sha256": "49cba0b13f090bf83ebec2eb32570d654c2a211af2261d1139d6387721179dc6",
+      "bytes": 18433
+    },
+    {
+      "path": "code/assembly_controls.py",
+      "git_blob": "b0f80a5c02b0fd90206a6be7767477b6c4cb5c38",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/assembly_controls.py",
+      "sha256": "ae9a3c985046ca6ae380b206c683a0a7276170effb5ef6f407d2ee62898c65ca",
+      "bytes": 14693
+    },
+    {
+      "path": "code/audit_allcold.py",
+      "git_blob": "1fdbc633e6590a714bc18b5a84aef35a6215ca49",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/audit_allcold.py",
+      "sha256": "da66d908dfb2ec342e43bad09c22a03e616fe610e09c417a847a2c86d09989d8",
+      "bytes": 19032
+    },
+    {
+      "path": "code/bind_providers_portable.py",
+      "git_blob": "5c425c08f5a8fffe1396dde36ac2f6b6236a39e6",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/bind_providers_portable.py",
+      "sha256": "c3d09168e3e0967a0289fb76769b0d22c9645d4e68e8d6e433694c6279d52e3e",
+      "bytes": 5049
+    },
+    {
+      "path": "code/emit_allcold.py",
+      "git_blob": "97a6920ddf46af2bf0408a05d7c403642d647029",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/emit_allcold.py",
+      "sha256": "3c9598cdc9a8e9d40c960bc3f0aa09fe541bb0e7b204c1a7c992fb20f2f39210",
+      "bytes": 12975
+    },
+    {
+      "path": "code/invoice_allcold.py",
+      "git_blob": "c5a39e024a7e17d46e3d254d48bac77355ab420a",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/invoice_allcold.py",
+      "sha256": "909459ab5e3d10a3ace13b6b723e0242ae08049e8d4851d1969a5c59e177cc2f",
+      "bytes": 20306
+    },
+    {
+      "path": "code/phase_timing_controls.py",
+      "git_blob": "1e38d2014985f65b8c648d7984738db3a8cf58c7",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/phase_timing_controls.py",
+      "sha256": "f02d0d0a6d84174d1706032401eb1c7140685ec24ce1ad22fc3e68ad4bfe6f85",
+      "bytes": 2772
+    },
+    {
+      "path": "code/witness.py",
+      "git_blob": "99cbc0a5ecd60e6b11c7504f98c62e606a0fa4b2",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/witness.py",
+      "sha256": "81ebbe274b64fae6ed7d5895a04c4d22760edc254c0e98a4f45d5e98c9b038a1",
+      "bytes": 2153
+    },
+    {
+      "path": "examples/pr582/WITNESS.json",
+      "git_blob": "609e134f130183481d25a3f8df2832b0566787b0",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/examples/pr582/WITNESS.json",
+      "sha256": "492b823d07ce64808e5307693e103a9ab586a5d7a3c86030ed8f12d94a6627f1",
+      "bytes": 8248
+    },
+    {
+      "path": "spec.py",
+      "git_blob": "7618401b8bdc0a66a2d8c1f81fa46228b24dbce5",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/spec.py",
+      "sha256": "e313390c94ff08f6a502effb3285be2ef2b27825c505e0f24ae1f7fa026c7175",
+      "bytes": 13023
+    },
+    {
+      "path": "tests/run_tests.py",
+      "git_blob": "832947ef518186d76eecc92edf4434eb848441e4",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/tests/run_tests.py",
+      "sha256": "73dcf0e64b1afe439eb62559748edcc5d5db5ed049273b598c852919151f050e",
+      "bytes": 8009
+    },
+    {
+      "path": "verify.py",
+      "git_blob": "f51b838f72189793db78612f9c7fe0e82f966801",
+      "url": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/verify.py",
+      "sha256": "f5903c72b4bda25a238a7a2f3b647880d1d586d7c06b62e2fdfdfe194e77352d",
+      "bytes": 24560
+    }
+  ],
+  "useful_interfaces": [
+    {
+      "interface": "Input and comparison documents",
+      "source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/spec.py#L22-L37",
+      "finding": "witness/1 has source/manifest hashes, geometry, PLAN/OWNERS, exact dispatch/call order and allowlisted provider recipe chains. witness-expected/1 holds computed artifact/profile/count/moment/kappa comparison values and binds raw WITNESS bytes."
+    },
+    {
+      "interface": "Computed-value pin",
+      "source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/witness.py#L23-L37",
+      "finding": "pin(key,got) compares EXPECTED lookup then returns got; discovery returns got without lookup. Verifier.pinned has the same direction. The inspected admission call sites pass newly read/computed outputs, not expected-value constructors."
+    },
+    {
+      "interface": "Typed producer lineage",
+      "source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/verify.py#L147-L245",
+      "finding": "cold_kernel,multicut,greedy_kernels,promote,joint_prefix,frozen558_scalar_audits select fixed constructor/audit code paths. Input recipe SHA is checked before use; input/output decompressed-word digests and omission counts are compared after construction."
+    },
+    {
+      "interface": "Finite input/provenance extraction",
+      "source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/verify.py#L94-L119",
+      "finding": "Static stage verifies source manifests and selected files, optional full_tree, PLAN/OWNERS and recipe pins. Future Lean literal extraction should consume these exact input records and emitted rows, retaining source indices; expected statistics are comparison targets only."
+    },
+    {
+      "interface": "Portable semantic phase receipt",
+      "source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/phase_timing_controls.py#L14-L34",
+      "finding": "Only seconds excluded from sorted semantic digest; raw receipt/owner/invoice bindings are recomputed coherently. Timing-only acceptance and substantive-phase rejection are separate controls, preserving prior PR582 rule."
+    },
+    {
+      "interface": "Moment boundary",
+      "source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/assemble.py#L151-L174",
+      "finding": "Complex native/conservative endpoints come from M.certify and are independently rechecked. Bit lower is read from exact Git-blob-pinned PR543-EXPECTED input then rechecked at c and c+1e-24; that input is distinct from the new comparison-only EXPECTED document."
+    }
+  ],
+  "limits": [
+    "No new Lean theorem or selected f19 label/scalar/operator supplier is closed by this Python tooling.",
+    "Example uses changed PR582 ck/atm3/jp8 providers, even though geometry112/9/504/8 resembles f19. Exact row/recipe/owner identity must be established before reusing any receipt.",
+    "spec.problems checks required keys and dispatch/step shape, not a fully strict untrusted-input type/path/duplicate-key validator. Keep our strict bounded decoder at extraction.",
+    "Discovery skips phase-timing controls and records accepted spec-only negative controls; strict verify from scratch is still required. Development reuse-baseline/reuse-local flags must be disclosed and do not equal fresh replay.",
+    "No EXPECTED.json, TEST-RESULTS.json or test logs are among the14 changed files. Eight passing tests are upstream-reported; inspected test code defines four fixture outcomes plus four mutations. No tests run here.",
+    "Accounting remains fixed73-column/inherited envelope; geometry-driven construction is not an arbitrary-model theorem."
+  ],
+  "tests_source": "https://github.com/jeremykothe2/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/tests/run_tests.py#L64-L153",
+  "attribution": "Jeremy Kothe direction/review; Claude Opus5.5/omp authored tooling. NOTICE preserves PR582\u2192576\u2192571/569/568/564 plus575/558 ancestry and named inherited authors.",
+  "kappa_status": "Tooling explicitly makes no new kappa claim. PR582 fixture value0.001601486955392486 is comparison provenance only.",
+  "next_use": "At a future source-adoption boundary, create a bounded strict decoder from exact WITNESS input hashes and literal emitted events to existing Row/key tables. Require actual constructor output identities and retain separate EXPECTED comparisons/operator proofs. No current f19 source or proof changes.",
+  "pr588": "Deferred: source-change provider proposal is separate and no concrete interface was adopted."
+}

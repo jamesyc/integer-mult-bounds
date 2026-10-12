@@ -1,0 +1,110 @@
+{
+  "status": "ACCEPTED_REVIEWED_EXACT457_PROJECTED_ROWS_EACH_DIRECTION",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5_tail/ACCEPTANCE.json",
+    "sha256": "e30a1d81a1905c82a811242a486e10b47c360f7a4fc2cdf219a4b219b78b5253",
+    "bytes": 61584
+  },
+  "terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_CHILD5_TAIL_TERMINAL_REVIEW.json",
+    "sha256": "7e56039cd22d0aaec91b5b21030933dfe6c91386f8e1028976e7c01c492abdcd",
+    "bytes": 3251
+  },
+  "data_scope": {
+    "new_rows_each": 48,
+    "raw_indices_inclusive": [
+      11260,
+      11307
+    ],
+    "chunkG": {
+      "indices": [
+        11260,
+        11283
+      ],
+      "rows": 24,
+      "add": 17,
+      "relabel": 7,
+      "child_ordinal": 5,
+      "child_key": [
+        0,
+        7,
+        1
+      ]
+    },
+    "chunkH": {
+      "indices": [
+        11284,
+        11307
+      ],
+      "rows": 24,
+      "add": 18,
+      "relabel": 6,
+      "child_ordinal": 5,
+      "child_key": [
+        0,
+        7,
+        1
+      ]
+    },
+    "composed_rows_each": 457,
+    "composed_branch_counts_each": {
+      "add": 370,
+      "relabel": 87
+    },
+    "checkpoint433_new7": [
+      640,
+      641,
+      642,
+      644,
+      648,
+      649,
+      650
+    ],
+    "checkpoint457_new7": [
+      652,
+      518,
+      519,
+      578,
+      579,
+      672
+    ],
+    "omitted_rows_in_new_range": 0,
+    "next_excluded_row": 11308,
+    "operator_status": "Family record only; no current child5 operator certificate."
+  },
+  "source_commit": "a975bd66ce9f24e01bd73995aff2a67711fcef30",
+  "new_metrics": [
+    {
+      "module": "F19CoverageChild5TailData",
+      "admitted_utc": "2026-10-12T12:39:00.198393+00:00",
+      "compile_seconds": 4.353019440000935,
+      "queue_seconds": 0.0006703809995087795,
+      "samples": 43,
+      "peak_vm_bytes": 2103808000,
+      "peak_rss_bytes": 1508261888,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageChild5TailCheck",
+      "admitted_utc": "2026-10-12T12:39:10.274969+00:00",
+      "compile_seconds": 13.760308135999367,
+      "queue_seconds": 0.0005828119974466972,
+      "samples": 136,
+      "peak_vm_bytes": 2372583424,
+      "peak_rss_bytes": 1775333376,
+      "peak_threads": 3
+    }
+  ],
+  "total_compile_seconds": 18.1133275760003,
+  "total_queue_seconds": 0.0012531929969554767,
+  "caps_unchanged": true,
+  "accepted_prefix_replays": 0,
+  "earlier_ChunkA_review_excess_preserved": true,
+  "excluded_scope": [
+    "Earlier-prefix admissibility or omitted boundary adapters",
+    "Centre branch exercise",
+    "Scalar/Clifford/whole-owner endpoints",
+    "Child0\u21927 operator/physical interpretation and all rows after11307",
+    "Full-stream throughput or general representation speedup"
+  ]
+}
