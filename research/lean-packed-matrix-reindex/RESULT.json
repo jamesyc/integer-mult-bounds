@@ -1,0 +1,86 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "2bd20a536ce306efb81348edb7ec701c44291c88",
+  "source_sha256": "85f6102fedb285a25b5f3832a82ee8c7de1c5cbe950a4920b69897135c7cc9ea",
+  "object_sha256": "bf15b97b005533c8cf277ae513a1b297980b76bae9cdf5ba5c93dee12a37d7af",
+  "receipt_sha256": "98f8990b0f650e03ec73243bfad2cc98c60abda3ae664f538b3ac9a194157b1f",
+  "log_sha256": "d397d174cae7942bfa50c2b95f65e1e409f04b832a0f146baf3dd89361cc0750",
+  "acceptance_sha256": "ad776b9b23ca51dd91c78795fd95eae338e6911f547f15e7182c440717502615",
+  "independent_terminal_review_sha256": "a057e3df72d3eb34f05f1d81b0451adaf1744124fd752239f145c2f44e735462",
+  "current_import_closure": 13,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.PackedMatrixReindex.mv_bits",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedMatrixReindex.mv_bound",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedMatrixReindex.packed_matrix",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedMatrixReindex.permutation_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 4.904674688994419,
+  "fifo_seconds": 0.0008049460011534393,
+  "peak_vm_bytes": 2680721408,
+  "retained_failures": [
+    {
+      "attempt": "complete_normalization_repair",
+      "name": "PackedMatrixReindex.lean",
+      "sha256": "16bb1ee0ac0b06f7d24eafbbabadfa573ecb95e0fc34546a5d79de06abc44920"
+    },
+    {
+      "attempt": "complete_normalization_repair",
+      "name": "frame_transport__directed_child_recipes__PackedMatrixReindex.lean.json",
+      "sha256": "895135ef9759a78f7dadfa5c1448eedd3193ea70b3b7fd56d27e5cc0d14bb5bd"
+    },
+    {
+      "attempt": "complete_normalization_repair",
+      "name": "frame_transport__directed_child_recipes__PackedMatrixReindex.lean.log",
+      "sha256": "06006aaa57363310fb94a040017b33c08ee3ebdae46e656c23d1ecabd5d80c62"
+    },
+    {
+      "attempt": "inverse_projection_repair",
+      "name": "PackedMatrixReindex.lean",
+      "sha256": "5e23435d414805f82eabd4e8fcecae831c587ba72ac0ec9aa0195ddda230bdda"
+    },
+    {
+      "attempt": "inverse_projection_repair",
+      "name": "frame_transport__directed_child_recipes__PackedMatrixReindex.lean.json",
+      "sha256": "4186d09aebdc4fb90d74d2d2345d6cc967cbf3df059c9a4d241c4d1597367390"
+    },
+    {
+      "attempt": "inverse_projection_repair",
+      "name": "frame_transport__directed_child_recipes__PackedMatrixReindex.lean.log",
+      "sha256": "bb904b2cfcbf6e299d826dbf0507764ab73ee8aacb85182adea564c6e8f4bba0"
+    }
+  ],
+  "claim": "Symbolic packed row assembly and inverse-read payload action, with length-nine and both matrix inverse equations explicit.",
+  "remaining": [
+    "Literal monomial circuit composition",
+    "Raw selected recipe/event binding and complete physical-work execution"
+  ],
+  "publication": "No publication authorized or performed."
+}

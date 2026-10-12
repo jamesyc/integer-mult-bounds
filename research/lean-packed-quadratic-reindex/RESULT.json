@@ -1,0 +1,65 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "d6177eb2e943b6d9739e3e04c2e38794d34e0a66",
+  "source_sha256": "99b6c3c46e728a9bcce55d09d9c8a060171596a7a9405366ab5142171eac72da",
+  "object_sha256": "2afa0598c8ce5061bff7d1a62b820c865b1baff5ca89e3ed6d0687f4b7f3993a",
+  "receipt_sha256": "9218fe01f03bdc6e389b678dd3527fa3ea4569e3173ed3f4208029fae073b138",
+  "log_sha256": "27880dab559d4cc2dae0417a7901a076b3d3623d6b25df725466c219f682da71",
+  "acceptance_sha256": "a57625966528944c8cb0037c40f5615ee9e5426154ba6dcf58f7f2ef24a26c47",
+  "independent_terminal_review_sha256": "524b2d645f6cff5aa8ba636be2e44d4624d96889cba892c6d64ae072b905b1fc",
+  "current_import_closure": 13,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.PackedQuadraticReindex.upper_parity_value",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedQuadraticReindex.quadratic_value",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedQuadraticReindex.diagonal_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 14.962420885000029,
+  "fifo_seconds": 0.0010215130023425445,
+  "peak_vm_bytes": 2680733696,
+  "retained_failures": [
+    {
+      "attempt": "explicit_reduction_repair",
+      "name": "PackedQuadraticReindex.lean",
+      "sha256": "968d74d6d1e4acf6b0da3c595cff9d7efe0218c448baf4ab75998ce9619915d5"
+    },
+    {
+      "attempt": "explicit_reduction_repair",
+      "name": "frame_transport__directed_child_recipes__PackedQuadraticReindex.lean.json",
+      "sha256": "7a57e4d7cf8755184b0cfe03a1a0b7c90e5a41e4615af4ba152af995d73eadb3"
+    },
+    {
+      "attempt": "explicit_reduction_repair",
+      "name": "frame_transport__directed_child_recipes__PackedQuadraticReindex.lean.log",
+      "sha256": "cac3c2461c3964b6a99bf0c6dbe6a72237cb1b7abde434f71c5cc80312756115"
+    }
+  ],
+  "claim": "Symbolic strict-upper parity, exact natural modulo-four qvalue and diagonal payload action, with both source list lengths equal to nine.",
+  "remaining": [
+    "Literal monomial circuit composition",
+    "Raw selected recipe/event binding and complete physical-work execution"
+  ],
+  "publication": "No publication authorized or performed."
+}
