@@ -1,9 +1,11 @@
 # Selected child 0→2 certificate proposal
 
-This source-only pilot binds exact f19 catalog ordinal 0, canonical descriptor [45], to the accepted phase-sensitive rank-one theorem using the separately proposed nine-coordinate decoder. It includes all raw monomial fields, both matrix inverse equations, the source greedy basis/transpose/Q certificate, the exact first column, and every address/phase alternative. Those facts are goals to check, not assumptions.
+This pilot binds exact f19 catalog ordinal 0, canonical descriptor [45], to the accepted phase-sensitive rank-one theorem through the accepted nine-coordinate decoder. Raw fields, both matrix inverse products, the source greedy basis/transpose/Q certificate and the actual first column remain explicit kernel goals.
 
-The all-payload equality follows by applying RankOneRecipeCertificate.sandwich_operator. Existing Mathlib supplies binary linearity; the Gaussian primitive and phase algebra are reused. A pointwise corollary retains arbitrary independent spectators.
+The redesigned certificate proves its two read addresses symbolically. With u=mask45 and s=y0+y2+y3+y5 in ZMod2, they are y+s·u and y+s·u+u. All phases depend only on coordinates 0, 2, 3 and 5. Exactly 16 scalar phase cases therefore cover the unchanged all-address Certificate while the other five coordinates remain arbitrary. No 512-address compound decision is repeated or divided across files. The canonical inverse proof reuses the identical left-row products.
 
-Proposed measurement: this one root only, after the nine-coordinate prerequisite is accepted and the exact source/current/import guards pass. No second record or full119-family batch is included. The closed finite reductions must fit the ordinary60-second/4-GiB hard and45-second/3.5-GiB review caps without increased recursion or heartbeat limits. No measurement is claimed yet.
+The all-payload equality applies RankOneRecipeCertificate.sandwich_operator. Existing matrix linearity and exact Gaussian/phase algebra are reused. The pointwise corollary retains arbitrary independent spectators.
 
-This is an interpreted record identity. The packed-address execution bridge, actual physical recipe execution, residual/endpoint wrappers and expanded coefficient/tableau work remain separate. No multiplier bound or publication admission is claimed.
+The first pilot failed at certificate decidability above the review VM threshold. The serial decision recovery terminated with an allocation exception at a sampled peak of 4,278,038,528 bytes. Those failed sources and receipts are preserved; neither establishes the module. This redesign needs separate source/resource review and admission. Proposed scope is one root with nine retained roots, the same 2,620 external pairs, and 60-second/4-GiB hard and 45-second/3.5-GiB review caps. Runtime fit is unmeasured.
+
+This is an interpreted record identity. Packed-address execution, actual physical recipe execution, residual/endpoint wrappers and expanded coefficient/tableau work remain separate. No second record, bulk family, multiplier bound or publication admission is included.

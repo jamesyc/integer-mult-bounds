@@ -1,9 +1,9 @@
 {
-  "status": "REVIEW_VM_HOLD_SERIAL_DECISION_REPAIR_PROPOSED",
+  "status": "ALLOCATION_HOLD_FOUR_BIT_ALGEBRAIC_REDESIGN_PROPOSED",
   "root": {
     "module": "CliffordChild002Canonical",
     "source": "CliffordChild002Canonical.lean",
-    "sha256": "3f51e3b986ef74425e5d4660912252ea74ecc6c9401c4dced4e96c5488d8fff3"
+    "sha256": "4fdb5deca8a742455246260d2818412fa65c103989f3cc04999d11be0e02267f"
   },
   "direct_imports": [
     "CliffordNineBitDecoder"
@@ -20,9 +20,9 @@
     "no_other_record_root": true
   },
   "retained_current_inventory": {
-    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/LOCAL_CURRENT_INVENTORY.json",
-    "sha256": "626beb54496d6d5f768abaa3205858c62da7ba9aa6fd5365f4ea6c40c4e36873",
-    "bytes": 17372
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child002_canonical_pilot/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "81e27b6757cfe7df85e7a6dbff03eff1a2c1bb481b5dfffcdf630e56b1dff317",
+    "bytes": 19740
   },
   "external_scope": {
     "source_object_pairs": 2620,
@@ -43,7 +43,7 @@
     "Both binary matrix inverse products for left/right/canonical maps.",
     "Source greedy-basis result with fuel10, transpose and Gram Q correction.",
     "Actual first column, using inherited matrix linearity.",
-    "512 complete address cases of the phase-sensitive two-branch predicate.",
+    "Parametric nine-coordinate read-address identities plus exactly16 four-bit ZMod2 phase cases, composing to the unchanged all-address Certificate.",
     "Arbitrary-payload identity by the accepted sandwich_operator theorem; pointwise arbitrary spectators."
   ],
   "remaining_suppliers": [
@@ -57,7 +57,7 @@
     "review_seconds": 45,
     "review_vm_bytes": 3758096384,
     "shared_slots": 2,
-    "runner": "One retained-lock single-file root after separate current/input/resource guard; closed reduction cost is unmeasured.",
+    "runner": "One retained-lock root after fresh source/resource/current/import review and explicit recovery scope. First redesigned result must report memory/time and all11 probes.",
     "expected_probes": [
       "CurrentMain.CliffordChild002Canonical.record_key",
       "CurrentMain.CliffordChild002Canonical.raw_fields_bounded",
@@ -106,9 +106,9 @@
     "bytes": 27314
   },
   "repair": {
-    "failed_source_sha256": "d70812254535a856d501bbc9861a0e07a34e601f1a3bb270d1ad101da4563943",
-    "changes": "Only the declared serial elaboration option, three inverse conjunction proof splits and Certificate unfolding. No theorem/record/import/cap change.",
-    "review_level_vm_observation": 3917320192,
-    "requires_separate_recovery_release": true
+    "allocation_failure_source_sha256": "3f51e3b986ef74425e5d4660912252ea74ecc6c9401c4dced4e96c5488d8fff3",
+    "changes": "Private exact row/address/phase reductions, one16-case scalar phase decision, and canonical inverse reuse from the literally identical left rows. Public definitions, theorem propositions and raw record are unchanged. Local Elab.async=false retained.",
+    "prior_allocation_vm": 4278038528,
+    "requires_separate_resource_scope_release": true
   }
 }
