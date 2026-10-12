@@ -47,6 +47,8 @@ private theorem decodeRows_cons {n : Nat} (row : Row n) (rows : List (Row n)) :
     decodeRows (row :: rows) =
       (decodeEvent row.event).bind (fun e => (decodeRows rows).map (fun es => e :: es)) := by
   simp [decodeRows, List.mapM_cons]
+  cases decodeEvent row.event <;>
+    cases rows.mapM (fun row => decodeEvent row.event) <;> rfl
 
 /-- Ordered rational decoding commutes with the label map, including failure. -/
 theorem decodeRows_map {n m : Nat} (f : Fin n → Fin m) (rows : List (Row n)) :
