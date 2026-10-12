@@ -1,0 +1,149 @@
+{
+  "status": "PASS_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "utc": "2026-10-12T12:28:00.686385+00:00",
+  "accepted_source_commit": "039199629c4718fb4157a73aee8e44be3d8fd6b4",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5/ACCEPTANCE.json",
+    "sha256": "cad55067dc5dcb03fac6c1d620d2069321530eb2a7f16057d210c86629c41605",
+    "bytes": 58911
+  },
+  "acceptance_scope_correction": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5/EXCLUSION_CORRECTION.json",
+    "sha256": "d7bcbe37b754bc3bbc692758ec3c9047f902221a95734caf069394c3c4a8ddac",
+    "bytes": 606
+  },
+  "terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_CHILD5_TERMINAL_REVIEW.json",
+    "sha256": "cdb3af39d935423100c6a1b8ddcdaefe9dae48583ee438586aeff1d4839f186f",
+    "bytes": 4177
+  },
+  "scope": {
+    "local_modules": 17,
+    "preserved_current": 16,
+    "new_checks": 1,
+    "independent_alternate_direct_preserved": 1,
+    "accepted_prefix_replays": 0,
+    "total_successful_new_roots": 2,
+    "earlier_preserved_roots": 15,
+    "final_retry_scope": [
+      17,
+      16,
+      1
+    ]
+  },
+  "data_scope": {
+    "new_rows_each": 45,
+    "raw_indices_inclusive": [
+      11215,
+      11259
+    ],
+    "chunkE": {
+      "indices": [
+        11215,
+        11238
+      ],
+      "rows": 24,
+      "add": 12,
+      "relabel": 12,
+      "child_ordinal": 5,
+      "child_key": [
+        0,
+        7,
+        1
+      ]
+    },
+    "chunkF": {
+      "indices": [
+        11239,
+        11259
+      ],
+      "rows": 21,
+      "add": 19,
+      "relabel": 2,
+      "child_ordinal": 5,
+      "child_key": [
+        0,
+        7,
+        1
+      ]
+    },
+    "composed_rows_each": 409,
+    "composed_branch_counts_each": {
+      "add": 335,
+      "relabel": 74
+    },
+    "checkpoint388_new7": [
+      512,
+      513,
+      522,
+      510,
+      511,
+      524,
+      560,
+      561,
+      570,
+      558,
+      559,
+      572
+    ],
+    "checkpoint409_new7": [
+      582,
+      584
+    ],
+    "omitted_rows_in_new_range": 0,
+    "next_excluded_row": 11260,
+    "operator_status": "Family record only; no current child5 operator certificate."
+  },
+  "successful_new_metrics": [
+    {
+      "module": "F19CoverageChild5Data",
+      "admitted_utc": "2026-10-12T12:10:43.101806+00:00",
+      "compile_seconds": 4.067050927995297,
+      "queue_seconds": 0.0006493039982160553,
+      "samples": 41,
+      "peak_vm_bytes": 2103394304,
+      "peak_rss_bytes": 1507119104,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageChild5Check",
+      "admitted_utc": "2026-10-12T12:18:43.994539+00:00",
+      "compile_seconds": 11.332784206002543,
+      "queue_seconds": 0.0005309909975039773,
+      "samples": 113,
+      "peak_vm_bytes": 2372145152,
+      "peak_rss_bytes": 1780314112,
+      "peak_threads": 3
+    }
+  ],
+  "successful_new_compile_seconds": 15.39983513399784,
+  "successful_new_queue_seconds": 0.0011802949957200326,
+  "preserved_failed_attempt": {
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5/failure01/bank_routing__f19_coverage_child5__F19CoverageChild5Check.lean.json",
+      "sha256": "f810cd484d5e29abd7f8ee5666ad367eeb3aa473a72afddbba9a775c0592e41c",
+      "bytes": 3467
+    },
+    "compile_seconds": 11.83733003999805,
+    "queue_seconds": 0.0005504169967025518,
+    "process_observations": {
+      "samples": 118,
+      "peak_vm_bytes": 2372145152,
+      "peak_rss_bytes": 1780875264,
+      "peak_threads": 3
+    },
+    "cause": "Eight unmatched opening parentheses in composed-list goal syntax; not a numerical or resource failure."
+  },
+  "total_paid_compile_seconds_including_failed_check": 27.23716517399589,
+  "new_probe_count": 38,
+  "excluded_scope": [
+    "Earlier-prefix admissibility or omitted boundary adapters",
+    "Centre branch exercise",
+    "Clifford/scalar/whole-owner endpoints",
+    "Child0\u21927 operator/physical interpretation; label/catalog coverage11215..11259 is accepted",
+    "Full-stream throughput or general representation speedup"
+  ],
+  "next_uncovered_raw_index": 11260,
+  "comparison": "A single24+21 source packet. No global fit or speedup claim; fifteen older roots and accepted Data retained on retry.",
+  "ordinary_repair": "Only eight surplus opening parentheses were removed after exact inverse/source and failed-prestate review; source70bfe1a7 accepted."
+}

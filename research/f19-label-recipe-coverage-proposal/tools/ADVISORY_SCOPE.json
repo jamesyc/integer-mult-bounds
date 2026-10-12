@@ -1,0 +1,48 @@
+{
+  "status": "PROPOSED_LOCAL_ADVISORY_HELPER_WITH_MEASURED_FIXTURES",
+  "utc": "2026-10-12T12:28:00.687479+00:00",
+  "helper": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668",
+    "bytes": 5111
+  },
+  "tests": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/test_delimiter_advisory.py",
+    "sha256": "92a335dae978b209c90618dc202950685a1661061fa12ef4cea7c87cdcce3596",
+    "bytes": 4996
+  },
+  "test_result": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5/DELIMITER_ADVISORY_TEST_RESULT_V2.json",
+    "sha256": "158a25a36f5e3a2917f826cd08a9c7168ae809c3286fcaaa8b6a9140bde0de89",
+    "bytes": 11002
+  },
+  "supported_subset": "ASCII (),[],{} and Lean tuple \u27e8\u27e9; skip nested block/line comments, ordinary escaped strings, single-codepoint/explicit escaped character subset, primed identifiers and \u00abquoted identifiers\u00bb.",
+  "unsupported": "Backtick quotations, raw/interpolated strings, unsupported character forms, nested/unterminated quoted identifiers, other Unicode bracket notation, byte/depth limits or unreadable inputs produce INCONCLUSIVE.",
+  "use": "Print an advisory result after source generation and before freeze. Every source outcome exits zero. No universal admission queue, accepted-root replay or replacement for science/API/Lean compiler.",
+  "fixtures": {
+    "unit_cases": 15,
+    "failed_child5_surplus_opens": 8,
+    "repaired_child5_result": "ADVISORY_NO_ASCII_IMBALANCE",
+    "next_source": "Only24 source literal rows11260..11283 in a .lean.txt lexical fixture; no theorem or activation.",
+    "next_source_result": {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 1531,
+      "source_sha256": "e2eb7dc9283bdbc436bd0822623921cd9113fe080f4bbaa0840df091c02b47d6",
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5/advisory_next24.lean.txt",
+      "elapsed_seconds": 0.0011452010003267787,
+      "max_source_bytes": 1048576
+    },
+    "total_seconds": 0.1572217709981487,
+    "maxrss_bytes": 46813184
+  },
+  "baseline_wasted_compile_seconds": 11.83733003999805,
+  "existing_decoders_changed": false,
+  "independent_helper_review": "pending; standalone local advisory proposal"
+}

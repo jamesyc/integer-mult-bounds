@@ -1,0 +1,37 @@
+{
+  "status": "PASS_ONE_LINE_INSTALLED_BOOL_LAW_SOURCE_REVIEW",
+  "utc": "2026-10-12T12:20:48.113025+00:00",
+  "source_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/xor_law_repair/SOURCE_REPAIR.json",
+    "sha256": "ab6cc45e04680a58b927082d9757b5d6236ee813fe31565f2249a3940a06524a",
+    "bytes": 1061
+  },
+  "failure_preservation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/xor_law_repair/FAILURE_PRESERVATION.json",
+    "sha256": "60a85921d05ec65c156b4b490f4e31c9bfe03c60491a95d772a98d2d38cb5101",
+    "bytes": 6166
+  },
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+    "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+    "bytes": 5194
+  },
+  "selected_unchanged": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
+    "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+    "bytes": 5072
+  },
+  "core_api": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/Bool.lean",
+    "sha256": "f418d6d98e4a2a8618027662eafdcf8abb69120e307254d309328e9afa1e3af9",
+    "bytes": 28387
+  },
+  "checks": [
+    "Exact one-line inverse to the second failed source, with all statements/imports/definitions/data unchanged.",
+    "Installed Bool.xor is an abbrev of bne at line27; Bool.xor_comm at354 instantiated with(delta dst,s src) is definitionally the only residual goal displayed in the actual failed log.",
+    "The added exact occurs after the positive-destination target case split/simplification, where the recorded single remaining goal lives. No case is weakened or new premise added.",
+    "All failed archive hashes and absent outputs verify. Prior failed source was never accepted; the selected source is still unattempted."
+  ],
+  "compiler_or_runtime_review": false,
+  "historical_source_review_limit": "The preceding source seal checked the intended equation but did not establish that simplification alone completed it. Actual elaboration exposed this explicit missing law application."
+}
