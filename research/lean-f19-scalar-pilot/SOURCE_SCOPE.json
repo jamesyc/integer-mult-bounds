@@ -1,0 +1,237 @@
+{
+  "status": "ROOT_ASSIGNED_NEXT_SOURCE_PROPOSAL_NOT_COMPILED",
+  "created_utc": "2026-10-12T11:52:38.068954+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-scalar-pilot/F19ScalarPilotComposition.lean",
+    "sha256": "9f945e841b995c794ec88ce07172103860952327c9f447321fa62cd61e8f5a4e",
+    "bytes": 7082
+  },
+  "imports": [
+    "F19ScalarEventInterpretation",
+    "F19CoveragePilotCheck"
+  ],
+  "prospective_scope": [
+    6,
+    5,
+    1
+  ],
+  "retained_current_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      },
+      "historical_execution_seconds": 6.246807060999345,
+      "historical_queue_seconds": 0.0005243800005700905,
+      "historical_peak_vm_bytes": 3301388288
+    },
+    {
+      "module": "F19CoverageStatement",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+        "sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+        "bytes": 363832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+        "sha256": "f8dde87d974d62ba82aa7ebf63ba6fcfd2a21d03e0d5715f391774458ae139de",
+        "bytes": 3493
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+        "sha256": "ad9b5a3aea4bcad7a4bc034a1d631323fdb8bbfa89153f8936ca4a3c7e421ea1",
+        "bytes": 254
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+        "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+        "bytes": 82366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+        "sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+        "bytes": 7177224
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.json",
+        "sha256": "e44a6ae95ba4d27b08d0c0a8180a76c455e4683f727bcada009448fcf06761d2",
+        "bytes": 3513
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+        "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+        "bytes": 1316
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.olean",
+        "sha256": "42a79ef3a064316b3dc9f16136315ff54e111987c07f37d6fd9609c0b1ac315a",
+        "bytes": 42576
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+        "sha256": "5a1673a7962c881e5a840900abf3291d91430c6a6348de2a055d266e75eae4df",
+        "bytes": 3517
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+        "sha256": "77e4fbe3c285cf8da16b49122eca9f4c240557947218563465093e3e9be7e197",
+        "bytes": 294
+      },
+      "receipt_dependencies": {
+        "F19CoveragePilotData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+          "olean_sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+          "source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395"
+        }
+      }
+    },
+    {
+      "module": "F19ScalarEventInterpretation",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.lean",
+        "sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0",
+        "bytes": 5497
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.olean",
+        "sha256": "8581266bc5f8218adf9827e9ed18b656ed1556ec6316adeba82796516cf7bf40",
+        "bytes": 303304
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__f19_scalar_event__F19ScalarEventInterpretation.lean.json",
+        "sha256": "a43f00e83bc4e4ad15aa1927972dc28049654c2ad58d5dcefe7a46448c40d603",
+        "bytes": 3865
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__f19_scalar_event__F19ScalarEventInterpretation.lean.log",
+        "sha256": "73653db3b7460ea4763de906c5f25ace3879964373150b992fda97f9f5c472b3",
+        "bytes": 7154
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        },
+        "Mathlib.Algebra.Field.Rat": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Field/Rat.olean",
+          "olean_sha256": "0fec4f04bc6e8fa811a837e20c61b234134eeb9aed118b972d515eeceb415732"
+        }
+      }
+    }
+  ],
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/scalar_event_gate/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "93ddc2d9ffd1d48d3473ef43baa618619ab233056a019418f5cc483bd78f396c",
+    "bytes": 2333027
+  },
+  "external_nodes": 2232,
+  "total_nodes": 2238,
+  "new_external_imports": [],
+  "static_local_object_bytes": 9004768,
+  "independent_event_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_SCALAR_EVENT_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "2b225d2be441b7dd61277621026bcdaca6498b4aa5eaf330a9f0f9990fb3e713",
+    "bytes": 3324
+  },
+  "bank_interface": "checkRows retains scalarAnnotationB at each event; its ADD/SCALE cases assert the actual signed-pair denominator is nonzero. WellLabelled by itself omits that condition.",
+  "planned_facts": [
+    "A checked scalar annotation yields a decoded rational event; no clean input is required.",
+    "The interpreted event preserves the PR509 admissibility predicate, reusing exact constructor definitions.",
+    "One decoder-composition induction constructs a decoded list with equal scalar run and label evolution and WellLabelled, by reusing accepted one-event equations and existing run definitions. No new conjugation induction.",
+    "Instantiate only the exact accepted forward/backward128-row slices using PilotCheck.selected_pilot_checked, with no finite checks repeated.",
+    "Reuse PilotCheck.exact_source_indices, raw10851..10978 inclusive in each direction."
+  ],
+  "source_scope": "These are the first128 rows of the bank-reviewed local slice, not a claim that earlier raw events are absent or that the slice begins the full selected physical execution. There are41 relabels and87 ADDs each; COPY/CLEAR are preserved by the generic composition theorem but not exercised by these literals.",
+  "open_obligations": [
+    "Full LOCAL-PROGRAMS decoding, omitted adapter/chart and actual physical word binding.",
+    "Initial C0..7 independence and final centre cleanup; arbitrary initial state is preserved as an input, not proved irrelevant.",
+    "Rational-to-complex physical realization and expanded coefficient/tableau work.",
+    "Later320-row extension should consume accepted per-chunk checked facts and checkpoints, without repeating finite tests.",
+    "Selected all-register row/column, owner/caller/price and multiplication endpoint."
+  ],
+  "expected_probes": [
+    "CurrentMain.F19ScalarPilotComposition.decoded_admissible",
+    "CurrentMain.F19ScalarPilotComposition.checked_rows_sound",
+    "CurrentMain.F19ScalarPilotComposition.selected_forward_slice",
+    "CurrentMain.F19ScalarPilotComposition.selected_backward_slice",
+    "CurrentMain.F19ScalarPilotComposition.selected_source_indices"
+  ],
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "resource_qualification": "Static import/current object counts do not establish runtime fit. No source activation, compiler, supplier execution or commit.",
+  "attribution": "PR509 LemmaG by DreamingOfClouds with Claude assistance; f19 direct-delivery selected emitter/auditor attribution retained. Bank finite literals and accepted scalar-event adapter reused. Apache-2.0; prepared with OpenAI assistance."
+}
