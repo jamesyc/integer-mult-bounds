@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_ONLY_SEPARATE_SELECTED_RECORD_PROPOSAL",
+  "status": "SOURCE_REVIEWED_LITERAL_PILOT_WITH_CURRENT_DECODER_PENDING_SINGLE_GATE",
   "root": {
     "module": "CliffordChild003Canonical",
     "source": "CliffordChild003Canonical.lean",
@@ -10,8 +10,8 @@
   ],
   "scope_now": {
     "total_local": 10,
-    "current": 8,
-    "pending": 2
+    "current": 9,
+    "pending": 1
   },
   "proposed_single_gate_after_decoder_pass": {
     "total_local": 10,
@@ -23,11 +23,6 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/LOCAL_CURRENT_INVENTORY.json",
     "sha256": "626beb54496d6d5f768abaa3205858c62da7ba9aa6fd5365f4ea6c40c4e36873",
     "bytes": 17372
-  },
-  "pending_decoder": {
-    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-clifford-nine-bit-decoder/CliffordNineBitDecoder.lean",
-    "sha256": "b75071d1c944374127e0ae6e51f320963e40c178afa6ce567c56b8d2a5019376",
-    "bytes": 8921
   },
   "external_scope": {
     "source_object_pairs": 2620,
@@ -77,5 +72,37 @@
       "CurrentMain.CliffordChild003Canonical.selected_child_with_spectators"
     ]
   },
-  "limits": "No bulk119-family, dense512x512 matrices, native evaluation, heartbeat/recursion increase or publication admission."
+  "limits": "No bulk119-family, dense512x512 matrices, native evaluation, heartbeat/recursion increase or publication admission.",
+  "prior_decoder_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-clifford-nine-bit-decoder/CliffordNineBitDecoder.lean",
+    "sha256": "b75071d1c944374127e0ae6e51f320963e40c178afa6ce567c56b8d2a5019376",
+    "bytes": 8921
+  },
+  "accepted_decoder": {
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/directed_child_recipes/CliffordNineBitDecoder.lean",
+      "sha256": "959dfc7b38e0ab8f9ec03f46b84fd60b642a94556107576ec839f7ce68cbf577",
+      "bytes": 8928
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/directed_child_recipes/CliffordNineBitDecoder.olean",
+      "sha256": "cb896e4c86820ef24cebda053b86a8846f290019df461d1e0369927fb164c606",
+      "bytes": 561720
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__directed_child_recipes__CliffordNineBitDecoder.lean.json",
+      "sha256": "12f2961ba4589e661c53fc212d2d4c4bd86e5b20407339b19731694a4b57dd84",
+      "bytes": 4187
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__directed_child_recipes__CliffordNineBitDecoder.lean.log",
+      "sha256": "3e8b92a0f268808faa7c7ba7d9d43ab777e8a47e5636cc668064e70742152c12",
+      "bytes": 1101
+    }
+  },
+  "decoder_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/notation_repair/ACCEPTANCE.json",
+    "sha256": "c844c2ac252b344a22114ea4f18b37fa4174393d37e54417179d4c998316dd9c",
+    "bytes": 27314
+  }
 }
