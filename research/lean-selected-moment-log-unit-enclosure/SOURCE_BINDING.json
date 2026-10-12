@@ -1,0 +1,103 @@
+{
+  "status": "SOURCE_ONLY_FIVE_REAL_LOG_UNIT_ENCLOSURE_CANDIDATE",
+  "created_utc": "2026-10-12T12:37:38.778890+00:00",
+  "source": {
+    "module": "SelectedMomentLogUnitEnclosure",
+    "file": "SelectedMomentLogUnitEnclosure.lean",
+    "sha256": "abb1b6654895f7664b150b464a379a6de4705e4b5f1308cf47719307ee076aa0",
+    "bytes": 8527,
+    "explicit_imports": [
+      "SelectedMomentLogCheckpoints",
+      "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
+    ],
+    "expected_probes": [
+      "CurrentMain.SelectedMomentLogUnitEnclosure.log_two_upper",
+      "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_64_upper",
+      "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_48_upper",
+      "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_40_upper",
+      "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_56_upper"
+    ]
+  },
+  "source_context": {
+    "commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "publication_base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+    "conditional_kappa": "1517760977820331/1000000000000000000",
+    "decimal": "0.001517760977820331"
+  },
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "lines": "22-26"
+  },
+  "accepted_definition_binding": {
+    "source_sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+    "definitions": [
+      "CurrentMain.SelectedMomentLogCheckpoints.powerFraction",
+      "CurrentMain.SelectedMomentLogCheckpoints.logTerm",
+      "CurrentMain.SelectedMomentLogCheckpoints.logBlock",
+      "CurrentMain.SelectedMomentLogCheckpoints.logSum80",
+      "CurrentMain.SelectedMomentLogCheckpoints.unitUpper"
+    ],
+    "formula": "z=n/d; unitUpper=2*sum(j=0..79,z^(2*j+1)/(2*j+1))+2*z^161/(161*(1-z^2)).",
+    "accepted_endpoint_values_recomputed": false
+  },
+  "analytic_api": {
+    "module": "Mathlib.Analysis.SpecialFunctions.Log.Deriv",
+    "source_sha256": "abc59bf2b08575acf7294e52ce35c6e78f6ee4ed90ccee3e8cf87df226827cd8",
+    "object_sha256": "7cc8233a19f458879ad0a546a3491f8a01a754548f51b3568c51bcfe29ba2ea8",
+    "theorem": "Real.abs_log_sub_add_sum_range_le",
+    "instantiation_n": 172,
+    "instantiations": "z and -z; combine lower bound for log(1-z) and upper bound for log(1+z)."
+  },
+  "proof_components": [
+    "A private generic two-term parity identity converts the difference of the two 172-term Taylor sums into twice the 86-term odd sum. Prove this by two-step range-sum recursion rather than expanding 172 symbolic terms at once.",
+    "Apply installed Real.abs_log_sub_add_sum_range_le at +z and -z with |z|<1. Use both signed consequences of abs_le and the parity identity to bound log(1+z)-log(1-z).",
+    "Transport the original 80-term source logSum80 into a Real sum using an eight-term cast-block identity and the ten source blocks. The accepted numeric checkpoint lemmas are retained and their values are not re-evaluated.",
+    "Cancel the common 80-term prefix. Check five separate closed Rat tail inequalities, each containing only source powers161/173 and the six odd terms j=80..85. Use decide +kernel and transport the resulting inequalities by exact Rat casts.",
+    "Use positivity of1+z and1-z and Real.log_div, plus the exact selected n/d identity, to give the five public source endpoint inequalities."
+  ],
+  "exact_five_arguments": [
+    {
+      "n": 1,
+      "d": 3,
+      "log_argument": "2"
+    },
+    {
+      "n": 9,
+      "d": 137,
+      "log_argument": "73/64"
+    },
+    {
+      "n": 25,
+      "d": 121,
+      "log_argument": "73/48"
+    },
+    {
+      "n": 33,
+      "d": 113,
+      "log_argument": "73/40"
+    },
+    {
+      "n": 17,
+      "d": 129,
+      "log_argument": "73/56"
+    }
+  ],
+  "new_kernel_decisions": 5,
+  "old_80term_checkpoint_replay": false,
+  "remaining": [
+    "Source binary reduction and nonnegative k log2 combination for the nine roundedLog arguments.",
+    "Executable Batteries Rat.ceil outward rounding, distinct from Mathlib Int.ceil, with the two source aggregate ceilings kept separate.",
+    "Real exp monotonicity, accepted expUpper enclosure and finite positive weighted aggregation to bound the selected real moment by accepted rational U.",
+    "Profile/operator realization, initial savings and complete all-size multiplier/physical-caller transfer."
+  ],
+  "source_statement_plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/LOG_UNIT_ENCLOSURE_STATEMENTS_AND_RESOURCE_PLAN.json",
+    "sha256": "c23310e6552061d17e6163dc13d0c0363af6d3c52be246bbe82f359fc0b8396d"
+  },
+  "historical_first_draft": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/log_unit_source_candidate/preimages/8433e4e8_initial.lean",
+    "sha256": "8433e4e84d652b23ad26a4df4a2c2369983d4d9549f6ee8ad38c0325b1bd0a16",
+    "change": "Two tactic endings use all-goals sequencing so a closing restricted simplification does not cause a no-goals diagnostic. No source statements or mathematics changed."
+  }
+}
