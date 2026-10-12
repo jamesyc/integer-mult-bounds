@@ -570,10 +570,39 @@ def backward : List (Row 1079) := [
   ⟨13182, .clear 735 436, some 436, none⟩
 ]
 
+/-- Compose bounded ordered-map equalities without comparing the entire list
+by one deep reflexivity reduction. The original list and order are unchanged. -/
+private theorem map_eq_of_take_drop {α β γ : Type*}
+    (n : Nat) {xs : List α} {ys : List β} {f : α → γ} {g : β → γ}
+    (head : (xs.take n).map f = (ys.take n).map g)
+    (tail : (xs.drop n).map f = (ys.drop n).map g) :
+    xs.map f = ys.map g := by
+  calc
+    xs.map f = (xs.take n).map f ++ (xs.drop n).map f := by
+      rw [← List.map_append, List.take_append_drop]
+    _ = (ys.take n).map g ++ (ys.drop n).map g := congrArg₂ List.append head tail
+    _ = ys.map g := by rw [← List.map_append, List.take_append_drop]
+
 theorem forward_scalar_events :
     (projectRows forward).map F19SelectedCoverage.Row.event =
       (projectRows CurrentScalarCentreBand.forward).map F19SelectedCoverage.Row.event := by
   simp only [projectRows, List.map_map]
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
   rfl
 
 theorem forward_run_eq {M : Type*} [AddCommMonoid M] [Module ℚ M]
@@ -609,6 +638,22 @@ theorem backward_scalar_events :
     (projectRows backward).map F19SelectedCoverage.Row.event =
       (projectRows CurrentScalarCentreBand.backward).map F19SelectedCoverage.Row.event := by
   simp only [projectRows, List.map_map]
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
+  apply map_eq_of_take_drop 32
+  · rfl
   rfl
 
 theorem backward_run_eq {M : Type*} [AddCommMonoid M] [Module ℚ M]
