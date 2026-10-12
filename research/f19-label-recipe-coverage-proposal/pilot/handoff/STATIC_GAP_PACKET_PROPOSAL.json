@@ -1,0 +1,131 @@
+{
+  "status": "READ_ONLY_NEXT_PACKET_SIZE_PROPOSAL_PENDING_COORDINATOR_CHOICE_NO_NEW_LEAN_SOURCE_OR_GATE",
+  "utc": "2026-10-12T13:12:06.874413+00:00",
+  "selected_input": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6"
+  },
+  "accepted549_owner_pin": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5_more/ACCEPTANCE.json",
+    "sha256": "43b4d78f902cf673a4218cf76b1c61482c9d1717b53909eb229a439ac4d2d846"
+  },
+  "literal_findings": {
+    "forward": {
+      "gap_raw_range": [
+        11400,
+        11545
+      ],
+      "rows": 146,
+      "tag_histogram": {
+        "add": 146
+      },
+      "annotation_frames": {
+        "7": 146
+      },
+      "next_first_raw": [
+        "climb",
+        "A",
+        488,
+        0,
+        8,
+        1
+      ],
+      "next24_histogram": {
+        "climb": 12,
+        "add": 12
+      }
+    },
+    "backward": {
+      "gap_raw_range": [
+        11400,
+        11545
+      ],
+      "rows": 146,
+      "tag_histogram": {
+        "add": 146
+      },
+      "annotation_frames": {
+        "7": 146
+      },
+      "next_first_raw": [
+        "climb",
+        "A",
+        488,
+        0,
+        8,
+        1
+      ],
+      "next24_histogram": {
+        "climb": 12,
+        "add": 12
+      }
+    }
+  },
+  "current_scope_note": "549-row owner acceptance exists; independent terminal review still pending at proposal creation.",
+  "comparison": {
+    "repeat_template": "Three Data/Check pairs for48+48+50 rows produce6 modules/review packets and repeatedly restate empty label-state checkpoints. This is a source-layout count only, not a measured runtime estimate.",
+    "bounded_consolidation": "One146-row literal Data root, then CheckA for first72 rows (three24 blocks) and CheckB for remaining74 (24+24+26). Each fresh proof decision remains24 or26 rows, synchronous and factored. One packet science/binding review,3 serial jobs; preserve549 and stop first review/failure.",
+    "prospective_local_scope": [
+      26,
+      23,
+      3
+    ],
+    "proposed_final_rows_each": 695,
+    "per_chunk_ranges": [
+      [
+        11400,
+        11423
+      ],
+      [
+        11424,
+        11447
+      ],
+      [
+        11448,
+        11471
+      ],
+      [
+        11472,
+        11495
+      ],
+      [
+        11496,
+        11519
+      ],
+      [
+        11520,
+        11545
+      ]
+    ],
+    "reuse": "Existing checkRows_factor, checkRows_wellLabelled, sparse_checkpoint with empty support, labRun_append and wellLabelled_append. No new generic proof algorithm is needed.",
+    "source_semantics": "All146 ADDs leave labels unchanged definitionally, but this alone proves neither admissibility nor nonzero-denominator/scalar annotation. Every chunk still needs the exact label/scalar check; childRowsB is vacuous and must be labelled so.",
+    "next_key": "After the static run is certified, the standard next child6/key0\u21928 packet starts11546; no child6 operator certificate is inferred."
+  },
+  "measurement": {
+    "retained_baseline": [
+      {
+        "module": "F19CoverageChild5MoreData",
+        "admitted_utc": "2026-10-12T13:08:08.626817+00:00",
+        "compile_seconds": 5.149140826993971,
+        "queue_seconds": 0.0005034999994677491,
+        "samples": 52,
+        "peak_vm_bytes": 2104684544,
+        "peak_rss_bytes": 1509978112,
+        "peak_threads": 3
+      },
+      {
+        "module": "F19CoverageChild5MoreCheck",
+        "admitted_utc": "2026-10-12T13:08:20.164864+00:00",
+        "compile_seconds": 14.699832031998085,
+        "queue_seconds": 0.0008456330033368431,
+        "samples": 147,
+        "peak_vm_bytes": 2239250432,
+        "peak_rss_bytes": 1638760448,
+        "peak_threads": 3
+      }
+    ],
+    "test_completion": "Measure each of exactly3 newly named roots once under existing60s/4GiB hard and45s/3.5GiB review caps. Completion requires6 block facts per orientation plus complete695-row label composition and unchanged full736 label state. No prefix replay.",
+    "unknown": "The proposed72/74-row per-module theorem groups are unmeasured. No fit, speedup or full-stream throughput inference; a failure/review returns a preserved data/smaller-check proposal, never larger caps."
+  },
+  "authorization": "Source-size proposal only. Await integration/parent scope decision before emitting these3 Lean roots or any driver."
+}
