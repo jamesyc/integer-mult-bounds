@@ -12,8 +12,8 @@ EVID=Path('/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruct
 OUT=EVID/'output'
 PYTHON=Path('/usr/bin/python3.13')
 SLOT=Path('/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/tools/lean_check.py')
-PINS={HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json':'ef57a8cc6f35f4714bad47bda7fd71b7c14f788711a69db030c34e8f7cc0a4cb',HERE/'CK_GENERATION_INPUTS.json':'ec45dff85be3991f39ec4fbdefc88d968392c727c99519e6555ee596814e652c',SLOT:'b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207',PYTHON:'889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9'}
-PINS[Path('/usr/lib/python3.13/sitecustomize.py')]='43d81125d92376b1a69d53a71126a041cc9a18d8080e92dea0a2ae23be138b1e'
+PINS={HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json':'716be0008796486f47844ce287bff05eecdb49ea8cd040669b7406bb4f568ba6',HERE/'CK_GENERATION_INPUTS.json':'ec45dff85be3991f39ec4fbdefc88d968392c727c99519e6555ee596814e652c',SLOT:'b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207',PYTHON:'889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9'}
+PINS[Path('/etc/python3.13/sitecustomize.py')]='43d81125d92376b1a69d53a71126a041cc9a18d8080e92dea0a2ae23be138b1e'
 HEAD='9594b61042164a27a31e44d8c3197f231470eda0'
 MAX_JSON=32*1024*1024
 now=lambda:datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -56,6 +56,8 @@ def records():
  inv=read(HERE/'CK_GENERATION_INPUTS.json')
  return inv,[*inv['files'],*inv['root_source_pins'],*inv['source_attribution'],inv['selected_manifest']]
 def guard(require_absent):
+ startup=Path('/usr/lib/python3.13/sitecustomize.py')
+ if not startup.is_symlink() or os.readlink(startup)!='/etc/python3.13/sitecustomize.py' or startup.resolve()!=Path('/etc/python3.13/sitecustomize.py'):raise ValueError('system startup symlink changed')
  for p,h in PINS.items():exact(p,h)
  plan=read(HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json');inv,rows=records()
  if git('rev-parse','HEAD').strip()!=HEAD:raise ValueError('readback HEAD changed')
