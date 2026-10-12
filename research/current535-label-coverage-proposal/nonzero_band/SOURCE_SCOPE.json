@@ -1,0 +1,391 @@
+{
+  "status": "FROZEN_7DFA_SOURCE_ONLY_NEW_MAIN_RECONCILIATION_DISPATCH_HOLD",
+  "utc": "2026-10-12T15:53:18.942365+00:00",
+  "authority": "Root direct approval2026-10-12T15:49:04UTC for12/10/2 source preparation and reviewed first check. Integration15:50:56 imposed a dispatch hold pending exact new-main9594 reconciliation; this packet remains explicitly7dfa-bound.",
+  "next_owner": "/root/prove_main_bank_routing",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/nonzero_band/Current535NonzeroBandData.lean",
+      "sha256": "37bd7a6643f9e86525add0ecc9ec863e151c76e2344aa5fa5af4acb6d24c437c",
+      "bytes": 6744
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/nonzero_band/Current535NonzeroBandCheck.lean",
+      "sha256": "927554be1340aff15296a05bdf1a615f4733c5b45740f10cb0ebca3182670fc4",
+      "bytes": 15295
+    }
+  ],
+  "literal_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/nonzero_band/LITERAL_PROJECTION.json",
+    "sha256": "7efbc03f658fe0d1739d8f64f87366aef9a01bb2b48879e6501045e0d1a85cfa",
+    "bytes": 149374
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/nonzero_band/DELIMITER_ADVISORY.json",
+    "sha256": "0f733528bb2304ad2e6a1c05e469c8d6e7d57da87ba8058e75a0dc0de219fcba",
+    "bytes": 2397
+  },
+  "prior212_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_entrance_band/ACCEPTANCE.json",
+    "sha256": "933048ca6b469192818ecf699c9938a233bdf2cfdc5976d1144171d650f6ca44",
+    "bytes": 60017
+  },
+  "prior212_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_COVERAGE212_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "210f4f54d179d9f23759dfa00b69ab9b372d4d476943f5f0187b3a87299c091a",
+    "bytes": 4986
+  },
+  "blocks": [
+    {
+      "letter": "K",
+      "raw_inclusive": [
+        10903,
+        10926
+      ],
+      "rows_each": 24,
+      "checkpoint": 236,
+      "values": [
+        [
+          0,
+          14
+        ],
+        [
+          27,
+          14
+        ],
+        [
+          224,
+          15
+        ],
+        [
+          57,
+          15
+        ],
+        [
+          225,
+          16
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          76,
+          17
+        ],
+        [
+          87,
+          17
+        ],
+        [
+          226,
+          18
+        ],
+        [
+          92,
+          18
+        ],
+        [
+          227,
+          19
+        ],
+        [
+          81,
+          19
+        ]
+      ],
+      "support": [
+        0,
+        27,
+        224,
+        57,
+        225,
+        7,
+        76,
+        87,
+        226,
+        92,
+        227,
+        81
+      ],
+      "histogram_each": {
+        "ADD": 12,
+        "relabel": 12
+      },
+      "ordered_keys": [
+        [
+          6,
+          14,
+          1
+        ],
+        [
+          9,
+          14,
+          1
+        ],
+        [
+          6,
+          15,
+          1
+        ],
+        [
+          11,
+          15,
+          1
+        ],
+        [
+          6,
+          16,
+          1
+        ],
+        [
+          12,
+          16,
+          1
+        ],
+        [
+          7,
+          17,
+          1
+        ],
+        [
+          8,
+          17,
+          1
+        ],
+        [
+          7,
+          18,
+          1
+        ],
+        [
+          10,
+          18,
+          1
+        ],
+        [
+          7,
+          19,
+          1
+        ],
+        [
+          13,
+          19,
+          1
+        ]
+      ],
+      "child_ordinals": [
+        253,
+        262,
+        254,
+        268,
+        255,
+        271,
+        256,
+        259,
+        257,
+        265,
+        258,
+        274
+      ]
+    },
+    {
+      "letter": "L",
+      "raw_inclusive": [
+        10927,
+        10950
+      ],
+      "rows_each": 24,
+      "checkpoint": 260,
+      "values": [
+        [
+          228,
+          20
+        ],
+        [
+          232,
+          20
+        ],
+        [
+          229,
+          21
+        ],
+        [
+          238,
+          21
+        ],
+        [
+          230,
+          22
+        ],
+        [
+          234,
+          22
+        ],
+        [
+          231,
+          23
+        ],
+        [
+          236,
+          23
+        ],
+        [
+          233,
+          24
+        ],
+        [
+          239,
+          24
+        ],
+        [
+          235,
+          25
+        ],
+        [
+          237,
+          25
+        ]
+      ],
+      "support": [
+        228,
+        232,
+        229,
+        238,
+        230,
+        234,
+        231,
+        236,
+        233,
+        239,
+        235,
+        237
+      ],
+      "histogram_each": {
+        "ADD": 12,
+        "relabel": 12
+      },
+      "ordered_keys": [
+        [
+          8,
+          20,
+          1
+        ],
+        [
+          10,
+          20,
+          1
+        ],
+        [
+          8,
+          21,
+          1
+        ],
+        [
+          13,
+          21,
+          1
+        ],
+        [
+          9,
+          22,
+          1
+        ],
+        [
+          11,
+          22,
+          1
+        ],
+        [
+          9,
+          23,
+          1
+        ],
+        [
+          12,
+          23,
+          1
+        ],
+        [
+          10,
+          24,
+          1
+        ],
+        [
+          13,
+          24,
+          1
+        ],
+        [
+          11,
+          25,
+          1
+        ],
+        [
+          12,
+          25,
+          1
+        ]
+      ],
+      "child_ordinals": [
+        260,
+        266,
+        261,
+        275,
+        263,
+        269,
+        264,
+        272,
+        267,
+        276,
+        270,
+        273
+      ]
+    }
+  ],
+  "local_scope": {
+    "total": 12,
+    "retained": 10,
+    "fresh": 2
+  },
+  "external_pairs": 2213,
+  "new_rows_each": 48,
+  "new_histogram_each": {
+    "ADD": 24,
+    "relabel": 24
+  },
+  "composed_rows_each": 260,
+  "composed_histogram_each": {
+    "ADD": 164,
+    "relabel": 96
+  },
+  "full_label_domain": 736,
+  "frame_count": 997,
+  "child_count": 2927,
+  "new_probe_count": 38,
+  "resources": {
+    "hard_seconds_each": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_VM_bytes": 3758096384,
+    "fresh_jobs_max": 2,
+    "async": false,
+    "maxRecDepth": 8192,
+    "maxHeartbeats": 2000000,
+    "shared_serial_slot": 1,
+    "stop": "First failure/review, no automatic retry or cap increase."
+  },
+  "baseline": {
+    "current90_row_Check_seconds": 22.862992650989327,
+    "current90_row_Check_VM": 2303229952,
+    "qualification": "Different input sizes and24 nonzero-old-frame keys; new cost/fit unmeasured, no throughput inference."
+  },
+  "success": "Two below-review passes;38 clean probes; full236/260 checkpoints and260-row composed label/catalog predicates.",
+  "limits": [
+    "No assumption of accepted operator equations for all24 new keys.",
+    "Only canonical labels, signed annotation/nonzero denominator and exact directed child/rank checks.",
+    "Raw10951 higher-frame joins, omitted pre-A/adapter semantics and full physical-work/scalar endpoint remain open."
+  ],
+  "proof_reuse": "Existing arbitrary-value sparse_checkpoint handles12 then12 label updates; complement724/724 unchanged. Accepted212 append/checkpoints consumed directly, with zero prefix predicate replay. Default0 of values functions is outside support and never overwrites those labels.",
+  "compiler_status": "Unstarted; main9594 reconciliation hold must be resolved in addition to independent source/API and binding seals."
+}
