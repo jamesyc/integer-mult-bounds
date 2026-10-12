@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_PREPARATION_RELEASED_BOUNDED_COMPILER_REQUIRES_REVIEW",
+  "status": "REPAIRED_FIRST_ROOT_RETRY_THEN_UNATTEMPTED_SELECTED_ROOT_AWAITING_REVIEW",
   "source_binding": {
     "path": "research/selected-bit-xor-interpretation/SOURCE_BINDING.json",
-    "sha256": "61cb7dbc0a1e7ad2db438019cdda7cdd8990231d34a46816a50d989608ea3303",
-    "bytes": 13023
+    "sha256": "9a17bdbe8e8d46bd73f1336e95ce6fc38a84c26cc324bac3473d47e196f0beb0",
+    "bytes": 13362
   },
   "complete_local_scope": [
     6,
@@ -29,8 +29,8 @@
   "sources": [
     {
       "path": "research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
-      "sha256": "ab60a7ac145db5cddd8238d8fefe0c168c8fc4109f3660e3375069306fb1d1e4",
-      "bytes": 5039,
+      "sha256": "1d2c412d2ddfa35f14895169e55f62436d00dc5ae95655e75ba73a9878eda788",
+      "bytes": 5150,
       "module": "BitXorTargetTranslation",
       "explicit_imports": [
         "Init"
@@ -44,8 +44,8 @@
     },
     {
       "path": "research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
-      "sha256": "f48d109e2aac87a9a87b65434ee87549af98abe093b81fe7f29534e828de5177",
-      "bytes": 5070,
+      "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+      "bytes": 5072,
       "module": "SelectedBitCarrierPhaseBXor",
       "explicit_imports": [
         "SelectedBitCarrierPhaseBCheck",
@@ -74,5 +74,5 @@
   },
   "no_concrete_word_evaluation": true,
   "numerical_decisions_added": 0,
-  "notes": "Two structural proof modules. Kernel/API elaboration and runtime fit remain unmeasured. Complete exact DFS and first-match pins required before compiler admission."
+  "notes": "First generic attempt failed on local elaboration; failure evidence preserved. Proposed exact two-root serial repair gate requires fresh failure/current/source guards. No unchanged retry."
 }

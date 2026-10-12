@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_ONLY_XOR_INTERPRETATION_AND_SELECTED_TARGET_IDENTITY_AWAITING_REVIEW",
+  "status": "SOURCE_ONLY_ELABORATION_REPAIR_AWAITING_REVIEW",
   "created_utc": "2026-10-12T11:59:55.293880+00:00",
   "selected_upstream_head": "c3a9a436b84fe44fdc223a5784d84736d1c2d3c7",
   "selected_conditional_kappa": "1517760977820331/1000000000000000000",
@@ -151,8 +151,8 @@
   "sources": [
     {
       "path": "research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
-      "sha256": "ab60a7ac145db5cddd8238d8fefe0c168c8fc4109f3660e3375069306fb1d1e4",
-      "bytes": 5039,
+      "sha256": "1d2c412d2ddfa35f14895169e55f62436d00dc5ae95655e75ba73a9878eda788",
+      "bytes": 5150,
       "module": "BitXorTargetTranslation",
       "explicit_imports": [
         "Init"
@@ -166,8 +166,8 @@
     },
     {
       "path": "research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
-      "sha256": "f48d109e2aac87a9a87b65434ee87549af98abe093b81fe7f29534e828de5177",
-      "bytes": 5070,
+      "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+      "bytes": 5072,
       "module": "SelectedBitCarrierPhaseBXor",
       "explicit_imports": [
         "SelectedBitCarrierPhaseBCheck",
@@ -215,5 +215,10 @@
     "Transient729 COPY/ADD/ERASE requires a separate730-register model and retained-major source binding.",
     "No complete bit-word, E8 Gram/rank/operator, invoice, hosting or all-size multiplication theorem."
   ],
-  "attribution": "PR493 eumemic supplier with Anthropic Claude assistance and PR370 Dylan Crow scalar checker, Apache-2.0, retaining original package NOTICE. Structural Boolean adapter and selected proof prepared with OpenAI assistance."
+  "attribution": "PR493 eumemic supplier with Anthropic Claude assistance and PR370 Dylan Crow scalar checker, Apache-2.0, retaining original package NOTICE. Structural Boolean adapter and selected proof prepared with OpenAI assistance.",
+  "elaboration_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/elaboration_repair/SOURCE_REPAIR.json",
+    "sha256": "8dd5cff819bd0aa1373553ba3a5831eb5180f45c8428c633d5b2fe088132b3d9",
+    "failure_preservation_sha256": "09c013f25642707066512117c8e6848910195830a89b926846bbd0227da33990"
+  }
 }

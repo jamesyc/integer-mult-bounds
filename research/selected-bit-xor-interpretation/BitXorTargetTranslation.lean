@@ -54,8 +54,12 @@ theorem single_shift (dst src : Reg) (hsrc : ¬ target src)
     single dst src (shift target s delta) =
       shift target (single dst src s) delta := by
   funext r
-  by_cases hd : r = dst <;> by_cases ht : target r <;>
-    simp [single, shift, hd, ht, hsrc, Bool.xor_right_comm]
+  by_cases hd : r = dst
+  · subst r
+    by_cases ht : target dst <;>
+      simp [single, shift, ht, hsrc, Bool.xor_right_comm]
+  · by_cases ht : target r <;>
+      simp [single, shift, hd, ht, hsrc, Bool.xor_right_comm]
 
 theorem sourcesRun_shift (dst : Reg) (rs : List Reg) :
     (∀ r ∈ rs, ¬ target r) → ∀ s delta,
@@ -110,13 +114,13 @@ theorem erase_shift_self (s : State Reg) :
 theorem target_identity (gs : List (Gate Reg))
     (h : ∀ g ∈ gs, ∀ r ∈ g.sources, ¬ target r)
     (s : State Reg) (r : Reg) (hr : target r) :
-    run gs s r = s r ^^ run gs (eraseTargets target s) r := by
+    run gs s r = (s r ^^ run gs (eraseTargets target s) r) := by
   calc
     run gs s r = run gs (shift target (eraseTargets target s) s) r := by
       rw [erase_shift_self]
     _ = shift target (run gs (eraseTargets target s)) s r :=
       congrFun (run_shift target gs h (eraseTargets target s) s) r
-    _ = s r ^^ run gs (eraseTargets target s) r := by
+    _ = (s r ^^ run gs (eraseTargets target s) r) := by
       simp [shift, hr, Bool.xor_comm]
 
 theorem erased_eq_of_agree_off_target (s t : State Reg)

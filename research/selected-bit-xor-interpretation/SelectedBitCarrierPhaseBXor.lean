@@ -86,7 +86,7 @@ theorem target_translation (s delta : State) :
 
 /-- Each target is its original bit XOR a contribution independent of initial targets. -/
 theorem target_identity (s : State) (r : Register) (hr : IsTarget r) :
-    executeB s r = s r ^^ executeB (BitXor.eraseTargets IsTarget s) r :=
+    executeB s r = (s r ^^ executeB (BitXor.eraseTargets IsTarget s) r) :=
   BitXor.target_identity IsTarget decodedPhaseB
     (fun g hg => (decoded_gate_properties g hg).2) s r hr
 
