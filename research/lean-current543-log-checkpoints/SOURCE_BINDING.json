@@ -1,0 +1,188 @@
+{
+  "status": "SOURCE_BOUND_CURRENT_PR543_FINITE_LOG_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-12T18:12:12.293597+00:00",
+  "source": {
+    "module": "Current543LogCheckpoints",
+    "file": "Current543LogCheckpoints.lean",
+    "sha256": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+    "bytes": 12224,
+    "explicit_imports": [
+      "SelectedMomentLogCheckpoints"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current543LogCheckpoints.z3_13_upper",
+      "CurrentMain.Current543LogCheckpoints.z11_53_upper"
+    ]
+  },
+  "current_source_commit": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/certificates/selected-result.json",
+      "sha256": "be3abe10f3b05fdb26f33ad8ecb0913c7c49d98b31a8706135f246936a2538c8",
+      "bytes": 3667,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "0fc74e6a56ddc679e6b4e4354e67be2b425b5f2c"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/community-hyperplane599-audit/SELECTED-SOURCE.json",
+      "sha256": "6d9e0cf88d2c2b14ad680a27fad71ed7be877e89d12f822ff477d2355047f450",
+      "bytes": 230887,
+      "repository_path": "research/community-hyperplane599-audit/SELECTED-SOURCE.json",
+      "git_blob": "771bee194a907eeef145fce6d55bff2eae392ef1"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/community-hyperplane599-audit/pr596/replay/ASSEMBLY.json",
+      "sha256": "eb11aab934ad55cedc0f5cc2ec8f538450df1e32f0c25ab39a0dde2b0d6ced69",
+      "bytes": 85372,
+      "repository_path": "research/community-hyperplane599-audit/pr596/replay/ASSEMBLY.json",
+      "git_blob": "14f99acd94a75ecf7c956d6470683ae1019d80c8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/inputs/PR543-EXPECTED.json",
+      "sha256": "06eccee9f6b77e140833df83407e7996dc948c17d49b0779ab171fbe463fd28d",
+      "bytes": 7111,
+      "repository_path": "research/complex-multicold/inputs/PR543-EXPECTED.json",
+      "git_blob": "b61d859826246e0c3dabbe096e57ad7015eadfd5"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/assemble.py",
+      "sha256": "71fca807f2e70ed7439e369be4bb3be21b487e942b92f0e7629d7521e9398a65",
+      "bytes": 18265,
+      "repository_path": "research/complex-571-hpeq5/code/assemble.py",
+      "git_blob": "1261127a6055cc36b11a62ee47de9aa54ba65855"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "16127213726553/10000000000000000",
+  "decimal": "0.0016127213726553",
+  "current_bit_input": {
+    "m": 64,
+    "live": 30720,
+    "bit_lower": "413456747036699736067/250000000000000000000000",
+    "profile": {
+      "1": 380160,
+      "2": 426624,
+      "4": 32640,
+      "5": 34560,
+      "6": 15360,
+      "7": 23040,
+      "8": 2592,
+      "42": 3456
+    },
+    "surcharge": true,
+    "immutable_supplier": {
+      "pr": 543,
+      "repository": "eumemic/integer-mult-bounds",
+      "commit": "2065fe4f72a914d907f1046603f5a36f17018535",
+      "path": "research/e8-bit-r420/EXPECTED.json",
+      "git_blob_sha1": "b61d859826246e0c3dabbe096e57ad7015eadfd5",
+      "replay_scope": "Cited unchanged supplier; this assembly reprices its full profile and does not rebuild its bit circuit."
+    }
+  },
+  "binary_reductions_read_only": [
+    {
+      "rank": 1,
+      "count": 380160,
+      "binary_k": 5,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 2,
+      "count": 426624,
+      "binary_k": 4,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 4,
+      "count": 32640,
+      "binary_k": 3,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 5,
+      "count": 34560,
+      "binary_k": 3,
+      "unit": "8/5",
+      "z": "3/13"
+    },
+    {
+      "rank": 6,
+      "count": 15360,
+      "binary_k": 3,
+      "unit": "4/3",
+      "z": "1/7"
+    },
+    {
+      "rank": 7,
+      "count": 23040,
+      "binary_k": 3,
+      "unit": "8/7",
+      "z": "1/15"
+    },
+    {
+      "rank": 8,
+      "count": 2592,
+      "binary_k": 2,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 42,
+      "count": 3456,
+      "binary_k": 0,
+      "unit": "32/21",
+      "z": "11/53"
+    }
+  ],
+  "source_lines": {
+    "loaded_bit_profile": "complex-571-hpeq5/code/assemble.py:151-173",
+    "unit_formula": "base_two_moment.py:20-24",
+    "binary_reduction": "base_two_moment.py:27-37"
+  },
+  "accepted_definitions": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+    "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+    "bytes": 33554
+  },
+  "reused_public_definitions": [
+    "powerFraction",
+    "logTerm",
+    "logBlock",
+    "logSum80",
+    "unitUpper"
+  ],
+  "new_log_literal_blocks": 20,
+  "total_kernel_decisions": 22,
+  "witnesses": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_543_log/CHECKPOINT_WITNESSES.json",
+    "sha256": "a9bf649a69d2a5ddf6783c1743223c834c7d3ca8834b090ae3ddd6e37d1ff26c",
+    "bytes": 8583
+  },
+  "emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_543_log/prepare_source.py",
+    "sha256": "c96f1278256fb51f5f114f5af2976f1b4b547e416c040ea459ffe94e02f6f87c",
+    "bytes": 8237,
+    "trusted_for_proof": false,
+    "upstream_modules_executed": false
+  },
+  "remaining": [
+    "Real upper enclosure for8/5 and32/21.",
+    "Eight current bit rounded logs and separately rounded ordinary/fallback aggregates.",
+    "Bit Real moment and operator/profile realization, source saving/outer transfer and full selected-kappa/all-size theorem."
+  ]
+}
