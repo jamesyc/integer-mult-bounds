@@ -4,8 +4,8 @@
   "source": {
     "module": "SelectedRoundedLogEnclosure",
     "file": "SelectedRoundedLogEnclosure.lean",
-    "sha256": "67ad808f509d09ed3d1a5a32763343ce71f1fef08f1349e6846a95f89db23739",
-    "bytes": 5748,
+    "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6",
+    "bytes": 6046,
     "explicit_imports": [
       "SelectedMomentUpperAggregate",
       "SelectedMomentLogUnitEnclosure"
@@ -15,7 +15,7 @@
       "CurrentMain.SelectedRoundedLogEnclosure.selected_rounded_log_enclosures"
     ]
   },
-  "source_binding_sha256": "37296f86107a8bb80260bc300761b77fbea81c5738888bec9e81462f15b9684b",
+  "source_binding_sha256": "e0d57cca97c4d6b7753f77afff430e5e114ab6d0589de063430c91da430fc095",
   "local_scope": [
     4,
     3,
@@ -550,5 +550,10 @@
     "review_seconds": 40,
     "review_vm_bytes": 3758096384
   },
-  "resource_qualification": "Same3,260 cached external nodes as the measured log-unit root. This is a distinct new module; its actual process fit and proof elaboration remain unmeasured. No runtime install, imports expansion or prerequisite replay is proposed."
+  "resource_qualification": "Same3,260 cached external nodes as the measured log-unit root. This is a distinct new module; its actual process fit and proof elaboration remain unmeasured. No runtime install, imports expansion or prerequisite replay is proposed.",
+  "first_ordinary_repair": {
+    "failure_preservation_sha256": "d2236923c7be55fd620d2d810cde71d55e4f94224d10ea6130ac10fd4739a8d8",
+    "source_repair_audit_sha256": "f4a9775003f4fb8509612c5002e9102b70d8d081114dcf4469a97b2e9956de0a",
+    "accepted_inputs_replayed": false
+  }
 }

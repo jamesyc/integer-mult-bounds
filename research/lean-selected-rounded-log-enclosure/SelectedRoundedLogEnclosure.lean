@@ -51,11 +51,15 @@ private theorem rounded_from_domain (rank count k n d : Nat)
     exact_mod_cast Nat.two_pow_pos k
   have hq : (0 : ℝ) < ((d+n : Nat) : ℝ) / ((d-n : Nat) : ℝ) := by
     have hh : (1 : ℝ) < ((d+n : Nat) : ℝ) / ((d-n : Nat) : ℝ) := by
-      exact_mod_cast hlo
+      have hc : ((1 : Rat) : ℝ) <
+          ((((d+n : Nat) : Rat) / ((d-n : Nat) : Rat)) : ℝ) := by
+        exact_mod_cast hlo
+      simpa only [Rat.cast_one, Rat.cast_div, Rat.cast_natCast] using hc
     linarith
   have heR : (73 : ℝ)/(rank : ℝ)/((2^k : Nat) : ℝ) =
       ((d+n : Nat) : ℝ)/((d-n : Nat) : ℝ) := by
-    exact_mod_cast he
+    have hc := congrArg (fun q : Rat => (q : ℝ)) he
+    simpa only [Rat.cast_div, Rat.cast_ofNat, Rat.cast_natCast] using hc
   have hx := (div_eq_iff (ne_of_gt hp)).mp heR
   have htw := mul_le_mul_of_nonneg_left log_two_upper
     (Nat.cast_nonneg k : (0 : ℝ) ≤ (k : ℝ))
@@ -108,7 +112,7 @@ theorem selected_rounded_log_enclosures :
     rounded_from_domain 7 1376 3 17 129 h7 hu17,
     rounded_from_domain 32 1 1 9 137 h32 hu9,
     rounded_from_domain 48 825 0 25 121 h48 hu25⟩
-  simpa only [div_one] using (rounded_from_domain 1 146016 6 9 137 h1 hu9)
+  simpa only [Nat.cast_one, div_one] using (rounded_from_domain 1 146016 6 9 137 h1 hu9)
 
 #print axioms ceilGrid_outward
 #print axioms selected_rounded_log_enclosures

@@ -4,8 +4,8 @@
   "source": {
     "module": "SelectedRoundedLogEnclosure",
     "file": "SelectedRoundedLogEnclosure.lean",
-    "sha256": "67ad808f509d09ed3d1a5a32763343ce71f1fef08f1349e6846a95f89db23739",
-    "bytes": 5748,
+    "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6",
+    "bytes": 6046,
     "explicit_imports": [
       "SelectedMomentUpperAggregate",
       "SelectedMomentLogUnitEnclosure"
@@ -129,5 +129,10 @@
   "read_only_continuation_plan": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/BINARY_REDUCTION_AND_CEILING_CONTINUATION_READ_ONLY_PLAN.json",
     "sha256": "d33f193167d629abe2a4efe04c2a61663d15d3a6c8589743c97ecebceff609fd"
+  },
+  "ordinary_repair": {
+    "audit_sha256": "f4a9775003f4fb8509612c5002e9102b70d8d081114dcf4469a97b2e9956de0a",
+    "failed_source_sha256": "67ad808f509d09ed3d1a5a32763343ce71f1fef08f1349e6846a95f89db23739",
+    "scope": "Three proof-local cast transports only. Every definition, theorem statement, numerical source expression, import and option remains unchanged."
   }
 }
