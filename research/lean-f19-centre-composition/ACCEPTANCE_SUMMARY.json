@@ -1,0 +1,104 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_CONDITIONAL_CENTRE_SANDWICH_SCALAR_COMPOSITION",
+  "recorded_utc": "2026-10-12T13:42:49.263739+00:00",
+  "source_commit": "daa5902d8b631d918201b7a24db20af56b0ee799",
+  "source_sha256": "09021a6766341fd88372a179b990774b6482f950c51260a1c53a3183de86b22e",
+  "historical_source_scope_sha256": "8aa6d2fa91b89dd1fc8206e6e71e6493add0e231f29d73c21580fbd02f4d1bca",
+  "scope_record_qualification": "SOURCE_SCOPE preserves the initial source proposal; the accepted alpha-renamed source is pinned above.",
+  "owner_acceptance_sha256": "978f3cfebac337b3970f4ab80834d6f41c44751e3cb2c1e1ec6ef3846cdc62b9",
+  "independent_terminal_review_sha256": "6392148de10cd6e439c260ff490b113230a343b736a5d9c5a27a31240a1fc2e6",
+  "kernel_object_sha256": "aca11ab5e028d6a80fabd05d23b240bc32d8b319f2b2b9691e4cbd010582df51",
+  "receipt_sha256": "9d0c9d84fa39c88d4cc49abc0259cb415d0a7850f293f2b2027726a41fc24e16",
+  "full_log_sha256": "854128d2ac1e402112694ad5e3348f1c23d71e10872a94c8aaf36f73b8d0911d",
+  "standard_axiom_probes": [
+    {
+      "declaration": "CurrentMain.F19CentreComposition.lonly_rows_safe",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreComposition.rawRowsRun_append",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreComposition.lonly_prefix_agreement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreComposition.lonly_suffix_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreComposition.sandwich_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreComposition.selected_forward_sandwich",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreComposition.selected_backward_sandwich",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "current_scope": {
+    "total": 8,
+    "current": 8,
+    "pending": 0,
+    "launch": [
+      8,
+      7,
+      1
+    ]
+  },
+  "external_pairs": 2232,
+  "timing": {
+    "started_utc": "2026-10-12T13:32:28.259291+00:00",
+    "finished_utc": "2026-10-12T13:32:33.645018+00:00",
+    "compile_seconds": 5.385693696996896,
+    "fifo_seconds": 0.0011421019953559153,
+    "preparation_seconds": 1.2795431020058459
+  },
+  "process_observations": {
+    "samples": 54,
+    "peak_vm_bytes": 2313461760,
+    "peak_rss_bytes": 1527291904,
+    "peak_threads": 4
+  },
+  "claim": "Conditional L-only prefix/accepted264-row centre band/L-only suffix scalar sandwich preserves agreement on728 L inputs as full736 output equality and zero centres. Actual typed prefix/suffix suppliers and1617 omitted adapter/phase/residual rows remain open.",
+  "open_obligations": [
+    "Actual typed prefix/suffix projection and L-only supplier proofs are absent; full22937-event scalar endpoint remains unproved.",
+    "Relabel is identity only in this scalar shadow; physical centre recipes and boundary/residual adapters remain separate.",
+    "Unserialized coefficient work and its lifecycle are outside the eight serialized centre slots.",
+    "No full operator, owner/caller/price, or multiplication theorem is inferred."
+  ],
+  "first_failure_archived_sha256": "d7605b2fb7ae4dd89d4554408af0a5cc741a7bb6505fa4154c2418120be6fc1b",
+  "archived_files": 13,
+  "conditional_selected_context_kappa": "1517760977820331/1000000000000000000 = 0.001517760977820331",
+  "publication_status": "Research result only; no publication or full multiplier claim."
+}
