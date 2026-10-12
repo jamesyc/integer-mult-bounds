@@ -1,0 +1,82 @@
+{
+  "advisory_only": true,
+  "helper": {
+    "bytes": 5111,
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668"
+  },
+  "results": [
+    {
+      "elapsed_seconds": 0.061748972002533264,
+      "exit": 0,
+      "source": {
+        "bytes": 7771,
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/CanonicalFrameCoverage.lean",
+        "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+      },
+      "stdout": {
+        "advisory_only": true,
+        "bytes_read": 7771,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "elapsed_seconds": 0.003596797992940992,
+        "issue_count": 0,
+        "issue_output_limit": 32,
+        "issues": [],
+        "max_source_bytes": 1048576,
+        "parser_or_kernel_claim": false,
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/CanonicalFrameCoverage.lean",
+        "reason": null,
+        "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+        "status": "ADVISORY_NO_ASCII_IMBALANCE"
+      }
+    },
+    {
+      "elapsed_seconds": 0.07675934399594553,
+      "exit": 0,
+      "source": {
+        "bytes": 10366,
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageCheck.lean",
+        "sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+      },
+      "stdout": {
+        "advisory_only": true,
+        "bytes_read": 10366,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "elapsed_seconds": 0.006851761994767003,
+        "issue_count": 0,
+        "issue_output_limit": 32,
+        "issues": [],
+        "max_source_bytes": 1048576,
+        "parser_or_kernel_claim": false,
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageCheck.lean",
+        "reason": null,
+        "source_sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61",
+        "status": "ADVISORY_NO_ASCII_IMBALANCE"
+      }
+    },
+    {
+      "elapsed_seconds": 0.09135363400855567,
+      "exit": 0,
+      "source": {
+        "bytes": 75035,
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageData.lean",
+        "sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2"
+      },
+      "stdout": {
+        "advisory_only": true,
+        "bytes_read": 75035,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "elapsed_seconds": 0.02665481300209649,
+        "issue_count": 0,
+        "issue_output_limit": 32,
+        "issues": [],
+        "max_source_bytes": 1048576,
+        "parser_or_kernel_claim": false,
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageData.lean",
+        "reason": null,
+        "source_sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2",
+        "status": "ADVISORY_NO_ASCII_IMBALANCE"
+      }
+    }
+  ]
+}

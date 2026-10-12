@@ -1,0 +1,255 @@
+{
+  "accepted_proof_preimages": [
+    {
+      "bytes": 6854,
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/F19CoverageStatement.lean",
+      "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+    },
+    {
+      "bytes": 1176,
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageCheckDecomposition.lean",
+      "sha256": "b96261fb4ffd6efb88d66b5809e508c4e08439d5ead7fdab4eac1e64f6edf2b0"
+    },
+    {
+      "bytes": 1722,
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child34/F19CoverageSparseValues.lean",
+      "sha256": "f2f59fef7ea5b3bbbbed0269bb8c270ade8a57d8ca2e5fa5a8898f65bc0f02e7"
+    },
+    {
+      "bytes": 3922,
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageBoundary192.lean",
+      "sha256": "40fcc578f3b4f0a2611c47c4081130ff5f1a71eb72f2edadfea9643d2e62a647"
+    },
+    {
+      "bytes": 11930,
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child5/F19CoverageChild5Check.lean",
+      "sha256": "70bfe1a72494b9284c4a9c6648483690d3649854810685cf461bccedd403e58a"
+    }
+  ],
+  "advisory": {
+    "bytes": 3401,
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/DELIMITER_ADVISORY.json",
+    "sha256": "8ca42d10427f54a755a2880bd45d333d9d9e6b0f64d4e9c46d00ca545c25acf9"
+  },
+  "caps": {
+    "Elab.async": false,
+    "hard_AS_bytes": 4294967296,
+    "hard_seconds": 60,
+    "maxHeartbeats": 2000000,
+    "maxRecDepth": 8192,
+    "review_VM_bytes": 3758096384,
+    "review_seconds": 45,
+    "serial_jobs_max": 3
+  },
+  "cardinality": {
+    "children": 2927,
+    "extended_registers": 736,
+    "frames": 997,
+    "original_registers": 728
+  },
+  "completion": "All three exact sources PASS below review thresholds,39 complete standard-only probes, literal/source inverse review and full current quadruple audit. Stop on first failure/review; no historical743-row replay.",
+  "decoder": {
+    "bytes": 9004,
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/decode_current45.py",
+    "sha256": "5f7bc612d2ec817c4561b9e928dcdc80e2bb42a3bf6bb2abf69634b53c068550"
+  },
+  "decoder_audit": {
+    "bytes": 2377,
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/DECODER_AUDIT.json",
+    "sha256": "b0f4e83d8937ab8c93ddad21d1b1fd06d7f25f74ef4d1ad8e42bcb41d567e6b0"
+  },
+  "external_pairs": 2213,
+  "generalization": {
+    "explicit_initializer": "initialLabels zero p uses explicit supplied zero; instantiated at997 with current728starts. No NeZero axiom or old initial array.",
+    "omitted_old_specific_definitions": [
+      "sourceIndicesB22937",
+      "checkSelected983/2922/21320",
+      "checkPilot128",
+      "ProjectedWellLabelled fixed source"
+    ],
+    "proof_reuse": [
+      "admissibleB_sound and checkRows_wellLabelled proof bodies unchanged except explicit type parameter",
+      "checkRows_factor induction unchanged except explicit type parameter",
+      "supportedB and multivalue sparse_checkpoint reused, removing old namespace and explicit type parameter"
+    ],
+    "type_change": "FrameLabel, LabelEvent, ChildKey, Row, SelectedData take explicit frameCount. Register remains Fin736; signed Int\u00d7Int stays raw."
+  },
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 72789,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "uncompressed_bytes": 434983,
+      "uncompressed_sha256": "7c84ac65c8b37173aa4293934f041915895e8ec30595844cc1534e2a19ae0d25"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 991124,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "uncompressed_bytes": 991124,
+      "uncompressed_sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 184042,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "uncompressed_bytes": 1854016,
+      "uncompressed_sha256": "264d82af892c1425d17cf7dd838cae6e501d035c6493519aaa8366a2e24bc779"
+    }
+  },
+  "limits": [
+    "Fresh proof covers only named current45 projected events and full736-coordinate label states at0/24/45.",
+    "Pre-A canonical ADD/SCALE neutrality is a source tag boundary; no prior WellLabelled, omitted-adapter or physical chart equation follows.",
+    "Directed lookup/rank correctness is structural, not recipe operator realization.",
+    "Current535 raw executor/scalar/full-work/cost/whole-stream endpoint suppliers remain open.",
+    "Generic childReference uses defaulted dimension lookup as inherited; selected shape certifies all997 entries and typed Fin997 bounds."
+  ],
+  "literal_projection": {
+    "bytes": 176519,
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/LITERAL_PROJECTION.json",
+    "sha256": "8e37d3ced9a89c15aeef4369071a09df503bf2a87bbd2f6e959aac8d7961eef3"
+  },
+  "local_scope": {
+    "fresh": 3,
+    "retained": 1,
+    "total": 4
+  },
+  "omitted_inventory": {
+    "bytes": 188614,
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/PRE_A_OMITTED_ROWS.json",
+    "sha256": "a20629c0cea93eca2440e805f41dc71eda54df007b5ea412333f3d3c1ce0b87d"
+  },
+  "retained": [
+    "PR509Stream"
+  ],
+  "root_release": "2026-10-12 current535997-frame 4/1/3 source/review then bounded admission",
+  "slice": {
+    "block_histograms": [
+      {
+        "ADD": 12,
+        "relabel": 12
+      },
+      {
+        "ADD": 19,
+        "relabel": 2
+      }
+    ],
+    "child_ordinals": [
+      0
+    ],
+    "directed_keys": [
+      [
+        0,
+        2,
+        1
+      ]
+    ],
+    "histogram_each": {
+      "ADD": 31,
+      "relabel": 14
+    },
+    "inclusive_raw": [
+      10691,
+      10735
+    ],
+    "rows_each": 45,
+    "sparse_supports": [
+      [
+        512,
+        513,
+        522,
+        510,
+        511,
+        524,
+        560,
+        561,
+        570,
+        558,
+        559,
+        572
+      ],
+      [
+        582,
+        584
+      ]
+    ],
+    "split": [
+      24,
+      21
+    ]
+  },
+  "snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "source_relation": "Historical child5 raw11215..11259 matches only after frame7\u21922, with changed global tables and initializer. It is a proof-template reference, not a finite theorem transport.",
+  "sources": [
+    {
+      "bytes": 7771,
+      "imports": [
+        "PR509Stream"
+      ],
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/CanonicalFrameCoverage.lean",
+      "probes": [
+        "admissibleB_sound",
+        "checkRows_wellLabelled",
+        "checkRows_factor",
+        "sparse_checkpoint"
+      ],
+      "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+    },
+    {
+      "bytes": 75035,
+      "imports": [
+        "CanonicalFrameCoverage"
+      ],
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageData.lean",
+      "probes": [],
+      "sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2"
+    },
+    {
+      "bytes": 10366,
+      "imports": [
+        "Current535CoverageData"
+      ],
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageCheck.lean",
+      "probes": [
+        "current_table_shape",
+        "exact_A_source_indices",
+        "exact_B_source_indices",
+        "forward_A_labels_checked",
+        "forward_A_children_checked",
+        "forward_A_checked",
+        "forward_A_wellLabelled",
+        "forward_support24",
+        "forward_touched24",
+        "forward_checkpoint24",
+        "forward_B_labels_checked",
+        "forward_B_children_checked",
+        "forward_B_checked",
+        "forward_B_wellLabelled",
+        "forward_support45",
+        "forward_touched45",
+        "forward_checkpoint45",
+        "forward_composed_wellLabelled45",
+        "forward_composed_checkpoint45",
+        "backward_A_labels_checked",
+        "backward_A_children_checked",
+        "backward_A_checked",
+        "backward_A_wellLabelled",
+        "backward_support24",
+        "backward_touched24",
+        "backward_checkpoint24",
+        "backward_B_labels_checked",
+        "backward_B_children_checked",
+        "backward_B_checked",
+        "backward_B_wellLabelled",
+        "backward_support45",
+        "backward_touched45",
+        "backward_checkpoint45",
+        "backward_composed_wellLabelled45",
+        "backward_composed_checkpoint45"
+      ],
+      "sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+    }
+  ],
+  "status": "SOURCE_FROZEN_CURRENT535_4_1_3_NO_COMPILER",
+  "utc": "2026-10-12T14:10:38.611905+00:00"
+}

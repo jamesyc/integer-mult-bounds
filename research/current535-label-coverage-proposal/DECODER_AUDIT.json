@@ -1,0 +1,65 @@
+{
+  "data_bytes": 75035,
+  "data_source_sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2",
+  "decoder_sha256": "5f7bc612d2ec817c4561b9e928dcdc80e2bb42a3bf6bb2abf69634b53c068550",
+  "elapsed_seconds": 0.2148530130070867,
+  "histogram": {
+    "backward": {
+      "add": 31,
+      "relabel": 14
+    },
+    "forward": {
+      "add": 31,
+      "relabel": 14
+    }
+  },
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 72789,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "uncompressed_bytes": 434983,
+      "uncompressed_sha256": "7c84ac65c8b37173aa4293934f041915895e8ec30595844cc1534e2a19ae0d25"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 991124,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "uncompressed_bytes": 991124,
+      "uncompressed_sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 184042,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "uncompressed_bytes": 1854016,
+      "uncompressed_sha256": "264d82af892c1425d17cf7dd838cae6e501d035c6493519aaa8366a2e24bc779"
+    }
+  },
+  "limits": {
+    "AS": 536870912,
+    "CPU": 20,
+    "wall": 30
+  },
+  "maxrss_bytes": 45989888,
+  "negative_controls": [
+    "duplicate_json",
+    "nonfinite",
+    "bool_integer",
+    "zero_denominator",
+    "bad_frame",
+    "bad_register",
+    "unknown_row"
+  ],
+  "no_label_operator_replay": true,
+  "no_upstream_execution": true,
+  "omitted_sha256": "a20629c0cea93eca2440e805f41dc71eda54df007b5ea412333f3d3c1ce0b87d",
+  "projection_sha256": "8e37d3ced9a89c15aeef4369071a09df503bf2a87bbd2f6e959aac8d7961eef3",
+  "rows_each": 45,
+  "source_ready_utc": "2026-10-12T14:08:54.368137+00:00",
+  "split": [
+    24,
+    21
+  ],
+  "status": "STRICT_SOURCE_LITERAL_PROJECTION_ONLY"
+}
