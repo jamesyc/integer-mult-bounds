@@ -1,17 +1,9 @@
 {
-  "status": "SOURCE_ONLY_EXPLICIT_LOW4_HIGH5_TRANSPORT",
-  "root": {
-    "module": "Current535Child006PayloadTransport",
-    "source": "Current535Child006PayloadTransport.lean",
-    "sha256": "9400114e3dfab63700a8d367653c219c7e99e3657b273d0e44669ffd828c8874"
-  },
-  "direct_imports": [
-    "Current535RecipeLabelBindings"
-  ],
+  "status": "SOURCE_ONLY_THREE_ROOT_RESOURCE_REDESIGN",
   "local_scope": {
-    "total": 12,
+    "total": 14,
     "current": 11,
-    "pending": 1
+    "pending": 3
   },
   "current_inventory": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current535_child006_payload_transport/LOCAL_CURRENT_INVENTORY.json",
@@ -50,18 +42,23 @@
   "new_proof_scope": [
     "Both inverse laws of low4/high5 address split/join, exact bit order.",
     "Actual forward/inverse row action and offset1 on all9coordinates, retaining high bits symbolically.",
-    "Three literal source qvalue reductions with16low-bit cases each.",
+    "Three literal source qvalue reductions performed once each, followed by2,8,8 relevant Bool cases.",
     "Exact Gaussian transport and arbitrary-payload source monomial formulas with input/preimage phase convention.",
     "Canonical frame K C0 K^-1 and reuse of accepted all-payload identity under explicit payload conjugation."
   ],
   "resource_shape": {
     "row_coordinate_cases_per_theorem": 9,
     "row_action_theorems": 4,
-    "source_phase_cases_per_theorem": 16,
+    "source_phase_cases_per_theorem": [
+      2,
+      8,
+      8
+    ],
     "source_phase_theorems": 3,
     "full_address_enumeration": false,
     "new_matrix_product_decisions": 0,
-    "measured_fit": false
+    "measured_fit": false,
+    "source_sum_expansions": 3
   },
   "proposed_check": {
     "hard_seconds": 60,
@@ -86,13 +83,65 @@
       "CurrentMain.Current535Child006PayloadTransport.canonicalK_source_action",
       "CurrentMain.Current535Child006PayloadTransport.canonical_new_shape",
       "CurrentMain.Current535Child006PayloadTransport.selected_child_operator"
-    ]
+    ],
+    "original_single_root_status": "HARD_TIMEOUT_NO_ACCEPTED_OBJECT",
+    "serial_scopes": [
+      {
+        "module": "Current535Child006Coordinates",
+        "total": 12,
+        "retained": 11,
+        "pending": 1,
+        "probes": 7
+      },
+      {
+        "module": "Current535Child006Phases",
+        "total": 13,
+        "retained": 12,
+        "pending": 1,
+        "probes": 3
+      },
+      {
+        "module": "Current535Child006PayloadTransport",
+        "total": 14,
+        "retained": 13,
+        "pending": 1,
+        "probes": 6
+      }
+    ],
+    "admission": "Root15:15 authorizes the concrete three-root serial first checks after independent source/model and binding reviews. Each successor requires preceding acceptance belowreview; stopfirstfailure/review. No compiler has run for this redesign.",
+    "finite_work": "4 row actions x9 symbolic output coordinates; phase sums expanded once each plus2+8+8 low Boolean cases; five high coordinates and unused low bits arbitrary; no512-address enumeration."
   },
-  "authority": "Root14:42 authorizes this independent source proposal and exact coordinate/phase/inverse review. No compiler admission yet. Current469 runs only under its separate existing scope.",
+  "authority": "Root15:15 authorizes the concrete three-root serial first checks after independent source/model and binding reviews. Each successor requires preceding acceptance belowreview; stopfirstfailure/review. No compiler has run for this redesign.",
   "remaining": [
     "Current integer bit-packing/event/executor correspondence.",
     "Physical recipe and expanded work semantics, residual/endpoint wrappers and full dirty rows/columns.",
     "Other records and global owner/chart/cost suppliers."
   ],
-  "publication": "No publication admission."
+  "publication": "No publication admission.",
+  "roots": [
+    {
+      "module": "Current535Child006Coordinates",
+      "source": "Current535Child006Coordinates.lean",
+      "sha256": "260b7ea29dadbd973ce663c776122079011e5a528b24ee27b323e017f4538a34",
+      "direct_imports": [
+        "Current535RecipeLabelBindings"
+      ]
+    },
+    {
+      "module": "Current535Child006Phases",
+      "source": "Current535Child006Phases.lean",
+      "sha256": "9b7934eab467ee2d6eee3a4a260b83223116b9538af71d7521d62a916e9a0369",
+      "direct_imports": [
+        "Current535Child006Coordinates"
+      ]
+    },
+    {
+      "module": "Current535Child006PayloadTransport",
+      "source": "Current535Child006PayloadTransport.lean",
+      "sha256": "83a9c792705d51c44d76ef03481ef156b5b675c8583094a23e3dc3bf9bc0ac74",
+      "direct_imports": [
+        "Current535Child006Phases"
+      ]
+    }
+  ]
 }
