@@ -1,0 +1,71 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "4c0f8b6fa8c10abe71c0802dc8ed16d89d89c975",
+  "source_sha256": "bcba45749abe4a289b487fac2cd2ed4f8b9fcb2b7b69574e00a65a1c2af43392",
+  "object_sha256": "d42da3ec38a4eab5fc4f985df35bd4e6fa11dbcbc7651d0969f7abe388361619",
+  "receipt_sha256": "af83bc786459182738c190925a547bd0e5f7cfac8c0fea815d91a9de633fe927",
+  "log_sha256": "1760a94d6194f30b77607b68bf22e589dda1d4d33e5a2c5cc25db1e5f33b0289",
+  "acceptance_sha256": "bed2750806eaaa1f75841692ad35bfa005ae725d312827d8bf9851de664403ad",
+  "independent_terminal_review_sha256": "15ebbf38b7d28f39945c49e9aaa426370f17cdbc82b80e6da263388f3dc94a5e",
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "catalog_sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+  "canonical_gzip_sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+  "record_key": [
+    0,
+    2,
+    1
+  ],
+  "ordered_descriptors": [
+    [],
+    [
+      459
+    ]
+  ],
+  "current_import_closure": 20,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current5996CKPackedRecipe.left_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current5996CKPackedRecipe.right_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current5996CKPackedRecipe.recipe_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current5996CKPackedRecipe.packed_canonical_child",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 7.237099370991928,
+  "fifo_seconds": 0.0006321670080069453,
+  "peak_vm_bytes": 2684895232,
+  "claim": "The exact source-bound packed right-monomial, cg(1,true), left-monomial recipe equals the canonical child under explicit packed/address conjugation for every complex payload, with complete global phase retained. Existing field, inverse, basis and canonical certificates are reused without finite algebra replay.",
+  "remaining": [
+    "Python record-to-gate decoding and actual selected event executor",
+    "Current Fin1082 stream/prefix execution",
+    "Expanded physical-work semantics"
+  ],
+  "publication": "No publication authorized or performed."
+}
