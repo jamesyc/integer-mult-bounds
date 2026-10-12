@@ -1,0 +1,109 @@
+{
+  "status": "SOURCE_ONLY_SELECTED_FINITE_CERTIFICATE_EXTRACTION_NOT_KERNEL_ACCEPTED",
+  "utc": "2026-10-12T09:54:27.056326+00:00",
+  "source": "SelectedOuterGridCertificate.lean",
+  "source_sha256": "8cc6371a32b8e8adb6f34e87986af8aa8ec853cc196947bec5fab7b974fd4277",
+  "selected_source_context": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "checked_worktree_base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+  "current_author_commit": "9e6d829024fbb9a3f1e4a342f3c8c402860e4f78",
+  "source_pins": [
+    {
+      "path": "certificates/selected-result.json",
+      "sha256": "0bca96caf2da6fe14c3f69b0560b6185de1c8238d2b361dec8e9786c91f585ed",
+      "bytes": 2156,
+      "base_git_blob": "f2c354709b6c647a32d718f13d7dcd0c4079ba52",
+      "current_git_blob": "f2c354709b6c647a32d718f13d7dcd0c4079ba52"
+    },
+    {
+      "path": "research/community-pr531-audit/direct-ASSEMBLY.json",
+      "sha256": "b352aad19ea2f23d70f9913e497b2588d7352d68816bf201cbc35bba2aa71698",
+      "bytes": 29796,
+      "base_git_blob": "65c077b8f2daaf34e545e28b95f00bcc5365e419",
+      "current_git_blob": "65c077b8f2daaf34e545e28b95f00bcc5365e419"
+    },
+    {
+      "path": "research/community-pr531-audit/SOURCE.json",
+      "sha256": "6aa7dcaae7967651404f951f7fbbb227cbda1c29a5a9640261f5e90a55dab928",
+      "bytes": 42058,
+      "base_git_blob": "e5bea2c23d2ace83f020bc20749921cc7e727cf6",
+      "current_git_blob": "e5bea2c23d2ace83f020bc20749921cc7e727cf6"
+    },
+    {
+      "path": "research/direct-delivery504-global/code/assemble.py",
+      "sha256": "71b4cbbbc5acdfe06ac67879cf54ea761e29e52143af1cd8410ad672a5cc190b",
+      "bytes": 4604,
+      "base_git_blob": "a234aecb14de159247809af1120fedc1aab20df9",
+      "current_git_blob": "a234aecb14de159247809af1120fedc1aab20df9"
+    },
+    {
+      "path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/outer.py",
+      "sha256": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c",
+      "bytes": 3535,
+      "base_git_blob": "43007488ad2c43187c77cc6798beff8b1cd76ad2",
+      "current_git_blob": "43007488ad2c43187c77cc6798beff8b1cd76ad2"
+    },
+    {
+      "path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/moment.py",
+      "sha256": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482",
+      "bytes": 5562,
+      "base_git_blob": "7d697cb45203fe72d97037403d6da41f71f3b7fd",
+      "current_git_blob": "7d697cb45203fe72d97037403d6da41f71f3b7fd"
+    },
+    {
+      "path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "base_git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "current_git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "fields": {
+    "selectedBitSaving": {
+      "json_pointer": "/strict_outer_constraints/bit_positive",
+      "exact_source_fraction": "19456871396255954410965126483989729837567608538784265533445269687084094691447524630538808307685143000502626214026213530825584046670609183473632017543055080309889182544200522322566091835026048248817286022850198107276452392695799180840923992784947540394286030437607804209698866870065031311/12800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lean_type": "Rat"
+    },
+    "recordedQ": {
+      "json_pointer": "/strict_outer_constraints/q_positive",
+      "exact_source_fraction": "9728435698127977186025691845738910507818677785402402929155026304757781812278492628185309462395046869712504799327963764910165809309091060911231962100918356681312573729045180851393863373312501801842551176399050804820940173497701483144009603696674589356219022433856361710563402997424711445801133129934968689/6400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lean_type": "Rat"
+    },
+    "recordedCompactGap": {
+      "json_pointer": "/strict_outer_constraints/compact_phase_layer_above_kappa",
+      "exact_source_fraction": "1460796919765288763514469054162733320617540517396562333085142025357987059397238422576833415925686473391798968212640481453257239804719916751781436134930531676549548853760032258218163179043574319444609476180221273672684823221548950012508401738297526350274506175659689036372441381877794553646958343284528103813/1602432108924531994296506422961434727626954669446350600732288756576189445453069623157046327365598761717428126199831990941227541452327272765227807990525229589170328143432261295212848465843328125450460637794099762701205235043374425370786002400924168647339054755608464090427640850749356177861450283282483742172250000000000000000",
+      "lean_type": "Rat"
+    },
+    "selectedKappa": {
+      "json_pointer": "/kappa",
+      "exact_source_fraction": "1517760977820331/1000000000000000000",
+      "lean_type": "Rat"
+    }
+  },
+  "fixed_controls": {
+    "eta": "1/1000000000000000000",
+    "grid": "1/1000000000000000000",
+    "evidence": "assemble.py line27; q and final grid formula line34; outer.py lines19-26"
+  },
+  "formula_mapping": {
+    "selectedQ": "a*(1-2*eta), where a is strict_outer_constraints.bit_positive",
+    "selectedMargin": "(1-eta)*selectedQ/(1+selectedQ), equal to eps*q by the source definition eps=(1-eta)/(1+q)",
+    "slack": "selectedMargin-selectedKappa equals recorded compact_phase_layer_above_kappa",
+    "grid_bracket": "selectedKappa<selectedMargin<=selectedKappa+grid; verifies the strict floor-grid choice and next-tick failure for this margin only"
+  },
+  "planning_calculation": {
+    "implementation": "Python standard-library fractions, direct extracted data; no upstream engine imported or executed",
+    "q_equality": true,
+    "slack_equality": true,
+    "lower_strict": true,
+    "next_tick_at_or_above": true,
+    "not_a_kernel_check": true
+  },
+  "removes_if_accepted": "The finite final q/slack/grid-rounding arithmetic of this exact selected certificate no longer depends only on the Python assertion. It supplies no evidence that the supplied bootstrap endpoint came from valid moment enclosures or a realized all-size construction.",
+  "remaining": [
+    "Six bootstrap update/cutoff certificate computation",
+    "Moment rational aggregation and analytic log/exp enclosure correctness",
+    "All47 outer constraints and operator/profile realization",
+    "Selected caller, precision/tape, all-size/compiler and analytic-transfer hypotheses"
+  ],
+  "attribution": "Exact formulas reused from pinned PR531 assembly and PR361 outer engine, whose header attributes PR144/PR23 and the reviewed balanced assembly; no new generic arithmetic result."
+}
