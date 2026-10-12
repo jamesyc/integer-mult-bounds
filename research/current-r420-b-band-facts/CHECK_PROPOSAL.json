@@ -1,0 +1,56 @@
+{
+  "status": "PENDING_SOURCE_API_AND_CURRENT_BINDING_REVIEW",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-band-facts/CurrentR420BBandCheck.lean",
+    "sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41",
+    "bytes": 3006
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-band-facts/SOURCE_BINDING.json",
+    "sha256": "0db8d58fcb71882a4f9f2db31c981d37555058aed80f9142d339560e7cf71082",
+    "bytes": 7040
+  },
+  "roots": [
+    "CurrentR420BBandCheck"
+  ],
+  "explicit_imports": [
+    "CurrentR420FrameBoundaryCheck"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420Boundary.phase_shape",
+    "CurrentMain.CurrentR420Boundary.phase_domains",
+    "CurrentMain.CurrentR420Boundary.band_order",
+    "CurrentMain.CurrentR420Boundary.band_lengths",
+    "CurrentMain.CurrentR420Boundary.first_target_band",
+    "CurrentMain.CurrentR420Boundary.middle_source_band",
+    "CurrentMain.CurrentR420Boundary.middle_operand_bands",
+    "CurrentMain.CurrentR420Boundary.last_target_band",
+    "CurrentMain.CurrentR420Boundary.final_target_frames",
+    "CurrentMain.CurrentR420Boundary.no_target_operands",
+    "CurrentMain.CurrentR420Boundary.no_self_reads"
+  ],
+  "scope": {
+    "total": [
+      324,
+      323,
+      1
+    ],
+    "local": [
+      7,
+      6,
+      1
+    ],
+    "core": 317,
+    "protected_prior": 36
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "authority": "Root2026-10-12T17:18:55 permits separate11 B-band first bounded check after frame terminal and exact source/API/binding. Six scatter/temp facts held.",
+  "next_owner": "/root/prove_main_signed_word"
+}
