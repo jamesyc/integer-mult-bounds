@@ -1,0 +1,52 @@
+{
+  "status": "PENDING_SOURCE_API_AND_CURRENT_BINDING_REVIEW",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-frame-boundaries/CurrentR420FrameBoundaryCheck.lean",
+    "sha256": "a667c3fbbdbe0c577e03cb1c1334b6542dcdd5cf4c546d5c26cdde2847639b96",
+    "bytes": 2635
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-frame-boundaries/SOURCE_BINDING.json",
+    "sha256": "0334fff4addd6003c241b45841c6e3350b27a21e6f6d807e729fd69ff2a264f8",
+    "bytes": 11364
+  },
+  "roots": [
+    "CurrentR420FrameBoundaryCheck"
+  ],
+  "explicit_imports": [
+    "CurrentR420FrameIndexCheck"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420Boundary.frame_domain",
+    "CurrentMain.CurrentR420Boundary.zero_full_rows",
+    "CurrentMain.CurrentR420Boundary.boundary_domain",
+    "CurrentMain.CurrentR420Boundary.source_entrances",
+    "CurrentMain.CurrentR420Boundary.nonsource_entrances",
+    "CurrentMain.CurrentR420Boundary.source_helper_final_full",
+    "CurrentMain.CurrentR420Boundary.retained_helper_ids"
+  ],
+  "scope": {
+    "total": [
+      323,
+      322,
+      1
+    ],
+    "local": [
+      6,
+      5,
+      1
+    ],
+    "core": 317,
+    "protected_prior": 35
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "authority": "Root17:01:26 next7-fact first bounded gate after terminal/source/API/binding reviews; root17:02:04 approves symbolic frame_domain reuse with exact source binding.",
+  "next_owner": "/root/prove_main_signed_word"
+}
