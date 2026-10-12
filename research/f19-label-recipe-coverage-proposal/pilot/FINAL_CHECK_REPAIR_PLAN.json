@@ -1,0 +1,315 @@
+{
+  "status": "SECOND_BOUNDED_PROOF_ONLY_RETRY_AFTER_INDEPENDENT_REVIEW",
+  "local_scope": {
+    "modules": 4,
+    "current": 3,
+    "pending": 1
+  },
+  "ordered_pending_roots": [
+    "F19CoveragePilotCheck"
+  ],
+  "pending_sources": [
+    {
+      "module": "F19CoveragePilotCheck",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/F19CoveragePilotCheck.lean",
+        "sha256": "2e63ac5e093b5a435952ecdb98bae91923ea4b9217b0706111ba0d3697fb69ee",
+        "bytes": 1308
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+      "imports": [
+        "F19CoveragePilotData"
+      ],
+      "source_object_receipt_log_absent": false,
+      "failed_prestate": {
+        "source": {
+          "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+          "sha256": "8f6dc006790e4205935f5b62e6814165aaf72a55f4588ea10703238895803758",
+          "bytes": 926
+        },
+        "receipt": {
+          "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+          "sha256": "9ae30ba2833dafbe0c8df621c99ecd9df9b669530722122c6aed00a5c4fcabc8",
+          "bytes": 3468
+        },
+        "log": {
+          "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+          "sha256": "b63d2b2a8cebdbe2a843d1df053da358d3e46a94ac3acfa5fdfe1df688665c89",
+          "bytes": 637
+        },
+        "preserved": [
+          {
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/F19CoveragePilotCheck.lean",
+            "sha256": "8f6dc006790e4205935f5b62e6814165aaf72a55f4588ea10703238895803758",
+            "bytes": 926
+          },
+          {
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+            "sha256": "9ae30ba2833dafbe0c8df621c99ecd9df9b669530722122c6aed00a5c4fcabc8",
+            "bytes": 3468
+          },
+          {
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+            "sha256": "b63d2b2a8cebdbe2a843d1df053da358d3e46a94ac3acfa5fdfe1df688665c89",
+            "bytes": 637
+          }
+        ]
+      }
+    }
+  ],
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/new_main_binding/pr509_reuse/SOURCE_IMPORT_FOOTPRINT_V2.json",
+    "sha256": "8ab51a655fff02741615eb04281d62a1e18236f773d8bc2c5b599bfddc929b1c",
+    "bytes": 2386951
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/SOURCE_CURRENT_FINAL_CHECK.json",
+    "sha256": "425c96adaae512970a029459d19813ec0bacdc4b3a92ce52bd6c1fcdc9c61ff5",
+    "bytes": 10828
+  },
+  "external_scope": {
+    "nodes": 2213,
+    "object_bytes": 1400918888
+  },
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_VM_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_VM_bytes": 3758096384,
+    "serial_client": true,
+    "shared_slots_used": 1,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "decoder_bounds": {
+    "input_uncompressed_bytes_each": 16777216,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 20,
+    "wall_seconds": 30
+  },
+  "exact_finite_scope": {
+    "forward_zero_based_raw_indices": [
+      10851,
+      10978
+    ],
+    "backward_zero_based_raw_indices": [
+      10851,
+      10978
+    ],
+    "rows_each": 128,
+    "total_rows": 256,
+    "initial_labels": "exact canonical.start; C-register label0 is bookkeeping, never a clean-payload assumption"
+  },
+  "source_provenance": {
+    "source_pins": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/SOURCE_PINS.json",
+      "sha256": "a421dbba26b1e586c6517bf011fa8ab481929ae687c124a508416b6b149c861f",
+      "bytes": 3525
+    },
+    "decoder": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/decode_pilot.py",
+      "sha256": "89be739f32fecd831140c33f9d85027c6b2d69c17b6efc57e6faed591bc84946",
+      "bytes": 9665
+    },
+    "decoder_audit": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/DECODER_AUDIT.json",
+      "sha256": "b3ee5834625881f851b50ef718d98ca889d1aaca20a2e82ee8b8ed1abdb3f05f",
+      "bytes": 3523
+    },
+    "inverse_projection": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/LITERAL_PROJECTION.json",
+      "sha256": "f8e371d661ec8b3f3eafb389879c5ec881f866448bd50931475ca5c577d3185b",
+      "bytes": 241037
+    },
+    "excluded_boundary_rows": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/OMITTED_ROWS.json",
+      "sha256": "a8e4fd3491413161afdf5ac2ccab66657489126894656bb2883fb2d33579ab51",
+      "bytes": 415428
+    }
+  },
+  "runtime_pins": {
+    "binary": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/bin/lean",
+      "sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "bytes": 8992
+    },
+    "runner": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/tools/lean_check.py",
+      "sha256": "b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207",
+      "bytes": 9277
+    },
+    "environment_file": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/LIBRARY_PATHS.env",
+      "sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b",
+      "bytes": 1104
+    },
+    "runtime_manifest": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/RUNTIME_MANIFEST.json",
+      "sha256": "ab464201c227220435a5f886c70b547d5456da32d5d526b4be077667957724cf",
+      "bytes": 4012
+    }
+  },
+  "external_library_paths": [
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/Qq/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/aesop/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/plausible/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "requirements": [
+    "Exactly one changed final checker; all3 current prerequisites must remain byte-identical.",
+    "Retained nonblocking owner, one exclusive failed-source lock and three shared current-source locks.",
+    "Exact failed-prestate and preimage audit before atomic source replacement; no missing evidence or accepted object may be overwritten.",
+    "Existing60s/4GiB hard and45s/3.5GiB reviews; no recursion/resource option increase.",
+    "Preserve every public statement, selected row, initializer, import and generated literal.",
+    "Three complete standard-only axiom probes; no native decision axiom."
+  ],
+  "held": [
+    "Full21320-row projection in either direction",
+    "Excluded endpoint/residual adapter label/operator binding",
+    "Scalar matrix or Clifford replay",
+    "Whole-owner hosting and physical costs"
+  ],
+  "kappa": "No new kappa result is claimed.",
+  "preserved_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      },
+      "historical_execution_seconds": 6.246807060999345,
+      "historical_queue_seconds": 0.0005243800005700905,
+      "historical_peak_vm_bytes": 3301388288
+    },
+    {
+      "module": "F19CoverageStatement",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+        "sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+        "bytes": 363832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+        "sha256": "f8dde87d974d62ba82aa7ebf63ba6fcfd2a21d03e0d5715f391774458ae139de",
+        "bytes": 3493
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+        "sha256": "ad9b5a3aea4bcad7a4bc034a1d631323fdb8bbfa89153f8936ca4a3c7e421ea1",
+        "bytes": 254
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+        "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+        "bytes": 82366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+        "sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+        "bytes": 7177224
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.json",
+        "sha256": "e44a6ae95ba4d27b08d0c0a8180a76c455e4683f727bcada009448fcf06761d2",
+        "bytes": 3513
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        }
+      }
+    }
+  ],
+  "repair": {
+    "failed_source_sha256": "8f6dc006790e4205935f5b62e6814165aaf72a55f4588ea10703238895803758",
+    "changed_only": "Only selected_pilot_checked proof body: shape decision plus separate forward/backward128-row kernel reductions, composed through Bool.and_eq_true_iff. All statements/imports/rows/options unchanged.",
+    "installed_API": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Tactics.lean",
+      "sha256": "a90a98b54fcf690053ee2125e46ce4c39e5ad46712629eae1c72460d1f5494d4",
+      "bytes": 83158
+    },
+    "installed_API_lines": [
+      1280,
+      1315
+    ],
+    "installed_implementation": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Elab/Tactic/ElabTerm.lean",
+      "sha256": "a73ff4218da2dabca6ea97059da285bfdbbfd10a4a98d5e042266c0fd5a49082",
+      "bytes": 26717
+    },
+    "installed_implementation_lines": [
+      435,
+      485
+    ],
+    "preservation": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/PRESERVATION.json",
+      "sha256": "b400be07ca23511e8a8abb56a78b83a2248effc33b0c1f982cc951e5db939205",
+      "bytes": 5873
+    },
+    "root_second_retry_release_received_utc": "2026-10-12T10:06:44+00:00"
+  }
+}

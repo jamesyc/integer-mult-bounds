@@ -13,7 +13,12 @@ theorem exact_source_indices :
   decide
 
 theorem selected_pilot_checked : checkPilot PilotData.data = true := by
-  decide
+  have hs : pilotShapeB PilotData.data = true := by decide
+  have hf : checkRows PilotData.data PilotData.data.forward
+      (initialLabels PilotData.data) = true := by decide +kernel
+  have hb : checkRows PilotData.data PilotData.data.backward
+      (initialLabels PilotData.data) = true := by decide +kernel
+  exact Bool.and_eq_true_iff.mpr ⟨hs, Bool.and_eq_true_iff.mpr ⟨hf, hb⟩⟩
 
 theorem selected_pilot_wellLabelled : ProjectedWellLabelled PilotData.data :=
   checkPilot_wellLabelled PilotData.data selected_pilot_checked
