@@ -1,21 +1,22 @@
 {
-  "status": "SOURCE_ONLY_PENDING_KEY_SUPPLIER_TERMINAL_AND_INDEPENDENT_REVIEW",
+  "status": "SOURCE_ONLY_ONE_CANONICAL_RATIONAL_IMPORT_REPAIR",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-first45-recipes/Current535First45Recipes.lean",
-    "sha256": "b7aea236e8ffd5c95c65ee01b64512a46fcd466920793a32f0646743bac49a80",
-    "bytes": 6057
+    "sha256": "4081ae64d5adc7341df38c3064adf0a177903adfd8ab667e90ab22dce8793197",
+    "bytes": 6092
   },
   "direct_imports": [
     "Current535First45KeyRestriction",
-    "Current535Child002Canonical"
+    "Current535Child002Canonical",
+    "Mathlib.Algebra.Algebra.Rat"
   ],
   "prospective_local_scope": {
     "total": 23,
     "retained": 22,
     "new": 1
   },
-  "external_pairs": 2620,
-  "new_external_pairs": 0,
+  "external_pairs": 2621,
+  "new_external_pairs": 1,
   "expected_probes": [
     "CurrentMain.Current535First45Recipes.frameTwo_apply",
     "CurrentMain.Current535First45Recipes.recipe02_exact",
@@ -48,10 +49,11 @@
     "normalized_record_sha256": "1c3baf4a4a5fee2faf4bdd8e3a3f1e8294bfe7fa40403506a03fef4d331b49a0"
   },
   "remaining": [
-    "Bank key supplier terminal acceptance before admission.",
+    "Amended source/API/runtime/binding review and this root acceptance; bank key supplier terminal9cc22ab0 is accepted.",
     "Caller chart0/chart2 identifications.",
     "Actual packed/physical executor equality to the interpreted Event program.",
     "Expanded private work and complete physical endpoint/row/column/cost suppliers."
   ],
-  "publication": "No publication admission or author-checked kappa for this proposal."
+  "publication": "No publication admission or author-checked kappa for this proposal.",
+  "root_authority": "Root15:49 authorizes one installed canonical module closure amendment and one bounded repaired root after exact review, unchangedcaps."
 }

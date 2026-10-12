@@ -1,5 +1,6 @@
 import Current535First45KeyRestriction
 import Current535Child002Canonical
+import Mathlib.Algebra.Algebra.Rat
 
 /-!
 Interpreted recipe supplier for the four checked current535 first45 A/B blocks.

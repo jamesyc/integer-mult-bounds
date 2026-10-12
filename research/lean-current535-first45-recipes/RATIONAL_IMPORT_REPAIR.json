@@ -1,0 +1,17 @@
+{
+  "status": "EXACT_ONE_IMPORT_DEPENDENCY_REPAIR_SOURCE_ONLY",
+  "old_source_sha256": "b7aea236e8ffd5c95c65ee01b64512a46fcd466920793a32f0646743bac49a80",
+  "new_source_sha256": "4081ae64d5adc7341df38c3064adf0a177903adfd8ab667e90ab22dce8793197",
+  "failed_receipt_sha256": "67bda889fee06ca0f72af36eaa7c21d58d1a5b495bdd5dd6e047f9d7b965c2bc",
+  "added_external": "Mathlib.Algebra.Algebra.Rat",
+  "added_source_sha256": "8cb7044eec70c106a799d4c3ba32fd0e71c56ef9b5233d937019101d302c3366",
+  "added_object_sha256": "e87225d43f4a1df6d562aad67fc1632f1bc04ddad4847e3b185e073f34186b99",
+  "resource_delta": {
+    "new_cached_modules": 1,
+    "new_object_bytes": 184592,
+    "new_header_edges": 5,
+    "new_local_compiler_roots": 0,
+    "caps_changed": false
+  },
+  "proposal_sha256": "3a30f1fbd92b58f49247e726530903c4593332afc27a2c0c129b77f8a005ad61"
+}
