@@ -20,5 +20,28 @@
     "relabel": 94
   },
   "scope": "Exact projected label/catalog coverage and full736-label checkpoint only; omitted earlier prefix/adapters and operators remain open.",
-  "measured_jobs": []
+  "measured_jobs": [
+    {
+      "module": "F19CoverageChild5MoreData",
+      "admitted_utc": "2026-10-12T13:08:08.626817+00:00",
+      "compile_seconds": 5.149140826993971,
+      "queue_seconds": 0.0005034999994677491,
+      "samples": 52,
+      "peak_vm_bytes": 2104684544,
+      "peak_rss_bytes": 1509978112,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageChild5MoreCheck",
+      "admitted_utc": "2026-10-12T13:08:20.164864+00:00",
+      "compile_seconds": 14.699832031998085,
+      "queue_seconds": 0.0008456330033368431,
+      "samples": 147,
+      "peak_vm_bytes": 2239250432,
+      "peak_rss_bytes": 1638760448,
+      "peak_threads": 3
+    }
+  ],
+  "total_compile_seconds": 19.848972858992056,
+  "total_queue_seconds": 0.0013491330028045923
 }
