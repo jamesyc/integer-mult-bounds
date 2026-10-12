@@ -1,0 +1,163 @@
+{
+  "status": "SOURCE_BOUND_CURRENT_PR510_FINITE_LOG_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-12T14:48:48.684069+00:00",
+  "source": {
+    "module": "CurrentBitLogCheckpoints",
+    "file": "CurrentBitLogCheckpoints.lean",
+    "sha256": "e603335f6420b4b4033c33652f3361121fce8f00daf16a6858a9c8a02738298d",
+    "bytes": 10306,
+    "explicit_imports": [
+      "SelectedMomentLogCheckpoints"
+    ],
+    "expected_probes": [
+      "CurrentMain.CurrentBitLogCheckpoints.z1_7_upper",
+      "CurrentMain.CurrentBitLogCheckpoints.z1_15_upper"
+    ]
+  },
+  "current_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/certificates/selected-result.json",
+      "sha256": "a2ee54471f26e495564a2e5ae745fefe627384cf2fe68a77422e26709591e30a",
+      "bytes": 1982,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "914f48ebac8296a040ecbfa00644c1b6dbfbae95"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710,
+      "repository_path": "research/community-family533-audit/SELECTED-SOURCE.json",
+      "git_blob": "c527670100dd303200bd38c7b9125a2c66de8b72"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/pr535-ASSEMBLY.json",
+      "sha256": "246f082c286170d61f0aff3cbc4e4162852e5b162ea67cee274b280c04c4e564",
+      "bytes": 22092,
+      "repository_path": "research/community-family533-audit/pr535-ASSEMBLY.json",
+      "git_blob": "5e5fe27858abf4af408415636d8eafde1e4a3f0d"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/inputs/PR510-EXPECTED.json",
+      "sha256": "19b861f69f7602e47b390d472b487d044bff4230b250520807537c213ad0249f",
+      "bytes": 2241,
+      "repository_path": "research/post-center-rank4-global/inputs/PR510-EXPECTED.json",
+      "git_blob": "9e5d3669638caa58c916f1d6a8e9946d47915089"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/code/assemble_combined.py",
+      "sha256": "41216e8da3b647fe6eead9079858f25b2592cab090154aca43f3cc73ff36dc9b",
+      "bytes": 8093,
+      "repository_path": "research/post-center-rank4-global/code/assemble_combined.py",
+      "git_blob": "ea740f367ed493c47d7ef5d45f91ed7fd16f04e5"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1584931111785787/1000000000000000000",
+  "decimal": "0.001584931111785787",
+  "current_bit_input": {
+    "m": 64,
+    "live": 30720,
+    "bit_lower": "396861776523137034277/250000000000000000000000",
+    "profile": {
+      "1": 345600,
+      "2": 430080,
+      "4": 67200,
+      "6": 49920,
+      "7": 23040,
+      "8": 2592
+    }
+  },
+  "binary_reductions_read_only": [
+    {
+      "rank": 1,
+      "count": 345600,
+      "binary_k": 5,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 2,
+      "count": 430080,
+      "binary_k": 4,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 4,
+      "count": 67200,
+      "binary_k": 3,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 6,
+      "count": 49920,
+      "binary_k": 3,
+      "unit": "4/3",
+      "z": "1/7"
+    },
+    {
+      "rank": 7,
+      "count": 23040,
+      "binary_k": 3,
+      "unit": "8/7",
+      "z": "1/15"
+    },
+    {
+      "rank": 8,
+      "count": 2592,
+      "binary_k": 2,
+      "unit": "2",
+      "z": "1/3"
+    }
+  ],
+  "source_lines": {
+    "loaded_bit_profile": "assemble_combined.py:79-98",
+    "unit_formula": "base_two_moment.py:20-24",
+    "binary_reduction": "base_two_moment.py:27-37"
+  },
+  "accepted_definitions": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+    "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+    "bytes": 33554
+  },
+  "reused_public_definitions": [
+    "powerFraction",
+    "logTerm",
+    "logBlock",
+    "logSum80",
+    "unitUpper"
+  ],
+  "new_log_literal_blocks": 20,
+  "total_kernel_decisions": 22,
+  "witnesses": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_bit_log/CHECKPOINT_WITNESSES.json",
+    "sha256": "bdbdb9e308389b5d31628bee59ef557cfc89d6183d5dda4fd845089cb8f6ce01",
+    "bytes": 6531
+  },
+  "emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_bit_log/prepare_source.py",
+    "sha256": "b7456fb571ae6e741b56b2d68aa33f1245d58809116a74103f897ab264fd2c13",
+    "bytes": 7737,
+    "trusted_for_proof": false,
+    "upstream_modules_executed": false
+  },
+  "remaining": [
+    "Real upper enclosure for these two log units.",
+    "Six current bit rounded logs and separately rounded weighted aggregate.",
+    "Current bit Real moment, operator/profile realization, bootstrap/outer transfer and full selected-kappa/all-size theorem."
+  ]
+}
