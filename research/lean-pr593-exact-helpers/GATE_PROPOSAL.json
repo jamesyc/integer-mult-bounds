@@ -1,0 +1,35 @@
+{
+  "status": "SOURCE_API_RESOURCE_PROPOSAL",
+  "direct_imports": [
+    "PR593Clifford"
+  ],
+  "local_scope": {
+    "modules": 2,
+    "retained": 1,
+    "new": 1
+  },
+  "external_pairs": 2501,
+  "expected_axiom_probes": [
+    "HyperplaneEnd.Exact.invRows",
+    "HyperplaneEnd.Exact.fourierC",
+    "HyperplaneEnd.Exact.canon",
+    "HyperplaneEnd.Exact.Mono.gates"
+  ],
+  "explicit_type_checks": 3,
+  "finite_certificate_decisions": 0,
+  "source_bytes": 3825,
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "remaining": [
+    "Exact source-loop/fuel and list/mask correspondence",
+    "Selected record literals and canonical circuit equality",
+    "Gate-validity/inverse conditions",
+    "Selected packed check = true",
+    "Actual executor and full-work semantics"
+  ],
+  "authority": "Root 18:22 authorizes one bounded helper check after independent exact-slice/API/binding review. No selected certificate execution."
+}

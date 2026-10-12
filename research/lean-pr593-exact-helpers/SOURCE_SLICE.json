@@ -1,0 +1,46 @@
+{
+  "status": "EXACT_SOURCE_SLICE_PROPOSAL",
+  "upstream": {
+    "sha256": "eebf3a3982af7ab9be45777b272a6aaa523206fa7667ceb6df63ad6589fd8183",
+    "bytes": 26016
+  },
+  "upstream_commit": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+  "upstream_path": "research/hyperplane-end-lean/HyperplaneEnd/Exact.lean",
+  "upstream_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4/research/hyperplane-end-lean/HyperplaneEnd/Exact.lean",
+  "git_blob": "1af33a206a9ba6c4826b3a1516d104e770380869",
+  "slice": {
+    "lines_inclusive": [
+      29,
+      96
+    ],
+    "sha256": "bcee6a011387d9c97da8ebe7f2c90d09655157822c865756c1992b4e10e716cb",
+    "bytes": 2743,
+    "candidate_offset_bytes": 621
+  },
+  "declarations": [
+    "colBits",
+    "transpose",
+    "lead",
+    "insPiv",
+    "rank",
+    "basisExtend",
+    "invRows",
+    "fourierC",
+    "canon",
+    "Mono",
+    "Mono.gates"
+  ],
+  "changes_outside_slice": [
+    "Flat accepted import alias PR593Clifford",
+    "Namespace/open scaffolding without Main, TensorProduct or Complex",
+    "Attribution/scope header",
+    "Four definition-axiom probes and three explicit API type checks"
+  ],
+  "excluded": [
+    "HyperplaneEnd.Main",
+    "Pair and residual record literals",
+    "Tensor-product operators and endpoint theorems",
+    "All upstream finite check/validity certificates"
+  ],
+  "claim": "The exact helper definitions elaborate against accepted PR593Clifford; no mathematical or selected-instance correctness theorem is added."
+}
