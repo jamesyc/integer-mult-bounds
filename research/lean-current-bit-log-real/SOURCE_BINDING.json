@@ -1,11 +1,11 @@
 {
-  "status": "CURRENT_PR510_REAL_UNITS_SOURCE_PROPOSAL_UNCHECKED",
+  "status": "FIRST_PROOF_LOCAL_LITERAL_CAST_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T15:17:08.272858+00:00",
   "source": {
     "module": "CurrentBitLogRealEnclosure",
     "file": "CurrentBitLogRealEnclosure.lean",
-    "sha256": "e5987c39728e7881314b48e8db43afacdba21480a41c499eca6e2aa1cf24e9df",
-    "bytes": 9463,
+    "sha256": "646bfa9dd620d5a3a04979c3fa52d1bb0ae36953acc365ab9f2cf4baebb29202",
+    "bytes": 9523,
     "explicit_imports": [
       "CurrentBitLogCheckpoints",
       "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
@@ -172,5 +172,13 @@
     "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
     "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
     "byte_identical_historical_path": true
+  },
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_bit_log_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "c5be9ff17d1e47fc6cfd7d6114e786500a07db949c2ff018aaa4a6c4113b1a35",
+      "bytes": 7237
+    },
+    "scope": "Two proof-only simp sets gain Rat.cast_div and Rat.cast_ofNat to align the measured rational quotient casts. Statements/literals/imports/options/current data unchanged."
   }
 }

@@ -1,11 +1,11 @@
 {
-  "status": "SOURCE_API_RESOURCE_REVIEW_PENDING_NO_COMPILER_DISPATCH",
+  "status": "FIRST_PROOF_LOCAL_LITERAL_CAST_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T15:17:08.296417+00:00",
   "source": {
     "module": "CurrentBitLogRealEnclosure",
     "file": "CurrentBitLogRealEnclosure.lean",
-    "sha256": "e5987c39728e7881314b48e8db43afacdba21480a41c499eca6e2aa1cf24e9df",
-    "bytes": 9463,
+    "sha256": "646bfa9dd620d5a3a04979c3fa52d1bb0ae36953acc365ab9f2cf4baebb29202",
+    "bytes": 9523,
     "explicit_imports": [
       "CurrentBitLogCheckpoints",
       "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
@@ -17,7 +17,7 @@
       "CurrentMain.CurrentBitLogRealEnclosure.log_eight_sevenths_literal"
     ]
   },
-  "source_binding_sha256": "e9f86fea462e95b1b3a16733d61f5587a9792f253754a460390d293acf468093",
+  "source_binding_sha256": "66493c362aac7f7d22163f73c337e30435e3e90a432a6a9215ad36959006ea95",
   "scope": [
     3,
     2,
@@ -793,5 +793,13 @@
   },
   "resource_qualification": "Exactly the already accepted Log.Deriv3260-node union, with two finite tail comparisons and verbatim generic proof chain. Prior five-unit runtime is comparison evidence only; this root fit is unmeasured. No installation, source expansion or prerequisite replay.",
   "source_pin_guard": "Six detached7dfa raw/Git pins; all twelve current quadruples retained with their actual original runtime path lists.",
-  "authority": "Root2026-10-12T15:14:54 authorized current PR510 Real enclosure preparation and first bounded gate after independent science/API/binding review and explicit minimal closure/probes. Concrete3/2/1 uses the accepted numeric identities in two additional literal conclusions."
+  "authority": "Root2026-10-12T15:14:54 authorized current PR510 Real enclosure preparation and first bounded gate after independent science/API/binding review and explicit minimal closure/probes. Concrete3/2/1 uses the accepted numeric identities in two additional literal conclusions.",
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_bit_log_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "c5be9ff17d1e47fc6cfd7d6114e786500a07db949c2ff018aaa4a6c4113b1a35",
+      "bytes": 7237
+    },
+    "scope": "Two proof-only simp sets gain Rat.cast_div and Rat.cast_ofNat to align the measured rational quotient casts. Statements/literals/imports/options/current data unchanged."
+  }
 }
