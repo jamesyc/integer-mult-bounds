@@ -53,7 +53,7 @@ theorem forward_checkpoint388 :
     (fun _ => (7 : FrameLabel)) Child5Data.new388 forward_support388 forward_touched388
 
 theorem forward_composed_wellLabelled388 :
-    LemmaG.Stream.WellLabelled ((((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE).map Row.event)
+    LemmaG.Stream.WellLabelled (((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE).map Row.event)
       (initialLabels PilotData.data) := by
   rw [List.map_append]
   apply (LemmaG.Stream.wellLabelled_append _ _ _).mpr
@@ -62,7 +62,7 @@ theorem forward_composed_wellLabelled388 :
   exact forward_E_wellLabelled
 
 theorem forward_composed_checkpoint388 :
-    LemmaG.Stream.labRun ((((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE).map Row.event)
+    LemmaG.Stream.labRun (((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE).map Row.event)
       (initialLabels PilotData.data) = Child5Data.labels388 := by
   rw [List.map_append, LemmaG.Stream.labRun_append, Child34Check.forward_composed_checkpoint364]
   exact forward_checkpoint388
@@ -101,7 +101,7 @@ theorem forward_checkpoint409 :
     (fun _ => (7 : FrameLabel)) Child5Data.new409 forward_support409 forward_touched409
 
 theorem forward_composed_wellLabelled409 :
-    LemmaG.Stream.WellLabelled (((((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE) ++ Child5Data.forwardF).map Row.event)
+    LemmaG.Stream.WellLabelled ((((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE) ++ Child5Data.forwardF).map Row.event)
       (initialLabels PilotData.data) := by
   rw [List.map_append]
   apply (LemmaG.Stream.wellLabelled_append _ _ _).mpr
@@ -110,7 +110,7 @@ theorem forward_composed_wellLabelled409 :
   exact forward_F_wellLabelled
 
 theorem forward_composed_checkpoint409 :
-    LemmaG.Stream.labRun (((((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE) ++ Child5Data.forwardF).map Row.event)
+    LemmaG.Stream.labRun ((((((((PilotData.forward ++ NextData.forward) ++ BatchData.forwardA) ++ BatchData.forwardB) ++ Child34Data.forwardC) ++ Child34Data.forwardD) ++ Child5Data.forwardE) ++ Child5Data.forwardF).map Row.event)
       (initialLabels PilotData.data) = Child5Data.labels409 := by
   rw [List.map_append, LemmaG.Stream.labRun_append, forward_composed_checkpoint388]
   exact forward_checkpoint409
@@ -149,7 +149,7 @@ theorem backward_checkpoint388 :
     (fun _ => (7 : FrameLabel)) Child5Data.new388 backward_support388 backward_touched388
 
 theorem backward_composed_wellLabelled388 :
-    LemmaG.Stream.WellLabelled ((((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE).map Row.event)
+    LemmaG.Stream.WellLabelled (((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE).map Row.event)
       (initialLabels PilotData.data) := by
   rw [List.map_append]
   apply (LemmaG.Stream.wellLabelled_append _ _ _).mpr
@@ -158,7 +158,7 @@ theorem backward_composed_wellLabelled388 :
   exact backward_E_wellLabelled
 
 theorem backward_composed_checkpoint388 :
-    LemmaG.Stream.labRun ((((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE).map Row.event)
+    LemmaG.Stream.labRun (((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE).map Row.event)
       (initialLabels PilotData.data) = Child5Data.labels388 := by
   rw [List.map_append, LemmaG.Stream.labRun_append, Child34Check.backward_composed_checkpoint364]
   exact backward_checkpoint388
@@ -197,7 +197,7 @@ theorem backward_checkpoint409 :
     (fun _ => (7 : FrameLabel)) Child5Data.new409 backward_support409 backward_touched409
 
 theorem backward_composed_wellLabelled409 :
-    LemmaG.Stream.WellLabelled (((((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE) ++ Child5Data.backwardF).map Row.event)
+    LemmaG.Stream.WellLabelled ((((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE) ++ Child5Data.backwardF).map Row.event)
       (initialLabels PilotData.data) := by
   rw [List.map_append]
   apply (LemmaG.Stream.wellLabelled_append _ _ _).mpr
@@ -206,7 +206,7 @@ theorem backward_composed_wellLabelled409 :
   exact backward_F_wellLabelled
 
 theorem backward_composed_checkpoint409 :
-    LemmaG.Stream.labRun (((((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE) ++ Child5Data.backwardF).map Row.event)
+    LemmaG.Stream.labRun ((((((((PilotData.backward ++ NextData.backward) ++ BatchData.backwardA) ++ BatchData.backwardB) ++ Child34Data.backwardC) ++ Child34Data.backwardD) ++ Child5Data.backwardE) ++ Child5Data.backwardF).map Row.event)
       (initialLabels PilotData.data) = Child5Data.labels409 := by
   rw [List.map_append, LemmaG.Stream.labRun_append, backward_composed_checkpoint388]
   exact backward_checkpoint409
