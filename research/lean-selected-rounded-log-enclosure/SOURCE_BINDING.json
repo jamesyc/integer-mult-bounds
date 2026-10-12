@@ -1,0 +1,133 @@
+{
+  "status": "SOURCE_ONLY_EXECUTABLE_CEILING_AND_SELECTED_ROUNDED_LOG_CANDIDATE",
+  "created_utc": "2026-10-12T12:57:04.227943+00:00",
+  "source": {
+    "module": "SelectedRoundedLogEnclosure",
+    "file": "SelectedRoundedLogEnclosure.lean",
+    "sha256": "67ad808f509d09ed3d1a5a32763343ce71f1fef08f1349e6846a95f89db23739",
+    "bytes": 5748,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate",
+      "SelectedMomentLogUnitEnclosure"
+    ],
+    "expected_probes": [
+      "CurrentMain.SelectedRoundedLogEnclosure.ceilGrid_outward",
+      "CurrentMain.SelectedRoundedLogEnclosure.selected_rounded_log_enclosures"
+    ]
+  },
+  "source_context": {
+    "commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "publication_base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+    "conditional_kappa": "1517760977820331/1000000000000000000",
+    "decimal": "0.001517760977820331"
+  },
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "lines": "29-35"
+  },
+  "accepted_definitions": {
+    "module": "SelectedMomentUpperAggregate",
+    "source_sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+    "definitions": [
+      "gridScale",
+      "ceilGrid",
+      "roundedLog",
+      "sourceLogDomain"
+    ],
+    "binary_identities": "First nine conjuncts of source_domains, in source order.",
+    "unit_enclosures": {
+      "module": "SelectedMomentLogUnitEnclosure",
+      "source_sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+      "public_facts": [
+        "log_two_upper",
+        "log_73_64_upper",
+        "log_73_48_upper",
+        "log_73_40_upper",
+        "log_73_56_upper"
+      ]
+    }
+  },
+  "proof_components": [
+    "Executable Rat.ceil denominator-one branch equals the input via num_div_den.",
+    "Other denominator branch equals executable floor+1, so Int.lt_floor_add_one and Rat.floor_def give outwardness. No equality to abstract Int.ceil is assumed.",
+    "Positive gridScale converts executable ceiling outwardness to q<=ceilGrid q for all rational q.",
+    "Cast the exact accepted binary identity73/rank/2^k toReal; use positivity and Real.log_mul/log_pow.",
+    "Apply accepted unit logarithm bounds with nonnegative k, then cast the exact source ceilGrid bound.",
+    "Instantiate all nine accepted source tuples, including rank-one fallback input."
+  ],
+  "installed_api_rows": [
+    {
+      "module": "Batteries.Data.Rat.Basic",
+      "source": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/Batteries/Data/Rat/Basic.lean",
+      "source_sha256": "1bb2b99f578d0ce601a07ed004648b297f532ae19704f8f867aeb4d2c2c84adf",
+      "imports": [
+        "Init",
+        "Batteries.Data.Nat.Gcd"
+      ],
+      "object": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean/Batteries/Data/Rat/Basic.olean",
+      "object_exists": true,
+      "object_sha256": "0f130c5e093b36496b9d6d631dbb13ab5b8f9ceffe2257cbdc9ef7ed194e2150",
+      "object_bytes": 455968
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Floor.Ring",
+      "source": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Floor/Ring.lean",
+      "source_sha256": "fb8d8fd8469075395a9b180e262cb0ba8443c2f4a2d330d0f88946b0fde724cb",
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Field.Basic",
+        "Mathlib.Algebra.Order.Floor.Defs",
+        "Mathlib.Tactic.Abel",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith"
+      ],
+      "object": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Floor/Ring.olean",
+      "object_exists": true,
+      "object_sha256": "c5444110b3a65440caa349c6cd509cd429f5b9a3f5894003ecebe1b4ba363fc0",
+      "object_bytes": 1242480
+    },
+    {
+      "module": "Mathlib.Data.Rat.Floor",
+      "source": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/Rat/Floor.lean",
+      "source_sha256": "6381e0924f717e9ae796306a1682825efe056ed844f35e30d7afafc47bdfaf4b",
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Round",
+        "Mathlib.Data.Rat.Cast.Order",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Ring"
+      ],
+      "object": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Data/Rat/Floor.olean",
+      "object_exists": true,
+      "object_sha256": "e243b2320b702c4cac1af34765abf61ff016c216a53def78a5236b0b4234bd02",
+      "object_bytes": 1087656
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "source": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+      "source_sha256": "425edb3f9ec427ffd7c1a4f9c474077c8f2390c2fb8798a34cbc813593cb395a",
+      "imports": [
+        "Init",
+        "Mathlib.Analysis.SpecialFunctions.Exp",
+        "Mathlib.Data.Nat.Factorization.Defs",
+        "Mathlib.Analysis.NormedSpace.Real",
+        "Mathlib.Data.Rat.Cast.CharZero"
+      ],
+      "object": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Log/Basic.olean",
+      "object_exists": true,
+      "object_sha256": "df1f70589f1c2097f1e1e13a4fde32ead25eedc732add35d48c83b58f6c74ca8",
+      "object_bytes": 1147080
+    }
+  ],
+  "new_numeric_checkpoint_evaluations": 0,
+  "remaining": [
+    "Nonnegative bMinus and Real.exp monotonicity plus the accepted expUpper enclosures.",
+    "Finite positive weighted moment sum with separate ordinary and fallback ceilGrid operations.",
+    "Operator/profile realization, initial savings, perturbation, all-size/caller and full multiplier/kappa theorem."
+  ],
+  "read_only_continuation_plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/BINARY_REDUCTION_AND_CEILING_CONTINUATION_READ_ONLY_PLAN.json",
+    "sha256": "d33f193167d629abe2a4efe04c2a61663d15d3a6c8589743c97ecebceff609fd"
+  }
+}
