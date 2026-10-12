@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT_CHECKED_ROWS_SOURCE_API_REVIEW_NO_COMPILER",
+  "received_utc": "2026-10-12T14:54:37Z",
+  "completed_utc": "2026-10-12T14:56:11.132607+00:00",
+  "source": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_checked_rows_proposal/CurrentCheckedScalarRows.lean.pending",
+    "sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+    "bytes": 8397
+  },
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_checked_rows_proposal/SOURCE_API_RESOURCE_PROPOSAL.json",
+    "sha256": "a817e16dceeb115be386c64c8b1adedfa880c45626db8db70765ce59d7e9a2bd",
+    "bytes": 2711
+  },
+  "accepted_API_sources": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.lean",
+      "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+      "bytes": 7771
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.lean",
+      "sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61",
+      "bytes": 10366
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_centre_band/CurrentScalarCentreBand.lean",
+      "sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d",
+      "bytes": 37670
+    }
+  ],
+  "accepted_bank_scope": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_coverage45/ACCEPTANCE.json",
+    "sha256": "f533c8e40cf6ada118c756f3b635a882bae726f679a35c5659414657045c27d9",
+    "bytes": 24735
+  },
+  "centre_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_centre_band_proposal/gate/ACCEPTANCE.json",
+    "sha256": "769df76f40447373e66c2d076b0127e72954894e3278e787c2af57cf1d3785e5",
+    "bytes": 38223
+  },
+  "review_findings": [
+    "annotation_decodes derives rational decoder totality from the actual scalarAnnotationB premise. ADD/SCALE reject zero signed denominators; other constructors decode directly. No cleanliness premise is added.",
+    "decoded_admissible preserves exact old/new/copy labels and register endpoints. SCALE/CLEAR true cases retain the reviewed True.intro repair pattern.",
+    "checked_rows_labels extracts admissibility, annotation and recursive checkRows conjuncts at the exact evolving row.event.lab state. Its induction preserves ordered mapM decoding, upstream WellLabelled and all-initial-label labRun equality.",
+    "checked_rows_sound calls the already accepted current decoded_rows_run for arbitrary scalar state, without repeating a scalar realization or conjugation proof.",
+    "Each of four selected corollaries consumes exactly one accepted forward/backward A/B checkRows theorem; A uses current labels0/raw10691..10714, B uses labels24/raw10715..10735.",
+    "Frame cardinality stays parameterized; selected events use Fin997. No current label is identified with the historical Fin983 domain.",
+    "No finite decisions or changed data are introduced. Six complete public probes cover the generic public bridge and four selected applications."
+  ],
+  "probes": [
+    "CurrentMain.CurrentCheckedScalarRows.decoded_admissible",
+    "CurrentMain.CurrentCheckedScalarRows.checked_rows_sound",
+    "CurrentMain.CurrentCheckedScalarRows.selected_forward_A",
+    "CurrentMain.CurrentCheckedScalarRows.selected_forward_B",
+    "CurrentMain.CurrentCheckedScalarRows.selected_backward_A",
+    "CurrentMain.CurrentCheckedScalarRows.selected_backward_B"
+  ],
+  "finite_decisions": 0,
+  "scope_note": "Prospective12/11/1 with2232 existing externals; concrete current/runtime inventory and independent centre terminal remain admission conditions.",
+  "limits": [
+    "No actual current prefix before10691 or omitted-adapter supplier.",
+    "No full45 concatenation theorem or subsequent90/180 slices are instantiated here; generic theorem may consume their actual checked premises later.",
+    "No physical work/row-column/whole-word/multiplier conclusion.",
+    "Produces rational Event(Fin736)(Fin997) and upstream WellLabelled. To use DirectedChildRecipes/PR509 conj, caller still supplies RecipesExact, compatible current canonical-frame and Gaussian recipe interpretations, rational restriction or complex-coefficient transport, and actual packed/physical event equality. The checked all-payload operators alone do not identify the serialized executor."
+  ],
+  "source_kappa": "1584931111785787/1000000000000000000 = 0.001584931111785787",
+  "compiler_executed": false,
+  "runtime_review_duplicated": false
+}
