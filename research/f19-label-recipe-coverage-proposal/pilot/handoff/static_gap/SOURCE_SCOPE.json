@@ -1,0 +1,188 @@
+{
+  "status": "FROZEN_SOURCE_ONLY_BATCH_EXPERIMENT_REVIEW_AND_COMPILER_ADMISSION_PENDING",
+  "utc": "2026-10-12T13:21:33.641411+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/F19CoverageStaticGapData.lean",
+      "sha256": "a17529ecfa6d8db49505e0a87354591ad574e0439008c9b8100d525d9d04b11c",
+      "bytes": 17457
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/F19CoverageStaticGapCheckA.lean",
+      "sha256": "af3d0e2b0ab5f91aa392197240b13f23e735d7c1231f7c9264dcffbd471008b8",
+      "bytes": 21034
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/F19CoverageStaticGapCheckB.lean",
+      "sha256": "d3a85a31fe9da1d67e651beb8d88490fd72182d34a69152ce4885503f6a1c672",
+      "bytes": 22048
+    }
+  ],
+  "literal_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/LITERAL_AUDIT.json",
+    "sha256": "3a77f4d4b214c290350a8a72b814a9d73b1bf63775e99643893c67820b82ccb8",
+    "bytes": 135314
+  },
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/decode_static_gap.py",
+    "sha256": "b10d6fbd3f392b0bad6214cdcb5a5be6e5aa7e164daba19c3c1e84c3e7dc78f3",
+    "bytes": 3846
+  },
+  "proof_source_emitter": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/emit_static_checks.py",
+    "sha256": "60932a235b4ef1e9b99d34a73556843c3d5a46480f2141a0221c357a5c87aa2a",
+    "bytes": 3895
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/static_gap/DELIMITER_ADVISORY.json",
+    "sha256": "ed520056778fcabb4de4ef87efb6dd402a6b6366a35fb964bfa54aaa4ba31d2c",
+    "bytes": 2309
+  },
+  "prior_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5_more/ACCEPTANCE.json",
+    "sha256": "43b4d78f902cf673a4218cf76b1c61482c9d1717b53909eb229a439ac4d2d846",
+    "bytes": 72011
+  },
+  "prior_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_CHILD5_MORE_TERMINAL_REVIEW.json",
+    "sha256": "172448053376d7d575d80713911f5056742560e9feab0ed81d03cb5a4859ba06",
+    "bytes": 3668
+  },
+  "approved_source_size_plan": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/STATIC_GAP_PACKET_PROPOSAL.json",
+    "sha256": "9a859bf4437cbef9480531997fd5ee7d27a403ee84f163c734601ab975d8550b",
+    "bytes": 4545
+  },
+  "prospective_local_scope": [
+    26,
+    23,
+    3
+  ],
+  "raw_indices": [
+    11400,
+    11545
+  ],
+  "chunks": [
+    {
+      "name": "M",
+      "raw_indices": [
+        11400,
+        11423
+      ],
+      "rows": 24,
+      "add": 24,
+      "relabel": 0,
+      "checkpoint": 573,
+      "support": [],
+      "child_check_vacuous": true
+    },
+    {
+      "name": "N",
+      "raw_indices": [
+        11424,
+        11447
+      ],
+      "rows": 24,
+      "add": 24,
+      "relabel": 0,
+      "checkpoint": 597,
+      "support": [],
+      "child_check_vacuous": true
+    },
+    {
+      "name": "O",
+      "raw_indices": [
+        11448,
+        11471
+      ],
+      "rows": 24,
+      "add": 24,
+      "relabel": 0,
+      "checkpoint": 621,
+      "support": [],
+      "child_check_vacuous": true
+    },
+    {
+      "name": "P",
+      "raw_indices": [
+        11472,
+        11495
+      ],
+      "rows": 24,
+      "add": 24,
+      "relabel": 0,
+      "checkpoint": 645,
+      "support": [],
+      "child_check_vacuous": true
+    },
+    {
+      "name": "Q",
+      "raw_indices": [
+        11496,
+        11519
+      ],
+      "rows": 24,
+      "add": 24,
+      "relabel": 0,
+      "checkpoint": 669,
+      "support": [],
+      "child_check_vacuous": true
+    },
+    {
+      "name": "R",
+      "raw_indices": [
+        11520,
+        11545
+      ],
+      "rows": 26,
+      "add": 26,
+      "relabel": 0,
+      "checkpoint": 695,
+      "support": [],
+      "child_check_vacuous": true
+    }
+  ],
+  "retained_prefix": 549,
+  "proposed_final_rows_each": 695,
+  "proposed_final_counts_each": {
+    "add": 601,
+    "relabel": 94
+  },
+  "proof_shape": "Each24/26-row block has the retained factored label/child decisions, WellLabelled soundness and full-register sparse checkpoint with empty support. The empty touched check is rfl; supportedB proves there are no label writes. Ordered append consumes accepted549 and each prior block proof, never redeciding the prefix. Labels remain equal to Child5MoreData.labels549 through all six boundaries.",
+  "probe_count": 114,
+  "resource_plan": {
+    "jobs": [
+      "F19CoverageStaticGapData",
+      "F19CoverageStaticGapCheckA",
+      "F19CoverageStaticGapCheckB"
+    ],
+    "hard_seconds_each": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_VM_bytes": 3758096384,
+    "shared_slots": "one existing serial shared checker slot",
+    "async": false,
+    "fresh_maximum_jobs": 3,
+    "CheckA_blocks": [
+      24,
+      24,
+      24
+    ],
+    "CheckB_blocks": [
+      24,
+      24,
+      26
+    ],
+    "stop": "First ordinary failure or review event, preserving accepted inputs and successful fresh roots; no automatic continuation/retry.",
+    "baseline": "Prior48-row module14.699832032s/2239250432VM. Each proposed module has72/74 rows grouped in small independent decisions. Runtime and peak are unmeasured; no fit/speedup/full-stream inference.",
+    "success": "Exactly3 root passes below review,114 complete standard-only probes, six checked row blocks per direction, full695-row WellLabelled composition and full736-register unchanged label checkpoints."
+  },
+  "excluded": [
+    "All omitted boundary adapters and earlier raw prefix before10851",
+    "Centre/scalar/full-payload/physical operator correctness",
+    "Any new directed child branch exercise; the entire new run has no relabels",
+    "Rows after11545, including child6/key0-to8 starting11546",
+    "Full-stream throughput or general speedup"
+  ],
+  "runtime_admission": "Parent approved source preparation only. Independent science/API review and an explicit integration resource/runtime gate are required before compiler activation."
+}
