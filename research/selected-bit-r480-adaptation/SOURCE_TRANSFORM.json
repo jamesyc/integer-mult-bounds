@@ -1,0 +1,91 @@
+{
+  "status": "SOURCE_ONLY_EXACT_ORDERED_PARAMETER_ADAPTATIONS",
+  "files": [
+    {
+      "preimage": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
+      "preimage_sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+      "candidate": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480PhaseBXor.lean",
+      "candidate_sha256": "94582eb91bfc9cebbf2fa892f3b8bb633c9b92c729d1f6a78079a77f7fa3239a",
+      "ordered_replacements": [
+        {
+          "old": "SelectedBitCarrierPhaseBCheck",
+          "new": "SelectedR480Boundary",
+          "occurrences": 1
+        },
+        {
+          "old": "SelectedBitCarrierPhaseBXor",
+          "new": "SelectedR480PhaseBXor",
+          "occurrences": 9
+        },
+        {
+          "old": "SelectedBitCarrierPhaseB",
+          "new": "SelectedR480Boundary",
+          "occurrences": 2
+        },
+        {
+          "old": "729",
+          "new": "720",
+          "occurrences": 6
+        },
+        {
+          "old": "The exact selected B tuples",
+          "new": "The exact selected R480 B tuples",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "preimage": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/SelectedBitCarrierScatterLifecycle.lean",
+      "preimage_sha256": "754c8278cdb41dbff984faae2b1e7acaba611c4473adf5b7436c9d95c5564f3a",
+      "candidate": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480ScatterLifecycle.lean",
+      "candidate_sha256": "ee69555af6f0434007695f4759cecd68c797e434430312ca7c294249e7671489",
+      "ordered_replacements": [
+        {
+          "old": "SelectedBitCarrierPhaseBXor",
+          "new": "SelectedR480PhaseBXor",
+          "occurrences": 1
+        },
+        {
+          "old": "SelectedBitCarrierScatterLifecycle",
+          "new": "SelectedR480ScatterLifecycle",
+          "occurrences": 16
+        },
+        {
+          "old": "SelectedBitCarrierPhaseB",
+          "new": "SelectedR480Boundary",
+          "occurrences": 1
+        },
+        {
+          "old": "720 \u2264",
+          "new": "240 \u2264",
+          "occurrences": 3
+        },
+        {
+          "old": "240 \u2264 720",
+          "new": "240 \u2264 240",
+          "occurrences": 1
+        },
+        {
+          "old": "729",
+          "new": "720",
+          "occurrences": 8
+        },
+        {
+          "old": "730",
+          "new": "721",
+          "occurrences": 5
+        },
+        {
+          "old": "Source-bound Boolean projection",
+          "new": "R480 source-bound Boolean projection",
+          "occurrences": 1
+        },
+        {
+          "old": "Reuses accepted ret/scatter literals.",
+          "new": "Uses the nine new retained IDs and the accepted byte-equal scatter literals.",
+          "occurrences": 1
+        }
+      ]
+    }
+  ]
+}

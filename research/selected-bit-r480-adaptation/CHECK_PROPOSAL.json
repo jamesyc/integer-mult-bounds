@@ -1,0 +1,105 @@
+{
+  "status": "PROPOSED_ONLY_NO_COMPILER_ADMISSION",
+  "created_utc": "2026-10-12T13:43:07.255218+00:00",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SOURCE_BINDING.json",
+    "sha256": "8a0e92f7f773faf5d641fe3d76ada1984d8e33b98dcfa1f205fe2847115faf52",
+    "bytes": 35619
+  },
+  "ordered_roots": [
+    "SelectedR480Boundary",
+    "SelectedR480PhaseBXor",
+    "SelectedR480ScatterLifecycle"
+  ],
+  "ordered_local_closure": [
+    "SelectedBitCarrierBoundaryData",
+    "SelectedBitCarrierBoundaryCheck",
+    "SelectedBitCarrierPhaseBData",
+    "SelectedBitCarrierPhaseBCheck",
+    "SelectedR480Boundary",
+    "BitXorTargetTranslation",
+    "SelectedR480PhaseBXor",
+    "BitCopyScatterWindow",
+    "SelectedR480ScatterLifecycle"
+  ],
+  "local_scope": [
+    9,
+    6,
+    3
+  ],
+  "official_core_count": 317,
+  "total_scope": [
+    326,
+    323,
+    3
+  ],
+  "current_object_bytes": 14412168,
+  "all_nine_preexisting_accepted_roots_preserved": true,
+  "public_probes": {
+    "SelectedR480Boundary": [
+      "CurrentMain.SelectedR480Boundary.selected_shape",
+      "CurrentMain.SelectedR480Boundary.line_shape",
+      "CurrentMain.SelectedR480Boundary.frame_domain",
+      "CurrentMain.SelectedR480Boundary.boundary_domain",
+      "CurrentMain.SelectedR480Boundary.zero_full_rows",
+      "CurrentMain.SelectedR480Boundary.source_entrances",
+      "CurrentMain.SelectedR480Boundary.nonsource_entrances",
+      "CurrentMain.SelectedR480Boundary.source_helper_final_full",
+      "CurrentMain.SelectedR480Boundary.retained_helper_ids",
+      "CurrentMain.SelectedR480Boundary.phase_shape",
+      "CurrentMain.SelectedR480Boundary.phase_domains",
+      "CurrentMain.SelectedR480Boundary.target_destinations",
+      "CurrentMain.SelectedR480Boundary.no_target_operands",
+      "CurrentMain.SelectedR480Boundary.no_self_reads",
+      "CurrentMain.SelectedR480Boundary.scatter_shape",
+      "CurrentMain.SelectedR480Boundary.scatter_index_domain",
+      "CurrentMain.SelectedR480Boundary.scatter_helpers"
+    ],
+    "SelectedR480PhaseBXor": [
+      "CurrentMain.SelectedR480PhaseBXor.decode_roundtrip",
+      "CurrentMain.SelectedR480PhaseBXor.ordered_word_binding",
+      "CurrentMain.SelectedR480PhaseBXor.decoded_gate_properties",
+      "CurrentMain.SelectedR480PhaseBXor.sources_helpers_preserved",
+      "CurrentMain.SelectedR480PhaseBXor.target_translation",
+      "CurrentMain.SelectedR480PhaseBXor.target_identity",
+      "CurrentMain.SelectedR480PhaseBXor.contribution_independent_of_targets"
+    ],
+    "SelectedR480ScatterLifecycle": [
+      "CurrentMain.SelectedR480ScatterLifecycle.raw_shape",
+      "CurrentMain.SelectedR480ScatterLifecycle.raw_domains",
+      "CurrentMain.SelectedR480ScatterLifecycle.source_rows_no_duplicates",
+      "CurrentMain.SelectedR480ScatterLifecycle.decode_roundtrip",
+      "CurrentMain.SelectedR480ScatterLifecycle.ordered_window_binding",
+      "CurrentMain.SelectedR480ScatterLifecycle.decoded_bounds",
+      "CurrentMain.SelectedR480ScatterLifecycle.windows_well_formed",
+      "CurrentMain.SelectedR480ScatterLifecycle.windows_nonempty",
+      "CurrentMain.SelectedR480ScatterLifecycle.exact_lifecycle",
+      "CurrentMain.SelectedR480ScatterLifecycle.final_temp_zero",
+      "CurrentMain.SelectedR480ScatterLifecycle.original_coordinate",
+      "CurrentMain.SelectedR480ScatterLifecycle.sources_helpers_preserved",
+      "CurrentMain.SelectedR480ScatterLifecycle.incoming_temp_independent",
+      "CurrentMain.SelectedR480ScatterLifecycle.clean_temp_restored"
+    ]
+  },
+  "probe_count": 38,
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "environment": {
+    "official_Lean": "4.21.0",
+    "external_library_paths": [],
+    "threads": 1
+  },
+  "required_before_gate": [
+    "Independent science/API source seal",
+    "Fresh source/current/import/first-match guard and exact committed source binding",
+    "Independent exact launcher binding/runtime review",
+    "Explicit scoped release through integration"
+  ]
+}

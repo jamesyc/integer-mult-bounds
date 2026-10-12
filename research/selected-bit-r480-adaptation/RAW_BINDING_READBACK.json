@@ -1,0 +1,186 @@
+{
+  "status": "PASS_BOUNDED_RAW_LITERAL_AND_PARAMETER_BINDING_NO_COMPILER",
+  "utc": "2026-10-12T13:42:16.975447+00:00",
+  "observed_snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "source_bindings": [
+    {
+      "path": "research/e8-r480-dead-totals/data/bitE8mut-r480.json.gz",
+      "sha256": "92e399e9a486b55229b5624632ac54f800dd9e022f2aee97f1e5f264bbc0ef5c",
+      "bytes": 49414,
+      "git_blob": "8e59c4b5380d522b1c1cb930029a71556b2fa65f"
+    },
+    {
+      "path": "research/e8-r480-dead-totals/MANIFEST.json",
+      "sha256": "aa26122b472a4d245f6c45929d19650b5000bdd26a7d454706466b9389922fc1",
+      "bytes": 931,
+      "git_blob": "49e38e028321635ca64d3ed4371a7c03017d757d"
+    },
+    {
+      "path": "research/e8-r480-dead-totals/code/adapt.py",
+      "sha256": "04ec15262595e502796efc1f100f1efd4f28585add48377af1bda702a12c0e40",
+      "bytes": 2560,
+      "git_blob": "6d855e768837c3d0e00ab2408c970e7c8911e378"
+    },
+    {
+      "path": "research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+      "sha256": "8a5999601f917dbb492bb9ae9a344611f18cc7cedc53dc3c76496a369e530eb3",
+      "bytes": 3745,
+      "git_blob": "3632d370486a02f5456f7643ced03f8c925b2350"
+    },
+    {
+      "path": "certificates/selected-result.json",
+      "sha256": "a2ee54471f26e495564a2e5ae745fefe627384cf2fe68a77422e26709591e30a",
+      "bytes": 1982,
+      "git_blob": "914f48ebac8296a040ecbfa00644c1b6dbfbae95"
+    },
+    {
+      "path": "research/community-family533-audit/pr535-ASSEMBLY.json",
+      "sha256": "246f082c286170d61f0aff3cbc4e4162852e5b162ea67cee274b280c04c4e564",
+      "bytes": 22092,
+      "git_blob": "5e5fe27858abf4af408415636d8eafde1e4a3f0d"
+    }
+  ],
+  "decoded": {
+    "sha256": "8639e22008c24a5690dd250eba702fe5fca85ddd036dcbec20baba77b7e213ba",
+    "bytes": 246890
+  },
+  "projected_fields": [
+    "h",
+    "v",
+    "format",
+    "form",
+    "lines",
+    "frames",
+    "R",
+    "ret",
+    "start",
+    "final",
+    "B",
+    "scatter"
+  ],
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480Boundary.lean",
+      "sha256": "505e5d4572888c7bd43d6547486ec64483d57887f7e7996589a4f43b0e60b481",
+      "bytes": 5177,
+      "imports": [
+        "SelectedBitCarrierPhaseBCheck"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480Boundary.selected_shape",
+        "CurrentMain.SelectedR480Boundary.line_shape",
+        "CurrentMain.SelectedR480Boundary.frame_domain",
+        "CurrentMain.SelectedR480Boundary.boundary_domain",
+        "CurrentMain.SelectedR480Boundary.zero_full_rows",
+        "CurrentMain.SelectedR480Boundary.source_entrances",
+        "CurrentMain.SelectedR480Boundary.nonsource_entrances",
+        "CurrentMain.SelectedR480Boundary.source_helper_final_full",
+        "CurrentMain.SelectedR480Boundary.retained_helper_ids",
+        "CurrentMain.SelectedR480Boundary.phase_shape",
+        "CurrentMain.SelectedR480Boundary.phase_domains",
+        "CurrentMain.SelectedR480Boundary.target_destinations",
+        "CurrentMain.SelectedR480Boundary.no_target_operands",
+        "CurrentMain.SelectedR480Boundary.no_self_reads",
+        "CurrentMain.SelectedR480Boundary.scatter_shape",
+        "CurrentMain.SelectedR480Boundary.scatter_index_domain",
+        "CurrentMain.SelectedR480Boundary.scatter_helpers"
+      ]
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480PhaseBXor.lean",
+      "sha256": "94582eb91bfc9cebbf2fa892f3b8bb633c9b92c729d1f6a78079a77f7fa3239a",
+      "bytes": 5006,
+      "imports": [
+        "SelectedR480Boundary",
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480PhaseBXor.decode_roundtrip",
+        "CurrentMain.SelectedR480PhaseBXor.ordered_word_binding",
+        "CurrentMain.SelectedR480PhaseBXor.decoded_gate_properties",
+        "CurrentMain.SelectedR480PhaseBXor.sources_helpers_preserved",
+        "CurrentMain.SelectedR480PhaseBXor.target_translation",
+        "CurrentMain.SelectedR480PhaseBXor.target_identity",
+        "CurrentMain.SelectedR480PhaseBXor.contribution_independent_of_targets"
+      ]
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480ScatterLifecycle.lean",
+      "sha256": "ee69555af6f0434007695f4759cecd68c797e434430312ca7c294249e7671489",
+      "bytes": 7354,
+      "imports": [
+        "SelectedR480PhaseBXor",
+        "BitCopyScatterWindow"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480ScatterLifecycle.raw_shape",
+        "CurrentMain.SelectedR480ScatterLifecycle.raw_domains",
+        "CurrentMain.SelectedR480ScatterLifecycle.source_rows_no_duplicates",
+        "CurrentMain.SelectedR480ScatterLifecycle.decode_roundtrip",
+        "CurrentMain.SelectedR480ScatterLifecycle.ordered_window_binding",
+        "CurrentMain.SelectedR480ScatterLifecycle.decoded_bounds",
+        "CurrentMain.SelectedR480ScatterLifecycle.windows_well_formed",
+        "CurrentMain.SelectedR480ScatterLifecycle.windows_nonempty",
+        "CurrentMain.SelectedR480ScatterLifecycle.exact_lifecycle",
+        "CurrentMain.SelectedR480ScatterLifecycle.final_temp_zero",
+        "CurrentMain.SelectedR480ScatterLifecycle.original_coordinate",
+        "CurrentMain.SelectedR480ScatterLifecycle.sources_helpers_preserved",
+        "CurrentMain.SelectedR480ScatterLifecycle.incoming_temp_independent",
+        "CurrentMain.SelectedR480ScatterLifecycle.clean_temp_restored"
+      ]
+    }
+  ],
+  "shape": {
+    "v": 120,
+    "R": 480,
+    "registers": 720,
+    "extended_registers": 721,
+    "temp": 720,
+    "frames": 672,
+    "B_gates": 240,
+    "B_operands": 600,
+    "scatter_rows": 120,
+    "scatter_indices": 568,
+    "ret": [
+      701,
+      682,
+      693,
+      700,
+      661,
+      695,
+      717,
+      675,
+      706
+    ],
+    "retained_major_add_counts": [
+      120,
+      56,
+      56,
+      56,
+      56,
+      56,
+      56,
+      56,
+      56
+    ],
+    "COPY": 9,
+    "ADD": 568,
+    "ERASE": 9
+  },
+  "proof_transport": "Fresh Fin720/Fin721 instances; no equality with old Fin729/Fin730 typed proofs. Exact raw aliases only.",
+  "exclusions": [
+    "A/C/D semantics",
+    "physical frame realization and copy space",
+    "full selected multiplier theorem",
+    "restoration of arbitrary incoming temporary"
+  ],
+  "resources": {
+    "elapsed_seconds": 0.1830196290029562,
+    "peak_rss_bytes": 34267136,
+    "CPU_seconds": 20,
+    "AS_bytes": 268435456,
+    "decoded_cap": 300000
+  },
+  "upstream_code_executed": false,
+  "compiler_executed": false
+}

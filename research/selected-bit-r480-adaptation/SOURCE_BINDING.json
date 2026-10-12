@@ -1,0 +1,652 @@
+{
+  "status": "SOURCE_ONLY_R480_PARAMETER_ADAPTATION_FROZEN_FOR_REVIEW",
+  "created_utc": "2026-10-12T13:43:07.255218+00:00",
+  "snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "raw_source_bindings": [
+    {
+      "path": "research/e8-r480-dead-totals/data/bitE8mut-r480.json.gz",
+      "sha256": "92e399e9a486b55229b5624632ac54f800dd9e022f2aee97f1e5f264bbc0ef5c",
+      "bytes": 49414,
+      "git_blob": "8e59c4b5380d522b1c1cb930029a71556b2fa65f"
+    },
+    {
+      "path": "research/e8-r480-dead-totals/MANIFEST.json",
+      "sha256": "aa26122b472a4d245f6c45929d19650b5000bdd26a7d454706466b9389922fc1",
+      "bytes": 931,
+      "git_blob": "49e38e028321635ca64d3ed4371a7c03017d757d"
+    },
+    {
+      "path": "research/e8-r480-dead-totals/code/adapt.py",
+      "sha256": "04ec15262595e502796efc1f100f1efd4f28585add48377af1bda702a12c0e40",
+      "bytes": 2560,
+      "git_blob": "6d855e768837c3d0e00ab2408c970e7c8911e378"
+    },
+    {
+      "path": "research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+      "sha256": "8a5999601f917dbb492bb9ae9a344611f18cc7cedc53dc3c76496a369e530eb3",
+      "bytes": 3745,
+      "git_blob": "3632d370486a02f5456f7643ced03f8c925b2350"
+    },
+    {
+      "path": "certificates/selected-result.json",
+      "sha256": "a2ee54471f26e495564a2e5ae745fefe627384cf2fe68a77422e26709591e30a",
+      "bytes": 1982,
+      "git_blob": "914f48ebac8296a040ecbfa00644c1b6dbfbae95"
+    },
+    {
+      "path": "research/community-family533-audit/pr535-ASSEMBLY.json",
+      "sha256": "246f082c286170d61f0aff3cbc4e4162852e5b162ea67cee274b280c04c4e564",
+      "bytes": 22092,
+      "git_blob": "5e5fe27858abf4af408415636d8eafde1e4a3f0d"
+    }
+  ],
+  "raw_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/RAW_BINDING_READBACK.json",
+    "sha256": "929cd98945af1faad5b1ce55ac74b4a45b7ca833ac9bb3ea78e7d665a3857620",
+    "bytes": 6680
+  },
+  "strict_readback_script": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/verify_source_binding.py",
+    "sha256": "91f8be22c5c9c792d280c1249f31335588670cdd346e7c864eb663995aa5999a",
+    "bytes": 6059
+  },
+  "exact_parameter_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SOURCE_TRANSFORM.json",
+    "sha256": "c95faf8a59e4e4ec165b45ecf0e3ba90b5fc6256d08bb2352704cfb8f632a1dc",
+    "bytes": 3007
+  },
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480Boundary.lean",
+      "sha256": "505e5d4572888c7bd43d6547486ec64483d57887f7e7996589a4f43b0e60b481",
+      "bytes": 5177,
+      "imports": [
+        "SelectedBitCarrierPhaseBCheck"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480Boundary.selected_shape",
+        "CurrentMain.SelectedR480Boundary.line_shape",
+        "CurrentMain.SelectedR480Boundary.frame_domain",
+        "CurrentMain.SelectedR480Boundary.boundary_domain",
+        "CurrentMain.SelectedR480Boundary.zero_full_rows",
+        "CurrentMain.SelectedR480Boundary.source_entrances",
+        "CurrentMain.SelectedR480Boundary.nonsource_entrances",
+        "CurrentMain.SelectedR480Boundary.source_helper_final_full",
+        "CurrentMain.SelectedR480Boundary.retained_helper_ids",
+        "CurrentMain.SelectedR480Boundary.phase_shape",
+        "CurrentMain.SelectedR480Boundary.phase_domains",
+        "CurrentMain.SelectedR480Boundary.target_destinations",
+        "CurrentMain.SelectedR480Boundary.no_target_operands",
+        "CurrentMain.SelectedR480Boundary.no_self_reads",
+        "CurrentMain.SelectedR480Boundary.scatter_shape",
+        "CurrentMain.SelectedR480Boundary.scatter_index_domain",
+        "CurrentMain.SelectedR480Boundary.scatter_helpers"
+      ]
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480PhaseBXor.lean",
+      "sha256": "94582eb91bfc9cebbf2fa892f3b8bb633c9b92c729d1f6a78079a77f7fa3239a",
+      "bytes": 5006,
+      "imports": [
+        "SelectedR480Boundary",
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480PhaseBXor.decode_roundtrip",
+        "CurrentMain.SelectedR480PhaseBXor.ordered_word_binding",
+        "CurrentMain.SelectedR480PhaseBXor.decoded_gate_properties",
+        "CurrentMain.SelectedR480PhaseBXor.sources_helpers_preserved",
+        "CurrentMain.SelectedR480PhaseBXor.target_translation",
+        "CurrentMain.SelectedR480PhaseBXor.target_identity",
+        "CurrentMain.SelectedR480PhaseBXor.contribution_independent_of_targets"
+      ]
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480ScatterLifecycle.lean",
+      "sha256": "ee69555af6f0434007695f4759cecd68c797e434430312ca7c294249e7671489",
+      "bytes": 7354,
+      "imports": [
+        "SelectedR480PhaseBXor",
+        "BitCopyScatterWindow"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480ScatterLifecycle.raw_shape",
+        "CurrentMain.SelectedR480ScatterLifecycle.raw_domains",
+        "CurrentMain.SelectedR480ScatterLifecycle.source_rows_no_duplicates",
+        "CurrentMain.SelectedR480ScatterLifecycle.decode_roundtrip",
+        "CurrentMain.SelectedR480ScatterLifecycle.ordered_window_binding",
+        "CurrentMain.SelectedR480ScatterLifecycle.decoded_bounds",
+        "CurrentMain.SelectedR480ScatterLifecycle.windows_well_formed",
+        "CurrentMain.SelectedR480ScatterLifecycle.windows_nonempty",
+        "CurrentMain.SelectedR480ScatterLifecycle.exact_lifecycle",
+        "CurrentMain.SelectedR480ScatterLifecycle.final_temp_zero",
+        "CurrentMain.SelectedR480ScatterLifecycle.original_coordinate",
+        "CurrentMain.SelectedR480ScatterLifecycle.sources_helpers_preserved",
+        "CurrentMain.SelectedR480ScatterLifecycle.incoming_temp_independent",
+        "CurrentMain.SelectedR480ScatterLifecycle.clean_temp_restored"
+      ]
+    }
+  ],
+  "literal_policy": "B/scatter/frames/lines are exact aliases of already accepted source literals; new retained IDs are explicit and endpoints are exact720-prefixes. The raw JSON comparison is independent of Lean acceptance.",
+  "typed_policy": "No equality between old Fin729/Fin730 selected proofs and new Fin720/Fin721 proofs. Fresh bounded domains supply actual Fin values; accepted generic APIs are instantiated afresh.",
+  "current_local_inputs": [
+    {
+      "module": "SelectedBitCarrierBoundaryData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.lean",
+        "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+        "bytes": 68966
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+        "sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+        "bytes": 12491288
+      },
+      "imports": [
+        "Init"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.json",
+        "sha256": "225a4517a6446705461fe702ecb60ce9aa43cb871c4b6385ebe5e28159203e97",
+        "bytes": 2296
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierBoundaryCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+        "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+        "bytes": 2859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+        "sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+        "bytes": 52968
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.json",
+        "sha256": "261ca37f3da1102925782a6f8f7ea177a28e56af1d60d3d44a9a81e4b78f2c9f",
+        "bytes": 2462
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.log",
+        "sha256": "d6a74a96010bb1f567fbf802a3c5a4e720bf479f9fedd2d817d7cc2d212e8aff",
+        "bytes": 880
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+          "olean_sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+          "source_sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.lean",
+        "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+        "bytes": 8859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+        "sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+        "bytes": 1403352
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryCheck"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.json",
+        "sha256": "98c23e4609d2ed636bab68fa184eda0c98efd4aae026547da39856855e0f2806",
+        "bytes": 2448
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+          "olean_sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+          "source_sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.lean",
+        "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+        "bytes": 3236
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+        "sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+        "bytes": 50992
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierPhaseBData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.json",
+        "sha256": "4e4f3407eccfc26ece90c954868ed0f5639e3588f1b92f563e809a85652e39ec",
+        "bytes": 2447
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.log",
+        "sha256": "db2570bf95ed4ea86f8f7fce4e47804b01e6eaeefba98273e6e0ffa9e7a7adcb",
+        "bytes": 769
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+          "olean_sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+          "source_sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a"
+        }
+      }
+    },
+    {
+      "module": "BitXorTargetTranslation",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.lean",
+        "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+        "bytes": 5194
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+        "sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+        "bytes": 184152
+      },
+      "imports": [
+        "Init"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_xor__BitXorTargetTranslation.lean.json",
+        "sha256": "9dd6dcb2de34be0c5489bbd69d6fb5301e2a74d91380a16abd887e7697635202",
+        "bytes": 2244
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_xor__BitXorTargetTranslation.lean.log",
+        "sha256": "fa8026c0e60705d2682d090e621b43049dae3e55a9f51938a8ee2f26d8ae7afc",
+        "bytes": 1920
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "BitCopyScatterWindow",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/BitCopyScatterWindow.lean",
+        "sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd",
+        "bytes": 8287
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/BitCopyScatterWindow.olean",
+        "sha256": "fcc15c3e805e42d7e1863907de73b61e7b11626bf9ea229f9f2cf865716a3d87",
+        "bytes": 229416
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_scatter_lifecycle__BitCopyScatterWindow.lean.json",
+        "sha256": "f9a7f9cac50f1026300f4ccb235ec21cc1c614ade4e3a923eedecb584300591b",
+        "bytes": 2435
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_scatter_lifecycle__BitCopyScatterWindow.lean.log",
+        "sha256": "5765dea8e482ea3bf34e3307faf42a1e126470a361009188f1ce10ccf493e7dd",
+        "bytes": 516
+      },
+      "dependencies": {
+        "BitXorTargetTranslation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+          "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+          "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        }
+      }
+    }
+  ],
+  "all_eight_prior_selected_quadruples_preserved": [
+    {
+      "module": "SelectedBitCarrierBoundaryData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.lean",
+        "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+        "bytes": 68966
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+        "sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+        "bytes": 12491288
+      },
+      "imports": [
+        "Init"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.json",
+        "sha256": "225a4517a6446705461fe702ecb60ce9aa43cb871c4b6385ebe5e28159203e97",
+        "bytes": 2296
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierBoundaryCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+        "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+        "bytes": 2859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+        "sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+        "bytes": 52968
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.json",
+        "sha256": "261ca37f3da1102925782a6f8f7ea177a28e56af1d60d3d44a9a81e4b78f2c9f",
+        "bytes": 2462
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.log",
+        "sha256": "d6a74a96010bb1f567fbf802a3c5a4e720bf479f9fedd2d817d7cc2d212e8aff",
+        "bytes": 880
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+          "olean_sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+          "source_sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.lean",
+        "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+        "bytes": 8859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+        "sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+        "bytes": 1403352
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryCheck"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.json",
+        "sha256": "98c23e4609d2ed636bab68fa184eda0c98efd4aae026547da39856855e0f2806",
+        "bytes": 2448
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+          "olean_sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+          "source_sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.lean",
+        "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+        "bytes": 3236
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+        "sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+        "bytes": 50992
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierPhaseBData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.json",
+        "sha256": "4e4f3407eccfc26ece90c954868ed0f5639e3588f1b92f563e809a85652e39ec",
+        "bytes": 2447
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.log",
+        "sha256": "db2570bf95ed4ea86f8f7fce4e47804b01e6eaeefba98273e6e0ffa9e7a7adcb",
+        "bytes": 769
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+          "olean_sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+          "source_sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a"
+        }
+      }
+    },
+    {
+      "module": "BitXorTargetTranslation",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.lean",
+        "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+        "bytes": 5194
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+        "sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+        "bytes": 184152
+      },
+      "imports": [
+        "Init"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_xor__BitXorTargetTranslation.lean.json",
+        "sha256": "9dd6dcb2de34be0c5489bbd69d6fb5301e2a74d91380a16abd887e7697635202",
+        "bytes": 2244
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_xor__BitXorTargetTranslation.lean.log",
+        "sha256": "fa8026c0e60705d2682d090e621b43049dae3e55a9f51938a8ee2f26d8ae7afc",
+        "bytes": 1920
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBXor",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/SelectedBitCarrierPhaseBXor.lean",
+        "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+        "bytes": 5072
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/SelectedBitCarrierPhaseBXor.olean",
+        "sha256": "74ddcfad8538a57e0bceaca20944f483646b4690c59bc0d852cfc8e4c54bf8e6",
+        "bytes": 128112
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierPhaseBCheck",
+        "BitXorTargetTranslation"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_xor__SelectedBitCarrierPhaseBXor.lean.json",
+        "sha256": "492b3b5f74031989633648bdba7d060efa8c7f38068a6e06c439a895e923c0f5",
+        "bytes": 2824
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_xor__SelectedBitCarrierPhaseBXor.lean.log",
+        "sha256": "118bd4691f06f24b78ab4c1e23c65857ec9e0219831661289c24f325982b166b",
+        "bytes": 740
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+          "olean_sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+          "source_sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4"
+        },
+        "BitXorTargetTranslation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+          "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+          "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        }
+      }
+    },
+    {
+      "module": "BitCopyScatterWindow",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/BitCopyScatterWindow.lean",
+        "sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd",
+        "bytes": 8287
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/BitCopyScatterWindow.olean",
+        "sha256": "fcc15c3e805e42d7e1863907de73b61e7b11626bf9ea229f9f2cf865716a3d87",
+        "bytes": 229416
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_scatter_lifecycle__BitCopyScatterWindow.lean.json",
+        "sha256": "f9a7f9cac50f1026300f4ccb235ec21cc1c614ade4e3a923eedecb584300591b",
+        "bytes": 2435
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_scatter_lifecycle__BitCopyScatterWindow.lean.log",
+        "sha256": "5765dea8e482ea3bf34e3307faf42a1e126470a361009188f1ce10ccf493e7dd",
+        "bytes": 516
+      },
+      "dependencies": {
+        "BitXorTargetTranslation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+          "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+          "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierScatterLifecycle",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/SelectedBitCarrierScatterLifecycle.lean",
+        "sha256": "754c8278cdb41dbff984faae2b1e7acaba611c4473adf5b7436c9d95c5564f3a",
+        "bytes": 7416
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/SelectedBitCarrierScatterLifecycle.olean",
+        "sha256": "835882b463cebd7eac7b5fb9fc84286062d86aaafb3263dfb4e6c90a727e86f5",
+        "bytes": 168064
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_scatter_lifecycle__SelectedBitCarrierScatterLifecycle.lean.json",
+        "sha256": "64a32bdf897facccdf4d915fa7eb65f6c8c044efe3bfde4cd851fe5679f5174f",
+        "bytes": 2901
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_scatter_lifecycle__SelectedBitCarrierScatterLifecycle.lean.log",
+        "sha256": "35746c0326d48b83317c1dd2535901f5fe1201e9a4661274f547dfda531eedb6",
+        "bytes": 1513
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBXor": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/SelectedBitCarrierPhaseBXor.olean",
+          "olean_sha256": "74ddcfad8538a57e0bceaca20944f483646b4690c59bc0d852cfc8e4c54bf8e6",
+          "source_sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502"
+        },
+        "BitCopyScatterWindow": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/BitCopyScatterWindow.olean",
+          "olean_sha256": "fcc15c3e805e42d7e1863907de73b61e7b11626bf9ea229f9f2cf865716a3d87",
+          "source_sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd"
+        }
+      }
+    }
+  ],
+  "generic_reversal_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/bit_xor_reversal/ACCEPTANCE.json",
+    "sha256": "d2b8109c9e695fcda1e3725f4e63bcbcaee53cf4ade7f38cfe1fd4eaaef5eb58",
+    "bytes": 21706
+  },
+  "generic_reversal_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/BIT_XOR_REVERSAL_TERMINAL_REVIEW.json",
+    "sha256": "5e1befc237812d38ce434a4169c75b03e523f5e09c54d944afb4940bbfcd35e1",
+    "bytes": 4801
+  },
+  "attribution": {
+    "raw_supplier": "eumemic",
+    "upstream_assistance": "Anthropic Claude",
+    "adaptation_assistance": "OpenAI",
+    "license": "Apache-2.0",
+    "notice": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/lean-selected-bit-scalar-boundaries/NOTICE",
+      "sha256": "2fd327d9b65e3443956f2d49938e8e6123eb2888a36f226a479965c366695a0a",
+      "bytes": 726
+    },
+    "license_file": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/lean-selected-bit-scalar-boundaries/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  },
+  "claimed_after_future_acceptance": [
+    "Exact raw720-register domain and named frame/endpoints.",
+    "Actual ordered B XOR interpretation on arbitrary720 bits; source/helper preservation and target contribution independence.",
+    "Retained-major9COPY/568ADD/9ERASE scalar lifecycle on721 bits, with arbitrary incoming temporary720 overwritten and finalfalse."
+  ],
+  "explicitly_open": [
+    "A/C/D word correctness and global composition",
+    "Physical frame entrance/transport and COPY space",
+    "Restoration of an arbitrary dirty temporary",
+    "Full selected multiplier bound and all-size theorem"
+  ],
+  "external_lookup_defaults": false
+}
