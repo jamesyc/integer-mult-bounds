@@ -1,0 +1,219 @@
+{
+  "status": "SOURCE_ONLY_XOR_INTERPRETATION_AND_SELECTED_TARGET_IDENTITY_AWAITING_REVIEW",
+  "created_utc": "2026-10-12T11:59:55.293880+00:00",
+  "selected_upstream_head": "c3a9a436b84fe44fdc223a5784d84736d1c2d3c7",
+  "selected_conditional_kappa": "1517760977820331/1000000000000000000",
+  "accepted_B_scatter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_phase_b/ACCEPTANCE.json",
+    "sha256": "845c2120af67df5082ec374f7db9d25b803f5e68c3effaa6d4968c49478155db",
+    "bytes": 11357
+  },
+  "accepted_source_binding": {
+    "path": "research/selected-bit-carrier-successor/SOURCE_BINDING.json",
+    "sha256": "969042b0e5cfaec65a207038ed3bcbdeb7c6af62a0bdb33b8fc2a4017b68d673",
+    "bytes": 8882
+  },
+  "accepted_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_BIT493_PHASE_B_SCATTER_TERMINAL_REVIEW.json",
+    "sha256": "7886895926c61e8f6d479c55a08160a3fc74383ca793718c2094e948a724d244",
+    "bytes": 3275
+  },
+  "retained_local_quadruples": [
+    {
+      "module": "SelectedBitCarrierBoundaryData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.lean",
+        "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+        "bytes": 68966
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+        "sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+        "bytes": 12491288
+      },
+      "imports": [
+        "Init"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.json",
+        "sha256": "225a4517a6446705461fe702ecb60ce9aa43cb871c4b6385ebe5e28159203e97",
+        "bytes": 2296
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierBoundaryCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+        "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+        "bytes": 2859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+        "sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+        "bytes": 52968
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.json",
+        "sha256": "261ca37f3da1102925782a6f8f7ea177a28e56af1d60d3d44a9a81e4b78f2c9f",
+        "bytes": 2462
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.log",
+        "sha256": "d6a74a96010bb1f567fbf802a3c5a4e720bf479f9fedd2d817d7cc2d212e8aff",
+        "bytes": 880
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+          "olean_sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+          "source_sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.lean",
+        "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+        "bytes": 8859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+        "sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+        "bytes": 1403352
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.json",
+        "sha256": "98c23e4609d2ed636bab68fa184eda0c98efd4aae026547da39856855e0f2806",
+        "bytes": 2448
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+          "olean_sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+          "source_sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.lean",
+        "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+        "bytes": 3236
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+        "sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+        "bytes": 50992
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.json",
+        "sha256": "4e4f3407eccfc26ece90c954868ed0f5639e3588f1b92f563e809a85652e39ec",
+        "bytes": 2447
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.log",
+        "sha256": "db2570bf95ed4ea86f8f7fce4e47804b01e6eaeefba98273e6e0ffa9e7a7adcb",
+        "bytes": 769
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+          "olean_sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+          "source_sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+      "sha256": "ab60a7ac145db5cddd8238d8fefe0c168c8fc4109f3660e3375069306fb1d1e4",
+      "bytes": 5039,
+      "module": "BitXorTargetTranslation",
+      "explicit_imports": [
+        "Init"
+      ],
+      "public_probes": [
+        "CurrentMain.BitXor.run_shift",
+        "CurrentMain.BitXor.run_off_target",
+        "CurrentMain.BitXor.target_identity",
+        "CurrentMain.BitXor.erased_eq_of_agree_off_target"
+      ]
+    },
+    {
+      "path": "research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
+      "sha256": "f48d109e2aac87a9a87b65434ee87549af98abe093b81fe7f29534e828de5177",
+      "bytes": 5070,
+      "module": "SelectedBitCarrierPhaseBXor",
+      "explicit_imports": [
+        "SelectedBitCarrierPhaseBCheck",
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedBitCarrierPhaseBXor.decode_roundtrip",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.ordered_word_binding",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.decoded_gate_properties",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.sources_helpers_preserved",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.target_translation",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.target_identity",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.contribution_independent_of_targets"
+      ]
+    }
+  ],
+  "raw_scalar_source": {
+    "path": "research/e8-bit-carrier-skeleton/code/bit/independent/checkword.py",
+    "sha256": "11bf9620ca9db16d52d9fe806b814fc9ec9a89c4d7645354d1861d96f6e805ad",
+    "bytes": 6290
+  },
+  "scalar_source_lines": "80..87: chronological gates; each listed operand updates only val[d] by XOR. The frame-climb/check assertions are deliberately separate.",
+  "source_expression": "for s in srcs: val[d]^=val[s]",
+  "interpretation": {
+    "carrier": "Fin729 -> Bool; arbitrary729 initial bits",
+    "tuple": "frame:Nat, destination:Fin729, sources:List(Fin729)",
+    "literal_transport": "List.attach decodes all accepted B triples using the accepted finite domain theorem; encode/decode roundtrip proves exact list, frame IDs, order and operand multiplicity. No new literals, default-valued read or fresh data scan.",
+    "operand_update": "single dst src s changes dst to s(dst) XOR s(src), all others fixed",
+    "gate": "sourcesRun consumes the exact operand list from left to right with sequential state updates",
+    "word": "run consumes the exact gate list chronologically",
+    "frame": "Frame metadata retained and encoded back exactly; it has no scalar action in this raw Boolean interpreter."
+  },
+  "proof_strategy": [
+    "Use core Bool xor_right_comm to show a single ADD commutes with arbitrary target perturbations when its source is not a target. Lift structurally through operand and gate lists.",
+    "Show all non-target registers are unchanged when each destination is a target.",
+    "Erase initial target bits and use equivariance: output target equals its original bit XOR the erased-target execution contribution.",
+    "Equal non-target entrances yield identical erased-target states and hence identical contribution. No claim that the contribution is zero or the desired Hadamard/scalar source.",
+    "Selected adapter derives all hypotheses from accepted phase_domains/target_destinations/no_target_operands, without running a concrete word or restating numeric decisions."
+  ],
+  "reuse_review": "Machine reports no currently accepted ordered multi-source Boolean API. Historical SignedWord signed-ring two-register grammar is a preserved source pointer, not a matching current supplier. Core Bool laws and List.attach APIs are reused; no generic checker soundness reproof.",
+  "exclusions": [
+    "No frame/common-chart legality or physical transport theorem.",
+    "No phase-B entrance realization, A/C source restoration or D dirty-helper cancellation.",
+    "Scatter finite table remains accepted but is not executed by this B-only theorem.",
+    "Transient729 COPY/ADD/ERASE requires a separate730-register model and retained-major source binding.",
+    "No complete bit-word, E8 Gram/rank/operator, invoice, hosting or all-size multiplication theorem."
+  ],
+  "attribution": "PR493 eumemic supplier with Anthropic Claude assistance and PR370 Dylan Crow scalar checker, Apache-2.0, retaining original package NOTICE. Structural Boolean adapter and selected proof prepared with OpenAI assistance."
+}

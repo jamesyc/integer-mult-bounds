@@ -1,0 +1,78 @@
+{
+  "status": "SOURCE_PREPARATION_RELEASED_BOUNDED_COMPILER_REQUIRES_REVIEW",
+  "source_binding": {
+    "path": "research/selected-bit-xor-interpretation/SOURCE_BINDING.json",
+    "sha256": "61cb7dbc0a1e7ad2db438019cdda7cdd8990231d34a46816a50d989608ea3303",
+    "bytes": 13023
+  },
+  "complete_local_scope": [
+    6,
+    4,
+    2
+  ],
+  "official_cached_modules": 317,
+  "projected_total_scope": [
+    323,
+    321,
+    2
+  ],
+  "ordered_fresh_roots": [
+    "BitXorTargetTranslation",
+    "SelectedBitCarrierPhaseBXor"
+  ],
+  "retained_local_roots": [
+    "SelectedBitCarrierBoundaryData",
+    "SelectedBitCarrierBoundaryCheck",
+    "SelectedBitCarrierPhaseBData",
+    "SelectedBitCarrierPhaseBCheck"
+  ],
+  "sources": [
+    {
+      "path": "research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+      "sha256": "ab60a7ac145db5cddd8238d8fefe0c168c8fc4109f3660e3375069306fb1d1e4",
+      "bytes": 5039,
+      "module": "BitXorTargetTranslation",
+      "explicit_imports": [
+        "Init"
+      ],
+      "public_probes": [
+        "CurrentMain.BitXor.run_shift",
+        "CurrentMain.BitXor.run_off_target",
+        "CurrentMain.BitXor.target_identity",
+        "CurrentMain.BitXor.erased_eq_of_agree_off_target"
+      ]
+    },
+    {
+      "path": "research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
+      "sha256": "f48d109e2aac87a9a87b65434ee87549af98abe093b81fe7f29534e828de5177",
+      "bytes": 5070,
+      "module": "SelectedBitCarrierPhaseBXor",
+      "explicit_imports": [
+        "SelectedBitCarrierPhaseBCheck",
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedBitCarrierPhaseBXor.decode_roundtrip",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.ordered_word_binding",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.decoded_gate_properties",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.sources_helpers_preserved",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.target_translation",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.target_identity",
+        "CurrentMain.SelectedBitCarrierPhaseBXor.contribution_independent_of_targets"
+      ]
+    }
+  ],
+  "external_library_paths": [],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "no_concrete_word_evaluation": true,
+  "numerical_decisions_added": 0,
+  "notes": "Two structural proof modules. Kernel/API elaboration and runtime fit remain unmeasured. Complete exact DFS and first-match pins required before compiler admission."
+}
