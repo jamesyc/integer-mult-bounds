@@ -29,7 +29,7 @@ Three immutable inputs suffice: CANONICAL-WORD.json.gz, LOCAL-PROGRAMS.json.gz,
 and CLIFFORD-RECIPES.json. Before parsing, match their exact raw hashes in
 SOURCE_PINS.json and the delivered manifest. Use strict UTF-8/JSON, reject duplicate
 keys, booleans where integers are required, nonfinite values, wrong arities,
-unknown tags, out-of-range indices and nonpositive denominators. Bound each
+unknown tags, out-of-range indices and zero denominators. Bound each
 uncompressed input to 16 MiB. Do not import the upstream emitter or auditor.
 
 Emit these exact projections, with an inverse/source-row audit:
@@ -40,7 +40,7 @@ Emit these exact projections, with an inverse/source-row audit:
   key must resolve unambiguously; reject duplicate `(old,new)` keys in the decoder.
 - `climb(part,r,a,b,k)` maps to relabel Lr a b and its exact child ordinal/rank;
 - `center(k,a,b,r)` maps to relabel Ck a b and its exact child ordinal/rank;
-- scalar add/scale keep signed numerator and positive denominator as syntax;
+- scalar add/scale keep the exact signed numerator and signed denominator as syntax;
   copy/clear keep the source frame. No reflected order or sign is invented:
   both emitted source lists are decoded literally, independently;
 - preserve all dropped source indices, tags and fields in a side inventory.
@@ -69,7 +69,10 @@ reviewed structural induction should connect a successful check to
 `ProjectedWellLabelled`. Do not reprove PR509 conjugation/realization induction.
 Coefficient codes deliberately have no scalar interpretation: they retain the
 exact source rational syntax while label admissibility ignores coefficients.
-A later rational coefficient interpretation must preserve the same event shapes.
+The exact backward row 1 contains scale coefficient `(2, -1)`, so the code is
+`Int × Int` and checks only denominator ≠ 0. No sign normalization is applied.
+A later rational coefficient interpretation may prove `(2, -1)` equals `(-2, 1)`
+while preserving the original syntax and event shapes.
 
 Coverage yields directed record references for the selected relabel occurrences.
 To use accepted `DirectedChildRecipes.recipesExact_of_children`, callers still

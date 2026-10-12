@@ -11,8 +11,8 @@ namespace CurrentMain.F19SelectedCoverage
 
 abbrev Register := Fin 736 -- L0..727, then C0..7
 abbrev FrameLabel := Fin 983
-/-- Exact numerator/positive-denominator syntax; no scalar interpretation here. -/
-abbrev CoefficientCode := Int × Nat
+/-- Exact signed numerator/denominator syntax; no scalar interpretation here. -/
+abbrev CoefficientCode := Int × Int
 abbrev LabelEvent := LemmaG.Event Register FrameLabel CoefficientCode
 
 /-- Only the key/rank projection of a retained directed child record. -/
