@@ -1,0 +1,29 @@
+{
+  "status": "SOURCE_PROPOSAL_PENDING_MONOMIAL_AND_CURRENT_WRAPPER_TERMINALS",
+  "direct_imports": [
+    "Current5996CKFirstRecipe",
+    "PackedMonomialReindex",
+    "PackedGaussianReindex"
+  ],
+  "prospective_scope": {
+    "total": 20,
+    "retained": 19,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "expected_probes": [
+    "CurrentMain.Current5996CKPackedRecipe.left_reindex",
+    "CurrentMain.Current5996CKPackedRecipe.right_reindex",
+    "CurrentMain.Current5996CKPackedRecipe.recipe_reindex",
+    "CurrentMain.Current5996CKPackedRecipe.packed_canonical_child"
+  ],
+  "finite_work": "Reuse accepted exact source fields, inverse and canonical certificates; apply monomial/Gaussian reindexing and cL_append_apply. No finite algebra or circuit induction.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "authority": "Root17:48 authorizes source proposal and first bounded check after all prerequisite terminals/source/API and final binding.",
+  "no_compiler_yet": true
+}
