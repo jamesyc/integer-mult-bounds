@@ -1,0 +1,331 @@
+{
+  "status": "SOURCE_ONLY_LIFECYCLE_PACKET_AWAITING_INDEPENDENT_REVIEW",
+  "created_utc": "2026-10-12T12:34:54.684952+00:00",
+  "plan": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/READ_ONLY_LIFECYCLE_PLAN.json",
+    "sha256": "573ca7dbba00e900aa9777b5ba42a6e164068bf5b642a8d618155923af9f68ca",
+    "bytes": 16202
+  },
+  "accepted_xor": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/xor_law_repair/ACCEPTANCE.json",
+    "sha256": "b880589312d7cd9ada49eb89057ac655aff1529ca9aa35909404925bf9242957",
+    "bytes": 22800
+  },
+  "accepted_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_BIT493_XOR_TERMINAL_REVIEW.json",
+    "sha256": "c402a6bf48fc6d501d27085b0f9aa67b66290869b74217b033a0139a9a22c711",
+    "bytes": 5440
+  },
+  "retained_local_quadruples": [
+    {
+      "module": "SelectedBitCarrierBoundaryData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.lean",
+        "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+        "bytes": 68966
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+        "sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+        "bytes": 12491288
+      },
+      "imports": [
+        "Init"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.json",
+        "sha256": "225a4517a6446705461fe702ecb60ce9aa43cb871c4b6385ebe5e28159203e97",
+        "bytes": 2296
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierBoundaryCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+        "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+        "bytes": 2859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+        "sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+        "bytes": 52968
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.json",
+        "sha256": "261ca37f3da1102925782a6f8f7ea177a28e56af1d60d3d44a9a81e4b78f2c9f",
+        "bytes": 2462
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.log",
+        "sha256": "d6a74a96010bb1f567fbf802a3c5a4e720bf479f9fedd2d817d7cc2d212e8aff",
+        "bytes": 880
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+          "olean_sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+          "source_sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.lean",
+        "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+        "bytes": 8859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+        "sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+        "bytes": 1403352
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierBoundaryCheck"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.json",
+        "sha256": "98c23e4609d2ed636bab68fa184eda0c98efd4aae026547da39856855e0f2806",
+        "bytes": 2448
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+          "olean_sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+          "source_sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.lean",
+        "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+        "bytes": 3236
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+        "sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+        "bytes": 50992
+      },
+      "imports": [
+        "Init",
+        "SelectedBitCarrierPhaseBData"
+      ],
+      "input_class": "retained_local_module",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.json",
+        "sha256": "4e4f3407eccfc26ece90c954868ed0f5639e3588f1b92f563e809a85652e39ec",
+        "bytes": 2447
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_phase_b__SelectedBitCarrierPhaseBCheck.lean.log",
+        "sha256": "db2570bf95ed4ea86f8f7fce4e47804b01e6eaeefba98273e6e0ffa9e7a7adcb",
+        "bytes": 769
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+          "olean_sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+          "source_sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a"
+        }
+      }
+    },
+    {
+      "module": "BitXorTargetTranslation",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.lean",
+        "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+        "bytes": 5194
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+        "sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+        "bytes": 184152
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_xor__BitXorTargetTranslation.lean.json",
+        "sha256": "9dd6dcb2de34be0c5489bbd69d6fb5301e2a74d91380a16abd887e7697635202",
+        "bytes": 2244
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_xor__BitXorTargetTranslation.lean.log",
+        "sha256": "fa8026c0e60705d2682d090e621b43049dae3e55a9f51938a8ee2f26d8ae7afc",
+        "bytes": 1920
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierPhaseBXor",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/SelectedBitCarrierPhaseBXor.lean",
+        "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+        "bytes": 5072
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/SelectedBitCarrierPhaseBXor.olean",
+        "sha256": "74ddcfad8538a57e0bceaca20944f483646b4690c59bc0d852cfc8e4c54bf8e6",
+        "bytes": 128112
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_xor__SelectedBitCarrierPhaseBXor.lean.json",
+        "sha256": "492b3b5f74031989633648bdba7d060efa8c7f38068a6e06c439a895e923c0f5",
+        "bytes": 2824
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_xor__SelectedBitCarrierPhaseBXor.lean.log",
+        "sha256": "118bd4691f06f24b78ab4c1e23c65857ec9e0219831661289c24f325982b166b",
+        "bytes": 740
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+          "olean_sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+          "source_sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4"
+        },
+        "BitXorTargetTranslation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+          "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+          "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "research/selected-bit-scatter-lifecycle/BitCopyScatterWindow.lean",
+      "sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd",
+      "bytes": 8287,
+      "module": "BitCopyScatterWindow",
+      "explicit_imports": [
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.BitCopyScatter.copy_at_temp",
+        "CurrentMain.BitCopyScatter.clear_at_temp",
+        "CurrentMain.BitCopyScatter.window_eq_clear_direct",
+        "CurrentMain.BitCopyScatter.runWindows_eq_clear_direct",
+        "CurrentMain.BitCopyScatter.directWindows_untouched",
+        "CurrentMain.BitCopyScatter.runWindows_independent_of_temp"
+      ]
+    },
+    {
+      "path": "research/selected-bit-scatter-lifecycle/SelectedBitCarrierScatterLifecycle.lean",
+      "sha256": "754c8278cdb41dbff984faae2b1e7acaba611c4473adf5b7436c9d95c5564f3a",
+      "bytes": 7416,
+      "module": "SelectedBitCarrierScatterLifecycle",
+      "explicit_imports": [
+        "SelectedBitCarrierPhaseBXor",
+        "BitCopyScatterWindow"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.raw_shape",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.raw_domains",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.source_rows_no_duplicates",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.decode_roundtrip",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.ordered_window_binding",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.decoded_bounds",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.windows_well_formed",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.windows_nonempty",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.exact_lifecycle",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.final_temp_zero",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.original_coordinate",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.sources_helpers_preserved",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.incoming_temp_independent",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.clean_temp_restored"
+      ]
+    }
+  ],
+  "scope": {
+    "actual_selected_values": {
+      "original_registers": 729,
+      "extended_registers": 730,
+      "temporary": 729,
+      "retained_centres": [
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728
+      ],
+      "copies": 9,
+      "adds": 568,
+      "erasures": 9,
+      "events": 586,
+      "per_window_adds": [
+        120,
+        56,
+        56,
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
+      ]
+    },
+    "source_projection": "Definition rawWindows directly follows pinned exporter enumerate-ret then enumerate-scatter with membership, retaining exact row and centre order. No literal destination table introduced. Accepted ret/scatter data is reused.",
+    "decoder": "All references decoded via list membership bounds into Fin730, no default reads. Exact encode/decode roundtrip and ordered window binding.",
+    "semantics": "Core Boolean overwrite-copy, accepted sequential XOR single update, clear=false. Generic nonempty window composition equals direct retained-major scatter with temp forced false.",
+    "dirty_inputs": "Original729 coordinates arbitrary; incoming temp also arbitrary, but its old value is discarded. Only clean_temp_restored assumes s temp=false.",
+    "scope_refinement_from_plan": "This packet proves direct-scatter equivalence rather than also deriving a closed XOR contribution formula. No row-major permutation theorem is claimed.",
+    "open": [
+      "Physical frame fq/ZERO/rank or fresh-space realization",
+      "Chronological D/A entry state and full A/B/C/D correctness",
+      "Dirty temporary restoration, which is false without the stated restriction"
+    ]
+  },
+  "counts": {
+    "retained": 6,
+    "pending": 2,
+    "complete_local": [
+      8,
+      6,
+      2
+    ],
+    "official_core": 317,
+    "total_projected": [
+      325,
+      323,
+      2
+    ]
+  },
+  "attribution": {
+    "selected_package": "Dylan Crow, Anthropic Claude assistance, Apache-2.0; exact PR493 source unchanged.",
+    "scalar_copy_clear": "Structural shape from accepted F19ScalarEventInterpretation COPY/CLEAR, source attribution retained in plan. Rational Module semantics not imported into Bool.",
+    "new_proof": "Prepared with OpenAI assistance; uses accepted local BitXor scalar semantics and installed core APIs."
+  }
+}

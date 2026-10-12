@@ -1,0 +1,88 @@
+{
+  "status": "SOURCE_PROPOSAL_ONLY_NO_COMPILER_ADMISSION",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/SOURCE_BINDING.json",
+    "sha256": "25f374fb8973bc7a1e6ad201198db5f5eab38e74d23b4da850e2811da12c4c1e",
+    "bytes": 17066
+  },
+  "complete_local_scope": [
+    8,
+    6,
+    2
+  ],
+  "official_cached_modules": 317,
+  "projected_total_scope": [
+    325,
+    323,
+    2
+  ],
+  "ordered_fresh_roots": [
+    "BitCopyScatterWindow",
+    "SelectedBitCarrierScatterLifecycle"
+  ],
+  "retained_local_roots": [
+    "SelectedBitCarrierBoundaryData",
+    "SelectedBitCarrierBoundaryCheck",
+    "SelectedBitCarrierPhaseBData",
+    "SelectedBitCarrierPhaseBCheck",
+    "BitXorTargetTranslation",
+    "SelectedBitCarrierPhaseBXor"
+  ],
+  "sources": [
+    {
+      "path": "research/selected-bit-scatter-lifecycle/BitCopyScatterWindow.lean",
+      "sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd",
+      "bytes": 8287,
+      "module": "BitCopyScatterWindow",
+      "explicit_imports": [
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.BitCopyScatter.copy_at_temp",
+        "CurrentMain.BitCopyScatter.clear_at_temp",
+        "CurrentMain.BitCopyScatter.window_eq_clear_direct",
+        "CurrentMain.BitCopyScatter.runWindows_eq_clear_direct",
+        "CurrentMain.BitCopyScatter.directWindows_untouched",
+        "CurrentMain.BitCopyScatter.runWindows_independent_of_temp"
+      ]
+    },
+    {
+      "path": "research/selected-bit-scatter-lifecycle/SelectedBitCarrierScatterLifecycle.lean",
+      "sha256": "754c8278cdb41dbff984faae2b1e7acaba611c4473adf5b7436c9d95c5564f3a",
+      "bytes": 7416,
+      "module": "SelectedBitCarrierScatterLifecycle",
+      "explicit_imports": [
+        "SelectedBitCarrierPhaseBXor",
+        "BitCopyScatterWindow"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.raw_shape",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.raw_domains",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.source_rows_no_duplicates",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.decode_roundtrip",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.ordered_window_binding",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.decoded_bounds",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.windows_well_formed",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.windows_nonempty",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.exact_lifecycle",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.final_temp_zero",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.original_coordinate",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.sources_helpers_preserved",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.incoming_temp_independent",
+        "CurrentMain.SelectedBitCarrierScatterLifecycle.clean_temp_restored"
+      ]
+    }
+  ],
+  "external_library_paths": [],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "finite_decisions": "Three selected aggregate certificates over existing data:9-window sizes/domains and120-row no-duplicates. Tiny numeral and Fin bounds are additional kernel decisions. No full-word state replay.",
+  "notes": "Generic structural proof first, selected exact nine-window composition second only after below-review success. Exact import DFS, first-match/runtime and committed source guards before admission."
+}
