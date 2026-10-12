@@ -3,8 +3,8 @@
   "utc": "2026-10-12T15:49:17.780034+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/Current535PackedCoordinates.lean",
-    "sha256": "6d0df547dfd5f6293b6b92e5575e719f0091b34a17759a09e04bf8c3976dab94",
-    "bytes": 5048
+    "sha256": "3806de9c06e5073c7e8c1fd94aea40acbe8f62d7b105e6403aab3c2d1d6818aa",
+    "bytes": 5248
   },
   "selected_source_inventory": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/SOURCE_INVENTORY.json",
@@ -54,5 +54,13 @@
     "PR593 endpoints remain separate; no hstart, unit-row or exact factorization premise is discharged."
   ],
   "authority": "Root2026-10-12T15:44:39 approved source preparation and first bounded10/9/1 after independent scientific/API and binding seals, unchanged existing caps and prior-output protection.",
-  "attribution": "Pinned PR535 selected source; upstream exact Clifford compiler PR425/433 and current531/535 caller chain. Existing accepted decoder/push APIs. OpenAI-assisted source."
+  "attribution": "Pinned PR535 selected source; upstream exact Clifford compiler PR425/433 and current531/535 caller chain. Existing accepted decoder/push APIs. OpenAI-assisted source.",
+  "proof_local_repair": {
+    "preservation": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/gate/first_failure/PRESERVATION.json",
+      "sha256": "b4beafc213171f36f0b41f506f65b05a0299d52967718b77c00fa9f3ddc31d34",
+      "bytes": 9233
+    },
+    "kind": "One ordered bit-extraction proof and explicit width9 annotations only. No theorem statement, data, import, option or cap change."
+  }
 }

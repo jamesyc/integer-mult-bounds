@@ -4,13 +4,13 @@
   "module": "Current535PackedCoordinates",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/Current535PackedCoordinates.lean",
-    "sha256": "6d0df547dfd5f6293b6b92e5575e719f0091b34a17759a09e04bf8c3976dab94",
-    "bytes": 5048
+    "sha256": "3806de9c06e5073c7e8c1fd94aea40acbe8f62d7b105e6403aab3c2d1d6818aa",
+    "bytes": 5248
   },
   "source_scope": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/SOURCE_SCOPE.json",
-    "sha256": "c912b320229991ccfeb27455c793c0cfd03f7ab5efcfc3fd8c7f9dc8c08b9f75",
-    "bytes": 3650
+    "sha256": "8f74cefc30b77d32d634658aa70ff051e21ae58e5552f4f4710e1d220e38d01c",
+    "bytes": 4128
   },
   "direct_imports": [
     "CliffordNineBitDecoder"
@@ -49,5 +49,13 @@
   },
   "next_owner": "machine after independent source/API, current/import inventory and integration binding seal",
   "authority": "Root2026-10-12T15:44:39 approved source preparation and first bounded10/9/1 after independent scientific/API and binding seals, unchanged existing caps and prior-output protection.",
-  "compiler_run": false
+  "compiler_run": false,
+  "proof_local_repair": {
+    "preservation": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/gate/first_failure/PRESERVATION.json",
+      "sha256": "b4beafc213171f36f0b41f506f65b05a0299d52967718b77c00fa9f3ddc31d34",
+      "bytes": 9233
+    },
+    "kind": "One ordered bit-extraction proof and explicit width9 annotations only. No theorem statement, data, import, option or cap change."
+  }
 }

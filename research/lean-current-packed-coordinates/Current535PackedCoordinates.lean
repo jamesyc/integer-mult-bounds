@@ -25,7 +25,10 @@ def pack (x : Address) : Packed := (packBits x).toFin
 
 private theorem packBits_getLsb (x : Address) (i : Fin 9) :
     (packBits x).getLsbD i.val = decide (x i = 1) := by
-  simp [packBits, List.getD_eq_getElem?_getD, i.isLt]
+  unfold packBits
+  rw [BitVec.getLsbD_cast, BitVec.getLsbD_ofBoolListLE]
+  simp only [List.getD_eq_getElem?_getD, List.getElem?_ofFn,
+    dif_pos i.isLt, Option.getD_some]
 
 private theorem bit_cases (x : Bit) : x = 0 ∨ x = 1 := by
   have hx := ZMod.val_lt x
@@ -52,7 +55,7 @@ theorem unpack_pack (x : Address) : unpack (pack x) = x := by
   rcases bit_cases (x i) with h | h <;> simp [h]
 
 theorem pack_unpack (x : Packed) : pack (unpack x) = x := by
-  have hb : packBits (unpack x) = BitVec.ofFin x := by
+  have hb : packBits (unpack x) = BitVec.ofFin (w := 9) x := by
     apply BitVec.eq_of_getLsbD_eq
     intro i hi
     rw [packBits_getLsb (unpack x) ⟨i, hi⟩]
@@ -68,17 +71,17 @@ def addressEquiv : Packed ≃ Address where
 
 /-- Fixed-width XOR agrees with the source x xor mask operation on nine bits. -/
 def packedXor (x y : Packed) : Packed :=
-  ((BitVec.ofFin x) ^^^ (BitVec.ofFin y)).toFin
+  ((BitVec.ofFin (w := 9) x) ^^^ (BitVec.ofFin (w := 9) y)).toFin
 
 theorem unpack_xor (x y : Packed) :
     unpack (packedXor x y) = unpack x + unpack y := by
   funext i
-  change (if ((BitVec.ofFin x) ^^^ (BitVec.ofFin y)).getLsbD i.val then (1 : Bit) else 0) =
-    (if (BitVec.ofFin x).getLsbD i.val then (1 : Bit) else 0) +
-    (if (BitVec.ofFin y).getLsbD i.val then (1 : Bit) else 0)
+  change (if ((BitVec.ofFin (w := 9) x) ^^^ (BitVec.ofFin (w := 9) y)).getLsbD i.val then (1 : Bit) else 0) =
+    (if (BitVec.ofFin (w := 9) x).getLsbD i.val then (1 : Bit) else 0) +
+    (if (BitVec.ofFin (w := 9) y).getLsbD i.val then (1 : Bit) else 0)
   rw [BitVec.getLsbD_xor]
-  cases hx : (BitVec.ofFin x).getLsbD i.val <;>
-    cases hy : (BitVec.ofFin y).getLsbD i.val <;> decide +kernel
+  cases hx : (BitVec.ofFin (w := 9) x).getLsbD i.val <;>
+    cases hy : (BitVec.ofFin (w := 9) y).getLsbD i.val <;> decide +kernel
 
 theorem unpack_one : unpack 1 = mask 1 := rfl
 
