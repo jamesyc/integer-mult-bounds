@@ -1,0 +1,132 @@
+{
+  "status": "PASS_INDEPENDENT_SCIENTIFIC_SOURCE_LITERAL_API_REVIEW",
+  "utc": "2026-10-12T12:41:47.739306+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-band/F19CentreBandIndependence.lean",
+    "sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279",
+    "bytes": 35713
+  },
+  "scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-band/SOURCE_SCOPE.json",
+    "sha256": "09d149951b9dc6e9c1f37073a13cf54bc5e331b75e0dcf8ec1901f37fb348b13",
+    "bytes": 4196
+  },
+  "bundle": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_band_proposal/SOURCE_BUNDLE_MANIFEST.json",
+    "sha256": "3bd66ed1517689e6e715cf80f68723385307ed0bf28f183469a40fdcd4f97dad",
+    "bytes": 1536
+  },
+  "source_inputs": {
+    "programs": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_four_inputs/extracted/research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+      "bytes": 187483
+    },
+    "canonical": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_four_inputs/extracted/research/direct-delivery504-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+      "bytes": 75113
+    },
+    "recipes": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_two_inputs/extracted/research/direct-delivery504-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+      "bytes": 990631
+    }
+  },
+  "literal_projection": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_band_proposal/LITERAL_PROJECTION.json",
+    "sha256": "9ef2d5a3477dfd97cbb837fa82c75cf335267ba278bf7bb02a756bd29d7baf4f",
+    "bytes": 177754
+  },
+  "independent_raw_to_lean_inverse": {
+    "forward": {
+      "rows": 264,
+      "raw_range": [
+        14768,
+        15031
+      ],
+      "histogram": {
+        "clear": 16,
+        "copy": 8,
+        "center": 16,
+        "add": 224
+      },
+      "blocks": 8,
+      "rows_per_block": 33,
+      "each_boundary_clear_same_centre": true
+    },
+    "backward": {
+      "rows": 264,
+      "raw_range": [
+        14768,
+        15031
+      ],
+      "histogram": {
+        "clear": 16,
+        "add": 232,
+        "center": 16
+      },
+      "blocks": 8,
+      "rows_per_block": 33,
+      "each_boundary_clear_same_centre": true
+    }
+  },
+  "retained_source_apis": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+      "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "bytes": 15263
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+      "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+      "bytes": 6854
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+      "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+      "bytes": 82366
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+      "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+      "bytes": 1316
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.lean",
+      "sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0",
+      "bytes": 5497
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_pilot/F19ScalarPilotComposition.lean",
+      "sha256": "63fdeffaf0d1ead7571fb66074f75a0e49f593cea6891cc15c1caeb416d90c1e",
+      "bytes": 7108
+    }
+  ],
+  "proof_readback": [
+    "Related tracks equality wherever known=true and zero of both outputs wherever zeroed=true; it does not assume equality or zero on unknown incoming C registers.",
+    "safeStep ADD/SCALE checks signed denominator nonzero. ADD requires both old target/source known; COPY requires source known but not destination; CLEAR has no dirty-target restriction.",
+    "mark sets target known and conservatively clears zeroed after arithmetic/COPY; only CLEAR sets zeroed true. related_update factors exact Function.update at target and preserves other positions.",
+    "step_related matches accepted rawScalarStep, including signed rational coefficients and overwrite COPY/zero CLEAR; relabel identity is only scalar semantics.",
+    "safe_run_related follows rawRowsRun head-first recursion and propagates full-state relation through exactly the supplied ordered rows.",
+    "Known flags are monotone. Original728 remain known from initialFlags; all8 centre known/zeroed flags in bandCertificate give equality on remaining coordinates and final centre zero.",
+    "Fin736 complement enumeration via r.val-728 covers every work coordinate, without assuming zero or equal initial centres.",
+    "Two finite bandCertificate goals and index goal are proposed kernel decisions; no local Python predicate evaluation or scalar replay was used in this review."
+  ],
+  "probes": [
+    "CurrentMain.F19CentreBand.safe_run_related",
+    "CurrentMain.F19CentreBand.certified_band_independent",
+    "CurrentMain.F19CentreBand.forward_checked",
+    "CurrentMain.F19CentreBand.backward_checked",
+    "CurrentMain.F19CentreBand.exact_band_indices",
+    "CurrentMain.F19CentreBand.forward_independent",
+    "CurrentMain.F19CentreBand.backward_independent"
+  ],
+  "scope_limits": [
+    "Only raw14768\u201315031 interpreted scalar projection, arbitrary original inputs agreed between runs.",
+    "No prior/suffix/full-word endpoint, label admissibility, catalog/rank correctness or phase/physical operator theorem.",
+    "No unrecorded coefficient-work inventory/restoration.",
+    "Source/API PASS is not a compiler result; runtime/driver and resource admission remain integration-owned."
+  ],
+  "resource_note": "264-row endFlags/safeRows decisions and eight endpoint lookups are larger than earlier scalar syntax gates. Keep the proposed unchanged caps and ordinary stop; no fit inference from source review."
+}
