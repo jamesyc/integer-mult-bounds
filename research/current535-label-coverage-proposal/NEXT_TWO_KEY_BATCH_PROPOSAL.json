@@ -1,0 +1,171 @@
+{
+  "status": "READ_ONLY_COMPACT_TWO_KEY_BATCH_PROPOSAL_NO_SOURCE_OR_COMPILER",
+  "utc": "2026-10-12T14:41:04.223133+00:00",
+  "input": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+    "bytes": 184042
+  },
+  "retained_current90": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_child003/ACCEPTANCE.json",
+    "sha256": "74041ee2480fc32288ec2e20c0a4cb26ca6f713ec2267882f9faacba883e033d",
+    "bytes": 28816
+  },
+  "proposed_local_scope": {
+    "total": 8,
+    "retained": 6,
+    "fresh": 2
+  },
+  "proposed_roots": [
+    "One90-row-per-direction literal data module",
+    "One synchronous decomposed check module with four24/21 decisions, sparse handoffs and one final180-row composition"
+  ],
+  "raw_inclusive": [
+    10781,
+    10870
+  ],
+  "new_rows_each": 90,
+  "blocks": [
+    {
+      "raw_inclusive": [
+        10781,
+        10804
+      ],
+      "rows_each": 24,
+      "histogram_each": {
+        "relabel": 12,
+        "ADD": 12
+      },
+      "child_ordinal": 2,
+      "directed_key": [
+        0,
+        4,
+        1
+      ],
+      "support": [
+        464,
+        465,
+        474,
+        462,
+        463,
+        476,
+        538,
+        539,
+        550,
+        540,
+        541,
+        552
+      ],
+      "checkpoint": 114
+    },
+    {
+      "raw_inclusive": [
+        10805,
+        10825
+      ],
+      "rows_each": 21,
+      "histogram_each": {
+        "ADD": 19,
+        "relabel": 2
+      },
+      "child_ordinal": 2,
+      "directed_key": [
+        0,
+        4,
+        1
+      ],
+      "support": [
+        562,
+        564
+      ],
+      "checkpoint": 135
+    },
+    {
+      "raw_inclusive": [
+        10826,
+        10849
+      ],
+      "rows_each": 24,
+      "histogram_each": {
+        "relabel": 12,
+        "ADD": 12
+      },
+      "child_ordinal": 3,
+      "directed_key": [
+        0,
+        5,
+        1
+      ],
+      "support": [
+        466,
+        467,
+        478,
+        468,
+        469,
+        480,
+        490,
+        491,
+        502,
+        492,
+        493,
+        504
+      ],
+      "checkpoint": 159
+    },
+    {
+      "raw_inclusive": [
+        10850,
+        10870
+      ],
+      "rows_each": 21,
+      "histogram_each": {
+        "ADD": 19,
+        "relabel": 2
+      },
+      "child_ordinal": 3,
+      "directed_key": [
+        0,
+        5,
+        1
+      ],
+      "support": [
+        514,
+        516
+      ],
+      "checkpoint": 180
+    }
+  ],
+  "new_histogram_each": {
+    "ADD": 62,
+    "relabel": 28
+  },
+  "final_rows_each": 180,
+  "retained_proofs": "Consume accepted current90 predicate/checkpoint; do not reevaluate any earlier row, rebuild catalog or change generic helper.",
+  "reason": "Two adjacent natural recipe boundaries reviewed/frozen together avoid a separate data/check package for every45 rows. Boolean factorization and all sparse proofs stay unchanged.",
+  "resource_plan": {
+    "hard_seconds_each": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_VM_bytes": 3758096384,
+    "fresh_jobs_max": 2,
+    "async": false,
+    "maxRecDepth": 8192,
+    "maxHeartbeats": 2000000,
+    "shared_serial_slot": 1,
+    "stop": "First failure/review; no automatic retry or cap change."
+  },
+  "measured_baselines": {
+    "first_current45_Check_seconds": 17.65999668200675,
+    "next_current45_Check_seconds": 14.72308091299783,
+    "next_current45_Check_VM": 2302590976,
+    "historical74row_static_Check_seconds": 22.538494523,
+    "qualification": "Different source/table contexts; these are resource anchors, not a claimed speedup or proof that90 rows fit."
+  },
+  "success": "Exactly two bounded passes and complete probes; actual module time/VM reported for90 new rows/four independently checked blocks. No full-stream throughput extrapolation.",
+  "limitations": [
+    "Only canonical event labels, signed annotation/denominator checks and directed child key/rank.",
+    "Current operators for2/3 remain separately owned and are not inputs to these checks.",
+    "Omitted pre-A/adapter/physical/scalar endpoint remain open."
+  ],
+  "admission": "Await integration/root selection of changed90-row accumulated-check scope before source emission/compiler."
+}

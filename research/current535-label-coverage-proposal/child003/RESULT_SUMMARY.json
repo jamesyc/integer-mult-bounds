@@ -1,0 +1,116 @@
+{
+  "status": "OWNER_TERMINAL_PASS_INDEPENDENT_REVIEW_PENDING",
+  "utc": "2026-10-12T14:41:04.128033+00:00",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_child003/ACCEPTANCE.json",
+    "sha256": "74041ee2480fc32288ec2e20c0a4cb26ca6f713ec2267882f9faacba883e033d",
+    "bytes": 28816
+  },
+  "source_commit": "b633b8a57c0c22825b2402613715caa0b806ba82",
+  "metrics": [
+    {
+      "module": "Current535Child003Data",
+      "admitted_utc": "2026-10-12T14:37:55.921930+00:00",
+      "compiler_started_utc": "2026-10-12T14:37:57.252809+00:00",
+      "compile_seconds": 5.368327618998592,
+      "queue_seconds": 0.00047118100337684155,
+      "samples": 53,
+      "peak_vm_bytes": 2100940800,
+      "peak_rss_bytes": 1504354304,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current535Child003Check",
+      "admitted_utc": "2026-10-12T14:38:07.682885+00:00",
+      "compiler_started_utc": "2026-10-12T14:38:09.428956+00:00",
+      "compile_seconds": 14.72308091299783,
+      "queue_seconds": 0.001095362997148186,
+      "samples": 147,
+      "peak_vm_bytes": 2302590976,
+      "peak_rss_bytes": 1750102016,
+      "peak_threads": 3
+    }
+  ],
+  "total_compile_seconds": 20.09140853199642,
+  "queue_seconds": 0.0015665440005250275,
+  "peak_vm_bytes": 2302590976,
+  "scope": {
+    "local_modules": 6,
+    "preserved_current": 4,
+    "new_checks": 2,
+    "historical743_replays": 0
+  },
+  "data_scope": {
+    "raw_inclusive": [
+      10736,
+      10780
+    ],
+    "new_rows_each": 45,
+    "split": [
+      24,
+      21
+    ],
+    "new_histogram_each": {
+      "ADD": 31,
+      "relabel": 14
+    },
+    "new_child_ordinal": 1,
+    "new_child_key": [
+      0,
+      3,
+      1
+    ],
+    "ordered_descriptor": [
+      486
+    ],
+    "checkpoints": [
+      45,
+      69,
+      90
+    ],
+    "supports": [
+      [
+        488,
+        489,
+        498,
+        486,
+        487,
+        500,
+        536,
+        537,
+        546,
+        534,
+        535,
+        548
+      ],
+      [
+        586,
+        588
+      ]
+    ],
+    "full_label_domain": 736,
+    "frame_count": 997,
+    "child_count": 2927,
+    "composed_rows_each": 90,
+    "composed_histogram_each": {
+      "ADD": 62,
+      "relabel": 28
+    }
+  },
+  "probes": 38,
+  "scientific_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current535-child003/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "7906a82f51be6fc131c7fc98d75364cb5efcc359a68a7cf876cb307a65fe4984",
+    "bytes": 3088
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_child003/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+    "sha256": "e06b961d898e3662294fd002372e1fdb9cabaf796db4e3b6243f83883672a052",
+    "bytes": 9378
+  },
+  "limits": [
+    "Current0\u21923/[486] operator and complete Event/physical execution remain separate suppliers.",
+    "Pre-A projection/adapters and full stream are outside.",
+    "Historical743 result remains unchanged; only generic proof structure is reused."
+  ]
+}
