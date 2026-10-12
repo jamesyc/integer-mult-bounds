@@ -1,0 +1,131 @@
+{
+  "status": "SOURCE_ONLY_CORRECTED_WEIGHTED_REAL_MOMENT_ALL_INPUTS_ACCEPTED",
+  "created_utc": "2026-10-12T13:19:40.714728+00:00",
+  "source": {
+    "module": "SelectedRealMomentEnclosure",
+    "file": "SelectedRealMomentEnclosure.lean",
+    "sha256": "351f699e5ff49cafc1a777821671203754cc35cdd483a3ae1de616e0a0d9db86",
+    "bytes": 9111,
+    "explicit_imports": [
+      "SelectedMomentExpEnclosure",
+      "SelectedRoundedLogEnclosure"
+    ],
+    "expected_probes": [
+      "CurrentMain.SelectedRealMomentEnclosure.selectedRealMoment_le_upper",
+      "CurrentMain.SelectedRealMomentEnclosure.selectedRealMoment_strict"
+    ]
+  },
+  "source_context": {
+    "commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "publication_base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+    "conditional_kappa": "1517760977820331/1000000000000000000",
+    "decimal": "0.001517760977820331"
+  },
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "lines": "48-58"
+  },
+  "upstream_assembly": {
+    "repository_path": "research/direct-delivery504-global/code/assemble.py",
+    "sha256": "71b4cbbbc5acdfe06ac67879cf54ea761e29e52143af1cd8410ad672a5cc190b",
+    "lines": "15-19"
+  },
+  "accepted_aggregate": {
+    "source_sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+    "ordinary_pre_ceiling_body_byte_identical": true,
+    "body_sha256": "ed41a55d4e9ba2f8d14429aaf884243bf98879d2c57e3627a0f24c2cc9f7d248",
+    "fallback": "fallbackCount/(73*7168)*expUpper(bMinus*roundedLog6 9 137), ceiling applied before10^-16 factor.",
+    "final_definition": "selectedUpper=ordinaryRounded+fallbackRounded/10^16",
+    "strict_fact": "upper_aggregate_strict"
+  },
+  "enclosure_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-exp-enclosure/SelectedMomentExpEnclosure.lean",
+      "sha256": "b999dafefb6f3e2fd5b03babb91491800855064ae6407c8878c605f20160d000"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-rounded-log-enclosure/SelectedRoundedLogEnclosure.lean",
+      "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6"
+    }
+  ],
+  "real_definition": "The same left-associated nine-profile weighted sum with genuine Real.exp(bMinus*Real.log(73/rank)); add the rank-one fallback with the exact10^-16 factor.",
+  "proof_components": [
+    "Nonnegative exact bMinus and monotonicity of Real.exp transport the nine rounded-log bounds.",
+    "Compose with accepted source expUpper real enclosures.",
+    "Multiply by nonnegative source weights and combine all nine terms in source order.",
+    "Cast the source ceilGrid outward bounds independently for ordinary and fallback calls.",
+    "Add and discount exactly as selectedUpper, then reuse its accepted strict finite bound."
+  ],
+  "new_analytic_estimates": 0,
+  "new_numeric_checkpoints": 0,
+  "ordinary_profile": [
+    [
+      1,
+      146016
+    ],
+    [
+      2,
+      54144
+    ],
+    [
+      3,
+      13991
+    ],
+    [
+      4,
+      28224
+    ],
+    [
+      5,
+      7615
+    ],
+    [
+      6,
+      4032
+    ],
+    [
+      7,
+      1376
+    ],
+    [
+      32,
+      1
+    ],
+    [
+      48,
+      825
+    ]
+  ],
+  "remaining": [
+    "No operator/profile/row realization; these counts remain supplied selected finite data.",
+    "No initial saving validity, perturbation or all-size analytic transfer.",
+    "No full multiplier/kappa, physical caller or Plan/Budget theorem."
+  ],
+  "read_only_plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/REAL_MOMENT_FINITE_AGGREGATION_READ_ONLY_PLAN.json",
+    "sha256": "adbe840d8ec5c7163b9c26b1b6b1499b6cb583375a4145589dccf335cfd2547d"
+  },
+  "updated_utc": "2026-10-12T13:30:20.428351+00:00",
+  "rounded_log_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/rounded_log/ACCEPTANCE.json",
+    "sha256": "36e31e27a3cf5dc17e08fc6ff8bb3afff184996e7a6630d79970c5c1f995d26f",
+    "bytes": 31855
+  },
+  "rounded_log_independent_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_ROUNDED_LOG_TERMINAL_REVIEW.json",
+    "sha256": "922a6a66b1478aecf817bab76a9eda87eb50c109f04b85adfcebf353201a4700"
+  },
+  "definition_correction": {
+    "preimage": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/real_moment_definition_correction/preimage/SelectedRealMomentEnclosure.lean",
+      "sha256": "cd1c09d459b0e906eff1e059c4f1d3ed9a4fd5198c4ff77381c004ec4de5ef8d",
+      "bytes": 9113
+    },
+    "scope": "Only ordinaryRealMoment body corrected from malformed accumulated products to the intended left-associated sum of nine explicitly parenthesized weighted terms. All other source bytes identical. The preimage was never compiled or accepted."
+  },
+  "rounded_log_final_index": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/rounded_log/FINAL_ACCEPTANCE_INDEX.json",
+    "sha256": "75bb9a2d7d0908ded385ab818060bc5fc9a67ee08588b252e389cdfe543304cc"
+  }
+}
