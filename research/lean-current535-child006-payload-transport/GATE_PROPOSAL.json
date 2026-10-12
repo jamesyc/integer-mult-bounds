@@ -1,0 +1,98 @@
+{
+  "status": "SOURCE_ONLY_EXPLICIT_LOW4_HIGH5_TRANSPORT",
+  "root": {
+    "module": "Current535Child006PayloadTransport",
+    "source": "Current535Child006PayloadTransport.lean",
+    "sha256": "9400114e3dfab63700a8d367653c219c7e99e3657b273d0e44669ffd828c8874"
+  },
+  "direct_imports": [
+    "Current535RecipeLabelBindings"
+  ],
+  "local_scope": {
+    "total": 12,
+    "current": 11,
+    "pending": 1
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current535_child006_payload_transport/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "e5155eae9b6b2e7abffce3bb4e349354305f8a07092187f9e20291b6de4408cd",
+    "bytes": 23428
+  },
+  "preserved_siblings": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current535_child006_payload_transport/PRESERVED_SIBLINGS.json",
+    "sha256": "8bb436252e2199d8235da41ee06c0140f73bceeb5633c9d6163b77ecfd7b95e5",
+    "bytes": 14786
+  },
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "eb44d49b0b6e2d5a9f334b3d5e42abfb6f5d2615e5d1f386c6d6be4a8c37fa12",
+    "bytes": 2891518
+  },
+  "external_pairs": 2620,
+  "new_external_pairs": 0,
+  "selected_bindings": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-child006-payload-transport/SELECTED_BINDINGS.json",
+    "sha256": "1b84cfbc8cef9c42f11ae485012f1e12bdbad5c95907076772078ee59f6888e1",
+    "bytes": 3566
+  },
+  "accepted_operator_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_RECIPE_LABEL_WRAPPERS_TERMINAL_REVIEW.json",
+      "sha256": "ce4575710177558125778e7bfa787cdf448a1946f47e8ab5b6103efaddcf602f",
+      "bytes": 13342
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CLIFFORD_CHILD009_CANONICAL_TERMINAL_REVIEW.json",
+      "sha256": "c20e85076213ded5b3454ca70532d084faa7e19b26b43bf476ce92fb61e8df96",
+      "bytes": 5571
+    }
+  ],
+  "new_proof_scope": [
+    "Both inverse laws of low4/high5 address split/join, exact bit order.",
+    "Actual forward/inverse row action and offset1 on all9coordinates, retaining high bits symbolically.",
+    "Three literal source qvalue reductions with16low-bit cases each.",
+    "Exact Gaussian transport and arbitrary-payload source monomial formulas with input/preimage phase convention.",
+    "Canonical frame K C0 K^-1 and reuse of accepted all-payload identity under explicit payload conjugation."
+  ],
+  "resource_shape": {
+    "row_coordinate_cases_per_theorem": 9,
+    "row_action_theorems": 4,
+    "source_phase_cases_per_theorem": 16,
+    "source_phase_theorems": 3,
+    "full_address_enumeration": false,
+    "new_matrix_product_decisions": 0,
+    "measured_fit": false
+  },
+  "proposed_check": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "expected_probes": [
+      "CurrentMain.Current535Child006PayloadTransport.addressEquiv",
+      "CurrentMain.Current535Child006PayloadTransport.coordinate_order",
+      "CurrentMain.Current535Child006PayloadTransport.left_rows",
+      "CurrentMain.Current535Child006PayloadTransport.right_rows",
+      "CurrentMain.Current535Child006PayloadTransport.left_inverse_rows",
+      "CurrentMain.Current535Child006PayloadTransport.right_inverse_rows",
+      "CurrentMain.Current535Child006PayloadTransport.offset_rows",
+      "CurrentMain.Current535Child006PayloadTransport.left_phase",
+      "CurrentMain.Current535Child006PayloadTransport.right_phase",
+      "CurrentMain.Current535Child006PayloadTransport.canonical_phase",
+      "CurrentMain.Current535Child006PayloadTransport.gaussian_transport",
+      "CurrentMain.Current535Child006PayloadTransport.left_source_action",
+      "CurrentMain.Current535Child006PayloadTransport.right_source_action",
+      "CurrentMain.Current535Child006PayloadTransport.canonicalK_source_action",
+      "CurrentMain.Current535Child006PayloadTransport.canonical_new_shape",
+      "CurrentMain.Current535Child006PayloadTransport.selected_child_operator"
+    ]
+  },
+  "authority": "Root14:42 authorizes this independent source proposal and exact coordinate/phase/inverse review. No compiler admission yet. Current469 runs only under its separate existing scope.",
+  "remaining": [
+    "Current integer bit-packing/event/executor correspondence.",
+    "Physical recipe and expanded work semantics, residual/endpoint wrappers and full dirty rows/columns.",
+    "Other records and global owner/chart/cost suppliers."
+  ],
+  "publication": "No publication admission."
+}
