@@ -129,20 +129,20 @@ theorem checkRows_wellLabelled (p : SelectedData) (rows : List Row)
   induction rows generalizing labels with
   | nil => trivial
   | cons row rows ih =>
-      change admissibleB row.event labels && (scalarAnnotationB row labels &&
-        (childReferenceB p row && checkRows p rows (row.event.lab labels))) = true at h
-      have ha := (Bool.and_eq_true.mp h).1
-      have ht := (Bool.and_eq_true.mp (Bool.and_eq_true.mp
-        (Bool.and_eq_true.mp h).2).2).2
+      change (admissibleB row.event labels && (scalarAnnotationB row labels &&
+        (childReferenceB p row && checkRows p rows (row.event.lab labels)))) = true at h
+      have ha := (Bool.and_eq_true_iff.mp h).1
+      have ht := (Bool.and_eq_true_iff.mp (Bool.and_eq_true_iff.mp
+        (Bool.and_eq_true_iff.mp h).2).2).2
       change row.event.Admissible labels ∧
         LemmaG.Stream.WellLabelled (rows.map Row.event) (row.event.lab labels)
       exact ⟨admissibleB_sound row.event labels ha, ih _ ht⟩
 
 theorem checkPilot_wellLabelled (p : SelectedData) (h : checkPilot p = true) :
     ProjectedWellLabelled p := by
-  have ht := (Bool.and_eq_true.mp h).2
-  exact ⟨checkRows_wellLabelled p p.forward (initialLabels p) (Bool.and_eq_true.mp ht).1,
-    checkRows_wellLabelled p p.backward (initialLabels p) (Bool.and_eq_true.mp ht).2⟩
+  have ht := (Bool.and_eq_true_iff.mp h).2
+  exact ⟨checkRows_wellLabelled p p.forward (initialLabels p) (Bool.and_eq_true_iff.mp ht).1,
+    checkRows_wellLabelled p p.backward (initialLabels p) (Bool.and_eq_true_iff.mp ht).2⟩
 
 end CurrentMain.F19SelectedCoverage
 

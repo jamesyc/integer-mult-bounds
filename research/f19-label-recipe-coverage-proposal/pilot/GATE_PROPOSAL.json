@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_PREPARATION_REQUIRES_INDEPENDENT_REVIEW_AND_INTEGRATION_ADMISSION",
+  "status": "ORDINARY_PROOF_LOCAL_RETRY_AFTER_INDEPENDENT_REPAIR_AND_DRIVER_REVIEW",
   "local_scope": {
     "modules": 4,
     "current": 1,
@@ -15,14 +15,48 @@
       "module": "F19CoverageStatement",
       "candidate": {
         "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/F19CoverageStatement.lean",
-        "sha256": "6911b75daf4a662d4bd9057ee63f2d4781b42a926bd3f7d3d704bf89a20dbaf4",
-        "bytes": 6824
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
       },
       "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
       "imports": [
         "PR509Stream"
       ],
-      "source_object_receipt_log_absent": true
+      "source_object_receipt_log_absent": false,
+      "failed_prestate": {
+        "source": {
+          "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+          "sha256": "6911b75daf4a662d4bd9057ee63f2d4781b42a926bd3f7d3d704bf89a20dbaf4",
+          "bytes": 6824
+        },
+        "receipt": {
+          "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+          "sha256": "5cda486f6a3859ae30f1c769c878479cfbb7dd1f20cedcb884b8a0dccd91f2bf",
+          "bytes": 3448
+        },
+        "log": {
+          "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+          "sha256": "aa1373553cfa71cee55fd596030511447f364762515e452c927ff5355a87513d",
+          "bytes": 1214
+        },
+        "preserved": [
+          {
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/failure01/F19CoverageStatement.lean",
+            "sha256": "6911b75daf4a662d4bd9057ee63f2d4781b42a926bd3f7d3d704bf89a20dbaf4",
+            "bytes": 6824
+          },
+          {
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/failure01/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+            "sha256": "5cda486f6a3859ae30f1c769c878479cfbb7dd1f20cedcb884b8a0dccd91f2bf",
+            "bytes": 3448
+          },
+          {
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/failure01/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+            "sha256": "aa1373553cfa71cee55fd596030511447f364762515e452c927ff5355a87513d",
+            "bytes": 1214
+          }
+        ]
+      }
     },
     {
       "module": "F19CoveragePilotData",
@@ -105,9 +139,9 @@
     "bytes": 2386951
   },
   "current_inventory": {
-    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/SOURCE_CURRENT_INVENTORY.json",
-    "sha256": "6283021670519ec113e92ddfefdd34035f4b2102b4fe91163d97e9cbc2651acc",
-    "bytes": 7883
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/SOURCE_CURRENT_REPAIR01.json",
+    "sha256": "5e0cb3df726e3e744ca0e1f67d455b1aa706ddffdd181f2c24442bc1919a320f",
+    "bytes": 9917
   },
   "external_scope": {
     "nodes": 2213,
@@ -214,5 +248,24 @@
     "Scalar matrix or Clifford replay",
     "Whole-owner hosting and physical costs"
   ],
-  "kappa": "No new kappa result is claimed."
+  "kappa": "No new kappa result is claimed.",
+  "repair": {
+    "failed_source_sha256": "6911b75daf4a662d4bd9057ee63f2d4781b42a926bd3f7d3d704bf89a20dbaf4",
+    "changed_only": "Parenthesize the Boolean equality target and use installed Bool.and_eq_true_iff.mp in two soundness proof bodies. Statements, definitions, imports, data and finite goals unchanged.",
+    "installed_API": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/Bool.lean",
+      "sha256": "f418d6d98e4a2a8618027662eafdcf8abb69120e307254d309328e9afa1e3af9",
+      "bytes": 28387
+    },
+    "installed_API_lines": [
+      223,
+      224
+    ],
+    "preservation": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/failure01/PRESERVATION.json",
+      "sha256": "634864a0e136ade74a17795074c72f06595c7eee1373e9847305987ea2a660aa",
+      "bytes": 2452
+    },
+    "standing_release_received_utc": "2026-10-12T09:59:04+00:00"
+  }
 }
