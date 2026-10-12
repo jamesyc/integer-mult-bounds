@@ -1,0 +1,28 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_GENERIC_PACKED_COORDINATE_BOUNDARY",
+  "utc": "2026-10-12T16:22:51.212594+00:00",
+  "source_commit": "634691a7ef0009949651f9b8ce6d3985fa17e5e9",
+  "source_sha256": "3806de9c06e5073c7e8c1fd94aea40acbe8f62d7b105e6403aab3c2d1d6818aa",
+  "owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/gate/bit_api_repair/ACCEPTANCE.json",
+    "sha256": "bc07af22fd89b18270bbbba8b4a211804cd83946552f1b5680bd6dc4681fa7bf",
+    "bytes": 29361
+  },
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_PACKED_COORDINATES_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "0189f5c2fa7785d64fdede02ef6cd7f2376989a00aa3b06de37ab6b1e47fd6ac",
+    "bytes": 8182
+  },
+  "scope": [
+    10,
+    10,
+    0
+  ],
+  "external_pairs": 2620,
+  "new_probes": 10,
+  "compile_seconds": 7.871085619,
+  "peak_vm_bytes": 2439753728,
+  "conclusion": "Literal-free little-endian Fin512\u2194Fin9\u2192ZMod2 coordinate equivalence, XOR and payload inverse scatter/read laws.",
+  "remaining": "No selected emitted provider, packed matrix/phase, Gaussian dyadic or physical executor equality.",
+  "preserved_failure_count": 1
+}
