@@ -139,6 +139,7 @@ theorem cleanup_runs_reverse (s : State) :
   have h : decodedC.map BitXorReversal.scalarize =
       decodedA.reverse.map BitXorReversal.scalarize := by
     simp only [decodedC, List.map_map, Function.comp_def, frameOne, BitXorReversal.scalarize]
+    rfl
   calc
     BitXor.run decodedC s = BitXor.run (decodedC.map BitXorReversal.scalarize) s :=
       (BitXorReversal.run_scalarize decodedC s).symm
