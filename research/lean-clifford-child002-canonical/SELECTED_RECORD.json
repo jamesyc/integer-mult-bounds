@@ -1,0 +1,157 @@
+{
+  "status": "LITERAL_WITNESS_REQUIRING_KERNEL_CERTIFICATION",
+  "source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "catalog_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+  "canonical_word_sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+  "ordinal": 0,
+  "record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        3,
+        4,
+        9,
+        17,
+        32,
+        1,
+        64,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 2,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        13,
+        33,
+        2,
+        36,
+        40,
+        16,
+        64,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        45,
+        0,
+        45,
+        45,
+        0,
+        13,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "singleton_mask": 45,
+  "left_inverse_rows": [
+    32,
+    33,
+    2,
+    36,
+    40,
+    16,
+    64,
+    128,
+    256
+  ],
+  "right_inverse_rows": [
+    25,
+    4,
+    19,
+    11,
+    32,
+    27,
+    64,
+    128,
+    256
+  ],
+  "canonical_basis": [
+    45,
+    1,
+    2,
+    4,
+    8,
+    16,
+    64,
+    128,
+    256
+  ],
+  "canonical_rows": [
+    3,
+    4,
+    9,
+    17,
+    32,
+    1,
+    64,
+    128,
+    256
+  ],
+  "canonical_inverse_rows": [
+    32,
+    33,
+    2,
+    36,
+    40,
+    16,
+    64,
+    128,
+    256
+  ],
+  "canonical_Q": [
+    32,
+    0,
+    32,
+    32,
+    0,
+    45,
+    0,
+    0,
+    0
+  ],
+  "old_descriptor": [],
+  "new_descriptor": [
+    45
+  ]
+}

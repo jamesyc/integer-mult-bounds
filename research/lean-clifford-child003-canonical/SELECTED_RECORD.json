@@ -1,0 +1,157 @@
+{
+  "status": "LITERAL_WITNESS_REQUIRING_KERNEL_CERTIFICATION",
+  "source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "catalog_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+  "canonical_word_sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+  "ordinal": 1,
+  "record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        257,
+        1
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 3,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "matrix_rows": [
+        128,
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        384
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        384,
+        128
+      ]
+    }
+  },
+  "singleton_mask": 384,
+  "left_inverse_rows": [
+    256,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    384
+  ],
+  "right_inverse_rows": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    1,
+    257
+  ],
+  "canonical_basis": [
+    384,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "canonical_rows": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    257,
+    1
+  ],
+  "canonical_inverse_rows": [
+    256,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    384
+  ],
+  "canonical_Q": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    256,
+    384
+  ],
+  "old_descriptor": [],
+  "new_descriptor": [
+    384
+  ]
+}

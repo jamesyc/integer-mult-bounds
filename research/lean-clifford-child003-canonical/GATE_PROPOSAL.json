@@ -1,0 +1,81 @@
+{
+  "status": "SOURCE_ONLY_SEPARATE_SELECTED_RECORD_PROPOSAL",
+  "root": {
+    "module": "CliffordChild003Canonical",
+    "source": "CliffordChild003Canonical.lean",
+    "sha256": "3542501a52bfea133c55bf4049b1474945a9793718f4484b93833ef276445ab0"
+  },
+  "direct_imports": [
+    "CliffordNineBitDecoder"
+  ],
+  "scope_now": {
+    "total_local": 10,
+    "current": 8,
+    "pending": 2
+  },
+  "proposed_single_gate_after_decoder_pass": {
+    "total_local": 10,
+    "current": 9,
+    "pending": 1,
+    "no_other_record_root": true
+  },
+  "retained_current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "626beb54496d6d5f768abaa3205858c62da7ba9aa6fd5365f4ea6c40c4e36873",
+    "bytes": 17372
+  },
+  "pending_decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-clifford-nine-bit-decoder/CliffordNineBitDecoder.lean",
+    "sha256": "b75071d1c944374127e0ae6e51f320963e40c178afa6ce567c56b8d2a5019376",
+    "bytes": 8921
+  },
+  "external_scope": {
+    "source_object_pairs": 2620,
+    "header_edges": 10164,
+    "object_bytes": 1674498704,
+    "extra_relative_to_decoder": 0,
+    "footprint_sha256": "eb44d49b0b6e2d5a9f334b3d5e42abfb6f5d2615e5d1f386c6d6be4a8c37fa12"
+  },
+  "raw_record": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-clifford-child003-canonical/SELECTED_RECORD.json",
+    "sha256": "6f80fa6d6c452b807b44e5e49f01dca5b128b89826479b8551bc42e4300841ed",
+    "bytes": 1973
+  },
+  "witness_origin": "Own untrusted literal extraction/inverse/basis/Q witness preparation; no upstream script import or execution. All needed facts are theorem goals.",
+  "kernel_goals": [
+    "Exact old0/new/rank and empty/singleton descriptors.",
+    "All raw mask/linear-phase bounds.",
+    "Both binary matrix inverse products for left/right/canonical maps.",
+    "Source greedy-basis result with fuel10, transpose and Gram Q correction.",
+    "Actual first column, using inherited matrix linearity.",
+    "512 complete address cases of the phase-sensitive two-branch predicate.",
+    "Arbitrary-payload identity by the accepted sandwich_operator theorem; pointwise arbitrary spectators."
+  ],
+  "remaining_suppliers": [
+    "Raw packed-bit executor correspondence and actual physical phase-tagged recipes.",
+    "Endpoint/residual wrappers and expanded coefficient/tableau work.",
+    "Full arbitrary-dirty register rows/columns, global owner/stage/chart and price binding."
+  ],
+  "proposed_check": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "runner": "One retained-lock single-file root after separate current/input/resource guard; closed reduction cost is unmeasured.",
+    "expected_probes": [
+      "CurrentMain.CliffordChild003Canonical.record_key",
+      "CurrentMain.CliffordChild003Canonical.raw_fields_bounded",
+      "CurrentMain.CliffordChild003Canonical.left_inverses",
+      "CurrentMain.CliffordChild003Canonical.right_inverses",
+      "CurrentMain.CliffordChild003Canonical.canonical_inverses",
+      "CurrentMain.CliffordChild003Canonical.canonical_source_certificate",
+      "CurrentMain.CliffordChild003Canonical.canonical_first_column",
+      "CurrentMain.CliffordChild003Canonical.branch_phase_certificate",
+      "CurrentMain.CliffordChild003Canonical.canonical_transport",
+      "CurrentMain.CliffordChild003Canonical.selected_child_operator",
+      "CurrentMain.CliffordChild003Canonical.selected_child_with_spectators"
+    ]
+  },
+  "limits": "No bulk119-family, dense512x512 matrices, native evaluation, heartbeat/recursion increase or publication admission."
+}
