@@ -4,8 +4,8 @@
   "source": {
     "module": "SelectedMomentLogUnitEnclosure",
     "file": "SelectedMomentLogUnitEnclosure.lean",
-    "sha256": "abb1b6654895f7664b150b464a379a6de4705e4b5f1308cf47719307ee076aa0",
-    "bytes": 8527,
+    "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+    "bytes": 8938,
     "explicit_imports": [
       "SelectedMomentLogCheckpoints",
       "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
@@ -99,5 +99,10 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/log_unit_source_candidate/preimages/8433e4e8_initial.lean",
     "sha256": "8433e4e84d652b23ad26a4df4a2c2369983d4d9549f6ee8ad38c0325b1bd0a16",
     "change": "Two tactic endings use all-goals sequencing so a closing restricted simplification does not cause a no-goals diagnostic. No source statements or mathematics changed."
+  },
+  "ordinary_repair": {
+    "audit_sha256": "ae511a9dff92f54a33af191a20d2ddc06a8a159897b6b386dbbbf770a849bef2",
+    "failed_source_sha256": "abb1b6654895f7664b150b464a379a6de4705e4b5f1308cf47719307ee076aa0",
+    "scope": "Only private noncomputability annotation and three local reduction/cast proof sites. All definition bodies, theorem statements, numerical literals, imports, synchronous option and resource caps are unchanged."
   }
 }

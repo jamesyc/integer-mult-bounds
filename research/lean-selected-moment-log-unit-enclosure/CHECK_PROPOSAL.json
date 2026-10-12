@@ -4,8 +4,8 @@
   "source": {
     "module": "SelectedMomentLogUnitEnclosure",
     "file": "SelectedMomentLogUnitEnclosure.lean",
-    "sha256": "abb1b6654895f7664b150b464a379a6de4705e4b5f1308cf47719307ee076aa0",
-    "bytes": 8527,
+    "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+    "bytes": 8938,
     "explicit_imports": [
       "SelectedMomentLogCheckpoints",
       "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
@@ -18,7 +18,7 @@
       "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_56_upper"
     ]
   },
-  "source_binding_sha256": "b14a1ddc35a4963134d70c0b6950f198e8268109f53284e076228b3a9a55907f",
+  "source_binding_sha256": "cf8cafe231df92d16a1bb1b17f810f5876992a6eda5ffdeae97770095ff039ac",
   "local_scope": [
     2,
     1,
@@ -499,5 +499,10 @@
   "source_plan_review": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/analytic-real-enclosure-plan/READ_ONLY_PLAN_REVIEW.json",
     "sha256": "b4424e872ea811994ec74ef74aa9763e4e8080e24a37d7de16bb0c3417705d62"
+  },
+  "first_ordinary_repair": {
+    "failure_preservation_sha256": "a0c476f36e27ed3a77e5eb5feee5bdfd1ee06f80f206ded43ac6f940d5388a82",
+    "source_repair_audit_sha256": "ae511a9dff92f54a33af191a20d2ddc06a8a159897b6b386dbbbf770a849bef2",
+    "accepted_inputs_replayed": false
   }
 }

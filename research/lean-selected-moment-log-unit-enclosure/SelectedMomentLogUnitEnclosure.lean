@@ -21,7 +21,7 @@ open scoped BigOperators
 open Finset SelectedMomentLogCheckpoints
 set_option Elab.async false
 
-private def oddSum (z : ℝ) (n : Nat) : ℝ :=
+private noncomputable def oddSum (z : ℝ) (n : Nat) : ℝ :=
   ∑ j ∈ range n, z^(2*j+1) / ((2*j+1 : Nat) : ℝ)
 
 /-- Pair even and odd Taylor terms without expanding a 172-term expression. -/
@@ -63,11 +63,18 @@ private theorem log_auxiliary (z : ℝ) (hz : 0 ≤ z) (h1 : z < 1) :
   change (∑ i ∈ range 172, z^(i+1) / ((i : ℝ)+1)) -
     (∑ i ∈ range 172, (-z)^(i+1) / ((i : ℝ)+1)) =
     2 * oddSum z 86 at hpair
-  linarith
+  change -(z^173/(1-z)) ≤
+    (∑ i ∈ range 172, z^(i+1)/((i : ℝ)+1)) + Real.log (1-z) at hlo
+  change (∑ i ∈ range 172, (-z)^(i+1)/((i : ℝ)+1)) + Real.log (1+z) ≤
+    z^173/(1-z) at hhi
+  have hbound : Real.log (1+z) - Real.log (1-z) ≤
+      2 * oddSum z 86 + 2 * (z^173/(1-z)) := by
+    linarith only [hlo, hhi, hpair]
+  simpa only [mul_div_assoc] using hbound
 
 private theorem cast_power (n d exponent : Nat) :
     (powerFraction n d exponent : ℝ) = ((n : ℝ)/(d : ℝ))^exponent := by
-  simp only [powerFraction, Rat.cast_div, Rat.cast_natCast, Nat.cast_pow, div_pow]
+  simp only [powerFraction, Rat.cast_div, Rat.cast_natCast, Nat.cast_pow, Rat.cast_pow, div_pow]
 
 private theorem cast_term (n d j : Nat) :
     (logTerm n d j : ℝ) =
@@ -126,7 +133,7 @@ private theorem cast_sourceTail (n d : Nat) :
     (sourceTail n d : ℝ) = 2 * ((n : ℝ)/(d : ℝ))^161 /
       (161 * (1 - ((n : ℝ)/(d : ℝ))^2)) := by
   simp only [sourceTail, Rat.cast_mul, Rat.cast_div, Rat.cast_sub,
-    Rat.cast_ofNat, cast_power]
+    Rat.cast_ofNat, Rat.cast_one, cast_power]
 
 private theorem cast_unitUpper (n d : Nat) :
     (unitUpper n d : ℝ) = 2 * oddSum ((n : ℝ)/(d : ℝ)) 80 +
