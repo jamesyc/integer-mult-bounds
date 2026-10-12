@@ -1,0 +1,171 @@
+{
+  "status": "UNTRUSTED_SOURCE_BOUND_LITERAL_WITNESSES_REQUIRING_KERNEL_PROOFS",
+  "created_utc": "2026-10-12T14:10:18.703947+00:00",
+  "source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "source_package": "research/post-center-rank4-global",
+  "inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    }
+  ],
+  "ordinal": 1,
+  "record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        2,
+        5,
+        9,
+        16,
+        32,
+        65,
+        129,
+        257,
+        1
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 3,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "matrix_rows": [
+        230,
+        1,
+        258,
+        260,
+        8,
+        16,
+        288,
+        320,
+        384
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        0,
+        486,
+        486,
+        0,
+        0,
+        486,
+        486,
+        486,
+        230
+      ]
+    }
+  },
+  "old_descriptor": [],
+  "new_descriptor": [
+    486
+  ],
+  "singleton_mask": 486,
+  "record_sha256_compact_sorted": "aa61eecc8800b13d6a6e627e87e6e51b6dd2bbe6e3ee2f9ccffac3c34201474a",
+  "left_inverse_rows": [
+    256,
+    1,
+    258,
+    260,
+    8,
+    16,
+    288,
+    320,
+    384
+  ],
+  "right_inverse_rows": [
+    2,
+    457,
+    453,
+    16,
+    32,
+    397,
+    333,
+    205,
+    461
+  ],
+  "canonical_basis": [
+    486,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "canonical_rows": [
+    2,
+    5,
+    9,
+    16,
+    32,
+    65,
+    129,
+    257,
+    1
+  ],
+  "canonical_inverse_rows": [
+    256,
+    1,
+    258,
+    260,
+    8,
+    16,
+    288,
+    320,
+    384
+  ],
+  "canonical_Q": [
+    0,
+    256,
+    256,
+    0,
+    0,
+    256,
+    256,
+    256,
+    486
+  ],
+  "method": "Own bounded9-coordinate witness arithmetic, not upstream execution or numerical replay. Each inverse/basis/Q and phase claim remains a kernel goal."
+}
