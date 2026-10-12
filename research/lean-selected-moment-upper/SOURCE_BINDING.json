@@ -1,0 +1,213 @@
+{
+  "status": "SOURCE_ONLY_KERNEL_CONNECTIONS_UNMEASURED",
+  "utc": "2026-10-12T10:20:05.537180+00:00",
+  "source_context": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+  "author_parent_commit": "80ce745ac73a1d2f7f35b4961364c1e29c7cb2e8",
+  "sources": [
+    {
+      "path": "research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554
+    },
+    {
+      "path": "research/lean-selected-moment-upper/SelectedMomentUpperAggregate.lean",
+      "sha256": "9323af6424ae3889ec1c58adba968f685cb2b6bd141201351ad21710c55f42d4",
+      "bytes": 75205
+    }
+  ],
+  "source_pins": [
+    {
+      "path": "certificates/selected-result.json",
+      "sha256": "0bca96caf2da6fe14c3f69b0560b6185de1c8238d2b361dec8e9786c91f585ed",
+      "bytes": 2156,
+      "git_blob": "f2c354709b6c647a32d718f13d7dcd0c4079ba52"
+    },
+    {
+      "path": "research/community-pr531-audit/direct-ASSEMBLY.json",
+      "sha256": "b352aad19ea2f23d70f9913e497b2588d7352d68816bf201cbc35bba2aa71698",
+      "bytes": 29796,
+      "git_blob": "65c077b8f2daaf34e545e28b95f00bcc5365e419"
+    },
+    {
+      "path": "research/community-pr531-audit/direct-OWNERS.json",
+      "sha256": "9088142f1a6e98b2b596ea2bf2d747259e900058d1f66dffd629c969596239c6",
+      "bytes": 1736,
+      "git_blob": "ba92ca3a30fb69f4a83913a9cafb09a899dad1d1"
+    },
+    {
+      "path": "research/community-pr531-audit/SOURCE.json",
+      "sha256": "6aa7dcaae7967651404f951f7fbbb227cbda1c29a5a9640261f5e90a55dab928",
+      "bytes": 42058,
+      "git_blob": "e5bea2c23d2ace83f020bc20749921cc7e727cf6"
+    },
+    {
+      "path": "research/direct-delivery504-global/code/assemble.py",
+      "sha256": "71b4cbbbc5acdfe06ac67879cf54ea761e29e52143af1cd8410ad672a5cc190b",
+      "bytes": 4604,
+      "git_blob": "a234aecb14de159247809af1120fedc1aab20df9"
+    },
+    {
+      "path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "conditional_kappa": "1517760977820331/1000000000000000000",
+  "source_fields": {
+    "bMinus": {
+      "pointer": "/complex_lower",
+      "value": "304013615566499291631/200000000000000000000000"
+    },
+    "residual": {
+      "pointer": "/exact_moment_receipts/0/base_two/1",
+      "value": "-1833834697676656121979/2500000000000000000000000000000000000000000000"
+    },
+    "profile": {
+      "1": 146016,
+      "2": 54144,
+      "3": 13991,
+      "4": 28224,
+      "5": 7615,
+      "6": 4032,
+      "7": 1376,
+      "32": 1,
+      "48": 825
+    },
+    "W": 7168
+  },
+  "controls": {
+    "log_terms": 80,
+    "exp_steps": 12,
+    "rounding_grid": 1000000000000000000000000000000,
+    "fallback_divisor": 10000000000000000,
+    "fallbackCount": 43693366272
+  },
+  "source_order_profile": [
+    [
+      1,
+      146016
+    ],
+    [
+      2,
+      54144
+    ],
+    [
+      3,
+      13991
+    ],
+    [
+      4,
+      28224
+    ],
+    [
+      5,
+      7615
+    ],
+    [
+      6,
+      4032
+    ],
+    [
+      7,
+      1376
+    ],
+    [
+      32,
+      1
+    ],
+    [
+      48,
+      825
+    ]
+  ],
+  "binary_reduction": [
+    {
+      "rank": 1,
+      "count": 146016,
+      "k": 6,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 2,
+      "count": 54144,
+      "k": 5,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 3,
+      "count": 13991,
+      "k": 4,
+      "n": 25,
+      "d": 121
+    },
+    {
+      "rank": 4,
+      "count": 28224,
+      "k": 4,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 5,
+      "count": 7615,
+      "k": 3,
+      "n": 33,
+      "d": 113
+    },
+    {
+      "rank": 6,
+      "count": 4032,
+      "k": 3,
+      "n": 25,
+      "d": 121
+    },
+    {
+      "rank": 7,
+      "count": 1376,
+      "k": 3,
+      "n": 17,
+      "d": 129
+    },
+    {
+      "rank": 32,
+      "count": 1,
+      "k": 1,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 48,
+      "count": 825,
+      "k": 0,
+      "n": 25,
+      "d": 121
+    }
+  ],
+  "rounding_semantics": "Unit upper expressions remain exact until unitUpper(z)+k*unitUpper(1/3) is outward-rounded once. The ordinary nine-term aggregate and singleton fallback are separately outward-rounded; only the latter is divided by10^16.",
+  "block_semantics": "Ten8-term contiguous left-fold log blocks and three4-step (term,total) exp blocks retain exact source order. Each literal next state is proved from the previous literal; whole-expression equalities use those proven transitions, never unchecked literal substitution.",
+  "authoring_emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_moment_upper/prepare_source.py",
+    "sha256": "b290d515eab2d8df11d1245c9a7c4fed643a9e7cc5be84cd596222b3a0802830",
+    "trusted_for_proof": false,
+    "behavior": "Standard-library Fraction used to propose witness literals. No upstream module imported/executed; Lean must check every checkpoint and final connection."
+  },
+  "planning_equalities": {
+    "upper_minus_one": "-1833834697676656121979/2500000000000000000000000000000000000000000000",
+    "recorded_residual_match": true,
+    "upper_below_one": true,
+    "ordinaryRounded": "999999999991595206913720239753/1000000000000000000000000000000",
+    "fallbackRounded": "21011982715697566782802323343878021/250000000000000000000000000000",
+    "not_kernel_acceptance": true
+  },
+  "removes_if_accepted": "Exact finite base-two upper rational aggregation and its strict negative residual for the selected nine-profile accepted endpoint, including source executable domain checks.",
+  "remaining": [
+    "Real log/exp analytic enclosure and its connection to this finite upper rational",
+    "Owner/profile/operator realization beyond supplied finite profile",
+    "Other moment engine, upper rejected endpoint, six bootstrap updates and remaining outer constraints",
+    "All-size compiler/precision/tape/analytic transfer and selected scalar caller"
+  ]
+}

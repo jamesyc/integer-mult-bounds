@@ -1,0 +1,81 @@
+{
+  "status": "SOURCE_ONLY_RESOURCE_PROPOSAL_NO_COMPILER_ADMISSION",
+  "utc": "2026-10-12T10:20:05.539300+00:00",
+  "scope": [
+    2,
+    0,
+    2
+  ],
+  "all_nodes": 321,
+  "cached_inputs": 319,
+  "cached_object_bytes": 85527032,
+  "external_library_paths": [
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean"
+  ],
+  "cached_reference": {
+    "commit": "80ce745ac73a1d2f7f35b4961364c1e29c7cb2e8",
+    "path": "research/lean-selected-outer-grid/CHECK_PROPOSAL.json",
+    "sha256": "0d281fd411afc23a904605190685613c7592be4c07b365182fda2a88b9532e69",
+    "field": "cached_rows"
+  },
+  "roots": [
+    {
+      "path": "research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554,
+      "module": "SelectedMomentLogCheckpoints",
+      "explicit_imports": [
+        "Batteries.Data.Rat.Basic"
+      ],
+      "checkpoint_proofs": 50,
+      "public_probes": [
+        "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+        "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+        "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+        "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+        "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper"
+      ]
+    },
+    {
+      "path": "research/lean-selected-moment-upper/SelectedMomentUpperAggregate.lean",
+      "sha256": "9323af6424ae3889ec1c58adba968f685cb2b6bd141201351ad21710c55f42d4",
+      "bytes": 75205,
+      "module": "SelectedMomentUpperAggregate",
+      "explicit_imports": [
+        "SelectedMomentLogCheckpoints"
+      ],
+      "checkpoint_proofs": 27,
+      "public_probes": [
+        "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+        "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+        "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+        "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+        "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+        "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict"
+      ]
+    }
+  ],
+  "source_binding_sha256": "469238b68990d693f0717ac1888d65fd37bbdb21da1e8dda9124a22dea7ea190",
+  "proof_strategy": "Installed Basic Rat arithmetic and decide +kernel at bounded literal-state blocks; ordinary equality rewrites compose those checkpoints into complete source-defined formulas. No native_decide or external oracle.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 40,
+    "review_vm_bytes": 3758096384
+  },
+  "reduction_boundaries": {
+    "log_block_terms": 8,
+    "log_blocks_per_point": 10,
+    "distinct_unit_points": 5,
+    "exp_block_steps": 4,
+    "exp_blocks_per_entry": 3,
+    "profile_entries": 9,
+    "maximum_full_checkpoint_chain_reduced_at_once": "One block only; theorem rewriting replaces prior states before downstream kernel reduction."
+  },
+  "resource_qualification": "The reused85,527,032 static object bytes and prior outer-grid0.553s/642MB do not predict this77-checkpoint fit. Each of two roots must separately satisfy existing hard/review caps. Stop on first resource/ordinary failure; no successor inference or cap increase.",
+  "proposed_admission_order": [
+    "SelectedMomentLogCheckpoints",
+    "SelectedMomentUpperAggregate"
+  ],
+  "no_compiler_executed": true
+}
