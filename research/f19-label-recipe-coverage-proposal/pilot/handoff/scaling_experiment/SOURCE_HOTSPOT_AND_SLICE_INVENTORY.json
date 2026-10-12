@@ -1,0 +1,283 @@
+{
+  "status": "READ_ONLY_SOURCE_COST_INSPECTION_AND_BOUNDED_EXPERIMENT_PROPOSAL",
+  "utc": "2026-10-12T10:55:21.191255+00:00",
+  "source_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/direct-delivery504-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+      "bytes": 75113
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+      "bytes": 187483
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/direct-delivery504-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+      "bytes": 990631
+    }
+  },
+  "current_statement": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/F19CoverageStatement.lean",
+    "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+    "bytes": 6854
+  },
+  "current_checkpoint": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/F19CoverageNextData.lean",
+    "sha256": "5dc5f53b220310fd4094c64d0c57911bae2740dbd9e0b6d6b950c246ccede54f",
+    "bytes": 7815
+  },
+  "current_next_check": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/F19CoverageNextCheck.lean",
+    "sha256": "682184651c36f00b946d0a0a0d28cc1b877ff26680647fc864d7870b7e02b44b",
+    "bytes": 2416
+  },
+  "baseline_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_next_check/ACCEPTANCE.json",
+    "sha256": "d258b485364298565fa543e3e81350ebb6fafedcf66bc7e7310e21f5ac0f1dcd",
+    "bytes": 23928
+  },
+  "baseline_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_NEXT64_TERMINAL_REVIEW.json",
+    "sha256": "a5f077178f3f0f16600e20249efbd88b8d050a49cd301e87b7bc0b62c184e9cf",
+    "bytes": 5745
+  },
+  "installed_profiler_source": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Util/Profile.lean",
+    "sha256": "e49b40c437dbae29d004fbbf2256dc3e982c4503db2d30c59f8cdfd80aa2c6a6",
+    "bytes": 1922
+  },
+  "installed_decide_source": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Elab/Tactic/ElabTerm.lean",
+    "sha256": "a73ff4218da2dabca6ea97059da285bfdbbfd10a4a98d5e042266c0fd5a49082",
+    "bytes": 26717
+  },
+  "source_findings": {
+    "ADD_label_read_syntax_count": 5,
+    "ADD_repeated_label_equality": 2,
+    "baseline_each62_ADD_2_relabel_label_reads": 312,
+    "sparse_checkpoint_membership_entries": 41,
+    "child_table_entries": 2922,
+    "dimension_entries": 983,
+    "attribution_limit": "These are exact expression-level counts, not measured kernel unfold counts or time attribution. Prior logs contain no per-declaration profile."
+  },
+  "next_slices": {
+    "A": {
+      "forward": {
+        "raw_indices_inclusive": [
+          11043,
+          11106
+        ],
+        "count": 64,
+        "counts": {
+          "add": 63,
+          "climb": 1
+        },
+        "climbs": [
+          {
+            "raw_index": 11073,
+            "register": 216,
+            "old": 0,
+            "new": 2,
+            "rank": 1,
+            "child_ordinal": 0
+          }
+        ],
+        "slice_compact_json_sha256": "e5c7f03e6706dff91a0abcd8952050c4b950cf05276973047d55d5eabc981589",
+        "omitted_macro_count": 0
+      },
+      "backward": {
+        "raw_indices_inclusive": [
+          11043,
+          11106
+        ],
+        "count": 64,
+        "counts": {
+          "add": 63,
+          "climb": 1
+        },
+        "climbs": [
+          {
+            "raw_index": 11073,
+            "register": 216,
+            "old": 0,
+            "new": 2,
+            "rank": 1,
+            "child_ordinal": 0
+          }
+        ],
+        "slice_compact_json_sha256": "acbd99f5073318d5c08f52e573395bb75e62e17a236a3cccfbf5a22f0ab4612b",
+        "omitted_macro_count": 0
+      }
+    },
+    "B": {
+      "forward": {
+        "raw_indices_inclusive": [
+          11107,
+          11170
+        ],
+        "count": 64,
+        "counts": {
+          "add": 56,
+          "climb": 8
+        },
+        "climbs": [
+          {
+            "raw_index": 11135,
+            "register": 504,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11137,
+            "register": 505,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11139,
+            "register": 528,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11141,
+            "register": 529,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11155,
+            "register": 492,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          },
+          {
+            "raw_index": 11157,
+            "register": 493,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          },
+          {
+            "raw_index": 11159,
+            "register": 516,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          },
+          {
+            "raw_index": 11161,
+            "register": 517,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          }
+        ],
+        "slice_compact_json_sha256": "b25303ddfab5c09d549bd8aabb52f00b5d0b23e1056d2a4f346ec9d32b0be149",
+        "omitted_macro_count": 0
+      },
+      "backward": {
+        "raw_indices_inclusive": [
+          11107,
+          11170
+        ],
+        "count": 64,
+        "counts": {
+          "add": 56,
+          "climb": 8
+        },
+        "climbs": [
+          {
+            "raw_index": 11135,
+            "register": 504,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11137,
+            "register": 505,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11139,
+            "register": 528,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11141,
+            "register": 529,
+            "old": 0,
+            "new": 3,
+            "rank": 1,
+            "child_ordinal": 1
+          },
+          {
+            "raw_index": 11155,
+            "register": 492,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          },
+          {
+            "raw_index": 11157,
+            "register": 493,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          },
+          {
+            "raw_index": 11159,
+            "register": 516,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          },
+          {
+            "raw_index": 11161,
+            "register": 517,
+            "old": 0,
+            "new": 4,
+            "rank": 1,
+            "child_ordinal": 2
+          }
+        ],
+        "slice_compact_json_sha256": "99048d2e3157728eced3fd20c2599f58135e43be39ad1ab6f8b79d85f1fbd458",
+        "omitted_macro_count": 0
+      }
+    }
+  },
+  "proposed_union": {
+    "local_modules": 13,
+    "current": 7,
+    "pending": 6,
+    "external_pairs": 2213,
+    "emitted_or_DFS_verified": false
+  },
+  "no_upstream_script_or_Lean_executed": true
+}
