@@ -1,0 +1,69 @@
+{
+  "status": "EXACT_UPSTREAM_AND_PROBE_SOURCE_PENDING_INDEPENDENT_REVIEW",
+  "utc": "2026-10-12T16:24:24.234022+00:00",
+  "upstream_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+  "upstream_path": "research/hyperplane-end-lean/HyperplaneEnd/Clifford.lean",
+  "upstream_blob": "5970d81439b8bca2935a935d964779845a45057c",
+  "local_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-pr593-clifford-reuse/PR593Clifford.lean",
+    "sha256": "c0c51407b4fa6ff230a79d5f3b07c83b7d1c4b433ce03513f0c4fb725bf3cbe1",
+    "bytes": 25621
+  },
+  "probe_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-pr593-clifford-reuse/PR593CliffordGenericProbes.lean",
+    "sha256": "d456c1ef380a4c2305ea78ec46436a6152ed6b9d7c13854c1b83e615bc3e95f8",
+    "bytes": 642
+  },
+  "source_byte_identity": true,
+  "local_import_name": "PR593Clifford",
+  "namespace": "HyperplaneEnd.Clifford",
+  "public_probes": [
+    "HyperplaneEnd.Clifford.par9_spec",
+    "HyperplaneEnd.Clifford.cL_append",
+    "HyperplaneEnd.Clifford.gL_adj",
+    "HyperplaneEnd.Clifford.cL_adjC",
+    "HyperplaneEnd.Clifford.cE",
+    "HyperplaneEnd.Clifford.cE_symm_apply",
+    "HyperplaneEnd.Clifford.gC_emb",
+    "HyperplaneEnd.Clifford.cL_emb",
+    "HyperplaneEnd.Clifford.runZ_bnd",
+    "HyperplaneEnd.Clifford.cL_eq_of_check"
+  ],
+  "first_scope": [
+    1,
+    0,
+    1
+  ],
+  "second_scope": [
+    2,
+    1,
+    1
+  ],
+  "external_pairs": 2501,
+  "no_other_local_imports": true,
+  "footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/pr593_generic_clifford_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "1b57b34054c7a1cb088935fa6de231fab0753bcaef6f28922f117065531cd606",
+    "bytes": 2124466
+  },
+  "read_only_api": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/PR593_FDB6_PACKED_CLIFFORD_INTERFACE_DELTA_REVIEW.json",
+    "sha256": "3b5875a7beb6d2f0777a86936acd7c35827a07b5c3b1b7652200ccc264cf5799",
+    "bytes": 11590
+  },
+  "authority": "Root16:21 authorizes exact two-root generic experiment after independent source/probe and binding review; serial existing single-root packets, first1/0/1 then2/1/1 with actual upstream output. Machine next executor.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2
+  },
+  "stops": "Stop after any failure or review threshold; preserve exact upstream source/evidence and do not redesign without separate authority.",
+  "source_cost": "Standalone generic upstream source has symbolic proofs plus par9_spec finite512-bit predicate. No Exact.lean, pair checks, raw9 union or selected provider data. Runtime cost unmeasured.",
+  "statement_limits": [
+    "gC/cL semantics are total on FinN using modN indices; bounded list/mask/source correspondence remains a supplier.",
+    "cE requires cOk; cL_eq_of_check uses check=true for defined exact complex circuits and preserves global phase.",
+    "No current selected source, physical executor, all-size or kappa theorem."
+  ]
+}
