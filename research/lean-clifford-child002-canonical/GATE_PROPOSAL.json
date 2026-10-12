@@ -3,7 +3,7 @@
   "root": {
     "module": "CliffordChild002Canonical",
     "source": "CliffordChild002Canonical.lean",
-    "sha256": "4fdb5deca8a742455246260d2818412fa65c103989f3cc04999d11be0e02267f"
+    "sha256": "f975ea3e9e6bdd843cc97ad3ba925151ad961631f02c38e43d5e3a1cf3b52223"
   },
   "direct_imports": [
     "CliffordNineBitDecoder"

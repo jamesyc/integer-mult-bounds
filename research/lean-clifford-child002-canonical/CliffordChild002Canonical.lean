@@ -118,7 +118,7 @@ private theorem right_preimage (y : Address) :
 
 private theorem mask_dot (y : Address) :
     dotProduct (mask singletonMask) y = parity y := by
-  simp [dotProduct, mask, singletonMask, parity, sumFour, Fin.sum_univ_succ]
+  simp [dotProduct, mask, singletonMask, parity, sumFour, Fin.sum_univ_succ, add_assoc]
 
 private theorem outer_action (y : Address) :
     Matrix.vecMulVec (mask singletonMask) (mask singletonMask) *ᵥ y =
@@ -158,7 +158,7 @@ private theorem left_quadratic (x : Address) :
 private theorem right_quadratic (x : Address) :
     qvalue rightQ rightAlpha x = rightPhaseFour (x 0) (x 2) (x 3) (x 5) := by
   simp [qvalue, rightQ, rightAlpha, rightPhaseFour, matrix, Fin.sum_univ_succ,
-    Nat.add_assoc]
+    Nat.add_assoc, add_assoc]
 
 private theorem left_preimage_zero (y : Address) : left.preimage y 0 = y 5 := by
   rw [left_preimage]
