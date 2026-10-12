@@ -1,0 +1,77 @@
+{
+  "status": "PASS_INDEPENDENT_STRUCTURAL_SOURCE_API_REVIEW_NO_COMPILER",
+  "utc": "2026-10-12T13:18:50.083083+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/bit-xor-reversal/BitXorReversal.lean",
+    "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+    "bytes": 6073
+  },
+  "scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/bit-xor-reversal/SOURCE_SCOPE.json",
+    "sha256": "d35652e2ca24d2e212400e64ea659021370e64ce398a9ac2438dc33923b4a3f8",
+    "bytes": 3922
+  },
+  "accepted_dependency": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+    "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+    "bytes": 5194
+  },
+  "accepted_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_BIT493_XOR_TERMINAL_REVIEW.json",
+    "sha256": "c402a6bf48fc6d501d27085b0f9aa67b66290869b74217b033a0139a9a22c711",
+    "bytes": 5440
+  },
+  "installed_apis": [
+    {
+      "module": "Init.Data.Bool",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/Bool.lean",
+        "sha256": "f418d6d98e4a2a8618027662eafdcf8abb69120e307254d309328e9afa1e3af9",
+        "bytes": 28387
+      },
+      "used": [
+        "Bool.xor_assoc",
+        "Bool.xor_self",
+        "Bool.xor_false",
+        "Bool.bne_self_left"
+      ]
+    },
+    {
+      "module": "Init.Data.List.Basic",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Basic.lean",
+        "sha256": "3622990991094fa2ea739b1a2c44bcde45913c1bbec75c6c1ebad24e1d1e4175",
+        "bytes": 87846
+      },
+      "used": [
+        "List.reverse_cons"
+      ]
+    },
+    {
+      "module": "Init.Data.List.Lemmas",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Lemmas.lean",
+        "sha256": "d8fc731c3950655b66c6354085b34f7405b3b3d1f97bc3a7f4e3a1f5b0175ac0",
+        "bytes": 147325
+      },
+      "used": [
+        "List.mem_reverse",
+        "List.mem_singleton"
+      ]
+    }
+  ],
+  "checks": [
+    "run_append preserves the accepted head-first gate execution; run_scalarize is definitional because step reads only dst/sources.",
+    "step_involutive allows repeated source operands but requires dst absent; target_identity and off-destination preservation give the same contribution on both applications, cancelled by Bool.xor_assoc/xor_self/xor_false.",
+    "run_reverse_cancel uses reverse_cons plus chronological run_append; the list-dependent membership premise is restricted to the tail and the state is generalized. No operand reversal/deduplication is introduced.",
+    "shifted_comparison uses installed Bool.bne_self_left to represent any pair agreeing off targets; run_shift then gives run_agree_off_target in the correct equality direction.",
+    "cleanup_off_target uses only no-self-read gates, no reads of targets, and an arbitrary middle map preserving off-target coordinates. No clean or linear middle premise is hidden.",
+    "cleanup_target_value separately requires all destinations off targets; accepted run_off_target instantiated with the complement leaves the actual middle target value unchanged.",
+    "Exactly seven printed probes; no axiom/sorry/native_decide, literal selected data, new imports or finite replay."
+  ],
+  "scope_limits": [
+    "Source/API review only; no elaboration, runtime/current-object review or compiler admission.",
+    "No selected R489/R480 word, source-order/finite no-read certificates, frame transport, COPY/ERASE lifecycle or physical/all-size endpoint."
+  ],
+  "reviewer": "bank routing independent owner"
+}
