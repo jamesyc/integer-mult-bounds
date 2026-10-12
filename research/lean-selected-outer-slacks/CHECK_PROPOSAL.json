@@ -1,0 +1,341 @@
+{
+  "status": "SOURCE_ONLY_CHECK_PROPOSED_PENDING_EXACT_REVIEWS_AND_COORDINATOR_ADMISSION",
+  "scope": [
+    5,
+    4,
+    1
+  ],
+  "all_nodes": 324,
+  "cached_inputs": 319,
+  "cached_object_bytes": 85527032,
+  "cached_reference": {
+    "path": "research/lean-selected-outer-grid/CHECK_PROPOSAL.json",
+    "sha256": "0d281fd411afc23a904605190685613c7592be4c07b365182fda2a88b9532e69",
+    "commit": "80ce745ac73a1d2f7f35b4961364c1e29c7cb2e8"
+  },
+  "retained_current_roots": [
+    {
+      "module": "SelectedOuterGridCertificate",
+      "source": "analytic_assembly/selected_finite/outer_grid_20261012/SelectedOuterGridCertificate.lean",
+      "source_sha256": "8cc6371a32b8e8adb6f34e87986af8aa8ec853cc196947bec5fab7b974fd4277",
+      "receipt": "receipts/analytic_assembly__selected_finite__outer_grid_20261012__SelectedOuterGridCertificate.lean.json",
+      "receipt_sha256": "21e08e2e04080f9105e83ea9db1e088f660ab43c5174ca45069e75a6213ba45b",
+      "log": "logs/analytic_assembly__selected_finite__outer_grid_20261012__SelectedOuterGridCertificate.lean.log",
+      "log_sha256": "09fe6efba92c2a6f58e34f5bef1c2b32c3283fbb002f660f1047c15a199ce840",
+      "status": "PASS",
+      "started_utc": "2026-10-12T10:09:14.799563+00:00",
+      "finished_utc": "2026-10-12T10:09:15.352356+00:00",
+      "compile_seconds": 0.5527912689940422,
+      "queue_seconds": 2.7328809760001604,
+      "process_observations": {
+        "samples": 6,
+        "peak_vm_bytes": 642121728,
+        "peak_rss_bytes": 308469760,
+        "peak_threads": 3
+      },
+      "object": "analytic_assembly/selected_finite/outer_grid_20261012/SelectedOuterGridCertificate.olean",
+      "object_sha256": "cdeeb255043129c5a0f7a8ce63afdcbdac8e5b0ec2c2b5e183042d31277e81e1",
+      "complete_probes": [
+        {
+          "declaration": "CurrentMain.SelectedOuterGridCertificate.q_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedOuterGridCertificate.compact_slack_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedOuterGridCertificate.selected_grid_bracket",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedMomentLogCheckpoints",
+      "source": "analytic_assembly/selected_finite/moment_upper_20261012/SelectedMomentLogCheckpoints.lean",
+      "source_sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "receipt": "receipts/analytic_assembly__selected_finite__moment_upper_20261012__SelectedMomentLogCheckpoints.lean.json",
+      "receipt_sha256": "606b1947942f8c92cdadb7e189a2be0cddbf5480d9271be602447e02ee42e144",
+      "log": "logs/analytic_assembly__selected_finite__moment_upper_20261012__SelectedMomentLogCheckpoints.lean.log",
+      "log_sha256": "02b6f7b82ebe48765c4428122bdd936207e2560805c1efbd90902cd2d5d21619",
+      "status": "PASS",
+      "started_utc": "2026-10-12T10:31:21.999106+00:00",
+      "finished_utc": "2026-10-12T10:31:24.877411+00:00",
+      "compile_seconds": 2.8783042750001187,
+      "queue_seconds_including_post_fifo_guard": 3.5238332510052714,
+      "process_observations": {
+        "samples": 29,
+        "peak_vm_bytes": 706076672,
+        "peak_rss_bytes": 321036288,
+        "peak_threads": 3
+      },
+      "object": "analytic_assembly/selected_finite/moment_upper_20261012/SelectedMomentLogCheckpoints.olean",
+      "object_sha256": "45410e51c7245c94df6116cf6cbc3898f52e1a2a43b575ff1a2b8929a012a79d",
+      "complete_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedMomentUpperAggregate",
+      "source": "analytic_assembly/selected_finite/moment_upper_20261012/group_decomposition_repair/SelectedMomentUpperAggregate.lean",
+      "source_sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+      "receipt": "receipts/analytic_assembly__selected_finite__moment_upper_20261012__group_decomposition_repair__SelectedMomentUpperAggregate.lean.json",
+      "receipt_sha256": "420db120a5f2a898cbf22f937d1589c22e424266dbabf901d566c419e17200d5",
+      "log": "logs/analytic_assembly__selected_finite__moment_upper_20261012__group_decomposition_repair__SelectedMomentUpperAggregate.lean.log",
+      "log_sha256": "9cbc3d4dd8248924dc042576326ce4c8a15eb6feb9c5dad719e58b68be925aaa",
+      "status": "PASS",
+      "started_utc": "2026-10-12T10:48:07.087437+00:00",
+      "finished_utc": "2026-10-12T10:48:09.894650+00:00",
+      "compile_seconds": 2.8071176369994646,
+      "queue_seconds_including_post_fifo_guard": 2.800388629999361,
+      "process_observations": {
+        "samples": 28,
+        "peak_vm_bytes": 707616768,
+        "peak_rss_bytes": 339386368,
+        "peak_threads": 3
+      },
+      "object": "analytic_assembly/selected_finite/moment_upper_20261012/group_decomposition_repair/SelectedMomentUpperAggregate.olean",
+      "object_sha256": "514b4159d5e93a3614f3ac8102ca04a9412ef97f3c0184990a1e441afdaf0c78",
+      "complete_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedBootstrapCertificate",
+      "source": "analytic_assembly/selected_finite/bootstrap_20261012/SelectedBootstrapCertificate.lean",
+      "source_sha256": "3802d3eca90aec81672029005f14b14ade72e4b2f7ba8d036c41ee61e8975f39",
+      "receipt": "receipts/analytic_assembly__selected_finite__bootstrap_20261012__SelectedBootstrapCertificate.lean.json",
+      "receipt_sha256": "769828b6f965219359800956f5ed98d8dc179a7a3837adc7ec49af6a029a808a",
+      "log": "logs/analytic_assembly__selected_finite__bootstrap_20261012__SelectedBootstrapCertificate.lean.log",
+      "log_sha256": "e635bff1f0547bc8a94a4e1abec65a8770116e7160395d013b5bfba6f7142188",
+      "status": "PASS",
+      "started_utc": "2026-10-12T11:07:14.068405+00:00",
+      "finished_utc": "2026-10-12T11:07:16.409317+00:00",
+      "compile_seconds": 2.3408928670032765,
+      "queue_seconds_including_post_fifo_guard": 2.976779815995542,
+      "process_observations": {
+        "samples": 24,
+        "peak_vm_bytes": 643137536,
+        "peak_rss_bytes": 314548224,
+        "peak_threads": 3
+      },
+      "object": "analytic_assembly/selected_finite/bootstrap_20261012/SelectedBootstrapCertificate.olean",
+      "object_sha256": "b6f4d9ddc07625385eefe5c4c6a84e4e06046244b96af3f3dd9b3c25d07c3c88",
+      "complete_probes": [
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.shrink_matches_literal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.supplied_input_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.stage1_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.stage2_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.stage3_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.stage4_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.stage5_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.stage6_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.bootstrap_endpoint_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedBootstrapCertificate.bootstrap_grid_bracket",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    }
+  ],
+  "new_root": {
+    "module": "SelectedOuterSlackCertificate",
+    "path": "research/lean-selected-outer-slacks/SelectedOuterSlackCertificate.lean",
+    "sha256": "faf9c2f02e7d9c35ab63e755142b4ef36f291ebc20f46d7522f21dcc2558e518",
+    "bytes": 87663,
+    "explicit_imports": [
+      "SelectedBootstrapCertificate"
+    ],
+    "public_probes": [
+      "CurrentMain.SelectedOuterSlackCertificate.strict_constraints_match_certificate",
+      "CurrentMain.SelectedOuterSlackCertificate.strict_constraint_count",
+      "CurrentMain.SelectedOuterSlackCertificate.strict_constraints_positive",
+      "CurrentMain.SelectedOuterSlackCertificate.seven_margins_match",
+      "CurrentMain.SelectedOuterSlackCertificate.seven_margin_count",
+      "CurrentMain.SelectedOuterSlackCertificate.seven_margin_minimum",
+      "CurrentMain.SelectedOuterSlackCertificate.all_margins_above_kappa",
+      "CurrentMain.SelectedOuterSlackCertificate.balanced_prefix_gap",
+      "CurrentMain.SelectedOuterSlackCertificate.gamma_identity",
+      "CurrentMain.SelectedOuterSlackCertificate.geometry_identity"
+    ]
+  },
+  "external_library_paths": [
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean"
+  ],
+  "hard_seconds": 60,
+  "hard_vm_bytes": 4294967296,
+  "review_seconds": 40,
+  "review_vm_bytes": 3758096384,
+  "new_probes": 10,
+  "retained_probes": 24,
+  "total_probes": 34,
+  "private_parameter_certificates": 19,
+  "private_margin_certificates": 7,
+  "private_slack_certificates": 47,
+  "kernel_decision_sites": 81,
+  "proof_decomposition": "19 parameter equalities,7 margins and47 named slack equalities are closed separately. Public ordered-list equality reuses them; Bool.all discharges finite positivity, transported by installed List.all_eq_true. No large conjunction synthesis or unchecked arithmetic oracle.",
+  "resource_assessment": "Same319cached objects/85527032bytes. More scalar facts than bootstrap, but separated bounded kernel reductions. Runtime fit remains unmeasured; no recursion/synthesis/cap expansion.",
+  "initial_parent": "db5c6d99cc7878af3d3dd1399752c48c07ca7658",
+  "source_binding_sha256": "f25f144deb2b8f1f9e5a4bbd86132922cb2c816b74ee85b471c89f52ebc2accd"
+}
