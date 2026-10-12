@@ -1,0 +1,150 @@
+{
+  "status": "KERNEL_PASS_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "utc": "2026-10-12T11:59:48.794916+00:00",
+  "source_commit": "47be17b8affe6ced72cf9af59302c3d540946e14",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child34/ACCEPTANCE.json",
+    "sha256": "bb7a9e346f20998f93bf83c7da5f4a32ee862819c818bba0b107835c70592e1b",
+    "bytes": 53810
+  },
+  "independent_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_CHILD34_TERMINAL_REVIEW.json",
+    "sha256": "7cf4677ef28006d9d7bcce133c25ec8040cb3f3cc5054645c55e6ccc821d4e38",
+    "bytes": 3787
+  },
+  "scientific_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-child34/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "0b9a44322ef9b791b53df269c6d627d559fcbc66c14d2b3875d0e6e64a9e76d7",
+    "bytes": 11656
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child34/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+    "sha256": "05faa014500bfbb24713da6f1c0086a75a0b68c9562624d15bd6879faded9ccc",
+    "bytes": 8613
+  },
+  "local_scope": {
+    "local_modules": 15,
+    "preserved_current": 12,
+    "new_checks": 3,
+    "independent_alternate_direct_preserved": 1,
+    "accepted_prefix_replays": 0
+  },
+  "data_scope": {
+    "new_rows_each": 44,
+    "raw_indices_inclusive": [
+      11171,
+      11214
+    ],
+    "chunkC": {
+      "indices": [
+        11171,
+        11194
+      ],
+      "rows": 24,
+      "add": 20,
+      "relabel": 4,
+      "child_ordinal": 3,
+      "child_key": [
+        0,
+        5,
+        1
+      ]
+    },
+    "chunkD": {
+      "indices": [
+        11195,
+        11214
+      ],
+      "rows": 20,
+      "add": 16,
+      "relabel": 4,
+      "child_ordinal": 4,
+      "child_key": [
+        0,
+        6,
+        1
+      ]
+    },
+    "composed_rows_each": 364,
+    "composed_branch_counts_each": {
+      "add": 304,
+      "relabel": 60
+    },
+    "checkpoint320_overrides": {
+      "label3": [
+        504,
+        505,
+        528,
+        529
+      ],
+      "label4": [
+        492,
+        493,
+        516,
+        517
+      ]
+    },
+    "checkpoint344_new5": [
+      502,
+      503,
+      514,
+      515
+    ],
+    "checkpoint364_new6": [
+      490,
+      491,
+      526,
+      527
+    ],
+    "omitted_rows_in_new_range": 0,
+    "next_excluded_new_key_starts": 11215,
+    "operator_status": "Frame confirms keys3/4 family membership only; no operator certificates yet."
+  },
+  "new_metrics": [
+    {
+      "module": "F19CoverageSparseValues",
+      "admitted_utc": "2026-10-12T11:51:54.961565+00:00",
+      "compile_seconds": 3.8647600389958825,
+      "queue_seconds": 0.000645116000669077,
+      "samples": 37,
+      "peak_vm_bytes": 2102665216,
+      "peak_rss_bytes": 1507086336,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageChild34Data",
+      "admitted_utc": "2026-10-12T11:52:04.625232+00:00",
+      "compile_seconds": 4.371582173997012,
+      "queue_seconds": 0.0008643690016469918,
+      "samples": 44,
+      "peak_vm_bytes": 2102882304,
+      "peak_rss_bytes": 1506963456,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageChild34Check",
+      "admitted_utc": "2026-10-12T11:52:14.195717+00:00",
+      "compile_seconds": 10.53331571000308,
+      "queue_seconds": 0.0006696499985991977,
+      "samples": 105,
+      "peak_vm_bytes": 2237501440,
+      "peak_rss_bytes": 1665789952,
+      "peak_threads": 3
+    }
+  ],
+  "new_probe_count": 47,
+  "new_compile_seconds": 18.769657922995975,
+  "new_queue_seconds": 0.0021791350009152666,
+  "new_peak_vm_bytes": 2237501440,
+  "proof_reuse": "Accepted320-row checks/WellLabelled reused. New full checkpoint320 reduces only final accepted64-row label actions, then symbolic append. New24+20 checks use accepted factorization and multivalue sparse checkpoints. No accepted root recompiled.",
+  "prior_resource_review": "Prior ChunkA kernel PASS/review stop retained; no below-review reinterpretation. All3 new roots below unchanged review caps.",
+  "excluded_scope": [
+    "Earlier-prefix admissibility or omitted boundary adapters",
+    "Centre branch exercise",
+    "Clifford/scalar/whole-owner endpoints",
+    "Child0\u21927 beginning11215",
+    "Full-stream throughput or general representation speedup"
+  ],
+  "next_boundary": "Stop before raw11215, child ordinal5/key0\u21927. No successor source or compiler admitted by this result.",
+  "comparison": "Single measured44-row packet. No full-stream throughput or universal-fit inference; prior Direct/Split evidence is preserved separately."
+}
