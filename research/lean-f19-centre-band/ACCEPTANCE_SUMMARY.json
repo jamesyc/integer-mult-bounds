@@ -1,0 +1,99 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_EXACT_CENTRE_BAND_SCALAR_INDEPENDENCE",
+  "recorded_utc": "2026-10-12T12:51:21.168452+00:00",
+  "source_commit": "91528cc56a3220ba17766980ab8bb5b0fbe8ae03",
+  "source_sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279",
+  "source_scope_sha256": "09d149951b9dc6e9c1f37073a13cf54bc5e331b75e0dcf8ec1901f37fb348b13",
+  "owner_acceptance_sha256": "0b6924c072d454a432cdc35a042973e3b59c9339a34dcea4afb6e7b4c9b1d01d",
+  "independent_terminal_review_sha256": "b9ca0457ed4670390cf02b1fa69867f9294d38017e4fb4af7ee49bbb8b1c8e65",
+  "kernel_object_sha256": "842c3e455781da140f70893231e9372d7814f8936e80643eb8bcf3d0941f9e6e",
+  "receipt_sha256": "38d8d70955576e3caa474288a9ccca5726a8d5aa087a3c826f31831fb1139de8",
+  "full_log_sha256": "455d861ec545d48acc3df11f98d80d5557cb89c94e5cba6f5377b61a0c3418fb",
+  "standard_axiom_probes": [
+    {
+      "declaration": "CurrentMain.F19CentreBand.safe_run_related",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreBand.certified_band_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreBand.forward_checked",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreBand.backward_checked",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreBand.exact_band_indices",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreBand.forward_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19CentreBand.backward_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "current_scope": {
+    "total": 7,
+    "current": 7,
+    "pending": 0,
+    "launch": [
+      7,
+      6,
+      1
+    ]
+  },
+  "external_pairs": 2232,
+  "timing": {
+    "started_utc": "2026-10-12T12:46:43.526641+00:00",
+    "finished_utc": "2026-10-12T12:46:58.691513+00:00",
+    "compile_seconds": 15.164870002998214,
+    "fifo_seconds": 0.0005463600027724169,
+    "preparation_seconds": 1.046264798998891
+  },
+  "process_observations": {
+    "samples": 151,
+    "peak_vm_bytes": 2516062208,
+    "peak_rss_bytes": 1782231040,
+    "peak_threads": 4
+  },
+  "claim": "For both exact264-row centre bands, raw14768..15031, arbitrary736-register inputs agreeing on728 original L slots yield identical full output states and eight zero centres. Forward exercises224ADD/8COPY/16CLEAR/16relabels; backward232ADD/16CLEAR/16relabels. Signed coefficients and dirty-target overwrite/erase semantics are retained.",
+  "open_obligations": [
+    "Prefix/suffix and full22937-event scalar endpoint remain unproved.",
+    "Relabel is identity only in this scalar shadow; physical centre recipes and boundary/residual adapters remain separate.",
+    "Unserialized coefficient work and its lifecycle are outside the eight serialized centre slots.",
+    "No full operator, owner/caller/price, or multiplication theorem is inferred."
+  ],
+  "conditional_selected_context_kappa": "0.001517760977820331",
+  "publication_status": "Research result record only; no publication or full multiplier claim."
+}
