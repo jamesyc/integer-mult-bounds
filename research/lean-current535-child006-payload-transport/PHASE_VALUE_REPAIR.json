@@ -1,0 +1,16 @@
+{
+  "status": "FIRST_ORDINARY_PROOF_LOCAL_REPAIR_SOURCE_ONLY",
+  "actual_diagnostic": "Only the three Boolean phase finishes retain closed ZMod.val1 arithmetic; private sparse qvalue reductions have no errors. No wholemodule acceptance.",
+  "change": "Add ZMod.val_one_eq_one_mod to exactly3local simp lists. Definitions/statements,2/8/8casecount,imports and caps unchanged.",
+  "retained": 12,
+  "external_pairs": 2620,
+  "scope": {
+    "total": 13,
+    "current": 12,
+    "new": 1
+  },
+  "failed_source_sha256": "9b7934eab467ee2d6eee3a4a260b83223116b9538af71d7521d62a916e9a0369",
+  "candidate_sha256": "30eba047f57ef8f06ccda2bf1a7c8214436b5df32c69de2e07cf04e5bd8b4b56",
+  "failure_receipt_sha256": "135292ec2a8057647f092885f27f5daa6b739a910ddee9bd46c951f7adfa2baf",
+  "proposal_sha256": "a7fb53538a092298a63033357abee9432963a81f9c52f179c379e6888b7e1c66"
+}

@@ -33,7 +33,7 @@ theorem left_phase (x : SplitAddress) :
       CliffordChild009Decoder.leftPhase x.1 := by
   rw [left_qvalue_reduced]
   rcases x with ⟨⟨a, b, c, d⟩, h⟩
-  cases a <;> simp [join, ofBool, CliffordChild009Decoder.leftPhase]
+  cases a <;> simp [join, ofBool, ZMod.val_one_eq_one_mod, CliffordChild009Decoder.leftPhase]
 
 theorem right_phase (x : SplitAddress) :
     qvalue CliffordChild009Decoder.rightQ CliffordChild009Decoder.rightAlpha (join x) =
@@ -41,7 +41,7 @@ theorem right_phase (x : SplitAddress) :
   rw [right_qvalue_reduced]
   rcases x with ⟨⟨a, b, c, d⟩, h⟩
   cases a <;> cases b <;> cases d <;>
-    simp [join, ofBool, CliffordChild009Decoder.rightPhase]
+    simp [join, ofBool, ZMod.val_one_eq_one_mod, CliffordChild009Decoder.rightPhase]
 
 theorem canonical_phase (x : SplitAddress) :
     qvalue CliffordChild009Canonical.canonicalQ (List.replicate 9 0) (join x) =
@@ -49,7 +49,7 @@ theorem canonical_phase (x : SplitAddress) :
   rw [canonical_qvalue_reduced]
   rcases x with ⟨⟨a, b, c, d⟩, h⟩
   cases a <;> cases b <;> cases d <;>
-    simp [join, ofBool, CliffordChild009Canonical.canonicalPhase]
+    simp [join, ofBool, ZMod.val_one_eq_one_mod, CliffordChild009Canonical.canonicalPhase]
 
 end CurrentMain.Current535Child006PayloadTransport
 
