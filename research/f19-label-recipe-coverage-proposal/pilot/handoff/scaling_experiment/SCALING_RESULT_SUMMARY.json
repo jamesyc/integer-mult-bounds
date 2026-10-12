@@ -1,5 +1,5 @@
 {
-  "status": "OWNER_SEALED_COMPLETED_SIX_JOB_EXPERIMENT_TERMINAL_REVIEW_PENDING",
+  "status": "ACCEPTED_AND_INDEPENDENTLY_REVIEWED_COMPLETED_SIX_JOB_EXPERIMENT",
   "utc": "2026-10-12T11:33:00.859073+00:00",
   "source_commit": "553b18e198d0272a10b509e7082fbf32d5079846",
   "acceptance": {
@@ -208,5 +208,11 @@
     "option_post_lock_guard_utc": "2026-10-12T11:23:31.166271+00:00",
     "paired_first_admission_utc": "2026-10-12T11:23:33.213061+00:00",
     "paired_last_finished_utc": "2026-10-12T11:24:03.451571+00:00"
-  }
+  },
+  "terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_SCALING_SERIAL_B_TERMINAL_REVIEW.json",
+    "sha256": "4a2dd872c1a85ca63d8d36811a2cd189608c1dae30e67d1f3d448686bb2b328e",
+    "bytes": 5670
+  },
+  "pre_terminal_summary_sha256": "258b124de9b5102f966250b973ce741c2ada1fa6f251d88f745ad552c74f9adb"
 }
