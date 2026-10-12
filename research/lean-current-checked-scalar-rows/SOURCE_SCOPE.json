@@ -1,0 +1,91 @@
+{
+  "status": "INDEPENDENT_SOURCE_REVIEWED_PROPOSAL_UNCOMPILED",
+  "utc": "2026-10-12T15:06:12.402683+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-checked-scalar-rows/CurrentCheckedScalarRows.lean",
+    "sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+    "bytes": 8397
+  },
+  "prospective_local_scope": [
+    12,
+    11,
+    1
+  ],
+  "runtime_pairs": 2232,
+  "external_import_delta": 0,
+  "new_finite_decisions": 0,
+  "public_probes": 6,
+  "accepted_bank_scope": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_coverage45/ACCEPTANCE.json",
+    "sha256": "f533c8e40cf6ada118c756f3b635a882bae726f679a35c5659414657045c27d9",
+    "bytes": 24735
+  },
+  "centre_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_centre_band_proposal/gate/ACCEPTANCE.json",
+    "sha256": "769df76f40447373e66c2d076b0127e72954894e3278e787c2af57cf1d3785e5",
+    "bytes": 38223
+  },
+  "centre_independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_CENTRE_BAND_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "f3fdee8876d4579a5d226119db80d0213bda4181015163febe8f9a730d76d72f",
+    "bytes": 8220
+  },
+  "source_interface": "CanonicalFrameCoverage.Row frameCount, instantiated997 by all four selected applications. Exact denominator-aware checkRows inputs at current labels0/labels24 are reused; no finite predicate is recomputed.",
+  "proof_reuse": "Historical checked-row syntax transport proof generalized to current Row n; current decoded_rows_run supplies scalar run equality directly. No conjugation/state-independence induction is reintroduced.",
+  "selected_applications": [
+    "forward_A_checked at labels0/raw10691..10714",
+    "forward_B_checked at labels24/raw10715..10735",
+    "backward_A_checked at labels0/raw10691..10714",
+    "backward_B_checked at labels24/raw10715..10735"
+  ],
+  "operator_interface": "Produces rational Event(Fin736)(Fin997) and upstream WellLabelled. To use DirectedChildRecipes/PR509 conj, caller still supplies RecipesExact, compatible current canonical-frame and Gaussian recipe interpretations, rational restriction or complex-coefficient transport, and actual packed/physical event equality. The checked all-payload operators alone do not identify the serialized executor.",
+  "exclusions": [
+    "No actual current prefix before10691 or omitted-adapter supplier.",
+    "No full45 concatenation theorem or subsequent90/180 slices are instantiated here; generic theorem may consume their actual checked premises later.",
+    "No physical work/row-column/whole-word/multiplier conclusion."
+  ],
+  "source_kappa": "1584931111785787/1000000000000000000 = 0.001584931111785787",
+  "no_compiler": true,
+  "original_frozen_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_checked_rows_proposal/SOURCE_API_RESOURCE_PROPOSAL.json",
+    "sha256": "a817e16dceeb115be386c64c8b1adedfa880c45626db8db70765ce59d7e9a2bd",
+    "bytes": 2711
+  },
+  "independent_source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current535-checked-rows/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "7705ba6493ec701713b3d879986aa77c76c972e03f1283a9d9578c373b27890e",
+    "bytes": 4945
+  },
+  "current_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "source_inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "bytes": 184042
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710
+    }
+  ],
+  "expected_probes": [
+    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.decoded_admissible",
+    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.checked_rows_sound",
+    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_forward_A",
+    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_forward_B",
+    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_backward_A",
+    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_backward_B"
+  ],
+  "admission": "Root explicitly released exact12/11/1 after centre independent terminal and integration binding guard; one new root,2232 unchanged external pairs and existing caps/stops."
+}

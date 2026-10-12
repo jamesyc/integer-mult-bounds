@@ -1,0 +1,3 @@
+# Current checked scalar rows
+
+This source reuses PR509 Stream event semantics, the accepted current CanonicalFrameCoverage checker and the scalar decoder/run lemmas. Current finite predicates were supplied by the independently accepted bank A/B checks; no finite replay is introduced here. Source preparation and proof were performed by the machine-contracts agent with independent bank review under the repository user's direction. Current selected author kappa is 1584931111785787/10^18; this module proves no bound on kappa. RecipesExact, source-matched frame operators, actual packed execution, omitted adapters and physical work endpoints remain explicit obligations.
