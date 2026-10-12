@@ -1,0 +1,96 @@
+{
+  "status": "PASS_INDEPENDENT_SIX_SCATTER_TEMP_TERMINAL",
+  "utc": "2026-10-12T17:47:44.964830+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_facts/ACCEPTANCE.json",
+    "sha256": "7eb671caaaeacff18e86c909a7805bbe026a754f86e6278ce231fe85ef87748b",
+    "bytes": 371611
+  },
+  "source_commit": "5b2dd814173a23e770646738acceda6d771ff204",
+  "new_quadruple": {
+    "module": "CurrentR420ScatterFacts",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_scatter_facts_20261012/CurrentR420ScatterFacts.lean",
+      "sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87",
+      "bytes": 1769
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_scatter_facts_20261012/CurrentR420ScatterFacts.olean",
+      "sha256": "861eb9da25b5d51ec8ef27530272384589b0f5a0c7b0b0a8504a2ce9eef9a94c",
+      "bytes": 39584
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_scatter_facts_20261012__CurrentR420ScatterFacts.lean.json",
+      "sha256": "3f43df604b3d9a964199cd94f022ce57e42431ac355a53614cbc4f8cd91f27b8",
+      "bytes": 2468
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_scatter_facts_20261012__CurrentR420ScatterFacts.lean.log",
+      "sha256": "7bcd61dc61f044ccc4647bc637893e7e180d3c62aa719738ef65bc477d8266a4",
+      "bytes": 501
+    },
+    "dependencies": {
+      "CurrentR420BBandCheck": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.olean",
+        "olean_sha256": "cded4db11ad6df82ba2f189ebc76b8c9ef902399632e2be0cf911e94f584d226",
+        "source_sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41"
+      }
+    }
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-scatter-facts/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "b2c1d27fd57f32ebe97b17d7900caedda2fbb938e97ec4e19382e345828fd4de",
+    "bytes": 5079
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_facts/BANK_SINGLE_BINDING_REVIEW.json",
+    "sha256": "2cd717b17e73f7e640eff31b2569e8ba8a507c3ee5dcedb25affd29cccb811db",
+    "bytes": 4812
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_facts/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "ec2d61224b8076c5415faa2ca3659413d28970911324b5a47a5ab2e03f4d7916",
+    "bytes": 465071
+  },
+  "verified": {
+    "import_nodes": 325,
+    "official_source_object_pairs": 317,
+    "retained_local_quadruples": 7,
+    "new_local_quadruples": 1,
+    "protected_prior_quadruples": 38,
+    "failure_archives": 44,
+    "additional_source_pins": 236,
+    "complete_probes": 6
+  },
+  "probes": {
+    "CurrentMain.CurrentR420Boundary.scatter_shape": [],
+    "CurrentMain.CurrentR420Boundary.scatter_index_domain": [],
+    "CurrentMain.CurrentR420Boundary.scatter_helpers": [],
+    "CurrentMain.CurrentR420Boundary.temporary_index": [],
+    "CurrentMain.CurrentR420Boundary.embed_preserves_index": [],
+    "CurrentMain.CurrentR420Boundary.original_excludes_temporary": []
+  },
+  "compiler_metrics": {
+    "compile_seconds": 0.7117008180066478,
+    "queue_seconds": 3.6904243169992696,
+    "samples": 8,
+    "peak_vm_bytes": 723337216,
+    "peak_rss_bytes": 328970240,
+    "peak_threads": 3
+  },
+  "compiler_timing": {
+    "requested_utc": "2026-10-12T17:44:34.135553+00:00",
+    "slot_acquired_utc": "2026-10-12T17:44:37.826037+00:00",
+    "started_utc": "2026-10-12T17:44:38.862290+00:00",
+    "finished_utc": "2026-10-12T17:44:39.573994+00:00"
+  },
+  "scope": "Six finite scatter lookup/domain and original-register/temporary exclusion facts; no COPY lifecycle or dirty temporary restoration conclusion.",
+  "limitations": [
+    "Import-only27-fact wrapper",
+    "Current661 COPY/scatter lifecycle instance",
+    "Actual A/C bindings and D parity",
+    "Physical transport and full theorem"
+  ],
+  "historical_resource_context": "Narrowed-scope recovery only. Original combined27-fact allocation failure and all later diagnostic failures remain preserved; no equivalent-whole-check speedup or allocation-cause claim.",
+  "compiler_executed_by_reviewer": false
+}
