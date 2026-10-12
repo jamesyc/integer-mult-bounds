@@ -1,0 +1,154 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENT_SCIENTIFIC_REVIEW_TIME_HOLD",
+  "source_commit": "b5881c9d2727d1ac6280e7d8a886ea9f5b0b7b17",
+  "source_sha256": "0615b79c0144663e11de90bf1e9a6c407b6b60b767304dac0c67ce6ea6cf9857",
+  "object_sha256": "9fbe1794153b6596803cb3e54b9fa99f5b5dee433b83fe68eb3c86d140f89e1f",
+  "receipt_sha256": "97d2d368312064228b5ff63fe52ec03fdffcca07caa412833f1253b0ac7c0919",
+  "log_sha256": "2b79b3cbf3d8df96b7f247f89f99e103a41137d8852fb65ba2f954a98479cbd2",
+  "selected_source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "catalog_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+  "canonical_word_sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+  "selected_key": {
+    "ordinal": 3,
+    "old": 0,
+    "new": 5,
+    "rank": 1,
+    "descriptor": [
+      435
+    ]
+  },
+  "current_local_closure": 10,
+  "retained_imported_inputs": 9,
+  "external_source_object_pairs": 2620,
+  "phase_case_count": 64,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.record_key",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.raw_fields_bounded",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.left_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.right_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.canonical_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.canonical_source_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.canonical_first_column",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.branch_phase_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.canonical_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.selected_child_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild005Canonical.selected_child_with_spectators",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "lean_version": "4.21.0",
+  "mathlib_commit": "308445d7985027f538e281e18df29ca16ede2ba3",
+  "first_attempt": true,
+  "measurements": {
+    "started_utc": "2026-10-12T13:16:36.790849+00:00",
+    "finished_utc": "2026-10-12T13:17:24.573087+00:00",
+    "compile_seconds": 47.78159450900421,
+    "queue_seconds": 0.0007351790045504458,
+    "preparation_seconds": 1.6648110449968954,
+    "timeout_seconds": 60,
+    "memory_limit_bytes": 4294967296,
+    "process_observations": {
+      "samples": 472,
+      "peak_vm_bytes": 2642313216,
+      "peak_rss_bytes": 1869529088,
+      "peak_threads": 4
+    }
+  },
+  "review_limits": {
+    "seconds": 45,
+    "vm_bytes": 3758096384
+  },
+  "independent_terminal_review": {
+    "artifact": "CHILD005_CANONICAL_TERMINAL_REVIEW.json",
+    "sha256": "410e2179c16dc7ee66c7a82d5663111f547f07bcee6923d2adb9c6ad54533ae5"
+  },
+  "claim": "The exact interpreted directed ordinal3 recipe equals its source-defined canonical Gaussian operator on every complex payload. Raw bounds, actual two-sided inverses, greedy basis/Q, first column and complete symbolic address/64-case phase certificate are checked; three other address coordinates and external spectators are arbitrary.",
+  "remaining": [
+    "Raw packed-address/event executor correspondence and physical recipe semantics.",
+    "Residual/endpoint wrappers and expanded coefficient/tableau work.",
+    "Complete dirty-state rows/columns, global owner/stage/chart and cost suppliers.",
+    "Other record certificates, including ordinal4/key0->6."
+  ],
+  "publication": "No publication admission or multiplier bound.",
+  "separately_preserved_roots": [
+    "CliffordChild002Canonical",
+    "CliffordChild003Canonical",
+    "CliffordChild004Canonical"
+  ],
+  "resource_review": {
+    "threshold_seconds": 45,
+    "actual_seconds": 47.78159450900421,
+    "excess_seconds": 2.781594509004208,
+    "action": "Preserve exact PASS evidence. No retry or successor until explicit review disposition.",
+    "caps_unchanged": true
+  },
+  "terminal_hold_packet_sha256": "b03721c84192baae1438ec66a211301f16db7655323453e43614a05e96ed6953"
+}

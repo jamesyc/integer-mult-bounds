@@ -1,11 +1,9 @@
-# Selected child 0→5 certificate proposal
+# Selected child 0→5 canonical identity
 
-This source-only proposal targets retained f19 catalog ordinal 3, directed key 0→5 and canonical descriptor [435]. It preserves the actual serialized fields and places their two-sided inverses, original greedy basis/transpose/Q, first column and complete phase/address relations under kernel proof obligations.
+This checked source targets retained f19 catalog ordinal 3, directed key 0→5 and canonical descriptor [435]. It proves the interpreted recipe equals its source-defined canonical Gaussian operator on every complex payload, with arbitrary external spectators.
 
-The source-specific address reduction uses u=mask435 and s=y0+y1+y4+y5+y7+y8 in ZMod2. Its two reads are y+s·u and y+s·u+u. Exact phases depend on these six coordinates, so 64 scalar cases imply the all-address Certificate while coordinates 2, 3 and 6 remain arbitrary. Each reduction is a theorem goal, not an assumed property of family membership or equal rank.
+The proof checks the actual serialized fields, two-sided inverses, original greedy basis/transpose/Q and first column. Its source-specific symbolic address reduction uses u=mask435 and s=y0+y1+y4+y5+y7+y8 in ZMod2. The two reads are y+s·u and y+s·u+u. A 64-case scalar phase certificate covers these six coordinates while coordinates 2, 3 and 6 remain arbitrary. It reuses the accepted rank-one sandwich theorem and exact Gaussian conventions.
 
-The final all-payload identity reuses the accepted rank-one sandwich theorem, matrix linearity and exact Gaussian conventions. Arbitrary external spectators are retained pointwise. Own bounded nine-coordinate witness arithmetic prepared inverse/basis/Q literals; it neither executed supplier code nor established a kernel certificate.
+The first bounded check returned kernel PASS in 47.781595 seconds with a 2,642,313,216-byte peak virtual-memory observation. This exceeds the 45-second review threshold by 2.781595 seconds. The scientific result is independently reviewed, while the resource hold remains active: no retry or successor is admitted by this result. All 11 complete axiom probes are standard-only; there were no warnings. The nine imported prerequisites and all three existing sibling outputs were preserved. The independent terminal review and exact source/object/receipt pins are recorded in CHECKED_RESULT.json. This result does not infer the runtime of other records.
 
-The proposed first scope is one new root with nine retained imports and the unchanged 2,620 external source/object pairs. Existing sibling PASS outputs are preserved separately. Keep the 60-second/4-GiB hard and 45-second/3.5-GiB review limits. Source/API/resource review and separate admission remain required; this proposal has no measured fit.
-
-Raw packed-address/event execution, actual physical recipes, residual/endpoint wrappers, expanded work, full dirty row/column endpoints and costs remain open. No full-family result, multiplier bound or publication admission is claimed.
+Raw packed-address/event execution, physical recipe interpretation, residual/endpoint wrappers, expanded coefficient/tableau work, full dirty row/column endpoints and costs remain open. No full-family result, multiplier bound or publication admission is claimed. See NOTICE.md for attribution.
