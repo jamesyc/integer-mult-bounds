@@ -22,12 +22,12 @@
     "CurrentMain.PackedGaussianReindex.gaussian_reindex",
     "CurrentMain.PackedGaussianReindex.gaussian_conjugation"
   ],
-  "finite_work": "Only closed1<512 arithmetic; no512-address, matrix or selected-record enumeration.",
+  "finite_work": "Only closed 1 < 512 arithmetic; no 512-address, matrix or selected-record enumeration.",
   "caps": {
     "hard_seconds": 60,
     "hard_vm_bytes": 4294967296,
     "review_seconds": 45,
     "review_vm_bytes": 3758096384
   },
-  "admission": "Root16:25 authorizes first bounded check after source/API review, fresh Clifford acceptance and exact binding; no compiler during source preparation."
+  "admission": "Root at 16:25 authorizes the first bounded check after source/API review, fresh Clifford acceptance and exact binding; no compiler during source preparation."
 }
