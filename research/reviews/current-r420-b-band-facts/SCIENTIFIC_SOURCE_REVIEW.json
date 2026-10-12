@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EXACT_ELEVEN_B_BAND_SOURCE_API_TRANSPORT",
+  "utc": "2026-10-12T17:23:29.873973+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-band-facts/CurrentR420BBandCheck.lean",
+    "sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41",
+    "bytes": 3006
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-band-facts/SOURCE_BINDING.json",
+    "sha256": "0db8d58fcb71882a4f9f2db31c981d37555058aed80f9142d339560e7cf71082",
+    "bytes": 7040
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-band-facts/CHECK_PROPOSAL.json",
+    "sha256": "14bcbcc9f05b19aaacbd2bbfd4d550dc367d805b5210dd4b363b2834e4891c03",
+    "bytes": 1870
+  },
+  "source_commit": "836b79378687a7aa8b8e39fd25feffcfefea692e",
+  "original": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+    "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+    "bytes": 6313
+  },
+  "frame_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-frame-boundaries/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "b6724aa317ed9e57fe57c482761bdc8ee16c0450b0c57145db5ac98ab0289542",
+    "bytes": 5055
+  },
+  "exact_declarations": [
+    "phase_shape",
+    "phase_domains",
+    "band_order",
+    "band_lengths",
+    "first_target_band",
+    "middle_source_band",
+    "middle_operand_bands",
+    "last_target_band",
+    "final_target_frames",
+    "no_target_operands",
+    "no_self_reads"
+  ],
+  "transport": "All eleven original statements and proof bodies are byte-identical; only new single accepted frame import, explanatory header and immediate probes differ. Original combined module was rejected, so these are not counted as already proved.",
+  "semantic_readback": "Exact120/597/120 target/source/target write bands and1077 operands. Final band reads120 source plus240 helper operands; no target operands does not imply source-register preservation. Ordered operand multiplicities, bounds, final frame lookup and no-self-read predicates are unchanged.",
+  "prior_literal_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-b-boundary/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "efe9642b328af6431a29412081bd1541acdd781acd1df4e69418678c3e79d814",
+    "bytes": 4478
+  },
+  "scope": "Prospective324/323/1 with317 core and one fresh root. No compiler or runtime review; same resource stop, actual fit unmeasured.",
+  "remaining": "Six scatter/temp facts, original-name Check wrapper, selected scalar interpreter and A/C/D/physical transport remain separate.",
+  "compiler_executed": false
+}

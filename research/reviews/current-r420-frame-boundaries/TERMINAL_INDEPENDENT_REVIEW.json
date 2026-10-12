@@ -1,0 +1,95 @@
+{
+  "status": "PASS_INDEPENDENT_SEVEN_FRAME_TERMINAL",
+  "utc": "2026-10-12T17:21:04.408453+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_frame_boundaries/ACCEPTANCE.json",
+    "sha256": "1590bed372cb025fe19f7811345a18e88e29d2a204e1bcf4b70d5d2851aed720",
+    "bytes": 361821
+  },
+  "source_commit": "d32ef1e4ee93c4d077b632fc61e93b99ddb98e49",
+  "new_quadruple": {
+    "module": "CurrentR420FrameBoundaryCheck",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_frame_boundaries_20261012/CurrentR420FrameBoundaryCheck.lean",
+      "sha256": "a667c3fbbdbe0c577e03cb1c1334b6542dcdd5cf4c546d5c26cdde2847639b96",
+      "bytes": 2635
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_frame_boundaries_20261012/CurrentR420FrameBoundaryCheck.olean",
+      "sha256": "8c54a9c15d52c431bab7f1320050063d9aaef23933793f745c266885db21f537",
+      "bytes": 57816
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_frame_boundaries_20261012__CurrentR420FrameBoundaryCheck.lean.json",
+      "sha256": "3e563b2e1860ddae935d38c0094cd3d4c790a07d270cc709881b1fbaa5cd7656",
+      "bytes": 2521
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_frame_boundaries_20261012__CurrentR420FrameBoundaryCheck.lean.log",
+      "sha256": "2969767c964016d695a845670a255d05f997d00cea6182feb570a98ba8d737ab",
+      "bytes": 603
+    },
+    "dependencies": {
+      "CurrentR420FrameIndexCheck": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_domain_partition_20261012/CurrentR420FrameIndexCheck.olean",
+        "olean_sha256": "ca5ca1e286854cf13a77468475b6b2d969f36eb626e1a1e613020db7f263f4c3",
+        "source_sha256": "10ccd18d25e84742915cdf3615b0ed0f98c3c46ee610c66eec7af9b05322640d"
+      }
+    }
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-frame-boundaries/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "fed548713b67477df359f85b35d3aa27849c5574e4884f399636676659d2e53c",
+    "bytes": 7560
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_frame_boundaries/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+    "sha256": "822da66466e9dc758cec548fa7d1644eca341811f3de2a26514cdbfa7aec088a"
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_frame_boundaries/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "55d58787cae84eae34876fb279b803e08ea342e3be8918539107c1c9a47e1229",
+    "bytes": 453593
+  },
+  "verified": {
+    "import_nodes": 323,
+    "official_source_object_pairs": 317,
+    "retained_local_quadruples": 5,
+    "new_local_quadruples": 1,
+    "protected_prior_quadruples": 35,
+    "failure_archives": 44,
+    "additional_source_pins": 231,
+    "complete_probes": 7
+  },
+  "probes": {
+    "CurrentMain.CurrentR420Boundary.frame_domain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420Boundary.zero_full_rows": [],
+    "CurrentMain.CurrentR420Boundary.boundary_domain": [],
+    "CurrentMain.CurrentR420Boundary.source_entrances": [],
+    "CurrentMain.CurrentR420Boundary.nonsource_entrances": [],
+    "CurrentMain.CurrentR420Boundary.source_helper_final_full": [],
+    "CurrentMain.CurrentR420Boundary.retained_helper_ids": []
+  },
+  "compiler_metrics": {
+    "compile_seconds": 5.594101862996467,
+    "queue_seconds": 3.515488204997382,
+    "samples": 56,
+    "peak_vm_bytes": 1260244992,
+    "peak_rss_bytes": 719953920,
+    "peak_threads": 4
+  },
+  "compiler_timing": {
+    "requested_utc": "2026-10-12T17:18:03.986960+00:00",
+    "slot_acquired_utc": "2026-10-12T17:18:07.502448+00:00",
+    "started_utc": "2026-10-12T17:18:08.559119+00:00",
+    "finished_utc": "2026-10-12T17:18:14.153224+00:00"
+  },
+  "scope": "Seven exact R420 frame/boundary statements and bounds-proved transport from the accepted old frame table/current672-index permutation. No new physical endpoint or B/scatter conclusion.",
+  "limitations": "11 B-band and6 scatter/temp facts plus original-name wrapper remain unproved/unadmitted; thin semantic adapter waits for the original domain/B Check.",
+  "historical_resource_context": "Original combined27-fact allocation failure25.649962s/4272771072VM; accepted narrowed3-fact index7.311707s/998203392VM; current7-fact root5.594102s/1260244992VM. Different scopes, not an equivalent whole-check speedup.",
+  "compiler_executed_by_reviewer": false
+}

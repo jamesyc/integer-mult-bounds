@@ -1,0 +1,237 @@
+{
+  "status": "SOURCE_RUNTIME_RESOURCE_PLAN_ONLY_NOT_ADMITTED",
+  "created_utc": "2026-10-12T17:22:36.739758+00:00",
+  "head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "comparison": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/SELECTED_DISPATCH_COMPARISON.json",
+    "sha256": "1adec8de0d6d01fc195fcbf121a5abd0d778e92d60cb4c7bd701ca0b3a965ba1",
+    "bytes": 15786
+  },
+  "input_inventory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/HPE_GENERATION_INPUTS.json",
+    "sha256": "c4f7afee2dcfdd33e3e7444bcca025a8ac5b5c493d905e1933de23cfd91716da",
+    "bytes": 4865
+  },
+  "goal": "Materialize only the selected5996 CK hyperplane-ended suffix from the exact retained pre-HPE checkpoint for source-to-Lean comparison. No predecessor reconstruction.",
+  "authority_boundary": "Root17:18 explicitly requested minimal suffix source/runtime/resource plan and independent review. No execution until specific one-attempt admission.",
+  "scope": {
+    "providers": [
+      "ck"
+    ],
+    "max_upstream_processes": 4,
+    "serial": true,
+    "predecessor_reconstruction": false,
+    "baseline_replay": false,
+    "other_providers": false,
+    "global_owner_emitter": false,
+    "invoice_assembly": false,
+    "lean_compiler": false
+  },
+  "runtime": {
+    "python_path": "/usr/bin/python3.13",
+    "version_observed": "Python 3.13.5",
+    "sha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+    "argv_flags": [
+      "-I",
+      "-B",
+      "-X",
+      "utf8",
+      "-X",
+      "int_max_str_digits=0"
+    ],
+    "clean_environment": {
+      "PATH": "/usr/bin:/bin",
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "HOME": "external private empty run directory"
+    },
+    "unset": [
+      "PYTHONPATH",
+      "PYTHONHOME",
+      "PYTHONOPTIMIZE",
+      "WITNESS_DISCOVER"
+    ],
+    "no_site_user_imports": "-I excludes user site and PYTHON* environment effects but still runs system site startup. Guard exact /usr/lib/python3.13/sitecustomize.py and require absent apport_python_hook/usercustomize; record sys.path and all observed standard-library/custom module origins.",
+    "imports": "Python standard library and exact clifford_exact only; unchanged run_portable serialization. Pin actual system sitecustomize and absence of apport_python_hook/usercustomize as in the accepted driver.",
+    "startup_sitecustomize": {
+      "path": "/usr/lib/python3.13/sitecustomize.py",
+      "sha256": "43d81125d92376b1a69d53a71126a041cc9a18d8080e92dea0a2ae23be138b1e",
+      "behavior": "Attempts import apport_python_hook; absent in the reviewed runtime. No hook runs.",
+      "resolved_source_path": "/etc/python3.13/sitecustomize.py",
+      "symlink_target": "/etc/python3.13/sitecustomize.py"
+    }
+  },
+  "proposed_resources": {
+    "reason": "Conservative unchanged one-attempt bounds. Prior pre-HPE generation recipes measured199.977137s/51,351,552VM; current HPE catalog differs, so this is a baseline only, with no predicted fit or speedup.",
+    "shared_slots": 1,
+    "parallel_children": 1,
+    "hard_per_process_address_space_bytes": 4294967296,
+    "review_per_process_vm_bytes": 3758096384,
+    "hard_per_job_wall_seconds": 600,
+    "review_per_job_wall_seconds": 480,
+    "hard_total_wall_seconds": 2100,
+    "max_output_directory_bytes": 536870912,
+    "max_single_file_bytes": 134217728,
+    "core_dump_bytes": 0,
+    "monitor": "Process-group wall/VM/RSS/thread count and actual child processes; per-process cap, record group memory without claiming an aggregate4GiB cap.",
+    "stop": "First nonzero exit, hash mismatch, unexpected output, missing source, resource review threshold or hard limit; retain all completed outputs and logs. No automatic retry or skipped successor."
+  },
+  "steps": [
+    {
+      "name": "ck-hpe",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/build_hpe.py",
+        "--input",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+        "--recipe",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/data/recipes/ck-step3-hyperplane_end.json",
+        "--out",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-hpe"
+      ],
+      "required_input_content_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b",
+      "required_output_content_sha256": "b7a1c01f3444f50296feb276faccc2652073687aa4d86c8d267125f3b544b5b6",
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-hpe/FULL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-hpe/HPE-CONSTRUCTION.json"
+      ]
+    },
+    {
+      "name": "ck-localize",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_audit_and_transport.py",
+        "--raw",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-hpe/FULL-WORD.json.gz",
+        "--routing",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/inputs/phase-baseline/CANONICAL-WORD.json.gz",
+        "--out",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local"
+      ],
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/FULL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/SCALAR-FRAME-AUDIT.json"
+      ]
+    },
+    {
+      "name": "ck-emit",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_emit_local.py",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local"
+      ],
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-CHECKS.json"
+      ]
+    },
+    {
+      "name": "ck-recipes",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/vendor/pr558/code/phases_full.py",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local",
+        "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford"
+      ],
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-REVIEW.json"
+      ]
+    }
+  ],
+  "retained_checks": {
+    "ck-hpe": "All38 helper changes must be entering helpers, have exactly one first cleanup gate, use disjoint touched registers and exact join dimension<9; profile/width nonnegativity and exact output content hash remain intrinsic.",
+    "ck-localize": "Fresh forward/inverse-transpose arbitrary-dirt728-column endpoint assertions; exact HPE tail/rest split, native label chains and rank profile, final-frame cleanup exclusion, all dyadic/scale checks.",
+    "ck-emit": "Both reflected local programs replay scalar rows; arbitrary original columns and private centre clearing retained, HPE cleanup-tail and terminal-indexed wrapper syntax emitted exactly.",
+    "ck-recipes": "Unchanged exact Clifford generator checks all generated frames/children/tableaux/global phases and endpoint adapters; the current catalog hash is independently compared."
+  },
+  "excluded_verification": [
+    "Separate hpe_controls_atc negative-control process from full verify is not part of the four minimum artifact CLIs; no complete provider admission claim.",
+    "Independent hpe_audit_local mutation checks and hpe_adapters_local normalized wrapper certificates are not generated by this minimum scope.",
+    "All-provider owner/width/window admission, global emitted word, invoice/assembly and any selected Lean literal transport remain open."
+  ],
+  "output_identity": {
+    "raw_hashes_recorded": {
+      "CANONICAL-WORD.json.gz": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "LOCAL-PROGRAMS.json.gz": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "LOCAL-CHECKS.json": "0b02de5ed94ae977cf10b752f5eb7b48e383246277c1c0d3b9152fcde59bda13",
+      "INDEPENDENT-LOCAL-REPLAY.json": "77ae0c2a6ce4fb91a0f65d51106c825dfd299f66f3b0467c6632ae539553391c",
+      "CLIFFORD-RECIPES.json": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "CLIFFORD-REVIEW.json": "218b4f5e21f43e913b3535c4c7c26b24a3088d0c0002bc978ae564f54a4a5081",
+      "RESIDUAL-ADAPTERS.json": "5c682ab693b041fbf3846afd054a1d7dd2ff2b9108f8310f72b601d2d119a18b"
+    },
+    "mandatory_semantic_hashes": {
+      "CANONICAL-WORD.json.gz": "d8a550139de2abc5027957e807c70003c478396570b868931a96d1cb69e94b2e",
+      "LOCAL-PROGRAMS.json.gz": "62cfa2cfecc18855928a79c2ca5109498cb4d2366cf1f2b7128c459f32c86476",
+      "LOCAL-CHECKS.json": "98d9e1bcaefd46b4a4946517808e4ebd907698e3f7d59d2142f8a92e742b3795",
+      "CLIFFORD-RECIPES.json": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "CLIFFORD-REVIEW.json": "772e991f66cad9ca9aa4c83b1f56f96df46a9bab46fe2e030bd18c70440a05fc"
+    },
+    "gzip": "Require exact decompressed payload hash. Record compressed hash separately; only the declared generated-identity normalization permits gzip serialization differences.",
+    "json": "Canonical sorted-key compact JSON includes every field. Phase receipt removes only validated finite nonnegative root seconds, and replaces actual matching canonical/recipe references with content identities, exactly generated_identity.py lines29-38.",
+    "catalog_raw_required": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+    "orientation_event_hashes": {
+      "backward": "08366c7cfdaed343aab07a10ecd67d5b8a9adf5fa96948fa8feb0dea7447cea5",
+      "forward": "b80dbd670b2a001528a0667c94c481f4faeed4494240d4f076b6d1744bdfde78"
+    },
+    "event_count_expected_each": 21559,
+    "expected_event_counts": {
+      "backward": 21560,
+      "forward": 21560
+    }
+  },
+  "mutation_controls": [
+    "Input hash mutation and missing exact checkpoint must stop before supplier subprocess.",
+    "Expected payload/hash mutation must fail pure comparator.",
+    "Reuse exact process-group/signal/totalwall/AS/output limit smokes from reviewed CK runner; changed checkpoint retention and four-stage bindings require fresh dry readback."
+  ],
+  "control_reuse": {
+    "reference_driver": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-provider-boundary/run_ck_generation.py",
+      "sha256": "ca6712cd1387996bd596c87b37ca9649da02c5ab38259ff2083fabc97830ab8d",
+      "bytes": 15386
+    },
+    "reference_review": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/ck_generation_review/CONSOLIDATED_REVIEW.json",
+      "sha256": "64aaabaf0486a5a85d14976b1ed4070a44959ecf60052dc15562927ebbbbf94d",
+      "bytes": 12163
+    },
+    "reference_admission": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/ck_generation_review/EXECUTION_ADMISSION.json",
+      "sha256": "0274468ddc9723857b4d95a11cd0f7208718c2be56f15db56c82e0e55fc46066",
+      "bytes": 3140
+    },
+    "changes_required": "New head/path/plan pins; exact external-checkpoint source locks and before/after hashes; four-stage count; expected event count21560 instead of21559. Child control loop/caps/cleanup/CPU telemetry remain exact. No commands changed at runtime."
+  },
+  "success": "Four exit-zero below-review stages; exact output allowlist and SPEC payload/event/catalog/phase semantic comparisons; current source/runtime/external checkpoint hashes unchanged. Preserve stage wall/userCPU/systemCPU/VM/RSS and intrinsic logs. Stop first event without automatic retry.",
+  "conditional_kappa": "16127213726553/10000000000000000"
+}

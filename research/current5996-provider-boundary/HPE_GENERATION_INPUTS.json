@@ -1,0 +1,117 @@
+{
+  "head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "selected_manifest": {
+    "path": "research/community-hyperplane599-audit/SELECTED-SOURCE.json",
+    "sha256": "6d9e0cf88d2c2b14ad680a27fad71ed7be877e89d12f822ff477d2355047f450",
+    "bytes": 230887
+  },
+  "files": [
+    {
+      "path": "research/complex-multicold/code/run_portable.py",
+      "sha256": "322d29d43dbee8130cde15d4bf05396698b5e3dfe3735813899db91cc0ba7955",
+      "bytes": 1160
+    },
+    {
+      "path": "research/complex-571-hpeq5/code/build_hpe.py",
+      "sha256": "7a1f37c40f067f9b3ef4711d2ce3843fc10dfcc14b8cc290c3d6f6893c8224ae",
+      "bytes": 5797
+    },
+    {
+      "path": "research/complex-571-hpeq5/code/hpe_audit_and_transport.py",
+      "sha256": "9020d9f295c37836619b59f58c8e67d0dc14bafe8b53aa2c9e98cb5053cbbe9b",
+      "bytes": 11745
+    },
+    {
+      "path": "research/complex-571-hpeq5/code/hpe_emit_local.py",
+      "sha256": "7222e564cabb7ff15b8b4833385342f19a49d3037130f8c21afd52b74638fd40",
+      "bytes": 8580
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/code/phases_full.py",
+      "sha256": "a273c325ffd6793d5b63b79a289a9d2bbc9292e6940fb5a926924f3708627af4",
+      "bytes": 2399
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford/clifford_exact.py",
+      "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+      "bytes": 6824
+    },
+    {
+      "path": "research/complex-571-hpeq5/data/recipes/ck-step3-hyperplane_end.json",
+      "sha256": "d136602543927ff4470f1761bafececa11377ad2662244981e269277c212c68a",
+      "bytes": 5174
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/inputs/phase-baseline/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    }
+  ],
+  "root_source_pins": [
+    {
+      "path": "research/complex-571-hpeq5/data/SPEC.json",
+      "sha256": "813e5ad4201bafd0fceea4a5fdc0589040d4f9ece3afb845a02bccc39fa5a9a1",
+      "bytes": 29846
+    },
+    {
+      "path": "research/complex-571-hpeq5/data/PLAN.json",
+      "sha256": "b86089af66d3bc230a6eb8dfc54b8ecc3c72e61de79e48f64d28a4e5a4f41e6d",
+      "bytes": 483862
+    },
+    {
+      "path": "research/complex-571-hpeq5/verify.py",
+      "sha256": "1189c03c352aefa4b5a3d28dbe42dd92c5e6d8f5a7ca56c252eef464847c95f7",
+      "bytes": 23825
+    },
+    {
+      "path": "research/complex-571-hpeq5/code/generated_identity.py",
+      "sha256": "c8af22719c0f3097a991a3f6ccac8f090afd2faba554745733d9ea88f2c25708",
+      "bytes": 2937
+    }
+  ],
+  "source_attribution": [
+    {
+      "path": "research/complex-571-hpeq5/NOTICE.md",
+      "sha256": "1940b98070aff5425231ac2a56022da66d3bde99f8bfd0ad4b4615ad19b3cb3c",
+      "bytes": 2888
+    },
+    {
+      "path": "research/complex-571-hpeq5/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "research/complex-multicold/NOTICE.md",
+      "sha256": "d14c070a8e237cb1912e413ce22e98eb41f164b769ebaa97224c121fcc5a0fc5",
+      "bytes": 2886
+    }
+  ],
+  "external_checkpoint_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+      "sha256": "425b1f3a4da31d544579e7287ffeedc739dce8d84fe5b9bf02ceb3c69236961d",
+      "bytes": 37001
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/RESULT.json",
+      "sha256": "e32431967d2acaafd7f46c3d755b5285768782f814b34fd05f4854e1aa92668a",
+      "bytes": 27538
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/ck_generation_review/CK_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "494a086aeb335cfa54f6f2a2d07a807fba2ff8e8d9c211f8d7b374d8e5fe7919",
+      "bytes": 8262
+    }
+  ],
+  "external_checkpoint_content_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b",
+  "custom_imports": [
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford/clifford_exact.py",
+      "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+      "bytes": 6824
+    }
+  ],
+  "external_dependencies": "Python3.13 standard library plus exact clifford_exact. The HPE constructor/canonicalizer/emitter import no other repository module; no gk predecessor modules are reached.",
+  "input_policy": "One exact retained immutable pre-HPE checkpoint. Source/Git/manifest identities plus external raw/payload/result/terminal pins must remain guarded and shared-locked before/after every stage. New outputs only.",
+  "generation": false
+}
