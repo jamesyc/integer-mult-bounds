@@ -1,0 +1,155 @@
+{
+  "status": "PASS_SEVEN_FRAME_FACTS_SOURCE_API_ONLY",
+  "utc": "2026-10-12T17:13:34.064678+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-frame-boundaries/CurrentR420FrameBoundaryCheck.lean",
+    "sha256": "a667c3fbbdbe0c577e03cb1c1334b6542dcdd5cf4c546d5c26cdde2847639b96",
+    "bytes": 2635
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-frame-boundaries/SOURCE_BINDING.json",
+    "sha256": "0334fff4addd6003c241b45841c6e3350b27a21e6f6d807e729fd69ff2a264f8",
+    "bytes": 11364
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-frame-boundaries/CHECK_PROPOSAL.json",
+    "sha256": "2e484d771882133b55b80ce76f8fde75a1df448517ee80536c7566e113a00a1d",
+    "bytes": 1697
+  },
+  "original": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+    "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+    "bytes": 6313
+  },
+  "index_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_R420_SYMBOLIC_INDEX_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "d5a5d7eec178237bcbbe62dd4bbf23d3b4c0f6b16453952809a942c42012e174",
+    "bytes": 5018
+  },
+  "retained_source_pins": {
+    "retained_index": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_domain_partition_20261012/CurrentR420FrameIndexCheck.lean",
+      "sha256": "10ccd18d25e84742915cdf3615b0ed0f98c3c46ee610c66eec7af9b05322640d",
+      "bytes": 2213
+    },
+    "retained_data": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryData.lean",
+      "sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509",
+      "bytes": 34312
+    },
+    "retained_old_frame_check": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+      "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+      "bytes": 2859
+    }
+  },
+  "exact_declarations": [
+    {
+      "name": "frame_domain",
+      "statement_equal": true,
+      "body_equal": false,
+      "original_sha256": "b0fcf9e63b333d6bd51dc9885a714c4fd1c185d1fb71b0a9a5fa9bb027e0a7fb",
+      "candidate_sha256": "fdeae7a396b48152e6e9b542c3ce82d0030cf70cb84ad1739982fdddceb4542e"
+    },
+    {
+      "name": "zero_full_rows",
+      "statement_equal": true,
+      "body_equal": true,
+      "original_sha256": "b5634e6ea9b83df525b8428ece743bc001169c042063ab8b440f86a3b4a87321",
+      "candidate_sha256": "b5634e6ea9b83df525b8428ece743bc001169c042063ab8b440f86a3b4a87321"
+    },
+    {
+      "name": "boundary_domain",
+      "statement_equal": true,
+      "body_equal": true,
+      "original_sha256": "a831c93b24d91b1076429affc13c4fae4d419e1bb53aea2124fe13dc35a65b48",
+      "candidate_sha256": "a831c93b24d91b1076429affc13c4fae4d419e1bb53aea2124fe13dc35a65b48"
+    },
+    {
+      "name": "source_entrances",
+      "statement_equal": true,
+      "body_equal": true,
+      "original_sha256": "13ed9f2ee0b9ff8dc6539ac0db0075687ec5ace39141d2a66ecdd483707caba4",
+      "candidate_sha256": "13ed9f2ee0b9ff8dc6539ac0db0075687ec5ace39141d2a66ecdd483707caba4"
+    },
+    {
+      "name": "nonsource_entrances",
+      "statement_equal": true,
+      "body_equal": true,
+      "original_sha256": "3e6bdec16bec881be8ee9e84ac3532e63389b1b097a62d467b0fa913e3ec7877",
+      "candidate_sha256": "3e6bdec16bec881be8ee9e84ac3532e63389b1b097a62d467b0fa913e3ec7877"
+    },
+    {
+      "name": "source_helper_final_full",
+      "statement_equal": true,
+      "body_equal": true,
+      "original_sha256": "36c4ae25c48d6987b3ecc0c6816fb24511f3f083ed1c5147eec3fc4aa62d7b93",
+      "candidate_sha256": "36c4ae25c48d6987b3ecc0c6816fb24511f3f083ed1c5147eec3fc4aa62d7b93"
+    },
+    {
+      "name": "retained_helper_ids",
+      "statement_equal": true,
+      "body_equal": true,
+      "original_sha256": "d869618318349a85311f1fb24f04527baa81816838ebefa1a39d20caad352077",
+      "candidate_sha256": "d869618318349a85311f1fb24f04527baa81816838ebefa1a39d20caad352077"
+    }
+  ],
+  "proof_readback": {
+    "length": "congrArg length of the accepted sorted permutation reduces via length_mergeSort/map/range to frameOrder.length=672; frames is definitionally frameOrder.map frameAt.",
+    "safe_lookup": "frameAt is exact old Data.frames indexed by i.val with bound transported through accepted old frame_domain.1. getElem_mem supplies row membership, and old frame_domain.2 supplies its all-bounded predicate.",
+    "all_rows": "List.all_eq_true and List.mem_map extract each current frame as frameAt i and apply hrow. No default lookup, reordered table evaluation, extra induction, label transport or payload assumption.",
+    "other_six": "Their exact original source statements and proof bodies remain unchanged. They were source-reviewed but rejected with the combined original module; this review does not treat them as accepted."
+  },
+  "api_files": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Lemmas.lean",
+      "sha256": "d8fc731c3950655b66c6354085b34f7405b3b3d1f97bc3a7f4e3a1f5b0175ac0",
+      "bytes": 147325
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Sort/Lemmas.lean",
+      "sha256": "2a5d562fa20372cdb97bb9ff8431a6cd7b80e80e051166e70eaebb2dab9cacf3",
+      "bytes": 19075
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Range.lean",
+      "sha256": "4954c7b1f6209e46b1398bdadeb3649280cad3f71c2bbfa2bc81996239ed5e22",
+      "bytes": 15428
+    }
+  ],
+  "api_lines": {
+    "all_eq_true": "Lemmas.lean:593",
+    "mem_map": "Lemmas.lean:1131",
+    "getElem_mem_use": "Lemmas.lean:2170 (same one-bound-argument use)",
+    "length_mergeSort": "Sort/Lemmas.lean:283",
+    "length_range": "Range.lean:167"
+  },
+  "public_probes": [
+    "CurrentMain.CurrentR420Boundary.frame_domain",
+    "CurrentMain.CurrentR420Boundary.zero_full_rows",
+    "CurrentMain.CurrentR420Boundary.boundary_domain",
+    "CurrentMain.CurrentR420Boundary.source_entrances",
+    "CurrentMain.CurrentR420Boundary.nonsource_entrances",
+    "CurrentMain.CurrentR420Boundary.source_helper_final_full",
+    "CurrentMain.CurrentR420Boundary.retained_helper_ids"
+  ],
+  "scope": {
+    "total": [
+      323,
+      322,
+      1
+    ],
+    "local": [
+      6,
+      5,
+      1
+    ],
+    "core": 317,
+    "protected_prior": 35
+  },
+  "resource_boundary": "Seven-fact fit remains unmeasured. Original 27-fact allocation failure and prior index diagnostic failures remain historical. No runtime/driver review or compiler from this lane.",
+  "source_base": "9594b61042164a27a31e44d8c3197f231470eda0; reported unchanged bit selection on5996 awaits integration exact binding comparison.",
+  "remaining": "Eleven B-band and six scatter/temp facts, original-name wrapper and physical interpretation remain separate.",
+  "compiler_executed": false,
+  "runtime_reviewer": "integration"
+}
