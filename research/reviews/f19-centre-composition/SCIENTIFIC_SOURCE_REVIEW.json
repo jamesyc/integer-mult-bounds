@@ -1,0 +1,91 @@
+{
+  "status": "PASS_INDEPENDENT_CONDITIONAL_SOURCE_API_REVIEW_NO_COMPILER",
+  "utc": "2026-10-12T13:13:34.235531+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-composition/F19CentreBandComposition.lean",
+    "sha256": "3ec5e4799b811bda4717433a7abec4c3c48ba3b2d0d1a027512efff782796ec4",
+    "bytes": 8529
+  },
+  "scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-composition/SOURCE_SCOPE.json",
+    "sha256": "8aa6d2fa91b89dd1fc8206e6e71e6493add0e231f29d73c21580fbd02f4d1bca",
+    "bytes": 3218
+  },
+  "bundle": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_composition_proposal/SOURCE_BUNDLE_MANIFEST.json",
+    "sha256": "88718996e852909a4031d2300cb1cc0e2c54f745576c1b49f3f6b6cf4d4d5011",
+    "bytes": 1199
+  },
+  "accepted_band": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_CENTRE_BAND_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "b9ca0457ed4670390cf02b1fa69867f9294d38017e4fb4af7ee49bbb8b1c8e65",
+    "bytes": 3347
+  },
+  "source_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_composition_proposal/SOURCE_COMPOSITION_PROPOSAL.json",
+    "sha256": "4065696c4bf895d993dfa9766ccd0bc26b10ec25141521b803d3fe0e36f38d01",
+    "bytes": 6251
+  },
+  "retained_source_apis": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+      "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "bytes": 15263
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+      "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+      "bytes": 6854
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+      "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+      "bytes": 82366
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+      "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+      "bytes": 1316
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.lean",
+      "sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0",
+      "bytes": 5497
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_pilot/F19ScalarPilotComposition.lean",
+      "sha256": "63fdeffaf0d1ead7571fb66074f75a0e49f593cea6891cc15c1caeb416d90c1e",
+      "bytes": 7108
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_centre_band/F19CentreBandIndependence.lean",
+      "sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279",
+      "bytes": 35713
+    }
+  ],
+  "proof_readback": [
+    "LOnlyEvent requires every accessed original register below728 and every ADD/SCALE denominator nonzero; raw signed pairs are retained, with no positivity or clean-target assumption.",
+    "KnownL plus LOnlyRows implies the accepted safeRows predicate; monotonic known flags retain agreement on all original inputs. Relabel scalar identity does not imply physical identity.",
+    "The prefix theorem applies accepted safe_run_related to arbitrary h,hprime agreeing only on L registers; original values need not be clean and incoming C values need not match.",
+    "The suffix theorem starts with equal full-state comparison h=h, marks exactly C slots as zeroed, and preserves zeroed flags since every written target is L. Totality is established via denominator-safe execution.",
+    "rawRowsRun_append is Option-bind composition in source head-first order; neither word nor physical erasure order is reversed.",
+    "sandwich_independent composes prefix L-agreement, accepted band full-state agreement and suffix totality/centre zero. Both runs share the exact same resulting out after the band.",
+    "Selected wrappers instantiate only the accepted forward/backward264-row band, with prefix/suffix lists and LOnlyRows premises universally quantified. No full typed source supplier is manufactured."
+  ],
+  "new_public_probes": [
+    "CurrentMain.F19CentreComposition.lonly_rows_safe",
+    "CurrentMain.F19CentreComposition.rawRowsRun_append",
+    "CurrentMain.F19CentreComposition.lonly_prefix_agreement",
+    "CurrentMain.F19CentreComposition.lonly_suffix_zero",
+    "CurrentMain.F19CentreComposition.sandwich_independent",
+    "CurrentMain.F19CentreComposition.selected_forward_sandwich",
+    "CurrentMain.F19CentreComposition.selected_backward_sandwich"
+  ],
+  "finite_work": "No new literal lists or decide-kernel finite certificates. Symbolic List/Option and flag proofs only.",
+  "open_source_boundary": [
+    "No full prefix14036/suffix7020 typed lists or their LOnlyRows certificates have been accepted. The theorem keeps these premises explicit.",
+    "The raw source has1617 omitted phase/adapter/residual entries per direction outside the band; no identity action or physical interpretation is supplied for them.",
+    "Read-only compressed-source no-C inspection does not count as kernel acceptance of the complete stream."
+  ],
+  "runtime_boundary": "Exact8/7/1 proposed; source APIs read and pinned. Runtime/object/cache/driver review belongs to integration; this report supplies no compiler admission or kernel acceptance."
+}
