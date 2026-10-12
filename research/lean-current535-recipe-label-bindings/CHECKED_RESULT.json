@@ -1,0 +1,109 @@
+{
+  "status": "KERNEL_PASS_WITH_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "b5a929fc51488014dbadbc36563a809be6e08204",
+  "source_sha256": "80fb6cbf9cedaa91b0eb13a4732fe1c28a3488bf78bf824877cd7e6130bb3c27",
+  "object_sha256": "5be66432a7693f6606287248aee8d4a20685d5ec9eaea33e54079d2d8e035d6c",
+  "receipt_sha256": "8d1b80c7088825d712af74f477deb1ec598b5e9e5edbb11c9b2a79066fc086b6",
+  "log_sha256": "2bf663c78ad444211536c2b3f26cc8abd6ad65749376652e771ddd29558b0281",
+  "launch_scope": {
+    "modules": 11,
+    "current_local": 10,
+    "pending": 1
+  },
+  "current_scope": {
+    "total": 11,
+    "current": 11,
+    "pending": 0
+  },
+  "external_pairs": 2620,
+  "current_selected_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "selected_bindings_sha256": "1b84cfbc8cef9c42f11ae485012f1e12bdbad5c95907076772078ee59f6888e1",
+  "first_attempt": false,
+  "preserved_layout_failure_sha256": "e4f6288f0db1a14c168866a1e60cb96167c8830021236010e685bdef8dc30bb3",
+  "measurements": {
+    "started_utc": "2026-10-12T14:21:46.321752+00:00",
+    "finished_utc": "2026-10-12T14:21:53.310613+00:00",
+    "compile_seconds": 6.988817083009053,
+    "queue_seconds": 0.0007283350132638589,
+    "preparation_seconds": 1.3089123199897585,
+    "timeout_seconds": 60,
+    "memory_limit_bytes": 4294967296,
+    "process_observations": {
+      "samples": 69,
+      "peak_vm_bytes": 2777579520,
+      "peak_rss_bytes": 1807523840,
+      "peak_threads": 5
+    }
+  },
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current11_key",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current45_key",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current11_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current45_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current11_descriptors",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current45_descriptors",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current11_interpreted_rank",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current11_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current45_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535RecipeLabelBindings.current45_with_spectators",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "acceptance_sha256": "6a648732b1a17a2852b4191198f7ebbcb908030db6d714f48c68fc6181ce48fe",
+  "independent_terminal_review": {
+    "artifact": "CURRENT535_RECIPE_LABEL_WRAPPERS_TERMINAL_REVIEW.json",
+    "sha256": "ce4575710177558125778e7bfa787cdf448a1946f47e8ab5b6103efaddcf602f"
+  },
+  "claim": "Exact current535 ordered-descriptor and full serialized-field wrappers reuse accepted operator identities: historical0->9/current0->6 for descriptor11 in the retained four-low-Bool/arbitrary-spectator model; historical0->2/current0->420 for descriptor45 in the retained nine-ZMod2 model. Only explicit target-label updates differ.",
+  "remaining": [
+    "Actual current event/label translation and physical executor/packed-address wiring.",
+    "Residual/endpoint wrappers, expanded work, full dirty rows/columns and global costs.",
+    "Other selected records."
+  ],
+  "publication": "No publication admission or end-to-end multiplier bound."
+}
