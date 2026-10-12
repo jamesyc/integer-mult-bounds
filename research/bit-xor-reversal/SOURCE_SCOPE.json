@@ -1,0 +1,89 @@
+{
+  "status": "FROZEN_GENERIC_SOURCE_API_PROPOSAL_NO_COMPILER_ADMISSION",
+  "created_utc": "2026-10-12T13:17:45.804835+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/bit-xor-reversal/BitXorReversal.lean",
+    "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+    "bytes": 6073
+  },
+  "imports": [
+    "BitXorTargetTranslation"
+  ],
+  "accepted_dependency": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+    "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+    "bytes": 5194
+  },
+  "accepted_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_BIT493_XOR_TERMINAL_REVIEW.json",
+    "sha256": "c402a6bf48fc6d501d27085b0f9aa67b66290869b74217b033a0139a9a22c711",
+    "bytes": 5440
+  },
+  "installed_apis": [
+    {
+      "module": "Init.Data.Bool",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/Bool.lean",
+        "sha256": "f418d6d98e4a2a8618027662eafdcf8abb69120e307254d309328e9afa1e3af9",
+        "bytes": 28387
+      },
+      "used": [
+        "Bool.xor_assoc",
+        "Bool.xor_self",
+        "Bool.xor_false",
+        "Bool.bne_self_left"
+      ]
+    },
+    {
+      "module": "Init.Data.List.Basic",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Basic.lean",
+        "sha256": "3622990991094fa2ea739b1a2c44bcde45913c1bbec75c6c1ebad24e1d1e4175",
+        "bytes": 87846
+      },
+      "used": [
+        "List.reverse_cons"
+      ]
+    },
+    {
+      "module": "Init.Data.List.Lemmas",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Lemmas.lean",
+        "sha256": "d8fc731c3950655b66c6354085b34f7405b3b3d1f97bc3a7f4e3a1f5b0175ac0",
+        "bytes": 147325
+      },
+      "used": [
+        "List.mem_reverse",
+        "List.mem_singleton"
+      ]
+    }
+  ],
+  "new_probe_declarations": [
+    "CurrentMain.BitXorReversal.run_append",
+    "CurrentMain.BitXorReversal.run_scalarize",
+    "CurrentMain.BitXorReversal.step_involutive",
+    "CurrentMain.BitXorReversal.run_reverse_cancel",
+    "CurrentMain.BitXorReversal.run_agree_off_target",
+    "CurrentMain.BitXorReversal.cleanup_off_target",
+    "CurrentMain.BitXorReversal.cleanup_target_value"
+  ],
+  "semantic_scope": [
+    "Actual accepted sequential Boolean XOR gate/list interpreter, preserving operand order and multiplicity.",
+    "An individual gate reading no own destination is an involution; reverse-gate execution cancels the word on arbitrary initial state.",
+    "Scalarization changes only frame metadata, which the existing scalar step does not inspect.",
+    "If an arbitrary middle map preserves every off-target coordinate, target-disjoint-read cleanup restores those coordinates. Separate no-target-write assumption leaves the middle target result untouched."
+  ],
+  "excluded": [
+    "No selected R489 or R480 literal data, domain check or full finite word is imported.",
+    "No physical frame equality/transport, COPY/ERASE or dirty-temporary restoration.",
+    "No D compensation, full operator, multiplier/all-size/kappa theorem."
+  ],
+  "projected_dependency_scope": {
+    "local_modules": 2,
+    "accepted_local_dependencies": 1,
+    "fresh_roots": 1,
+    "official_core_modules": 317,
+    "all_eight_prior_source_objects_preserve": true
+  },
+  "compiler_policy": "Source/API review first; exact source/current/runtime inventory and parent/coordinator gate release still required. No compilation or activation authorized by this file."
+}

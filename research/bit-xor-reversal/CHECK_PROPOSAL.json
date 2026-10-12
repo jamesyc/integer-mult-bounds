@@ -1,0 +1,54 @@
+{
+  "status": "FROZEN_ONE_ROOT_GENERIC_GATE_PROPOSAL_BINDING_REVIEW_REQUIRED",
+  "prepared_utc": "2026-10-12T13:25:45.550066+00:00",
+  "sources": [
+    {
+      "module": "BitXorReversal",
+      "path": "research/bit-xor-reversal/BitXorReversal.lean",
+      "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+      "bytes": 6073,
+      "explicit_imports": [
+        "BitXorTargetTranslation"
+      ],
+      "public_probes": [
+        "CurrentMain.BitXorReversal.run_append",
+        "CurrentMain.BitXorReversal.run_scalarize",
+        "CurrentMain.BitXorReversal.step_involutive",
+        "CurrentMain.BitXorReversal.run_reverse_cancel",
+        "CurrentMain.BitXorReversal.run_agree_off_target",
+        "CurrentMain.BitXorReversal.cleanup_off_target",
+        "CurrentMain.BitXorReversal.cleanup_target_value"
+      ]
+    }
+  ],
+  "source_scope_sha256": "d35652e2ca24d2e212400e64ea659021370e64ce398a9ac2438dc33923b4a3f8",
+  "independent_source_api_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/bit-xor-reversal/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "5aa2b6ecf1e5a19d95f4801c0b0d44c1295efa23da7e0db2ee85fb6a43763283",
+    "bytes": 4022
+  },
+  "reachable_local_scope": [
+    2,
+    1,
+    1
+  ],
+  "official_core_modules": 317,
+  "expected_reachable_all_scope": [
+    319,
+    318,
+    1
+  ],
+  "additional_preserved_accepted_roots": 7,
+  "total_preserved_accepted_roots": 8,
+  "preservation_qualification": "One retained local root is a direct dependency. All eight accepted local source/object/receipt/log quadruples remain separately immutable hash-guarded, without replay or new accepted-path locks.",
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "scope": "Generic ordered Boolean XOR involution/reversal/target-only-middle cleanup only; no finite R489/R480 instantiation, frame transport, temporary lifecycle or full-word/operator theorem."
+}
