@@ -1,0 +1,56 @@
+{
+  "status": "PASS_ONE_WORD_SOURCE_IMPORT_API_REPAIR",
+  "utc": "2026-10-12T16:49:33.930064+00:00",
+  "manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "4ac261dcb08e46bcefb760595884f89319b8f70d41ba68e5a3bdcfaa0b12e004"
+  },
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
+    "sha256": "b0ab6a3a88cb4251ae397d1d820f815ce18cadd207fea1f94d0dd8567691ac9b",
+    "bytes": 1315
+  },
+  "preimage": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/preimages/CurrentR420FrameIndexCheck.lean",
+    "sha256": "a01484b91c52c7190782e5405f0289e5aa6406e1b5fc5f59753575fbb9b7ae71",
+    "bytes": 1319
+  },
+  "replacement": {
+    "before": "import all Init.Data.List.Sort.Impl",
+    "after": "import Init.Data.List.Sort.Impl",
+    "count": 1
+  },
+  "api_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Elab/Import.lean",
+      "sha256": "c58c89f0107d9760a45832038f4a8e86ad2595901324ad62d060a34b3802439c",
+      "bytes": 3965
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Environment.lean",
+      "sha256": "a67b5bf3d2aeeccaf2c88752a605d44448d4b1dabc7058c5c2c8fada0edf1468",
+      "bytes": 113575
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Sort/Impl.lean",
+      "sha256": "47c4b6efbe5e665a29b9d0861ef2ab854a5049cfbb8c018aad0758ced094bfec",
+      "bytes": 9547
+    }
+  ],
+  "visibility_readback": [
+    "Lean.Elab.Import.processHeaderCore chooses OLeanLevel.private for the unchanged non-module source.",
+    "Lean.Environment.importModulesCore forces importAll := !isModule || ...; ImportedModule.mainModule? selects private module data. Normal import therefore supplies the internal theorem in this legacy context.",
+    "The removed import-all syntax was independently invalid without module; adding module would further violate the cross-root import-all restriction. Neither module roots nor exported theorem names change here.",
+    "The retained List.MergeSort.Internal.mergeSort_eq_mergeSortTR is the exact equality from List.mergeSort to its proved structural implementation. All three statements/proofs/probes remain byte-exact after this single header token deletion."
+  ],
+  "review_limit_correction": "Prior review e55cac4f missed the import-all header requirement. The rejected attempt and prior seal remain preserved; this readback checks the actual installed header/import implementation.",
+  "preserved_header_failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/HEADER_FAILURE_PRESERVATION.json",
+    "sha256": "3fd9e0c2ac1f113a267c304f0885b2c2e83d8abdfd90d9ec84685909525267b9",
+    "bytes": 12149
+  },
+  "failure_archive_count_checked": 11,
+  "scope": "One root, same limits. No claim the original allocation hotspot is localized, or that this pending kernel decision fits. Other24 declarations remain held.",
+  "compiler_executed": false,
+  "binding_review_owner": "integration"
+}
