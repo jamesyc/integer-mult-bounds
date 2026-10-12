@@ -1,9 +1,9 @@
 {
-  "status": "SECOND_PROOF_LOCAL_BASIS_REPAIR_AWAITING_REVIEW_AND_ALIGNMENT",
+  "status": "FINITE_CLOSED_BASIS_THIRD_REPAIR_AWAITING_REVIEW",
   "root": {
     "module": "CliffordChild009Canonical",
     "source": "CliffordChild009Canonical.lean",
-    "sha256": "d627a8a6df909a699311cfa28e782b4ebabd2efdab4277374fd6bbf4f393f849"
+    "sha256": "7f2132f88d7eee68a10f356136d2a724c368753d9efbbc0ce72c61c44ae83293"
   },
   "local_scope": {
     "total": 7,
@@ -276,5 +276,11 @@
     "exact_change": "Split the same six conjuncts. Explicitly simplify source basis/rank recursion and Nat.log2 equations in the basis conjunct; ordinary decide proves the unchanged five closed companions.",
     "admission": "Root2026-10-12T10:14:07Z; one second-repair retry after machine exact review and integration alignment.",
     "unchanged": "All definitions, statements, source data, interpreted operator proof, imports and limits."
+  },
+  "finite_basis_repair": {
+    "failed_source_sha256": "d627a8a6df909a699311cfa28e782b4ebabd2efdab4277374fd6bbf4f393f849",
+    "proof_only": "Eleven numeral log2 facts reuse installed bounds/power lemmas. Ten closed pivot insertions and ten fixed rank prefixes expose the selected basis fold. No recursive Nat.log2 equation enters broad simp.",
+    "admission": "Root2026-10-12T10:20:16Z releases one bounded third-repair attempt after machine review and integration alignment.",
+    "unchanged": "All private evaluators, public statements, selected constants, operator proof, dependencies and resource limits."
   }
 }

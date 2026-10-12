@@ -70,8 +70,100 @@ theorem canonical_data_certificate :
     (∀ r ∈ canonicalBasis, r < 512) ∧
     (∀ r ∈ canonicalInverseRows, r < 512) := by
   refine ⟨?_, by decide, by decide, by decide, by decide, by decide⟩
-  simp [basisExtend9, rank9, insertPivot, canonicalBasis, List.foldlM,
-    List.lookup, Nat.log2]
+  -- No recursive log2 equation is placed in a symbolic simplifier context.
+  have l1 : Nat.log2 1 = 0 := by
+    simpa only using (Nat.log2_two_pow (n := 0))
+  have l2 : Nat.log2 2 = 1 := by
+    simpa only using (Nat.log2_two_pow (n := 1))
+  have l4 : Nat.log2 4 = 2 := by
+    simpa only using (Nat.log2_two_pow (n := 2))
+  have l8 : Nat.log2 8 = 3 := by
+    simpa only using (Nat.log2_two_pow (n := 3))
+  have l16 : Nat.log2 16 = 4 := by
+    simpa only using (Nat.log2_two_pow (n := 4))
+  have l32 : Nat.log2 32 = 5 := by
+    simpa only using (Nat.log2_two_pow (n := 5))
+  have l64 : Nat.log2 64 = 6 := by
+    simpa only using (Nat.log2_two_pow (n := 6))
+  have l128 : Nat.log2 128 = 7 := by
+    simpa only using (Nat.log2_two_pow (n := 7))
+  have l256 : Nat.log2 256 = 8 := by
+    simpa only using (Nat.log2_two_pow (n := 8))
+  have l3 : Nat.log2 3 = 1 := by
+    apply Nat.eq_of_le_of_lt_succ
+    · exact (Nat.le_log2 (by decide)).2 (by decide)
+    · exact (Nat.log2_lt (by decide)).2 (by decide)
+  have l11 : Nat.log2 11 = 3 := by
+    apply Nat.eq_of_le_of_lt_succ
+    · exact (Nat.le_log2 (by decide)).2 (by decide)
+    · exact (Nat.log2_lt (by decide)).2 (by decide)
+  -- Exact pivot states in the selected greedy order; the skipped 8 reduces
+  -- through 8 xor 11 = 3, then xor 2 = 1, then xor 1 = 0.
+  let p1 : List (Nat × Nat) := [(3, 11)]
+  let p2 : List (Nat × Nat) := (0, 1) :: p1
+  let p3 : List (Nat × Nat) := (1, 2) :: p2
+  let p4 : List (Nat × Nat) := (2, 4) :: p3
+  let p5 : List (Nat × Nat) := (4, 16) :: p4
+  let p6 : List (Nat × Nat) := (5, 32) :: p5
+  let p7 : List (Nat × Nat) := (6, 64) :: p6
+  let p8 : List (Nat × Nat) := (7, 128) :: p7
+  let p9 : List (Nat × Nat) := (8, 256) :: p8
+  have i11 : insertPivot 10 [] 11 = some p1 := by
+    simp [insertPivot, List.lookup, p1, l11]
+  have i1 : insertPivot 10 p1 1 = some p2 := by
+    simp [insertPivot, List.lookup, p1, p2, l1]
+  have i2 : insertPivot 10 p2 2 = some p3 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, l2]
+  have i4 : insertPivot 10 p3 4 = some p4 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, l4]
+  have i16 : insertPivot 10 p4 16 = some p5 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, p5, l16]
+  have i32 : insertPivot 10 p5 32 = some p6 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, p5, p6, l32]
+  have i64 : insertPivot 10 p6 64 = some p7 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, p5, p6, p7, l64]
+  have i128 : insertPivot 10 p7 128 = some p8 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, p5, p6, p7, p8, l128]
+  have i256 : insertPivot 10 p8 256 = some p9 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, p5, p6, p7, p8, p9, l256]
+  have i8 : insertPivot 10 p4 8 = some p4 := by
+    simp [insertPivot, List.lookup, p1, p2, p3, p4, l8, l3, l1]
+  -- Each rank equation consumes only the displayed closed insertion facts.
+  have r1 : rank9 [11] = some 1 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11]
+  have r2 : rank9 [11, 1] = some 2 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1]
+  have r3 : rank9 [11, 1, 2] = some 3 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2]
+  have r4 : rank9 [11, 1, 2, 4] = some 4 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4]
+  have rSkip : rank9 [11, 1, 2, 4, 8] = some 4 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i8]
+  have r5 : rank9 [11, 1, 2, 4, 16] = some 5 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16]
+  have r6 : rank9 [11, 1, 2, 4, 16, 32] = some 6 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32]
+  have r7 : rank9 [11, 1, 2, 4, 16, 32, 64] = some 7 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32, i64]
+  have r8 : rank9 [11, 1, 2, 4, 16, 32, 64, 128] = some 8 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32, i64, i128]
+  have r9 : rank9 [11, 1, 2, 4, 16, 32, 64, 128, 256] = some 9 := by
+    simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
+      Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32, i64, i128, i256]
+  have units : (List.range 9).map (fun i => 2 ^ i) =
+      [1, 2, 4, 8, 16, 32, 64, 128, 256] := by decide
+  -- Unfold the fixed basis fold, never the rank/log evaluator under its lambda.
+  simpa [basisExtend9, units, List.foldlM, canonicalBasis,
+    r1, r2, r3, r4, rSkip, r5, r6, r7, r8, r9]
 
 /-- The proposed inverse is proved by the already certified coordinate inverse;
 its upper five rows are literal identity. No source `inv` assertion is assumed. -/
