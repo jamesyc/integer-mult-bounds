@@ -1,0 +1,63 @@
+{
+  "status": "SOURCE_ONLY_REAL_EXPONENTIAL_ENCLOSURE_CANDIDATE",
+  "created_utc": "2026-10-12T11:59:26.995298+00:00",
+  "source": {
+    "module": "SelectedMomentExpEnclosure",
+    "file": "SelectedMomentExpEnclosure.lean",
+    "sha256": "a6f9f51dd64d98f1cbacf9a5fa43591b6930b3de64d92e35e608beaa8434e8d9",
+    "bytes": 7538,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate",
+      "Mathlib.Data.Complex.Exponential"
+    ],
+    "expected_probes": [
+      "CurrentMain.SelectedMomentExpEnclosure.expUpper_real_enclosure",
+      "CurrentMain.SelectedMomentExpEnclosure.selected_exp_enclosures"
+    ]
+  },
+  "source_context": {
+    "commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "publication_base": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+    "conditional_kappa": "1517760977820331/1000000000000000000",
+    "decimal": "0.001517760977820331"
+  },
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "lines": "38-45"
+  },
+  "accepted_definition_binding": {
+    "source_sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+    "definition": "CurrentMain.SelectedMomentUpperAggregate.expUpper",
+    "recurrence": "Term and total begin at1. For j=1..12 update term:=term*x/j, then total:=total+term. Add term*x/13/(1-x/14).",
+    "domain_supplier": "CurrentMain.SelectedMomentUpperAggregate.source_domains; its last nine groups give0<=argument<1."
+  },
+  "analytic_api": {
+    "module": "Mathlib.Data.Complex.Exponential",
+    "source_sha256": "cc8156ef184a1181272c08fb204755c3ebe3c55de2854fec3cd157609347d717",
+    "object_sha256": "cbb4181754c33c04875aa6527b2cca519940566dc87d4d1ed09395d0eb9500f3",
+    "theorem": "Real.exp_bound'",
+    "instantiation_n": 15
+  },
+  "proof_components": [
+    "Exact finite cast-state12 identity",
+    "Positive source-tail denominator and degree13/14/remainder comparison",
+    "Installed exponential bound specialized at15",
+    "Transport to the unchanged Rat expUpper",
+    "Nine ordered source-domain instantiations"
+  ],
+  "remaining": [
+    "Logarithm and outward-rounding transport to full selected real moment",
+    "Operator/profile realization and validity of initial bit supplier",
+    "Physical/all-size/caller/Plan/Budget and full multiplier theorem"
+  ],
+  "prior_plan": {
+    "file": "../EXP_ENCLOSURE_SOURCE_STATEMENTS_AND_RESOURCE_PLAN.json",
+    "sha256": "fc673cee9f2b9bcfb42881376de0a716b69419384a1fbe8ac1d0e7b65b2eb17b"
+  },
+  "historical_first_draft": {
+    "file": "preimages/first_draft_3183c42f.lean",
+    "sha256": "3183c42f76a858c7f30becb3e97c57301e2b26ace94d53905607252f7258ca8e",
+    "correction": "Explicit namespace-qualified constants replace unsupported shorthand; tactic sequencing made unambiguous before requesting review."
+  }
+}
