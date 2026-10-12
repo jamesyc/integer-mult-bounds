@@ -80,12 +80,12 @@
     }
   ],
   "expected_probes": [
-    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.decoded_admissible",
-    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.checked_rows_sound",
-    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_forward_A",
-    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_forward_B",
-    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_backward_A",
-    "CurrentMain.CurrentCheckedScalarRows.CurrentMain.CurrentCheckedScalarRows.selected_backward_B"
+    "CurrentMain.CurrentCheckedScalarRows.decoded_admissible",
+    "CurrentMain.CurrentCheckedScalarRows.checked_rows_sound",
+    "CurrentMain.CurrentCheckedScalarRows.selected_forward_A",
+    "CurrentMain.CurrentCheckedScalarRows.selected_forward_B",
+    "CurrentMain.CurrentCheckedScalarRows.selected_backward_A",
+    "CurrentMain.CurrentCheckedScalarRows.selected_backward_B"
   ],
   "admission": "Root explicitly released exact12/11/1 after centre independent terminal and integration binding guard; one new root,2232 unchanged external pairs and existing caps/stops."
 }
