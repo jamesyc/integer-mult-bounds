@@ -1,0 +1,124 @@
+{
+  "status": "PASS_INDEPENDENT_SCIENTIFIC_SOURCE_API_ONLY",
+  "utc": "2026-10-12T12:37:24.354266+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/BitCopyScatterWindow.lean",
+      "sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd",
+      "bytes": 8287
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/SelectedBitCarrierScatterLifecycle.lean",
+      "sha256": "754c8278cdb41dbff984faae2b1e7acaba611c4473adf5b7436c9d95c5564f3a",
+      "bytes": 7416
+    }
+  ],
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/SOURCE_BINDING.json",
+    "sha256": "25f374fb8973bc7a1e6ad201198db5f5eab38e74d23b4da850e2811da12c4c1e",
+    "bytes": 17066
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/CHECK_PROPOSAL.json",
+    "sha256": "60ec50cfaa5b980f3e46a33b13774afff5a02ac5bfd28f4d1cf0be3ec68792da",
+    "bytes": 3728
+  },
+  "source_plan": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-scatter-lifecycle/READ_ONLY_LIFECYCLE_PLAN.json",
+    "sha256": "573ca7dbba00e900aa9777b5ba42a6e164068bf5b642a8d618155923af9f68ca",
+    "bytes": 16202
+  },
+  "source_references": {
+    "compressed": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/e8-bit-carrier-skeleton/data/bit/bitE8mut-r489.json.gz",
+      "sha256": "835eb96e147740fc7454f8cfb3dbd34ae89524b1dbd89a61e9288eae8ab6a5b9",
+      "bytes": 49154
+    },
+    "exporter": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+      "sha256": "8a5999601f917dbb492bb9ae9a344611f18cc7cedc53dc3c76496a369e530eb3",
+      "bytes": 3745
+    },
+    "scalar_reference_checker": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/e8-bit-carrier-skeleton/code/bit/checkers/columns_h.cpp",
+      "sha256": "d1297f9052be4f2496e1ff2a77e4db2c0cdbd7d460d489b4c03e50bf317238ce",
+      "bytes": 7155
+    }
+  },
+  "accepted_source_apis": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.lean",
+      "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+      "bytes": 68966
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+      "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+      "bytes": 2859
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.lean",
+      "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+      "bytes": 8859
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.lean",
+      "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+      "bytes": 3236
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.lean",
+      "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+      "bytes": 5194
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/SelectedBitCarrierPhaseBXor.lean",
+      "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+      "bytes": 5072
+    }
+  ],
+  "source_readback": {
+    "exact_literals": "Accepted ret/scatter equal the pinned compressed input; no source generator/checker executed.",
+    "chronology": "export_records.py55\u201364 enumerates retained centres, then target rows in increasing order with membership test; each window is COPY then ordered ADDs then ERASE. rawWindows preserves that order.",
+    "shape": [
+      120,
+      56,
+      56,
+      56,
+      56,
+      56,
+      56,
+      56,
+      56
+    ],
+    "events": 586,
+    "source_rows_nodup": "Finite proposed goal remains separate; member-based exporter semantics itself does not need multiplicity equivalence.",
+    "no_default_decoder": "Every Fin730 index is built from list membership bounds; encode/decode and ordered binding retain centre/target order."
+  },
+  "proof_readback": [
+    "single_copy/adds_copy require every target distinct from temporary and centre, so copied value is stationary through the window.",
+    "copy overwrites arbitrary incoming temporary; clear writes false. window_eq_clear_direct is full-state equality to clear applied to direct additions.",
+    "runWindows_clear and runWindows_eq_clear_direct are head-first inductions; nonempty and every centre != temp are explicit. Arbitrary s remains quantified.",
+    "directWindows_untouched preserves each coordinate outside all targets. incoming_temp_independent uses equality away from temp and copies from a distinct centre.",
+    "Selected disjointness derives from targets120..239, centres720..728,temp729. All original729 coordinates arbitrary. Only clean_temp_restored assumes initial temp=false.",
+    "No closed row-major XOR contribution formula is claimed; directScatter is the exact retained-major word."
+  ],
+  "scope": {
+    "local": [
+      8,
+      6,
+      2
+    ],
+    "printed_probes": [
+      6,
+      14
+    ],
+    "kernel_status": "Uncompiled source review; no proof acceptance claim.",
+    "runtime_driver": "Not reviewed here; integration owns binding/runtime.",
+    "open": [
+      "fq/ZERO/rank and physical COPY/ERASE legality",
+      "Chronological D/A entry and whole word operator",
+      "Arbitrary dirty temporary restoration (false without restriction)"
+    ]
+  }
+}
