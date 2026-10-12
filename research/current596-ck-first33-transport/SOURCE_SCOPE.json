@@ -1,0 +1,198 @@
+{
+  "status": "SOURCE_ONLY_CURRENT1082_FIRST33_LABEL_KEY_TRANSPORT",
+  "utc": "2026-10-12T17:46:54.456461+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/Current596CKFirst33Transport.lean",
+    "sha256": "bf2b8d4f7579f03095196eb79e2bb671dfa94b308271878e652307e4c05d9fc1",
+    "bytes": 6355
+  },
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "author_checked_conditional_kappa": "16127213726553/10000000000000000",
+  "source_comparison": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/CURRENT_FIRST33_CENTRE_READBACK.json",
+    "sha256": "0b7dd49aa30049429da4b8a30eb9e86351eb77168fd11ca3d4ec4129e277cd46",
+    "bytes": 3570
+  },
+  "generation_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c",
+    "bytes": 6948
+  },
+  "new_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    }
+  },
+  "old_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    }
+  },
+  "projection": {
+    "forward": {
+      "raw_inclusive": [
+        9899,
+        9931
+      ],
+      "rows": 33,
+      "split": [
+        24,
+        9
+      ],
+      "ordered_raw_equal": true,
+      "normalized_json_sha256": "cd42522d1e0e05f58b1ab4c7d4d137ff628a3ad8c6b98456c47e6ce43c9627ac",
+      "ADD": 25,
+      "relabel": 8
+    },
+    "backward": {
+      "raw_inclusive": [
+        9899,
+        9931
+      ],
+      "rows": 33,
+      "split": [
+        24,
+        9
+      ],
+      "ordered_raw_equal": true,
+      "normalized_json_sha256": "ac45a336b4b9ae746d7f7c36413349add56b3705a2f2af38b39c7098bffa9ca0",
+      "ADD": 25,
+      "relabel": 8
+    }
+  },
+  "old_data": {
+    "module": "Current9594CKCoverageData",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageData.lean",
+      "sha256": "a5cee682d3b8027a9a5cdece5d0048a7c0181ea322d1e8ea9bc69282d904cf7a",
+      "bytes": 76498
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageData.olean",
+      "sha256": "daed1b108817099a865e36a11105f6903fc78c6dca366cc4a1e2392816d27ad8",
+      "bytes": 7006776
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current9594_ck33__Current9594CKCoverageData.lean.json",
+      "sha256": "9f7781e0c42824f431fd1602ca661a20e4db60e955c72fef10182de60a15e90f",
+      "bytes": 3531
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current9594_ck33__Current9594CKCoverageData.lean.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "receipt_dependencies": {
+      "CanonicalFrameCoverage": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+        "olean_sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+        "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+      }
+    }
+  },
+  "old_key": {
+    "module": "Current9594CKFirst33KeyRestriction",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33_keys/Current9594CKFirst33KeyRestriction.lean",
+      "sha256": "6c5cff1f423448c3c7ce6fe6abd35536b60925143182acb5e6464aff0379241f",
+      "bytes": 6990
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33_keys/Current9594CKFirst33KeyRestriction.olean",
+      "sha256": "c48cdc2fd8cd623dc737db78c4f205b1361b0e2b7f3e73c2f454840ac11f0f5b",
+      "bytes": 335680
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current9594_ck33_keys__Current9594CKFirst33KeyRestriction.lean.json",
+      "sha256": "a2a089db2baee5e800dedb279c3f4f8741e499e1d2774c1c29b95042a52e95f4",
+      "bytes": 3998
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current9594_ck33_keys__Current9594CKFirst33KeyRestriction.lean.log",
+      "sha256": "0df722a751e5aa98488bb39007e387fa64033c6ad7dca867b19a32598fb6e8a0",
+      "bytes": 518
+    },
+    "receipt_dependencies": {
+      "CurrentCheckedScalarRows": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.olean",
+        "olean_sha256": "0fc9de0270dc394685d8acdf338e1c290181ccea992803a695545e0150f9fd89",
+        "source_sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037"
+      },
+      "Current9594CKCoverageCheck": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageCheck.olean",
+        "olean_sha256": "730d78941f0aa834390bbe3b930073441acb07d9bfa1c8c6d755b5eb5492fb55",
+        "source_sha256": "bf34d2d1e4c2ae402ea24e0ca7d3f38cb61c9880a22666534ec49626f1623471"
+      }
+    }
+  },
+  "old_key_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_KEYS33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "611c8903d98c2e9de2edd9937ec1ec57ee95f138359c641abb8f61ea8cdeee2c",
+    "bytes": 33244
+  },
+  "shared_map_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+    "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+    "bytes": 8666
+  },
+  "shared_map_source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current596-ck-centre/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "72068d41e2215ec76e8f7f4a2206a6ca2f637f37769b8456f2e727cb5df87bee",
+    "bytes": 7686
+  },
+  "shared_map_status": "Not yet kernel accepted; required before compiler binding.",
+  "frame_binding": {
+    "old": 1079,
+    "current": 1082,
+    "shared_embedding": "CurrentMain.Current596CKCentre.embed",
+    "all_old_ordered_frames_prefix_equal": true,
+    "all728_initial_labels_equal": true,
+    "labels0": "embed composed with accepted labels0; all736 coordinates remain explicit",
+    "labels24": "embed composed with accepted complete checkpoint24; no clean-state premise",
+    "child0": "Entire current0\u21922/rank1/[459] record equals accepted predecessor; no operator claim in this root"
+  },
+  "api": [
+    "mapEvent_lab",
+    "mapEvent_admissible",
+    "wellLabelled_map",
+    "relabelsUse_map",
+    "keyedDecoded_map"
+  ],
+  "selected_corollaries": [
+    "CurrentMain.Current596CKFirst33Transport.selected_forward_A",
+    "CurrentMain.Current596CKFirst33Transport.selected_forward_B",
+    "CurrentMain.Current596CKFirst33Transport.selected_backward_A",
+    "CurrentMain.Current596CKFirst33Transport.selected_backward_B"
+  ],
+  "no_finite_decisions": true,
+  "no_stream_conjugation_or_scalar_induction": true,
+  "remaining": [
+    "Exact recipe operator/charts and physical execution are downstream premises.",
+    "The current first33 excludes all pre-A phase/adapter/residual entries, later key0\u21923 and the full HPE program.",
+    "No full1079 or1082 operator catalog, owner allocation, provider mixture or current-kappa theorem follows."
+  ]
+}
