@@ -69,7 +69,9 @@ theorem canonical_data_certificate :
     transpose9 canonicalQ = canonicalQ ∧
     (∀ r ∈ canonicalBasis, r < 512) ∧
     (∀ r ∈ canonicalInverseRows, r < 512) := by
-  decide +kernel
+  refine ⟨?_, by decide, by decide, by decide, by decide, by decide⟩
+  simp [basisExtend9, rank9, insertPivot, canonicalBasis, List.foldlM,
+    List.lookup, Nat.log2]
 
 /-- The proposed inverse is proved by the already certified coordinate inverse;
 its upper five rows are literal identity. No source `inv` assertion is assumed. -/

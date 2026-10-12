@@ -1,9 +1,9 @@
 {
-  "status": "FIRST_ORDINARY_PROOF_LOCAL_REPAIR_AWAITING_EXACT_REVIEW",
+  "status": "SECOND_PROOF_LOCAL_BASIS_REPAIR_AWAITING_REVIEW_AND_ALIGNMENT",
   "root": {
     "module": "CliffordChild009Canonical",
     "source": "CliffordChild009Canonical.lean",
-    "sha256": "030ac43a4b5e5d1cafca6d0bea01230cacc89e92d8f3722e6c86c51d1e06e6e3"
+    "sha256": "d627a8a6df909a699311cfa28e782b4ebabd2efdab4277374fd6bbf4f393f849"
   },
   "local_scope": {
     "total": 7,
@@ -270,5 +270,11 @@
     ],
     "unchanged": "Every definition, statement, assumption, source constant, import, external footprint and cap.",
     "source_sorry_or_native_decide": false
+  },
+  "basis_repair": {
+    "failed_source_sha256": "030ac43a4b5e5d1cafca6d0bea01230cacc89e92d8f3722e6c86c51d1e06e6e3",
+    "exact_change": "Split the same six conjuncts. Explicitly simplify source basis/rank recursion and Nat.log2 equations in the basis conjunct; ordinary decide proves the unchanged five closed companions.",
+    "admission": "Root2026-10-12T10:14:07Z; one second-repair retry after machine exact review and integration alignment.",
+    "unchanged": "All definitions, statements, source data, interpreted operator proof, imports and limits."
   }
 }
