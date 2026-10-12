@@ -1,0 +1,14 @@
+{
+  "status": "INDEPENDENT_TERMINAL_PASS",
+  "review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_COVERAGE212_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "210f4f54d179d9f23759dfa00b69ab9b372d4d476943f5f0187b3a87299c091a",
+    "bytes": 4986
+  },
+  "owner_result_summary": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/entrance_band/RESULT_SUMMARY.json",
+    "sha256": "1b2b2b3a009690f5c06e5da348ff6f0cfdc9ad7df7b0bdb0c883cebe2f03bec0"
+  },
+  "accepted_sources_objects_receipts_changed": false,
+  "compiler_replayed": false
+}
