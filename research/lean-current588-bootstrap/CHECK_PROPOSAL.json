@@ -1,11 +1,11 @@
 {
-  "status": "SOURCE_PREPARATION_AUTHORIZED_EXACT_FIRST_GATE_NOT_YET_ADMITTED",
+  "status": "FIRST_PROOF_LOCAL_ENDPOINT_RFL_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T17:06:21.699938+00:00",
   "source": {
     "module": "Current588BootstrapCertificate",
     "file": "Current588BootstrapCertificate.lean",
-    "sha256": "ee2ecefd4638acf789b8cffd5bac006d9e9dfec66d7d4b8bb46b960d0f900bf9",
-    "bytes": 18849,
+    "sha256": "abb70a75f18f71d768b54e0388f2c1cabd619f30c538b42c0a704ffdebb0c061",
+    "bytes": 18855,
     "explicit_imports": [
       "Current588NativeUpperAggregate"
     ],
@@ -23,7 +23,7 @@
       "CurrentMain.Current588BootstrapCertificate.bootstrap_endpoint_matches_certificate"
     ]
   },
-  "source_binding_sha256": "7976b322f1ceb75c5b8c79b18d69d29d18fe960902c98aac51d76a77e07da9f6",
+  "source_binding_sha256": "97427170162b50333a748268bbe3483f8dbe6b8f30d61454c675b90e3ec028a8",
   "scope": [
     5,
     4,
@@ -1097,5 +1097,13 @@
   "resource_qualification": "Same319 cached pairs. Twelve separate leaves per stage avoid one large Decidable tree. Seven new endpoint/cutoff literal checks use arbitrary-precision kernel rational arithmetic; prior measurements do not establish new-root fit. No Real runtime import or dependency replay.",
   "source_pin_guard": "Reuse existing exact six-file detached9594 raw/Git guard; source algorithm is pinned assembler and data are pinned selected certificate.",
   "authority": "Root2026-10-12T17:02 requested source preparation and exact closure/probe/resource proposal. First compiler admission remains separate after source/API/scientific and binding review.",
-  "preflight_endpoint_amendment": "Remove only final rfl after rw can close the definitionally reflexive checkpoint7=recordedEndpoint goal; no compiler attempted, statements/data/options unchanged."
+  "preflight_endpoint_amendment": "Remove only final rfl after rw can close the definitionally reflexive checkpoint7=recordedEndpoint goal; no compiler attempted, statements/data/options unchanged.",
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_588_bootstrap/gate_final/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "e33663aa83887a71ae2f48463dffd491ed5cc5dd0e45d5383bf07d4aa4141773",
+      "bytes": 7417
+    },
+    "scope": "Restore only the original final rfl, after the measured seven-step rewrite leaves definitionally equal checkpoint7 and recordedEndpoint. Scientific statements, data, imports, options and caps unchanged."
+  }
 }

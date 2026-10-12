@@ -1,11 +1,11 @@
 {
-  "status": "CURRENT588_SEVEN_UPDATE_SOURCE_PROPOSAL_UNCHECKED",
+  "status": "FIRST_PROOF_LOCAL_ENDPOINT_RFL_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-12T17:06:21.695688+00:00",
   "source": {
     "module": "Current588BootstrapCertificate",
     "file": "Current588BootstrapCertificate.lean",
-    "sha256": "ee2ecefd4638acf789b8cffd5bac006d9e9dfec66d7d4b8bb46b960d0f900bf9",
-    "bytes": 18849,
+    "sha256": "abb70a75f18f71d768b54e0388f2c1cabd619f30c538b42c0a704ffdebb0c061",
+    "bytes": 18855,
     "explicit_imports": [
       "Current588NativeUpperAggregate"
     ],
@@ -324,5 +324,13 @@
     "Eta-dependent q/grid calculation,47 current outer slacks and seven-margin minimum.",
     "All-size bootstrap interpretation and complete selected-kappa theorem."
   ],
-  "preflight_endpoint_amendment": "Remove only final rfl after rw can close the definitionally reflexive checkpoint7=recordedEndpoint goal; no compiler attempted, statements/data/options unchanged."
+  "preflight_endpoint_amendment": "Remove only final rfl after rw can close the definitionally reflexive checkpoint7=recordedEndpoint goal; no compiler attempted, statements/data/options unchanged.",
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_588_bootstrap/gate_final/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "e33663aa83887a71ae2f48463dffd491ed5cc5dd0e45d5383bf07d4aa4141773",
+      "bytes": 7417
+    },
+    "scope": "Restore only the original final rfl, after the measured seven-step rewrite leaves definitionally equal checkpoint7 and recordedEndpoint. Scientific statements, data, imports, options and caps unchanged."
+  }
 }
