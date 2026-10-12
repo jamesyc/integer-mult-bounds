@@ -1,0 +1,207 @@
+{
+  "status": "OWNER_PASS_PENDING_INDEPENDENT_TERMINAL_REVIEW",
+  "utc": "2026-10-12T16:37:17.921257+00:00",
+  "selected_commit": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "result": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/RESULT.json",
+    "sha256": "e32431967d2acaafd7f46c3d755b5285768782f814b34fd05f4854e1aa92668a"
+  },
+  "driver_sha256": "ca6712cd1387996bd596c87b37ca9649da02c5ab38259ff2083fabc97830ab8d",
+  "admission_sha256": "0274468ddc9723857b4d95a11cd0f7208718c2be56f15db56c82e0e55fc46066",
+  "timing": {
+    "review_ready_utc": "2026-10-12T16:31:22.639022+00:00",
+    "admission_receipt_read_utc": "2026-10-12T16:31:28+00:00",
+    "invocation_utc": "2026-10-12T16:31:37.551409277+00:00",
+    "requested_utc": "2026-10-12T16:31:37.852509+00:00",
+    "slot_acquired_utc": "2026-10-12T16:31:37.853082+00:00",
+    "first_child_started_utc": "2026-10-12T16:31:37.970404+00:00",
+    "finished_utc": "2026-10-12T16:35:13.532531+00:00",
+    "queue_seconds": 0.0005730139964725822
+  },
+  "metrics": {
+    "total_child_wall_seconds": 213.72925409702293,
+    "cpu_user_seconds": 213.055555,
+    "cpu_system_seconds": 0.22524599999999986,
+    "peak_process_vm_bytes": 51351552,
+    "peak_process_rss_bytes": 37765120
+  },
+  "stages": [
+    {
+      "name": "ck-step0",
+      "started_utc": "2026-10-12T16:31:37.970404+00:00",
+      "finished_utc": "2026-10-12T16:31:44.042804+00:00",
+      "seconds": 6.072436144997482,
+      "cpu_user_seconds": 5.9736650000000004,
+      "cpu_system_seconds": 0.022393999999999997,
+      "exit_code": 0,
+      "stop_reason": null,
+      "process_peaks": {
+        "80": {
+          "vm_peak_bytes": 34824192,
+          "rss_peak_bytes": 21626880,
+          "threads": 1
+        }
+      },
+      "log_sha256": "23ca231febd30ee092f617f0506d120c01e421bc3c814ba82b11d912c7f15869"
+    },
+    {
+      "name": "ck-step1",
+      "started_utc": "2026-10-12T16:31:44.285554+00:00",
+      "finished_utc": "2026-10-12T16:31:47.676001+00:00",
+      "seconds": 3.390473977997317,
+      "cpu_user_seconds": 3.3175540000000003,
+      "cpu_system_seconds": 0.039368000000000014,
+      "exit_code": 0,
+      "stop_reason": null,
+      "process_peaks": {
+        "129": {
+          "vm_peak_bytes": 42295296,
+          "rss_peak_bytes": 29302784,
+          "threads": 1
+        }
+      },
+      "log_sha256": "3d2d67cbd82dd5b79c3cfea987b31bcc6a16283c68c6b13b9801e009cc94e09c"
+    },
+    {
+      "name": "ck-step2",
+      "started_utc": "2026-10-12T16:31:47.977435+00:00",
+      "finished_utc": "2026-10-12T16:31:50.224136+00:00",
+      "seconds": 2.2467537470074603,
+      "cpu_user_seconds": 2.1462959999999995,
+      "cpu_system_seconds": 0.027415999999999996,
+      "exit_code": 0,
+      "stop_reason": null,
+      "process_peaks": {
+        "178": {
+          "vm_peak_bytes": 42328064,
+          "rss_peak_bytes": 29429760,
+          "threads": 1
+        }
+      },
+      "log_sha256": "0ebcf2ca688428a23e0ad3e734b35dd9004972405ca1cca679663e42df96b032"
+    },
+    {
+      "name": "ck-localize",
+      "started_utc": "2026-10-12T16:31:50.536434+00:00",
+      "finished_utc": "2026-10-12T16:31:51.559758+00:00",
+      "seconds": 1.0233485420030775,
+      "cpu_user_seconds": 0.9773540000000001,
+      "cpu_system_seconds": 0.03409799999999996,
+      "exit_code": 0,
+      "stop_reason": null,
+      "process_peaks": {
+        "227": {
+          "vm_peak_bytes": 46686208,
+          "rss_peak_bytes": 32911360,
+          "threads": 1
+        }
+      },
+      "log_sha256": "eab8b9e3cd47552f24116fc831324656ffa861ada2859a0360be35c703054cc4"
+    },
+    {
+      "name": "ck-emit",
+      "started_utc": "2026-10-12T16:31:51.816789+00:00",
+      "finished_utc": "2026-10-12T16:31:52.835872+00:00",
+      "seconds": 1.019104518010863,
+      "cpu_user_seconds": 0.8994850000000003,
+      "cpu_system_seconds": 0.036910999999999916,
+      "exit_code": 0,
+      "stop_reason": null,
+      "process_peaks": {
+        "276": {
+          "vm_peak_bytes": 51351552,
+          "rss_peak_bytes": 37765120,
+          "threads": 1
+        }
+      },
+      "log_sha256": "013f5fe0d61f7dcd1eb6d561ee8afb36b9d1dd6ce32fb30d2c4dd45ef0623159"
+    },
+    {
+      "name": "ck-recipes",
+      "started_utc": "2026-10-12T16:31:53.149968+00:00",
+      "finished_utc": "2026-10-12T16:35:13.126980+00:00",
+      "seconds": 199.97713716700673,
+      "cpu_user_seconds": 199.741201,
+      "cpu_system_seconds": 0.06505899999999998,
+      "exit_code": 0,
+      "stop_reason": null,
+      "process_peaks": {
+        "325": {
+          "vm_peak_bytes": 41295872,
+          "rss_peak_bytes": 28606464,
+          "threads": 1
+        }
+      },
+      "log_sha256": "0f1ad7451063e9ccaa5e6da0ec225e0db46f69bfe4e3a18026a98dd73f1c743c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/FULL-WORD.json.gz",
+      "sha256": "e920ae0b9996a9079360f8ad05ee9ceb2cbabe1b83fe968ef6bfef54d530a08f",
+      "bytes": 36995
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/KERNEL-CONSTRUCTION.json",
+      "sha256": "23ca231febd30ee092f617f0506d120c01e421bc3c814ba82b11d912c7f15869",
+      "bytes": 6146
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FULL-WORD.json.gz",
+      "sha256": "a57a3b43a80c68796031086161168a09da54266bdf4442b72e7de0de56c2b22f",
+      "bytes": 37007
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FRAME-CONSTRUCTION.json",
+      "sha256": "98951047f5967e77c30861a3ccef600845bf5db2b6ea554b716ea3655b093ff9",
+      "bytes": 1781
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+      "sha256": "425b1f3a4da31d544579e7287ffeedc739dce8d84fe5b9bf02ceb3c69236961d",
+      "bytes": 37001
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FRAME-CONSTRUCTION.json",
+      "sha256": "ec10bf97610cec2ed56ba7db2ae9e450afb2429feeacf5fd0c70068073c44627",
+      "bytes": 1397
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/FULL-WORD.json.gz",
+      "sha256": "425b1f3a4da31d544579e7287ffeedc739dce8d84fe5b9bf02ceb3c69236961d",
+      "bytes": 37001
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/SCALAR-FRAME-AUDIT.json",
+      "sha256": "6e86ae6ce6ae32afc4eb9761e5caad50af543d7fb681b837238513548ae4a15d",
+      "bytes": 4547
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-CHECKS.json",
+      "sha256": "1330c631cc63073c7c3b542f8a9d3a1039274259b51f96b44c9ae50a58074c9e",
+      "bytes": 922
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-REVIEW.json",
+      "sha256": "ef92289b2596562af464dc459d89bfc5345d334b1b01ccc565b7c210ece3d566",
+      "bytes": 655
+    }
+  ],
+  "scope": "One exact six-CLI selected ck materialization with all intrinsic checks retained. Mandatory semantic hashes, ordered program hashes and exact recipe bytes match selected SPEC. Timing-dependent phase review is compared by the reviewed portable normalization. No other provider, global owner replay, assembly, full verifier or Lean check was run.",
+  "source_preservation": "PASS_FIXED_SOURCE_RUNTIME_GUARD"
+}

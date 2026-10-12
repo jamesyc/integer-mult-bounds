@@ -1,0 +1,158 @@
+{
+  "status": "READ_ONLY_SELECTED_NEXT_BOUNDARY_PROPOSAL_NO_SOURCE_EMISSION",
+  "utc": "2026-10-12T16:37:18.007362+00:00",
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    }
+  },
+  "generation_result_sha256": "e32431967d2acaafd7f46c3d755b5285768782f814b34fd05f4854e1aa92668a",
+  "frame_count": 1079,
+  "child_count": 3017,
+  "initial_label_count": 728,
+  "register_domain": 736,
+  "current_key": {
+    "ordinal": 0,
+    "old": 0,
+    "new": 2,
+    "rank": 1,
+    "old_descriptors": [],
+    "new_descriptors": [
+      459
+    ],
+    "raw_record_canonical_json_sha256": "1c3baf4a4a5fee2faf4bdd8e3a3f1e8294bfe7fa40403506a03fef4d331b49a0"
+  },
+  "orientations": {
+    "backward": {
+      "raw_range_zero_based_inclusive": [
+        9899,
+        9931
+      ],
+      "rows": 33,
+      "histogram": {
+        "ADD": 25,
+        "relabel": 8
+      },
+      "slice_canonical_json_sha256": "ac45a336b4b9ae746d7f7c36413349add56b3705a2f2af38b39c7098bffa9ca0",
+      "support24_then33": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ],
+      "preceding_tag_counts": {
+        "phase": 3,
+        "scalar:scale": 56,
+        "scalar:add": 9112,
+        "adapter": 500,
+        "residual_adapter": 228
+      },
+      "first_excluded_row": {
+        "index": 9932,
+        "value": [
+          "climb",
+          "A",
+          474,
+          0,
+          3,
+          1
+        ]
+      }
+    },
+    "forward": {
+      "raw_range_zero_based_inclusive": [
+        9899,
+        9931
+      ],
+      "rows": 33,
+      "histogram": {
+        "ADD": 25,
+        "relabel": 8
+      },
+      "slice_canonical_json_sha256": "cd42522d1e0e05f58b1ab4c7d4d137ff628a3ad8c6b98456c47e6ce43c9627ac",
+      "support24_then33": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ],
+      "preceding_tag_counts": {
+        "phase": 3,
+        "scalar:scale": 56,
+        "scalar:add": 9112,
+        "adapter": 500,
+        "residual_adapter": 228
+      },
+      "first_excluded_row": {
+        "index": 9932,
+        "value": [
+          "climb",
+          "A",
+          474,
+          0,
+          3,
+          1
+        ]
+      }
+    }
+  },
+  "prospective_closure": {
+    "local": 4,
+    "current_reused": 2,
+    "fresh": 2,
+    "reused_modules": [
+      "PR509Stream",
+      "CanonicalFrameCoverage"
+    ],
+    "fresh_modules": [
+      "Current9594CKCoverageData",
+      "Current9594CKCoverageCheck"
+    ],
+    "external_pairs": 2213
+  },
+  "proof_plan": "Reuse accepted parameterized Row n/checkRows factorization and sparse checkpoint laws unchanged at n=1079. Emit exact current tables/start labels plus33 rows each; synchronous decomposed24+9 decisions and whole736 checkpoint equalities, followed by explicit WellLabelled slice composition. No prefix re-evaluation or generic induction.",
+  "resources": {
+    "hard_seconds_per_job": 60,
+    "hard_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_bytes": 3758096384,
+    "serial_shared_slot": 1,
+    "max_fresh_jobs": 2,
+    "stop": "first failure/review event; admission only after exact source/API/runtime review"
+  },
+  "excluded_scope": [
+    "The prior Fin997 selected corollaries do not transport to Fin1079 by renaming.",
+    "Pre-A scalar label neutrality alone proves no omitted phase/adapter action. The actual chart/executor boundary stays explicit.",
+    "All-payload operator equations are supplied separately by frame after exact record comparison.",
+    "Other providers and full selected word are outside this slice."
+  ],
+  "no_compiler_or_upstream_execution_in_readback": true
+}
