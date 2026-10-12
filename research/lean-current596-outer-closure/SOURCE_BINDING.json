@@ -134,5 +134,10 @@
     "This certificate does not establish the physical/all-size meaning of any positive finite slack.",
     "The corresponding bit branch and provider terminal-codimension interpretation remain separate suppliers."
   ],
-  "authority": "Root2026-10-12T17:59 authorized source preparation and first bounded5/4/1 after bootstrap terminal and independent scientific/API/binding reviews; existing analytic caps."
+  "authority": "Root2026-10-12T17:59 authorized source preparation and first bounded5/4/1 after bootstrap terminal and independent scientific/API/binding reviews; existing analytic caps.",
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/outer.py",
+    "sha256": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c",
+    "byte_identical_current_path": "research/complex-multicold/engines/outer.py"
+  }
 }
