@@ -1,0 +1,14 @@
+{
+  "status": "INDEPENDENT_TERMINAL_PASS",
+  "review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_FIRST45_KEYS_TERMINAL_REVIEW.json",
+    "sha256": "9cc22ab05aa3e1ed8f28b9cf2656ac6a6959cfab93c7eb8d5af4c3a96bcc1f1a",
+    "bytes": 7778
+  },
+  "owner_result_summary": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-first45-key-restriction/RESULT_SUMMARY.json",
+    "sha256": "ee470a6597daed0c6da5dc74832b0ccb7147435f077c1cdb6c90a2d50a38bcc5"
+  },
+  "accepted_sources_objects_receipts_changed": false,
+  "compiler_replayed": false
+}
