@@ -4,8 +4,8 @@
   "source": {
     "module": "SelectedMomentExpEnclosure",
     "file": "SelectedMomentExpEnclosure.lean",
-    "sha256": "a6f9f51dd64d98f1cbacf9a5fa43591b6930b3de64d92e35e608beaa8434e8d9",
-    "bytes": 7538,
+    "sha256": "b999dafefb6f3e2fd5b03babb91491800855064ae6407c8878c605f20160d000",
+    "bytes": 8071,
     "explicit_imports": [
       "SelectedMomentUpperAggregate",
       "Mathlib.Data.Complex.Exponential"
@@ -59,5 +59,10 @@
     "file": "preimages/first_draft_3183c42f.lean",
     "sha256": "3183c42f76a858c7f30becb3e97c57301e2b26ace94d53905607252f7258ca8e",
     "correction": "Explicit namespace-qualified constants replace unsupported shorthand; tactic sequencing made unambiguous before requesting review."
+  },
+  "proof_repair": {
+    "audit_sha256": "f3202b57d3c82ac17d9ff6e318bbec6c1af0be4b51a786b09fc1fda16e18d618",
+    "failed_source_sha256": "a6f9f51dd64d98f1cbacf9a5fa43591b6930b3de64d92e35e608beaa8434e8d9",
+    "change": "One final geometric identity proof uses explicit common-denominator cancellation before ring; all statements, expressions, assumptions, imports and options unchanged."
   }
 }

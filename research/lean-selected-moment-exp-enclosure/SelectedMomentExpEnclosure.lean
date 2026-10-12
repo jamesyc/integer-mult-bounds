@@ -56,8 +56,20 @@ private theorem tail_comparison (x : ℝ) (hx : 0 ≤ x) (h1 : x < 1) :
           ((x^13 / (13 : Nat).factorial)*x^2)*(1/(14^2*(1-x/14))) :=
       add_le_add_left hm _
     _ = (x^12 / (12 : Nat).factorial)*x/13/(1-x/14) := by
-      norm_num [Nat.factorial]
-      field_simp [ne_of_gt hd] <;> ring
+      have hg (t : ℝ) :
+          t + t*(x/14) + t*(x/14)^2/(1-x/14) = t/(1-x/14) := by
+        apply (eq_div_iff (ne_of_gt hd)).2
+        rw [add_mul, add_mul, div_mul_cancel₀ _ (ne_of_gt hd)]
+        ring
+      calc
+        _ = x^13 / (13 : Nat).factorial +
+            (x^13 / (13 : Nat).factorial)*(x/14) +
+            (x^13 / (13 : Nat).factorial)*(x/14)^2/(1-x/14) := by
+          simp only [one_div, mul_inv_rev]
+          ring
+        _ = (x^13 / (13 : Nat).factorial)/(1-x/14) := hg _
+        _ = (x^12 / (12 : Nat).factorial)*x/13/(1-x/14) := by
+          norm_num [Nat.factorial] <;> ring
 
 private theorem real_expression_enclosure (x : ℝ) (hx : 0 ≤ x) (h1 : x < 1) :
     Real.exp x ≤ (∑ j ∈ range 13, x^j / (j.factorial : ℝ)) +
