@@ -1,0 +1,208 @@
+{
+  "status": "SOURCE_ONLY_FIRST_INDEX_DIAGNOSTIC_EXACT_DECLARATIONS",
+  "utc": "2026-10-12T16:27:04.523263+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
+    "sha256": "7e89816d008a16078a5b41ecf753ca8da8fee04f4c19a4746089d85e87dbf7c4",
+    "bytes": 1227
+  },
+  "failed_original": {
+    "module": "CurrentR420BoundaryCheck",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryCheck.lean",
+      "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+      "bytes": 6313
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_b_boundary_20261012__CurrentR420BoundaryCheck.lean.json",
+      "sha256": "6afc458bfe2434319f4699118e95576be89fe4d11a18d94821c09a80b39763aa",
+      "bytes": 2401
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_b_boundary_20261012__CurrentR420BoundaryCheck.lean.log",
+      "sha256": "0476729d89ccebeaab38ba5a73e055ebae14b87efaff35f0e11421de282505b8",
+      "bytes": 88
+    },
+    "dependencies": {
+      "CurrentR420BoundaryData": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryData.olean",
+        "olean_sha256": "51049d106c212ca17b30f3efb6020191729a8ace20c6c77459d39415f7fa8b34",
+        "source_sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509"
+      }
+    }
+  },
+  "retained_data": {
+    "module": "CurrentR420BoundaryData",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryData.lean",
+      "sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509",
+      "bytes": 34312
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_b_boundary_20261012__CurrentR420BoundaryData.lean.json",
+      "sha256": "adbe953ed5d35c80b29e6c3d6169812a92075e4046b25b87be574113d3bf2335",
+      "bytes": 2458
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_b_boundary_20261012__CurrentR420BoundaryData.lean.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "dependencies": {
+      "SelectedBitCarrierPhaseBData": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBData.olean",
+        "olean_sha256": "0041721aac5e9506b9509fc4394fd635089828cad321d9ab9b334a3a04131034",
+        "source_sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a"
+      }
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryData.olean",
+      "sha256": "51049d106c212ca17b30f3efb6020191729a8ace20c6c77459d39415f7fa8b34",
+      "bytes": 3756024
+    },
+    "input_class": "retained_local_module",
+    "imports": [
+      "Init",
+      "SelectedBitCarrierPhaseBData"
+    ]
+  },
+  "resource_stop": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/RESOURCE_STOP_ACCEPTANCE.json",
+    "sha256": "d31faa34eeccc08a34ee8a5e456fd66b7199ac384b8b72f5c57e3c18469e1dd9",
+    "bytes": 346033
+  },
+  "partition_plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/RESOURCE_PARTITION_PROPOSAL.json",
+    "sha256": "8c63ca1e671bc65e0734b6f810d524e13a22aa6e4732cd5498c5b3cbea151c84",
+    "bytes": 11329
+  },
+  "declaration_transport": [
+    {
+      "name": "selected_shape",
+      "original_fragment_sha256": "ee2be15b87633950302a39c6b8e7b49124e71858156ab73f041b2e72ff0ce70e",
+      "bytes": 171,
+      "body_and_statement_exact": true
+    },
+    {
+      "name": "line_shape",
+      "original_fragment_sha256": "4f84ea2b877dc951c3d683700eeacc85a0b0f6f904d12f6bcfc73fb93d1edbe6",
+      "bytes": 137,
+      "body_and_statement_exact": true
+    },
+    {
+      "name": "frame_index_permutation",
+      "original_fragment_sha256": "cad8fb8258bff74c988b39dc955e7b6459a4a3e0b9cf8f03cab7c2f602fa5161",
+      "bytes": 143,
+      "body_and_statement_exact": true
+    }
+  ],
+  "remaining_unemitted_declarations": [
+    {
+      "name": "frame_domain",
+      "sha256": "ad918356a5a43a5066af51edd17bf466d82fb0cabd3ba23fc8b669117267c77e"
+    },
+    {
+      "name": "zero_full_rows",
+      "sha256": "87115fe4873034f644bf60d36a188b3d1de3888eeeda7b0adea5d14e77c59b8b"
+    },
+    {
+      "name": "boundary_domain",
+      "sha256": "6b8c0966ebe859c77f7eee2c7f06c59722c7d203a482f897c39dd912e8fbd6ce"
+    },
+    {
+      "name": "source_entrances",
+      "sha256": "b8f700d0de8675c733dc623897dd56f8cd95280342637e2cd3e462f9319dc28e"
+    },
+    {
+      "name": "nonsource_entrances",
+      "sha256": "6bc71b5f7e585f9bcd3109ce83f6d234531b0a9c1ad55ee2ef5aa04080d4732e"
+    },
+    {
+      "name": "source_helper_final_full",
+      "sha256": "b78eb2c7b4db2556c99949eb0c9fec2e062241127002a615a35c7562446db820"
+    },
+    {
+      "name": "retained_helper_ids",
+      "sha256": "cd7990b82005656d68f05e9e428f1f2d652ad32b86be9c6e564c54f1ede0b770"
+    },
+    {
+      "name": "phase_shape",
+      "sha256": "2e98fac8be0b2e8733aed0491f946a145212ccd95befaea37f2ba44c294a322e"
+    },
+    {
+      "name": "phase_domains",
+      "sha256": "a1f380a43348490110eb0a9c6226c0be2986e98b9c214cecadc1186cf7791c72"
+    },
+    {
+      "name": "band_order",
+      "sha256": "f4ab3110c6ce7acdb4c75ab23e3c74a9714558137dbd700944b21c21b6324be7"
+    },
+    {
+      "name": "band_lengths",
+      "sha256": "1bca64915697715e8fe3ef2fb340e5286e22192a3fda18de1f4729a027ea20fc"
+    },
+    {
+      "name": "first_target_band",
+      "sha256": "8b36d2a32fa579db9ba710920929d1d427fd05a3312c88c7042d84e69a53e8af"
+    },
+    {
+      "name": "middle_source_band",
+      "sha256": "aedfb59207015a0feb40fb7b402dc94974e72c8fa9d0562a0bf492b7fc24cf00"
+    },
+    {
+      "name": "middle_operand_bands",
+      "sha256": "5b1899936e9e0a1255c023b1bace7cf6533b7593156b943defe598cf4aeb0008"
+    },
+    {
+      "name": "last_target_band",
+      "sha256": "395b800e20c85a14ea00e425a00004583364038aed796e52de0893a0aad4bc5d"
+    },
+    {
+      "name": "final_target_frames",
+      "sha256": "b1825dfd3800c0905a6c064e6011aa7e881ab048dc00fb7c8ba4a5f142bc6769"
+    },
+    {
+      "name": "no_target_operands",
+      "sha256": "e79b95f202b6805c5683aab748400548be19d0937112663789a8eb0650bda2a5"
+    },
+    {
+      "name": "no_self_reads",
+      "sha256": "2ea982733f70b700e682dde3fe7a0c19332c32334d0236e2be291e521507b4f6"
+    },
+    {
+      "name": "scatter_shape",
+      "sha256": "89968305592c1c057842bc06ba60024e04ea301f1289cb7d16847268d4c14bb9"
+    },
+    {
+      "name": "scatter_index_domain",
+      "sha256": "0be138c212805bbdd32217de2eb2ae1a9cf6eb8a23d8e65297eed462c2f53457"
+    },
+    {
+      "name": "scatter_helpers",
+      "sha256": "f259f7a2d741e1e58ed1560baa2a1e974817e25e30d8dfe2542e1cf6b5bf975a"
+    },
+    {
+      "name": "temporary_index",
+      "sha256": "00e39c565169b22c89501e18dc592d3c1a705be98d244db77e7ca2e0f3033207"
+    },
+    {
+      "name": "embed_preserves_index",
+      "sha256": "563fd41ac7dc6a052dc1e2753f53a7d0bf4a68539174c63afa1b771bc5f6f76b"
+    },
+    {
+      "name": "original_excludes_temporary",
+      "sha256": "8ce54e3371176f8a5de16f3c3c78a82a8a78b67c1cb2e078638229c21cdfad50"
+    }
+  ],
+  "original_public_namespace": "CurrentMain.CurrentR420Boundary",
+  "options_unchanged": [
+    "Elab.async false"
+  ],
+  "probe_order": [
+    "CurrentMain.CurrentR420Boundary.selected_shape",
+    "CurrentMain.CurrentR420Boundary.line_shape",
+    "CurrentMain.CurrentR420Boundary.frame_index_permutation"
+  ],
+  "changes": "Only module partition/header and placement of the same three probes. Imports,namespace,options and theorem fragments unchanged.",
+  "no_whole_predicate_retry": true
+}
