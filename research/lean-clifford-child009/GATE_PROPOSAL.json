@@ -1,0 +1,89 @@
+{
+  "status": "SOURCE_PROPOSAL_ONLY_NO_COMPILER_ADMISSION",
+  "root": {
+    "module": "CliffordChild009Decoder",
+    "source": "CliffordChild009Decoder.lean",
+    "sha256": "2632264e6e071cf602464900c901f510d16c8d366aaf6df9084894081feed84b"
+  },
+  "record": {
+    "source": "SELECTED_RECORD.json",
+    "sha256": "401a52f8fbabc3df616cd61bd605a4ae75dcd0ab2888623144efe1f069738cf9",
+    "pointer": "/children/7",
+    "old": 0,
+    "new": 9,
+    "rank": 1
+  },
+  "local_scope": {
+    "total": 4,
+    "current": 3,
+    "new": 1,
+    "order": [
+      "PR509Stream",
+      "DirectedChildRecipes",
+      "CliffordMonomialDecoder",
+      "CliffordChild009Decoder"
+    ]
+  },
+  "direct_imports": [
+    "CliffordMonomialDecoder"
+  ],
+  "current_dependency_pins": [
+    {
+      "module": "PR509Stream",
+      "source": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "object": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+      "receipt": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+      "log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "DirectedChildRecipes",
+      "source": "33d33ed6ac6de316662062ef1114904c91e75d1b57c99fed1cb0ec2dccf0e7f5",
+      "object": "39c72ca083384f916162076514950e48b7b54e9efaddc74122bb27dc40d36975",
+      "receipt": "be98edb20a6fba4ce682cb39190e1abb901d9de7c66c8d8c30145506daa04323",
+      "log": "301759cd931d04eb4cd67ae3d6eeca887854194d14aeb935dc8f10d0ed626afd"
+    },
+    {
+      "module": "CliffordMonomialDecoder",
+      "source": "4dfcb7f13ae087820f3a6ad7683c71a22bfcdd39e74ad2faa8baa6c0fa7d692e",
+      "object": "0b0bc76cb0c8a6dcadc09797c9926326b8826d95fa390155b752a6ad35036547",
+      "receipt": "4349f96c96339b326f1705974ddf1b480cea53369757bee03419e25c872a6a8c",
+      "log": "f4f8da03a588553b5abac6b8a66d0f6fa0aaeffdc52c9c83a86b8b5a433377e8"
+    }
+  ],
+  "external_scope": {
+    "source_object_pairs": 2295,
+    "header_edges": 8687,
+    "additional_external_modules": 0,
+    "object_bytes": 1452907184,
+    "footprint_sha256": "7fc6c6336f52e864b39b7c3499c0c8d13aeef2fc45beea10088c9295a6d3148e",
+    "environment_sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b"
+  },
+  "finite_scope": "Exactly two4-bit matrix decodings/inverses and phase formulas, all16low addresses. Literal high-row/phase checks preserve arbitrary spectator payloads. No whole-certificate enumeration.",
+  "proposed_check": {
+    "admission": "Separate exact source/current/driver review and release required.",
+    "runner": "Existing retained-lock single-root checker; binding-only launcher reuse.",
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "expected_axiom_probes": [
+      "CurrentMain.CliffordChild009Decoder.leftEquiv",
+      "CurrentMain.CliffordChild009Decoder.rightEquiv",
+      "CurrentMain.CliffordChild009Decoder.offsetEquiv",
+      "CurrentMain.CliffordChild009Decoder.matrices_decode",
+      "CurrentMain.CliffordChild009Decoder.spectator_fields",
+      "CurrentMain.CliffordChild009Decoder.phases_decode",
+      "CurrentMain.CliffordChild009Decoder.left_decoded_apply",
+      "CurrentMain.CliffordChild009Decoder.right_decoded_apply"
+    ]
+  },
+  "claims_if_pass": "This one record has the certified field-level decoded matrix inverses, source qvalue formulas, spectator field identities, and all-payload monomial formulas.",
+  "remaining": [
+    "Exact complete raw address/event/executor wiring.",
+    "Actual complex phase-unit instantiation.",
+    "Source greedy-basis/canonical formula certificate and L C0 R = K C0 K inverse on all payloads.",
+    "Other child/operator/phase/label/coverage/residual/full-work/row/owner/cost suppliers."
+  ],
+  "publication": "No kappa or publication admission."
+}
