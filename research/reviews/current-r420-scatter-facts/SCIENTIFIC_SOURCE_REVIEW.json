@@ -1,0 +1,104 @@
+{
+  "status": "PASS_EXACT_SIX_SCATTER_TEMP_SOURCE_API_TRANSPORT",
+  "utc": "2026-10-12T17:39:46.722727+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/CurrentR420ScatterFacts.lean",
+    "sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87",
+    "bytes": 1769
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/SOURCE_BINDING.json",
+    "sha256": "5e33e4721e439535056e6876b3467dcfa3b2f9d3f957bf41a32efed5dc1f5520",
+    "bytes": 5654
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/CHECK_PROPOSAL.json",
+    "sha256": "fcf38dc799ec74f4f8b00c04f657df7b406bb1bce4f7caeb0041ba62533f61d9",
+    "bytes": 1614
+  },
+  "original": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+    "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+    "bytes": 6313
+  },
+  "verified_dependencies": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/CurrentR420ScatterFacts.lean",
+      "sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87",
+      "bytes": 1769
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+      "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+      "bytes": 6313
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_band_facts/ACCEPTANCE.json",
+      "sha256": "24d4df8588e6b60ecae91afe5f94539abb495a66170a215219e74c6267fdcdea",
+      "bytes": 366013
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-b-band-facts/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "e4e44ace8170a908622aa1092728b1ea4e101279efcd71bb88141cb98b0b3e3c",
+      "bytes": 5141
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.lean",
+      "sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41",
+      "bytes": 3006
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.olean",
+      "sha256": "cded4db11ad6df82ba2f189ebc76b8c9ef902399632e2be0cf911e94f584d226",
+      "bytes": 47272
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_b_band_facts_20261012__CurrentR420BBandCheck.lean.json",
+      "sha256": "69dca17fa453644a1d14a44e6aed63e602bc5a0378618107668c260a612df40a",
+      "bytes": 2473
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_b_band_facts_20261012__CurrentR420BBandCheck.lean.log",
+      "sha256": "e47c5e27fee96ca841a22d3daba958923b4759d7d1af16e18b92698e2313710b",
+      "bytes": 882
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_comparison/MAIN5996_R420_APPLICABILITY.json",
+      "sha256": "121fc63bf4689c4e04898e274b0d76c2dad17eb4df069cbb802318230c5d6dc1",
+      "bytes": 15463
+    }
+  ],
+  "exact_declarations": [
+    "scatter_shape",
+    "scatter_index_domain",
+    "scatter_helpers",
+    "temporary_index",
+    "embed_preserves_index",
+    "original_excludes_temporary"
+  ],
+  "semantic_readback": "All six original statements and proof bodies are byte-identical; immediate probes, accepted band import and explanatory header are new. Scatter is the same accepted 120-row/568-index literal; ret is the exact nine new current helper IDs. Index bounds make lookup total; helper predicate restricts each selected host to [240,660). The fresh Fin660-to-Fin661 embedding preserves val, and r.isLt excludes temporary660. This does not assert COPY semantics or restoration of an arbitrary dirty temporary.",
+  "proof_status": "Original combined Check was rejected; fragments are source-reused only. This new root has not run. Four closed kernel decisions and two structural proofs require the independent compiler gate.",
+  "scope": {
+    "total": [
+      325,
+      324,
+      1
+    ],
+    "local": [
+      8,
+      7,
+      1
+    ],
+    "core": 317
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "compiler_executed": false,
+  "runtime_review": "Separate binding review required; no runtime or compiler execution in this scientific source readback."
+}
