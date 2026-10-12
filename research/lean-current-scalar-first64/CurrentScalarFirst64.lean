@@ -30,7 +30,7 @@ def rowsLOnlyB (rows : List Row) : Bool :=
 
 private theorem eventLOnlyB_sound (e : LabelEvent) (h : eventLOnlyB e = true) :
     LOnlyEvent e := by
-  cases e <;> exact of_decide_eq_true h
+  cases e <;> unfold LOnlyEvent <;> exact of_decide_eq_true h
 
 /-- Generic finite certificate soundness; no full-word scalar execution. -/
 theorem rowsLOnlyB_sound (rows : List Row) (h : rowsLOnlyB rows = true) :
