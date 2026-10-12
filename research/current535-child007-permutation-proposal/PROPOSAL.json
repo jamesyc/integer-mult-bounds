@@ -1,0 +1,160 @@
+{
+  "status": "SOURCE_MATCHED_PERMUTATION_REUSE_PROPOSAL_NO_LEAN_SOURCE_OR_KERNEL_CERTIFICATE_YET",
+  "created_utc": "2026-10-12T15:45:14.108665+00:00",
+  "selected_record": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/current535-child007-permutation-proposal/SELECTED_RECORD.json",
+    "sha256": "64552a2c44bf39b29699602a791f487df7fca80ea14f34f638ce4f053624f19b",
+    "bytes": 1394
+  },
+  "dependency": "Current535Child006PayloadTransport after its whole14module closure is independently accepted; only coordinate firstroot is accepted now.",
+  "coordinate_convention": "sigma[i] and tau[i] are destinations of old coordinate i. Push payload evaluates at inverse-address permutation.",
+  "sigma": [
+    6,
+    7,
+    0,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sigma_inverse": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    0,
+    1,
+    3
+  ],
+  "tau": [
+    0,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "tau_inverse": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2
+  ],
+  "tau_fixes_bit_zero": true,
+  "source_intertwining_goals": [
+    "L448 = sigma L11 tau^-1",
+    "R448 = tau R11 sigma^-1",
+    "inverseG448 = tau inverseG11 sigma^-1"
+  ],
+  "bounded_readback": "The first two matrix equalities were independently evaluated on9basis columns by owner-owned read-only arithmetic, no supplier execution. These remain Lean goals.",
+  "raw_phase_goals": {
+    "left": "2*x0 (global0,offset0), same as old left after tau^-1",
+    "right": "(3*x6+3*x7+2*x8+2*x6*x7)%4 at input (global1,offset1), same as old right after sigma^-1",
+    "canonical": "2*(x6*x8+x7*x8)%4 at output, same as old canonical after sigma^-1"
+  },
+  "canonical_source_goals": {
+    "sourceBasis": [
+      448,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "rows": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      129,
+      257,
+      1
+    ],
+    "inverse_rows": [
+      256,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      320,
+      384
+    ],
+    "Q": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      256,
+      256,
+      192
+    ],
+    "alpha": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_fuel": 10,
+    "meaning": "Greedy sourceBasis, transpose and I+Ginv^T Ginv must be certified; this literal proposal alone supplies no theorem."
+  },
+  "operator_definitions": {
+    "left": "Sigma * acceptedLeft11 * Tau^-1",
+    "right": "Tau * acceptedRight11 * Sigma^-1",
+    "canonicalK": "Sigma * acceptedK11 * Tau^-1",
+    "canonicalNew": "Sigma * acceptedCanonical11 * Sigma^-1"
+  },
+  "proof_route": [
+    "Certify explicit coordinate permutations and inverses.",
+    "Use tau0=0 to commute the exact dyadic Gaussian C0 through Tau.",
+    "Certify source matrix/preimage and phase equalities, including global1/offset1.",
+    "Certify actual target greedy basis/inverse/Gram data.",
+    "Cancel Tau/Tau^-1 and apply accepted child11 all-payload identity under Sigma; no general Clifford induction."
+  ],
+  "proposed_scope": {
+    "local_total": 15,
+    "retained_after_uniform_transport": 14,
+    "new": 1,
+    "external_pairs": 2620,
+    "new_external_pairs_expected": 0,
+    "probes_proposed": 16,
+    "finite_work": "Finite9coordinate permutations and symbolic9row identities; three sparse phase correspondences with only relevant3Boolean coordinates; exact small9vector source basis/Gram certificate. No512address or512x512matrix enumeration.",
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "fit": "Unmeasured; source/API/resource review needed before separate admission."
+  },
+  "remaining": [
+    "Actual Lean source/proofs and source/API review.",
+    "Whole uniform[11] transport terminal acceptance.",
+    "Raw packed-address/event and physical recipe executor binding.",
+    "Other keys, full private work/rows/columns and global cost."
+  ],
+  "authority": "Root15:33 source-only exact448 permutation adapter proposal; no compiler admission."
+}
