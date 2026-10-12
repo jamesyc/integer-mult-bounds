@@ -1,0 +1,121 @@
+{
+  "status": "SOURCE_ONLY_PENDING_SOURCE_REVIEW_AND_SEPARATE_GATE_ADMISSION",
+  "root": {
+    "module": "RankOneRecipeCertificate",
+    "source": "RankOneRecipeCertificate.lean",
+    "sha256": "cba4c2da8987caa8d389d6e6a927337a95704bf714975d14bd98a54ac447a3a3"
+  },
+  "local_scope": {
+    "total": 8,
+    "current": 7,
+    "new": 1,
+    "order": [
+      "PR509Stream",
+      "DirectedChildRecipes",
+      "CliffordMonomialDecoder",
+      "CliffordChild009Decoder",
+      "ExactFrameTransport",
+      "GaussianPhaseNormalization",
+      "CliffordChild009Canonical",
+      "RankOneRecipeCertificate"
+    ]
+  },
+  "direct_imports": [
+    "CliffordChild009Canonical"
+  ],
+  "current_dependency_pins": [
+    {
+      "module": "PR509Stream",
+      "source": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "object": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+      "receipt": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+      "log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "DirectedChildRecipes",
+      "source": "33d33ed6ac6de316662062ef1114904c91e75d1b57c99fed1cb0ec2dccf0e7f5",
+      "object": "39c72ca083384f916162076514950e48b7b54e9efaddc74122bb27dc40d36975",
+      "receipt": "be98edb20a6fba4ce682cb39190e1abb901d9de7c66c8d8c30145506daa04323",
+      "log": "301759cd931d04eb4cd67ae3d6eeca887854194d14aeb935dc8f10d0ed626afd"
+    },
+    {
+      "module": "CliffordMonomialDecoder",
+      "source": "4dfcb7f13ae087820f3a6ad7683c71a22bfcdd39e74ad2faa8baa6c0fa7d692e",
+      "object": "0b0bc76cb0c8a6dcadc09797c9926326b8826d95fa390155b752a6ad35036547",
+      "receipt": "4349f96c96339b326f1705974ddf1b480cea53369757bee03419e25c872a6a8c",
+      "log": "f4f8da03a588553b5abac6b8a66d0f6fa0aaeffdc52c9c83a86b8b5a433377e8"
+    },
+    {
+      "module": "CliffordChild009Decoder",
+      "source": "2632264e6e071cf602464900c901f510d16c8d366aaf6df9084894081feed84b",
+      "object": "0c9e18d6109692ef917170ae17d6351c1454ec7f1ea2b0750f25d12c00e4af70",
+      "receipt": "2721f22bcceb9b6a53ce65d2d77e78f948364bb5886c5d129692ad69cc4abb9c",
+      "log": "1b2e082d71b7fa944f71a446a15b28959cef83ce47fc37ba709eb14168c108e6"
+    },
+    {
+      "module": "ExactFrameTransport",
+      "source": "cce03a75c2af1a95717f52de59d6e855cd0c8aa96b5ebda662c0b55656717f92",
+      "object": "010674c24b85135a0b9309b33a2a7718bec789526f05b54950162c2c976ffd1e",
+      "receipt": "d60b7d528cfef483404dfc47f627513ac6544531580a3e76c1680e558f75e1b3",
+      "log": "7b397edea8f9a69f1e0a57f2e7bf10bbf668b1e7ef4f139e68bf2fd441e48ad7"
+    },
+    {
+      "module": "GaussianPhaseNormalization",
+      "source": "c29a215b401bcf3fe24ca74cecffb7860d38bf2766b0bf4b02d0dab140891ebd",
+      "object": "67eadb2ef2c9bcfad7eaef7cea160cf4ef000126cdeb297cba9471caa0c3cdad",
+      "receipt": "a73d2a6b9756471d230bfd5987776c74d6154cf13a1d3a9ede1aafa045087399",
+      "log": "3771bf9c76f91da2a65c57c563a05d254777ab7c35dde18d6e2ead361343a8c4"
+    },
+    {
+      "module": "CliffordChild009Canonical",
+      "source": "e3ef516fab15521ed910531dd52ded1ba3ed0c37d0987a04315177367c401533",
+      "object": "819f152ebc4b5ee30f870e7b2bcf571d95e9751ba07b159b27e0ca5b1884583c",
+      "receipt": "b82939125bd87a4c03bd8e70a52c4f774b31867da42fdd24ad80ad64b5fdcdad",
+      "log": "bf57216575f846e3d76b7dfea5fd158de058a6de564b943a7686636e03a564bc"
+    }
+  ],
+  "external_scope": {
+    "source_object_pairs": 2369,
+    "header_edges": 9031,
+    "object_bytes": 1502533800,
+    "additional_pairs": 0,
+    "footprint_sha256": "4e34a7b4611858fb924b3598fb874c1a76282d217b6cb726bd5a26a0b89ee78e",
+    "environment_sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b"
+  },
+  "reviewed_family_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/canonical_family_reuse/NEXT_BOUNDARY_PROPOSAL.md",
+    "sha256": "8d330820defe3583e5b1ab28345bcbed9a17baf21540b0e406bd80070bd5ba9e",
+    "bytes": 6981
+  },
+  "family_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CLIFFORD_RANK_ONE_FAMILY_PROPOSAL_REVIEW.json",
+    "sha256": "b9c8f9161c2bd6dedb2510d456d08cfc15d64c3e1834af3f45f8982854a23291",
+    "bytes": 2654
+  },
+  "source_contract": "Retains exact monomial preimage phases, global phases and linear/offset equivalences; certificate uses both Gaussian a/b branches with correct phase adjustment. G transport requires explicit linearity/first-column input. Final equality is for arbitrary complex payloads.",
+  "remaining_suppliers": [
+    "Exact raw record/phase/matrix decoder binding and inverses.",
+    "Canonical source greedy basis/G/Q and certified linearity/first column.",
+    "Every finite address in the branch/phase certificate.",
+    "Actual Gaussian primitive/executor equality, endpoints/residuals and expanded physical work.",
+    "Full dirty rows/columns, labels, owners, charts and cost."
+  ],
+  "selected_pilot": "Separate prospective ordinals0/1, keys0->2/0->3; no finite certificate or119-record execution in this source.",
+  "proposed_check": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "runner": "Retained-lock single-file checker, unchanged loop and caps; binding-only reference after separate admission.",
+    "expected_probes": [
+      "CurrentMain.RankOneRecipeCertificate.Monomial.operator_apply",
+      "CurrentMain.RankOneRecipeCertificate.canonicalK_apply",
+      "CurrentMain.RankOneRecipeCertificate.transport_from_linearity",
+      "CurrentMain.RankOneRecipeCertificate.sandwich_expand",
+      "CurrentMain.RankOneRecipeCertificate.sandwich_on_canonical",
+      "CurrentMain.RankOneRecipeCertificate.sandwich_operator"
+    ]
+  },
+  "publication": "No publication admission; this conditional module has no author-checked standalone kappa."
+}
