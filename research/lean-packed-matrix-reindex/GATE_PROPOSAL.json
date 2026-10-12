@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_ONLY_PENDING_PARITY_ACCEPTANCE_AND_REVIEW",
+  "direct_imports": [
+    "PackedParityReindex"
+  ],
+  "prospective_scope": {
+    "total": 13,
+    "retained": 12,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "expected_probes": [
+    "CurrentMain.PackedMatrixReindex.mv_bits",
+    "CurrentMain.PackedMatrixReindex.mv_bound",
+    "CurrentMain.PackedMatrixReindex.packed_matrix",
+    "CurrentMain.PackedMatrixReindex.permutation_reindex"
+  ],
+  "finite_work": "Symbolic list recursion, bit access and accepted parity bridge; no address or matrix enumeration.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "no_compiler_admission": true
+}
