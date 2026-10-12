@@ -1,0 +1,124 @@
+{
+  "status": "PASS_INDEPENDENT_ORIGINAL27_IMPORT_WRAPPER_TERMINAL",
+  "utc": "2026-10-12T17:57:38.815875+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_boundary_wrapper/ACCEPTANCE.json",
+    "sha256": "6031d14b37203b36c1fa9acb2ea2c07e31cdd0935c8185c47b53d615f63d0e90",
+    "bytes": 380659
+  },
+  "source_commit": "711ef3675a778ca4b0743c8f8eaa7b5e403b6c46",
+  "new_quadruple": {
+    "module": "CurrentR420BoundaryCheck",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_boundary_wrapper_20261012/CurrentR420BoundaryCheck.lean",
+      "sha256": "45886f099a6fa32244756132280e5f4ff6d89c95e4e4505f411c870a2dff9328",
+      "bytes": 2229
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_boundary_wrapper_20261012/CurrentR420BoundaryCheck.olean",
+      "sha256": "23d8678d69fdd98967ec37024b0351b1e29d2177b75c5645eb1b48a239ac4f5a",
+      "bytes": 18592
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_boundary_wrapper_20261012__CurrentR420BoundaryCheck.lean.json",
+      "sha256": "b6bf0508e216d81ca5a3f829dab7a5824ad62afe8aec0dbadf6dc567107d7390",
+      "bytes": 2492
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_boundary_wrapper_20261012__CurrentR420BoundaryCheck.lean.log",
+      "sha256": "831a3f7ff635ca8636a58678788cf1820b30fc761fe1e994049999887211fea7",
+      "bytes": 2257
+    },
+    "dependencies": {
+      "CurrentR420ScatterFacts": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_scatter_facts_20261012/CurrentR420ScatterFacts.olean",
+        "olean_sha256": "861eb9da25b5d51ec8ef27530272384589b0f5a0c7b0b0a8504a2ce9eef9a94c",
+        "source_sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87"
+      }
+    }
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-boundary-wrapper/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "66a080fbac2d7927656f575d6bfcdf23480811559d148945326d1ed6be6cc2fe",
+    "bytes": 17951
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_boundary_wrapper/BANK_SINGLE_BINDING_REVIEW.json",
+    "sha256": "2f936f85e6979e0d296642e2b1df47f48e384a43bb7245a19157812c0b00d6f0",
+    "bytes": 4953
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_boundary_wrapper/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "f2259753e775a0f65b0b23074df50afdc8ac52de884f0a871b68cdf358ce5b61",
+    "bytes": 474382
+  },
+  "verified": {
+    "import_nodes": 326,
+    "official_source_object_pairs": 317,
+    "retained_local_quadruples": 8,
+    "new_local_quadruples": 1,
+    "protected_prior_quadruples": 40,
+    "failure_archives": 44,
+    "additional_source_pins": 240,
+    "complete_probes": 27
+  },
+  "probes": {
+    "CurrentMain.CurrentR420Boundary.frame_index_permutation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420Boundary.frame_domain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420Boundary.selected_shape": [],
+    "CurrentMain.CurrentR420Boundary.line_shape": [],
+    "CurrentMain.CurrentR420Boundary.zero_full_rows": [],
+    "CurrentMain.CurrentR420Boundary.boundary_domain": [],
+    "CurrentMain.CurrentR420Boundary.source_entrances": [],
+    "CurrentMain.CurrentR420Boundary.nonsource_entrances": [],
+    "CurrentMain.CurrentR420Boundary.source_helper_final_full": [],
+    "CurrentMain.CurrentR420Boundary.retained_helper_ids": [],
+    "CurrentMain.CurrentR420Boundary.phase_shape": [],
+    "CurrentMain.CurrentR420Boundary.phase_domains": [],
+    "CurrentMain.CurrentR420Boundary.band_order": [],
+    "CurrentMain.CurrentR420Boundary.band_lengths": [],
+    "CurrentMain.CurrentR420Boundary.first_target_band": [],
+    "CurrentMain.CurrentR420Boundary.middle_source_band": [],
+    "CurrentMain.CurrentR420Boundary.middle_operand_bands": [],
+    "CurrentMain.CurrentR420Boundary.last_target_band": [],
+    "CurrentMain.CurrentR420Boundary.final_target_frames": [],
+    "CurrentMain.CurrentR420Boundary.no_target_operands": [],
+    "CurrentMain.CurrentR420Boundary.no_self_reads": [],
+    "CurrentMain.CurrentR420Boundary.scatter_shape": [],
+    "CurrentMain.CurrentR420Boundary.scatter_index_domain": [],
+    "CurrentMain.CurrentR420Boundary.scatter_helpers": [],
+    "CurrentMain.CurrentR420Boundary.temporary_index": [],
+    "CurrentMain.CurrentR420Boundary.embed_preserves_index": [],
+    "CurrentMain.CurrentR420Boundary.original_excludes_temporary": []
+  },
+  "compiler_metrics": {
+    "compile_seconds": 0.715584156991099,
+    "queue_seconds": 2.9749038750014734,
+    "samples": 8,
+    "peak_vm_bytes": 662568960,
+    "peak_rss_bytes": 309825536,
+    "peak_threads": 3
+  },
+  "compiler_timing": {
+    "requested_utc": "2026-10-12T17:56:11.794977+00:00",
+    "slot_acquired_utc": "2026-10-12T17:56:14.769881+00:00",
+    "started_utc": "2026-10-12T17:56:15.813566+00:00",
+    "finished_utc": "2026-10-12T17:56:16.529153+00:00"
+  },
+  "scope": "Import-only restoration of all27 original public names through four accepted fact groups. No finite predicate or proof body replay; original rejected source/receipt preserved without an object.",
+  "limitations": [
+    "Current661 COPY/scatter lifecycle instance",
+    "Actual A/C bindings and D parity",
+    "Physical transport and full theorem"
+  ],
+  "historical_resource_context": "Narrowed-scope recovery only. Original combined27-fact allocation failure and all later diagnostic failures remain preserved; no equivalent-whole-check speedup or allocation-cause claim.",
+  "compiler_executed_by_reviewer": false
+}
