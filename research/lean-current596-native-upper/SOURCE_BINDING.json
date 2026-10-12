@@ -1,0 +1,159 @@
+{
+  "status": "CURRENT5996_NATIVE_FINITE_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-12T17:29:00.055653+00:00",
+  "source": {
+    "module": "Current596NativeUpperAggregate",
+    "file": "Current596NativeUpperAggregate.lean",
+    "sha256": "c617d48e52100bea6af32ace0e7ddc6f6f285f7e230caee36d77691123ee9ba6",
+    "bytes": 74571,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current596NativeUpperAggregate.profile_totals",
+      "CurrentMain.Current596NativeUpperAggregate.current_domains",
+      "CurrentMain.Current596NativeUpperAggregate.ordinary_rounded_exact",
+      "CurrentMain.Current596NativeUpperAggregate.upper_matches_current_certificate",
+      "CurrentMain.Current596NativeUpperAggregate.current_upper_strict"
+    ]
+  },
+  "current_source_commit": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/certificates/selected-result.json",
+      "sha256": "be3abe10f3b05fdb26f33ad8ecb0913c7c49d98b31a8706135f246936a2538c8",
+      "bytes": 3667,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "0fc74e6a56ddc679e6b4e4354e67be2b425b5f2c"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/community-hyperplane599-audit/SELECTED-SOURCE.json",
+      "sha256": "6d9e0cf88d2c2b14ad680a27fad71ed7be877e89d12f822ff477d2355047f450",
+      "bytes": 230887,
+      "repository_path": "research/community-hyperplane599-audit/SELECTED-SOURCE.json",
+      "git_blob": "771bee194a907eeef145fce6d55bff2eae392ef1"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/community-hyperplane599-audit/pr596/replay/ASSEMBLY.json",
+      "sha256": "eb11aab934ad55cedc0f5cc2ec8f538450df1e32f0c25ab39a0dde2b0d6ced69",
+      "bytes": 85372,
+      "repository_path": "research/community-hyperplane599-audit/pr596/replay/ASSEMBLY.json",
+      "git_blob": "14f99acd94a75ecf7c956d6470683ae1019d80c8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/data/SPEC.json",
+      "sha256": "813e5ad4201bafd0fceea4a5fdc0589040d4f9ece3afb845a02bccc39fa5a9a1",
+      "bytes": 29846,
+      "repository_path": "research/complex-571-hpeq5/data/SPEC.json",
+      "git_blob": "fd6bf6fc02de0b470118c96426614f4a4c47208f"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/assemble.py",
+      "sha256": "71fca807f2e70ed7439e369be4bb3be21b487e942b92f0e7629d7521e9398a65",
+      "bytes": 18265,
+      "repository_path": "research/complex-571-hpeq5/code/assemble.py",
+      "git_blob": "1261127a6055cc36b11a62ee47de9aa54ba65855"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "16127213726553/10000000000000000",
+  "decimal": "0.0016127213726553",
+  "target_fields": {
+    "bCurrent": {
+      "pointer": "/complex_lower",
+      "value": "1615326444135573078563/1000000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/moments/2/base_two/1",
+      "value": "-35031/250000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 182817,
+      "2": 34192,
+      "3": 22561,
+      "4": 14584,
+      "5": 4032,
+      "6": 4032,
+      "8": 576,
+      "12": 1,
+      "48": 1969
+    },
+    "dimension": 73,
+    "live": 7168,
+    "source_surcharge_model": {
+      "complex": false,
+      "bit": true
+    },
+    "conservative_complex_surcharge": true
+  },
+  "source_lines": {
+    "profile_and_native_moment": "assemble.py:155-171,197-206",
+    "base_two": "base_two_moment.py:20-58"
+  },
+  "accepted_log_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554
+    }
+  ],
+  "reused_public_definitions": [
+    "unitUpper",
+    "roundedLog",
+    "ceilGrid",
+    "expBlock",
+    "expState12",
+    "expUpper",
+    "sourceLogDomain"
+  ],
+  "rounding": "One ceiling of the nine-term native ordinary sum at GRID10^30. No fallback term is present in the selected source branch. Conservative complex and bit branches are excluded.",
+  "reduction_plan": {
+    "log_checkpoint_reproofs": 0,
+    "exp_literal_state_blocks": 27,
+    "total_kernel_decisions": 76,
+    "domain_leaves": 18,
+    "max_exp_steps_per_literal_check": 4
+  },
+  "checkpoint_witnesses": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_596_upper/CHECKPOINT_WITNESSES.json",
+    "sha256": "a177e2b0035939c6c89f1e96e39800e0240ccbcf52cc9be4310f765656a39524",
+    "bytes": 63200
+  },
+  "emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_596_upper/prepare_source.py",
+    "sha256": "0263c6c6a58f571d09b02defb9b3e34d3946f385f21ca1a01a6da8fb399aa046",
+    "bytes": 11995,
+    "trusted_for_proof": false,
+    "upstream_modules_executed": false
+  },
+  "planning_equalities": {
+    "ordinaryRounded": "249999999999999999999999964969/250000000000000000000000000000",
+    "upper_minus_one": "-35031/250000000000000000000000000000",
+    "matches_record": true,
+    "kernel_acceptance": false
+  },
+  "remaining": [
+    "Native current Real-log/exp weighted transport.",
+    "Native no-fallback recurrence validity, physical/profile/operator realization, conservative and bit branches.",
+    "Seven-update current bootstrap/grid/outer data, provider terminal-codimension/source-profile validity and all-size transfer.",
+    "No complete current selected-kappa theorem."
+  ],
+  "comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_main_5996_comparison/SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+    "sha256": "734794cf85b3ddb0f1508b733d1943eff34c7b9535c9ce2efcbe1af1b5fb0fa8",
+    "bytes": 10467
+  }
+}
