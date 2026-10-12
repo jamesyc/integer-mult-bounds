@@ -1,0 +1,204 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT_PR543_TWO_FINITE_LOGS_TERMINAL",
+  "utc": "2026-10-12T18:27:29.194715+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_543_log/ACCEPTANCE.json",
+    "sha256": "25d2b355d66d734bcc03ec7ea31fb9c5ef72a9577386021ce517ee6c8a0761d2",
+    "bytes": 71770
+  },
+  "source_commit": "bbdcc3f07335b65ff69406ac74e21692688be35a",
+  "new_quadruple": {
+    "module": "Current543LogCheckpoints",
+    "source": "analytic_assembly/current_finite/pr543_log_20261012/Current543LogCheckpoints.lean",
+    "source_sha256": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+    "receipt": "receipts/analytic_assembly__current_finite__pr543_log_20261012__Current543LogCheckpoints.lean.json",
+    "receipt_sha256": "1b67ddfb76072ed3f36097fe0cf97ea408b31fdd3bc342858e9f481de27ea6a0",
+    "log": "logs/analytic_assembly__current_finite__pr543_log_20261012__Current543LogCheckpoints.lean.log",
+    "log_sha256": "990847db010a3df4b58efc64ca4594398c31e65814f0391560cf25e728b36b3b",
+    "status": "PASS",
+    "started_utc": "2026-10-12T18:21:36.483536+00:00",
+    "finished_utc": "2026-10-12T18:21:37.780922+00:00",
+    "compile_seconds": 1.2973844489897601,
+    "queue_seconds_including_post_fifo_guard": 3.081807348993607,
+    "process_observations": {
+      "samples": 13,
+      "peak_vm_bytes": 642527232,
+      "peak_rss_bytes": 313741312,
+      "peak_threads": 3
+    },
+    "object": "analytic_assembly/current_finite/pr543_log_20261012/Current543LogCheckpoints.olean",
+    "object_sha256": "5b7e3e1b0067cffb6af046c58180949b8d13855bd4f0e2a5b0f9d1181254f8c7",
+    "complete_probes": [
+      {
+        "declaration": "CurrentMain.Current543LogCheckpoints.z3_13_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current543LogCheckpoints.z11_53_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ]
+  },
+  "review_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_543_log/gate/BANK_SINGLE_BINDING_REVIEW.json",
+      "sha256": "7c2c1a590d6cbed4cce99762de0b31b3dda0432e3005491a9c237e65aed7bb19",
+      "bytes": 4084
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT543_LOG_API_RESOURCE_REVIEW.json",
+      "sha256": "5389a5f17ed08da2f4a2a85077f57fd24e7a7317fea3dd0380ad7b4967582bc6",
+      "bytes": 2381
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/analytic-current543-log/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "341a26fb7236ceb7553b6bd2fc1e7bc3947930926eaf7ea8e33e82ad9cd4278a",
+      "bytes": 4974
+    }
+  ],
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-checkpoints/CHECK_PROPOSAL.json",
+    "sha256": "a7198cdf9e7c1750664246717f33556ad13aa1a078cac18ed01ba574659d34a0",
+    "bytes": 60143
+  },
+  "cached_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-outer-grid/CHECK_PROPOSAL.json",
+    "sha256": "0d281fd411afc23a904605190685613c7592be4c07b365182fda2a88b9532e69",
+    "bytes": 227996,
+    "field": "cached_rows",
+    "git_commit": "80ce745ac73a1d2f7f35b4961364c1e29c7cb2e8"
+  },
+  "verified": {
+    "current_quadruples": 24,
+    "preserved_quadruples": 23,
+    "group_complete_standard_probes": 120,
+    "import_closure_roots": 2,
+    "import_closure_standard_probes": 7,
+    "new_public_probes": 2,
+    "cached_source_object_pairs": 319,
+    "total_import_nodes": 321,
+    "mirror_files": 17,
+    "selected_source_pins": 6
+  },
+  "resource_caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 40,
+    "review_vm_bytes": 3758096384,
+    "actual": {
+      "samples": 13,
+      "peak_vm_bytes": 642527232,
+      "peak_rss_bytes": 313741312,
+      "peak_threads": 3
+    }
+  },
+  "compiler_timing": {
+    "execution_started_utc": "2026-10-12T18:21:26.197635+00:00",
+    "post_lock_guard_utc": "2026-10-12T18:21:29.304811+00:00",
+    "admitted_utc": "2026-10-12T18:21:32.404146+00:00",
+    "compiler_started_utc": "2026-10-12T18:21:36.483536+00:00",
+    "compiler_finished_utc": "2026-10-12T18:21:37.780922+00:00",
+    "terminal_utc": "2026-10-12T18:21:41.016628+00:00",
+    "compiler_seconds": 1.2973844489897601,
+    "acquisitions": [
+      {
+        "module": "Current543LogCheckpoints",
+        "requested_utc": "2026-10-12T18:21:32.405316+00:00",
+        "actual_slot_acquired_utc": "2026-10-12T18:21:32.405945+00:00",
+        "post_fifo_guard_completed_utc": "2026-10-12T18:21:35.486585+00:00",
+        "fifo_acquire_seconds": 0.0006288360018515959,
+        "post_fifo_guard_seconds": 3.080637870996725,
+        "alignment": {
+          "resolved_modules": 320,
+          "search_paths_sha256": "ae7c21b5ddd7307002098cd8333e3f597c6edef5d4457eeb826790b52f18e538"
+        },
+        "runner_queue_qualification": "Runner queue_seconds includes both this separately measured original acquire call and the post-FIFO guard callback."
+      }
+    ],
+    "qualification": "Actual FIFO and post-acquire guard are separately measured; runner queue_seconds includes both."
+  },
+  "statement": {
+    "finite_identities": "unitUpper3 13 and unitUpper11 53 equal their exact source-order80-term rational upper literals.",
+    "uppers": [
+      "6447905907869983072408678215642743434115440225347832158339701576949236962719145572050521571672370413328965948598450739770220684592289574657953003792825494396835097018008985061363611620398048144662698457612464529524279212870292642209520423/13718842805996239743985078292465714201763488058191677834283408698880653122719648394595487595017716829275922611563420084522467646976808929306066785503995662168514530861352571508666405175689823925244737937539648873778488619944178949831058000",
+      "2959532525041993318146014596272840402119157805065713166204019370795429042985037174301776228372201769272715828159299753851950852166198996300448313399304070939191411643719464563410778468620974744439489196096599450249578777656187313946570217041781546431528093709648122411878162010628264344308804225372742707640827128502896544797326011342050711/7026205879970785982255069070842073989157033264134613384322249560203525571922531054158937988071858988165109410562224225654147524343294739867580924510021386765512184212693780046988772761083301179722396155255754736673341304381962573913415636998000940601782877251909182983851247812648508536032909500896682629269938457989708609377022796586568000"
+    ],
+    "kernel_checked": true,
+    "binary_reduction_context": [
+      {
+        "rank": 1,
+        "count": 380160,
+        "binary_k": 5,
+        "unit": "2",
+        "z": "1/3"
+      },
+      {
+        "rank": 2,
+        "count": 426624,
+        "binary_k": 4,
+        "unit": "2",
+        "z": "1/3"
+      },
+      {
+        "rank": 4,
+        "count": 32640,
+        "binary_k": 3,
+        "unit": "2",
+        "z": "1/3"
+      },
+      {
+        "rank": 5,
+        "count": 34560,
+        "binary_k": 3,
+        "unit": "8/5",
+        "z": "3/13"
+      },
+      {
+        "rank": 6,
+        "count": 15360,
+        "binary_k": 3,
+        "unit": "4/3",
+        "z": "1/7"
+      },
+      {
+        "rank": 7,
+        "count": 23040,
+        "binary_k": 3,
+        "unit": "8/7",
+        "z": "1/15"
+      },
+      {
+        "rank": 8,
+        "count": 2592,
+        "binary_k": 2,
+        "unit": "2",
+        "z": "1/3"
+      },
+      {
+        "rank": 42,
+        "count": 3456,
+        "binary_k": 0,
+        "unit": "32/21",
+        "z": "11/53"
+      }
+    ],
+    "method": "Twenty connected eight-term checkpoint proofs plus two exact tail kernel decisions; accepted definitions unchanged.",
+    "surcharge_scope": "The context distinguishes selected native complex without fallback from conservative complex and bit with fallback; these two logarithm identities prove no surcharge or recurrence model."
+  },
+  "author_checked_conditional_kappa": "16127213726553/10000000000000000",
+  "decimal": "0.0016127213726553",
+  "limitations": [
+    "Real upper enclosure for8/5 and32/21.",
+    "Eight current bit rounded logs and separately rounded ordinary/fallback aggregates.",
+    "Bit Real moment and operator/profile realization, source saving/outer transfer and full selected-kappa/all-size theorem."
+  ],
+  "compiler_executed_by_reviewer": false
+}
