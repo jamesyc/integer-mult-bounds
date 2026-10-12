@@ -1,0 +1,100 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT_SLICE_SCIENTIFIC_SOURCE_API_LITERAL_REVIEW_NO_COMPILER",
+  "utc": "2026-10-12T14:00:01.171719+00:00",
+  "source_scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-first64/SOURCE_SCOPE.json",
+    "sha256": "e9b6bb844f6a61294dc0c8fe8d0c53c45269af52e7fe6e1abaa069e34f559bef",
+    "bytes": 4259
+  },
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-first64/CurrentScalarFirst64.lean",
+    "sha256": "13b1f65a3f38044e5ab4d2d2132ea031e911310a6cdf7b4e6e8ab893a72dedef",
+    "bytes": 10974
+  },
+  "source_inputs": {
+    "current_manifest": {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710
+    },
+    "current_program": {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "bytes": 184042
+    },
+    "historical_program": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_four_inputs/extracted/research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+      "bytes": 187483
+    },
+    "comparison": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_main_scalar_supplier/RAW_FIRST64_CURRENT_COMPARISON.json",
+      "sha256": "9e12b59e9d10304cbf018297a0a0e06f25b4913aed6eceeced3dfd9802faa52c",
+      "bytes": 34355
+    },
+    "literal_projection": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_main_scalar_supplier/FIRST64_LITERAL_PROJECTION.json",
+      "sha256": "fc77272ab9c8f527f6a6d0a4d3bc2835d891908f26969be228bce407048006f5",
+      "bytes": 41658
+    }
+  },
+  "referenced_APIs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-composition/F19CentreBandComposition.lean",
+      "sha256": "09021a6766341fd88372a179b990774b6482f950c51260a1c53a3183de86b22e",
+      "bytes": 8484
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-scalar-interpretation/F19ScalarEventInterpretation.lean",
+      "sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0",
+      "bytes": 5497
+    }
+  ],
+  "independent_literal_inverse": {
+    "forward": {
+      "rows": 64,
+      "add": 42,
+      "scale": 22,
+      "all_labels_zero": true,
+      "denominators": [
+        1,
+        2
+      ]
+    },
+    "backward": {
+      "rows": 64,
+      "add": 42,
+      "scale": 22,
+      "all_labels_zero": true,
+      "denominators": [
+        -1,
+        1,
+        2
+      ]
+    }
+  },
+  "semantic_checks": [
+    "The current-selected raw indices1..64 are exact full nested rows, including register order, frame0 and signed coefficient pairs. The raw0 phase precondition and all later events remain excluded.",
+    "eventLOnlyB constructor conditions definitionally match accepted LOnlyEvent, including nonzero raw signed denominators. List.all soundness supplies the universal membership premise.",
+    "lonly_event_decodes uses accepted decodeCoefficient and decodeEvent; no positive-denominator normalization or default coefficient is introduced.",
+    "lonly_rows_decode is ordered Option mapM totality using tail membership and List.mapM_cons. It introduces no scalar execution or frame realization induction.",
+    "Finite goals instantiate the exact two64-row slices. The fixed Fin736/Fin983 containers are only a valid embedding for these actual L112..219/frame0 fields; no full997-frame current catalog interpretation is inferred.",
+    "Exactly seven public probes and three bounded decisions; no new external library imports or numerical/operator replay."
+  ],
+  "scope_limits": [
+    "Raw0 phase precondition and all rows after64.",
+    "No label admissibility, child lookup, complete prefix/suffix supplier or current centre identity.",
+    "No interpretation of omitted adapters/residuals or physical whole-work endpoint.",
+    "No full multiplier/kappa or historical-to-current whole-stream transfer."
+  ],
+  "expected_scope": [
+    9,
+    8,
+    1
+  ],
+  "current_conditional_kappa_context": "1584931111785787/1000000000000000000 = 0.001584931111785787",
+  "kappa_scope": "Copied current source context only; no kappa or multiplier theorem is claimed by these statements.",
+  "reviewer": "bank routing independent scientific/API owner",
+  "compiler": false,
+  "upstream_execution": false
+}
