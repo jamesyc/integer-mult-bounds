@@ -1,0 +1,67 @@
+{
+  "status": "PASS_EXACT_ONE_LINE_PROOF_REPAIR_SOURCE_ONLY",
+  "utc": "2026-10-12T14:34:43.998303+00:00",
+  "manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_ac_boundary/scalarize_rfl_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "a48b1642165e19b01cc2848a6653f387e1c3e92500cef1e1d1c1d817247a23fb",
+    "bytes": 1608
+  },
+  "candidate": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_ac_boundary/scalarize_rfl_repair/SelectedR480ACCheck.lean.pending.txt",
+    "sha256": "fe0c9e6aa97bde85a2741bd93a0c3eb01ec24398cbad85b4759e4e942a16f01e",
+    "bytes": 8695
+  },
+  "failed_source": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_ac_boundary/scalarize_rfl_repair/failed_preimage/FAILED_SOURCE.lean",
+    "sha256": "ac1c2464caed42e02ecdda4c36b7c7ceb456fba0ed19fe113e769fcca3983fd0",
+    "bytes": 8687
+  },
+  "failed_evidence": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_ac_boundary/PARTIAL_ACCEPTANCE_FAILURE.json",
+    "sha256": "754476ff5e6cac9ca6a7053a133cf4c0a56b7ef9f4b2bf5d9b0d37787c8cec53",
+    "bytes": 6683
+  },
+  "installed_scalarize": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.lean",
+    "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+    "bytes": 6073
+  },
+  "inverse": "Exactly eight bytes: one indented rfl line after the scalarize simp. All other source bytes, theorem statements, imports and raw data unchanged.",
+  "diagnosis": "The sole residual equates map of the explicit frame0/dst/sources constructor with map scalarize on the same decodedA.reverse. Unfolding the accepted scalarize is definitional equality, closed by rfl.",
+  "review_limit_correction": "Initial source/API review accepted the mathematical scalarization step but missed this remaining elaborator closure. Initial failed source/log and13 clean preceding probes are preserved; no whole-module acceptance was inferred.",
+  "preserved_data": [
+    {
+      "module": "SelectedR480ACData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_ac_boundary/SelectedR480ACData.lean",
+        "sha256": "1f02830934d41c3abce9c2eab41b23ab37a7cf653f28c626c89300c0ee22732b",
+        "bytes": 5398
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_ac_boundary/SelectedR480ACData.olean",
+        "sha256": "a3aa44ff9617d6b322f6ea618c7506a7db05fa6c63a16c844073f8abe68750a0",
+        "bytes": 546248
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_r480_ac_boundary__SelectedR480ACData.lean.json",
+        "sha256": "9750efd4b50b07e49e69f41bbe415aaa1d01962ed88b4a2d079920c9ea3fcde3",
+        "bytes": 2395
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_r480_ac_boundary__SelectedR480ACData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "SelectedR480Boundary": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_adaptation/SelectedR480Boundary.olean",
+          "olean_sha256": "79ab317f581040d590dbcd4c024c1d95070c5fd470ad03637d096eb9ae4d4438",
+          "source_sha256": "505e5d4572888c7bd43d6547486ec64483d57887f7e7996589a4f43b0e60b481"
+        }
+      }
+    }
+  ],
+  "archived_files_verified": 11,
+  "compiler_executed": false,
+  "driver_review": "Integration owns failed-prestate final-only binding; no compiler admission is supplied by this source seal."
+}
