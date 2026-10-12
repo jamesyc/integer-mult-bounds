@@ -1,0 +1,141 @@
+{
+  "status": "CURRENT_PR510_FINITE_UPPER_SOURCE_CANDIDATE_UNCHECKED",
+  "utc": "2026-10-12T15:24:03.368527+00:00",
+  "source": {
+    "module": "CurrentBitUpperAggregate",
+    "file": "CurrentBitUpperAggregate.lean",
+    "sha256": "727de0f3df4f8441527450d432b5a3f988d7104d746aee358362987a876da182",
+    "bytes": 50332,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate",
+      "CurrentBitLogCheckpoints"
+    ],
+    "expected_probes": [
+      "CurrentMain.CurrentBitUpperAggregate.profile_totals",
+      "CurrentMain.CurrentBitUpperAggregate.current_domains",
+      "CurrentMain.CurrentBitUpperAggregate.ordinary_rounded_exact",
+      "CurrentMain.CurrentBitUpperAggregate.fallback_rounded_exact",
+      "CurrentMain.CurrentBitUpperAggregate.upper_matches_current_certificate",
+      "CurrentMain.CurrentBitUpperAggregate.current_upper_strict"
+    ]
+  },
+  "current_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/certificates/selected-result.json",
+      "sha256": "a2ee54471f26e495564a2e5ae745fefe627384cf2fe68a77422e26709591e30a",
+      "bytes": 1982,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "914f48ebac8296a040ecbfa00644c1b6dbfbae95"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710,
+      "repository_path": "research/community-family533-audit/SELECTED-SOURCE.json",
+      "git_blob": "c527670100dd303200bd38c7b9125a2c66de8b72"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/pr535-ASSEMBLY.json",
+      "sha256": "246f082c286170d61f0aff3cbc4e4162852e5b162ea67cee274b280c04c4e564",
+      "bytes": 22092,
+      "repository_path": "research/community-family533-audit/pr535-ASSEMBLY.json",
+      "git_blob": "5e5fe27858abf4af408415636d8eafde1e4a3f0d"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/inputs/PR510-EXPECTED.json",
+      "sha256": "19b861f69f7602e47b390d472b487d044bff4230b250520807537c213ad0249f",
+      "bytes": 2241,
+      "repository_path": "research/post-center-rank4-global/inputs/PR510-EXPECTED.json",
+      "git_blob": "9e5d3669638caa58c916f1d6a8e9946d47915089"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/code/assemble_combined.py",
+      "sha256": "41216e8da3b647fe6eead9079858f25b2592cab090154aca43f3cc73ff36dc9b",
+      "bytes": 8093,
+      "repository_path": "research/post-center-rank4-global/code/assemble_combined.py",
+      "git_blob": "ea740f367ed493c47d7ef5d45f91ed7fd16f04e5"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1584931111785787/1000000000000000000",
+  "decimal": "0.001584931111785787",
+  "target_fields": {
+    "saving": {
+      "pointer": "/bit_lower",
+      "value": "396861776523137034277/250000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/bit_exact_moment_receipts/0/base_two/1",
+      "value": "-1188630514657659147971/2000000000000000000000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 345600,
+      "2": 430080,
+      "4": 67200,
+      "6": 49920,
+      "7": 23040,
+      "8": 2592
+    },
+    "dimension": 64,
+    "live": 30720,
+    "fallbackCount": 120380719104
+  },
+  "source_lines": {
+    "rounding": "assemble_combined.py:54-66",
+    "loaded_bit_profile": "assemble_combined.py:79-98",
+    "base_two": "base_two_moment.py:20-58"
+  },
+  "read_only_map": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_bit_log_real/NEXT_BIT_WEIGHTED_MOMENT_SOURCE_MAP.json",
+    "sha256": "289e440b8f25025a4344396dc6c275396a5cfdeb3d5cfa0fbd9c07b758fd15b8",
+    "bytes": 45647
+  },
+  "accepted_log_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current-bit-log-checkpoints/CurrentBitLogCheckpoints.lean",
+      "sha256": "e603335f6420b4b4033c33652f3361121fce8f00daf16a6858a9c8a02738298d",
+      "bytes": 10306
+    }
+  ],
+  "reused_public_definitions": [
+    "unitUpper",
+    "roundedLog",
+    "ceilGrid",
+    "expBlock",
+    "expState12",
+    "expUpper"
+  ],
+  "new_dimension_domain": "bitLogDomain explicitly uses64 and allows unit=2, as the pinned loop does. Historical sourceLogDomain73 is not used.",
+  "reduction_plan": {
+    "log_checkpoint_reproofs": 0,
+    "exp_literal_state_blocks": 18,
+    "total_kernel_decisions": 53,
+    "domain_leaves": 12,
+    "max_exp_steps_per_literal_check": 4
+  },
+  "rounding": "Six complete weighted terms summed in source order, ordinary ceiling once; fallback ceiling independently then10^-16 scaling.",
+  "remaining": [
+    "Six current bit rounded Real log bounds and weighted Real moment.",
+    "Current bootstrap/outer arithmetic and all-size/operator/profile interpretations."
+  ],
+  "authority": "Root2026-10-12T15:22:23 approves finite4/3/1 source preparation and first bounded gate after independent reviews; no compiler dispatched."
+}
