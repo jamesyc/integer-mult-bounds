@@ -1,0 +1,72 @@
+{
+  "status": "SOURCE_BOUND_CHECKPOINT_NOT_ALL_SIZE_THEOREM",
+  "recorded_utc": "2026-10-12T17:44:41.097891+00:00",
+  "current_main": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "conditional_selected_kappa": "16127213726553/10000000000000000",
+  "selected_complex": "PR596 at7732dd5e46863ff294b5e443661cb9d99abf4e01",
+  "selected_bit": "PR543 at2065fe4f72a914d907f1046603f5a36f17018535",
+  "evidence": [
+    {
+      "name": "CURRENT_MAIN_5996F90_SELECTED_BINDING.json",
+      "sha256": "0a49126a83b4977117b452a1687ff21ff9fab77d1b371aa2eb469ed6f3d3e231"
+    },
+    {
+      "name": "HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c"
+    },
+    {
+      "name": "MAIN5996_R420_APPLICABILITY.json",
+      "sha256": "121fc63bf4689c4e04898e274b0d76c2dad17eb4df069cbb802318230c5d6dc1"
+    },
+    {
+      "name": "SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+      "sha256": "734794cf85b3ddb0f1508b733d1943eff34c7b9535c9ce2efcbe1af1b5fb0fa8"
+    },
+    {
+      "name": "SELECTED_DISPATCH_COMPARISON.json",
+      "sha256": "1adec8de0d6d01fc195fcbf121a5abd0d778e92d60cb4c7bd701ca0b3a965ba1"
+    },
+    {
+      "name": "SELECTED_RECIPE_APPLICABILITY_READBACK.json",
+      "sha256": "baef295fd6b64a15b683c609a27f98aa578923787d49d658548ace95dd2a8679"
+    },
+    {
+      "name": "CURRENT5996_SCALAR_CENTRE_SOURCE_CHAIN_READBACK.json",
+      "sha256": "318404501e068c93ac1a71601ce33653fb55f2d90e82c9e5519d9d8a000c7626"
+    },
+    {
+      "name": "FINAL_GIT_CANDIDATE.json",
+      "sha256": "cf3de63aa580d6e725c75921fa6e26834ef01ad1ead8f07bc98b5235fcc7534f"
+    },
+    {
+      "name": "CURRENT588_PUBLIC_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "fad59e49d9d8be78fe06784c5176ac32cf654ea570f7a82b8444293021dbb1d2"
+    }
+  ],
+  "owner_delta": {
+    "signed": "All49 R420 source files exact; accepted bit boundaries retain current applicability. Remaining composition, scatter/temporary and physical interfaces are separate.",
+    "analytic": "Native no-fallback engines unchanged; rank12 reuses accepted log73/48. Fresh current596 finite aggregate passed separately; current Real join remains its own gate. Historical588 package remains source-bound to9594.",
+    "bank": "23/72 dispatch assignments and35854/36288 owner rows change. No global owner-window transport follows. HPE suffix materialized from retained exact CK step2 without three predecessor regenerations.",
+    "frame": "Integrated generic Clifford source is exact accepted PR593. Current catalog/ordered descriptor wrappers need fresh selected binding; no older label-domain coercion is implicit.",
+    "machine": "Scalar translation/centre branch is AST-identical; explicit Fin1079 toFin1082 embedding and typed current event binding remain necessary."
+  },
+  "hpe": {
+    "stages": 4,
+    "outputs": 9,
+    "frames": 1082,
+    "children": 3040,
+    "events_per_orientation": 21560,
+    "terminal_sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c",
+    "wall_seconds": 224.47469181100314,
+    "cpu_seconds": 224.13402,
+    "peak_vm_bytes": 51642368,
+    "qualification": "Exact selected CK artifacts with intrinsic constructor/localizer/emitter/phase checks. Separate normalized adapters, negative controls, global provider/owner verification, Lean instance and physical realization remain open."
+  },
+  "publication": {
+    "historical_source_main": "9594b61042164a27a31e44d8c3197f231470eda0",
+    "source_conditional_kappa": "400569730495803/250000000000000000",
+    "candidate": "d676cf35234943613d7208719e7d96f7500fdfcf",
+    "scope": "Seven fresh/two retained native moment sources;20new/31reachable probes;public reproduction independently passed. Publication itself is pending the sole publisher."
+  },
+  "limits": "This checkpoint preserves source identities, independent component evidence and open interfaces. It does not claim a full current kappa theorem, selected physical supplier or completed all-size multiplication proof."
+}

@@ -146,3 +146,7 @@ Exact PR593 head `2b430f6e835af102da3b89f66ebc5a60ba8fb104` provides concrete ar
 ## Attribution
 
 Preserve original notices and Apache-2.0 terms: icekylinx (#531/#523 direct-delivery and restriction), eumemic (#493 bit carrier), Dugongue (#514 owner schedule), DreamingOfClouds (Stream/phase/moment ancestry), chafreaky, DaysSky, jacklightChen and other contributors credited by V and package notices. Local Lean work was prepared with OpenAI assistance; PR509 retains its original DreamingOfClouds/Claude assistance disclosure. This map neither reallocates authorship nor adopts another unmerged construction.
+
+## Main 5996 source checkpoint
+
+The bounded source transition and exact HPE artifact receipt are recorded in `CURRENT5996_SOURCE_CHECKPOINT.json`. R420 remains source-identical; the complex selected profile and typed label domain need current bindings. The completed historical PR588 native-moment publication remains pinned to main 9594 and is independent of those new obligations. No full selected-kappa theorem is inferred.
