@@ -301,6 +301,40 @@ theorem source_domains :
     (0 ≤ bMinus * roundedLog 0 25 121 ∧ bMinus * roundedLog 0 25 121 < 1) := by
   rw [r1_x_binding, r2_x_binding, r3_x_binding, r4_x_binding, r5_x_binding, r6_x_binding, r7_x_binding, r32_x_binding, r48_x_binding]
   unfold sourceLogDomain
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
+  refine And.intro ?_ ?_
+  · decide +kernel
   decide +kernel
 
 /-- Original profile order, with one outward rounding after the nine-term sum. -/

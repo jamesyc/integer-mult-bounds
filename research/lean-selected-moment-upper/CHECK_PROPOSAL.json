@@ -38,8 +38,8 @@
     },
     {
       "path": "research/lean-selected-moment-upper/SelectedMomentUpperAggregate.lean",
-      "sha256": "8f18687df826e4f08779cc58170e49fcc0443f5126b29a9a466a955788cbe9e0",
-      "bytes": 75230,
+      "sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+      "bytes": 75995,
       "module": "SelectedMomentUpperAggregate",
       "explicit_imports": [
         "SelectedMomentLogCheckpoints"
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "source_binding_sha256": "38a6cc2d0c4d662ec0d5ba3483f691d1b6246df08a755f6975e1173434a39f8a",
+  "source_binding_sha256": "c71bb0c514e52ae36c23945ab736f355b743f53376f78e677458386be5061617",
   "proof_strategy": "Installed Basic Rat arithmetic and decide +kernel at bounded literal-state blocks; ordinary equality rewrites compose those checkpoints into complete source-defined formulas. No native_decide or external oracle.",
   "caps": {
     "hard_seconds": 60,
@@ -145,5 +145,11 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_moment_upper/FIRST_FAILURE_PRESERVATION.json",
     "sha256": "871d6f7ff2638f9b4b7847369dd0f42fdbd9f2a739d6efe5898403dd2a84df55"
   },
-  "repair_audit_sha256": "78e0bc8296becfcab3d8e53a3867c17b72f57b5091f508b328f7516987b60b24"
+  "repair_audit_sha256": "63832d368d88f65f278e44c85f727a9370df0fe41919fddbb6f04805724b600b",
+  "second_failure_preservation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_moment_upper/SECOND_FAILURE_PRESERVATION.json",
+    "sha256": "cfab2926d09bcac5098c56d911aa5015cd10d31457071332d87c451d1f7b11e0"
+  },
+  "total_kernel_decision_sites": 132,
+  "root_specific_recovery_scope": "Construct only the18 source_domains groups explicitly and decide each separately; unchanged proof statements/imports/options/caps."
 }

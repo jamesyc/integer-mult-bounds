@@ -12,8 +12,8 @@
     },
     {
       "path": "research/lean-selected-moment-upper/SelectedMomentUpperAggregate.lean",
-      "sha256": "8f18687df826e4f08779cc58170e49fcc0443f5126b29a9a466a955788cbe9e0",
-      "bytes": 75230
+      "sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+      "bytes": 75995
     }
   ],
   "source_pins": [
@@ -216,5 +216,11 @@
     "old_source_sha256": "9323af6424ae3889ec1c58adba968f685cb2b6bd141201351ad21710c55f42d4",
     "new_source_sha256": "8f18687df826e4f08779cc58170e49fcc0443f5126b29a9a466a955788cbe9e0",
     "generator_status": "The preserved Fraction emitter generated the initial source; this explicit proof-local post-emission line is separately inverse-audited."
+  },
+  "second_post_emission_proof_repair": {
+    "audit_sha256": "63832d368d88f65f278e44c85f727a9370df0fe41919fddbb6f04805724b600b",
+    "old_source_sha256": "8f18687df826e4f08779cc58170e49fcc0443f5126b29a9a466a955788cbe9e0",
+    "new_source_sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+    "description": "Same18 group statement, arithmetic constants, source_domains definition, imports, options and caps. Only its proof constructs the outer conjunction explicitly and decides each concrete group."
   }
 }
