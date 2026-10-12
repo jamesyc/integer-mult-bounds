@@ -1,0 +1,51 @@
+{
+  "status": "SOURCE_ONLY_CONDITIONAL_COMPOSITION_PENDING_INDEPENDENT_REVIEW",
+  "created_utc": "2026-10-12T13:12:13.091795+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-composition/F19CentreBandComposition.lean",
+    "sha256": "3ec5e4799b811bda4717433a7abec4c3c48ba3b2d0d1a027512efff782796ec4",
+    "bytes": 8529
+  },
+  "accepted_band": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_CENTRE_BAND_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "b9ca0457ed4670390cf02b1fa69867f9294d38017e4fb4af7ee49bbb8b1c8e65",
+    "bytes": 3347
+  },
+  "source_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_composition_proposal/SOURCE_COMPOSITION_PROPOSAL.json",
+    "sha256": "4065696c4bf895d993dfa9766ccd0bc26b10ec25141521b803d3fe0e36f38d01",
+    "bytes": 6251
+  },
+  "selected_context": {
+    "commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "kappa_fraction": "1517760977820331/1000000000000000000",
+    "kappa_decimal": "0.001517760977820331",
+    "qualification": "Historical conditional context only; not a new multiplier or kappa theorem."
+  },
+  "claim": "For any typed L-only signed-denominator-valid prefix and suffix surrounding either exact accepted selected264-row centre band, states agreeing on original728 registers yield the same full736 output state, with all8 centres zero.",
+  "unaccepted_source_supplier_obligations": [
+    "No full prefix14036/suffix7020 typed lists or their LOnlyRows certificates have been accepted. The theorem keeps these premises explicit.",
+    "The raw source has1617 omitted phase/adapter/residual entries per direction outside the band; no identity action or physical interpretation is supplied for them.",
+    "Read-only compressed-source no-C inspection does not count as kernel acceptance of the complete stream."
+  ],
+  "proof_reuse": [
+    "Accepted rawScalarStep/rawRowsRun preserve dirty COPY overwrite, target-only CLEAR and signed denominator decoding.",
+    "Accepted safe_run_related gives prefix L-agreement and suffix zero preservation; existing selected band certificate yields full agreement.",
+    "Only Option append composition and small flag monotonicity/centre-preservation helpers are added, with no new matrix/conjugation proof."
+  ],
+  "public_probes": [
+    "CurrentMain.F19CentreComposition.lonly_rows_safe",
+    "CurrentMain.F19CentreComposition.rawRowsRun_append",
+    "CurrentMain.F19CentreComposition.lonly_prefix_agreement",
+    "CurrentMain.F19CentreComposition.lonly_suffix_zero",
+    "CurrentMain.F19CentreComposition.sandwich_independent",
+    "CurrentMain.F19CentreComposition.selected_forward_sandwich",
+    "CurrentMain.F19CentreComposition.selected_backward_sandwich"
+  ],
+  "attribution": [
+    "PR509 Lemma G Stream authors DreamingOfClouds and Claude-assisted development retained.",
+    "Selected emitter and inherited suppliers retain their prior PR425/PR433/PR514, icekylinx/OpenAI and DreamingOfClouds/Anthropic attribution.",
+    "This thin source prepared with OpenAI assistance. Apache-2.0."
+  ],
+  "physical_and_fullword_claim": false
+}
