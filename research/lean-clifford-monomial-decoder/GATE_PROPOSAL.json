@@ -1,0 +1,198 @@
+{
+  "status": "SOURCE_PROPOSAL_ONLY_NO_COMPILER_ADMISSION",
+  "root": {
+    "module": "CliffordMonomialDecoder",
+    "source": "CliffordMonomialDecoder.lean",
+    "sha256": "4dfcb7f13ae087820f3a6ad7683c71a22bfcdd39e74ad2faa8baa6c0fa7d692e"
+  },
+  "local_scope": {
+    "total": 3,
+    "preserved_current": 2,
+    "new_root": 1,
+    "order": [
+      "PR509Stream",
+      "DirectedChildRecipes",
+      "CliffordMonomialDecoder"
+    ]
+  },
+  "direct_imports": [
+    "DirectedChildRecipes",
+    "Mathlib.LinearAlgebra.Pi"
+  ],
+  "current_dependencies": [
+    {
+      "source": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "object": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+      "receipt": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+      "log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "PR509Stream"
+    },
+    {
+      "source": "33d33ed6ac6de316662062ef1114904c91e75d1b57c99fed1cb0ec2dccf0e7f5",
+      "object": "39c72ca083384f916162076514950e48b7b54e9efaddc74122bb27dc40d36975",
+      "receipt": "be98edb20a6fba4ce682cb39190e1abb901d9de7c66c8d8c30145506daa04323",
+      "log": "301759cd931d04eb4cd67ae3d6eeca887854194d14aeb935dc8f10d0ed626afd",
+      "module": "DirectedChildRecipes"
+    }
+  ],
+  "external_footprint": {
+    "source_object_pairs": 2295,
+    "header_edges": 8687,
+    "objects_bytes": 1452907184,
+    "new_source_object_pairs": 82,
+    "new_objects_bytes": 51988296,
+    "new_modules": [
+      "Mathlib.Data.Fin.VecNotation",
+      "Mathlib.Algebra.Group.Fin.Tuple",
+      "Mathlib.Algebra.Group.FiniteSupport",
+      "Mathlib.Algebra.Order.Monoid.Defs",
+      "Mathlib.Algebra.Order.Monoid.Canonical.Defs",
+      "Mathlib.Algebra.Order.BigOperators.Group.List",
+      "Mathlib.Algebra.Order.Group.Unbundled.Basic",
+      "Mathlib.Algebra.Order.Group.Defs",
+      "Mathlib.Algebra.Order.Group.OrderIso",
+      "Mathlib.Algebra.Order.Group.Lattice",
+      "Mathlib.Algebra.Order.Group.Unbundled.Abs",
+      "Mathlib.Algebra.Order.Group.Abs",
+      "Mathlib.Algebra.Order.Monoid.OrderDual",
+      "Mathlib.Algebra.Order.BigOperators.Group.Multiset",
+      "Mathlib.Algebra.Order.Group.Nat",
+      "Mathlib.Data.Multiset.OrderedMonoid",
+      "Mathlib.Tactic.Bound.Init",
+      "Mathlib.Tactic.Bound.Attribute",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Sigma",
+      "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+      "Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs",
+      "Mathlib.Algebra.Order.ZeroLEOne",
+      "Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic",
+      "Mathlib.Algebra.Order.Monoid.NatCast",
+      "Mathlib.Algebra.Order.Monoid.Unbundled.MinMax",
+      "Mathlib.Algebra.Order.Ring.Unbundled.Basic",
+      "Mathlib.Algebra.Order.Ring.Defs",
+      "Mathlib.Algebra.BigOperators.Finprod",
+      "Mathlib.Algebra.BigOperators.GroupWithZero.Action",
+      "Mathlib.Algebra.Group.Action.End",
+      "Mathlib.Algebra.Group.WithOne.Defs",
+      "Mathlib.Algebra.GroupWithZero.WithZero",
+      "Mathlib.Algebra.GroupWithZero.Prod",
+      "Mathlib.Algebra.GroupWithZero.Action.Basic",
+      "Mathlib.Algebra.Module.Hom",
+      "Mathlib.Algebra.Module.Equiv.Basic",
+      "Mathlib.Logic.Equiv.Fin.Basic",
+      "Mathlib.Algebra.Algebra.Defs",
+      "Mathlib.Algebra.Group.ULift",
+      "Mathlib.Algebra.GroupWithZero.ULift",
+      "Mathlib.Algebra.Ring.ULift",
+      "Mathlib.Algebra.Module.ULift",
+      "Mathlib.Algebra.Ring.CharZero",
+      "Mathlib.Algebra.Group.Conj",
+      "Mathlib.Algebra.Group.Subgroup.Basic",
+      "Mathlib.RingTheory.NonUnitalSubsemiring.Defs",
+      "Mathlib.Algebra.Ring.Subsemiring.Defs",
+      "Mathlib.RingTheory.NonUnitalSubring.Defs",
+      "Mathlib.Algebra.Ring.Subring.Defs",
+      "Mathlib.Algebra.Group.Submonoid.DistribMulAction",
+      "Mathlib.Algebra.Ring.Action.Subobjects",
+      "Mathlib.Data.Nat.Cast.Prod",
+      "Mathlib.Data.Int.Cast.Prod",
+      "Mathlib.Algebra.Ring.Prod",
+      "Mathlib.Algebra.Group.Center",
+      "Mathlib.GroupTheory.Subsemigroup.Center",
+      "Mathlib.GroupTheory.Subsemigroup.Centralizer",
+      "Mathlib.GroupTheory.Submonoid.Center",
+      "Mathlib.GroupTheory.Submonoid.Centralizer",
+      "Mathlib.Algebra.Group.Subsemigroup.Membership",
+      "Mathlib.Algebra.Group.Subsemigroup.Operations",
+      "Mathlib.Algebra.GroupWithZero.Center",
+      "Mathlib.Algebra.Ring.Center",
+      "Mathlib.Algebra.Ring.Centralizer",
+      "Mathlib.Algebra.Ring.Submonoid.Basic",
+      "Mathlib.RingTheory.NonUnitalSubsemiring.Basic",
+      "Mathlib.Algebra.Ring.Subsemiring.Basic",
+      "Mathlib.Algebra.Ring.Subring.Basic",
+      "Mathlib.Data.Nat.Cast.NeZero",
+      "Mathlib.Data.Nat.Cast.Order.Basic",
+      "Mathlib.Data.Int.Cast.Field",
+      "Mathlib.Data.Int.Cast.Pi",
+      "Mathlib.Data.Int.CharZero",
+      "Mathlib.Algebra.Algebra.Basic",
+      "Mathlib.Algebra.Algebra.Hom",
+      "Mathlib.Algebra.Ring.Action.Group",
+      "Mathlib.Algebra.Algebra.Equiv",
+      "Mathlib.Algebra.Algebra.Prod",
+      "Mathlib.Algebra.Group.Graph",
+      "Mathlib.LinearAlgebra.Prod",
+      "Mathlib.Data.Fintype.Option",
+      "Mathlib.LinearAlgebra.Pi"
+    ],
+    "footprint_sha256": "7fc6c6336f52e864b39b7c3499c0c8d13aeef2fc45beea10088c9295a6d3148e",
+    "direct_mathlib_source_sha256": "d74e74c10250f52e84bd236f4fc0251ed261ddb6b2a50ce478dcac538a5c6a04",
+    "direct_mathlib_object_sha256": "2a3bffa9e81110c283637dd234fb4004c7f74475bef2bbb2ef4fbc57d75c1599",
+    "missing_sources": [],
+    "missing_objects": [],
+    "runtime": "Lean 4.21.0 / Mathlib 308445d7985027f538e281e18df29ca16ede2ba3",
+    "environment_sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b"
+  },
+  "source_correspondence": {
+    "selected_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "compiler_path": "research/direct-delivery504-global/vendor/clifford/clifford_exact.py",
+    "compiler_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "lines": {
+      "qvalue": [
+        59,
+        60
+      ],
+      "then": [
+        69,
+        71
+      ],
+      "primitive_payload_actions": [
+        81,
+        90
+      ],
+      "monomial_sequence": [
+        127,
+        132
+      ],
+      "rank_zero_null_right": [
+        133,
+        136
+      ]
+    },
+    "phase_location": "Input/preimage x; output coordinate is offset(linear(x)).",
+    "assumed_field_binding": "linear=mv(matrix_rows), offset=xor b, q=literal qvalue with bit i=2^i. None is certified from a raw record here."
+  },
+  "hypothesis_reduced": "All-payload equality and invertible linear-map interpretation of the D/P/X/phase monomial sequence. rankZero_execution supplies the corresponding child evaluation equation once raw fields and actual primitive execution are bound.",
+  "remaining_hypotheses": [
+    "Certified affine maps/inverses and finite bit-domain identity.",
+    "Exact raw qvalue/global phase decoding; omega is the intended unit and omega^4=1.",
+    "Actual serialized primitive execution equality.",
+    "Complete directed child canonical(old,new) operator equality, positive-rank Gaussian blocks and tableau-assertion soundness.",
+    "Residual/ordinary adapters, complete event/label coverage, physical work, rows/columns, owner and cost."
+  ],
+  "proposed_gate": {
+    "admission": "Separate release required; no root staging or compiler authorized by this proposal.",
+    "runner": "Reuse the established retained-lock single-file pattern; no closure builder or prerequisite compilation.",
+    "fresh_guards": [
+      "Committed/staged source identity and no prior root receipt/object/log.",
+      "Two current input quadruples; exact first-match imports and no shadows.",
+      "Explicit existing eight-path environment/runtime and expanded external footprint.",
+      "Post-receipt source/dependency stability and all six complete standard-only probes."
+    ],
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "expected_probes": [
+      "CurrentMain.CliffordMonomialDecoder.diagonal_apply",
+      "CurrentMain.CliffordMonomialDecoder.push_apply",
+      "CurrentMain.CliffordMonomialDecoder.circuit_apply_at",
+      "CurrentMain.CliffordMonomialDecoder.decoded_apply_at",
+      "CurrentMain.CliffordMonomialDecoder.circuit_eq_decoded",
+      "CurrentMain.CliffordMonomialDecoder.rankZero_execution"
+    ]
+  },
+  "prior_source_commit": "e116c667d6d3af1bf2bf98bc89f73360ed26425f",
+  "publication": "No kappa or publication scope; conditional source interface only."
+}
