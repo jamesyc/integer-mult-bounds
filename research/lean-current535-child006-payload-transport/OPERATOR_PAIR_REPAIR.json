@@ -1,0 +1,14 @@
+{
+  "status": "SPECIFICALLY_RELEASED_TWO_SITE_PAIR_REDUCTION_SOURCE_ONLY",
+  "change": "Two change tactics expose exactly the already defined low/high pair action of liftAddress. All statements, phases, operators and imports unchanged.",
+  "scope": {
+    "total": 14,
+    "current": 13,
+    "new": 1
+  },
+  "external_pairs": 2620,
+  "probes": 6,
+  "candidate_sha256": "5f93e61d7ea22673b361414bf1706235daf0f6bcee9785a7bd30774619cd3fb1",
+  "proposal_sha256": "be4bf587f1416a1408d9855c3f51fb36e1f8d2201585ffbd5d39be4fc3c7acae",
+  "failed_source_sha256": "8584f822f608e3885d7fb67f7307821ad009edcc3f2958baeddec0c3053b1f63"
+}

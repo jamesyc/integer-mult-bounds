@@ -53,6 +53,8 @@ theorem left_source_action (v : Address → ℂ) (x : Address) :
     (payloadEquiv.symm v) (split (join
       (CliffordChild009Decoder.liftAddress CliffordChild009Decoder.leftEquiv (z, h)))) = _
   rw [split_join]
+  change CliffordChild009Decoder.leftDecoded CliffordChild009Canonical.imagUnit
+    (payloadEquiv.symm v) (CliffordChild009Decoder.leftEquiv z, h) = _
   rw [CliffordChild009Decoder.left_decoded_apply, left_phase]
   simpa only [Units.val_pow_eq_pow_val]
 
@@ -70,6 +72,9 @@ theorem right_source_action (v : Address → ℂ) (x : Address) :
       (CliffordChild009Decoder.liftAddress CliffordChild009Decoder.offsetEquiv
         (CliffordChild009Decoder.liftAddress CliffordChild009Decoder.rightEquiv (z, h))))) = _
   rw [split_join]
+  change CliffordChild009Decoder.rightDecoded CliffordChild009Canonical.imagUnit
+    (payloadEquiv.symm v)
+    (CliffordChild009Decoder.offsetEquiv (CliffordChild009Decoder.rightEquiv z), h) = _
   rw [CliffordChild009Decoder.right_decoded_apply, right_phase]
   simpa only [Units.val_pow_eq_pow_val]
 
