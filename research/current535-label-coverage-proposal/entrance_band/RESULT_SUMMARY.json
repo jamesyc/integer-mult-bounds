@@ -1,0 +1,200 @@
+{
+  "status": "PASS_EXACT10_CURRENT535_ENTRANCE_BAND_OWNER_ACCEPTANCE",
+  "utc": "2026-10-12T15:33:31.191738+00:00",
+  "source_commit": "e84bcb0cabe2852e8b735660da1c1afa4ba9a13f",
+  "scope": {
+    "local_modules": 10,
+    "preserved_current": 8,
+    "new_checks": 2,
+    "outside_protected": 9,
+    "historical743_replays": 0
+  },
+  "new_metrics": [
+    {
+      "module": "Current535EntranceBandData",
+      "admitted_utc": "2026-10-12T15:31:56.166231+00:00",
+      "compiler_started_utc": "2026-10-12T15:31:57.634106+00:00",
+      "compile_seconds": 5.835308592999354,
+      "queue_seconds": 0.0006533639971166849,
+      "samples": 57,
+      "peak_vm_bytes": 2102059008,
+      "peak_rss_bytes": 1508618240,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current535EntranceBandCheck",
+      "admitted_utc": "2026-10-12T15:32:09.760062+00:00",
+      "compiler_started_utc": "2026-10-12T15:32:11.405549+00:00",
+      "compile_seconds": 10.05696689899196,
+      "queue_seconds": 0.0010025939991464838,
+      "samples": 99,
+      "peak_vm_bytes": 2236616704,
+      "peak_rss_bytes": 1635246080,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 15.892275491991313,
+  "total_new_queue_seconds": 0.0016559579962631688,
+  "peak_new_vm_bytes": 2236616704,
+  "data_scope": {
+    "blocks": [
+      {
+        "letter": "I",
+        "raw_inclusive": [
+          10871,
+          10894
+        ],
+        "rows_each": 24,
+        "checkpoint": 204,
+        "support": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235
+        ],
+        "values": [
+          [
+            224,
+            6
+          ],
+          [
+            225,
+            6
+          ],
+          [
+            226,
+            7
+          ],
+          [
+            227,
+            7
+          ],
+          [
+            228,
+            8
+          ],
+          [
+            229,
+            8
+          ],
+          [
+            230,
+            9
+          ],
+          [
+            231,
+            9
+          ],
+          [
+            232,
+            10
+          ],
+          [
+            233,
+            10
+          ],
+          [
+            234,
+            11
+          ],
+          [
+            235,
+            11
+          ]
+        ],
+        "histogram_each": {
+          "ADD": 12,
+          "relabel": 12
+        },
+        "child_ordinals": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "letter": "J",
+        "raw_inclusive": [
+          10895,
+          10902
+        ],
+        "rows_each": 8,
+        "checkpoint": 212,
+        "support": [
+          236,
+          237,
+          238,
+          239
+        ],
+        "values": [
+          [
+            236,
+            12
+          ],
+          [
+            237,
+            12
+          ],
+          [
+            238,
+            13
+          ],
+          [
+            239,
+            13
+          ]
+        ],
+        "histogram_each": {
+          "ADD": 4,
+          "relabel": 4
+        },
+        "child_ordinals": [
+          10,
+          11
+        ]
+      }
+    ],
+    "new_rows_each": 32,
+    "new_histogram_each": {
+      "ADD": 16,
+      "relabel": 16
+    },
+    "composed_rows_each": 212,
+    "composed_histogram_each": {
+      "ADD": 140,
+      "relabel": 72
+    },
+    "full_label_domain": 736,
+    "frame_count": 997,
+    "child_count": 2927
+  },
+  "excluded_scope": [
+    "No assumption of accepted operator equations for all eight keys.",
+    "Only canonical labels, signed annotation/nonzero denominator and exact directed child/rank checks.",
+    "Raw10903 nonzero-old-frame joins, omitted pre-A/adapter semantics and full physical-work/scalar endpoint remain open."
+  ],
+  "qualification": "Exactly32 fresh current rows each in24+8 decisions, eight directed rank1 keys0\u21926\u202613, composed with accepted180 to212; full736-label multivalue checkpoints204/212. Eight current inputs retained. Raw10903 nonzero-old joins, operator/omitted-adapter suppliers remain separate.",
+  "timing": {
+    "binding_received_read_utc": "2026-10-12T15:31:42+00:00",
+    "invocation_utc": "2026-10-12T15:31:49.851296285Z",
+    "post_lock_guard_utc": "2026-10-12T15:31:53.575736+00:00",
+    "per_job_fields": "new_metrics retains actual admitted/compiler start and FIFO; no causal attribution"
+  },
+  "terminal_independent_review": "pending; no additional compiler required",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_entrance_band/ACCEPTANCE.json",
+    "sha256": "933048ca6b469192818ecf699c9938a233bdf2cfdc5976d1144171d650f6ca44",
+    "bytes": 60017
+  }
+}
