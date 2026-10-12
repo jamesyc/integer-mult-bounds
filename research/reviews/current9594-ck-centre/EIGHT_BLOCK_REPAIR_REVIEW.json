@@ -1,0 +1,68 @@
+{
+  "status": "PASS_EXACT_EIGHT_BLOCK_PROOF_ONLY_REPAIR_SOURCE_API",
+  "utc": "2026-10-12T17:14:38.981111+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current9594-ck-centre/Current9594CKCentre.lean",
+    "sha256": "281f86b189d92d203d4ad95e9186bb959c574049be48c227aef5c6eb266e8e0e",
+    "bytes": 34363
+  },
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/eight_block_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "a27a50f380a8be880115ebfd659c1e29a83a830bbfa4384566c62ffea7dd4750",
+    "bytes": 2370
+  },
+  "failed_source": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/eight_block_repair/preimage.lean",
+    "sha256": "da9623b2b7ef6831258bc6280121b4a9c3b30a08105c3481144db352d3ec3558",
+    "bytes": 33023
+  },
+  "failures": {
+    "first_failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/first_failure/PRESERVATION.json",
+      "sha256": "987f77c1273b2a8d6130e0a50162e13f097d977597f8cd0e4324e5dd85054e9b",
+      "bytes": 12445
+    },
+    "second_failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/second_failure/PRESERVATION.json",
+      "sha256": "ef1bd8977968812e95b0ce28e5e96644a80fcd88b8ee200c44c1e203f5f7bd37",
+      "bytes": 13463
+    }
+  },
+  "archive_counts_verified": {
+    "first_failure": 16,
+    "second_failure": 16
+  },
+  "exact_inverse": "Remove only the one private take/drop map-equality helper and sixteen identical apply/head-rfl steps; this reconstructs da9623b2 exactly. Both literal definitions, every public statement, all imports/options, ten probes and four finite decisions retain exact bytes.",
+  "helper_api": "For arbitrary xs/ys and mapping functions, map_append and take_append_drop express each original map as ordered head++tail; congrArg2 List.append combines the two supplied equalities. No length assumption, truncation, default element, source metadata or scalar semantic change.",
+  "bounded_goals": "Each projected equality is first map-fused, then split into eight chronological32-event head equalities and the exact empty tail. Source lengths remain256 each. Both full-list equalities are reconstructed symbolically.",
+  "retained_initial_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current9594-ck-centre/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "26e7fe3f7b5947bff6057285ceb11010e61c8e0233ac7bf8c6a9bc5c5ca13712",
+    "bytes": 2952
+  },
+  "retained_map_fusion_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current9594-ck-centre/MAP_FUSION_REPAIR_REVIEW.json",
+    "sha256": "74946bf8c0a13f2e5756fd5e1321eab968c8a123c7de7bda34c78834e61d2252",
+    "bytes": 2318
+  },
+  "api_files": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Lemmas.lean",
+      "sha256": "d8fc731c3950655b66c6354085b34f7405b3b3d1f97bc3a7f4e3a1f5b0175ac0",
+      "bytes": 147325
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/TakeDrop.lean",
+      "sha256": "f96aa008b19859b9525e6e69ca3df971c9f53991ffcd21d08b51c9b0dc1f7c02",
+      "bytes": 16935
+    }
+  ],
+  "api_lines": {
+    "map_append": "Lemmas.lean:1823",
+    "take_append_drop": "TakeDrop.lean:44"
+  },
+  "resource_scope": "Same10/9/1,2232pairs and existing limits. Eight-block reduction fit remains unmeasured; nested drop and total elaboration cost are not predicted by this source review. No compiler by reviewer.",
+  "selected_source_scope": "Exact9594/PR588 CK generated evidence. New5996 selected complex comparison remains separate.",
+  "compiler_executed": false,
+  "runtime_binding_owner": "integration"
+}
