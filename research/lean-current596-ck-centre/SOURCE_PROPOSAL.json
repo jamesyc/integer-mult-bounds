@@ -1,0 +1,53 @@
+{
+  "status": "SOURCE_API_RESOURCE_PROPOSAL_NOT_COMPILER_ADMITTED",
+  "utc": "2026-10-12T17:38:27.226805+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+    "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+    "bytes": 8666
+  },
+  "scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/SOURCE_SCOPE.json",
+    "sha256": "715f32cdd55d02b47993241b3a370928121b1d9871342949632d0f561f0f8c0d",
+    "bytes": 5698
+  },
+  "local_scope": [
+    11,
+    10,
+    1
+  ],
+  "direct_imports": [
+    "Current9594CKCentre"
+  ],
+  "cached_pairs": 2232,
+  "new_external_inputs": 0,
+  "expected_probes": [
+    "CurrentMain.FrameDomainTransport.decodeEvent_map",
+    "CurrentMain.FrameDomainTransport.decodeRows_map",
+    "CurrentMain.FrameDomainTransport.projectRows_map",
+    "CurrentMain.FrameDomainTransport.rawRowsRun_map",
+    "CurrentMain.FrameDomainTransport.decoded_map_run",
+    "CurrentMain.Current596CKCentre.embed_value",
+    "CurrentMain.Current596CKCentre.exact_source_indices",
+    "CurrentMain.Current596CKCentre.forward_run_eq",
+    "CurrentMain.Current596CKCentre.backward_run_eq",
+    "CurrentMain.Current596CKCentre.forward_independent",
+    "CurrentMain.Current596CKCentre.backward_independent",
+    "CurrentMain.Current596CKCentre.forward_interpreted",
+    "CurrentMain.Current596CKCentre.backward_interpreted"
+  ],
+  "new_probe_count": 13,
+  "finite_band_predicates_repeated": 0,
+  "literal_bound_decisions": 1,
+  "resource_shape": "Structural constructor cases and ordered decoder/map induction; no copied256-row literal list or whole-list rfl. Actual new proof fit is unmeasured.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "authority": "Root17:32 approves generic1079\u21921082 embedding source and first minimal bounded check after independent HPE terminal, source/API and final binding reviews.",
+  "prior_outputs": "All observed accepted roots and existing resource holds must be retained by the final current inventory.",
+  "next_executor_after_reviews": "machine",
+  "independent_source_reviewer": "bank"
+}

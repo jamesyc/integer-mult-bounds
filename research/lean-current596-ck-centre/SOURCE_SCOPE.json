@@ -1,0 +1,108 @@
+{
+  "status": "SOURCE_ONLY_PROPOSAL_NOT_KERNEL_ACCEPTED",
+  "utc": "2026-10-12T17:38:27.222694+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+    "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+    "bytes": 8666
+  },
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "conditional_kappa": "16127213726553/10000000000000000",
+  "current_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    }
+  ],
+  "historical_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    }
+  ],
+  "generation_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/RESULT.json",
+    "sha256": "ea6a0d7ca9c06e5a2b2a257670ddb6636ec3ba68aadce6e689e7f1817e0abc76",
+    "bytes": 21325
+  },
+  "generation_independent_terminal": "Pending; required before any compiler gate. Owner PASS does not supply the independent prerequisite.",
+  "bank_bounded_comparison": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/CURRENT_FIRST33_CENTRE_READBACK.json",
+    "sha256": "0b7dd49aa30049429da4b8a30eb9e86351eb77168fd11ca3d4ec4129e277cd46",
+    "bytes": 3570
+  },
+  "own_literal_comparison": {
+    "forward": {
+      "raw_start": 12927,
+      "count": 256,
+      "exact_ordered_rows": true,
+      "normalized_json_sha256": "2521658ab5ba387c50817c225121c9a4259bcddbbaca40725e1f01599c4254a5"
+    },
+    "backward": {
+      "raw_start": 12927,
+      "count": 256,
+      "exact_ordered_rows": true,
+      "normalized_json_sha256": "09149a699558ca17bb087334fde1c5468c297e66fca877fb1ddd56a8c788c2fc"
+    }
+  },
+  "frame_domain": {
+    "old": 1079,
+    "new": 1082,
+    "ordered_old_prefix_exact": true,
+    "all_initial_original_labels_exact": true,
+    "map": "Fin.castLE (1079 \u2264 1082)",
+    "value_preservation": "The theorem embed_value is reflexivity; all original label values remain unchanged."
+  },
+  "prior_accepted_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current9594-ck-centre/Current9594CKCentre.lean",
+    "sha256": "281f86b189d92d203d4ad95e9186bb959c574049be48c227aef5c6eb266e8e0e",
+    "bytes": 34363
+  },
+  "prior_independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_CENTRE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "ffa435c287b2526a21ab860f1267891c742850a40e43d07d662feaec89629af8",
+    "bytes": 8314
+  },
+  "shared_api": {
+    "namespace": "CurrentMain.FrameDomainTransport",
+    "import": "Current596CKCentre",
+    "mapEvent": "Arbitrary label-function map on all five Event constructors, preserving registers and coefficient syntax.",
+    "mapRow": "Preserves sourceIndex and childRef, maps scalarFrame with the same function.",
+    "decodeRows_map": "Exact ordered Option decoding commutes with List.map(mapEvent), including failure.",
+    "projectRows_map": "Exact frame-erased Row list equality.",
+    "rawRowsRun_map": "Reuse the accepted scalar run through that projected-list equality.",
+    "decoded_map_run": "Reuses the accepted raw/decoded bridge; no new scalar semantics induction."
+  },
+  "selected_scope": "Two exact 256-event bands at current raw12927..13182. All original event and annotation values retained in Row1082; arbitrary dirty incoming centre values, equal728L inputs, equal736outputs and final eight centres zero.",
+  "no_finite_replay": true,
+  "closed_bound_decisions": 1,
+  "remaining": [
+    "Current full prefix/suffix typed suppliers and all omitted adapters.",
+    "Current WellLabelled/key transport is bank\u2019s separate source proposal.",
+    "RecipesExact, interpreted frame chart choices, actual packed execution and expanded physical work endpoints.",
+    "Provider mixture, recurrence/profile validity and all-size/current-kappa theorem."
+  ],
+  "author_attribution": "PR509 and accepted scalar/centre source proofs with PR588/596 source attribution; OpenAI-assisted."
+}
