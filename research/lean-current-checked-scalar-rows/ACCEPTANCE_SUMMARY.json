@@ -1,0 +1,118 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_CURRENT_CHECKED_ROWS_SCALAR_BRIDGE",
+  "utc": "2026-10-12T15:16:44.101744+00:00",
+  "source_commit": "1123a1a1f477f1d60b0ae236e516bd1875e8840e",
+  "source_sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_CHECKED_ROWS_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "a0705f06272519210779ed204392e0ee745f41bcb4b50cb7f4f0d374695ccf8b"
+  },
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_checked_rows_proposal/gate/ACCEPTANCE.json",
+    "sha256": "da7e24112b758e81866f0468159e01da2b049c40c8924356ffa4b6c1c96c3c3b"
+  },
+  "current_scope": [
+    12,
+    12,
+    0
+  ],
+  "new_quadruple": {
+    "module": "CurrentCheckedScalarRows",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.lean",
+      "sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+      "bytes": 8397
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.olean",
+      "sha256": "0fc9de0270dc394685d8acdf338e1c290181ccea992803a695545e0150f9fd89",
+      "bytes": 234448
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current_checked_rows__CurrentCheckedScalarRows.lean.json",
+      "sha256": "8184412fc1040801efe8c2e242669d9cb71aa2737e1dbf55c22596186313fbec",
+      "bytes": 3975
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current_checked_rows__CurrentCheckedScalarRows.lean.log",
+      "sha256": "702eafebf113aa53b13a828d9d0abae03801c3648a571e164c7a9ad372ac2fe6",
+      "bytes": 3914
+    },
+    "receipt_dependencies": {
+      "CurrentScalarCentreBand": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_centre_band/CurrentScalarCentreBand.olean",
+        "olean_sha256": "156b18ad3b3864f382e30f0b8cba246daa03ec1aded0bcba9166da499bf9d595",
+        "source_sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d"
+      },
+      "Current535CoverageCheck": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.olean",
+        "olean_sha256": "eb2e8670748aebc79aaf11bfc10b024bc712182d17ac67ab6723b0405695f5fa",
+        "source_sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+      }
+    }
+  },
+  "probes": [
+    {
+      "declaration": "CurrentMain.CurrentCheckedScalarRows.decoded_admissible",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentCheckedScalarRows.checked_rows_sound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentCheckedScalarRows.selected_forward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentCheckedScalarRows.selected_forward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentCheckedScalarRows.selected_backward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentCheckedScalarRows.selected_backward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "timing": {
+    "started_utc": "2026-10-12T15:10:24.657521+00:00",
+    "finished_utc": "2026-10-12T15:10:31.063632+00:00",
+    "compile_seconds": 6.40610730201297,
+    "fifo_seconds": 0.000517581996973604,
+    "preparation_seconds": 1.8407393649977166
+  },
+  "claim": "Generic current Row n denominator-aware checkRows yields ordered rational decoding, actual WellLabelled and identical labRun, plus exact raw scalar run equality on arbitrary compatible payloads. Four accepted current997 A/B premises instantiate it without repeating their finite checks.",
+  "open_obligations": [
+    "Exact first45 relabel-key membership supplier is separate.",
+    "RecipesExact needs source-matched canonical/recipe interpretations; complex-linear maps may restrict scalars to rational without changing their functions.",
+    "Actual packed executor, omitted prefix/adapters, full physical work and full-word row/column/multiplier endpoint remain unproved."
+  ],
+  "historical_scope_record": "SOURCE_SCOPE preserves the independently reviewed pre-compile proposal; this separate result records acceptance."
+}
