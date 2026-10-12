@@ -1,0 +1,68 @@
+{
+  "status": "SOURCE_FROZEN_FIRST33_KEY_SUPPLIER_NO_COMPILER",
+  "utc": "2026-10-12T17:00:30.264759+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-first33-keys/Current9594CKFirst33KeyRestriction.lean",
+    "sha256": "6c5cff1f423448c3c7ce6fe6abd35536b60925143182acb5e6464aff0379241f",
+    "bytes": 6990
+  },
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-first33-keys/SOURCE_TRANSFORM.json",
+    "sha256": "eb9ff6694d6c3ff480810fa26e23727a80033d643f3ac6d2300f179207a30f58",
+    "bytes": 1903
+  },
+  "accepted_ck33": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck33/ACCEPTANCE.json",
+    "sha256": "459bc60a558fb84a294941489a9f1e3adfbaf3d12ad3eed3cea5bfacc17ced91",
+    "bytes": 57636
+  },
+  "ck33_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_COVERAGE33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "9ad345017571e3e5106eb16007cbf0acbdb2b77f9e7e9294b5043ea84c7b4020",
+    "bytes": 17055
+  },
+  "source_snapshot": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "source_ranges": {
+    "A": [
+      9899,
+      9922
+    ],
+    "B": [
+      9923,
+      9931
+    ]
+  },
+  "labels": "Actual Fin1079 CK labels0/labels24, no Fin997 selected corollary transfer.",
+  "predicate": "Four existential decoded streams with exact decodeRows equation, WellLabelled and ordered relabel membership restricted to old0/new2.",
+  "new_probes": [
+    "CurrentMain.Current9594CKFirst33KeyRestriction.selected_forward_A",
+    "CurrentMain.Current9594CKFirst33KeyRestriction.selected_forward_B",
+    "CurrentMain.Current9594CKFirst33KeyRestriction.selected_backward_A",
+    "CurrentMain.Current9594CKFirst33KeyRestriction.selected_backward_B"
+  ],
+  "finite_decisions": 0,
+  "source_projection": "Literal key-only simp reuses accepted exact24/9 lists, with8 child0 relabels per orientation. Does not reevaluate labels, catalog, checkRows or denominators.",
+  "authority": "Root via integration2026-10-12T16:57:08 authorizes smallest current CK decoded key/label bridge and first bounded check after exact science/API and binding review.",
+  "next_owner": "/root/prove_main_bank_routing",
+  "prospective_scope": {
+    "total_local": 15,
+    "retained_local": 14,
+    "fresh": 1,
+    "external_pairs": 2232
+  },
+  "resource_plan": {
+    "hard_seconds": 60,
+    "hard_VM_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_VM_bytes": 3758096384,
+    "shared_serial_slot": 1,
+    "fresh_jobs_max": 1,
+    "async": false,
+    "stop": "First failure/review; no automatic retry or finite replay. One ordinary exact source-local repair only after independent source/failed-prestate review."
+  },
+  "operator_coordination": "Frame owns the exact selected[459] wrapper and subsequent RecipesExact/conjugation application. This root only supplies the decoded label/key premise; it needs no unused operator import.",
+  "open": [
+    "Actual recipes/T0/T2 chart identities and raw physical executor are separate.",
+    "Other providers, key0\u21923 after9931, omitted pre-A/phase/adapter actions and whole-word endpoint remain outside."
+  ]
+}

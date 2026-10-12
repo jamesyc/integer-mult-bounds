@@ -1,0 +1,61 @@
+{
+  "preimage": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-first45-key-restriction/Current535First45KeyRestriction.lean",
+    "sha256": "cd879d38afa254da1ed980da38070d1b8e0c6b284b53681b374d6f75d83f4de8",
+    "bytes": 6849
+  },
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-first33-keys/Current9594CKFirst33KeyRestriction.lean",
+    "sha256": "6c5cff1f423448c3c7ce6fe6abd35536b60925143182acb5e6464aff0379241f",
+    "bytes": 6990
+  },
+  "ordered_replacements": [
+    {
+      "before": "First45 current535",
+      "after": "First33 current9594 CK",
+      "count": 1
+    },
+    {
+      "before": "Conditional source kappa = 1584931111785787/1000000000000000000.",
+      "after": "Author-checked conditional source kappa = 400569730495803/250000000000000000.",
+      "count": 1
+    },
+    {
+      "before": "Current535First45KeyRestriction",
+      "after": "Current9594CKFirst33KeyRestriction",
+      "count": 6
+    },
+    {
+      "before": "Current535CoverageData",
+      "after": "Current9594CKCoverageData",
+      "count": 20
+    },
+    {
+      "before": "Current535CoverageCheck",
+      "after": "Current9594CKCoverageCheck",
+      "count": 4
+    },
+    {
+      "before": "Fin 997",
+      "after": "Fin 1079",
+      "count": 4
+    },
+    {
+      "before": "raw10691..10714",
+      "after": "raw9899..9922",
+      "count": 1
+    },
+    {
+      "before": "raw10715..10735",
+      "after": "raw9923..9931",
+      "count": 1
+    },
+    {
+      "before": "import CurrentCheckedScalarRows",
+      "after": "import CurrentCheckedScalarRows\nimport Current9594CKCoverageCheck",
+      "count": 1
+    }
+  ],
+  "inverse_exact": true,
+  "generic_proof_bodies": "Unchanged accepted private helper proof patterns under namespace transport. No new generic theorem novelty or second scalar/physical stream induction."
+}
