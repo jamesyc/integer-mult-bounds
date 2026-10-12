@@ -3,8 +3,8 @@
   "utc": "2026-10-12T17:46:54.456461+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/Current596CKFirst33Transport.lean",
-    "sha256": "bf2b8d4f7579f03095196eb79e2bb671dfa94b308271878e652307e4c05d9fc1",
-    "bytes": 6355
+    "sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+    "bytes": 6360
   },
   "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
   "author_checked_conditional_kappa": "16127213726553/10000000000000000",
@@ -164,7 +164,7 @@
     "sha256": "72068d41e2215ec76e8f7f4a2206a6ca2f637f37769b8456f2e727cb5df87bee",
     "bytes": 7686
   },
-  "shared_map_status": "Not yet kernel accepted; required before compiler binding.",
+  "shared_map_status": "Independently accepted, terminal dff7e486; exact current source c63e7f84.",
   "frame_binding": {
     "old": 1079,
     "current": 1082,
@@ -200,5 +200,10 @@
     "sha256": "2bc9e247266dea8f3f028ce7f9e2a115baeba83f7387fbfcf25e245a9a6425ae",
     "bytes": 4330
   },
-  "pre_A_boundary": "The full pre-A raw prefixes differ. Equality is only of all728 declared starting frame values and the selected33 rows. The mapped labels0/checkpoint24 are the theorem initializer; no current pre-A execution/physical entrance-state bridge is asserted."
+  "pre_A_boundary": "The full pre-A raw prefixes differ. Equality is only of all728 declared starting frame values and the selected33 rows. The mapped labels0/checkpoint24 are the theorem initializer; no current pre-A execution/physical entrance-state bridge is asserted.",
+  "ordinary_proof_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current596_ck_first33_transport/key_capture_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "81d3ad81ebd4ae6a45f543a0a76bb79100d8e7e1d56c86e7b647696504d4ea1a",
+    "bytes": 1874
+  }
 }

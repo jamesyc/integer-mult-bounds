@@ -76,8 +76,9 @@ theorem relabelsUse_map {n m : Nat} (f : Fin n → Fin m)
   cases e with
   | relabel r' a' b' =>
       change LemmaG.Event.relabel r' (f a') (f b') = LemmaG.Event.relabel r a b at eq
+      have hk := h r' a' b' he
       cases eq
-      exact ⟨congrArg f (h r' a' b' he).1, congrArg f (h r' a' b' he).2⟩
+      exact ⟨congrArg f hk.1, congrArg f hk.2⟩
   | add t s q => cases eq
   | scale t q => cases eq
   | copy t s a => cases eq

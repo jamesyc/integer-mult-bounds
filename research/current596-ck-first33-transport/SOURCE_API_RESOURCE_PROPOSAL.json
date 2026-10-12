@@ -1,15 +1,15 @@
 {
-  "status": "SOURCE_API_RESOURCE_PROPOSAL_PENDING_SHARED_MAP_TERMINAL",
+  "status": "SOURCE_API_RESOURCE_PROPOSAL_ORDINARY_PROOF_REPAIR",
   "utc": "2026-10-12T17:46:54.457143+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/Current596CKFirst33Transport.lean",
-    "sha256": "bf2b8d4f7579f03095196eb79e2bb671dfa94b308271878e652307e4c05d9fc1",
-    "bytes": 6355
+    "sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+    "bytes": 6360
   },
   "source_scope": {
     "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/SOURCE_SCOPE.json",
-    "sha256": "07d80a0aad3a62a8963202010fa8ac3fe1ee6ecb24c8bde1830a729618f32bcf",
-    "bytes": 10396
+    "sha256": "ead53ab8fbb7c869065f67a51768acdc05590b138639e781260f66803316a731",
+    "bytes": 10717
   },
   "imports": [
     "Current596CKCentre",
