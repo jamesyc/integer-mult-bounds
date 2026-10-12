@@ -1,0 +1,84 @@
+{
+  "status": "PASS_BOUNDED_CURRENT_HPE_LITERAL_COMPARISON_PENDING_GENERATION_TERMINAL",
+  "utc": "2026-10-12T17:31:36.560433+00:00",
+  "head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "result": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/RESULT.json",
+    "sha256": "ea6a0d7ca9c06e5a2b2a257670ddb6636ec3ba68aadce6e689e7f1817e0abc76",
+    "bytes": 21325
+  },
+  "new_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    }
+  },
+  "old_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    }
+  },
+  "frames": {
+    "old_count": 1079,
+    "new_count": 1082,
+    "old_ordered_prefix_identical": true,
+    "new_start728_identical": true
+  },
+  "children": {
+    "old_count": 3017,
+    "new_count": 3040,
+    "only_compared_ordinal": 0,
+    "key": [
+      0,
+      2
+    ],
+    "rank": 1,
+    "entire_record_equal": true,
+    "record_json_sha256": "1c3baf4a4a5fee2faf4bdd8e3a3f1e8294bfe7fa40403506a03fef4d331b49a0"
+  },
+  "first33": {
+    "raw_inclusive": [
+      9899,
+      9931
+    ],
+    "rows_each": 33,
+    "exact_both_directions": true,
+    "adds_each": 25,
+    "relabels_each": 8,
+    "preA_index": 9898
+  },
+  "centre": {
+    "raw_inclusive": [
+      12927,
+      13182
+    ],
+    "rows_each": 256,
+    "exact_both_directions": true
+  },
+  "proof_reuse_boundary": "Accepted Fin1079 selected facts remain typed at1079. Identical source rows/tables-prefix allow a separately proved1082-label embedding/source binding; no cast, finite replay, operator catalog completeness or full HPE stream theorem is inferred.",
+  "next": "Prepare minimal injective label-domain transport and exact input mapping, reusing accepted CK33/check-row proofs without repeating catalog/row decisions, after parent scope choice.",
+  "compiler_executed": false
+}

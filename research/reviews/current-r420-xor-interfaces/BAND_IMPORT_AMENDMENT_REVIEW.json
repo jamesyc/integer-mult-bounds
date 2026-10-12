@@ -1,0 +1,55 @@
+{
+  "status": "PASS_EXACT_ONE_IMPORT_SOURCE_API_AMENDMENT",
+  "utc": "2026-10-12T17:32:43.137718+00:00",
+  "manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/IMPORT_SIMPLIFICATION.json",
+    "sha256": "d10e73fc13ac54823575b40a5db1d415dcd4bcc6e4ea591a2c78e025c961b0ce",
+    "bytes": 2824
+  },
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/CurrentR420PhaseBXor.lean",
+    "sha256": "5ab8ca016e7e53de76b13ef553fe85412d7c9100b30851fa4a81c31ad77d1c11",
+    "bytes": 5712
+  },
+  "unchanged_generic": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/BitXorTwoLevelCleanup.lean",
+    "sha256": "8ccef0a189360038b140c1a9e0ab1688d2e32baab89b828439be963b798daaf2",
+    "bytes": 4265
+  },
+  "original_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-xor-interfaces/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "4bfc53e28591b84936bc83e63bc37251a28bf3c618cd8532a2ea172421897eb3",
+    "bytes": 3306
+  },
+  "band_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-b-band-facts/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "e4e44ace8170a908622aa1092728b1ea4e101279efcd71bb88141cb98b0b3e3c",
+    "bytes": 5141
+  },
+  "preimages": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/pre_band_import/BitXorTwoLevelCleanup.lean",
+      "sha256": "8ccef0a189360038b140c1a9e0ab1688d2e32baab89b828439be963b798daaf2",
+      "bytes": 4265
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/pre_band_import/CurrentR420PhaseBXor.lean",
+      "sha256": "14e6b1cf0d903bdd97dc87fe5fafc36a5a8b068575e5624851b5e523ee8a6c2f",
+      "bytes": 5715
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/pre_band_import/SOURCE_SCOPE.json",
+      "sha256": "6f191a3e455b7a43d922e24016a22e60ece498e85e2dde27ade8060e18daed89",
+      "bytes": 2004
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/pre_band_import/SOURCE_TRANSFORMS.json",
+      "sha256": "b8679c3b89bd375d9988fa29d24a08ef2430b1bb28e07bd3f82afaf94fc140e2",
+      "bytes": 4559
+    }
+  ],
+  "inverse": "Only import CurrentR420BoundaryCheck becomes CurrentR420BBandCheck. All selected seven theorem/proof bodies and generic four-fact source bytes remain exact.",
+  "api": "The now-accepted band root supplies phase_domains, first/middle/last band predicates, no_target_operands and no_self_reads under the identical CurrentMain.CurrentR420Boundary namespace and imports the same Data through accepted frame/index roots. No scatter/temp result is used by this selected adapter.",
+  "remaining": "Exact DFS/runtime guard still belongs to integration. Actual A/C, D equality, scatter lifecycle and physical semantics stay separate.",
+  "compiler_executed": false
+}

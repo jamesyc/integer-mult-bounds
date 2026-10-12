@@ -1,0 +1,198 @@
+{
+  "status": "OWNER_PASS_HPE_SUFFIX_PENDING_INDEPENDENT_TERMINAL",
+  "utc": "2026-10-12T17:31:36.558973+00:00",
+  "head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "source_commit": "7a6bdb6df64ff74e8eb944118cd59a71b13549a4",
+  "result": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/RESULT.json",
+    "sha256": "ea6a0d7ca9c06e5a2b2a257670ddb6636ec3ba68aadce6e689e7f1817e0abc76",
+    "bytes": 21325
+  },
+  "driver": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/run_ck_hpe_generation.py",
+    "sha256": "73b44351bb110ef02653e52dad023811f1323bd81bcb201c1f0980878875dbe6",
+    "bytes": 15867
+  },
+  "plan": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/HPE_GENERATION_RESOURCE_PROPOSAL.json",
+    "sha256": "d1f0c6a8cea2980a84786488c44fb0dc950059cd781340a10508ee7f58e7c570",
+    "bytes": 14226
+  },
+  "inputs": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/HPE_GENERATION_INPUTS.json",
+    "sha256": "c4f7afee2dcfdd33e3e7444bcca025a8ac5b5c493d905e1933de23cfd91716da",
+    "bytes": 4865
+  },
+  "admission": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/EXECUTION_ADMISSION.json",
+    "sha256": "16369f6a5ac19bee61c87d8bef888f0ef487f0a0ad515af7f78d2559680cc037",
+    "bytes": 2994
+  },
+  "session": 94565,
+  "session_exit": 0,
+  "timing": {
+    "admission_read_utc": "2026-10-12T17:27:38+00:00",
+    "invocation_utc": "2026-10-12T17:27:44.973348222+00:00",
+    "requested_utc": "2026-10-12T17:27:45.283951+00:00",
+    "slot_acquired_utc": "2026-10-12T17:27:45.284755+00:00",
+    "finished_utc": "2026-10-12T17:31:31.251985+00:00",
+    "queue_seconds": 0.0008040530083235353
+  },
+  "metrics": {
+    "total_child_wall_seconds": 224.47469181100314,
+    "cpu_user_seconds": 223.995946,
+    "cpu_system_seconds": 0.13807399999999995,
+    "peak_process_vm_bytes": 51642368,
+    "peak_process_rss_bytes": 38182912
+  },
+  "stages": [
+    {
+      "name": "ck-hpe",
+      "started_utc": "2026-10-12T17:27:45.408723+00:00",
+      "finished_utc": "2026-10-12T17:27:45.613952+00:00",
+      "seconds": 0.20525110799644608,
+      "cpu_user_seconds": 0.09168799999999999,
+      "cpu_system_seconds": 0.013067999999999996,
+      "process_peaks": {
+        "79": {
+          "vm_peak_bytes": 30048256,
+          "rss_peak_bytes": 16969728,
+          "threads": 1
+        }
+      },
+      "peak_group_rss_bytes": 15826944,
+      "max_sum_vmpeaks_bytes": 30048256,
+      "log_sha256": "468d726d5711732055e53dca13a5f05abc843b541310de9fdf5a158b4f480e7c"
+    },
+    {
+      "name": "ck-localize",
+      "started_utc": "2026-10-12T17:27:45.855439+00:00",
+      "finished_utc": "2026-10-12T17:27:46.971137+00:00",
+      "seconds": 1.1157202489994233,
+      "cpu_user_seconds": 1.011171,
+      "cpu_system_seconds": 0.03173500000000001,
+      "process_peaks": {
+        "128": {
+          "vm_peak_bytes": 47013888,
+          "rss_peak_bytes": 33415168,
+          "threads": 1
+        }
+      },
+      "peak_group_rss_bytes": 33415168,
+      "max_sum_vmpeaks_bytes": 47013888,
+      "log_sha256": "cd816629815255594f5bec00b807f173f3da62decaa2e1c12ea44c4e424e872c"
+    },
+    {
+      "name": "ck-emit",
+      "started_utc": "2026-10-12T17:27:47.230865+00:00",
+      "finished_utc": "2026-10-12T17:27:48.246860+00:00",
+      "seconds": 1.0160164760018233,
+      "cpu_user_seconds": 0.943076,
+      "cpu_system_seconds": 0.01188399999999995,
+      "process_peaks": {
+        "177": {
+          "vm_peak_bytes": 51642368,
+          "rss_peak_bytes": 38182912,
+          "threads": 1
+        }
+      },
+      "peak_group_rss_bytes": 36605952,
+      "max_sum_vmpeaks_bytes": 51642368,
+      "log_sha256": "7d6afaf527135961259f82ef6cbe828622d75f4702a342862d47768cfbeab9f3"
+    },
+    {
+      "name": "ck-recipes",
+      "started_utc": "2026-10-12T17:27:48.631013+00:00",
+      "finished_utc": "2026-10-12T17:31:30.768610+00:00",
+      "seconds": 222.13770397800545,
+      "cpu_user_seconds": 221.950011,
+      "cpu_system_seconds": 0.08138699999999999,
+      "process_peaks": {
+        "226": {
+          "vm_peak_bytes": 41295872,
+          "rss_peak_bytes": 28643328,
+          "threads": 1
+        }
+      },
+      "peak_group_rss_bytes": 28643328,
+      "max_sum_vmpeaks_bytes": 41295872,
+      "log_sha256": "424b1f893a78b4a90fc26add59f0d1512ad3df1e90aa12ec37c5cc28ec565c07"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-hpe/FULL-WORD.json.gz",
+      "sha256": "53738a5570202156abbcc492b22067d0c12f92556a306c2e42d6fe5bf9b1edde",
+      "bytes": 37327
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-hpe/HPE-CONSTRUCTION.json",
+      "sha256": "3d4d0c933eb436c8c30f0370287755c485fe92e94a2bb8a55ffff45e77f0963b",
+      "bytes": 434
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/FULL-WORD.json.gz",
+      "sha256": "53738a5570202156abbcc492b22067d0c12f92556a306c2e42d6fe5bf9b1edde",
+      "bytes": 37327
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/SCALAR-FRAME-AUDIT.json",
+      "sha256": "b25646333bfce269b74b203f51e49855baa29825a5dbca3b1ce020dd89e0e9e1",
+      "bytes": 4954
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-CHECKS.json",
+      "sha256": "0b02de5ed94ae977cf10b752f5eb7b48e383246277c1c0d3b9152fcde59bda13",
+      "bytes": 922
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-REVIEW.json",
+      "sha256": "6113027911881280f8dfa6740321e3b3b70e075564d6e0bc2b3e18f1c437bf5f",
+      "bytes": 657
+    }
+  ],
+  "limits": {
+    "reason": "Conservative unchanged one-attempt bounds. Prior pre-HPE generation recipes measured199.977137s/51,351,552VM; current HPE catalog differs, so this is a baseline only, with no predicted fit or speedup.",
+    "shared_slots": 1,
+    "parallel_children": 1,
+    "hard_per_process_address_space_bytes": 4294967296,
+    "review_per_process_vm_bytes": 3758096384,
+    "hard_per_job_wall_seconds": 600,
+    "review_per_job_wall_seconds": 480,
+    "hard_total_wall_seconds": 2100,
+    "max_output_directory_bytes": 536870912,
+    "max_single_file_bytes": 134217728,
+    "core_dump_bytes": 0,
+    "monitor": "Process-group wall/VM/RSS/thread count and actual child processes; per-process cap, record group memory without claiming an aggregate4GiB cap.",
+    "stop": "First nonzero exit, hash mismatch, unexpected output, missing source, resource review threshold or hard limit; retain all completed outputs and logs. No automatic retry or skipped successor."
+  },
+  "retained_checks": {
+    "ck-hpe": "All38 helper changes must be entering helpers, have exactly one first cleanup gate, use disjoint touched registers and exact join dimension<9; profile/width nonnegativity and exact output content hash remain intrinsic.",
+    "ck-localize": "Fresh forward/inverse-transpose arbitrary-dirt728-column endpoint assertions; exact HPE tail/rest split, native label chains and rank profile, final-frame cleanup exclusion, all dyadic/scale checks.",
+    "ck-emit": "Both reflected local programs replay scalar rows; arbitrary original columns and private centre clearing retained, HPE cleanup-tail and terminal-indexed wrapper syntax emitted exactly.",
+    "ck-recipes": "Unchanged exact Clifford generator checks all generated frames/children/tableaux/global phases and endpoint adapters; the current catalog hash is independently compared."
+  },
+  "excluded_verification": [
+    "Separate hpe_controls_atc negative-control process from full verify is not part of the four minimum artifact CLIs; no complete provider admission claim.",
+    "Independent hpe_audit_local mutation checks and hpe_adapters_local normalized wrapper certificates are not generated by this minimum scope.",
+    "All-provider owner/width/window admission, global emitted word, invoice/assembly and any selected Lean literal transport remain open."
+  ],
+  "predecessor_replayed": false,
+  "compiler_executed": false,
+  "conditional_kappa_context": "16127213726553/10000000000000000"
+}
