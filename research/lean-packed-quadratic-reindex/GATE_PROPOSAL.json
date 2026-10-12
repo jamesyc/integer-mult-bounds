@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_ONLY_PENDING_PARITY_ACCEPTANCE_AND_REVIEW",
+  "direct_imports": [
+    "PackedParityReindex",
+    "Mathlib.Tactic.FinCases"
+  ],
+  "prospective_scope": {
+    "total": 13,
+    "retained": 12,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "expected_probes": [
+    "CurrentMain.PackedQuadraticReindex.upper_parity_value",
+    "CurrentMain.PackedQuadraticReindex.quadratic_value",
+    "CurrentMain.PackedQuadraticReindex.diagonal_reindex"
+  ],
+  "finite_work": "Nine coordinate-index branches with symbolic address bits, plus one four-case Boolean fact. No512-state or selected-record decision.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "no_compiler_admission": true
+}
