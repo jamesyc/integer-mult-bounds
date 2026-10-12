@@ -1,0 +1,103 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW_AND_PREREQUISITE_TERMINALS",
+  "utc": "2026-10-12T18:03:20.646876+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-first33-packed-events/Current596CKFirst33PackedEvents.lean",
+    "sha256": "55dd3c495b2ac415506b02ce3d1acb674febe5189cd07273615a33aca0b52c31",
+    "bytes": 7003
+  },
+  "source_interface_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_FIRST33_PACKED_EVENT_INTERFACE_PROPOSAL.json",
+    "sha256": "4574a0495fc3dabcb789ecf67cbfd6d1cd2a67d73eade4e850f1e9ac44c4b263",
+    "bytes": 6736
+  },
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "conditional_kappa": "16127213726553/10000000000000000",
+  "current_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    }
+  ],
+  "generation_independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c",
+    "bytes": 6948
+  },
+  "event_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/Current596CKFirst33Transport.lean",
+    "sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+    "bytes": 6360
+  },
+  "packed_recipe_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current5996-ck-packed-recipe/Current5996CKPackedRecipe.lean",
+    "sha256": "bcba45749abe4a289b487fac2cd2ed4f8b9fcb2b7b69574e00a65a1c2af43392",
+    "bytes": 4524
+  },
+  "accepted_generic_proof_pattern": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-first45-recipes/Current535First45Recipes.lean",
+    "sha256": "a817c9368c5dfeadd7ad8b377f9a9ba4ed3b0f2abf7bd46b0cea81b347f9b4c1",
+    "bytes": 6439
+  },
+  "exact_scope": [
+    38,
+    37,
+    1
+  ],
+  "cached_pairs": 2664,
+  "new_axiom_probes": [
+    "CurrentMain.Current596CKFirst33PackedEvents.frameTwo_apply",
+    "CurrentMain.Current596CKFirst33PackedEvents.recipe02_exact",
+    "CurrentMain.Current596CKFirst33PackedEvents.recipes_exact",
+    "CurrentMain.Current596CKFirst33PackedEvents.keyed_block",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B"
+  ],
+  "printed_selected_types": [
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A",
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B",
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A",
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B"
+  ],
+  "finite_decisions": 0,
+  "new_inductions": 0,
+  "fields_and_order": "Both24/9 orientations at current raw9899..9931. Recipe uses exactly the source right/C0/left chronological packed circuit; T2 is explicitly the payload-reindexed canonical K C0 K inverse.",
+  "premises": [
+    "All four selected corollaries explicitly retain hzero:T0=refl and htwo:T2=frameTwo. Their actual printed types are required at terminal.",
+    "Arbitrary fallback recipes are allowed outside the sole used key0\u21922.",
+    "State at the raw9899 block entry is arbitrary and interpreted under supplied current labels0; no preceding source execution is supplied."
+  ],
+  "resource_plan": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "mode": "Single fresh symbolic root; retain all37 local imports,2,664cached pairs and all prior protected outputs. No finite row replay.",
+    "remaining_guards": "Actual prerequisite terminal quadruples, exact current/runtime import union and final committed binding guard."
+  },
+  "authority": "Root18:02 authorizes preparation and first38/37/1 bounded check after both prerequisite terminals and independent source/API/binding reviews.",
+  "exclusions": [
+    "Actual source Python/vectorized emitted program executor equality to this typed packed Event interpreter. Naming a Lean function packedRun or unfolding physRun is not that supplier.",
+    "Pre-A execution from the actual start to the supplied current first33 labels0/state; the raw9899 start is not a whole-program prefix.",
+    "Omitted scalar/endpoint adapters, expanded physical work-register domain and temporary lifecycle.",
+    "Whole stream/profile/invoice/provider and all-size inherited endpoint conditions, including hstart and unit-row premises where PR593 is reused."
+  ],
+  "event_source_ordinary_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current596_ck_first33_transport/key_capture_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "81d3ad81ebd4ae6a45f543a0a76bb79100d8e7e1d56c86e7b647696504d4ea1a",
+    "bytes": 1874
+  }
+}
