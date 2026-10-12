@@ -1,0 +1,152 @@
+{
+  "status": "READ_ONLY_MEMORY_DIAGNOSIS_AND_PROPOSAL_NO_RETRY_OR_EDIT",
+  "utc": "2026-10-12T11:15:02.071631+00:00",
+  "stop": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_scaling/STOP_ACCEPTANCE.json",
+    "sha256": "f4d71b03a691e14ccb223fbc7a45cc62d2734b83a49cec57c59a5aa6fdf00bfd",
+    "bytes": 32960
+  },
+  "baseline": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_next_check/ACCEPTANCE.json",
+    "sha256": "d258b485364298565fa543e3e81350ebb6fafedcf66bc7e7310e21f5ac0f1dcd",
+    "bytes": 23928
+  },
+  "observed": {
+    "ChunkA": {
+      "module": "F19CoverageChunkA",
+      "compile_seconds": 15.396669945999747,
+      "queue_seconds": 0.0005139439963386394,
+      "process_observations": {
+        "samples": 153,
+        "peak_vm_bytes": 3781419008,
+        "peak_rss_bytes": 2030108672,
+        "peak_threads": 10
+      },
+      "started_utc": "2026-10-12T11:10:29.728090+00:00",
+      "finished_utc": "2026-10-12T11:10:45.124763+00:00",
+      "profiler_text": "\n\t.olean serialization 4.77ms\n\tattribute application 0.152ms\n\tcompilation 3.63ms\n\telaboration 11.9s\n\tfix level params 0.407ms\n\tinstantiate metavars 0.282ms\n\tinterpretation 0.275ms\n\tlinting 114ms\n\tparsing 12.5ms\n\tprocess pre-definitions 4ms\n\tshare common exprs 0.814ms\n\ttactic execution 38.6ms\n\ttype checking 51.7s\n\ttypeclass inference 43.5ms\n"
+    },
+    "previous64": {
+      "compile_seconds": 11.280783302994678,
+      "process_observations": {
+        "samples": 112,
+        "peak_vm_bytes": 3108790272,
+        "peak_rss_bytes": 2035896320,
+        "peak_threads": 6
+      },
+      "command": [
+        "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/bin/lean",
+        "-s",
+        "65536",
+        "-j",
+        "1",
+        "-o",
+        "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextCheck.olean",
+        "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextCheck.lean"
+      ]
+    },
+    "VM_difference_bytes": 672628736,
+    "RSS_difference_bytes": -5787648,
+    "peak_thread_difference": 4,
+    "time_interpretation": "All figures are whole-process sampled maxima. They need not occur simultaneously."
+  },
+  "installed_source_pins": {
+    "async_option": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/CoreM.lean",
+      "sha256": "5b7b4b32959ecf3c55e1bb99b638e33ffa992e6eb097c8d3da36190b914fe894",
+      "bytes": 34152
+    },
+    "theorem_scheduling": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Elab/MutualDef.lean",
+      "sha256": "a4c376c478b23670a7b5c7cfe6807b8fda822e9f00e0209e5137d7130b0dd4af",
+      "bytes": 65060
+    },
+    "linter_scheduling": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Elab/Command.lean",
+      "sha256": "453fa5607c18e9a7cc290c670ce194b236a5966e6b38a41c832f6e52b6ff88de",
+      "bytes": 37548
+    },
+    "profiler": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Util/Profile.lean",
+      "sha256": "e49b40c437dbae29d004fbbf2256dc3e982c4503db2d30c59f8cdfd80aa2c6a6",
+      "bytes": 1922
+    },
+    "CLI_async_override": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Lean/Elab/Frontend.lean",
+      "sha256": "d53de0aa2ac556c3b13cdedadd6ef57f21a71aa4bb4d01009751077a0e598ca7",
+      "bytes": 8534
+    }
+  },
+  "source_lines": {
+    "CoreM.lean": [
+      34,
+      45
+    ],
+    "Elab/MutualDef.lean": [
+      1075,
+      1087
+    ],
+    "Elab/Command.lean": [
+      376,
+      383
+    ],
+    "Elab/Frontend.lean": [
+      153,
+      154
+    ]
+  },
+  "established": "Elab.async has builtin default false, documented as overridden to true by the CLI when unset; non-rfl theorem bodies and linters have async paths. These sources do not set that option. The runner already pins -j1/-s65536. ChunkA has15 printed theorem goals versus7 in the earlier64-row check.",
+  "hypothesis": "Additional live theorem/linter tasks and virtual stacks may explain the VM increase despite slightly lower peak RSS. No retained memory maps or allocation trace establishes the responsible component, so no definite heap/stack attribution follows.",
+  "reduction_profile_limit": "Type-checking cumulative51.7s versus15.3967 wall seconds does not separate label state from catalog work and must not be read as elapsed time.",
+  "recommended_next_scope": {
+    "remaining_roots": [
+      "F19CoverageChunkBDirect",
+      "F19CoverageChunkBSplit"
+    ],
+    "closure_each": {
+      "local": 12,
+      "current": 11,
+      "pending": 1
+    },
+    "union": {
+      "local": 13,
+      "current": 11,
+      "pending": 2
+    },
+    "proposed_change": "After separate parent review only, preserve both original unattempted sources and add exactly set_option Elab.async false to both. Keep identical imports/data/goals, proved factorization, profiling, caps and root count.",
+    "reason": "Serialize theorem elaboration without changing the finite propositions or splitting into additional compiler jobs; retain the already accepted CheckDecomposition for the planned Direct/Split comparison.",
+    "no_guarantee": "Lower VM or faster execution is not predicted. Stop on the first failure/review. No accepted source is retried.",
+    "remaining_job_ceiling": 2,
+    "caps": {
+      "hard_seconds_per_module": 60,
+      "hard_VM_bytes": 4294967296,
+      "review_seconds_per_module": 45,
+      "review_VM_bytes": 3758096384,
+      "serial_client": true,
+      "shared_slots_used": 1,
+      "stop_on_first_failure_or_review": true,
+      "automatic_retry": false
+    }
+  },
+  "pending_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageChunkBDirect.lean",
+      "sha256": "9894850baf40c1c7ed1837fdc9530f45c4beab33fb0307cce2fdb96ee69ba87a",
+      "bytes": 2432
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/scaling_experiment/F19CoverageChunkBSplit.lean",
+      "sha256": "ed6299383974d3d1520f28c7f90bc605db9d7440f25d5662ef8fd7275486e9c9",
+      "bytes": 3360
+    }
+  ],
+  "still_missing_measurement": [
+    "Child1/2 finite coverage",
+    "Direct/Split performance comparison",
+    "Per-path measured reduction hotspot"
+  ],
+  "terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_SCALING_REVIEW_STOP_TERMINAL_REVIEW.json",
+    "sha256": "ba7c8996f8b04ea0f5656206b2d5daff35b51fda87c05c91e09c1efce61f8b83"
+  }
+}
