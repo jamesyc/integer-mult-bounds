@@ -1,0 +1,294 @@
+{
+  "status": "READ_ONLY_SOURCE_PROJECTION_PASS",
+  "utc": "2026-10-12T15:11:23.172839+00:00",
+  "raw": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+    "bytes": 184042
+  },
+  "existing_typed_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/Current535CoverageData.lean",
+    "sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2",
+    "bytes": 75035
+  },
+  "selected_blocks": [
+    {
+      "list": "forwardA",
+      "raw_inclusive": [
+        10691,
+        10714
+      ],
+      "rows": 24,
+      "relabels": 12,
+      "adds": 12,
+      "ordered_relabel_occurrences": [
+        [
+          10691,
+          512,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10693,
+          513,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10695,
+          522,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10697,
+          510,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10699,
+          511,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10701,
+          524,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10703,
+          560,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10705,
+          561,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10707,
+          570,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10709,
+          558,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10711,
+          559,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10713,
+          572,
+          0,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "list": "forwardB",
+      "raw_inclusive": [
+        10715,
+        10735
+      ],
+      "rows": 21,
+      "relabels": 2,
+      "adds": 19,
+      "ordered_relabel_occurrences": [
+        [
+          10717,
+          582,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10722,
+          584,
+          0,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "list": "backwardA",
+      "raw_inclusive": [
+        10691,
+        10714
+      ],
+      "rows": 24,
+      "relabels": 12,
+      "adds": 12,
+      "ordered_relabel_occurrences": [
+        [
+          10691,
+          512,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10693,
+          513,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10695,
+          522,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10697,
+          510,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10699,
+          511,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10701,
+          524,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10703,
+          560,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10705,
+          561,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10707,
+          570,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10709,
+          558,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10711,
+          559,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10713,
+          572,
+          0,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "list": "backwardB",
+      "raw_inclusive": [
+        10715,
+        10735
+      ],
+      "rows": 21,
+      "relabels": 2,
+      "adds": 19,
+      "ordered_relabel_occurrences": [
+        [
+          10717,
+          582,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          10722,
+          584,
+          0,
+          2,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "interpretation": "Typed relabel source indices/registers/directed labels/ordinal/rank equal current raw climbs. ADD rows have no relabel key. Existing full literal and signed-coefficient reviews remain the binding; no generator or supplier execution.",
+  "existing_literal_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/DECODER_AUDIT.json",
+    "sha256": "b0f4e83d8937ab8c93ddad21d1b1fd06d7f25f74ef4d1ad8e42bcb41d567e6b0",
+    "bytes": 2377
+  }
+}

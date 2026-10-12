@@ -1,0 +1,104 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_SCIENCE_AND_DEPENDENCY_TERMINAL",
+  "utc": "2026-10-12T15:11:23.175423+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-first45-key-restriction/Current535First45KeyRestriction.lean",
+    "sha256": "cd879d38afa254da1ed980da38070d1b8e0c6b284b53681b374d6f75d83f4de8",
+    "bytes": 6849
+  },
+  "source_commit_base": "4d842a40b6374c322d56938b21acbfe5ad3d1877",
+  "current_main": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "direct_imports": [
+    "CurrentCheckedScalarRows"
+  ],
+  "dependency_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-checked-scalar-rows/CurrentCheckedScalarRows.lean",
+    "sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+    "bytes": 8397
+  },
+  "existing_current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_checked_rows_proposal/SOURCE_CURRENT_INVENTORY.json",
+    "sha256": "ecb4a0961370c8cc7b99b08a50b4ee2ea8d1ebd7e0b79a70d5dfbd7bb068195d",
+    "bytes": 24019
+  },
+  "actual_local_status_at_preparation": {
+    "total": 13,
+    "current": 11,
+    "pending": 2
+  },
+  "future_one_root_scope_after_bridge_acceptance": {
+    "total": 13,
+    "current": 12,
+    "pending": 1
+  },
+  "external_pairs": 2232,
+  "external_import_delta": 0,
+  "local_topological_order": [
+    "PR509Stream",
+    "F19CoverageStatement",
+    "F19CoveragePilotData",
+    "F19CoveragePilotCheck",
+    "F19ScalarEventInterpretation",
+    "F19ScalarPilotComposition",
+    "F19CentreBandIndependence",
+    "CanonicalFrameCoverage",
+    "CurrentScalarCentreBand",
+    "Current535CoverageData",
+    "Current535CoverageCheck",
+    "CurrentCheckedScalarRows",
+    "Current535First45KeyRestriction"
+  ],
+  "new_probes": [
+    "CurrentMain.Current535First45KeyRestriction.selected_forward_A",
+    "CurrentMain.Current535First45KeyRestriction.selected_forward_B",
+    "CurrentMain.Current535First45KeyRestriction.selected_backward_A",
+    "CurrentMain.Current535First45KeyRestriction.selected_backward_B"
+  ],
+  "new_finite_decisions": 0,
+  "new_literal_rows": 0,
+  "literal_key_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-first45-key-restriction/LITERAL_KEY_AUDIT.json",
+    "sha256": "50ecb680b8cc0cfeabdcff9ce7928bf7ab1646a1a8f627840403deec80ab2f6b",
+    "bytes": 4919
+  },
+  "existing_first45_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_COVERAGE45_TERMINAL_REVIEW.json",
+    "sha256": "4d82a51ecd7215ab1a14b5e1d1c795a2179fe17495d6fcce3f092e7a2a59486f",
+    "bytes": 18046
+  },
+  "preserved_current180_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_COVERAGE180_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "e552d5b155636050bf73bd9a392a2f03834498cd02feeac799a00e925aa8933d",
+    "bytes": 4740
+  },
+  "statements": "For each existing forward/backward A and B block, existence of exact rational decoded events, upstream WellLabelled at labels0/24 and universal ordered relabel-key restriction old=0,new=2. All statement labels are Fin997.",
+  "proof_reuse": "Use CurrentCheckedScalarRows.checked_rows_sound for decoder totality and WellLabelled. Definitional literal key projections use simp only; no repeated checkRows, label state, dimension, child catalog or scalar endpoint decision. New private structural decoder membership induction preserves constructor identity only.",
+  "not_supplied": [
+    "Actual rec(0,2) agrees with accepted interpreted child459 operator on all payloads.",
+    "Compatible current chart assignment T0/T2 and complex-to-rational restriction.",
+    "Actual serialized Event/packed address/full physical-work interpretation.",
+    "Omitted pre-A source/adapters or full stream/row-column endpoint."
+  ],
+  "resource_proposal": {
+    "fresh_jobs": 1,
+    "precondition": "CurrentCheckedScalarRows terminal PASS plus exact source/API and binding review",
+    "shared_serial_slots": 1,
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "options": [
+      "Elab.async false"
+    ],
+    "stop": "First failure or review event; no automatic retry or accepted-root replay",
+    "runtime": "Existing official Lean4.21/shared checker and exact2232 cache inventory; no new dependencies",
+    "baseline": "Small structural source with90 existing list occurrences. Fresh import/object load and compiler time remain unmeasured; no fit/speedup claim."
+  },
+  "compiler_admitted": false,
+  "source_kappa": {
+    "numerator": 1584931111785787,
+    "denominator": 1000000000000000000,
+    "decimal": "0.001584931111785787",
+    "scope": "Author-read conditional selected-source provenance only; no kappa theorem in this module."
+  }
+}

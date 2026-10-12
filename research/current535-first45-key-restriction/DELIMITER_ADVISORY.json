@@ -1,0 +1,15 @@
+{
+  "status": "ADVISORY_NO_ASCII_IMBALANCE",
+  "reason": null,
+  "advisory_only": true,
+  "parser_or_kernel_claim": false,
+  "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+  "issue_count": 0,
+  "issues": [],
+  "issue_output_limit": 32,
+  "bytes_read": 6849,
+  "source_sha256": "cd879d38afa254da1ed980da38070d1b8e0c6b284b53681b374d6f75d83f4de8",
+  "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-first45-key-restriction/Current535First45KeyRestriction.lean",
+  "elapsed_seconds": 0.01537317100155633,
+  "max_source_bytes": 1048576
+}
