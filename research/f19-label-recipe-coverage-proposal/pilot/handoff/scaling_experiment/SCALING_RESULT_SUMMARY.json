@@ -1,0 +1,212 @@
+{
+  "status": "OWNER_SEALED_COMPLETED_SIX_JOB_EXPERIMENT_TERMINAL_REVIEW_PENDING",
+  "utc": "2026-10-12T11:33:00.859073+00:00",
+  "source_commit": "553b18e198d0272a10b509e7082fbf32d5079846",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_scaling_serial_B/ACCEPTANCE.json",
+    "sha256": "879cf85dcef8bae75563ac0d33ccac3c38b0b0ae81a2b2b9f7007ef628e7eef3"
+  },
+  "local_scope": {
+    "modules": 13,
+    "current": 13,
+    "initially_current": 7,
+    "new_checks_total": 6,
+    "extra_repetitions": 0
+  },
+  "measurements": [
+    {
+      "module": "F19CoverageCheckDecomposition",
+      "compile_seconds": 3.1912868360013817,
+      "queue_seconds": 0.0004921709987684153,
+      "process_observations": {
+        "samples": 32,
+        "peak_vm_bytes": 2429734912,
+        "peak_rss_bytes": 1505718272,
+        "peak_threads": 5
+      },
+      "started_utc": "2026-10-12T11:10:02.192015+00:00",
+      "finished_utc": "2026-10-12T11:10:05.383305+00:00",
+      "profiler_text": "\n\t.olean serialization 4.87ms\n\tattribute application 0.0752ms\n\tblocked 8.7ms\n\tcompilation 6.84ms\n\telaboration 151ms\n\tfix level params 0.0732ms\n\tinstantiate metavars 0.134ms\n\tlinting 22.6ms\n\tparsing 1.27ms\n\tprocess pre-definitions 7.11ms\n\tshare common exprs 0.271ms\n\tsimp 45.8ms\n\ttactic execution 45.7ms\n\ttype checking 2.84ms\n\ttypeclass inference 2.69ms\n"
+    },
+    {
+      "module": "F19CoverageBatchData",
+      "compile_seconds": 4.447700379001617,
+      "queue_seconds": 0.0005148790005478077,
+      "process_observations": {
+        "samples": 44,
+        "peak_vm_bytes": 2102853632,
+        "peak_rss_bytes": 1530523648,
+        "peak_threads": 3
+      },
+      "started_utc": "2026-10-12T11:10:10.253263+00:00",
+      "finished_utc": "2026-10-12T11:10:14.700978+00:00",
+      "profiler_text": null
+    },
+    {
+      "module": "F19CoverageBoundary192",
+      "compile_seconds": 3.526930079999147,
+      "queue_seconds": 0.0009769479947863147,
+      "process_observations": {
+        "samples": 36,
+        "peak_vm_bytes": 3110060032,
+        "peak_rss_bytes": 1528090624,
+        "peak_threads": 9
+      },
+      "started_utc": "2026-10-12T11:10:21.406394+00:00",
+      "finished_utc": "2026-10-12T11:10:24.933308+00:00",
+      "profiler_text": "\n\t.olean serialization 15.9ms\n\tattribute application 0.169ms\n\tblocked 133ms\n\tcompilation 5.99ms\n\telaboration 439ms\n\tfix level params 0.163ms\n\tinstantiate metavars 0.664ms\n\tinterpretation 0.143ms\n\tlinting 73.6ms\n\tparsing 4.63ms\n\tprocess pre-definitions 3.25ms\n\tshare common exprs 0.911ms\n\tsimp 34.7ms\n\ttactic execution 56.5ms\n\ttype checking 771ms\n\ttypeclass inference 99.7ms\n"
+    },
+    {
+      "module": "F19CoverageChunkA",
+      "compile_seconds": 15.396669945999747,
+      "queue_seconds": 0.0005139439963386394,
+      "process_observations": {
+        "samples": 153,
+        "peak_vm_bytes": 3781419008,
+        "peak_rss_bytes": 2030108672,
+        "peak_threads": 10
+      },
+      "started_utc": "2026-10-12T11:10:29.728090+00:00",
+      "finished_utc": "2026-10-12T11:10:45.124763+00:00",
+      "profiler_text": "\n\t.olean serialization 4.77ms\n\tattribute application 0.152ms\n\tcompilation 3.63ms\n\telaboration 11.9s\n\tfix level params 0.407ms\n\tinstantiate metavars 0.282ms\n\tinterpretation 0.275ms\n\tlinting 114ms\n\tparsing 12.5ms\n\tprocess pre-definitions 4ms\n\tshare common exprs 0.814ms\n\ttactic execution 38.6ms\n\ttype checking 51.7s\n\ttypeclass inference 43.5ms\n"
+    },
+    {
+      "module": "F19CoverageChunkBDirect",
+      "compile_seconds": 11.94695003900415,
+      "queue_seconds": 0.0006560350011568516,
+      "process_observations": {
+        "samples": 119,
+        "peak_vm_bytes": 2572587008,
+        "peak_rss_bytes": 1968046080,
+        "peak_threads": 3
+      },
+      "admitted_utc": "2026-10-12T11:23:33.213061+00:00",
+      "started_utc": "2026-10-12T11:23:34.227115+00:00",
+      "finished_utc": "2026-10-12T11:23:46.174076+00:00",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_scaling__F19CoverageChunkBDirect.lean.json",
+        "sha256": "907134f7d1ff9296ce722b6b814c7476ed671359344cc1c097f940f14d113601",
+        "bytes": 3946
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_scaling__F19CoverageChunkBDirect.lean.log",
+        "sha256": "2a40f1bd6e1d848a0d1b57072a634fb500dcafcbd4bbe80907ffe2a9b1ab737b",
+        "bytes": 1138
+      },
+      "profile_type_checking_entries": [
+        "4.24s",
+        "4.13s"
+      ],
+      "cumulative_profile": "\n\t.olean serialization 3.33ms\n\tattribute application 0.101ms\n\tcompilation 2.78ms\n\telaboration 97.5ms\n\tfix level params 0.295ms\n\tinstantiate metavars 0.188ms\n\tinterpretation 0.147ms\n\tlinting 74.5ms\n\tparsing 2.92ms\n\tprocess pre-definitions 1.61ms\n\tshare common exprs 0.685ms\n\ttactic execution 26.9ms\n\ttype checking 8.41s\n\ttypeclass inference 23.7ms\n"
+    },
+    {
+      "module": "F19CoverageChunkBSplit",
+      "compile_seconds": 11.26251422399946,
+      "queue_seconds": 0.0006122799968579784,
+      "process_observations": {
+        "samples": 112,
+        "peak_vm_bytes": 2572587008,
+        "peak_rss_bytes": 1919893504,
+        "peak_threads": 3
+      },
+      "admitted_utc": "2026-10-12T11:23:51.133561+00:00",
+      "started_utc": "2026-10-12T11:23:52.189043+00:00",
+      "finished_utc": "2026-10-12T11:24:03.451571+00:00",
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_scaling__F19CoverageChunkBSplit.lean.json",
+        "sha256": "627c79aae1d118dc1076c8df6c607391f4f1b348e801b090d34ebaf3bb55bcb5",
+        "bytes": 3941
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_scaling__F19CoverageChunkBSplit.lean.log",
+        "sha256": "62eabf35018b266c3dcb43c53395557b6f823cf9d7c23b36a261967e3e7b23cb",
+        "bytes": 1574
+      },
+      "profile_type_checking_entries": [
+        "3.6s",
+        "250ms",
+        "3.7s",
+        "508ms"
+      ],
+      "cumulative_profile": "\n\t.olean serialization 3.92ms\n\tattribute application 0.0947ms\n\tcompilation 2.62ms\n\telaboration 244ms\n\tfix level params 0.0999ms\n\tinstantiate metavars 0.237ms\n\tinterpretation 0.24ms\n\tlinting 143ms\n\tparsing 5.16ms\n\tprocess pre-definitions 3.03ms\n\tshare common exprs 0.473ms\n\ttactic execution 29.9ms\n\ttype checking 8.09s\n\ttypeclass inference 16ms\n"
+    }
+  ],
+  "all_new_compiler_seconds": 49.7720515040055,
+  "all_new_queue_seconds": 0.003766256988456007,
+  "new_probe_count": 43,
+  "preserved_review_stop": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_scaling/STOP_ACCEPTANCE.json",
+    "sha256": "f4d71b03a691e14ccb223fbc7a45cc62d2734b83a49cec57c59a5aa6fdf00bfd",
+    "bytes": 32960
+  },
+  "same_input_comparison": {
+    "identical_direct_dependency_map": true,
+    "identical_B_rows_and_starting_checkpoint": true,
+    "explicit_Elab_async_false_both": true,
+    "Direct_seconds": 11.94695003900415,
+    "Split_seconds": 11.26251422399946,
+    "Direct_minus_Split_seconds": 0.6844358150046901,
+    "peak_VM_equal": true,
+    "sample_count_each": 1,
+    "fixed_order": "Direct then Split",
+    "interpretation": "A single ordered same-input observation, with possible cache/order effects. No broad speedup, optimization adoption or full-stream throughput/fit conclusion."
+  },
+  "profile_interpretation": {
+    "direct_cumulative_type_checking": "8.41s",
+    "split_cumulative_type_checking": "8.09s",
+    "split_sequential_large_entries": [
+      "3.6s",
+      "250ms",
+      "3.7s",
+      "508ms"
+    ],
+    "source_order_inference": "With synchronous elaboration these align with forward label/catalog then backward label/catalog kernel proofs; unlabelled log entries prevent a stand-alone exact per-declaration attribution. Label-state appears dominant for this slice; sparse membership versus array costs are not separately measured.",
+    "memory_inference": "Both B peaks are below review. Different content/theorem counts from ChunkA and no unchanged-A rerun mean the scheduling change is not a controlled proof of the earlier virtual-memory cause."
+  },
+  "accepted_coverage": {
+    "rows_each": 320,
+    "raw_indices_inclusive": [
+      10851,
+      11170
+    ],
+    "counts_each": {
+      "add": 268,
+      "relabel": 52
+    },
+    "child_reference_counts_each": {
+      "0": 44,
+      "1": 4,
+      "2": 4
+    },
+    "full_label_checkpoints_through256": true,
+    "wellLabelled_through320": true,
+    "direct_and_split_same_goal": true,
+    "raw_signed_coefficients_unchanged": true
+  },
+  "limits": [
+    "Earlier prefix or omitted boundary adapters",
+    "Centre branch exercise",
+    "Clifford/scalar/whole-owner endpoints",
+    "Full-stream throughput or representation optimization adoption"
+  ],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_VM_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_VM_bytes": 3758096384,
+    "serial_client": true,
+    "shared_slots_used": 1,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "pace": {
+    "original_source_commit_ready_utc": "2026-10-12T11:01:48Z",
+    "original_scientific_seal_utc": "2026-10-12T11:09:39.122Z",
+    "original_first_admission_utc": "2026-10-12T11:10:00.920341Z",
+    "option_source_commit_ready_utc": "2026-10-12T11:21:17Z",
+    "option_binding_release_received_utc": "2026-10-12T11:23:21Z",
+    "option_post_lock_guard_utc": "2026-10-12T11:23:31.166271+00:00",
+    "paired_first_admission_utc": "2026-10-12T11:23:33.213061+00:00",
+    "paired_last_finished_utc": "2026-10-12T11:24:03.451571+00:00"
+  }
+}
