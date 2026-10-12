@@ -1,0 +1,243 @@
+{
+  "status": "PASS_INDEPENDENT_HISTORICAL_PR588_BOOTSTRAP_TERMINAL",
+  "utc": "2026-10-12T17:34:27.324101+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_588_bootstrap/ACCEPTANCE.json",
+    "sha256": "7ee42bb8d2274206620a6819dd3225f65b8336c02080f08e66717476512952b7",
+    "bytes": 62846
+  },
+  "source_commit": "9e3a38de354722f0776590ce9f8bbc01507c9ced",
+  "new_quadruple": {
+    "module": "Current588BootstrapCertificate",
+    "source": "analytic_assembly/current_finite/pr588_bootstrap_20261012/endpoint_rfl_repair/Current588BootstrapCertificate.lean",
+    "source_sha256": "abb70a75f18f71d768b54e0388f2c1cabd619f30c538b42c0a704ffdebb0c061",
+    "receipt": "receipts/analytic_assembly__current_finite__pr588_bootstrap_20261012__endpoint_rfl_repair__Current588BootstrapCertificate.lean.json",
+    "receipt_sha256": "77fa8e431b75780f4b964581c7266aa0ec50f0292fcdd92a62f9442484c521d1",
+    "log": "logs/analytic_assembly__current_finite__pr588_bootstrap_20261012__endpoint_rfl_repair__Current588BootstrapCertificate.lean.log",
+    "log_sha256": "2c54bdc9dcac9a4ffc59a62130af44af01f2115bd14b7ddc988a8659f784225b",
+    "status": "PASS",
+    "started_utc": "2026-10-12T17:30:32.421301+00:00",
+    "finished_utc": "2026-10-12T17:30:35.167333+00:00",
+    "compile_seconds": 2.74602952299756,
+    "queue_seconds_including_post_fifo_guard": 12.66856492900115,
+    "process_observations": {
+      "samples": 28,
+      "peak_vm_bytes": 707657728,
+      "peak_rss_bytes": 319557632,
+      "peak_threads": 3
+    },
+    "object": "analytic_assembly/current_finite/pr588_bootstrap_20261012/endpoint_rfl_repair/Current588BootstrapCertificate.olean",
+    "object_sha256": "9debc04ee0ce4b83f5dca3908c415ee646a5e71d1b8fc9723d76e1bf8e881f20",
+    "complete_probes": [
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.saving_minimum_is_native",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.shrink_matches_literal",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.supplied_input_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage1_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage2_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage3_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage4_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage5_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage6_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.stage7_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current588BootstrapCertificate.bootstrap_endpoint_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ]
+  },
+  "review_pins": [
+    {
+      "path": "recovery_20261011/post114_reconstruction/analytic/current_588_bootstrap/endpoint_rfl_repair/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+      "sha256": "e6a9b363a52fbf2197c99b2ddc06c039636420a5a76e89efced0db0a66481c8d",
+      "bytes": 6765
+    },
+    {
+      "path": "recovery_20261011/post114_reconstruction/machine/CURRENT588_BOOTSTRAP_ENDPOINT_RFL_SOURCE_REPAIR_REVIEW.json",
+      "sha256": "fd5f9db5f2f5a9a48a6395d7d033c386c19b031870ce7d608b36d899a2c9d23a",
+      "bytes": 2693
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT588_BOOTSTRAP_SOURCE_API_RESOURCE_REVIEW.json",
+      "sha256": "4ced772e8a6ace5582a10761a76923ec1260d1e16dbc4b18e8194ede2c37fd1a",
+      "bytes": 2769
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/analytic-current588-bootstrap/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "bd9308ffa910b3a9802a507fd53b2b0cff5777f5722107f652db2b3bc5dc5f0c",
+      "bytes": 6564
+    }
+  ],
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current588-bootstrap/CHECK_PROPOSAL.json",
+    "sha256": "94518c997909a3696cef0ef58a2215b74e9dc7a1fc83f9c2f98b2b156de77516",
+    "bytes": 45516
+  },
+  "cached_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-outer-grid/CHECK_PROPOSAL.json",
+    "sha256": "0d281fd411afc23a904605190685613c7592be4c07b365182fda2a88b9532e69",
+    "bytes": 227996,
+    "field": "cached_rows"
+  },
+  "verified": {
+    "current_quadruples": 19,
+    "preserved_quadruples": 18,
+    "group_complete_standard_probes": 88,
+    "import_closure_roots": 5,
+    "import_closure_standard_probes": 28,
+    "new_public_probes": 11,
+    "cached_source_object_pairs": 319,
+    "total_import_nodes": 324,
+    "failure_archives": 12,
+    "mirror_files": 32,
+    "selected_source_pins": 6
+  },
+  "resource_caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 40,
+    "review_vm_bytes": 3758096384,
+    "actual": {
+      "samples": 28,
+      "peak_vm_bytes": 707657728,
+      "peak_rss_bytes": 319557632,
+      "peak_threads": 3
+    }
+  },
+  "compiler_timing": {
+    "execution_started_utc": "2026-10-12T17:30:11.000298+00:00",
+    "post_lock_guard_utc": "2026-10-12T17:30:15.235735+00:00",
+    "admitted_utc": "2026-10-12T17:30:18.712858+00:00",
+    "compiler_started_utc": "2026-10-12T17:30:32.421301+00:00",
+    "compiler_finished_utc": "2026-10-12T17:30:35.167333+00:00",
+    "terminal_utc": "2026-10-12T17:30:38.366639+00:00",
+    "compiler_seconds": 2.74602952299756,
+    "acquisitions": [
+      {
+        "module": "Current588BootstrapCertificate",
+        "requested_utc": "2026-10-12T17:30:18.713804+00:00",
+        "actual_slot_acquired_utc": "2026-10-12T17:30:28.281951+00:00",
+        "post_fifo_guard_completed_utc": "2026-10-12T17:30:31.381756+00:00",
+        "fifo_acquire_seconds": 9.568145427998388,
+        "post_fifo_guard_seconds": 3.0998039729893208,
+        "alignment": {
+          "resolved_modules": 323,
+          "search_paths_sha256": "a4f2626632a3743a206e077cdc21e03287674b1cc1290a4cbf597880faed6f8c"
+        },
+        "runner_queue_qualification": "Runner queue_seconds includes both this separately measured original acquire call and the post-FIFO guard callback."
+      }
+    ],
+    "qualification": "Actual FIFO and post-acquire guard separately measured; runner queue_seconds includes both."
+  },
+  "statement": {
+    "scope": "Seven exact ordered min/cutoff bootstrap updates at the historical PR588 data reach the serialized endpoint. Eleven public facts; 87 kernel decisions.",
+    "parameters": {
+      "initial_saving": "384599/10000000000",
+      "complex_saving": "802425169927850686731/500000000000000000000000",
+      "bit_saving": "413456747036699736067/250000000000000000000000",
+      "eta": "1/1000000000000000000000000",
+      "beta": "1/1000000000000000000000000",
+      "offset": "1/1000000000000000000000000000",
+      "grid": "1/1000000000000000000",
+      "coefficient_bits": 512,
+      "row_coefficient": 20161,
+      "literal_scalar_gap": 1,
+      "semantic_C0": {
+        "base": 2,
+        "exponent": 210000
+      },
+      "saving_candidates": [
+        "413456747036699736067/250000000000000000000000",
+        "802425169927850686730999197574830072149313269/500000000000000000000000000000000000000000000000"
+      ],
+      "saving_minimum_index": 1,
+      "s": "802425169927850686730998697574830072149313269/500000000000000000000000000000000000000000000000"
+    },
+    "serialized_endpoint": "6268946640061333489918162144345744974396398340693676493303110154528572564869381116277460525329249193372264935997537518132526716892237961562985670532321436940893800199878008913489070726829527323659196010342624902765293417753262065282761228543055677829658158300658486624083662143444444839606867582962244531100704935261797682397864633690608271401939176916224716785231781389362252959/3906250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "kernel_checked_current": true,
+    "initial_saving_validity": "Supplied, not proved by finite endpoint arithmetic."
+  },
+  "author_checked_conditional_kappa": "400569730495803/250000000000000000",
+  "decimal": "0.001602278921983212",
+  "limitations": [
+    "Supplied initial and PR543 bit saving validity; selected native recurrence and physical/operator/profile realization.",
+    "Eta-dependent q/grid calculation,47 current outer slacks and seven-margin minimum.",
+    "All-size bootstrap interpretation and complete selected-kappa theorem."
+  ],
+  "historical_selection": "Exact9594/PR588 source only; current5996 profile not adopted. Supplied initial/bit savings and all-size/physical assumptions remain explicit.",
+  "proof_repair": "Only restoring the original terminal rfl after observed failed endpoint rewrite; both source review and prior failure archives retained.",
+  "compiler_executed_by_reviewer": false
+}
