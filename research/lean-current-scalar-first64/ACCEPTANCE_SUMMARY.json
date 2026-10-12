@@ -1,0 +1,103 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_CURRENT535_FIRST64_SCALAR_SLICE",
+  "utc": "2026-10-12T14:36:15.004119+00:00",
+  "committed_source": {
+    "commit": "ff45da6118e795cad12d5d0c34a3a513c4a9d382",
+    "path": "research/lean-current-scalar-first64/CurrentScalarFirst64.lean"
+  },
+  "source_sha256": "ecc3a3cf7e5b7c3526cf8c7052f1b1cff85e708eb00a0cd4399e30cf0145846f",
+  "historical_scope_record": "SOURCE_SCOPE.json preserves the original source-only proposal; the accepted one-line proof repair and terminal identities are recorded here.",
+  "owner_acceptance_sha256": "08eda38cc9f1f96a4010f1dea387ceae0513e320568bdc9b4d2212ae52486ea0",
+  "independent_terminal_review_sha256": "0dbd615684465edd1227b4dc51a02d4ee9807419442f5c0734641242aa51dbe9",
+  "kernel_object_sha256": "e8fe50a147a97b84c286414b272aefe872f6b479ce7f461c655053bf19158bf7",
+  "receipt_sha256": "7d12e0ea8c1b6aae063f7030dae2f98c0b9444b8c4273fc2a9b7590d05c6328d",
+  "full_log_sha256": "7749e950df0bf647073133566f191edd285088723545fec3072d54d4300a116c",
+  "current_scope": {
+    "total": 9,
+    "current": 9,
+    "pending": 0,
+    "launch": [
+      9,
+      8,
+      1
+    ]
+  },
+  "external_pairs": 2232,
+  "probes": [
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.rowsLOnlyB_sound",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.lonly_rows_decode",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.forward_lonly",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.backward_lonly",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.exact_source_indices",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.forward_decodes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarFirst64.backward_decodes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "timing": {
+    "started_utc": "2026-10-12T14:21:43.187444+00:00",
+    "finished_utc": "2026-10-12T14:21:48.696597+00:00",
+    "compile_seconds": 5.509086017002119,
+    "fifo_seconds": 0.0009189950069412589,
+    "preparation_seconds": 2.110554016995593
+  },
+  "process_observations": {
+    "samples": 55,
+    "peak_vm_bytes": 2113376256,
+    "peak_rss_bytes": 1546416128,
+    "peak_threads": 3
+  },
+  "claim": "Both exact current535 raw1..64 slices are typed, L-only, signed-denominator-valid and decode in order. The same literals are historical provenance, not a transfer of any fullstream or historical centre endpoint.",
+  "open_obligations": [
+    "Current raw0 phase and all rows after64 remain outside this slice; complete current22253-event prefix/suffix suppliers are absent.",
+    "Current full frame/register correspondence, labels, operator/physical recipes and omitted adapters remain separate.",
+    "No current centre-band or arbitrary-work endpoint is instantiated here.",
+    "No full operator, owner/caller/price, or multiplication theorem is inferred."
+  ],
+  "first_failure_preservation_sha256": "c631ea5673765ac4a4bcd2890a0443c77d9519bbea719df6f7cd56e0b25a7f3c",
+  "archived_files": 13,
+  "conditional_selected_context_kappa": "1584931111785787/1000000000000000000 = 0.001584931111785787",
+  "publication_status": "Research result only; no publication or full multiplier claim."
+}
