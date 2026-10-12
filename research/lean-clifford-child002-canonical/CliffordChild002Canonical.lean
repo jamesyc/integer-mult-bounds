@@ -118,7 +118,7 @@ private theorem right_preimage (y : Address) :
 
 private theorem mask_dot (y : Address) :
     dotProduct (mask singletonMask) y = parity y := by
-  simp [dotProduct, mask, singletonMask, parity, sumFour, Fin.sum_univ_succ, add_assoc]
+  simp [Nat.testBit_eq_decide_div_mod_eq, dotProduct, mask, singletonMask, parity, sumFour, Fin.sum_univ_succ, add_assoc]
 
 private theorem outer_action (y : Address) :
     Matrix.vecMulVec (mask singletonMask) (mask singletonMask) *ᵥ y =
@@ -153,16 +153,16 @@ private def canonicalPhaseFour (a b c d : Bit) : Nat :=
 
 private theorem left_quadratic (x : Address) :
     qvalue leftQ leftAlpha x = leftPhaseFour (x 0) := by
-  simp [qvalue, leftQ, leftAlpha, leftPhaseFour, matrix, Fin.sum_univ_succ]
+  simp [Nat.testBit_eq_decide_div_mod_eq, qvalue, leftQ, leftAlpha, leftPhaseFour, matrix, Fin.sum_univ_succ]
 
 private theorem right_quadratic (x : Address) :
     qvalue rightQ rightAlpha x = rightPhaseFour (x 0) (x 2) (x 3) (x 5) := by
-  simp [qvalue, rightQ, rightAlpha, rightPhaseFour, matrix, Fin.sum_univ_succ,
+  simp [Nat.testBit_eq_decide_div_mod_eq, qvalue, rightQ, rightAlpha, rightPhaseFour, matrix, Fin.sum_univ_succ,
     Nat.add_assoc, add_assoc]
 
 private theorem left_preimage_zero (y : Address) : left.preimage y 0 = y 5 := by
   rw [left_preimage]
-  simp [Matrix.mulVec, dotProduct, matrix, leftInverseRows, Fin.sum_univ_succ]
+  simp [Nat.testBit_eq_decide_div_mod_eq, Matrix.mulVec, dotProduct, matrix, leftInverseRows, Fin.sum_univ_succ]
 
 private theorem left_exponent (y : Address) : left.exponent y = leftPhaseFour (y 5) := by
   change (0 + qvalue leftQ leftAlpha (left.preimage y)) % 4 = _
@@ -178,7 +178,7 @@ private theorem right_exponent (y : Address) :
 
 private theorem canonical_phase (y : Address) :
     canonicalPhase y = canonicalPhaseFour (y 0) (y 2) (y 3) (y 5) := by
-  simp [canonicalPhase, qvalue, canonicalQ, defaultAlpha, canonicalPhaseFour,
+  simp [Nat.testBit_eq_decide_div_mod_eq, canonicalPhase, qvalue, canonicalQ, defaultAlpha, canonicalPhaseFour,
     matrix, Fin.sum_univ_succ, Nat.add_assoc]
 
 private def phaseZeroFour (a b c d : Bit) : Nat :=
@@ -194,7 +194,7 @@ private theorem phase_zero (y : Address) :
   change leftPhaseFour (y 5) + rightPhaseFour (source0 left right y 0)
     (source0 left right y 2) (source0 left right y 3) (source0 left right y 5) = _
   rw [source_zero]
-  simp [phaseZeroFour, parity, singletonMask, mask, Pi.add_apply, Pi.smul_apply,
+  simp [Nat.testBit_eq_decide_div_mod_eq, phaseZeroFour, parity, singletonMask, mask, Pi.add_apply, Pi.smul_apply,
     smul_eq_mul]
 
 private theorem phase_one (y : Address) :
@@ -204,14 +204,14 @@ private theorem phase_one (y : Address) :
     (source1 left right flipZero y 2) (source1 left right flipZero y 3)
     (source1 left right flipZero y 5) = _
   rw [source_one]
-  simp [phaseOneFour, parity, singletonMask, mask, Pi.add_apply, Pi.smul_apply,
+  simp [Nat.testBit_eq_decide_div_mod_eq, phaseOneFour, parity, singletonMask, mask, Pi.add_apply, Pi.smul_apply,
     smul_eq_mul]
 
 private theorem canonical_phase_flip (y : Address) :
     canonicalPhase (outputFlip y) =
       canonicalPhaseFour (y 0 + 1) (y 2 + 1) (y 3 + 1) (y 5 + 1) := by
   rw [canonical_phase]
-  simp [outputFlip, singletonMask, mask, Pi.add_apply]
+  simp [Nat.testBit_eq_decide_div_mod_eq, outputFlip, singletonMask, mask, Pi.add_apply]
 
 /-- Exactly sixteen scalar phase cases. No full-address function equality,
 matrix product, basis evaluator or operator is recomputed inside this decision. -/

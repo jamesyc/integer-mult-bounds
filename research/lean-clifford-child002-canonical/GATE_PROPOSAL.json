@@ -1,9 +1,9 @@
 {
-  "status": "ALLOCATION_HOLD_FOUR_BIT_ALGEBRAIC_REDESIGN_PROPOSED",
+  "status": "FOUR_BIT_PROOF_LOCAL_CLOSED_BIT_REPAIR_PROPOSED",
   "root": {
     "module": "CliffordChild002Canonical",
     "source": "CliffordChild002Canonical.lean",
-    "sha256": "f975ea3e9e6bdd843cc97ad3ba925151ad961631f02c38e43d5e3a1cf3b52223"
+    "sha256": "c6626416e650fe76f2f3bdf8aedd4b2fd6e0c0136dfb4183b5c4fc69389eea4f"
   },
   "direct_imports": [
     "CliffordNineBitDecoder"
@@ -106,9 +106,10 @@
     "bytes": 27314
   },
   "repair": {
-    "allocation_failure_source_sha256": "3f51e3b986ef74425e5d4660912252ea74ecc6c9401c4dced4e96c5488d8fff3",
-    "changes": "Private exact row/address/phase reductions, one16-case scalar phase decision, and canonical inverse reuse from the literally identical left rows. Public definitions, theorem propositions and raw record are unchanged. Local Elab.async=false retained.",
-    "prior_allocation_vm": 4278038528,
-    "requires_separate_resource_scope_release": true
+    "failed_redesign_source_sha256": "f975ea3e9e6bdd843cc97ad3ba925151ad961631f02c38e43d5e3a1cf3b52223",
+    "changes": "Only Nat.testBit_eq_decide_div_mod_eq added to the eight measured helper simp lists. All definitions/statements/imports/data/16-case domain/caps fixed.",
+    "failed_redesign_vm": 2641219584,
+    "failed_redesign_seconds": 24.128645206998044,
+    "requires_independent_delta_and_binding_review": true
   }
 }
