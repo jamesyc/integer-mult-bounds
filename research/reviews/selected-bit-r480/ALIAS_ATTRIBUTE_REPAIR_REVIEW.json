@@ -1,0 +1,37 @@
+{
+  "status": "PASS_EXACT_ONE_SITE_SOURCE_REPAIR_NO_COMPILER",
+  "utc": "2026-10-12T13:58:15.526911+00:00",
+  "repair_manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_adaptation/alias_attribute_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "e8fda037fe53935132ed578f55837dd995d3a1cd7000a42e1d6899126c9a02cf",
+    "bytes": 8955
+  },
+  "candidate": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_adaptation/alias_attribute_repair/SelectedR480ScatterLifecycle.lean.pending.txt",
+    "sha256": "b5f1907adb29a5ef6d4c8b83dfed9c26ed09779fc619a4c1e65361d82cba57b4",
+    "bytes": 7341
+  },
+  "failed_preimage": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_adaptation/alias_attribute_repair/failed_preimage/FAILED_SOURCE.lean",
+    "sha256": "ee69555af6f0434007695f4759cecd68c797e434430312ca7c294249e7671489",
+    "bytes": 7354
+  },
+  "partial_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_adaptation/PARTIAL_ACCEPTANCE_FAILURE.json",
+    "sha256": "9cd3e3d2ec069d504bdfee14c931d68f8f8b877feb6b2310b4f01fbd19e8c6d3",
+    "bytes": 28086
+  },
+  "original_source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/selected-bit-r480/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "59863f8c05ab3bb2664756a60e64a40978488f6329c2afde3c112707364f72da",
+    "bytes": 9164
+  },
+  "archive_verified": 11,
+  "checks": [
+    "Only the13-byte substring ` Data.scatter` is removed from one local attribute. Exact inverse restores original7354 bytes.",
+    "Data.scatter is a new abbrev, unlike the prior def. The initial source review missed its reducibility-status interaction; the failed elaboration and old review remain historical.",
+    "rawWindows remains locally irreducible. All imports, definitions, public theorem statements/proofs, literal domain bounds,14 probes and dirty-temporary semantics are byte-identical.",
+    "No unsafe reducibility option or compiler retry is added by this review. Failure-aware current/runtime/driver review and separately granted retry authority remain required."
+  ],
+  "source_review_limitation": "The initial source/API seal did not establish whole-module elaboration; this exact measured attribute failure is now recorded."
+}
