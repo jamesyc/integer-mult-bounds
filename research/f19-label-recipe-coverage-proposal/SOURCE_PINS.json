@@ -1,0 +1,80 @@
+{
+  "base_commit": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+  "build_import_boundary": {
+    "explanation": "Use the already accepted local compatibility module under its explicit PR509Stream name. The cloned upstream LemmaG/Stream.lean has identical source bytes; no object rename or new dependency is assumed.",
+    "module": "PR509Stream",
+    "source_byte_identity": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+  },
+  "inputs": [
+    {
+      "bytes": 7868,
+      "path": "research/direct-delivery504-global/code/emit_local.py",
+      "role": "source/schema/boundary reference",
+      "sha256": "eefc76e0bee003015fe21ac685c2cce658033d5444add404d2d509c7d6f39bac"
+    },
+    {
+      "bytes": 9343,
+      "path": "research/direct-delivery504-global/code/audit_local.py",
+      "role": "source/schema/boundary reference",
+      "sha256": "69b12c45d0a961175a824c1967353c7f3b94818a7dd6ac7bbcf56a6d1a5ed8e8"
+    },
+    {
+      "bytes": 75113,
+      "path": "research/direct-delivery504-global/evidence/local/CANONICAL-WORD.json.gz",
+      "role": "decoder input",
+      "sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667"
+    },
+    {
+      "bytes": 187483,
+      "path": "research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "role": "decoder input",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6"
+    },
+    {
+      "bytes": 990631,
+      "path": "research/direct-delivery504-global/evidence/local/CLIFFORD-RECIPES.json",
+      "role": "decoder input",
+      "sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9"
+    },
+    {
+      "bytes": 2602,
+      "path": "research/direct-delivery504-global/evidence/local/RESIDUAL-ADAPTERS.json",
+      "role": "source/schema/boundary reference",
+      "sha256": "83a91fb9cbbe600328cd399f67fdb6ffb698ed3b20d050916d21f3af48b0db20"
+    },
+    {
+      "bytes": 922,
+      "path": "research/direct-delivery504-global/evidence/local/LOCAL-CHECKS.json",
+      "role": "source/schema/boundary reference",
+      "sha256": "c6807681d40cb46c21a50edc1058044ddc758f2dd3e6b0bab16d7cb28d41732f"
+    },
+    {
+      "bytes": 15263,
+      "path": "research/e8-lemma-g-lean/LemmaG/Stream.lean",
+      "role": "existing unchanged WellLabelled/Admissible/lab API",
+      "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+    }
+  ],
+  "limitations": "Shape counts came from bounded JSON/gzip reading, not supplier execution. The strict data decoder and finite proofs are not yet emitted. The three required immutable input bytes must be independently audited against any later generated Lean literals.",
+  "literal_shape_observations": {
+    "canonical_frames": 983,
+    "center_rows_each": 16,
+    "centre_registers": 8,
+    "climb_rows_each": 3432,
+    "directed_child_records": 2922,
+    "dropped_adapter_rows_each": 1304,
+    "dropped_phase_rows_each": 9,
+    "dropped_residual_rows_each": 304,
+    "endpoint_adapter_records_excluded": 224,
+    "first_0_to_9_climb_row": 11877,
+    "first_A_row": 10851,
+    "original_registers": 728,
+    "program_rows_each": 22937,
+    "retained_rows_each": 21320,
+    "scalar_rows_each": 17872
+  },
+  "manifest_path": "research/direct-delivery504-global/MANIFEST.json",
+  "manifest_sha256": "c1997405c5c0ccd9bdb0a30b0eb9a5a2dc7dc7ce7b59c6a83a2152b80f6410d1",
+  "selected_source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "status": "SOURCE_ONLY_PROPOSAL_NO_COMPILER_OR_SELECTED_CERTIFICATE"
+}
