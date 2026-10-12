@@ -1,0 +1,72 @@
+{
+  "status": "BOUNDED_TWO_FRESH_SOURCE_PROPOSAL_NO_COMPILER_ADMISSION",
+  "source_binding": {
+    "path": "research/selected-bit-carrier-successor/SOURCE_BINDING.json",
+    "sha256": "969042b0e5cfaec65a207038ed3bcbdeb7c6af62a0bdb33b8fc2a4017b68d673",
+    "bytes": 8882
+  },
+  "local_scope": {
+    "total": 4,
+    "retained": 2,
+    "pending": 2
+  },
+  "official_cached_module_count": 317,
+  "projected_total_scope": [
+    321,
+    319,
+    2
+  ],
+  "ordered_fresh_roots": [
+    "SelectedBitCarrierPhaseBData",
+    "SelectedBitCarrierPhaseBCheck"
+  ],
+  "retained_local_roots": [
+    "SelectedBitCarrierBoundaryData",
+    "SelectedBitCarrierBoundaryCheck"
+  ],
+  "sources": [
+    {
+      "path": "research/selected-bit-carrier-successor/SelectedBitCarrierPhaseBData.lean",
+      "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+      "bytes": 8859,
+      "module": "SelectedBitCarrierPhaseBData",
+      "explicit_imports": [
+        "SelectedBitCarrierBoundaryCheck"
+      ],
+      "public_probes": []
+    },
+    {
+      "path": "research/selected-bit-carrier-successor/SelectedBitCarrierPhaseBCheck.lean",
+      "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+      "bytes": 3236,
+      "module": "SelectedBitCarrierPhaseBCheck",
+      "explicit_imports": [
+        "SelectedBitCarrierPhaseBData"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedBitCarrierPhaseB.phase_shape",
+        "CurrentMain.SelectedBitCarrierPhaseB.phase_domains",
+        "CurrentMain.SelectedBitCarrierPhaseB.target_destinations",
+        "CurrentMain.SelectedBitCarrierPhaseB.no_target_operands",
+        "CurrentMain.SelectedBitCarrierPhaseB.no_self_reads",
+        "CurrentMain.SelectedBitCarrierPhaseB.scatter_shape",
+        "CurrentMain.SelectedBitCarrierPhaseB.scatter_index_domain",
+        "CurrentMain.SelectedBitCarrierPhaseB.scatter_helpers",
+        "CurrentMain.SelectedBitCarrierPhaseB.retained_boundary"
+      ]
+    }
+  ],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "external_library_paths": [],
+  "compiler_owner": "Preserved signed owner after integration source/runtime/driver gate release.",
+  "statement_scope": "Eight finite decisions plus one direct reuse of accepted ret helper theorem. Conditional semantic explanation only, no generic XOR lemma added.",
+  "runtime_inventory_status": "Exact current/first-match inventory follows frozen source review; no size-based fit claim."
+}

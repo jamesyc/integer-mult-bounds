@@ -1,0 +1,167 @@
+{
+  "status": "ROOT_AUTHORIZED_SOURCE_PROPOSAL_AWAITING_INDEPENDENT_STATEMENT_REVIEW",
+  "created_utc": "2026-10-12T11:42:11.174889+00:00",
+  "selected_upstream_head": "c3a9a436b84fe44fdc223a5784d84736d1c2d3c7",
+  "selected_conditional_kappa": "1517760977820331/1000000000000000000",
+  "immutable_gzip": {
+    "path": "research/e8-bit-carrier-skeleton/data/bit/bitE8mut-r489.json.gz",
+    "sha256": "835eb96e147740fc7454f8cfb3dbd34ae89524b1dbd89a61e9288eae8ab6a5b9",
+    "bytes": 49154
+  },
+  "decoded_sha256": "88435b75b8d6e5c722eb2aa1449f3a5e8e9601a9ffe243839ce1ec932ab76547",
+  "decoded_bytes": 247056,
+  "source_manifest": {
+    "path": "research/community-pr531-audit/SOURCE.json",
+    "sha256": "6aa7dcaae7967651404f951f7fbbb227cbda1c29a5a9640261f5e90a55dab928",
+    "bytes": 42058
+  },
+  "package_manifest": {
+    "path": "research/e8-bit-carrier-skeleton/MANIFEST.sha256",
+    "sha256": "7f25c41d0400ef5adf763eae6e166003a9b59e5a655b860c04b052f6731c7297",
+    "bytes": 8963
+  },
+  "boundary_binding": {
+    "path": "research/selected-bit-carrier-preparation/SOURCE_BINDING.json",
+    "sha256": "1108ebafa33f752e62a7fb3173052a6a93cee54605124baa467a6de33d547c82",
+    "bytes": 4810
+  },
+  "accepted_boundary": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_boundary/ACCEPTANCE.json",
+    "sha256": "6af9763156a4016f74ab663a8f1d2f71a670a0ed5bf724e5e7845dbdac4cdf91",
+    "bytes": 6942
+  },
+  "accepted_boundary_quadruples": [
+    {
+      "module": "SelectedBitCarrierBoundaryData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.lean",
+        "sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9",
+        "bytes": 68966
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+        "sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+        "bytes": 12491288
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.json",
+        "sha256": "225a4517a6446705461fe702ecb60ce9aa43cb871c4b6385ebe5e28159203e97",
+        "bytes": 2296
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "SelectedBitCarrierBoundaryCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.lean",
+        "sha256": "afc45d2266c1dbf3d2bb410f9040710d84d270c5ed341a600571558d96ef633b",
+        "bytes": 2859
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryCheck.olean",
+        "sha256": "6e130d42a5027a8c6bace43ff7125118645cb2ac8b83466896bfc02a886a1b77",
+        "bytes": 52968
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.json",
+        "sha256": "261ca37f3da1102925782a6f8f7ea177a28e56af1d60d3d44a9a81e4b78f2c9f",
+        "bytes": 2462
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_bit493_boundary__SelectedBitCarrierBoundaryCheck.lean.log",
+        "sha256": "d6a74a96010bb1f567fbf802a3c5a4e720bf479f9fedd2d817d7cc2d212e8aff",
+        "bytes": 880
+      },
+      "dependencies": {
+        "SelectedBitCarrierBoundaryData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_boundary/SelectedBitCarrierBoundaryData.olean",
+          "olean_sha256": "dbdfe8bf76f5023cbe87343cecc86f5ce56ad12703fe11157317c1c07a49c16d",
+          "source_sha256": "0a784ff0b77bdb865161c5cd246e10c81e60da1de66f2bb92a75c1b233f8b6e9"
+        }
+      }
+    }
+  ],
+  "terminal_boundary_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_BIT493_BOUNDARY_TERMINAL_REVIEW.json",
+    "sha256": "ef9c5f96ff0464053472d25523c0be75bcffc4788ab37d576e466574a35dcc68",
+    "bytes": 2736
+  },
+  "data": {
+    "path": "research/selected-bit-carrier-successor/SelectedBitCarrierPhaseBData.lean",
+    "sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+    "bytes": 8859
+  },
+  "check": {
+    "path": "research/selected-bit-carrier-successor/SelectedBitCarrierPhaseBCheck.lean",
+    "sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4",
+    "bytes": 3236
+  },
+  "emitter": {
+    "path": "research/selected-bit-carrier-successor/emit_phase_b.py",
+    "sha256": "0a65b1413030445fc957f3fefd4333eee53fe10a5daa4af22f3a69ad7613521d",
+    "bytes": 3716
+  },
+  "literal_audit": {
+    "path": "research/selected-bit-carrier-successor/PHASE_B_LITERAL_AUDIT.json",
+    "sha256": "c5032fab074015c9b6ff19dcc52656ef918af66de3d6d4d6869359f672ce8cbe",
+    "bytes": 1083
+  },
+  "projection": [
+    "B",
+    "scatter"
+  ],
+  "shape": {
+    "B_gates": 240,
+    "B_operand_occurrences": 600,
+    "scatter_rows": 120,
+    "scatter_index_occurrences": 568
+  },
+  "public_probes": [
+    "CurrentMain.SelectedBitCarrierPhaseB.phase_shape",
+    "CurrentMain.SelectedBitCarrierPhaseB.phase_domains",
+    "CurrentMain.SelectedBitCarrierPhaseB.target_destinations",
+    "CurrentMain.SelectedBitCarrierPhaseB.no_target_operands",
+    "CurrentMain.SelectedBitCarrierPhaseB.no_self_reads",
+    "CurrentMain.SelectedBitCarrierPhaseB.scatter_shape",
+    "CurrentMain.SelectedBitCarrierPhaseB.scatter_index_domain",
+    "CurrentMain.SelectedBitCarrierPhaseB.scatter_helpers",
+    "CurrentMain.SelectedBitCarrierPhaseB.retained_boundary"
+  ],
+  "semantic_connection": {
+    "finite_hypotheses": "Every B destination is a target120..239; every explicit operand is a source0..119 or helper240..728; no B gate writes such operands. Domain checks make these actual register references.",
+    "conditional_raw_additive_consequence": "For an interpreter whose gate updates only its target by XOR/addition of listed operand values, the non-target values stay fixed during B. Each target output is its own initial value plus a function of those fixed non-target values, so the linear part on initial targets is the identity. This consequence is explanatory and not proved by this finite certificate.",
+    "missing_semantics": [
+      "Exact multi-source XOR interpreter and raw-word interpretation.",
+      "Phase-B starting state and physical frame/label transport; no-target operands alone do not establish identical physical charts.",
+      "Actual linear combination delivered, source restoration and D dirty-helper compensation.",
+      "COPY/ERASE realization and retained-major scatter schedule."
+    ]
+  },
+  "scatter_scope": {
+    "raw_table_only": true,
+    "row_target_formula": "120+t",
+    "entry_meaning": "index k into the accepted exact ret list",
+    "retained_ids": "720..728",
+    "execution_order": "Existing exporter loops retained index k outermost, then target row t by membership; this certificate does not reinterpret the rows as row-major execution.",
+    "temporary_register": 729,
+    "original_register_count": 729,
+    "execution_register_count_required": 730,
+    "lifecycle_proof_open": true
+  },
+  "exclusions": [
+    "No D/A/C source emission or proof.",
+    "No frame rank/Gram, exact choreography or source/helper arrival theorem.",
+    "No physical target shear, bit-word correctness, hosting, cost or all-size multiplication conclusion."
+  ],
+  "attribution": "eumemic/Anthropic Claude PR493 supplier, Apache-2.0; original NOTICE and LICENSE retained. This decoder/finite certificate preparation uses OpenAI assistance."
+}

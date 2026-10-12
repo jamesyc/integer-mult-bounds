@@ -1,0 +1,31 @@
+{
+  "status": "EXACT_TWO_FIELD_LITERAL_PROJECTION_AND_OWN_INVERSION_PASS",
+  "created_utc": "2026-10-12T11:41:24.928725+00:00",
+  "emitter_sha256": "0a65b1413030445fc957f3fefd4333eee53fe10a5daa4af22f3a69ad7613521d",
+  "input_path": "research/e8-bit-carrier-skeleton/data/bit/bitE8mut-r489.json.gz",
+  "compressed_sha256": "835eb96e147740fc7454f8cfb3dbd34ae89524b1dbd89a61e9288eae8ab6a5b9",
+  "decoded_sha256": "88435b75b8d6e5c722eb2aa1449f3a5e8e9601a9ffe243839ce1ec932ab76547",
+  "decoded_bytes": 247056,
+  "source_sha256": "c864011bf19cff4e83d01dfc5f46d3af38c968a15a49b55624186e2079d9758a",
+  "source_bytes": 8859,
+  "fields": {
+    "B": {
+      "rows": 240,
+      "operand_occurrences": 600
+    },
+    "scatter": {
+      "rows": 120,
+      "index_occurrences": 568
+    }
+  },
+  "order_and_multiplicity_preserved": true,
+  "original_supplier_executed": false,
+  "compiler": false,
+  "resources": {
+    "elapsed_seconds": 0.014383309993718285,
+    "peak_rss_bytes": 15974400,
+    "decompressed_limit_bytes": 1048577,
+    "cpu_seconds": 15,
+    "address_space_bytes": 268435456
+  }
+}
