@@ -1,0 +1,84 @@
+{
+  "status": "SOURCE_BRANCH_COUNTS_FOR_ACCEPTED_PILOT",
+  "data_source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+  "literal_projection_sha256": "f8e371d661ec8b3f3eafb389879c5ec881f866448bd50931475ca5c577d3185b",
+  "raw_indices_inclusive": [
+    10851,
+    10978
+  ],
+  "orientation_counts": {
+    "forward": {
+      "events": 128,
+      "tags": {
+        "relabel": 41,
+        "add": 87
+      },
+      "directed_children": [
+        {
+          "ordinal": 0,
+          "emitted_rank": 1,
+          "occurrences": 41
+        }
+      ],
+      "first_raw_row": [
+        "climb",
+        "A",
+        206,
+        0,
+        2,
+        1
+      ],
+      "first_typed_row": {
+        "childRef": [
+          0,
+          1
+        ],
+        "event": [
+          "relabel",
+          206,
+          0,
+          2
+        ],
+        "scalarFrame": null,
+        "sourceIndex": 10851
+      }
+    },
+    "backward": {
+      "events": 128,
+      "tags": {
+        "relabel": 41,
+        "add": 87
+      },
+      "directed_children": [
+        {
+          "ordinal": 0,
+          "emitted_rank": 1,
+          "occurrences": 41
+        }
+      ],
+      "first_raw_row": [
+        "climb",
+        "A",
+        206,
+        0,
+        2,
+        1
+      ],
+      "first_typed_row": {
+        "childRef": [
+          0,
+          1
+        ],
+        "event": [
+          "relabel",
+          206,
+          0,
+          2
+        ],
+        "scalarFrame": null,
+        "sourceIndex": 10851
+      }
+    }
+  },
+  "interpretation": "Directed child ordinal/rank branches are exercised by82 relabel events total, all using catalog child0 for0->2 rank1. No operator correctness or other child certificate follows."
+}

@@ -1,0 +1,209 @@
+{
+  "status": "READ_ONLY_SOURCE_PLAN_NO_CHECK_OR_LEAN_EMISSION",
+  "accepted_pilot_source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+  "local_programs_sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+  "next_contiguous_slices": {
+    "forward": {
+      "raw_range_inclusive": [
+        10979,
+        11042
+      ],
+      "events": 64,
+      "event_counts": {
+        "scalar": 62,
+        "climb": 2
+      },
+      "scalar_tags": {
+        "add": 62
+      },
+      "climbs": [
+        {
+          "sourceIndex": 11036,
+          "row": [
+            "climb",
+            "A",
+            126,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 11040,
+          "row": [
+            "climb",
+            "A",
+            218,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "raw_slice_sha256": "1c08fd567e1f240dd519fcd3a72c45864d5848bf50bc6bf62caa0cb0cb854abb",
+      "next_new_key": {
+        "sourceIndex": 11135,
+        "row": [
+          "climb",
+          "A",
+          504,
+          0,
+          3,
+          1
+        ],
+        "catalog_child": 1
+      }
+    },
+    "backward": {
+      "raw_range_inclusive": [
+        10979,
+        11042
+      ],
+      "events": 64,
+      "event_counts": {
+        "scalar": 62,
+        "climb": 2
+      },
+      "scalar_tags": {
+        "add": 62
+      },
+      "climbs": [
+        {
+          "sourceIndex": 11036,
+          "row": [
+            "climb",
+            "A",
+            126,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 11040,
+          "row": [
+            "climb",
+            "A",
+            218,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "raw_slice_sha256": "e6e5f3777574c3ad199f74f6a5e5b8166872e09d0b8a05b93ffc6ffcb49d211f",
+      "next_new_key": {
+        "sourceIndex": 11135,
+        "row": [
+          "climb",
+          "A",
+          504,
+          0,
+          3,
+          1
+        ],
+        "catalog_child": 1
+      }
+    }
+  },
+  "proposed_checkpoint": {
+    "forward": {
+      "sparse_changed_registers": [
+        112,
+        114,
+        119,
+        121,
+        122,
+        123,
+        125,
+        127,
+        128,
+        132,
+        133,
+        137,
+        139,
+        148,
+        149,
+        153,
+        155,
+        158,
+        159,
+        163,
+        164,
+        165,
+        169,
+        173,
+        175,
+        182,
+        183,
+        184,
+        188,
+        190,
+        191,
+        193,
+        199,
+        201,
+        202,
+        203,
+        204,
+        206,
+        211,
+        222,
+        223
+      ],
+      "new_label": 2,
+      "unchanged_registers": 695,
+      "snapshot_array_sha256": "96769ee3382e4ce45508ff97af285cf19f442aa309f6d833150ecd4a210871a8"
+    },
+    "backward": {
+      "sparse_changed_registers": [
+        112,
+        114,
+        119,
+        121,
+        122,
+        123,
+        125,
+        127,
+        128,
+        132,
+        133,
+        137,
+        139,
+        148,
+        149,
+        153,
+        155,
+        158,
+        159,
+        163,
+        164,
+        165,
+        169,
+        173,
+        175,
+        182,
+        183,
+        184,
+        188,
+        190,
+        191,
+        193,
+        199,
+        201,
+        202,
+        203,
+        204,
+        206,
+        211,
+        222,
+        223
+      ],
+      "new_label": 2,
+      "unchanged_registers": 695,
+      "snapshot_array_sha256": "96769ee3382e4ce45508ff97af285cf19f442aa309f6d833150ecd4a210871a8"
+    }
+  },
+  "checkpoint_qualification": "Derived by a bounded label-only projection over the accepted128 rows, not a kernel equality proof or payload execution. Each full labRun-to-snapshot equality is a separate proposed obligation.",
+  "excluded_boundaries": "No adapter/phase/centre boundary occurs inside either next64-row slice. Original excluded rows remain obligations; they have not been identified with identity."
+}

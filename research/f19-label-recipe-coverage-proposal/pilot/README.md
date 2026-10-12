@@ -1,7 +1,9 @@
 # Bounded canonical-label pilot implementation
 
-This is authored source and exact literal data, awaiting independent review and
-compiler admission. It certifies nothing until the proposed Lean gates pass.
+The three Lean roots are now kernel PASS with independent terminal review.
+ACCEPTANCE_SUMMARY.json pins the exact sources, objects, receipts, six propext-only
+probes and measurements. Three failed attempts are preserved in the acceptance
+evidence; none is counted as a successful finite certificate.
 
 The sole finite goal is `checkPilot PilotData.data = true`. This checks raw
 zero-based source rows **10851 through 10978 inclusive**, in forward and backward
@@ -31,13 +33,15 @@ module. Seven negative parser controls were rejected. Generation took about
 0.34 seconds and 67.4 MB peak RSS under 20 CPU seconds, 30 wall seconds and
 512 MiB address-space bounds. Exact measured values are in DECODER_AUDIT.
 
-Proposed serial compiler scope: PR509Stream preserved current; then
+Accepted serial compiler scope: PR509Stream preserved current; then
 F19CoverageStatement, F19CoveragePilotData, F19CoveragePilotCheck, in that order.
-Four local modules / one current / three pending; no new external imports beyond
+All four local modules are now current; no new external imports beyond
 PR509Stream's already accepted source/object boundary. Each requested compile
 uses the existing shared checker: 60 seconds / 4 GiB hard, 45 seconds / 3.5 GiB
 review, stop on first failure or review event. No unchanged retry or automatic
-expansion. Data source is 82,366 bytes; no runtime fit is inferred from that size.
+expansion. Data source is 82,366 bytes. The final finite check took 19.658341383 seconds
+and 3,242,221,568 bytes peak VM. Each slice exercises 41 relabels and 87 ADDs,
+all relabels using child0 (0→2,rank1). No larger-scope fit is inferred.
 
 Future full projection checking, adapter labels, binary rank/inclusion,
 all-payload recipe interpretation, exact phases, scalar columns, private erasure,

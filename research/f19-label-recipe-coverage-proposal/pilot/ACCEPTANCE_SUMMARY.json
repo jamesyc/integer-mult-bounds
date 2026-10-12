@@ -1,0 +1,194 @@
+{
+  "status": "INDEPENDENTLY_REVIEWED_KERNEL_PASS_EXACT_CANONICAL_PILOT",
+  "accepted_source_commit": "ebbbc0e01513c5da5fc61d26046c21ba7b94edd8",
+  "acceptance_sha256": "ee8d345189fc7a734b85160bb12e034dfeeb728671cbc9af0886d3253203987d",
+  "terminal_review_sha256": "d7a47364ed8fda79670ad4ddac7fe7056f73e2ef430642d36ff14f49a4431ad8",
+  "review_scope_correction_sha256": "8f211e7779fdaa6280def2f0e6bb61672ae7a7af6317c099a3245ad7e8db532d",
+  "branch_exercise_sha256": "b4715727bab4be5bb5611c8a244c39b199a79101c5f4c3ba2d5e16557687f41f",
+  "exact_raw_indices_inclusive": [
+    10851,
+    10978
+  ],
+  "rows_each_orientation": 128,
+  "events_each_orientation": {
+    "relabel": 41,
+    "add": 87
+  },
+  "only_exercised_child": {
+    "ordinal": 0,
+    "old": 0,
+    "new": 2,
+    "rank": 1,
+    "occurrences_each_orientation": 41
+  },
+  "sources": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "module": "F19CoverageStatement",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+        "sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+        "bytes": 363832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+        "sha256": "f8dde87d974d62ba82aa7ebf63ba6fcfd2a21d03e0d5715f391774458ae139de",
+        "bytes": 3493
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+        "sha256": "ad9b5a3aea4bcad7a4bc034a1d631323fdb8bbfa89153f8936ca4a3c7e421ea1",
+        "bytes": 254
+      }
+    },
+    {
+      "module": "F19CoveragePilotData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+        "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+        "bytes": 82366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+        "sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+        "bytes": 7177224
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.json",
+        "sha256": "e44a6ae95ba4d27b08d0c0a8180a76c455e4683f727bcada009448fcf06761d2",
+        "bytes": 3513
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "module": "F19CoveragePilotCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+        "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+        "bytes": 1316
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.olean",
+        "sha256": "42a79ef3a064316b3dc9f16136315ff54e111987c07f37d6fd9609c0b1ac315a",
+        "bytes": 42576
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+        "sha256": "5a1673a7962c881e5a840900abf3291d91430c6a6348de2a055d266e75eae4df",
+        "bytes": 3517
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+        "sha256": "77e4fbe3c285cf8da16b49122eca9f4c240557947218563465093e3e9be7e197",
+        "bytes": 294
+      }
+    }
+  ],
+  "standard_axiom_probes": [
+    {
+      "declaration": "CurrentMain.F19SelectedCoverage.admissibleB_sound",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19SelectedCoverage.checkRows_wellLabelled",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19SelectedCoverage.checkPilot_wellLabelled",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19SelectedCoverage.PilotCheck.exact_source_indices",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19SelectedCoverage.PilotCheck.selected_pilot_checked",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.F19SelectedCoverage.PilotCheck.selected_pilot_wellLabelled",
+      "axioms": [
+        "propext"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "module": "F19CoverageStatement",
+      "compile_seconds": 3.2750116500028525,
+      "queue_seconds": 0.0007044590020086616,
+      "peak_VM_bytes": 2429370368,
+      "requested_utc": "2026-10-12T10:05:11.835735+00:00",
+      "started_utc": "2026-10-12T10:05:13.130236+00:00",
+      "finished_utc": "2026-10-12T10:05:16.405253+00:00"
+    },
+    {
+      "module": "F19CoveragePilotData",
+      "compile_seconds": 15.360543239003164,
+      "queue_seconds": 0.0023754009962431155,
+      "peak_VM_bytes": 2311389184,
+      "requested_utc": "2026-10-12T10:05:21.415001+00:00",
+      "started_utc": "2026-10-12T10:05:22.674976+00:00",
+      "finished_utc": "2026-10-12T10:05:38.035530+00:00"
+    },
+    {
+      "module": "F19CoveragePilotCheck",
+      "compile_seconds": 19.658341382993967,
+      "queue_seconds": 0.00044795800204155967,
+      "peak_VM_bytes": 3242221568,
+      "requested_utc": "2026-10-12T10:14:05.202622+00:00",
+      "started_utc": "2026-10-12T10:14:06.127261+00:00",
+      "finished_utc": "2026-10-12T10:14:25.785623+00:00"
+    }
+  ],
+  "accepted_compiler_seconds": 38.293896271999984,
+  "failed_compiler_seconds_preserved": 25.08215316999849,
+  "scope_limits": [
+    "No complete physical stream correctness:1617 boundary/phase rows per orientation are excluded from the full canonical projection, and this pilot covers only128 retained rows.",
+    "No operator/Clifford phase proof or scalar matrix replay.",
+    "No clean or independent dirty-payload premise; initial centre labels are bookkeeping only.",
+    "No all-child realization, full21320-row projection certificate, complete owner hosting, private erasure or new kappa result."
+  ],
+  "kappa": "This structural finite pilot makes no new arithmetic or kappa claim."
+}
