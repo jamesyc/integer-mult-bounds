@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE_PROPOSAL_PENDING_UPSTREAM_COMPATIBILITY",
+  "direct_imports": [
+    "Current535PackedCoordinates",
+    "PR593Clifford"
+  ],
+  "prospective_scope": {
+    "total": 12,
+    "current_at_gate": 11,
+    "new": 1
+  },
+  "current_preparation": {
+    "accepted": 10,
+    "pending_prerequisite": 1,
+    "candidate": 1
+  },
+  "external_pairs": 2663,
+  "external_object_bytes": 1711248216,
+  "expected_probes": [
+    "CurrentMain.PackedGaussianReindex.source_xor_one",
+    "CurrentMain.PackedGaussianReindex.unpack_source_flip",
+    "CurrentMain.PackedGaussianReindex.gaussian_reindex",
+    "CurrentMain.PackedGaussianReindex.gaussian_conjugation"
+  ],
+  "finite_work": "Only closed1<512 arithmetic; no512-address, matrix or selected-record enumeration.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "admission": "Root16:25 authorizes first bounded check after source/API review, fresh Clifford acceptance and exact binding; no compiler during source preparation."
+}
