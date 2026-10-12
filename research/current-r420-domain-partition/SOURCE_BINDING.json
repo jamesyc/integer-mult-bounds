@@ -3,8 +3,8 @@
   "utc": "2026-10-12T16:27:04.523263+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
-    "sha256": "b0ab6a3a88cb4251ae397d1d820f815ce18cadd207fea1f94d0dd8567691ac9b",
-    "bytes": 1315
+    "sha256": "10ccd18d25e84742915cdf3615b0ed0f98c3c46ee610c66eec7af9b05322640d",
+    "bytes": 2213
   },
   "failed_original": {
     "module": "CurrentR420BoundaryCheck",
@@ -95,7 +95,7 @@
       "bytes": 143,
       "body_and_statement_exact": false,
       "statement_exact": true,
-      "proof_change": "Exact proved mergeSortTR rewrite only."
+      "proof_change": "Structural Bool isPerm certificate plus public symbolic sorting/permutation uniqueness; no sort reduction."
     }
   ],
   "remaining_unemitted_declarations": [
@@ -205,7 +205,7 @@
     "CurrentMain.CurrentR420Boundary.line_shape",
     "CurrentMain.CurrentR420Boundary.frame_index_permutation"
   ],
-  "changes": "Explicit implementation import uses legacy ordinary-import semantics. Existing proved rewrite and all three statements/probes remain unchanged.",
+  "changes": "Public symbolic sorted-permutation uniqueness after one finite isPerm certificate. Exact original theorem statement and first two proofs retained.",
   "no_whole_predicate_retry": true,
   "proof_local_repair": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/SOURCE_REPAIR_MANIFEST.json",
@@ -216,5 +216,10 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/SOURCE_REPAIR_MANIFEST.json",
     "sha256": "4ac261dcb08e46bcefb760595884f89319b8f70d41ba68e5a3bdcfaa0b12e004",
     "bytes": 2349
+  },
+  "symbolic_permutation_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/symbolic_permutation_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "7593c051aaf21df51946be818c8164e0369d3fa9eefba773504fb52aad7634f5",
+    "bytes": 3345
   }
 }

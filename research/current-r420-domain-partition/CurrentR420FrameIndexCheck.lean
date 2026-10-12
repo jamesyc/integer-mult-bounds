@@ -1,5 +1,6 @@
 import CurrentR420BoundaryData
-import Init.Data.List.Sort.Impl
+import Init.Data.List.Sort.Lemmas
+import Init.Data.List.Nat.Range
 
 /-! Exact first three declarations from the preserved R420 domain Check.
 This bounded index diagnostic places each original axiom probe immediately
@@ -23,8 +24,26 @@ theorem line_shape :
 
 theorem frame_index_permutation :
     (frameOrder.map Fin.val).mergeSort (fun a b => decide (a ≤ b)) = List.range 672 := by
-  rw [List.MergeSort.Internal.mergeSort_eq_mergeSortTR]
-  decide +kernel
+  have hc : (frameOrder.map Fin.val).isPerm (List.range 672) = true := by
+    decide +kernel
+  have hp : List.Perm (frameOrder.map Fin.val) (List.range 672) :=
+    List.isPerm_iff.mp hc
+  have hs : List.Pairwise (fun a b : Nat => a ≤ b)
+      ((frameOrder.map Fin.val).mergeSort (fun a b => decide (a ≤ b))) := by
+    have h := List.sorted_mergeSort (le := fun a b : Nat => decide (a ≤ b))
+      (fun a b c hab hbc => decide_eq_true
+        (Nat.le_trans (of_decide_eq_true hab) (of_decide_eq_true hbc)))
+      (fun a b => by
+        apply Bool.or_eq_true_iff.mpr
+        rcases Nat.le_total a b with h | h
+        · exact Or.inl (decide_eq_true h)
+        · exact Or.inr (decide_eq_true h))
+      (frameOrder.map Fin.val)
+    exact h.imp (fun hab => of_decide_eq_true hab)
+  exact List.Perm.eq_of_sorted
+    (fun a b _ _ hab hba => Nat.le_antisymm hab hba)
+    hs List.pairwise_le_range
+    ((List.mergeSort_perm _ _).trans hp)
 #print axioms CurrentMain.CurrentR420Boundary.frame_index_permutation
 
 end CurrentMain.CurrentR420Boundary

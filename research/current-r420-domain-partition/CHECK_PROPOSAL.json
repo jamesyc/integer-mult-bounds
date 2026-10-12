@@ -3,20 +3,21 @@
   "utc": "2026-10-12T16:27:04.524527+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
-    "sha256": "b0ab6a3a88cb4251ae397d1d820f815ce18cadd207fea1f94d0dd8567691ac9b",
-    "bytes": 1315
+    "sha256": "10ccd18d25e84742915cdf3615b0ed0f98c3c46ee610c66eec7af9b05322640d",
+    "bytes": 2213
   },
   "binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/SOURCE_BINDING.json",
-    "sha256": "431f584310b109dfdd42e7fb19f0aac6ec065383a9093e0dd3a9ac0504af0e53",
-    "bytes": 9427
+    "sha256": "20eec88462977cc8efb353a059eae00fe230c533769c0535c4c090e3a8a20f1a",
+    "bytes": 9830
   },
   "roots": [
     "CurrentR420FrameIndexCheck"
   ],
   "explicit_imports": [
     "CurrentR420BoundaryData",
-    "Init.Data.List.Sort.Impl"
+    "Init.Data.List.Sort.Lemmas",
+    "Init.Data.List.Nat.Range"
   ],
   "public_probes": [
     "CurrentMain.CurrentR420Boundary.selected_shape",
@@ -6337,7 +6338,7 @@
     "stop_on_first_failure_or_review": true,
     "automatic_retry": false
   },
-  "authority": "Root2026-10-12T16:46:58 authorizes one bounded diagnostic retry after independent smallest import/header/API and binding review.",
+  "authority": "Root2026-10-12T16:55:56 authorizes source after plan review and first bounded three-fact diagnostic after exact API/binding seal. Stop on failure/review; no automatic larger retry.",
   "next_owner": "/root/prove_main_signed_word",
   "stop": "First failure or review threshold; no automatic retry or cap increase. Measurement precedes decisions on remaining groups.",
   "wrapper_plan": "Keep all27 original names/statements; original Check ultimately becomes import-only wrapper after all independent groups pass. No wrapper emitted now.",
@@ -6350,5 +6351,10 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/SOURCE_REPAIR_MANIFEST.json",
     "sha256": "4ac261dcb08e46bcefb760595884f89319b8f70d41ba68e5a3bdcfaa0b12e004",
     "bytes": 2349
+  },
+  "symbolic_permutation_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/symbolic_permutation_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "7593c051aaf21df51946be818c8164e0369d3fa9eefba773504fb52aad7634f5",
+    "bytes": 3345
   }
 }
