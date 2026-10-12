@@ -1,0 +1,119 @@
+{
+  "status": "SOURCE_ARTIFACT_CHECKPOINT_WITH_SCOPED_KERNEL_RESULTS",
+  "created_utc": "2026-10-12T16:42:51.815578+00:00",
+  "source_head": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "observed_later_metadata_head": "8da98950892e735fb08453b87e6224828b4effa4",
+  "author_checked_conditional_kappa": {
+    "numerator": 400569730495803,
+    "denominator": 250000000000000000,
+    "decimal": "0.001602278921983212",
+    "selected_result_sha256": "ee28785d18d4a257dbffebd732560a6f710764355d25e003cc93cfddfc71ab67",
+    "end_to_end_theorem": false
+  },
+  "selected_manifest": {
+    "path": "research/community-family588-audit/SELECTED-SOURCE.json",
+    "sha256": "515b48dc5465aec3dd00bcc003a40f9ffb00069367fe47d990ca8b11945d512a",
+    "entries": 1793
+  },
+  "owner_delta_map": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/CURRENT_MAIN_9594_OWNER_DELTA_MAP.json",
+    "sha256": "12123aaa5072aa0d0faba27e01fbe66a379bb5f1b5b8a0a0327ba8ee490a8205"
+  },
+  "ck_independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/ck_generation_review/CK_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "494a086aeb335cfa54f6f2a2d07a807fba2ff8e8d9c211f8d7b374d8e5fe7919"
+  },
+  "ck_owner_result": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/RESULT.json",
+    "sha256": "e32431967d2acaafd7f46c3d755b5285768782f814b34fd05f4854e1aa92668a",
+    "bytes": 27538
+  },
+  "ck_semantic_identities": {
+    "CANONICAL-WORD.json.gz": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a",
+    "LOCAL-PROGRAMS.json.gz": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4",
+    "LOCAL-CHECKS.json": "3868b477aacdb3cf54f9b22c86b3b71f8aa73c91001729cf19e520b3bbf957cc",
+    "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+    "CLIFFORD-REVIEW.json": "30249daa964b516c42d742d5dbf7ef950b02dc2fc572505e2e4b24c5fed01e96"
+  },
+  "ck_actual_artifacts": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/FULL-WORD.json.gz",
+      "sha256": "e920ae0b9996a9079360f8ad05ee9ceb2cbabe1b83fe968ef6bfef54d530a08f",
+      "bytes": 36995
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/KERNEL-CONSTRUCTION.json",
+      "sha256": "23ca231febd30ee092f617f0506d120c01e421bc3c814ba82b11d912c7f15869",
+      "bytes": 6146
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FULL-WORD.json.gz",
+      "sha256": "a57a3b43a80c68796031086161168a09da54266bdf4442b72e7de0de56c2b22f",
+      "bytes": 37007
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FRAME-CONSTRUCTION.json",
+      "sha256": "98951047f5967e77c30861a3ccef600845bf5db2b6ea554b716ea3655b093ff9",
+      "bytes": 1781
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+      "sha256": "425b1f3a4da31d544579e7287ffeedc739dce8d84fe5b9bf02ceb3c69236961d",
+      "bytes": 37001
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FRAME-CONSTRUCTION.json",
+      "sha256": "ec10bf97610cec2ed56ba7db2ae9e450afb2429feeacf5fd0c70068073c44627",
+      "bytes": 1397
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/FULL-WORD.json.gz",
+      "sha256": "425b1f3a4da31d544579e7287ffeedc739dce8d84fe5b9bf02ceb3c69236961d",
+      "bytes": 37001
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/SCALAR-FRAME-AUDIT.json",
+      "sha256": "6e86ae6ce6ae32afc4eb9761e5caad50af543d7fb681b837238513548ae4a15d",
+      "bytes": 4547
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-CHECKS.json",
+      "sha256": "1330c631cc63073c7c3b542f8a9d3a1039274259b51f96b44c9ae50a58074c9e",
+      "bytes": 922
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-REVIEW.json",
+      "sha256": "ef92289b2596562af464dc459d89bfc5345d334b1b01ccc565b7c210ece3d566",
+      "bytes": 655
+    }
+  ],
+  "ck_resources": {
+    "child_wall_seconds": 213.72925409702293,
+    "child_cpu_user_seconds": 213.055555,
+    "child_cpu_system_seconds": 0.22524599999999986,
+    "child_cpu_total_seconds": 213.280801,
+    "peak_process_vm_bytes": 51351552,
+    "peak_process_rss_bytes": 37765120,
+    "fifo_seconds": 0.0005730139964725822,
+    "final_recipe_seconds": 199.97713716700673,
+    "aggregate_memory_cap_claimed": false
+  },
+  "scope_limits": "Exact selected ck source artifacts, including unchanged intrinsic Python checks. No full-provider/global owner-window audit, Lean certificate, physical executor or all-size kappa proof is inferred. No repeat generation required.",
+  "source_artifacts_changed": false,
+  "new_compiler_runs": 0
+}
