@@ -45,15 +45,32 @@ theorem raw_fields_bounded :
       canonicalRows ++ canonicalInverseRows ++ canonicalQ).all (fun x => decide (x < 512)) = true ∧
     (leftAlpha ++ rightAlpha).all (fun x => decide (x < 4)) = true := by decide +kernel
 
+/-- The finite-address inverse theorem supplies the reverse product. It does
+not enumerate addresses or replace any serialized matrix. -/
+private theorem reverse_inverse (A B : Matrix (Fin 9) (Fin 9) Bit)
+    (hAB : A * B = 1) : B * A = 1 := by
+  have hl : Function.LeftInverse (fun x : Address => A *ᵥ x)
+      (fun x : Address => B *ᵥ x) := by
+    intro x
+    rw [Matrix.mulVec_mulVec, hAB, Matrix.one_mulVec]
+  have hr : Function.RightInverse (fun x : Address => A *ᵥ x)
+      (fun x : Address => B *ᵥ x) :=
+    hl.rightInverse_of_card_le (le_refl (Fintype.card Address))
+  apply Matrix.ext_of_mulVec_single
+  intro j
+  simpa only [Matrix.mulVec_mulVec, Matrix.one_mulVec] using hr (Pi.single j 1)
+
 theorem left_inverses :
     matrix leftRows * matrix leftInverseRows = 1 ∧
     matrix leftInverseRows * matrix leftRows = 1 := by
-  constructor <;> decide +kernel
+  have h : matrix leftRows * matrix leftInverseRows = 1 := by decide +kernel
+  exact ⟨h, reverse_inverse _ _ h⟩
 
 theorem right_inverses :
     matrix rightRows * matrix rightInverseRows = 1 ∧
     matrix rightInverseRows * matrix rightRows = 1 := by
-  constructor <;> decide +kernel
+  have h : matrix rightRows * matrix rightInverseRows = 1 := by decide +kernel
+  exact ⟨h, reverse_inverse _ _ h⟩
 
 theorem canonical_inverses :
     matrix canonicalRows * matrix canonicalInverseRows = 1 ∧
