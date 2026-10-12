@@ -1,0 +1,15 @@
+{
+  "status": "ADVISORY_NO_ASCII_IMBALANCE",
+  "reason": null,
+  "advisory_only": true,
+  "parser_or_kernel_claim": false,
+  "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+  "issue_count": 0,
+  "issues": [],
+  "issue_output_limit": 32,
+  "bytes_read": 13698,
+  "source_sha256": "ba2a3a9b9a1457c175222533bfae6104a0efc0669ded9d949f31120b905fedc8",
+  "path": "research/f19-label-recipe-coverage-proposal/pilot/handoff/child5_more/F19CoverageChild5MoreCheck.lean",
+  "elapsed_seconds": 0.008136620999721345,
+  "max_source_bytes": 1048576
+}

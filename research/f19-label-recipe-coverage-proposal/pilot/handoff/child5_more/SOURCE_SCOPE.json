@@ -1,0 +1,88 @@
+{
+  "status": "SOURCE_FROZEN_SCIENCE_REVIEW_CAN_PROCEED_TERMINAL501_AND_DRIVER_BINDING_PENDING",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child5_more/F19CoverageChild5MoreData.lean",
+      "sha256": "c5fc3ebcc79d397359ac4841b3413453742051dc6b80275a86895f5196f88d7b",
+      "bytes": 5953
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child5_more/F19CoverageChild5MoreCheck.lean",
+      "sha256": "ba2a3a9b9a1457c175222533bfae6104a0efc0669ded9d949f31120b905fedc8",
+      "bytes": 13698
+    }
+  ],
+  "literal_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child5_more/LITERAL_AUDIT.json",
+    "sha256": "e576bcfee082a03646ecc67999202af055bcb4a7549bc5cee8f7a3d7754e4d54",
+    "bytes": 44375
+  },
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child5_more/decode_child5_more.py",
+    "sha256": "6fa291df35500fb02268be20e8cc62ba2971bc62c20c038a3657c203eab9c0fb",
+    "bytes": 3990
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child5_more/DELIMITER_ADVISORY.json",
+    "sha256": "078286798a5e047947237145074b3587a1edb5711c01fc27b626c1631df330c9",
+    "bytes": 558
+  },
+  "prior_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5_body/ACCEPTANCE.json",
+    "sha256": "21807b3fec1d7103624fbf0d2119f676d73c36ddf3a7cfb3a109b69e3e3d9656",
+    "bytes": 66661
+  },
+  "prospective_local_scope": [
+    23,
+    21,
+    2
+  ],
+  "raw_indices": [
+    11352,
+    11399
+  ],
+  "chunks": {
+    "K": {
+      "rows": 24,
+      "add": 23,
+      "relabel": 1,
+      "support": [
+        676
+      ]
+    },
+    "L": {
+      "rows": 24,
+      "add": 20,
+      "relabel": 4,
+      "support": [
+        454,
+        455,
+        530,
+        531
+      ]
+    }
+  },
+  "child": {
+    "ordinal": 5,
+    "key": [
+      0,
+      7,
+      1
+    ]
+  },
+  "checkpoints": [
+    525,
+    549
+  ],
+  "retained_prefix": 501,
+  "proof_shape": "Identical synchronous split-check/constant-value sparse checkpoint/append template. Every accepted prefix check is reused.",
+  "probe_count": 38,
+  "excluded": [
+    "Earlier omitted prefix/adapters",
+    "Centre events",
+    "Scalar/operator/physical endpoints",
+    "Rows after11399",
+    "General fit/throughput claim"
+  ],
+  "runtime_admission": "Pending independent501 terminal seal plus final exact source/current/runtime binding review. No compiler now."
+}
