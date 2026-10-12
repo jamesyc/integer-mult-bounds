@@ -1,0 +1,143 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENT_TERMINAL_REVIEWED",
+  "source_commit": "a02a7fe8450d9acc5dc094bb0008c4fedcc88108",
+  "source_sha256": "c1dbf237e28704b57857253dc32f5d5b3c82c5dcd23ce2a4e662d4ff72081418",
+  "object_sha256": "b44e4cec73460f0d6b2b48a01bde990f1dde1e8d760a10b85589bbea8b2c477c",
+  "receipt_sha256": "d534e73027e97f0c99e184c87f9ca6a0a6a02b1849c446f41eb7723aea6560ae",
+  "log_sha256": "7823201c9170e0ed2068823430168b085ff0c2d8ba668a1f1ef4339a7a32bfc8",
+  "selected_source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "catalog_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+  "canonical_word_sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+  "selected_key": {
+    "ordinal": 1,
+    "old": 0,
+    "new": 3,
+    "rank": 1,
+    "descriptor": [
+      384
+    ]
+  },
+  "current_local_closure": 10,
+  "retained_imported_inputs": 9,
+  "separately_preserved_root": "CliffordChild002Canonical",
+  "external_source_object_pairs": 2620,
+  "phase_case_count": 4,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.record_key",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.raw_fields_bounded",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.left_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.right_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.canonical_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.canonical_source_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.canonical_first_column",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.branch_phase_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.canonical_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.selected_child_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild003Canonical.selected_child_with_spectators",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "lean_version": "4.21.0",
+  "mathlib_commit": "308445d7985027f538e281e18df29ca16ede2ba3",
+  "first_attempt": true,
+  "measurements": {
+    "started_utc": "2026-10-12T12:49:49.219558+00:00",
+    "finished_utc": "2026-10-12T12:50:11.705059+00:00",
+    "compile_seconds": 22.485497281995777,
+    "queue_seconds": 0.001024780998704955,
+    "preparation_seconds": 1.0857907320023514,
+    "timeout_seconds": 60,
+    "memory_limit_bytes": 4294967296,
+    "process_observations": {
+      "samples": 224,
+      "peak_vm_bytes": 2644418560,
+      "peak_rss_bytes": 1868644352,
+      "peak_threads": 4
+    }
+  },
+  "review_limits": {
+    "seconds": 45,
+    "vm_bytes": 3758096384
+  },
+  "acceptance_sha256": "f649fa21210c32b0194bfd731d10991b28fd2f51461fffb90bbcf04267660c28",
+  "independent_terminal_review": {
+    "artifact": "CHILD003_CANONICAL_TERMINAL_REVIEW.json",
+    "sha256": "0bd6a20e999d60b32ca7771155dbdfc9141788dc91ccc816eda78d6d64fb74b3"
+  },
+  "claim": "The exact interpreted directed ordinal1 recipe equals its source-defined canonical Gaussian operator on every complex payload. Raw bounds, actual two-sided inverses, greedy basis/Q, first column and complete symbolic address/four-case phase certificate are checked; seven other address coordinates and external spectators are arbitrary.",
+  "remaining": [
+    "Raw packed-address/event executor correspondence and physical recipe semantics.",
+    "Residual/endpoint wrappers and expanded coefficient/tableau work.",
+    "Complete dirty-state rows/columns, global owner/stage/chart and cost suppliers.",
+    "Other record certificates, including ordinal2/key0->4."
+  ],
+  "publication": "No publication admission or multiplier bound."
+}
