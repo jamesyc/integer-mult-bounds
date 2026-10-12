@@ -1,0 +1,70 @@
+{
+  "status": "OWNER_ACCEPTED_695_ROWS_TERMINAL_REVIEW_PENDING",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_static_gap/ACCEPTANCE.json",
+    "sha256": "17d8084553c1a5bad525b78380b86e8b4c3885f6161e36ddd10cffba4e41103e"
+  },
+  "new_rows_each": 146,
+  "composed_rows_each": 695,
+  "raw_indices": [
+    11400,
+    11545
+  ],
+  "new_branches": {
+    "add": 146,
+    "relabel": 0
+  },
+  "child_checks_vacuous": true,
+  "new_metrics": [
+    {
+      "module": "F19CoverageStaticGapData",
+      "admitted_utc": "2026-10-12T13:28:00.178380+00:00",
+      "compile_seconds": 7.357848592000664,
+      "queue_seconds": 0.0029389810006250627,
+      "samples": 73,
+      "peak_vm_bytes": 2105135104,
+      "peak_rss_bytes": 1524260864,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageStaticGapCheckA",
+      "admitted_utc": "2026-10-12T13:28:16.884885+00:00",
+      "compile_seconds": 15.30029817600007,
+      "queue_seconds": 0.0004645179942599498,
+      "samples": 152,
+      "peak_vm_bytes": 2173128704,
+      "peak_rss_bytes": 1603293184,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageStaticGapCheckB",
+      "admitted_utc": "2026-10-12T13:28:42.078611+00:00",
+      "compile_seconds": 22.53849452299619,
+      "queue_seconds": 0.0009498149956925772,
+      "samples": 223,
+      "peak_vm_bytes": 2173255680,
+      "peak_rss_bytes": 1585721344,
+      "peak_threads": 3
+    }
+  ],
+  "total_compile_seconds": 45.19664129099692,
+  "total_queue_seconds": 0.00435331399057759,
+  "profiles": [
+    {
+      "module": "F19CoverageStaticGapCheckA",
+      "log_sha256": "fe6cd59366a70df086326c40f2896a31dd6153bfa209b53c4b6e3b450a5e35bf",
+      "type_checking_seconds_reported": 9.45,
+      "cumulative_profile": "\t.olean serialization 8.16ms\n\tattribute application 0.49ms\n\tcompilation 11.4ms\n\telaboration 840ms\n\tfix level params 0.83ms\n\tinstantiate metavars 1.98ms\n\tinterpretation 0.817ms\n\tlinting 483ms\n\tparsing 40.9ms\n\tprocess pre-definitions 11.9ms\n\tshare common exprs 3.45ms\n\ttactic execution 151ms\n\ttype checking 9.45s\n\ttypeclass inference 237ms\n",
+      "qualification": "Cumulative profiler categories and whole-process measurements only; these unnamed timing lines do not establish which proof or representation caused the cost."
+    },
+    {
+      "module": "F19CoverageStaticGapCheckB",
+      "log_sha256": "1f55a9a3dfc823899ea9d734a4836ba65f133314780b10ec22d34f1196a148a3",
+      "type_checking_seconds_reported": 13.1,
+      "cumulative_profile": "\t.olean serialization 8.79ms\n\tattribute application 0.548ms\n\tcompilation 15.2ms\n\telaboration 1.73s\n\tfix level params 0.826ms\n\tinstantiate metavars 2.38ms\n\tinterpretation 1.5ms\n\tlinting 838ms\n\tparsing 54.6ms\n\tprocess pre-definitions 17.6ms\n\tshare common exprs 7.42ms\n\ttactic execution 218ms\n\ttype checking 13.1s\n\ttypeclass inference 332ms\n",
+      "qualification": "Cumulative profiler categories and whole-process measurements only; these unnamed timing lines do not establish which proof or representation caused the cost."
+    }
+  ],
+  "conclusion": "This one grouped packet passed below unchanged per-root limits. No global speedup, same-input comparative result or full-stream fit is inferred.",
+  "preserved": "All23 current inputs and disconnected Direct retained; no accepted prefix redecision."
+}
