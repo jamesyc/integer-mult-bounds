@@ -1,0 +1,64 @@
+{
+  "status": "PASS_CURRENT_R420_LIFECYCLE_SOURCE_API_AND_LITERAL_BINDING",
+  "completed_utc": "2026-10-12T18:22:14.958218+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-lifecycle/CurrentR420ScatterLifecycle.lean",
+    "sha256": "e4b73074b4204d82d8ae766fb926dbcfeb34c9357247daae5934bdb5ca379766",
+    "bytes": 7915
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-lifecycle/SOURCE_BINDING.json",
+    "sha256": "a9d3febd119d731958842744683b7af6750a572ce2394a7bb02bf407499d7d01",
+    "bytes": 7078
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-lifecycle/CHECK_PROPOSAL.json",
+    "sha256": "5c46b780bcde7ef0e869833daba614203feacbb0e9136d454ea99f39cc44bf75",
+    "bytes": 2781
+  },
+  "accepted_template": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480ScatterLifecycle.lean",
+    "sha256": "b5f1907adb29a5ef6d4c8b83dfed9c26ed09779fc619a4c1e65361d82cba57b4",
+    "bytes": 7341
+  },
+  "raw_readback": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_lifecycle/RAW_WINDOW_READBACK.json",
+    "sha256": "d31ac2d8492246102b7a5b5bfa502b505edbf8b44c259db6a127b0394eab5b15",
+    "bytes": 8926
+  },
+  "checks": [
+    "All seven ordered substitutions reconstruct the source exactly from accepted repaired R480 lifecycle, preserving each proof architecture and fourteen public goals. The prior reducibility repair remains present: only rawWindows is locally irreducible.",
+    "Current verify.sh selects the pinned carrier exporter. Its retained-major COPY, target ADD membership loop and ERASE sequence agrees exactly with rawWindows. Four raw/Git pins and current5996 commit bind the source.",
+    "Independent raw JSON readback confirms nine current retained centres,568 ordered ADD targets and586 total COPY/ADD/ERASE events. All centres are helpers240..659, all targets120..239, temporary660 is distinct. Scatter rows are duplicate-free.",
+    "Bound-carrying decoding has no defaults, preserves ordered windows and invokes the accepted generic dirty-COPY/clear theorem. Nonempty nine-window witness justifies final false and incoming temporary independence.",
+    "Sources/helpers preservation is limited to this scatter slice. clean_temp_restored explicitly assumes false on entry; arbitrary dirty temporary restoration is excluded."
+  ],
+  "probes": [
+    "CurrentMain.CurrentR420ScatterLifecycle.raw_shape",
+    "CurrentMain.CurrentR420ScatterLifecycle.raw_domains",
+    "CurrentMain.CurrentR420ScatterLifecycle.source_rows_no_duplicates",
+    "CurrentMain.CurrentR420ScatterLifecycle.decode_roundtrip",
+    "CurrentMain.CurrentR420ScatterLifecycle.ordered_window_binding",
+    "CurrentMain.CurrentR420ScatterLifecycle.decoded_bounds",
+    "CurrentMain.CurrentR420ScatterLifecycle.windows_well_formed",
+    "CurrentMain.CurrentR420ScatterLifecycle.windows_nonempty",
+    "CurrentMain.CurrentR420ScatterLifecycle.exact_lifecycle",
+    "CurrentMain.CurrentR420ScatterLifecycle.final_temp_zero",
+    "CurrentMain.CurrentR420ScatterLifecycle.original_coordinate",
+    "CurrentMain.CurrentR420ScatterLifecycle.sources_helpers_preserved",
+    "CurrentMain.CurrentR420ScatterLifecycle.incoming_temp_independent",
+    "CurrentMain.CurrentR420ScatterLifecycle.clean_temp_restored"
+  ],
+  "finite_decisions": 3,
+  "runtime_scope": [
+    328,
+    327,
+    1
+  ],
+  "runtime_review": "Separate; no compiler or driver invocation by this source reviewer.",
+  "remaining": [
+    "Physical frame fq/COPY/ZERO validity after D/A.",
+    "Actual A/C/D semantics and whole selected word.",
+    "Fresh Fin661 lifecycle compiler check and independent terminal."
+  ]
+}

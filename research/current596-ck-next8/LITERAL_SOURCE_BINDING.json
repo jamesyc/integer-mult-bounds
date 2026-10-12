@@ -1,0 +1,340 @@
+{
+  "current_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    }
+  },
+  "historical_inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    "CLIFFORD-RECIPES.json": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    }
+  },
+  "frame_prefix": 1079,
+  "appended_dimensions": [
+    8,
+    8,
+    8
+  ],
+  "initial_labels_equal": 728,
+  "catalog_prefix_entire_records_equal": 174,
+  "catalog_total_current": 3040,
+  "selected_keys": [
+    {
+      "ordinal": 1,
+      "old": 0,
+      "new": 3,
+      "rank": 1,
+      "old_descriptor": [],
+      "new_descriptor": [
+        42
+      ],
+      "record_sha256": "f1e078b4c85b6f5b1d7537f261c49d9bed8e5d48e023585b1a928ab399303bfe"
+    },
+    {
+      "ordinal": 173,
+      "old": 3,
+      "new": 4,
+      "rank": 1,
+      "old_descriptor": [
+        42
+      ],
+      "new_descriptor": [
+        75,
+        42
+      ],
+      "record_sha256": "fe50dc72c4d2ad9ce8dcb9411aa6b875d629b86a62dc07764ac3ead21fac7c5e"
+    }
+  ],
+  "rows": {
+    "forward": [
+      {
+        "sourceIndex": 9932,
+        "row": [
+          "climb",
+          "A",
+          474,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9933,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              474
+            ],
+            [
+              "L",
+              464
+            ],
+            -1,
+            1
+          ],
+          3
+        ]
+      },
+      {
+        "sourceIndex": 9934,
+        "row": [
+          "climb",
+          "A",
+          474,
+          3,
+          4,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9935,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              474
+            ],
+            [
+              "L",
+              488
+            ],
+            -1,
+            1
+          ],
+          4
+        ]
+      },
+      {
+        "sourceIndex": 9936,
+        "row": [
+          "climb",
+          "A",
+          475,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9937,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              475
+            ],
+            [
+              "L",
+              464
+            ],
+            -1,
+            1
+          ],
+          3
+        ]
+      },
+      {
+        "sourceIndex": 9938,
+        "row": [
+          "climb",
+          "A",
+          475,
+          3,
+          4,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9939,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              475
+            ],
+            [
+              "L",
+              489
+            ],
+            -1,
+            1
+          ],
+          4
+        ]
+      }
+    ],
+    "backward": [
+      {
+        "sourceIndex": 9932,
+        "row": [
+          "climb",
+          "A",
+          474,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9933,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              464
+            ],
+            [
+              "L",
+              474
+            ],
+            1,
+            1
+          ],
+          3
+        ]
+      },
+      {
+        "sourceIndex": 9934,
+        "row": [
+          "climb",
+          "A",
+          474,
+          3,
+          4,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9935,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              488
+            ],
+            [
+              "L",
+              474
+            ],
+            1,
+            1
+          ],
+          4
+        ]
+      },
+      {
+        "sourceIndex": 9936,
+        "row": [
+          "climb",
+          "A",
+          475,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9937,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              464
+            ],
+            [
+              "L",
+              475
+            ],
+            1,
+            1
+          ],
+          3
+        ]
+      },
+      {
+        "sourceIndex": 9938,
+        "row": [
+          "climb",
+          "A",
+          475,
+          3,
+          4,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9939,
+        "row": [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              489
+            ],
+            [
+              "L",
+              475
+            ],
+            1,
+            1
+          ],
+          4
+        ]
+      }
+    ]
+  },
+  "histogram_each": {
+    "ADD": 4,
+    "relabel": 4
+  },
+  "support": [
+    474,
+    475
+  ],
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-next8/Current596CKNext8.lean",
+    "sha256": "c232c3875ccc191b7e3534253d444de153385e9f339a8cbd1bb2630e643ffeba",
+    "bytes": 14218
+  },
+  "helper_preimage": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/Current596CKFirst33Transport.lean",
+    "sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+    "bytes": 6360
+  },
+  "helper_generalization": "Accepted constructor proofs specialized from ScalarEvent n to LabelEvent n, names raw_ prefixed. New raw_labRun_map is only label syntax fold; no scalar or conjugation induction."
+}

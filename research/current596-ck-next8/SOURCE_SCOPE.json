@@ -1,0 +1,117 @@
+{
+  "status": "SOURCE_ONLY_NEXT_EIGHT_CURRENT5996",
+  "utc": "2026-10-12T18:26:25.441978+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-next8/Current596CKNext8.lean",
+    "sha256": "c232c3875ccc191b7e3534253d444de153385e9f339a8cbd1bb2630e643ffeba",
+    "bytes": 14218
+  },
+  "literal_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-next8/LITERAL_SOURCE_BINDING.json",
+    "sha256": "aef2e1978dec283a93e7c04ef1117d26f63fca70d11efb3ce5f8895428f9d680",
+    "bytes": 6962
+  },
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "author_checked_conditional_kappa": "16127213726553/10000000000000000",
+  "accepted_first33": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current596_ck_first33_transport/ACCEPTANCE.json",
+    "sha256": "cdd81ea84c709c10033ed29d93b4926af5d95faf8203280d148f534f683715b5",
+    "bytes": 70615
+  },
+  "first33_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_CK_FIRST33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "10cb6ed3ef6792275eb39de8c418676476929a04dd2ec86d496d0691d05e3d30",
+    "bytes": 45537
+  },
+  "generation_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c",
+    "bytes": 6948
+  },
+  "source_range_inclusive": [
+    9932,
+    9939
+  ],
+  "rows_per_orientation": 8,
+  "histogram_each": {
+    "ADD": 4,
+    "relabel": 4
+  },
+  "directed_keys": [
+    {
+      "ordinal": 1,
+      "old": 0,
+      "new": 3,
+      "rank": 1,
+      "old_frame": [],
+      "new_frame": [
+        42
+      ]
+    },
+    {
+      "ordinal": 173,
+      "old": 3,
+      "new": 4,
+      "rank": 1,
+      "old_frame": [
+        42
+      ],
+      "new_frame": [
+        75,
+        42
+      ]
+    }
+  ],
+  "lookup_scope": "Exact current catalog prefix174 retaining ordinal positions1/173. Every entire prefix record independently matches the retained table; this is explicitly not the full3040 catalog. Dimensions are exact1082; starts exact728.",
+  "checkpoints": {
+    "entry": 33,
+    "exit": 41,
+    "support": [
+      474,
+      475
+    ],
+    "values": [
+      4,
+      4
+    ],
+    "untouched": 734
+  },
+  "label_transport": "Three accepted mapEvent/Admissible/WellLabelled helper proof bodies generalized only from rational coefficient syntax to signed-pair raw syntax. One new labRun map law transports the accepted full33 checkpoint; no previous finite decision or scalar/realization induction.",
+  "fresh_finite_decisions": 9,
+  "probes": [
+    "CurrentMain.Current596CKNext8.raw_mapEvent_lab",
+    "CurrentMain.Current596CKNext8.raw_mapEvent_admissible",
+    "CurrentMain.Current596CKNext8.raw_wellLabelled_map",
+    "CurrentMain.Current596CKNext8.raw_labRun_map",
+    "CurrentMain.Current596CKNext8.exact_source_indices",
+    "CurrentMain.Current596CKNext8.forward_prefix_checkpoint33",
+    "CurrentMain.Current596CKNext8.forward_prefix_wellLabelled33",
+    "CurrentMain.Current596CKNext8.forward_labels_checked",
+    "CurrentMain.Current596CKNext8.forward_children_checked",
+    "CurrentMain.Current596CKNext8.forward_checked",
+    "CurrentMain.Current596CKNext8.forward_wellLabelled",
+    "CurrentMain.Current596CKNext8.forward_support41",
+    "CurrentMain.Current596CKNext8.forward_touched41",
+    "CurrentMain.Current596CKNext8.forward_checkpoint41",
+    "CurrentMain.Current596CKNext8.forward_composed_wellLabelled41",
+    "CurrentMain.Current596CKNext8.forward_composed_checkpoint41",
+    "CurrentMain.Current596CKNext8.forward_decoded",
+    "CurrentMain.Current596CKNext8.backward_prefix_checkpoint33",
+    "CurrentMain.Current596CKNext8.backward_prefix_wellLabelled33",
+    "CurrentMain.Current596CKNext8.backward_labels_checked",
+    "CurrentMain.Current596CKNext8.backward_children_checked",
+    "CurrentMain.Current596CKNext8.backward_checked",
+    "CurrentMain.Current596CKNext8.backward_wellLabelled",
+    "CurrentMain.Current596CKNext8.backward_support41",
+    "CurrentMain.Current596CKNext8.backward_touched41",
+    "CurrentMain.Current596CKNext8.backward_checkpoint41",
+    "CurrentMain.Current596CKNext8.backward_composed_wellLabelled41",
+    "CurrentMain.Current596CKNext8.backward_composed_checkpoint41",
+    "CurrentMain.Current596CKNext8.backward_decoded"
+  ],
+  "remaining": [
+    "Actual pre-A execution-to-declared labels0, including changed HPE prefix and omitted adapters.",
+    "Operators for current child1 (0\u21923/[42]) and child173 (3\u21924/[75,42]); frame owns them.",
+    "Physical recipe/executor/expanded work and full selected stream/owner/kappa certification."
+  ]
+}
