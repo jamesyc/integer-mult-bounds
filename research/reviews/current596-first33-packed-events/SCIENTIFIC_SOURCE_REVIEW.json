@@ -1,0 +1,104 @@
+{
+  "status": "PASS_CONDITIONAL_FIRST33_PACKED_EVENT_SOURCE_API",
+  "utc": "2026-10-12T18:05:52.924944+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-first33-packed-events/Current596CKFirst33PackedEvents.lean",
+    "sha256": "55dd3c495b2ac415506b02ce3d1acb674febe5189cd07273615a33aca0b52c31",
+    "bytes": 7003
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-first33-packed-events/SOURCE_PROPOSAL.json",
+    "sha256": "47e4d6dcdf6f68f6f8ecf8541a7b5177833a4c5a429a6b6fe704bde3af718c25",
+    "bytes": 5923
+  },
+  "verified_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-first33-packed-events/Current596CKFirst33PackedEvents.lean",
+      "sha256": "55dd3c495b2ac415506b02ce3d1acb674febe5189cd07273615a33aca0b52c31",
+      "bytes": 7003
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_FIRST33_PACKED_EVENT_INTERFACE_PROPOSAL.json",
+      "sha256": "4574a0495fc3dabcb789ecf67cbfd6d1cd2a67d73eade4e850f1e9ac44c4b263",
+      "bytes": 6736
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c",
+      "bytes": 6948
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/Current596CKFirst33Transport.lean",
+      "sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+      "bytes": 6360
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current5996-ck-packed-recipe/Current5996CKPackedRecipe.lean",
+      "sha256": "bcba45749abe4a289b487fac2cd2ed4f8b9fcb2b7b69574e00a65a1c2af43392",
+      "bytes": 4524
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-first45-recipes/Current535First45Recipes.lean",
+      "sha256": "a817c9368c5dfeadd7ad8b377f9a9ba4ed3b0f2abf7bd46b0cea81b347f9b4c1",
+      "bytes": 6439
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current596_ck_first33_transport/key_capture_repair/SOURCE_REPAIR_PROPOSAL.json",
+      "sha256": "81d3ad81ebd4ae6a45f543a0a76bb79100d8e7e1d56c86e7b647696504d4ea1a",
+      "bytes": 1874
+    }
+  ],
+  "scope": [
+    38,
+    37,
+    1
+  ],
+  "external_pairs": 2664,
+  "prerequisites": "Actual independent first33 repaired module terminal and packed recipe terminal must both be bound before compiler admission. Source review does not accept pending objects.",
+  "scientific_readback": {
+    "payload_chart": "frameTwo applies packed payloadEquiv, canonical K inverse, Gaussian, canonical K, then payloadEquiv.symm. LinearEquiv.trans order matches the all-payload packed_canonical_child RHS; restrictScalars to rational leaves the function/inverse unchanged.",
+    "recipe": "recipe02 uses the exact cL512 right/Gaussian/left circuit from Current5996CKPackedRecipe.recipe. It is not an arbitrary relabel operator.",
+    "key_restriction": "RecipesExact is restricted to relabel members. RelabelsUse forces old0/new2; only that branch consumes recipe02_exact. Arbitrary fallback is never used for a relabel in these slices.",
+    "chart_premises": "Every selected theorem explicitly includes both hzero:T0=refl and htwo:T2=frameTwo. Four actual #check types are required at terminal, in addition to eight complete axiom probes.",
+    "composition": "keyed_block preserves ordered decodeRows, WellLabelled, RecipesExact, accepted rawRowsRun equality and PR509 conj-prime for arbitrary initial736-register packed payload state. No new stream induction or finite predicate.",
+    "scope": "Four current24/9 blocks, declared mapped labels0/24, two directions. Actual pre-A entrance execution and typed-to-source executor/physical expanded-work equality remain separate."
+  },
+  "probes": [
+    "CurrentMain.Current596CKFirst33PackedEvents.frameTwo_apply",
+    "CurrentMain.Current596CKFirst33PackedEvents.recipe02_exact",
+    "CurrentMain.Current596CKFirst33PackedEvents.recipes_exact",
+    "CurrentMain.Current596CKFirst33PackedEvents.keyed_block",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A",
+    "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B"
+  ],
+  "required_type_audits": [
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A",
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B",
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A",
+    "@CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B"
+  ],
+  "exclusions": [
+    "Actual source Python/vectorized emitted program executor equality to this typed packed Event interpreter. Naming a Lean function packedRun or unfolding physRun is not that supplier.",
+    "Pre-A execution from the actual start to the supplied current first33 labels0/state; the raw9899 start is not a whole-program prefix.",
+    "Omitted scalar/endpoint adapters, expanded physical work-register domain and temporary lifecycle.",
+    "Whole stream/profile/invoice/provider and all-size inherited endpoint conditions, including hstart and unit-row premises where PR593 is reused."
+  ],
+  "compiler_executed": false
+}
