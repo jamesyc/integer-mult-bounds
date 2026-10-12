@@ -1,0 +1,197 @@
+{
+  "status": "THREE_ROOT_KERNEL_AND_INDEPENDENT_TERMINAL_PASS",
+  "final_source_commit": "f8fc1037aa4f67a6bda9640cdecfea78f086a453",
+  "selected_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "selected_key": {
+    "source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+    "ordinal": 4,
+    "old": 0,
+    "new": 6,
+    "rank": 1,
+    "descriptor": [
+      11
+    ]
+  },
+  "roots": [
+    {
+      "module": "Current535Child006Coordinates",
+      "source_sha256": "260b7ea29dadbd973ce663c776122079011e5a528b24ee27b323e017f4538a34",
+      "object_sha256": "d4ae21a4723117e53f2a0c7680cb56c1e48dc2c02bfff5d6984ace28aa52afae",
+      "receipt_sha256": "8fca4180592e202d182472a65ba04876406faed52e865396cfd6f0df422c476d",
+      "log_sha256": "9d33d077679ce6dd1de1e3a431e97bfaaa3812962a8832cfd8421de2a36b886f",
+      "acceptance_sha256": "bca004a9962cec515f2caf1dc9d97b8174333dc35296cae45dd6babf6889afab",
+      "compiler_seconds": 32.279079350992106,
+      "fifo_seconds": 0.0008312409918289632,
+      "peak_vm_bytes": 2646642688,
+      "probes": [
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.addressEquiv",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.coordinate_order",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.left_rows",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.right_rows",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.left_inverse_rows",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.right_inverse_rows",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.offset_rows",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current535Child006Phases",
+      "source_sha256": "30eba047f57ef8f06ccda2bf1a7c8214436b5df32c69de2e07cf04e5bd8b4b56",
+      "object_sha256": "c3152d19fa1b6f5d879a033de973177b808a1cc4959080e3fca131c7743a90a1",
+      "receipt_sha256": "0e1df489d7b2c262cf95e54e7bbe94e441707581e0899a68a473b2d2320adc12",
+      "log_sha256": "b0b264cd02be1f2d10008117f3406066b54ab27661f0c12fac7cd65eecf8385f",
+      "acceptance_sha256": "d07f41916926e0ebf623c0e714ceedf162f76272d5ea02ef46de8980a57ad538",
+      "compiler_seconds": 23.47141660899797,
+      "fifo_seconds": 0.0007443969952873886,
+      "peak_vm_bytes": 2646171648,
+      "probes": [
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.left_phase",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.right_phase",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.canonical_phase",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current535Child006PayloadTransport",
+      "source_sha256": "04f34a7e78027e76c128b1bd3bc9d0b9dabad4625208620e9e9bc57b4f85a2c7",
+      "object_sha256": "c0b05060f71614f3c0ba0b3559bcde9fcfea6bec2f81a0cb9615f0814ef96da6",
+      "receipt_sha256": "613db04863c1a36844f02eb775960fa769ea97125a466b6e30900affe529efda",
+      "log_sha256": "29a55d12262e9af69354d7fe36fa62e1d3e80a410f3d6423f42f0b7a3eb7b687",
+      "acceptance_sha256": "5bd3e8887ab194cbe4a95866256ba168c503a4a7890ef541dd72bff04bef4123",
+      "compiler_seconds": 10.185336947004544,
+      "fifo_seconds": 0.004012362012872472,
+      "peak_vm_bytes": 2646806528,
+      "probes": [
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.gaussian_transport",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.left_source_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.right_source_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.canonicalK_source_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.canonical_new_shape",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current535Child006PayloadTransport.selected_child_operator",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    }
+  ],
+  "import_closure": 14,
+  "external_pairs": 2620,
+  "probe_count": 16,
+  "independent_terminal_review_sha256": "739d654787625a08046df77e8152c5bf80902ac72cf9067fe5f25505bf37e31e",
+  "claim": "Exact interpreted child0->6/[11] all-payload identity on the uniform nine-coordinate Address type, transported from accepted low4/high5 child009 using separately accepted coordinate/row/phase correspondence. Source phase1/offset1 and Gaussian C0 normalization retained.",
+  "remaining": [
+    "Raw packed integer circuit, emitted relabel event and physical executor equality.",
+    "Other selected records, residual/end wrappers, full expanded-work and dirty-register endpoint/cost suppliers.",
+    "No selected9594 descriptor/event applicability without exact current provider bytes."
+  ],
+  "failures_preserved": "Original monolithic60-second timeout, one phase value failure and three final operator interface failures. No accepted prerequisites changed.",
+  "resource_comparison": "Three-root proof strategy and symbolic normalization differ from the timed-out monolithic source. Separate accepted measurements do not constitute a controlled runtime speedup claim.",
+  "publication": "No publication admission or author-checked kappa supplied by this interface."
+}
