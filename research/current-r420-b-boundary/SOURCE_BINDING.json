@@ -97,8 +97,8 @@
     },
     {
       "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
-      "sha256": "33b6e51169d625de49a1b97a75334b15c4d258343f144c6b8535a02c6ae333ef",
-      "bytes": 6299
+      "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+      "bytes": 6313
     }
   ],
   "frame_order": [
@@ -933,5 +933,15 @@
       }
     }
   ],
-  "accepted_alias_inverse_verified": true
+  "accepted_alias_inverse_verified": true,
+  "uncompiled_statement_correction": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/final_band_operand_correction/SOURCE_CORRECTION.json",
+    "sha256": "a8bc57936740039ae28a7d0007bdd2528c2b6c594d0639d840808ffaa7352feb",
+    "bytes": 2724
+  },
+  "last_band_operand_counts": {
+    "source": 120,
+    "helper": 240,
+    "target": 0
+  }
 }

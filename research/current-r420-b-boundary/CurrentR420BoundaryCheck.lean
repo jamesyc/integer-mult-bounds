@@ -73,7 +73,7 @@ theorem middle_operand_bands :
 
 theorem last_target_band : lastTargets.all (fun g =>
     decide (120 ≤ g.2.1 ∧ g.2.1 < 240 ∧ g.2.2.length = 3) &&
-    g.2.2.all (fun r => decide (r < 120))) = true := by decide +kernel
+    g.2.2.all (fun r => decide (r < 120 ∨ 240 ≤ r))) = true := by decide +kernel
 
 theorem final_target_frames : lastTargets.all (fun g =>
     final[g.2.1]? == some g.1) = true := by decide +kernel

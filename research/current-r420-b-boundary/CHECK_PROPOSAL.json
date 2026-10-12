@@ -3,8 +3,8 @@
   "created_utc": "2026-10-12T16:11:23.322029+00:00",
   "source_binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/SOURCE_BINDING.json",
-    "sha256": "d1a8d17ec827bb0fa80c346d4238fa49481a4eda80c922891725ebda0e167ce8",
-    "bytes": 18291
+    "sha256": "e955e71e2eef798a5aa0de4d3269bd9276ce448073bb65aa9d3d250c61a87c5c",
+    "bytes": 18698
   },
   "roots": [
     {
@@ -23,8 +23,8 @@
       "module": "CurrentR420BoundaryCheck",
       "candidate": {
         "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
-        "sha256": "33b6e51169d625de49a1b97a75334b15c4d258343f144c6b8535a02c6ae333ef",
-        "bytes": 6299
+        "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+        "bytes": 6313
       },
       "explicit_imports": [
         "CurrentR420BoundaryData"
@@ -6672,5 +6672,10 @@
     "Separate661-register scatter lifecycle",
     "Two-level off-target cleanup using accepted generic agreement/reversal APIs"
   ],
-  "next_owner": "/root/prove_main_signed_word"
+  "next_owner": "/root/prove_main_signed_word",
+  "source_correction": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/final_band_operand_correction/SOURCE_CORRECTION.json",
+    "sha256": "a8bc57936740039ae28a7d0007bdd2528c2b6c594d0639d840808ffaa7352feb",
+    "bytes": 2724
+  }
 }
