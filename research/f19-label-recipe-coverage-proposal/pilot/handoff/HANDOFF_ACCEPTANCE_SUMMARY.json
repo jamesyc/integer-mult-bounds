@@ -1,0 +1,137 @@
+{
+  "status": "ACCEPTED_PROJECTED192_EACH_WITH_EXACT_FULL_LABEL_CHECKPOINT",
+  "utc": "2026-10-12T10:51:46.403080+00:00",
+  "source_commit": "623597661d0395d6c34e4d80bca643d520bc2579",
+  "boundary_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_handoff/ACCEPTANCE.json",
+    "sha256": "bb8c50d329637d4acf30576683ba65f8ceb0625dae1cd8aca461e396e985a772",
+    "bytes": 16880
+  },
+  "boundary_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_BOUNDARY_TERMINAL_REVIEW.json",
+    "sha256": "d58e1836bbf9ab39030e5fbe23e996476cea0ea961c330a4708f9a0fe5684b1d",
+    "bytes": 7250
+  },
+  "next64_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_next_check/ACCEPTANCE.json",
+    "sha256": "d258b485364298565fa543e3e81350ebb6fafedcf66bc7e7310e21f5ac0f1dcd",
+    "bytes": 23928
+  },
+  "next64_terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_NEXT64_TERMINAL_REVIEW.json",
+    "sha256": "a5f077178f3f0f16600e20249efbd88b8d050a49cd301e87b7bc0b62c184e9cf",
+    "bytes": 5745
+  },
+  "current_local_modules": 7,
+  "external_pairs": 2213,
+  "boundary_compiler_seconds": 7.7585188259981805,
+  "new64_compiler_seconds": 11.280783302994678,
+  "new64_queue_seconds": 0.0008428040018770844,
+  "new64_peak_vm_bytes": 3108790272,
+  "branch_counts": {
+    "local_modules": 7,
+    "preserved_current": 6,
+    "new_checks": 1,
+    "external_pairs_verified": 2213,
+    "new_rows_each": 64,
+    "raw_indices_inclusive": [
+      10979,
+      11042
+    ],
+    "branch_counts_each": {
+      "add": 62,
+      "relabel": 2
+    },
+    "child_occurrences_each": 2,
+    "distinct_child_ordinals": [
+      0
+    ],
+    "directed_child_key": [
+      0,
+      2,
+      1
+    ],
+    "composed_rows_each": 192,
+    "composed_raw_indices_inclusive": [
+      10851,
+      11042
+    ],
+    "composed_counts_each": {
+      "add": 149,
+      "relabel": 43
+    },
+    "label_domain": 736,
+    "changed_selected_data": false
+  },
+  "accepted_sources": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+      "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "bytes": 15263
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+      "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+      "bytes": 6854
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+      "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+      "bytes": 82366
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+      "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+      "bytes": 1316
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextData.lean",
+      "sha256": "5dc5f53b220310fd4094c64d0c57911bae2740dbd9e0b6d6b950c246ccede54f",
+      "bytes": 7815
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoveragePilotBoundary.lean",
+      "sha256": "8acddbafd1fcd2ac0c0d7689c86d67c820e0bb52774da6dc850069d182b1c3e1",
+      "bytes": 3177
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_handoff/F19CoverageNextCheck.lean",
+      "sha256": "682184651c36f00b946d0a0a0d28cc1b877ff26680647fc864d7870b7e02b44b",
+      "bytes": 2416
+    }
+  ],
+  "limitations": [
+    "Earlier raw prefix WellLabelled",
+    "Full canonical or physical stream",
+    "Omitted endpoint/residual adapters and phase operators",
+    "Clifford/scalar/owner-cost or arbitrary-dirty endpoint correctness"
+  ],
+  "next_source_inventory_only": {
+    "first_uncovered_raw_index": 11043,
+    "next64_inclusive": [
+      11043,
+      11106
+    ],
+    "counts_each": {
+      "add": 63,
+      "climb": 1
+    },
+    "child_ordinals": [
+      0
+    ],
+    "following64_inclusive": [
+      11107,
+      11170
+    ],
+    "following_counts_each": {
+      "add": 56,
+      "climb": 8
+    },
+    "following_child_ordinals": [
+      1,
+      2
+    ],
+    "no_future_candidate_or_gate_admitted": true
+  },
+  "resources_interpretation": "Observed two bounded checks with retained accepted proofs, not a throughput or full-stream fit guarantee."
+}
