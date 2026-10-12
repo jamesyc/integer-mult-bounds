@@ -1,0 +1,115 @@
+{
+  "status": "PASS_EXACT18_CURRENT596_FIRST33_TRANSPORT_OWNER_ACCEPTANCE",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current596_ck_first33_transport/ACCEPTANCE.json",
+    "sha256": "cdd81ea84c709c10033ed29d93b4926af5d95faf8203280d148f534f683715b5",
+    "bytes": 70615
+  },
+  "scope": {
+    "local_modules": 18,
+    "preserved_imported": 17,
+    "new_checks": 1,
+    "protected_outside": 7
+  },
+  "timing": {
+    "source_science_received_utc": "2026-10-12T17:50:43+00:00",
+    "dependency_terminal_received_utc": "2026-10-12T17:57:53+00:00",
+    "release_received_utc": "2026-10-12T17:43:37+00:00",
+    "binding_sealed_utc": "2026-10-12T18:10:38.001535+00:00",
+    "binding_message_received_read_utc": "2026-10-12T18:10:53+00:00",
+    "invoked_utc": "2026-10-12T18:11:04.491656590+00:00",
+    "post_lock_guard_utc": "2026-10-12T18:11:07.097353+00:00",
+    "admitted_utc": "2026-10-12T18:11:09.310425+00:00",
+    "checker_requested_utc": "2026-10-12T18:11:09.352602+00:00",
+    "slot_acquired_utc": "2026-10-12T18:11:09.353290+00:00",
+    "compiler_started_utc": "2026-10-12T18:11:09.954321+00:00",
+    "compiler_finished_utc": "2026-10-12T18:11:15.291507+00:00",
+    "compile_seconds": 5.337150873994688,
+    "queue_seconds": 0.0006909920048201457,
+    "preparation_seconds": 0.6010296739987098,
+    "note": "Each field records its observed boundary; no causal allocation of messaging/guard intervals or throughput claim."
+  },
+  "process_observations": {
+    "samples": 52,
+    "peak_vm_bytes": 2131103744,
+    "peak_rss_bytes": 1533362176,
+    "peak_threads": 3
+  },
+  "new_probes": [
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.mapEvent_lab",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.mapEvent_admissible",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.wellLabelled_map",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.relabelsUse_map",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.keyedDecoded_map",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.selected_forward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.selected_forward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.selected_backward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current596CKFirst33Transport.selected_backward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "statement_scope": "Five generic forward label-domain transport facts plus four current Fin1082 rational decoder/WellLabelled/relabel-key0\u21922 witnesses for exact forward/backward24+9 slices.16 relabel and50 ADD occurrences reused; no finite row/catalog decisions. The initial labels are declared mapped labels; differing pre-A execution remains outside.",
+  "excluded_scope": [
+    "Exact recipe operator/charts and physical execution are downstream premises.",
+    "The current first33 excludes all pre-A phase/adapter/residual entries, later key0\u21923 and the full HPE program.",
+    "No full1079 or1082 operator catalog, owner allocation, provider mixture or current-kappa theorem follows.",
+    "The full pre-A raw prefixes differ. Equality is only of all728 declared starting frame values and the selected33 rows. The mapped labels0/checkpoint24 are the theorem initializer; no current pre-A execution/physical entrance-state bridge is asserted."
+  ],
+  "independent_terminal": "pending"
+}
