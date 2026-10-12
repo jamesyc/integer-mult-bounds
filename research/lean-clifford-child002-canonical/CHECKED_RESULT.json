@@ -1,0 +1,149 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENT_TERMINAL_REVIEWED",
+  "source_commit": "dbedd5c63b2a1515da7ee8a257cf4a998aeb72b2",
+  "source_sha256": "c6626416e650fe76f2f3bdf8aedd4b2fd6e0c0136dfb4183b5c4fc69389eea4f",
+  "object_sha256": "c682d00be1ce64e98d8acb4aa6da2d5ba03f2956b635e723a79039d4c96b7156",
+  "receipt_sha256": "dd3c9f435607c8c1c619e5e3ad4a5ac8764d080f3d9edda39e2e3ea465049cb0",
+  "log_sha256": "92cf72cfd9b0fc98da2282b35cd9be22a0c54689a528a16a502c695160f39dbe",
+  "selected_source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+  "catalog_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+  "canonical_word_sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+  "selected_key": {
+    "ordinal": 0,
+    "old": 0,
+    "new": 2,
+    "rank": 1,
+    "descriptor": [
+      45
+    ]
+  },
+  "current_local_closure": 10,
+  "retained_inputs": 9,
+  "external_source_object_pairs": 2620,
+  "phase_case_count": 16,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.record_key",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.raw_fields_bounded",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.left_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.right_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.canonical_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.canonical_source_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.canonical_first_column",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.branch_phase_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.canonical_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.selected_child_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.CliffordChild002Canonical.selected_child_with_spectators",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "lean_version": "4.21.0",
+  "mathlib_commit": "308445d7985027f538e281e18df29ca16ede2ba3",
+  "measurements": {
+    "started_utc": "2026-10-12T12:35:45.954441+00:00",
+    "finished_utc": "2026-10-12T12:36:08.367283+00:00",
+    "compile_seconds": 22.41283795000345,
+    "queue_seconds": 0.0006909369985805824,
+    "preparation_seconds": 1.0584245040008682,
+    "timeout_seconds": 60,
+    "memory_limit_bytes": 4294967296,
+    "process_observations": {
+      "samples": 222,
+      "peak_vm_bytes": 2641219584,
+      "peak_rss_bytes": 1848086528,
+      "peak_threads": 4
+    }
+  },
+  "review_limits": {
+    "seconds": 45,
+    "vm_bytes": 3758096384
+  },
+  "acceptance_sha256": "9c2b41ad6916aa8b2da10d8dd00f1a432832d1320fbe939cef6be62ba12d912a",
+  "independent_terminal_review": {
+    "artifact": "CHILD002_CANONICAL_TERMINAL_REVIEW.json",
+    "sha256": "26180f7d679fbd77ffb8cc27c35daca613dd89c8c7f48fd6c0a7ec3cbddd1b94"
+  },
+  "prior_compound_certificate_failure": {
+    "source_sha256": "3f51e3b986ef74425e5d4660912252ea74ecc6c9401c4dced4e96c5488d8fff3",
+    "receipt_sha256": "05363094137707299b7c16b4347001e418ad8e1fad40c55704f7e846091b6064",
+    "outcome": "uncaught std::bad_alloc, no object",
+    "compile_seconds": 23.21097356899554,
+    "sampled_vm_bytes": 4278038528,
+    "scope_of_comparison": "The proof strategy changed from a full compound address decision to symbolic address equalities plus16 scalar phase cases. Both runs used the same hard caps; this is a measured outcome comparison, not a general speed or single-variable causal claim."
+  },
+  "claim": "The exact interpreted directed ordinal0 recipe equals its source-defined canonical Gaussian operator on every complex payload, with arbitrary pointwise spectators. Raw bounds, actual two-sided inverses, greedy basis/Q and complete phase/address certificate are checked.",
+  "remaining": [
+    "Raw packed-address/event executor correspondence and physical recipe semantics.",
+    "Residual/endpoint wrappers and expanded coefficient/tableau work.",
+    "Complete dirty-state rows/columns, global owner/stage/chart and cost suppliers.",
+    "All other record certificates."
+  ],
+  "publication": "No publication admission or multiplier bound."
+}
