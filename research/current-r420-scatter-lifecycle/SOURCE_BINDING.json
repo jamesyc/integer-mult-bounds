@@ -1,0 +1,124 @@
+{
+  "status": "SOURCE_ONLY_CURRENT_R420_SCATTER_LIFECYCLE",
+  "utc": "2026-10-12T18:17:54.175966+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-lifecycle/CurrentR420ScatterLifecycle.lean",
+    "sha256": "e4b73074b4204d82d8ae766fb926dbcfeb34c9357247daae5934bdb5ca379766",
+    "bytes": 7915
+  },
+  "template": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480ScatterLifecycle.lean",
+    "sha256": "b5f1907adb29a5ef6d4c8b83dfed9c26ed09779fc619a4c1e65361d82cba57b4",
+    "bytes": 7341
+  },
+  "ordered_replacements": [
+    {
+      "before": "import SelectedR480PhaseBXor",
+      "after": "import CurrentR420ScatterFacts"
+    },
+    {
+      "before": "SelectedR480ScatterLifecycle",
+      "after": "CurrentR420ScatterLifecycle"
+    },
+    {
+      "before": "open SelectedR480Boundary",
+      "after": "open CurrentR420Boundary"
+    },
+    {
+      "before": "Boundary.ret",
+      "after": "Data.ret"
+    },
+    {
+      "before": "721",
+      "after": "661"
+    },
+    {
+      "before": "720",
+      "after": "660"
+    },
+    {
+      "before": "/-! R480 source-bound Boolean projection of export_records.py's retained-major\nCOPY/ADD/ERASE slice. Uses the nine new retained IDs and the accepted byte-equal scatter literals. There are661 scalar\nregisters: the original660 plus disposable660. Frame fq, ZERO and COPY rank\nremain physical obligations; no clean original input/helper premise is added.\nThe generated loop order is centre-major, not row-major. -/",
+      "after": "/-! Current PR543/R420 source-bound retained-major COPY/ADD/ERASE scalar slice.\nThe selected main5996 verification uses the pinned carrier export_records.py:\nnine retained centres,568 ordered target ADDs,nine final ERASE operations.\nThere are661 Boolean registers:660 original coordinates and disposable660.\nArbitrary incoming temporary is overwritten and ends false; original sources\nand helpers are preserved across this slice only, while targets receive the\ndirect retained-major XOR scatter. No dirty temporary restoration is asserted.\nCOPY frame fq after D/A, ZERO and physical copy-space validity remain separate.\nActual A/C/D and the full bit-word theorem are not supplied by this adapter.\nAuthor-checked conditional context kappa=16127213726553/10000000000000000\n=0.0016127213726553 at5996; no kappa or multiplication theorem is proved.\nAttribution: eumemic/Anthropic Claude R420 and carrier exporter,Apache-2.0;\naccepted generic/window proofs and this finite adaptation use OpenAI assistance. -/"
+    }
+  ],
+  "whole_inverse_verified": true,
+  "raw_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/e8-bit-r420/data/bitE8mut-r420.json.gz",
+      "sha256": "9721a3819efd68307f66f00d84a952eb28eb7c3ad2ce79653ce295c98a764784",
+      "bytes": 45278,
+      "repository_path": "research/e8-bit-r420/data/bitE8mut-r420.json.gz",
+      "git_blob": "0c63ca62759dc63d302be6552aeeee1ede70350f"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/e8-bit-r420/verify.sh",
+      "sha256": "3192dea51acd17addb2750834a9dc3fb5b991e8dc5970ba9d2ac54608d79cafa",
+      "bytes": 13904,
+      "repository_path": "research/e8-bit-r420/verify.sh",
+      "git_blob": "fbad38c694a0ce4fcbf39110dc403c75017ece07"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+      "sha256": "8a5999601f917dbb492bb9ae9a344611f18cc7cedc53dc3c76496a369e530eb3",
+      "bytes": 3745,
+      "repository_path": "research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+      "git_blob": "3632d370486a02f5456f7643ced03f8c925b2350"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/certificates/selected-result.json",
+      "sha256": "be3abe10f3b05fdb26f33ad8ecb0913c7c49d98b31a8706135f246936a2538c8",
+      "bytes": 3667,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "0fc74e6a56ddc679e6b4e4354e67be2b425b5f2c"
+    }
+  ],
+  "raw_readback": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_lifecycle/RAW_WINDOW_READBACK.json",
+    "sha256": "d31ac2d8492246102b7a5b5bfa502b505edbf8b44c259db6a127b0394eab5b15",
+    "bytes": 8926
+  },
+  "current_main": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "selected_supplier": "2065fe4f72a914d907f1046603f5a36f17018535",
+  "author_checked_kappa": "16127213726553/10000000000000000",
+  "public_probes": [
+    "CurrentMain.CurrentR420ScatterLifecycle.raw_shape",
+    "CurrentMain.CurrentR420ScatterLifecycle.raw_domains",
+    "CurrentMain.CurrentR420ScatterLifecycle.source_rows_no_duplicates",
+    "CurrentMain.CurrentR420ScatterLifecycle.decode_roundtrip",
+    "CurrentMain.CurrentR420ScatterLifecycle.ordered_window_binding",
+    "CurrentMain.CurrentR420ScatterLifecycle.decoded_bounds",
+    "CurrentMain.CurrentR420ScatterLifecycle.windows_well_formed",
+    "CurrentMain.CurrentR420ScatterLifecycle.windows_nonempty",
+    "CurrentMain.CurrentR420ScatterLifecycle.exact_lifecycle",
+    "CurrentMain.CurrentR420ScatterLifecycle.final_temp_zero",
+    "CurrentMain.CurrentR420ScatterLifecycle.original_coordinate",
+    "CurrentMain.CurrentR420ScatterLifecycle.sources_helpers_preserved",
+    "CurrentMain.CurrentR420ScatterLifecycle.incoming_temp_independent",
+    "CurrentMain.CurrentR420ScatterLifecycle.clean_temp_restored"
+  ],
+  "accepted_scatter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_facts/ACCEPTANCE.json",
+    "sha256": "7eb671caaaeacff18e86c909a7805bbe026a754f86e6278ce231fe85ef87748b",
+    "bytes": 371611
+  },
+  "scatter_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-scatter-facts/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "a943416866cc7ce565459b9bf4b722afd916461662bb7dc74ae16922d94c74b6",
+    "bytes": 4831
+  },
+  "generic_window_source": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_scatter_lifecycle/BitCopyScatterWindow.lean",
+    "sha256": "b289ca173b33e5af27bf829f17de6ab739f959cb07c1028d39ebcdde5c8c90dd",
+    "bytes": 8287
+  },
+  "generic_window_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SELECTED_BIT493_SCATTER_LIFECYCLE_TERMINAL_REVIEW.json",
+    "sha256": "7d690f6b92474db4dfe36b9e76c6dac58395b4eca29730c646f89e371fde787b",
+    "bytes": 5925
+  },
+  "limits": [
+    "Original source/helper bits are preserved across this scatter slice only, not across phase B.",
+    "Incoming temporary660 is overwritten; final value false. Whole temporary restoration requires initial false.",
+    "Frame fq after D/A, ZERO/COPY physical validity, A/C/D and full word remain separate."
+  ]
+}

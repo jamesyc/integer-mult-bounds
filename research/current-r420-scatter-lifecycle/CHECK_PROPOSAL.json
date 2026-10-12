@@ -1,0 +1,65 @@
+{
+  "status": "FIRST_BOUNDED_ROOT_AUTHORIZED_PENDING_REVIEWS",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-lifecycle/CurrentR420ScatterLifecycle.lean",
+    "sha256": "e4b73074b4204d82d8ae766fb926dbcfeb34c9357247daae5934bdb5ca379766",
+    "bytes": 7915
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-lifecycle/SOURCE_BINDING.json",
+    "sha256": "a9d3febd119d731958842744683b7af6750a572ce2394a7bb02bf407499d7d01",
+    "bytes": 7078
+  },
+  "source_current_closure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_lifecycle/SOURCE_CURRENT_CLOSURE.json",
+    "sha256": "edcfc57ed44b5c0f9900e55f627ce2b7c9dba58cfc982ab57802d0b6bbfcaccc",
+    "bytes": 30289
+  },
+  "roots": [
+    "CurrentR420ScatterLifecycle"
+  ],
+  "explicit_imports": [
+    "CurrentR420ScatterFacts",
+    "BitCopyScatterWindow"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420ScatterLifecycle.raw_shape",
+    "CurrentMain.CurrentR420ScatterLifecycle.raw_domains",
+    "CurrentMain.CurrentR420ScatterLifecycle.source_rows_no_duplicates",
+    "CurrentMain.CurrentR420ScatterLifecycle.decode_roundtrip",
+    "CurrentMain.CurrentR420ScatterLifecycle.ordered_window_binding",
+    "CurrentMain.CurrentR420ScatterLifecycle.decoded_bounds",
+    "CurrentMain.CurrentR420ScatterLifecycle.windows_well_formed",
+    "CurrentMain.CurrentR420ScatterLifecycle.windows_nonempty",
+    "CurrentMain.CurrentR420ScatterLifecycle.exact_lifecycle",
+    "CurrentMain.CurrentR420ScatterLifecycle.final_temp_zero",
+    "CurrentMain.CurrentR420ScatterLifecycle.original_coordinate",
+    "CurrentMain.CurrentR420ScatterLifecycle.sources_helpers_preserved",
+    "CurrentMain.CurrentR420ScatterLifecycle.incoming_temp_independent",
+    "CurrentMain.CurrentR420ScatterLifecycle.clean_temp_restored"
+  ],
+  "scope": {
+    "total": [
+      328,
+      327,
+      1
+    ],
+    "local": [
+      11,
+      10,
+      1
+    ],
+    "core": 317
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "authority": "Root2026-10-12T18:15:20 permits minimal currentFin661/temp660 retained-major lifecycle source and first bounded gate after independent source/API and exact binding review.",
+  "next_owner": "/root/prove_main_signed_word",
+  "resource_scope": "One new328/327/1 root,three finite decisions plus accepted structural proof reuse; no new generic induction. Same3-decision architecture as accepted R480 instance, fresh current domains and register types. Fit unmeasured until bounded check."
+}
