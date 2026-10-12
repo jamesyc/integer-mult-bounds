@@ -1,0 +1,66 @@
+{
+  "status": "PASS_SOURCE_API_ONLY",
+  "recorded_utc": "2026-10-12T16:30:38.253958+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
+    "sha256": "7e89816d008a16078a5b41ecf753ca8da8fee04f4c19a4746089d85e87dbf7c4",
+    "bytes": 1227
+  },
+  "binding_sha256": "e3f8b4f3e7cea8d4e26e7c41e6cfa723ccbb76bc42f02002327b92f83943e742",
+  "proposal_sha256": "c62f2b76bb726d0b00b1cb9302853399976adb0655d58c6b6950a025759a1ffb",
+  "exact_selected_declarations": [
+    {
+      "name": "selected_shape",
+      "statement_and_proof_exact": true,
+      "fragment_sha256": "a9472b39da495546bf2397a6b00dfafd293dd106efb3307bf770779c83f464c1"
+    },
+    {
+      "name": "line_shape",
+      "statement_and_proof_exact": true,
+      "fragment_sha256": "98b3fb78cadf29fa7e2d6738be3069377a260308e07b24e6e3d3bcd7aca6b411"
+    },
+    {
+      "name": "frame_index_permutation",
+      "statement_and_proof_exact": true,
+      "fragment_sha256": "6bfa582ed8e54b55143653a58d905c5a359afbc098b2b588a6ecb1cc5a660dd5"
+    }
+  ],
+  "source_inspection": [
+    "Only the exact first three original declarations are emitted. Same public namespace, sole import and synchronous option. The three original probes now immediately follow their declarations.",
+    "selected_shape retains its closed kernel decision. line_shape reuses the accepted unchanged line table fact. frame_index_permutation retains the exact Fin672 sort/range predicate and proof.",
+    "The other 24 declarations remain a hash inventory only, with no source root or wrapper emitted in this packet."
+  ],
+  "failure_preserved": {
+    "module": "CurrentR420BoundaryCheck",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryCheck.lean",
+      "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+      "bytes": 6313
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_b_boundary_20261012__CurrentR420BoundaryCheck.lean.json",
+      "sha256": "6afc458bfe2434319f4699118e95576be89fe4d11a18d94821c09a80b39763aa",
+      "bytes": 2401
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_b_boundary_20261012__CurrentR420BoundaryCheck.lean.log",
+      "sha256": "0476729d89ccebeaab38ba5a73e055ebae14b87efaff35f0e11421de282505b8",
+      "bytes": 88
+    },
+    "dependencies": {
+      "CurrentR420BoundaryData": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryData.olean",
+        "olean_sha256": "51049d106c212ca17b30f3efb6020191729a8ace20c6c77459d39415f7fa8b34",
+        "source_sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509"
+      }
+    }
+  },
+  "retained_data_identity": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_boundary_20261012/CurrentR420BoundaryData.lean",
+    "sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509",
+    "bytes": 34312
+  },
+  "scope": "Source/API partition review only. The earlier bad_alloc log does not localize a declaration; this first diagnostic must measure the actual three facts. No conclusion for the remaining 24 facts, whole domain or future partition fit.",
+  "compiler_executed": false,
+  "runtime_review_owner": "integration"
+}
