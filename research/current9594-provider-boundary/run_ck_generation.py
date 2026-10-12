@@ -12,7 +12,8 @@ EVID=Path('/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruct
 OUT=EVID/'output'
 PYTHON=Path('/usr/bin/python3.13')
 SLOT=Path('/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/tools/lean_check.py')
-PINS={HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json':'fcae206f3feea8f9bb7d7defe6058b51c641d450b19abbd9fe5d0c2c72d7b85d',HERE/'CK_GENERATION_INPUTS.json':'ec45dff85be3991f39ec4fbdefc88d968392c727c99519e6555ee596814e652c',SLOT:'b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207',PYTHON:'889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9'}
+PINS={HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json':'ef57a8cc6f35f4714bad47bda7fd71b7c14f788711a69db030c34e8f7cc0a4cb',HERE/'CK_GENERATION_INPUTS.json':'ec45dff85be3991f39ec4fbdefc88d968392c727c99519e6555ee596814e652c',SLOT:'b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207',PYTHON:'889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9'}
+PINS[Path('/usr/lib/python3.13/sitecustomize.py')]='43d81125d92376b1a69d53a71126a041cc9a18d8080e92dea0a2ae23be138b1e'
 HEAD='9594b61042164a27a31e44d8c3197f231470eda0'
 MAX_JSON=32*1024*1024
 now=lambda:datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -72,9 +73,23 @@ def guard(require_absent):
   for p in step['outputs']:assert Path(p).is_relative_to(OUT)
  # PathFinder resolves selected custom imports without importing them.
  custom=[ROOT/r['path'] for r in rows if Path(r['path']).name in ('gk_word.py','gk_common.py','clifford_exact.py')]
- probe="import importlib.machinery,json,pathlib,sys; ps=json.loads(sys.argv[1]); out=[]\nfor p in ps:\n p=pathlib.Path(p); s=importlib.machinery.PathFinder.find_spec(p.stem,[str(p.parent)]); assert s is not None and pathlib.Path(s.origin)==p; out.append({'module':p.stem,'origin':s.origin})\nprint(json.dumps(out))"
+ probe="""import importlib.machinery,importlib.util,importlib,json,pathlib,sys
+for n in ['argparse','copy','gzip','hashlib','math','runpy','dataclasses','fractions','time','collections']:
+ importlib.import_module(n)
+expected=['/usr/lib/python313.zip','/usr/lib/python3.13','/usr/lib/python3.13/lib-dynload','/usr/local/lib/python3.13/dist-packages','/usr/lib/python3/dist-packages']
+assert sys.path==expected,sys.path
+assert sys.modules['sitecustomize'].__file__=='/usr/lib/python3.13/sitecustomize.py'
+absent={n:importlib.util.find_spec(n) is None for n in ['apport_python_hook','usercustomize']}
+assert all(absent.values()),absent
+origins={n:getattr(m,'__file__',None)for n,m in sorted(sys.modules.items())if getattr(m,'__file__',None)}
+assert all(pathlib.Path(p).is_relative_to('/usr/lib/python3.13')for p in origins.values()),origins
+ps=json.loads(sys.argv[1]);out=[]
+for p in ps:
+ p=pathlib.Path(p);s=importlib.machinery.PathFinder.find_spec(p.stem,[str(p.parent)]);assert s is not None and pathlib.Path(s.origin)==p;out.append({'module':p.stem,'origin':s.origin})
+print(json.dumps({'custom':out,'startup':{'sys_path':sys.path,'observed_stdlib_origins':origins,'absent_hooks':absent,'system_site_startup':True,'upstream_modules_imported':False}}))
+"""
  resolution=json.loads(subprocess.check_output([str(PYTHON),'-I','-B','-c',probe,json.dumps([str(p)for p in custom])],cwd=EVID if EVID.exists()else HERE,env=env(EVID/'home'),text=True))
- return plan,{'utc':now(),'status':'PASS_FIXED_SOURCE_RUNTIME_GUARD','head':HEAD,'driver_sha256':sha(__file__),'plan_sha256':sha(HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json'),'input_inventory_sha256':sha(HERE/'CK_GENERATION_INPUTS.json'),'pinned_files':len(rows),'resolved_custom_modules':resolution,'output_absent_required':require_absent,'source_execution':False}
+ return plan,{'utc':now(),'status':'PASS_FIXED_SOURCE_RUNTIME_GUARD','head':HEAD,'driver_sha256':sha(__file__),'plan_sha256':sha(HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json'),'input_inventory_sha256':sha(HERE/'CK_GENERATION_INPUTS.json'),'pinned_files':len(rows),'resolved_custom_modules':resolution['custom'],'runtime_startup':resolution['startup'],'output_absent_required':require_absent,'source_execution':False}
 def tree_size(root):
  total=0
  if not root.exists():return total
