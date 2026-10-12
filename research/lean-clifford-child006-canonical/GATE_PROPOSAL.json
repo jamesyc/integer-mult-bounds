@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_REVIEWED_REDUCED_INVERSE_ORDINAL4_EXPERIMENT_PENDING_BINDING",
+  "status": "ONE_BETA_REDUCTION_RETRY_PROPOSAL",
   "root": {
     "module": "CliffordChild006Canonical",
     "source": "CliffordChild006Canonical.lean",
-    "sha256": "aac51a1a1788385ea6ed26ef080e18aed2e2fbc69b90a963310a5020a28041e4"
+    "sha256": "36e3b545f0e86bd36da42ea7a2850390f2e3a22d1b04d9cf99a971bf02a6f7ee"
   },
   "direct_imports": [
     "CliffordNineBitDecoder"
@@ -82,7 +82,7 @@
     "Raw packed-address/event execution and complete phase-tagged physical recipes.",
     "Residual/endpoint wrappers, expanded coefficient/tableau work, full dirty rows/columns, global ownership/stage/chart and costs."
   ],
-  "authority": "Root released exactly one measured reduced-work ordinal4 experiment at13:27 UTC, conditional on independent source/API delta and binding guards. Child005 remains a preserved scientific PASS/time hold; no rerun or later sibling is admitted.",
+  "authority": "Root authorized exactly one proof-local change-statement retry at13:43 UTC after exact independent delta review and binding/fresh guard. Same reduced inverse work,10/9/1,64 phase cases,2620 cached pairs and caps; preserve all prior evidence, no successor.",
   "limits": "No supplier execution, no finite scalar/physical replay, no bulk119-family, no native_decide or cap increase, no publication admission.",
   "resource_refinement": {
     "removed_closed_inverse_product_decisions": 2,

@@ -52,6 +52,7 @@ private theorem reverse_inverse (A B : Matrix (Fin 9) (Fin 9) Bit)
   have hl : Function.LeftInverse (fun x : Address => A *ᵥ x)
       (fun x : Address => B *ᵥ x) := by
     intro x
+    change A *ᵥ (B *ᵥ x) = x
     rw [Matrix.mulVec_mulVec, hAB, Matrix.one_mulVec]
   have hr : Function.RightInverse (fun x : Address => A *ᵥ x)
       (fun x : Address => B *ᵥ x) :=
