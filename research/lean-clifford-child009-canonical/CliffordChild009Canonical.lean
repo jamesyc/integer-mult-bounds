@@ -132,33 +132,43 @@ theorem canonical_data_certificate :
   have r1 : rank9 [11] = some 1 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11]
+    rfl
   have r2 : rank9 [11, 1] = some 2 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1]
+    rfl
   have r3 : rank9 [11, 1, 2] = some 3 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2]
+    rfl
   have r4 : rank9 [11, 1, 2, 4] = some 4 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4]
+    rfl
   have rSkip : rank9 [11, 1, 2, 4, 8] = some 4 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i8]
+    rfl
   have r5 : rank9 [11, 1, 2, 4, 16] = some 5 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16]
+    rfl
   have r6 : rank9 [11, 1, 2, 4, 16, 32] = some 6 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32]
+    rfl
   have r7 : rank9 [11, 1, 2, 4, 16, 32, 64] = some 7 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32, i64]
+    rfl
   have r8 : rank9 [11, 1, 2, 4, 16, 32, 64, 128] = some 8 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32, i64, i128]
+    rfl
   have r9 : rank9 [11, 1, 2, 4, 16, 32, 64, 128, 256] = some 9 := by
     simp only [rank9, List.foldlM_cons, List.foldlM_nil, Option.pure_def,
       Option.bind_eq_bind, Option.bind_some, i11, i1, i2, i4, i16, i32, i64, i128, i256]
+    rfl
   have units : (List.range 9).map (fun i => 2 ^ i) =
       [1, 2, 4, 8, 16, 32, 64, 128, 256] := by decide
   -- Unfold the fixed basis fold, never the rank/log evaluator under its lambda.

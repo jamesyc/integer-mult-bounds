@@ -1,9 +1,9 @@
 {
-  "status": "FINITE_CLOSED_BASIS_THIRD_REPAIR_AWAITING_REVIEW",
+  "status": "EXACT_TEN_LENGTH_FINISHES_AWAITING_SINGLE_INDEPENDENT_REVIEW",
   "root": {
     "module": "CliffordChild009Canonical",
     "source": "CliffordChild009Canonical.lean",
-    "sha256": "7f2132f88d7eee68a10f356136d2a724c368753d9efbbc0ce72c61c44ae83293"
+    "sha256": "e3ef516fab15521ed910531dd52ded1ba3ed0c37d0987a04315177367c401533"
   },
   "local_scope": {
     "total": 7,
@@ -282,5 +282,11 @@
     "proof_only": "Eleven numeral log2 facts reuse installed bounds/power lemmas. Ten closed pivot insertions and ten fixed rank prefixes expose the selected basis fold. No recursive Nat.log2 equation enters broad simp.",
     "admission": "Root2026-10-12T10:20:16Z releases one bounded third-repair attempt after machine review and integration alignment.",
     "unchanged": "All private evaluators, public statements, selected constants, operator proof, dependencies and resource limits."
+  },
+  "length_finish": {
+    "failed_source_sha256": "7f2132f88d7eee68a10f356136d2a724c368753d9efbbc0ce72c61c44ae83293",
+    "exact_change": "Ten rfl closes the ten displayed some p_k.length = some k goals after their existing rank-prefix simplifications.",
+    "admission": "Root2026-10-12T10:32:00Z; sole root once after narrow independent diff/binding review. No repeated integration launcher review required.",
+    "unchanged": "Definitions, statements, source record, interpreted operators, six accepted inputs, external imports and caps."
   }
 }
