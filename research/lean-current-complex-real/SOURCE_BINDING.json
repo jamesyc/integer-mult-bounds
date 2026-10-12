@@ -1,11 +1,11 @@
 {
-  "status": "FIRST_PROOF_LOCAL_RANK8_LOG_POWER_REPAIR_PENDING_REVIEW",
+  "status": "SEPARATELY_AUTHORIZED_ORDERED_LOG_POWER_RECOVERY_PENDING_GUARD",
   "utc": "2026-10-12T14:15:54.005448+00:00",
   "source": {
     "module": "CurrentComplexRealEnclosure",
     "file": "CurrentComplexRealEnclosure.lean",
-    "sha256": "455a29fb1a31afe0101480005d9d7a06ab5dd2d4c3fa7ccfaad33a9ef4c28245",
-    "bytes": 10994,
+    "sha256": "5ca00016937797e540fb8c4f617ce0764e383b9fd785b548ef342957da78a5be",
+    "bytes": 10958,
     "explicit_imports": [
       "CurrentComplexUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -172,11 +172,16 @@
   "new_numeric_checkpoints": 0,
   "new_analytic_tail_estimates": 0,
   "repair": {
-    "failure": {
-      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_complex_real/gate/FIRST_FAILURE_PRESERVATION.json",
-      "sha256": "8a1ffb063e85520f3b2845b587eb64881e2bb4c8057bf212cf27b24770b8f4d3",
-      "bytes": 7324
+    "failures": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_complex_real/ordered_power_repair/BOTH_FAILURE_PRESERVATION.json",
+      "sha256": "e5b21b0ad91619274b8901b8c69cced0d281d23434a8002420a77ec325f56007",
+      "bytes": 17713
     },
-    "scope": "One proof-only ending: specialize existing Real.log_pow at2 and3, normalize its closed power, then rewrite the exact measured residual. Definitions/statements/imports/options/current data unchanged."
+    "source_review": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_COMPLEX_REAL_ORDERED_POWER_SOURCE_REPAIR_REVIEW.json",
+      "sha256": "8981e900d7eecd7db7df0b28d60724a6f4911cd3fc381d54080f6eeaf689550e",
+      "bytes": 2513
+    },
+    "scope": "Replace only the local hp block with ordered rw[Real.log_pow], then norm_num. No statement/data/import/option/cap change. Root specifically authorized this additional retry after both preserved failures."
   }
 }
