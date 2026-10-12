@@ -1,0 +1,120 @@
+{
+  "status": "PASS_EXACT4_CURRENT9594_CK33_OWNER_ACCEPTANCE",
+  "utc": "2026-10-12T16:52:50.828993+00:00",
+  "source_commit": "32e61ecb948e1830514b5cce8e01fe073394d17d",
+  "scope": {
+    "local_modules": 4,
+    "preserved_current": 2,
+    "new_checks": 2,
+    "outside_protected": 17,
+    "historical743_replays": 0
+  },
+  "new_metrics": [
+    {
+      "module": "Current9594CKCoverageData",
+      "admitted_utc": "2026-10-12T16:51:42.655812+00:00",
+      "compiler_started_utc": "2026-10-12T16:51:43.753941+00:00",
+      "compile_seconds": 18.369842564992723,
+      "queue_seconds": 0.0005843160033691674,
+      "samples": 181,
+      "peak_vm_bytes": 2244399104,
+      "peak_rss_bytes": 1693810688,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current9594CKCoverageCheck",
+      "admitted_utc": "2026-10-12T16:52:07.346025+00:00",
+      "compiler_started_utc": "2026-10-12T16:52:08.435500+00:00",
+      "compile_seconds": 11.424758755005314,
+      "queue_seconds": 0.00045732200669590384,
+      "samples": 114,
+      "peak_vm_bytes": 2302357504,
+      "peak_rss_bytes": 1730506752,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 29.794601319998037,
+  "total_new_queue_seconds": 0.0010416380100650713,
+  "peak_new_vm_bytes": 2302357504,
+  "data_scope": {
+    "raw_inclusive": [
+      9899,
+      9931
+    ],
+    "rows_each": 33,
+    "split": [
+      24,
+      9
+    ],
+    "histogram_each": {
+      "ADD": 25,
+      "relabel": 8
+    },
+    "block_histograms": [
+      {
+        "ADD": 17,
+        "relabel": 7
+      },
+      {
+        "ADD": 8,
+        "relabel": 1
+      }
+    ],
+    "supports": {
+      "backward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ],
+      "forward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ]
+    },
+    "key": [
+      0,
+      2,
+      1
+    ],
+    "child_ordinal": 0,
+    "next_excluded": 9932
+  },
+  "excluded_scope": [
+    "Check covers only33 projected rows per orientation and full736-coordinate label boundaries0/24/33.",
+    "Prior scalar ADD/SCALE are label-neutral in the projection; omitted phase/adapter and residual-adapter actions remain unsupplied. No prior WellLabelled or physical chart conclusion.",
+    "Directed child/rank and signed denominator checks do not supply recipe operator correctness or physical execution.",
+    "Current other providers, expanded work, global whole-call hosting and all-word endpoint remain outside."
+  ],
+  "qualification": "Exactly33 fresh selected9594 ck rows each in24+9 decisions, directed child0/rank1 key0\u21922; full736-label checkpoints0/24/33 with current1079 frames/3017 children. Generic checker/Stream retained,17 prior outputs protected. Raw9932 key0\u21923, operator/omitted-adapter/physical suppliers remain separate.",
+  "timing": {
+    "binding_received_read_utc": "2026-10-12T16:51:30+00:00",
+    "invocation_utc": "2026-10-12T16:51:38.022354109Z",
+    "post_lock_guard_utc": "2026-10-12T16:51:40.474111+00:00",
+    "per_job_fields": "new_metrics retains actual admitted/compiler start and FIFO; no causal attribution"
+  },
+  "terminal_independent_review": "pending; no additional compiler required",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck33/ACCEPTANCE.json",
+    "sha256": "459bc60a558fb84a294941489a9f1e3adfbaf3d12ad3eed3cea5bfacc17ced91",
+    "bytes": 57636
+  }
+}

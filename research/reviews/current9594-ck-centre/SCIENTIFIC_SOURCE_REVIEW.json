@@ -1,0 +1,63 @@
+{
+  "status": "PASS_SOURCE_LITERAL_API_ONLY",
+  "utc": "2026-10-12T16:54:18.477588+00:00",
+  "packet": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/SOURCE_REVIEW_PACKET.json",
+    "sha256": "1c8b860093b89eb564e59bbb18005000616d1c2b776b145c150be4d0453b3226"
+  },
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current9594-ck-centre/Current9594CKCentre.lean",
+    "sha256": "76514d06b0265d395db9b60c24c01bab9f43fe695e81f64fc650352bb94afd5c",
+    "bytes": 32943
+  },
+  "accepted_scalar_dependency": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-centre-band/CurrentScalarCentreBand.lean",
+    "sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d"
+  },
+  "literal_inverse": {
+    "forward": {
+      "rows": 256,
+      "histogram": {
+        "clear": 16,
+        "copy": 8,
+        "relabel": 8,
+        "add": 224
+      },
+      "frame_annotation_changed_rows": 24,
+      "raw_range": [
+        12927,
+        13182
+      ],
+      "ordered_scalar_events_equal": true
+    },
+    "backward": {
+      "rows": 256,
+      "histogram": {
+        "clear": 16,
+        "add": 232,
+        "relabel": 8
+      },
+      "frame_annotation_changed_rows": 24,
+      "raw_range": [
+        12927,
+        13182
+      ],
+      "ordered_scalar_events_equal": true
+    }
+  },
+  "api_readback": [
+    "raw_run_congr_events performs list induction only on metadata-insensitive raw scalar execution; identical ordered event heads and tail congruence prove equal Option runs. It neither identifies labels across Fin1079/Fin997 nor duplicates the band independence induction.",
+    "Two exact projected-event equalities erase only frame fields. Registers, signed coefficients, COPY overwrite, CLEAR and event order remain exact. Current children and all frame annotations remain in Row1079 literals.",
+    "forward/backward independent conclusions reuse the corresponding accepted run equality and band theorem for arbitrary h/h-prime agreeing on all728 L registers. Centre inputs stay arbitrary; final C0..7 zero is preserved.",
+    "rows_decode consumes explicit denominator decisions. decoded_rows_run plus Option.some injectivity transports equality to PR509 scalar runs; no clean-state assumption or operator equation is introduced.",
+    "All10 probes, four bounded index/denominator decisions and sole CurrentScalarCentreBand import match the proposed source scope."
+  ],
+  "exclusions": [
+    "No old Fin997 label theorem is transferred.",
+    "Scalar frame erasure is not an operator/frame equality.",
+    "Dirty incoming centre values arbitrary; equal728 L inputs explicit.",
+    "Full prefix/suffix, omitted adapters, physical executor/endpoints and all-size conclusions remain separate."
+  ],
+  "compiler_executed": false,
+  "runtime_review_owner": "integration"
+}
