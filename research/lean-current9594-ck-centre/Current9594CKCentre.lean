@@ -573,6 +573,7 @@ def backward : List (Row 1079) := [
 theorem forward_scalar_events :
     (projectRows forward).map F19SelectedCoverage.Row.event =
       (projectRows CurrentScalarCentreBand.forward).map F19SelectedCoverage.Row.event := by
+  simp only [projectRows, List.map_map]
   rfl
 
 theorem forward_run_eq {M : Type*} [AddCommMonoid M] [Module ℚ M]
@@ -607,6 +608,7 @@ theorem forward_interpreted {M : Type*} [AddCommMonoid M] [Module ℚ M] :
 theorem backward_scalar_events :
     (projectRows backward).map F19SelectedCoverage.Row.event =
       (projectRows CurrentScalarCentreBand.backward).map F19SelectedCoverage.Row.event := by
+  simp only [projectRows, List.map_map]
   rfl
 
 theorem backward_run_eq {M : Type*} [AddCommMonoid M] [Module ℚ M]
