@@ -1,0 +1,29 @@
+{
+  "status": "PASS_EXACT_EMITTED_SYMBOLIC_ROUTE_SOURCE_API",
+  "utc": "2026-10-12T16:58:19.633665+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
+    "sha256": "10ccd18d25e84742915cdf3615b0ed0f98c3c46ee610c66eec7af9b05322640d",
+    "bytes": 2213
+  },
+  "manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/symbolic_permutation_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "7593c051aaf21df51946be818c8164e0369d3fa9eefba773504fb52aad7634f5"
+  },
+  "independent_plan_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-domain-partition/SYMBOLIC_PERMUTATION_PLAN_REVIEW.json",
+    "sha256": "2d81e74d7d0acbe5d36323bb6822063a015358d5de5dbbd137eec9267c15ccc9",
+    "bytes": 4299
+  },
+  "inverse": "Exact two forward replacements and inverse recover the prior rejected source. The third body is byte-exact reviewed candidate_proof_plan. Three public names/statements/probes and async option remain unchanged.",
+  "imports": "Only public Sort.Lemmas and Nat.Range replace Impl. No module/import-all/internal implementation API. Existing317-core closure is unchanged.",
+  "failure_preservation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/REDUCTION_FAILURE_PRESERVATION.json",
+    "sha256": "1e6a5acca77cea78f906a9b521daf639f0ddbc7b4f44bf190ebdb52132a2ccfd",
+    "bytes": 12646
+  },
+  "archives_rehashed": 11,
+  "scope": "Single existing three-fact diagnostic only. Symbolic sortedness/permutation laws avoid evaluating sort; finite isPerm certificate fit is unmeasured. Stop on any failure/review, with all other groups held.",
+  "compiler_executed": false,
+  "runtime_binding_owner": "integration"
+}
