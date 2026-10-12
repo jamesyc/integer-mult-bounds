@@ -3,8 +3,8 @@
   "utc": "2026-10-12T16:27:04.523263+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
-    "sha256": "a01484b91c52c7190782e5405f0289e5aa6406e1b5fc5f59753575fbb9b7ae71",
-    "bytes": 1319
+    "sha256": "b0ab6a3a88cb4251ae397d1d820f815ce18cadd207fea1f94d0dd8567691ac9b",
+    "bytes": 1315
   },
   "failed_original": {
     "module": "CurrentR420BoundaryCheck",
@@ -205,11 +205,16 @@
     "CurrentMain.CurrentR420Boundary.line_shape",
     "CurrentMain.CurrentR420Boundary.frame_index_permutation"
   ],
-  "changes": "Two-line repair after exact partition: explicit cached implementation import and proved rewrite before same kernel decision; statements and other two facts exact.",
+  "changes": "Explicit implementation import uses legacy ordinary-import semantics. Existing proved rewrite and all three statements/probes remain unchanged.",
   "no_whole_predicate_retry": true,
   "proof_local_repair": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/SOURCE_REPAIR_MANIFEST.json",
     "sha256": "3b2e9949bb8c78eeebfa871d3fdfb829fd5895b458898d4561f590d2de1e244c",
     "bytes": 2462
+  },
+  "import_header_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "4ac261dcb08e46bcefb760595884f89319b8f70d41ba68e5a3bdcfaa0b12e004",
+    "bytes": 2349
   }
 }

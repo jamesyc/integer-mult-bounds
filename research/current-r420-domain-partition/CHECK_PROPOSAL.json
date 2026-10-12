@@ -3,13 +3,13 @@
   "utc": "2026-10-12T16:27:04.524527+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
-    "sha256": "a01484b91c52c7190782e5405f0289e5aa6406e1b5fc5f59753575fbb9b7ae71",
-    "bytes": 1319
+    "sha256": "b0ab6a3a88cb4251ae397d1d820f815ce18cadd207fea1f94d0dd8567691ac9b",
+    "bytes": 1315
   },
   "binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/SOURCE_BINDING.json",
-    "sha256": "9fa13123ed200144cd61e908da863d02ced62976d89cc0115499f82d458229de",
-    "bytes": 9103
+    "sha256": "431f584310b109dfdd42e7fb19f0aac6ec065383a9093e0dd3a9ac0504af0e53",
+    "bytes": 9427
   },
   "roots": [
     "CurrentR420FrameIndexCheck"
@@ -6337,7 +6337,7 @@
     "stop_on_first_failure_or_review": true,
     "automatic_retry": false
   },
-  "authority": "Root2026-10-12T16:35:04 permits one ordinary proof-only repair after independent theorem-direction and binding review.",
+  "authority": "Root2026-10-12T16:46:58 authorizes one bounded diagnostic retry after independent smallest import/header/API and binding review.",
   "next_owner": "/root/prove_main_signed_word",
   "stop": "First failure or review threshold; no automatic retry or cap increase. Measurement precedes decisions on remaining groups.",
   "wrapper_plan": "Keep all27 original names/statements; original Check ultimately becomes import-only wrapper after all independent groups pass. No wrapper emitted now.",
@@ -6345,5 +6345,10 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/SOURCE_REPAIR_MANIFEST.json",
     "sha256": "3b2e9949bb8c78eeebfa871d3fdfb829fd5895b458898d4561f590d2de1e244c",
     "bytes": 2462
+  },
+  "import_header_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/ordinary_import_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "4ac261dcb08e46bcefb760595884f89319b8f70d41ba68e5a3bdcfaa0b12e004",
+    "bytes": 2349
   }
 }

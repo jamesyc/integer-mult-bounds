@@ -1,5 +1,5 @@
 import CurrentR420BoundaryData
-import all Init.Data.List.Sort.Impl
+import Init.Data.List.Sort.Impl
 
 /-! Exact first three declarations from the preserved R420 domain Check.
 This bounded index diagnostic places each original axiom probe immediately
