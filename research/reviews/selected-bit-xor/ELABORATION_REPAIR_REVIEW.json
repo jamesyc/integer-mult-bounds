@@ -1,0 +1,50 @@
+{
+  "status": "PASS_EXACT_XOR_ELABORATION_SOURCE_REPAIR_ONLY",
+  "utc": "2026-10-12T12:14:49.538561+00:00",
+  "repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/elaboration_repair/SOURCE_REPAIR.json",
+    "sha256": "8dd5cff819bd0aa1373553ba3a5831eb5180f45c8428c633d5b2fe088132b3d9",
+    "bytes": 2231
+  },
+  "failed_prestate_manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/elaboration_repair/FAILURE_PRESERVATION.json",
+    "sha256": "09c013f25642707066512117c8e6848910195830a89b926846bbd0227da33990",
+    "bytes": 6089
+  },
+  "prior_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/selected-bit-xor/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "ca005a3c31aa07ef616d466cb9757ea265dd91eddd4ffc4c1b5508836cf44400",
+    "bytes": 12226
+  },
+  "new_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+      "sha256": "1d2c412d2ddfa35f14895169e55f62436d00dc5ae95655e75ba73a9878eda788",
+      "bytes": 5150
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/SelectedBitCarrierPhaseBXor.lean",
+      "sha256": "c069488cd3bda617f332b8936252d1d0d3fec62de57dffe0a7989998b7ecd502",
+      "bytes": 5072
+    }
+  ],
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/SOURCE_BINDING.json",
+    "sha256": "9a17bdbe8e8d46bd73f1336e95ce6fc38a84c26cc324bac3473d47e196f0beb0",
+    "bytes": 13362
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/CHECK_PROPOSAL.json",
+    "sha256": "b5f22fb9e5d9997a5c2f1d29924f9d899521b68ea2279c6365dce311ffacfa9d",
+    "bytes": 2735
+  },
+  "byte_inverse_verified": true,
+  "changes": [
+    "single_shift: substitute r=dst before splitting target dst; negative destination branch unchanged in meaning. Core xor_right_comm now applies to the correctly transported target premise.",
+    "Three explicit Boolean RHS parentheses: generic target_identity statement, its last calc step, and selected target_identity statement. Each now states equality of Bool terms: output = (input XOR contribution)."
+  ],
+  "initial_review_limitation": "Prior semantic readback described the intended target equality but missed Lean XOR/equality precedence and tactic substitution behavior. The initial module failed elaboration and was never accepted. This review does not assert propositional equivalence to its erroneous parsed terms. Historical review and failed source/log/receipt are retained.",
+  "preserved": "All data, imports, definitions, finite premises, execution order, operand multiplicity, decoded list and remaining proof text are unchanged. The selected root remains unattempted. No initial-clean-target hypothesis was introduced.",
+  "failed_evidence_verified": "All11 archived pins and four recorded absent outputs verify; actual log contains only the diagnosed proof/parsing boundary. Runtime/driver review belongs to integration.",
+  "no_execution": true
+}

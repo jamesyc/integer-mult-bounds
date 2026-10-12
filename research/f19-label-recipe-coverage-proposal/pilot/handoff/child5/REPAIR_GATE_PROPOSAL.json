@@ -20,7 +20,7 @@
       "imports": [
         "F19CoverageChild5Data"
       ],
-      "source_object_receipt_log_absent": true,
+      "source_object_receipt_log_absent": false,
       "failed_prestate": {
         "source": {
           "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_child5/F19CoverageChild5Check.lean",
@@ -70,7 +70,9 @@
             "bytes": 34805
           }
         ]
-      }
+      },
+      "failed_source_receipt_log_present": true,
+      "object_absent": true
     }
   ],
   "preserved_rows": [
@@ -590,8 +592,8 @@
   ],
   "current_inventory": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5/REPAIR_CURRENT_INVENTORY.json",
-    "sha256": "465adc55447c8547c77628947a069e9a60a4e3d34d458c6ef95d8c928c6e48b2",
-    "bytes": 38897
+    "sha256": "4ee641fb007160802831785723e0e5e857f44e2644ef7b62c19b0bc86b10d897",
+    "bytes": 38976
   },
   "external_footprint": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/new_main_binding/pr509_reuse/SOURCE_IMPORT_FOOTPRINT_V2.json",
