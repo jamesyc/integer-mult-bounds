@@ -1,0 +1,116 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_CURRENT997_SCALAR_CENTRE_BANDS",
+  "utc": "2026-10-12T15:06:12.349465+00:00",
+  "source_commit": "3b88b6345fb32843d5841e80258e4bb8df44cbdd",
+  "source_sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_centre_band_proposal/gate/ACCEPTANCE.json",
+    "sha256": "769df76f40447373e66c2d076b0127e72954894e3278e787c2af57cf1d3785e5"
+  },
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_CENTRE_BAND_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "f3fdee8876d4579a5d226119db80d0213bda4181015163febe8f9a730d76d72f",
+    "bytes": 8220
+  },
+  "object_sha256": "156b18ad3b3864f382e30f0b8cba246daa03ec1aded0bcba9166da499bf9d595",
+  "receipt_sha256": "07a4e2a3d2f8c82c653235544b74bcd572ba990bed49afc06a8089e2ba115ad7",
+  "raw_log_sha256": "aca696aba1000f57f3a2df0664cac9ef28b094c939905b2ead9710dbf4744936",
+  "scope": [
+    9,
+    9,
+    0
+  ],
+  "timing": {
+    "compiler_seconds": 16.393734322002274,
+    "fifo_seconds": 0.0011029559973394498,
+    "peak_VM_bytes": 2518577152
+  },
+  "complete_probes": [
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.rows_decode",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.decoded_step",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.decoded_rows_run",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.decoded_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.certified_current_band",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.forward_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.forward_interpreted",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.backward_independent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.backward_interpreted",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.CurrentScalarCentreBand.exact_source_indices",
+      "axioms": [
+        "propext"
+      ]
+    }
+  ],
+  "claim": "Both exact current535256-row centre bands use current997 labels and signed rational decoding. For arbitrary incoming centre values, agreement on728 original L inputs gives equal full736 scalar outputs and final zero centres. The typed interpreted scalar run is explicitly related to the accepted frame-erased scalar evaluator.",
+  "open_obligations": [
+    "Actual current prefix/suffix and omitted phase/adapter/residual suppliers remain unproved.",
+    "Scalar frame erasure is not a current label-domain embedding or rank8 centre-operator theorem.",
+    "The eight serialized centre slots do not inventory or restore all unrecorded coefficient work.",
+    "No full physical row/column, owner/caller/cost or multiplication theorem is inferred."
+  ],
+  "historical_scope": "SOURCE_SCOPE.json retains the original source-only proposal; this summary records actual independent acceptance. Historical264-row bands remain distinct."
+}
