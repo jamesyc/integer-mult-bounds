@@ -1,0 +1,100 @@
+{
+  "status": "ACCEPTED_REVIEWED_EXACT501_PROJECTED_ROWS_EACH_DIRECTION",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_child5_body/ACCEPTANCE.json",
+    "sha256": "21807b3fec1d7103624fbf0d2119f676d73c36ddf3a7cfb3a109b69e3e3d9656",
+    "bytes": 66661
+  },
+  "terminal_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/F19_COVERAGE_CHILD5_BODY_TERMINAL_REVIEW.json",
+    "sha256": "d74f5fa8ea0d65a34637868cb291030631b37ec1fe7ecb8feef95ca43be80532",
+    "bytes": 3749
+  },
+  "data_scope": {
+    "new_rows_each": 44,
+    "raw_indices_inclusive": [
+      11308,
+      11351
+    ],
+    "chunkI": {
+      "indices": [
+        11308,
+        11331
+      ],
+      "rows": 24,
+      "add": 22,
+      "relabel": 2,
+      "child_ordinal": 5,
+      "child_key": [
+        0,
+        7,
+        1
+      ]
+    },
+    "chunkJ": {
+      "indices": [
+        11332,
+        11351
+      ],
+      "rows": 20,
+      "add": 20,
+      "relabel": 0,
+      "child_ordinal": null,
+      "child_key": null
+    },
+    "composed_rows_each": 501,
+    "composed_branch_counts_each": {
+      "add": 412,
+      "relabel": 89
+    },
+    "checkpoint481_new7": [
+      566,
+      567
+    ],
+    "checkpoint501_new7": [],
+    "second_checkpoint": "Empty support: all736 labels stay at labels481; childRowsB in J is vacuous and reported explicitly.",
+    "omitted_rows_in_new_range": 0,
+    "next_excluded_row": 11352,
+    "operator_status": "Family record only; no current child5 operator certificate."
+  },
+  "source_commit": "036e3cda84d0b6ac4c0446bd8923fb4ae2515b01",
+  "new_metrics": [
+    {
+      "module": "F19CoverageChild5BodyData",
+      "admitted_utc": "2026-10-12T12:54:16.389850+00:00",
+      "compile_seconds": 5.808386650001921,
+      "queue_seconds": 0.0005836089985677972,
+      "samples": 58,
+      "peak_vm_bytes": 2104254464,
+      "peak_rss_bytes": 1507729408,
+      "peak_threads": 3
+    },
+    {
+      "module": "F19CoverageChild5BodyCheck",
+      "admitted_utc": "2026-10-12T12:54:29.307440+00:00",
+      "compile_seconds": 15.566600193997147,
+      "queue_seconds": 0.0014468250010395423,
+      "samples": 149,
+      "peak_vm_bytes": 2171691008,
+      "peak_rss_bytes": 1622118400,
+      "peak_threads": 3
+    }
+  ],
+  "total_compile_seconds": 21.374986843999068,
+  "total_queue_seconds": 0.0020304339996073395,
+  "caps_unchanged": true,
+  "accepted_prefix_replays": 0,
+  "earlier_ChunkA_review_excess_preserved": true,
+  "excluded_scope": [
+    "Earlier-prefix admissibility or omitted boundary adapters",
+    "Centre branch exercise",
+    "Scalar/Clifford/whole-owner endpoints",
+    "Child0\u21927 operator/physical interpretation and all rows after11351",
+    "Full-stream throughput or general representation speedup"
+  ],
+  "observed_profiler_categories": {
+    "type_checking_seconds": 8.96,
+    "elaboration_seconds": 0.749,
+    "interpretation": "Cumulative categories from this receipt only; no causal attribution or speedup inference."
+  }
+}
