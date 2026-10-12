@@ -1,0 +1,15 @@
+{
+  "status": "INDEPENDENT_TERMINAL_PASS_HISTORICAL9594_CK",
+  "utc": "2026-10-12T17:19:52.544410+00:00",
+  "terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_KEYS33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "611c8903d98c2e9de2edd9937ec1ec57ee95f138359c641abb8f61ea8cdeee2c"
+  },
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck33_keys/ACCEPTANCE.json",
+    "sha256": "3c0d294014e23916c89b5081bc99b368bce4e9a267ce28ebf125aa924fbe959b"
+  },
+  "source_commit": "8e67d2242e8cdb2d34d58fcd4c860f213878a3eb",
+  "result_commit": "2793ac185194e9891ffb369b39b74af68be157e0",
+  "scope": "Four exact Fin1079 decoded-key witnesses, no finite replay. Exact generated9594 CK inputs; no automatic5996 HPE transfer."
+}

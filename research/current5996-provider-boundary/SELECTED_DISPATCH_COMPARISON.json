@@ -1,0 +1,533 @@
+{
+  "status": "PASS_BOUNDED_SELECTED_DISPATCH_COMPARISON_CHANGED_CK_HPE_INPUTS",
+  "utc": "2026-10-12T17:18:26.692853+00:00",
+  "new_commit": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "old_commit": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "new_manifest": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/community-hyperplane599-audit/SELECTED-SOURCE.json",
+    "sha256": "6d9e0cf88d2c2b14ad680a27fad71ed7be877e89d12f822ff477d2355047f450",
+    "bytes": 230887
+  },
+  "old_manifest": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/community-family588-audit/SELECTED-SOURCE.json",
+    "sha256": "515b48dc5465aec3dd00bcc003a40f9ffb00069367fe47d990ca8b11945d512a",
+    "bytes": 276059
+  },
+  "selected_assembly": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/community-hyperplane599-audit/pr596/replay/ASSEMBLY.json",
+    "sha256": "eb11aab934ad55cedc0f5cc2ec8f538450df1e32f0c25ab39a0dde2b0d6ced69",
+    "bytes": 85372
+  },
+  "exact_new_files": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/data/SPEC.json",
+      "sha256": "813e5ad4201bafd0fceea4a5fdc0589040d4f9ece3afb845a02bccc39fa5a9a1",
+      "bytes": 29846
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/data/PLAN.json",
+      "sha256": "b86089af66d3bc230a6eb8dfc54b8ecc3c72e61de79e48f64d28a4e5a4f41e6d",
+      "bytes": 483862
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/data/OWNERS.json.gz",
+      "sha256": "3455c6a4f5b1091300b397f3016f152eedeaaaa042213c27e0579f8185f10824",
+      "bytes": 417370
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/data/recipes/ck-step3-hyperplane_end.json",
+      "sha256": "d136602543927ff4470f1761bafececa11377ad2662244981e269277c212c68a",
+      "bytes": 5174
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/witness.py",
+      "sha256": "4f6d445f4796e9e7c0ef388370020119d4fdb929c006b2101aecb203ece8ab61",
+      "bytes": 1625
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/verify.py",
+      "sha256": "1189c03c352aefa4b5a3d28dbe42dd92c5e6d8f5a7ca56c252eef464847c95f7",
+      "bytes": 23825
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/build_hpe.py",
+      "sha256": "7a1f37c40f067f9b3ef4711d2ce3843fc10dfcc14b8cc290c3d6f6893c8224ae",
+      "bytes": 5797
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_audit_and_transport.py",
+      "sha256": "9020d9f295c37836619b59f58c8e67d0dc14bafe8b53aa2c9e98cb5053cbbe9b",
+      "bytes": 11745
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_emit_local.py",
+      "sha256": "7222e564cabb7ff15b8b4833385342f19a49d3037130f8c21afd52b74638fd40",
+      "bytes": 8580
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_audit_local.py",
+      "sha256": "eb009dbde7e1f0feef622e62f06a4ce10b0210a8216b94e7217e67fb9d46efe3",
+      "bytes": 11142
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_adapters_local.py",
+      "sha256": "b5d976f7496eac0d9c7ed97b3a028efcf6950ec989f1789b8c6f5d2b325c40b3",
+      "bytes": 7711
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/hpe_controls_atc.py",
+      "sha256": "c75684d8355c488d4acf85d1cca566716c662384842e5bb92b1cc68efad10695",
+      "bytes": 3034
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/audit_allcold.py",
+      "sha256": "90b754475dcb73b73ee6339ecf59190baac8157b33c45ca803ee611e6540eed1",
+      "bytes": 19623
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/emit_allcold.py",
+      "sha256": "5b4a6fffbdff16e27f87683274470a0a21ae224ff55f34b9839f451f2930d517",
+      "bytes": 12866
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/bind_providers_portable.py",
+      "sha256": "ff9c025f628dcf16b6ba281d288bd80aa418ee9685ab90b8266049fbd1b01c93",
+      "bytes": 5195
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-571-hpeq5/code/generated_identity.py",
+      "sha256": "c8af22719c0f3097a991a3f6ccac8f090afd2faba554745733d9ea88f2c25708",
+      "bytes": 2937
+    }
+  ],
+  "old_files": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/SPEC.json",
+      "sha256": "c80de50d961c1b048134452c4e0080f75a2096bcccc2c2e304362b538ae4387a",
+      "bytes": 51414
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/PLAN.json",
+      "sha256": "87d06adb7a88e6e269e50c057a22b30d0266187f3b89870d6c9d54805a7d1042",
+      "bytes": 492935
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/OWNERS.json.gz",
+      "sha256": "7438318922de6b796dd22c55d50a071fbd49f8a1ea0295bdff030f64e8cf609a",
+      "bytes": 413845
+    }
+  ],
+  "dispatch": {
+    "calls": 72,
+    "old_counts": {
+      "ck": 66,
+      "jp8": 1,
+      "atm3": 5
+    },
+    "new_counts": {
+      "ck": 53,
+      "atm3": 19
+    },
+    "changed_call_count": 23,
+    "changed_calls": [
+      {
+        "old": [
+          2,
+          1,
+          "jp8"
+        ],
+        "new": [
+          2,
+          1,
+          "ck"
+        ]
+      },
+      {
+        "old": [
+          2,
+          2,
+          "atm3"
+        ],
+        "new": [
+          2,
+          2,
+          "ck"
+        ]
+      },
+      {
+        "old": [
+          1,
+          4,
+          "ck"
+        ],
+        "new": [
+          1,
+          4,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          2,
+          3,
+          "atm3"
+        ],
+        "new": [
+          2,
+          3,
+          "ck"
+        ]
+      },
+      {
+        "old": [
+          3,
+          2,
+          "atm3"
+        ],
+        "new": [
+          3,
+          2,
+          "ck"
+        ]
+      },
+      {
+        "old": [
+          4,
+          1,
+          "ck"
+        ],
+        "new": [
+          4,
+          1,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          5,
+          0,
+          "ck"
+        ],
+        "new": [
+          5,
+          0,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          1,
+          5,
+          "ck"
+        ],
+        "new": [
+          1,
+          5,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          5,
+          1,
+          "ck"
+        ],
+        "new": [
+          5,
+          1,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          0,
+          7,
+          "ck"
+        ],
+        "new": [
+          0,
+          7,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          5,
+          2,
+          "ck"
+        ],
+        "new": [
+          5,
+          2,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          1,
+          7,
+          "ck"
+        ],
+        "new": [
+          1,
+          7,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          4,
+          4,
+          "ck"
+        ],
+        "new": [
+          4,
+          4,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          6,
+          2,
+          "ck"
+        ],
+        "new": [
+          6,
+          2,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          5,
+          4,
+          "ck"
+        ],
+        "new": [
+          5,
+          4,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          6,
+          3,
+          "ck"
+        ],
+        "new": [
+          6,
+          3,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          5,
+          5,
+          "atm3"
+        ],
+        "new": [
+          5,
+          5,
+          "ck"
+        ]
+      },
+      {
+        "old": [
+          4,
+          7,
+          "ck"
+        ],
+        "new": [
+          4,
+          7,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          5,
+          6,
+          "ck"
+        ],
+        "new": [
+          5,
+          6,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          7,
+          5,
+          "ck"
+        ],
+        "new": [
+          7,
+          5,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          7,
+          6,
+          "ck"
+        ],
+        "new": [
+          7,
+          6,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          8,
+          5,
+          "ck"
+        ],
+        "new": [
+          8,
+          5,
+          "atm3"
+        ]
+      },
+      {
+        "old": [
+          8,
+          6,
+          "ck"
+        ],
+        "new": [
+          8,
+          6,
+          "atm3"
+        ]
+      }
+    ],
+    "order_equal": true,
+    "order_formula": "lexicographic(7*stage+6*replica,stage,replica)",
+    "provider_call_program_hashes_match": true
+  },
+  "owners": {
+    "rows": 36288,
+    "complete_unique_stage_replica_helper_domain": true,
+    "coordinates_and_chronological_time_unchanged": true,
+    "changed_rows": 35854,
+    "changes_by_field": {
+      "child": 28564,
+      "copy": 34890,
+      "family": 35795,
+      "helper": 0,
+      "offset": 24833,
+      "owner_replica": 24896,
+      "port": 33489,
+      "replica": 0,
+      "stage": 0,
+      "time": 0,
+      "width": 3660
+    },
+    "qualification": "Structural comparison only. It does not replay 73-column hosting geometry, width separation, actual owner operator endpoints or global assembly."
+  },
+  "plan_field_equality": {
+    "status": true,
+    "mode": true,
+    "K": true,
+    "T": true,
+    "M": true,
+    "L": true,
+    "live": true,
+    "deficit": true,
+    "profile": false,
+    "order": true,
+    "windows": true,
+    "sides": true,
+    "pairs": true,
+    "solver_status": true,
+    "gap": true,
+    "provider_calls": false,
+    "per_call_widths": false,
+    "provider_registry": false,
+    "source_plan_sha256": true,
+    "assignment_sha256": false,
+    "source_owners_sha256": false
+  },
+  "source_body_equality": {
+    "code/witness.py": true,
+    "code/generated_identity.py": true,
+    "code/audit_allcold.py": false,
+    "code/emit_allcold.py": false,
+    "code/bind_providers_portable.py": false,
+    "verify.py": false
+  },
+  "ck_artifacts": {
+    "CANONICAL-WORD.json.gz": {
+      "retained": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+        "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+        "bytes": 71465
+      },
+      "retained_payload_or_raw_sha256": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a",
+      "selected_payload_or_raw_sha256": "d8a550139de2abc5027957e807c70003c478396570b868931a96d1cb69e94b2e",
+      "equal": false
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "retained": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+        "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+        "bytes": 181457
+      },
+      "retained_payload_or_raw_sha256": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4",
+      "selected_payload_or_raw_sha256": "62cfa2cfecc18855928a79c2ca5109498cb4d2366cf1f2b7128c459f32c86476",
+      "equal": false
+    },
+    "CLIFFORD-RECIPES.json": {
+      "retained": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+        "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+        "bytes": 1017157
+      },
+      "retained_payload_or_raw_sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "selected_payload_or_raw_sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "equal": false
+    }
+  },
+  "build_boundary": {
+    "first_three_step_specs_identical": true,
+    "base_identical": true,
+    "retained_exact_predecessor": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+      "sha256": "425b1f3a4da31d544579e7287ffeedc739dce8d84fe5b9bf02ceb3c69236961d",
+      "bytes": 37001
+    },
+    "predecessor_payload_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b",
+    "new_step": {
+      "type": "hyperplane_end",
+      "recipe": "pkg:data/recipes/ck-step3-hyperplane_end.json",
+      "input_content_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b",
+      "recipe_sha256": "d136602543927ff4470f1761bafececa11377ad2662244981e269277c212c68a",
+      "negative_controls": 8,
+      "output_content_sha256": "b7a1c01f3444f50296feb276faccc2652073687aa4d86c8d267125f3b544b5b6"
+    },
+    "changes": 38,
+    "all_terminal_frame_dimensions": 8,
+    "source_semantics": "build_hpe.py adds early_cleanup and helper_final plus paid/width metadata. verify.py175\u2013189 independently describes old-field preservation. The selected localizer uses hpe_* readers when helper_final is present; hpe_emit_local adds cleanup_tail, terminal-indexed residual wrappers and omits old-convention exit adapters for38 helpers. These changed semantics require fresh output binding."
+  },
+  "reuse": [
+    "Accepted generic Row n checker, signed denominator-aware decoder, Stream and conditional endpoint algebra remain reusable.",
+    "The retained pre-HPE CK full word is an exact source input for the new final constructor, avoiding three repeated construction steps after scoped admission.",
+    "Call order, windows, sides and pairs are exact prior bytes/objects, but physical owner assignments and provider widths changed.",
+    "Completed CK33/key and record459 facts remain exact9594-source evidence; selected5996 local frame count, catalog ordinals and first-row equality are not established."
+  ],
+  "minimum_next_task": "Prepare one source/resource-reviewed CK hyperplane-end materialization suffix from the retained exact predecessor, targeting current CANONICAL-WORD, LOCAL-PROGRAMS and CLIFFORD-RECIPES; preserve constructor/local intrinsic checks and expected semantic identities. First check retained exact artifacts in parallel (frame owns catalog lookup). Once materialized, compare the existing33 rows and centre band before any new Lean source or finite replay. No generation is authorized by this readback.",
+  "conditional_kappa_context": {
+    "exact": "16127213726553/10000000000000000",
+    "decimal": "0.0016127213726553",
+    "status": "Author-read exact selected SPEC and ASSEMBLY provenance, not a new verified physical/full-size bound."
+  },
+  "supplier_execution": false,
+  "compiler_execution": false,
+  "global_replay": false
+}
