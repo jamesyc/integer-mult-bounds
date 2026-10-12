@@ -1,0 +1,75 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW_AND_CHECK",
+  "utc": "2026-10-12T12:39:37.391904+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-centre-band/F19CentreBandIndependence.lean",
+    "sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279",
+    "bytes": 35713
+  },
+  "selected_context": {
+    "commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "conditional_kappa": "0.001517760977820331",
+    "kappa_role": "Historical selected context only; this package proves no kappa or multiplier theorem."
+  },
+  "source_inputs": {
+    "programs": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_four_inputs/extracted/research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+      "bytes": 187483
+    },
+    "canonical": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_four_inputs/extracted/research/direct-delivery504-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+      "bytes": 75113
+    },
+    "recipes": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/main_f19cb62/selected_two_inputs/extracted/research/direct-delivery504-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+      "bytes": 990631
+    }
+  },
+  "literal_projection": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_band_proposal/LITERAL_PROJECTION.json",
+    "sha256": "9ef2d5a3477dfd97cbb837fa82c75cf335267ba278bf7bb02a756bd29d7baf4f",
+    "bytes": 177754
+  },
+  "source_order_inspection": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/centre_band_proposal/CENTRE_REFERENCE_ORDER.json",
+    "sha256": "fa0c7de69bc5f70f5d8129e863e39322c5e2e11ca07c8d49ca758c6b8f310222",
+    "bytes": 9572
+  },
+  "source_indices": [
+    14768,
+    15031
+  ],
+  "rows_per_direction": 264,
+  "centres": 8,
+  "block_rows": 33,
+  "scientific_claim": "For the exact interpreted centre band, any two 736-register states agreeing on all original L0..727 inputs yield identical full output states; C0..7 are all zero. Initial C values may be arbitrary and different.",
+  "semantics": [
+    "Reuses accepted rawRowsRun and rawScalarStep on signed rational coefficients.",
+    "COPY reads the current source and overwrites its destination, even if the destination was dirty. CLEAR writes zero only to its named target.",
+    "Relabel is identity in the scalar shadow. Actual Clifford transformations and label admissibility are separate obligations.",
+    "A finite Boolean known-value/zeroed-value certificate is connected to raw-run semantics by a local state-relation induction; no scalar matrix or full source interpreter replay is performed."
+  ],
+  "scope_exclusions": [
+    "No prefix/suffix or full 22937-event scalar endpoint is proved.",
+    "No physical adapter/residual wrapper or centre Clifford recipe is interpreted here.",
+    "The eight serialized centre slots are not an inventory or restoration theorem for unrecorded coefficient-work registers.",
+    "No full 728-column auditor-to-736-register physical theorem is inferred."
+  ],
+  "attribution": [
+    "Retains PR509 Lemma G Stream by DreamingOfClouds with Claude-assisted development.",
+    "Selected emit_local.py attribution retains PR425/PR433/PR514, icekylinx/OpenAI and DreamingOfClouds/Anthropic notices.",
+    "This source and its strict local literal projection were prepared with OpenAI assistance. Apache-2.0."
+  ],
+  "public_probes": [
+    "CurrentMain.F19CentreBand.safe_run_related",
+    "CurrentMain.F19CentreBand.certified_band_independent",
+    "CurrentMain.F19CentreBand.forward_checked",
+    "CurrentMain.F19CentreBand.backward_checked",
+    "CurrentMain.F19CentreBand.exact_band_indices",
+    "CurrentMain.F19CentreBand.forward_independent",
+    "CurrentMain.F19CentreBand.backward_independent"
+  ]
+}
