@@ -1,0 +1,35 @@
+{
+  "status": "SOURCE_PREPARATION_KEY_GUARD_CORRECTION_BEFORE_LEAN_EMISSION",
+  "utc": "2026-10-12T14:32:06.894447+00:00",
+  "preimage_commit": "af0de1b",
+  "preimage_sha256": "78fcc82d6f0c4b05a6b262cffab5cd39ab570216c692e6910590ca579789bb31",
+  "corrected_generator_sha256": "b1a4ba2f0857a0a6e1e0497fd7931b10608a78faaf3f9413558d1542faa913e8",
+  "observed_failure": "AssertionError requiring childRef==[1,1] for all prospective48 rows; no Lean source/data output existed at this guard.",
+  "unexpected_source_rows": [
+    [
+      10781,
+      [
+        "climb",
+        "A",
+        464,
+        0,
+        4,
+        1
+      ]
+    ],
+    [
+      10783,
+      [
+        "climb",
+        "A",
+        465,
+        0,
+        4,
+        1
+      ]
+    ]
+  ],
+  "correction": "Narrow to natural45-row key0\u21923 run10736..10780,24+21, second support586/588. Both directions match.",
+  "compiler_executed": false,
+  "accepted45_inputs_changed": false
+}

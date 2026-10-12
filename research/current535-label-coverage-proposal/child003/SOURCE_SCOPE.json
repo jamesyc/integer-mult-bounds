@@ -1,0 +1,113 @@
+{
+  "status": "SOURCE_FROZEN_CURRENT535_CHILD003_EQUIVALENT_EXTENSION",
+  "utc": "2026-10-12T14:32:07.418035+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/child003/Current535Child003Data.lean",
+      "sha256": "f27e814ff9c910eab44b4ebc3f63594feda813a648fdf2a667172cfcfff56d50",
+      "bytes": 5707
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/child003/Current535Child003Check.lean",
+      "sha256": "a3c891309d556436a6397934527d2615bbb2050daf9a50c95dd64d8b9d67509c",
+      "bytes": 12346
+    }
+  ],
+  "literal_inverse": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/child003/LITERAL_PROJECTION.json",
+    "sha256": "5ddca72865afee742fe8e9f58d366dce08c11439142f19abf5769190523458c5",
+    "bytes": 40503
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/child003/DELIMITER_ADVISORY.json",
+    "sha256": "0ef8bfcf6a2025ffc07dbd08609f7b52ee34e761c06226b62477a1afee41d94f",
+    "bytes": 2373
+  },
+  "prior_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_coverage45/ACCEPTANCE.json",
+    "sha256": "f533c8e40cf6ada118c756f3b635a882bae726f679a35c5659414657045c27d9",
+    "bytes": 24735
+  },
+  "source_scope": {
+    "raw_inclusive": [
+      10736,
+      10780
+    ],
+    "new_rows_each": 45,
+    "split": [
+      24,
+      21
+    ],
+    "new_histogram_each": {
+      "ADD": 31,
+      "relabel": 14
+    },
+    "new_child_ordinal": 1,
+    "new_child_key": [
+      0,
+      3,
+      1
+    ],
+    "ordered_descriptor": [
+      486
+    ],
+    "checkpoints": [
+      45,
+      69,
+      90
+    ],
+    "supports": [
+      [
+        488,
+        489,
+        498,
+        486,
+        487,
+        500,
+        536,
+        537,
+        546,
+        534,
+        535,
+        548
+      ],
+      [
+        586,
+        588
+      ]
+    ],
+    "full_label_domain": 736,
+    "frame_count": 997,
+    "child_count": 2927,
+    "composed_rows_each": 90,
+    "composed_histogram_each": {
+      "ADD": 62,
+      "relabel": 28
+    }
+  },
+  "local_scope": {
+    "total": 6,
+    "retained": 4,
+    "fresh": 2
+  },
+  "external_pairs": 2213,
+  "new_probe_count": 38,
+  "proof_reuse": "Same parameterized factorization and multivalue sparse helper; append consumes accepted45 directly. Fresh signed coefficients, indices and changed register operands are not transported from f19.",
+  "resources": {
+    "hard_seconds_each": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_VM_bytes": 3758096384,
+    "async": false,
+    "shared_serial_slot": 1,
+    "fresh_jobs_max": 2,
+    "baseline": "Current45 Check17.659996682s/2302177280VM; no next-fit or throughput inference."
+  },
+  "completion": "Two below-review passes,38 clean probes, full69/90 checkpoint and90-row compositions; first failure/review stops.",
+  "limits": [
+    "Current0\u21923/[486] operator and complete Event/physical execution remain separate suppliers.",
+    "Pre-A projection/adapters and full stream are outside.",
+    "Historical743 result remains unchanged; only generic proof structure is reused."
+  ],
+  "compiler_admission": "Requires accepted45 terminal seal plus independent science/API and integration binding/current guard."
+}
