@@ -1,0 +1,126 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "5727783e78abe48011d3f2e0cb3c3650b537c718",
+  "source_sha256": "a817c9368c5dfeadd7ad8b377f9a9ba4ed3b0f2abf7bd46b0cea81b347f9b4c1",
+  "object_sha256": "fb153105453376d2a947293bb33445f03f36eac4cab7a7974bb487d02ffbd49f",
+  "receipt_sha256": "ff712b4cd6bb57b63795e9efc7fa088172caed95ac24e5089901489f18895238",
+  "log_sha256": "95bc1d8402916b2530b4a70a46a718025225f81ae21198b665e59b89f839274d",
+  "acceptance_sha256": "7531f79dc8730936e28960c5f00406f4d2bc4af86d16da5523aaec42ac5ae21d",
+  "independent_terminal_review_sha256": "38b262e0b59e8d65272f1876af55e4a184c76cd5c30923b75916a14dc7f603d3",
+  "selected_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "current_import_closure": 23,
+  "external_pairs": 2621,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current535First45Recipes.frameTwo_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.recipe02_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.recipes_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.keyed_block",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_forward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_forward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_backward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_backward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "exported_chart_premises": [
+    "T 0 = LinearEquiv.refl \u211a Payload",
+    "T 2 = frameTwo"
+  ],
+  "printed_theorem_types": [
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_forward_A",
+      "printed_type": "CurrentMain.Current535First45Recipes.selected_forward_A : \u2200 (T : CurrentMain.Current535First45Recipes.FrameMap)\n  (fallback : CurrentMain.Current535First45Recipes.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current535First45Recipes.Payload \u2192\n    T 2 = CurrentMain.Current535First45Recipes.frameTwo \u2192\n      CurrentMain.Current535First45Recipes.InterpretedBlock T fallback CurrentMain.Current535CoverageData.forwardA\n        CurrentMain.Current535CoverageData.labels0",
+      "both_chart_premises_verified": true
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_forward_B",
+      "printed_type": "CurrentMain.Current535First45Recipes.selected_forward_B : \u2200 (T : CurrentMain.Current535First45Recipes.FrameMap)\n  (fallback : CurrentMain.Current535First45Recipes.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current535First45Recipes.Payload \u2192\n    T 2 = CurrentMain.Current535First45Recipes.frameTwo \u2192\n      CurrentMain.Current535First45Recipes.InterpretedBlock T fallback CurrentMain.Current535CoverageData.forwardB\n        CurrentMain.Current535CoverageData.labels24",
+      "both_chart_premises_verified": true
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_backward_A",
+      "printed_type": "CurrentMain.Current535First45Recipes.selected_backward_A : \u2200 (T : CurrentMain.Current535First45Recipes.FrameMap)\n  (fallback : CurrentMain.Current535First45Recipes.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current535First45Recipes.Payload \u2192\n    T 2 = CurrentMain.Current535First45Recipes.frameTwo \u2192\n      CurrentMain.Current535First45Recipes.InterpretedBlock T fallback CurrentMain.Current535CoverageData.backwardA\n        CurrentMain.Current535CoverageData.labels0",
+      "both_chart_premises_verified": true
+    },
+    {
+      "name": "CurrentMain.Current535First45Recipes.selected_backward_B",
+      "printed_type": "CurrentMain.Current535First45Recipes.selected_backward_B : \u2200 (T : CurrentMain.Current535First45Recipes.FrameMap)\n  (fallback : CurrentMain.Current535First45Recipes.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current535First45Recipes.Payload \u2192\n    T 2 = CurrentMain.Current535First45Recipes.frameTwo \u2192\n      CurrentMain.Current535First45Recipes.InterpretedBlock T fallback CurrentMain.Current535CoverageData.backwardB\n        CurrentMain.Current535CoverageData.labels24",
+      "both_chart_premises_verified": true
+    }
+  ],
+  "measured": {
+    "compiler_seconds": 9.680041907995474,
+    "fifo_seconds": 0.000708295003278181,
+    "peak_vm_bytes": 2663645184,
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "attempts": 3,
+  "preserved_failures": [
+    "Original absent rational Module instance",
+    "Four selected corollaries omitted chart section assumptions before the explicit include correction"
+  ],
+  "claim": "The four exact first45 decoded blocks at pinned7dfa admit interpreted event-restricted RecipesExact and PR509 conjugation, assuming the explicit endpoint charts T0=id and T2=the accepted459 canonical operator. All eight probes and four actual exported theorem types pass.",
+  "remaining": [
+    "Actual packed-address and physical recipe execution equality.",
+    "Complete expanded-work rows/columns, residual and endpoint suppliers.",
+    "No applicability to newly selected9594 emitted blocks without exact provider data and source matching."
+  ],
+  "publication": "No publication admission; no author-checked kappa is asserted by this conditional interface."
+}
