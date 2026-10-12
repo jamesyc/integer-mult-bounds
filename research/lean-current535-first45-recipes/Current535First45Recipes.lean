@@ -93,6 +93,8 @@ theorem keyed_block (T : FrameMap) (fallback : RecipeTable)
 variable (T : FrameMap) (fallback : RecipeTable)
 variable (hzero : T 0 = LinearEquiv.refl ℚ Payload) (htwo : T 2 = frameTwo)
 
+include hzero htwo
+
 theorem selected_forward_A :
     InterpretedBlock T fallback Current535CoverageData.forwardA Current535CoverageData.labels0 :=
   keyed_block T fallback _ _ hzero htwo Current535First45KeyRestriction.selected_forward_A
@@ -120,3 +122,9 @@ end CurrentMain.Current535First45Recipes
 #print axioms CurrentMain.Current535First45Recipes.selected_forward_B
 #print axioms CurrentMain.Current535First45Recipes.selected_backward_A
 #print axioms CurrentMain.Current535First45Recipes.selected_backward_B
+
+/- The public types must retain both endpoint chart assumptions. -/
+#check @CurrentMain.Current535First45Recipes.selected_forward_A
+#check @CurrentMain.Current535First45Recipes.selected_forward_B
+#check @CurrentMain.Current535First45Recipes.selected_backward_A
+#check @CurrentMain.Current535First45Recipes.selected_backward_B

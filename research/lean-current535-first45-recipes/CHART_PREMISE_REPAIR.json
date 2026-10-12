@@ -1,0 +1,25 @@
+{
+  "status": "EXPLICIT_ENDPOINT_PREMISE_REPAIR_SOURCE_ONLY",
+  "change": "Include both existing section assumptions in all four selected corollaries, plus four printed public type audits. No proof body or other statement changes. This corrects previously missing exported premises; it is not a proof of unconditional corollaries.",
+  "intended_premises": [
+    "T 0 = LinearEquiv.refl \u211a Payload",
+    "T 2 = frameTwo"
+  ],
+  "printed_type_names": [
+    "CurrentMain.Current535First45Recipes.selected_forward_A",
+    "CurrentMain.Current535First45Recipes.selected_forward_B",
+    "CurrentMain.Current535First45Recipes.selected_backward_A",
+    "CurrentMain.Current535First45Recipes.selected_backward_B"
+  ],
+  "scope": {
+    "total": 23,
+    "current": 22,
+    "new": 1
+  },
+  "external_pairs": 2621,
+  "axiom_probes": 8,
+  "additional_type_audits": 4,
+  "candidate_sha256": "a817c9368c5dfeadd7ad8b377f9a9ba4ed3b0f2abf7bd46b0cea81b347f9b4c1",
+  "proposal_sha256": "f9930af6e586547fcb1fc63a18b36fdb241aac0688f0e68d86a8997f6201409b",
+  "failed_source_sha256": "4081ae64d5adc7341df38c3064adf0a177903adfd8ab667e90ab22dce8793197"
+}
