@@ -1,0 +1,155 @@
+{
+  "status": "CURRENT_SOURCE_BOUND_FINITE_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-12T13:53:43.411416+00:00",
+  "source": {
+    "module": "CurrentComplexUpperAggregate",
+    "file": "CurrentComplexUpperAggregate.lean",
+    "sha256": "3dbdd0e358271d5ef6f5eb6489e26d58bdaa8211fe764169e92fa975f3fe92b1",
+    "bytes": 75543,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate"
+    ],
+    "expected_probes": [
+      "CurrentMain.CurrentComplexUpperAggregate.profile_totals",
+      "CurrentMain.CurrentComplexUpperAggregate.current_domains",
+      "CurrentMain.CurrentComplexUpperAggregate.ordinary_rounded_exact",
+      "CurrentMain.CurrentComplexUpperAggregate.fallback_rounded_exact",
+      "CurrentMain.CurrentComplexUpperAggregate.upper_matches_current_certificate",
+      "CurrentMain.CurrentComplexUpperAggregate.current_upper_strict"
+    ]
+  },
+  "current_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/certificates/selected-result.json",
+      "sha256": "a2ee54471f26e495564a2e5ae745fefe627384cf2fe68a77422e26709591e30a",
+      "bytes": 1982,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "914f48ebac8296a040ecbfa00644c1b6dbfbae95"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710,
+      "repository_path": "research/community-family533-audit/SELECTED-SOURCE.json",
+      "git_blob": "c527670100dd303200bd38c7b9125a2c66de8b72"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/pr535-ASSEMBLY.json",
+      "sha256": "246f082c286170d61f0aff3cbc4e4162852e5b162ea67cee274b280c04c4e564",
+      "bytes": 22092,
+      "repository_path": "research/community-family533-audit/pr535-ASSEMBLY.json",
+      "git_blob": "5e5fe27858abf4af408415636d8eafde1e4a3f0d"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/audit/OWNERS-AND-PROFILE.json",
+      "sha256": "86dd8c1851ec818628dee96ceafbfa31611d1a80eb4fd8084b207607795895ba",
+      "bytes": 1737,
+      "repository_path": "research/post-center-rank4-global/evidence/audit/OWNERS-AND-PROFILE.json",
+      "git_blob": "200c88cdc8b2dcff4e04d9d212f914c1b152a5c7"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/code/assemble_combined.py",
+      "sha256": "41216e8da3b647fe6eead9079858f25b2592cab090154aca43f3cc73ff36dc9b",
+      "bytes": 8093,
+      "repository_path": "research/post-center-rank4-global/code/assemble_combined.py",
+      "git_blob": "ea740f367ed493c47d7ef5d45f91ed7fd16f04e5"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1584931111785787/1000000000000000000",
+  "decimal": "0.001584931111785787",
+  "target_fields": {
+    "bCurrent": {
+      "pointer": "/complex_lower",
+      "value": "1589991533606044174031/1000000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/exact_moment_receipts/0/base_two/1",
+      "value": "-956678472329853092787/10000000000000000000000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 158976,
+      "2": 52864,
+      "3": 15200,
+      "4": 20160,
+      "5": 4032,
+      "6": 4032,
+      "7": 352,
+      "8": 576,
+      "48": 1632
+    },
+    "dimension": 73,
+    "live": 7168,
+    "fallbackCount": 43966211072
+  },
+  "source_lines": {
+    "profile_moment_rounding": "assemble_combined.py:50-75",
+    "base_two": "base_two_moment.py:20-58"
+  },
+  "accepted_log_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+    "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+    "bytes": 33554
+  },
+  "reused_public_definitions": [
+    "unitUpper",
+    "roundedLog",
+    "ceilGrid",
+    "expBlock",
+    "expState12",
+    "expUpper",
+    "sourceLogDomain"
+  ],
+  "rounding": "Ceil the ordinary nine-term sum once; separately ceil the rank-one fallback, then discount by10^-16. Source GRID=10^30.",
+  "reduction_plan": {
+    "log_checkpoint_reproofs": 0,
+    "exp_literal_state_blocks": 27,
+    "total_kernel_decisions": 77,
+    "domain_leaves": 18,
+    "max_exp_steps_per_literal_check": 4
+  },
+  "checkpoint_witnesses": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_complex_upper/CHECKPOINT_WITNESSES.json",
+    "sha256": "eb10a56d58cc175b83669f14d7f7d89014f50f53682faa2aac8d949b1cffb9bf",
+    "bytes": 63532
+  },
+  "emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_complex_upper/prepare_source.py",
+    "sha256": "b8e023a9e58b5ed74bcaaa659c925d9ea68b2331a2de5b0c4ec671a5986e803d",
+    "bytes": 12932,
+    "trusted_for_proof": false,
+    "upstream_modules_executed": false
+  },
+  "planning_equalities": {
+    "ordinaryRounded": "24999999999788504632124418413/25000000000000000000000000000",
+    "fallbackRounded": "84598147150231678121527670146907213/1000000000000000000000000000000",
+    "upper_minus_one": "-956678472329853092787/10000000000000000000000000000000000000000000000",
+    "matches_record": true,
+    "kernel_acceptance": false
+  },
+  "remaining": [
+    "Current Real-log/exp transport at this changed endpoint/profile.",
+    "Current PR510 bit moment and operator/profile realization.",
+    "Current bootstrap/cutoff/outer data and all-size compiler/precision/tape/analytic transfer.",
+    "No current multiplier or full kappa theorem."
+  ],
+  "comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_main_7dfa22b_comparison/CURRENT_PROFILE_ENDPOINT_REUSE_PROPOSAL.json",
+    "sha256": "492a48015e42eac9e61d25f593c00f2e064c631b3d68909250d58a545ee646d3",
+    "bytes": 19047
+  }
+}
