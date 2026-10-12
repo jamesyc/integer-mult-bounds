@@ -128,14 +128,18 @@ theorem sandwich_on_canonical (L R : Monomial X) (G : X ≃ X) (c : X → Nat)
   rcases hcert y with ⟨hs0, hs1, he0, he1⟩ | ⟨hs0, hs1, he0, he1⟩
   · have h0 : Complex.I ^ (phase0 L R y + c y) = Complex.I ^ c y := by
       apply phase_equal
-      simp only [Nat.add_mod, he0, Nat.zero_add, Nat.mod_mod]
+      rw [Nat.add_mod, he0, Nat.zero_add, Nat.mod_mod]
     have h1 := phase_equal _ _ he1
     rw [hs0, hs1, ht, h0, h1]
     ring
   · have h0 := phase_equal _ _ he0
     have h1 : Complex.I ^ (phase1 L R t y + c y) = Complex.I ^ (1 + c y) := by
       apply phase_equal
-      simp only [Nat.add_mod, he1]
+      calc
+        (phase1 L R t y + c y) % 4 =
+            (phase1 L R t y % 4 + c y % 4) % 4 := Nat.add_mod _ _ _
+        _ = (1 + c y % 4) % 4 := by rw [he1]
+        _ = (1 + c y) % 4 := (Nat.add_mod 1 (c y) 4).symm
     rw [hs0, hs1, ht, ca_phase, h0, h1, cb_one_phase]
     ring
 

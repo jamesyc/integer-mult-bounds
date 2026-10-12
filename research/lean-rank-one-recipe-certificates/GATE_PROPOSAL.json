@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_ONLY_PENDING_SOURCE_REVIEW_AND_SEPARATE_GATE_ADMISSION",
+  "status": "FIRST_PROOF_LOCAL_MODULO_REPAIR_PENDING_REVIEW",
   "root": {
     "module": "RankOneRecipeCertificate",
     "source": "RankOneRecipeCertificate.lean",
-    "sha256": "cba4c2da8987caa8d389d6e6a927337a95704bf714975d14bd98a54ac447a3a3"
+    "sha256": "0fe031ad4fe1aa073378f2f21ce74f0d231aa19774181f9f9a2e22a015f1818b"
   },
   "local_scope": {
     "total": 8,
@@ -117,5 +117,9 @@
       "CurrentMain.RankOneRecipeCertificate.sandwich_operator"
     ]
   },
-  "publication": "No publication admission; this conditional module has no author-checked standalone kappa."
+  "publication": "No publication admission; this conditional module has no author-checked standalone kappa.",
+  "proof_local_repair": {
+    "failed_source_sha256": "cba4c2da8987caa8d389d6e6a927337a95704bf714975d14bd98a54ac447a3a3",
+    "changes": "Exactly two proof-local add_mod simp sites become one-step rw/explicit equation chain; all definitions, statements, imports and caps unchanged."
+  }
 }
