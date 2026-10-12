@@ -47,6 +47,7 @@ theorem left_source_action (v : Address → ℂ) (x : Address) :
         CliffordChild009Decoder.leftAlpha x) % 4) * v x := by
   obtain ⟨z, rfl⟩ := addressEquiv.symm.surjective x
   rcases z with ⟨z, h⟩
+  simp only [show addressEquiv.symm (z, h) = join (z, h) from rfl]
   rw [left_rows]
   change CliffordChild009Decoder.leftDecoded CliffordChild009Canonical.imagUnit
     (payloadEquiv.symm v) (split (join
@@ -62,6 +63,7 @@ theorem right_source_action (v : Address → ℂ) (x : Address) :
         CliffordChild009Decoder.rightAlpha x) % 4) * v x := by
   obtain ⟨z, rfl⟩ := addressEquiv.symm.surjective x
   rcases z with ⟨z, h⟩
+  simp only [show addressEquiv.symm (z, h) = join (z, h) from rfl]
   rw [right_rows, offset_rows]
   change CliffordChild009Decoder.rightDecoded CliffordChild009Canonical.imagUnit
     (payloadEquiv.symm v) (split (join
@@ -77,6 +79,7 @@ theorem canonicalK_source_action (v : Address → ℂ) (x : Address) :
         v (matrix leftInverseRows *ᵥ x) := by
   obtain ⟨z, rfl⟩ := addressEquiv.symm.surjective x
   rcases z with ⟨z, h⟩
+  simp only [show addressEquiv.symm (z, h) = join (z, h) from rfl]
   change CliffordChild009Canonical.canonicalK (payloadEquiv.symm v) (split (join (z, h))) = _
   rw [split_join, CliffordChild009Canonical.canonicalK_apply,
     canonical_phase, left_inverse_rows]

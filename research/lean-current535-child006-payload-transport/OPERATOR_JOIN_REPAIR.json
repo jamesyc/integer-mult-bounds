@@ -1,0 +1,16 @@
+{
+  "status": "FIRST_ORDINARY_PROOF_LOCAL_REPAIR_SOURCE_ONLY",
+  "actual_diagnostic": "Three rewrite misses retain addressEquiv.symm(z,h), while accepted row/phase lemmas match join(z,h). Other three probes elaborate but whole module remains rejected.",
+  "change": "Exactly three local simp-only steps using a displayed rfl equality expose join without unfolding row, phase or operator definitions. Statements, imports, operator bodies, six probes and caps unchanged.",
+  "retained": 13,
+  "external_pairs": 2620,
+  "scope": {
+    "total": 14,
+    "current": 13,
+    "new": 1
+  },
+  "failed_source_sha256": "83a9c792705d51c44d76ef03481ef156b5b675c8583094a23e3dc3bf9bc0ac74",
+  "candidate_sha256": "8584f822f608e3885d7fb67f7307821ad009edcc3f2958baeddec0c3053b1f63",
+  "failure_receipt_sha256": "3d6a7e55b03821b91e87098483a8395f156e5f3c28008cf5d0940c816192c6c3",
+  "proposal_sha256": "05928036d299e681f58363954d9d12aab99333e389cf86d8955b27444fffffc7"
+}
