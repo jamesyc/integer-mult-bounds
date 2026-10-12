@@ -6,6 +6,8 @@ Apache-2.0; prepared with OpenAI assistance. See NOTICE.md.
 Every closed source/inverse/basis/phase certificate below requires kernel
 checking. No theorem about a raw physical executor is assumed or claimed.
 -/
+set_option Elab.async false
+
 namespace CurrentMain.CliffordChild002Canonical
 
 open CliffordNineBitDecoder
@@ -44,15 +46,18 @@ theorem raw_fields_bounded :
 
 theorem left_inverses :
     matrix leftRows * matrix leftInverseRows = 1 ∧
-    matrix leftInverseRows * matrix leftRows = 1 := by decide +kernel
+    matrix leftInverseRows * matrix leftRows = 1 := by
+  constructor <;> decide +kernel
 
 theorem right_inverses :
     matrix rightRows * matrix rightInverseRows = 1 ∧
-    matrix rightInverseRows * matrix rightRows = 1 := by decide +kernel
+    matrix rightInverseRows * matrix rightRows = 1 := by
+  constructor <;> decide +kernel
 
 theorem canonical_inverses :
     matrix canonicalRows * matrix canonicalInverseRows = 1 ∧
-    matrix canonicalInverseRows * matrix canonicalRows = 1 := by decide +kernel
+    matrix canonicalInverseRows * matrix canonicalRows = 1 := by
+  constructor <;> decide +kernel
 
 /-- Exact greedy basis (including fuel ten), transpose and Gram-correction
 data, rather than a chosen replacement basis. -/
@@ -88,6 +93,7 @@ theorem canonical_first_column : canonicalLinear (mask 1) = mask singletonMask :
 No selected row or operator equation is a premise of this finite certificate. -/
 theorem branch_phase_certificate :
     Certificate left right flipZero outputFlip canonicalPhase := by
+  unfold Certificate
   decide +kernel
 
 theorem canonical_transport (y : Address) :

@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_REVIEWED_LITERAL_PILOT_WITH_CURRENT_DECODER_PENDING_SINGLE_GATE",
+  "status": "REVIEW_VM_HOLD_SERIAL_DECISION_REPAIR_PROPOSED",
   "root": {
     "module": "CliffordChild002Canonical",
     "source": "CliffordChild002Canonical.lean",
-    "sha256": "d70812254535a856d501bbc9861a0e07a34e601f1a3bb270d1ad101da4563943"
+    "sha256": "3f51e3b986ef74425e5d4660912252ea74ecc6c9401c4dced4e96c5488d8fff3"
   },
   "direct_imports": [
     "CliffordNineBitDecoder"
@@ -104,5 +104,11 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/notation_repair/ACCEPTANCE.json",
     "sha256": "c844c2ac252b344a22114ea4f18b37fa4174393d37e54417179d4c998316dd9c",
     "bytes": 27314
+  },
+  "repair": {
+    "failed_source_sha256": "d70812254535a856d501bbc9861a0e07a34e601f1a3bb270d1ad101da4563943",
+    "changes": "Only the declared serial elaboration option, three inverse conjunction proof splits and Certificate unfolding. No theorem/record/import/cap change.",
+    "review_level_vm_observation": 3917320192,
+    "requires_separate_recovery_release": true
   }
 }
