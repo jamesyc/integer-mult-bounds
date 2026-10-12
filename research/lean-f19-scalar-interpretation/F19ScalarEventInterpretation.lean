@@ -56,19 +56,19 @@ theorem decoded_step (e : LabelEvent) (decoded : ScalarEvent)
     rawScalarStep e h = some (decoded.scal h) := by
   cases e with
   | relabel r a b =>
-      simp_all [decodeEvent, rawScalarStep, LemmaG.Event.scal, LemmaG.Event.phys]
+      simp_all [decodeEvent, rawScalarStep, LemmaG.Event.scal, LemmaG.Event.phys] <;> subst decoded <;> rfl
   | add t s q =>
       by_cases hd : q.2 = 0 <;>
         simp_all [decodeEvent, decodeCoefficient, hd, rawScalarStep,
-          LemmaG.Event.scal, LemmaG.Event.phys]
+          LemmaG.Event.scal, LemmaG.Event.phys] <;> subst decoded <;> rfl
   | scale t q =>
       by_cases hd : q.2 = 0 <;>
         simp_all [decodeEvent, decodeCoefficient, hd, rawScalarStep,
-          LemmaG.Event.scal, LemmaG.Event.phys]
+          LemmaG.Event.scal, LemmaG.Event.phys] <;> subst decoded <;> rfl
   | copy t s f =>
-      simp_all [decodeEvent, rawScalarStep, LemmaG.Event.scal, LemmaG.Event.phys]
+      simp_all [decodeEvent, rawScalarStep, LemmaG.Event.scal, LemmaG.Event.phys] <;> subst decoded <;> rfl
   | clear t f =>
-      simp_all [decodeEvent, rawScalarStep, LemmaG.Event.scal, LemmaG.Event.phys]
+      simp_all [decodeEvent, rawScalarStep, LemmaG.Event.scal, LemmaG.Event.phys] <;> subst decoded <;> rfl
 
 /-- The auditor's centre copy does not require a clean input centre. -/
 theorem copy_overwrites (t s : Register) (f : FrameLabel) (h : Register → M) :
@@ -85,15 +85,15 @@ theorem decoded_labels (e : LabelEvent) (decoded : ScalarEvent)
     (hdecode : decodeEvent e = some decoded) (labels : Register → FrameLabel) :
     decoded.lab labels = e.lab labels := by
   cases e with
-  | relabel r a b => simp_all [decodeEvent, LemmaG.Event.lab]
+  | relabel r a b => simp_all [decodeEvent, LemmaG.Event.lab] <;> subst decoded <;> rfl
   | add t s q =>
       by_cases hd : q.2 = 0 <;>
-        simp_all [decodeEvent, decodeCoefficient, hd, LemmaG.Event.lab]
+        simp_all [decodeEvent, decodeCoefficient, hd, LemmaG.Event.lab] <;> subst decoded <;> rfl
   | scale t q =>
       by_cases hd : q.2 = 0 <;>
-        simp_all [decodeEvent, decodeCoefficient, hd, LemmaG.Event.lab]
-  | copy t s f => simp_all [decodeEvent, LemmaG.Event.lab]
-  | clear t f => simp_all [decodeEvent, LemmaG.Event.lab]
+        simp_all [decodeEvent, decodeCoefficient, hd, LemmaG.Event.lab] <;> subst decoded <;> rfl
+  | copy t s f => simp_all [decodeEvent, LemmaG.Event.lab] <;> subst decoded <;> rfl
+  | clear t f => simp_all [decodeEvent, LemmaG.Event.lab] <;> subst decoded <;> rfl
 
 /-- Actual backward SCALE syntax includes this negative denominator. -/
 theorem signed_denominator_example : decodeCoefficient (2, -1) = some (-2) := by
