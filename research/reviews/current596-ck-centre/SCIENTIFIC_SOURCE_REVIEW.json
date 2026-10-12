@@ -1,0 +1,143 @@
+{
+  "status": "PASS_GENERIC_LABEL_DOMAIN_TRANSPORT_AND_EXACT_CURRENT_CENTRE_SOURCE_API",
+  "utc": "2026-10-12T17:42:13.791131+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+    "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+    "bytes": 8666
+  },
+  "source_commit": "3194ed625438cf7d740efa8c348f66f8580f13f8",
+  "scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/SOURCE_SCOPE.json",
+    "sha256": "715f32cdd55d02b47993241b3a370928121b1d9871342949632d0f561f0f8c0d",
+    "bytes": 5698
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/SOURCE_PROPOSAL.json",
+    "sha256": "21416a7ea28e74427424c35d5b6e89c877962b3801d0fb20ca0dd10ad3eb28c8",
+    "bytes": 2298
+  },
+  "generation_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c",
+    "bytes": 6948
+  },
+  "verified_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+      "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+      "bytes": 8666
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/RESULT.json",
+      "sha256": "ea6a0d7ca9c06e5a2b2a257670ddb6636ec3ba68aadce6e689e7f1817e0abc76",
+      "bytes": 21325
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current5996-provider-boundary/CURRENT_FIRST33_CENTRE_READBACK.json",
+      "sha256": "0b7dd49aa30049429da4b8a30eb9e86351eb77168fd11ca3d4ec4129e277cd46",
+      "bytes": 3570
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current9594-ck-centre/Current9594CKCentre.lean",
+      "sha256": "281f86b189d92d203d4ad95e9186bb959c574049be48c227aef5c6eb266e8e0e",
+      "bytes": 34363
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_CENTRE_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "ffa435c287b2526a21ab860f1267891c742850a40e43d07d662feaec89629af8",
+      "bytes": 8314
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+      "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+      "bytes": 8666
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/SOURCE_SCOPE.json",
+      "sha256": "715f32cdd55d02b47993241b3a370928121b1d9871342949632d0f561f0f8c0d",
+      "bytes": 5698
+    }
+  ],
+  "independent_literal_readback": {
+    "rows_each": 256,
+    "raw_inclusive": [
+      12927,
+      13182
+    ],
+    "ordered_rows_equal_both_directions": true,
+    "old_frames": 1079,
+    "current_frames": 1082,
+    "entire_old_ordered_frame_prefix_equal": true,
+    "all_728_starts_equal": true
+  },
+  "api_review": {
+    "mapEvent": "All five constructors retain registers/coefficient values/order; only relabel/copy/clear labels use f. No invertibility premise is required for this syntax/scalar statement.",
+    "mapRow": "sourceIndex and childRef preserved; annotation mapped by the same f. Fin.castLE preserves every selected numeric frame value.",
+    "decodeEvent_map": "Rational decoding uses the unchanged signed Int numerator/denominator branch including failure.",
+    "decodeRows_map": "List induction transports ordered Option mapM; both event and tail failure branches are considered.",
+    "projectRows_map": "Frame-erased events and annotations are exactly equal through the map; child metadata retained.",
+    "rawRowsRun_map": "Unfolds only the accepted scalar projection and rewrites its list equality.",
+    "decoded_map_run": "Uses two accepted decoded_rows_run equalities. After rewriting, Option.some.inj gives old scalar result equals mapped result; symmetry matches the goal.",
+    "selected_conclusions": "Exact old centre source indices and arbitrary incoming scalar-state independence/zero-exit-centres are transported into Row1082 and ScalarEvent1082. No 256-row finite predicate is repeated."
+  },
+  "probes": [
+    "CurrentMain.FrameDomainTransport.decodeEvent_map",
+    "CurrentMain.FrameDomainTransport.decodeRows_map",
+    "CurrentMain.FrameDomainTransport.projectRows_map",
+    "CurrentMain.FrameDomainTransport.rawRowsRun_map",
+    "CurrentMain.FrameDomainTransport.decoded_map_run",
+    "CurrentMain.Current596CKCentre.embed_value",
+    "CurrentMain.Current596CKCentre.exact_source_indices",
+    "CurrentMain.Current596CKCentre.forward_run_eq",
+    "CurrentMain.Current596CKCentre.backward_run_eq",
+    "CurrentMain.Current596CKCentre.forward_independent",
+    "CurrentMain.Current596CKCentre.backward_independent",
+    "CurrentMain.Current596CKCentre.forward_interpreted",
+    "CurrentMain.Current596CKCentre.backward_interpreted"
+  ],
+  "scope_total_local": [
+    11,
+    10,
+    1
+  ],
+  "external_pairs": 2232,
+  "compiler_executed": false,
+  "remaining": [
+    "Current full prefix/suffix typed suppliers and all omitted adapters.",
+    "Current WellLabelled/key transport is bank\u2019s separate source proposal.",
+    "RecipesExact, interpreted frame chart choices, actual packed execution and expanded physical work endpoints.",
+    "Provider mixture, recurrence/profile validity and all-size/current-kappa theorem."
+  ],
+  "metadata_note": "SOURCE_SCOPE recorded generation terminal pending when frozen. The actual independent terminal is now pinned here; owner should bind it in the final gate metadata without altering the reviewed source."
+}

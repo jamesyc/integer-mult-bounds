@@ -1,0 +1,13 @@
+{
+  "status": "INDEPENDENT_GENERATION_TERMINAL_PASS",
+  "utc": "2026-10-12T17:43:40.731840+00:00",
+  "terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/hpe_generation_review/HPE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "77c0bec884dc2106f87572342f84afd35ab6e9f87ca2cd1f0262c728b500da4c"
+  },
+  "owner_result_sha256": "ea6a0d7ca9c06e5a2b2a257670ddb6636ec3ba68aadce6e689e7f1817e0abc76",
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "scope": "Exact four-stage CK HPE suffix artifacts and intrinsic checks, from accepted predecessor checkpoint. No full provider replay, global owner theorem or current kappa theorem.",
+  "released_artifacts": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current5996_ck_hpe_generation/output/ck-local",
+  "next": "Use the separately reviewed generic1079-to1082 label map and current source equality to transport the accepted centre and first33 facts without repeated finite decisions."
+}

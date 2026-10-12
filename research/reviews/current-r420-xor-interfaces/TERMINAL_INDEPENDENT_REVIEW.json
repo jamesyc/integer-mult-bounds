@@ -1,0 +1,122 @@
+{
+  "status": "PASS_INDEPENDENT_THIN_R420_XOR_TERMINAL",
+  "utc": "2026-10-12T17:42:47.214538+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/ACCEPTANCE.json",
+    "sha256": "caf6e250bee15c71e9903a52ff42e4c63e656bb7f0891ac2ec4feb8e9855d5e5",
+    "bytes": 371878
+  },
+  "source_commit": "40da70ad64597d8d1ecc2235405578630df6e140",
+  "new_quadruple": {
+    "module": "CurrentR420PhaseBXor",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_xor_interfaces_20261012/CurrentR420PhaseBXor.lean",
+      "sha256": "5ab8ca016e7e53de76b13ef553fe85412d7c9100b30851fa4a81c31ad77d1c11",
+      "bytes": 5712
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_xor_interfaces_20261012/CurrentR420PhaseBXor.olean",
+      "sha256": "edad72d67fa018eebd50c49b95c675e1b15331ceadf941c18d15555ac75ffc4d",
+      "bytes": 142928
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_xor_interfaces_20261012__CurrentR420PhaseBXor.lean.json",
+      "sha256": "8fc07e84d7b0d7403ac91110fdf524a40add9dc52a342b20a2b0e1334cc8bca0",
+      "bytes": 2853
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_xor_interfaces_20261012__CurrentR420PhaseBXor.lean.log",
+      "sha256": "d96c9158cdbefe5c9e4344af4b78b8a5db0e8a331c05e45e93112b7631a57550",
+      "bytes": 683
+    },
+    "dependencies": {
+      "CurrentR420BBandCheck": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.olean",
+        "olean_sha256": "cded4db11ad6df82ba2f189ebc76b8c9ef902399632e2be0cf911e94f584d226",
+        "source_sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41"
+      },
+      "BitXorTargetTranslation": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+        "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+        "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+      }
+    }
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-xor-interfaces/BAND_IMPORT_AMENDMENT_REVIEW.json",
+    "sha256": "9e1ca12bca658e01148dc7258d9781ef800dc8282ce6d15ea809798ac9e4b401",
+    "bytes": 3240
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/BANK_SINGLE_BINDING_REVIEW.json",
+    "sha256": "37d5fc476af142d8315e55976f65be2b439ff00ba7608bd462099ad858f803e4",
+    "bytes": 4891
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "3ffb06557133a7c2de6b73261b1de6c405418e109dba957d3f04d91191b800ef",
+    "bytes": 466972
+  },
+  "verified": {
+    "import_nodes": 326,
+    "official_source_object_pairs": 317,
+    "retained_local_quadruples": 8,
+    "new_local_quadruples": 1,
+    "protected_prior_quadruples": 37,
+    "failure_archives": 44,
+    "additional_source_pins": 244,
+    "complete_probes": 7
+  },
+  "probes": {
+    "CurrentMain.CurrentR420PhaseBXor.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420PhaseBXor.ordered_word_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420PhaseBXor.decoded_gate_properties": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420PhaseBXor.helpers_preserved": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420PhaseBXor.target_translation": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420PhaseBXor.target_identity": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentR420PhaseBXor.contribution_independent_of_targets": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "compiler_metrics": {
+    "compile_seconds": 0.8257196439953987,
+    "queue_seconds": 2.84152799299045,
+    "samples": 9,
+    "peak_vm_bytes": 857886720,
+    "peak_rss_bytes": 327081984,
+    "peak_threads": 4
+  },
+  "compiler_timing": {
+    "requested_utc": "2026-10-12T17:41:22.436620+00:00",
+    "slot_acquired_utc": "2026-10-12T17:41:25.278147+00:00",
+    "started_utc": "2026-10-12T17:41:26.240720+00:00",
+    "finished_utc": "2026-10-12T17:41:27.066443+00:00"
+  },
+  "scope": "Exact ordered Fin660 B XOR decoding, helper preservation, target translation and target-independent contribution. Source registers may change through597 middle writes; no physical or whole-word conclusion.",
+  "limitations": [
+    "six scatter/temp facts",
+    "actual A/C bindings and D parity",
+    "physical transport and full theorem"
+  ],
+  "historical_resource_context": "Fresh semantic adapter consumes the accepted finite bands without replaying their numerical predicates. No full-word or physical interpretation follows.",
+  "compiler_executed_by_reviewer": false
+}
