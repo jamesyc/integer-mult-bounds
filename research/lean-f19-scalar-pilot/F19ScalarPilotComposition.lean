@@ -45,11 +45,11 @@ theorem decoded_admissible (e : LabelEvent) (decoded : ScalarEvent)
   | scale t q =>
       by_cases hd : q.2 = 0 <;>
         simp_all [decodeEvent, decodeCoefficient, hd, LemmaG.Event.Admissible] <;>
-        subst decoded <;> rfl
+        subst decoded <;> exact True.intro
   | copy t s f =>
       simp_all [decodeEvent, LemmaG.Event.Admissible] <;> subst decoded <;> rfl
   | clear t f =>
-      simp_all [decodeEvent, LemmaG.Event.Admissible] <;> subst decoded <;> rfl
+      simp_all [decodeEvent, LemmaG.Event.Admissible] <;> subst decoded <;> exact True.intro
 
 section ScalarRun
 variable {M : Type*} [AddCommMonoid M] [Module ℚ M]
