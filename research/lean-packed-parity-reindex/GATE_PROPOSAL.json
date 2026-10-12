@@ -1,0 +1,31 @@
+{
+  "status": "SOURCE_PROPOSAL_NO_COMPILER_ADMISSION",
+  "direct_imports": [
+    "Current535PackedCoordinates",
+    "PR593Clifford"
+  ],
+  "scope": {
+    "total": 12,
+    "retained": 11,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "expected_probes": [
+    "CurrentMain.PackedParityReindex.parity_sum",
+    "CurrentMain.PackedParityReindex.packed_parity_dot",
+    "CurrentMain.PackedParityReindex.packed_parity_value"
+  ],
+  "finite_work": "Two private four-case Boolean facts; symbolic Nat recursion and all row/address variables. Reuses accepted par9_spec rather than recomputing it.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "remaining": [
+    "Nine-entry matrix/list assembly correspondence",
+    "Paired nine-entry strict-upper qvalue correspondence",
+    "Matrix inverse-read and monomial circuit composition",
+    "Raw selected executor/event identity and expanded work"
+  ]
+}
