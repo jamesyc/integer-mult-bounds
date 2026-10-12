@@ -3,19 +3,20 @@
   "utc": "2026-10-12T16:27:04.524527+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
-    "sha256": "7e89816d008a16078a5b41ecf753ca8da8fee04f4c19a4746089d85e87dbf7c4",
-    "bytes": 1227
+    "sha256": "a01484b91c52c7190782e5405f0289e5aa6406e1b5fc5f59753575fbb9b7ae71",
+    "bytes": 1319
   },
   "binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/SOURCE_BINDING.json",
-    "sha256": "e3f8b4f3e7cea8d4e26e7c41e6cfa723ccbb76bc42f02002327b92f83943e742",
-    "bytes": 8654
+    "sha256": "9fa13123ed200144cd61e908da863d02ced62976d89cc0115499f82d458229de",
+    "bytes": 9103
   },
   "roots": [
     "CurrentR420FrameIndexCheck"
   ],
   "explicit_imports": [
-    "CurrentR420BoundaryData"
+    "CurrentR420BoundaryData",
+    "Init.Data.List.Sort.Impl"
   ],
   "public_probes": [
     "CurrentMain.CurrentR420Boundary.selected_shape",
@@ -6336,8 +6337,13 @@
     "stop_on_first_failure_or_review": true,
     "automatic_retry": false
   },
-  "authority": "Root2026-10-12T16:25:16 approves source partition and only first3-fact322/321/1 diagnostic after independent partition/API/binding review.",
+  "authority": "Root2026-10-12T16:35:04 permits one ordinary proof-only repair after independent theorem-direction and binding review.",
   "next_owner": "/root/prove_main_signed_word",
   "stop": "First failure or review threshold; no automatic retry or cap increase. Measurement precedes decisions on remaining groups.",
-  "wrapper_plan": "Keep all27 original names/statements; original Check ultimately becomes import-only wrapper after all independent groups pass. No wrapper emitted now."
+  "wrapper_plan": "Keep all27 original names/statements; original Check ultimately becomes import-only wrapper after all independent groups pass. No wrapper emitted now.",
+  "proof_local_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "3b2e9949bb8c78eeebfa871d3fdfb829fd5895b458898d4561f590d2de1e244c",
+    "bytes": 2462
+  }
 }

@@ -1,4 +1,5 @@
 import CurrentR420BoundaryData
+import all Init.Data.List.Sort.Impl
 
 /-! Exact first three declarations from the preserved R420 domain Check.
 This bounded index diagnostic places each original axiom probe immediately
@@ -22,6 +23,7 @@ theorem line_shape :
 
 theorem frame_index_permutation :
     (frameOrder.map Fin.val).mergeSort (fun a b => decide (a ≤ b)) = List.range 672 := by
+  rw [List.MergeSort.Internal.mergeSort_eq_mergeSortTR]
   decide +kernel
 #print axioms CurrentMain.CurrentR420Boundary.frame_index_permutation
 
