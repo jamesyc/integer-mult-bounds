@@ -1,0 +1,59 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "04a66a41028ee3246ea51b2362eca6e869dfebc7",
+  "source_sha256": "c49504d84f93ce4b43fd62bf5445598bdd2b59244eb48c897246b85a26342ca3",
+  "object_sha256": "86ff90ab5bf603355defaa228c2f7dc3592022ae978fea99a8d2770ad1ec99d4",
+  "receipt_sha256": "2793efc05bdcf0957e8de2a51eb875167cae913c345a162b6459b0205d25425b",
+  "log_sha256": "99f04bd019d4dcc8ce696bf0d28055db8c010298c10b9aad11ccc11b809ba40f",
+  "acceptance_sha256": "907512489e4508cffca62cb7505030748f5aadb9aa2a56d33df16f2d3a468092",
+  "independent_terminal_review_sha256": "a26944a96d7f83cef7d0a2bd12091fcfa957ac74b0b0e036b3d70e3983868112",
+  "selected_source_commit": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "provider": "ck",
+  "ordinal": 0,
+  "key": [
+    0,
+    2,
+    1
+  ],
+  "ordered_descriptors": [
+    [],
+    [
+      459
+    ]
+  ],
+  "current_import_closure": 11,
+  "external_pairs": 2620,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current9594CKFirstRecipe.key_and_descriptors",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current9594CKFirstRecipe.left_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current9594CKFirstRecipe.right_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current9594CKFirstRecipe.selected_child_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 5.678354600007879,
+  "fifo_seconds": 0.0005348240083549172,
+  "peak_vm_bytes": 2441818112,
+  "claim": "Every raw field and ordered descriptor matches the accepted459 model, whose arbitrary-payload identity is reused unchanged.",
+  "remaining": [
+    "Selected Fin1079 event and rational coefficient decoding",
+    "Packed matrix/quadratic correspondence and actual physical executor",
+    "Expanded private-work endpoint and whole selected construction"
+  ],
+  "publication": "No publication authorized or performed."
+}
