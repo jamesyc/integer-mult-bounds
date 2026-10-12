@@ -1,0 +1,125 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_LITERAL_MODEL_API_REVIEW_NO_COMPILER",
+  "received_utc": "2026-10-12T14:44:09Z",
+  "review_started_utc": "2026-10-12T14:45:10Z",
+  "completed_utc": "2026-10-12T14:47:15.594673+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-centre-band/CurrentScalarCentreBand.lean",
+    "sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d",
+    "bytes": 37670
+  },
+  "source_scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-centre-band/SOURCE_SCOPE.json",
+    "sha256": "f48034ad4bd2075c7671c2a7a495389971285ed3eefa6f2c452bb42249f03ca8",
+    "bytes": 7794
+  },
+  "input_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "bytes": 184042
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710
+    }
+  ],
+  "literal_projection": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_centre_band_proposal/LITERAL_PROJECTION.json",
+    "sha256": "06f7bcb3d4d1eeb44a9a3ae26ae19b1a5e9c8099be17fd710ffb7536e8e2b506",
+    "bytes": 204694
+  },
+  "independent_inverse": {
+    "typed_rows_each": 256,
+    "total_typed_occurrences": 512,
+    "raw_inclusive": [
+      13762,
+      14017
+    ],
+    "raw_coefficients": "Exact signed numerator/denominator pairs, order, register tags, all997 frame IDs and retained directed ordinal/rank references match.",
+    "blocks": "Eight exact32-event bands per direction; each begins and ends by CLEAR of its own Ck; one rank8 centre relabel inside each.",
+    "histograms": {
+      "forward": {
+        "clear": 16,
+        "copy": 8,
+        "center": 8,
+        "add": 224
+      },
+      "backward": {
+        "clear": 16,
+        "add": 232,
+        "center": 8
+      }
+    }
+  },
+  "API_sources": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.lean",
+      "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+      "bytes": 7771
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_centre_band/F19CentreBandIndependence.lean",
+      "sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279",
+      "bytes": 35713
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.lean",
+      "sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0",
+      "bytes": 5497
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_pilot/F19ScalarPilotComposition.lean",
+      "sha256": "63fdeffaf0d1ead7571fb66074f75a0e49f593cea6891cc15c1caeb416d90c1e",
+      "bytes": 7108
+    }
+  ],
+  "model_findings": [
+    "Current Row n and ScalarEvent n remain parameterized over actual labels; projectRow is a scalar-only frame erasure, not a Fin997 injection into Fin983.",
+    "Relabel scalar action is identity. ADD/SCALE preserve raw signed coefficients and reject zero denominator; COPY overwrites arbitrary destination and CLEAR writes zero. The one-step theorem identifies these exact actions with current decoded Event.scal.",
+    "Ordered decodeRows/mapM transport follows event order and consumes the step equation. No generic conjugation or independence induction is reproved.",
+    "decoded_labels retains actual n-frame label action independently of the scalar-only erasure. No WellLabelled conclusion follows automatically.",
+    "bandCertificate examines safe scalar reads/denominators and known/zeroed flags; frame annotations and childRef fields have no role in that accepted semantic certificate.",
+    "certified_current_band directly instantiates accepted arbitrary-centre independence on projectRows. Its only initial-state premise is agreement on all728 L coordinates; no C cleanliness/restoration premise is inserted.",
+    "forward/backward interpreted conclusions eliminate existential raw outputs using exact decoder soundness, yielding full736 scalar equality and final zero C0..7.",
+    "The new256-row certificates are fresh literal instances; the historical264-row selected theorem and earlier frame0 first64 remain separate."
+  ],
+  "probes": [
+    "CurrentMain.CurrentScalarCentreBand.rows_decode",
+    "CurrentMain.CurrentScalarCentreBand.decoded_step",
+    "CurrentMain.CurrentScalarCentreBand.decoded_rows_run",
+    "CurrentMain.CurrentScalarCentreBand.decoded_labels",
+    "CurrentMain.CurrentScalarCentreBand.certified_current_band",
+    "CurrentMain.CurrentScalarCentreBand.forward_independent",
+    "CurrentMain.CurrentScalarCentreBand.forward_interpreted",
+    "CurrentMain.CurrentScalarCentreBand.backward_independent",
+    "CurrentMain.CurrentScalarCentreBand.backward_interpreted",
+    "CurrentMain.CurrentScalarCentreBand.exact_source_indices"
+  ],
+  "kernel_decisions": 6,
+  "proposed_scope": [
+    9,
+    8,
+    1
+  ],
+  "external_scope_note": "Owner proposes unchanged2232 pairs; exact runtime/current binding remains integration responsibility.",
+  "limits": [
+    "No current band label WellLabelled or rank8 centre recipe/physical realization is asserted by scalar erasure.",
+    "Current raw prefix/suffix typed suppliers and all omitted adapters/phase/residuals remain open.",
+    "No full22253-row execution, input chart, coefficient-work lifecycle, all-register physical row/column or multiplication theorem."
+  ],
+  "compiler_executed": false,
+  "supplier_execution": false,
+  "conditional_kappa": "Source provenance only; no multiplier/physical-cost theorem is claimed."
+}
