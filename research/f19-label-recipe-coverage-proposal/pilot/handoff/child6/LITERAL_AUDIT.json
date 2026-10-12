@@ -1,0 +1,2796 @@
+{
+  "status": "SOURCE_LITERAL_EMISSION_ONLY_NO_FINITE_CHECK",
+  "inputs": [
+    {
+      "bytes": 75113,
+      "path": "research/direct-delivery504-global/evidence/local/CANONICAL-WORD.json.gz",
+      "role": "decoder input",
+      "sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667"
+    },
+    {
+      "bytes": 187483,
+      "path": "research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "role": "decoder input",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6"
+    },
+    {
+      "bytes": 990631,
+      "path": "research/direct-delivery504-global/evidence/local/CLIFFORD-RECIPES.json",
+      "role": "decoder input",
+      "sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9"
+    }
+  ],
+  "decoder_sha256": "e8d6e0b36fe06d2df4ef6d3b7616614e921511dcb1b0902e7cb8a13162300bed",
+  "reused_decoder_sha256": "89be739f32fecd831140c33f9d85027c6b2d69c17b6efc57e6faed591bc84946",
+  "raw_rows": {
+    "forwardS": [
+      [
+        "climb",
+        "A",
+        488,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            488
+          ],
+          [
+            "L",
+            499
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        489,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            489
+          ],
+          [
+            "L",
+            499
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        498,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            498
+          ],
+          [
+            "L",
+            499
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        486,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            486
+          ],
+          [
+            "L",
+            501
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        487,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            487
+          ],
+          [
+            "L",
+            501
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        500,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            500
+          ],
+          [
+            "L",
+            501
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        536,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            536
+          ],
+          [
+            "L",
+            547
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        537,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            537
+          ],
+          [
+            "L",
+            547
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        546,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            546
+          ],
+          [
+            "L",
+            547
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        534,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            534
+          ],
+          [
+            "L",
+            549
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        535,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            535
+          ],
+          [
+            "L",
+            549
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        548,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            548
+          ],
+          [
+            "L",
+            549
+          ],
+          1,
+          1
+        ],
+        8
+      ]
+    ],
+    "backwardS": [
+      [
+        "climb",
+        "A",
+        488,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            499
+          ],
+          [
+            "L",
+            488
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        489,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            499
+          ],
+          [
+            "L",
+            489
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        498,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            499
+          ],
+          [
+            "L",
+            498
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        486,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            501
+          ],
+          [
+            "L",
+            486
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        487,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            501
+          ],
+          [
+            "L",
+            487
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        500,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            501
+          ],
+          [
+            "L",
+            500
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        536,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            547
+          ],
+          [
+            "L",
+            536
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        537,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            547
+          ],
+          [
+            "L",
+            537
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        546,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            547
+          ],
+          [
+            "L",
+            546
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        534,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            549
+          ],
+          [
+            "L",
+            534
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        535,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            549
+          ],
+          [
+            "L",
+            535
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        548,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            549
+          ],
+          [
+            "L",
+            548
+          ],
+          -1,
+          1
+        ],
+        8
+      ]
+    ],
+    "forwardT": [
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            534
+          ],
+          [
+            "L",
+            587
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            535
+          ],
+          [
+            "L",
+            587
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        586,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            586
+          ],
+          [
+            "L",
+            587
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            536
+          ],
+          [
+            "L",
+            589
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            537
+          ],
+          [
+            "L",
+            589
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            546
+          ],
+          [
+            "L",
+            589
+          ],
+          -4,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        588,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            588
+          ],
+          [
+            "L",
+            589
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            534
+          ],
+          [
+            "L",
+            598
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            548
+          ],
+          [
+            "L",
+            598
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            586
+          ],
+          [
+            "L",
+            598
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            535
+          ],
+          [
+            "L",
+            599
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            548
+          ],
+          [
+            "L",
+            599
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            586
+          ],
+          [
+            "L",
+            599
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            536
+          ],
+          [
+            "L",
+            600
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            546
+          ],
+          [
+            "L",
+            600
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            588
+          ],
+          [
+            "L",
+            600
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            537
+          ],
+          [
+            "L",
+            601
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            546
+          ],
+          [
+            "L",
+            601
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            588
+          ],
+          [
+            "L",
+            601
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        656,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            656
+          ],
+          [
+            "L",
+            659
+          ],
+          -1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        657,
+        0,
+        8,
+        1
+      ]
+    ],
+    "backwardT": [
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            587
+          ],
+          [
+            "L",
+            534
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            587
+          ],
+          [
+            "L",
+            535
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        586,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            587
+          ],
+          [
+            "L",
+            586
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            589
+          ],
+          [
+            "L",
+            536
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            589
+          ],
+          [
+            "L",
+            537
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            589
+          ],
+          [
+            "L",
+            546
+          ],
+          4,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        588,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            589
+          ],
+          [
+            "L",
+            588
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            598
+          ],
+          [
+            "L",
+            534
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            598
+          ],
+          [
+            "L",
+            548
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            598
+          ],
+          [
+            "L",
+            586
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            599
+          ],
+          [
+            "L",
+            535
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            599
+          ],
+          [
+            "L",
+            548
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            599
+          ],
+          [
+            "L",
+            586
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            600
+          ],
+          [
+            "L",
+            536
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            600
+          ],
+          [
+            "L",
+            546
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            600
+          ],
+          [
+            "L",
+            588
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            601
+          ],
+          [
+            "L",
+            537
+          ],
+          -2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            601
+          ],
+          [
+            "L",
+            546
+          ],
+          2,
+          1
+        ],
+        8
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            601
+          ],
+          [
+            "L",
+            588
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        656,
+        0,
+        8,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            659
+          ],
+          [
+            "L",
+            656
+          ],
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        "climb",
+        "A",
+        657,
+        0,
+        8,
+        1
+      ]
+    ]
+  },
+  "typed_rows": {
+    "forwardS": [
+      {
+        "sourceIndex": 11546,
+        "event": [
+          "relabel",
+          488,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11547,
+        "event": [
+          "add",
+          488,
+          499,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11548,
+        "event": [
+          "relabel",
+          489,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11549,
+        "event": [
+          "add",
+          489,
+          499,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11550,
+        "event": [
+          "relabel",
+          498,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11551,
+        "event": [
+          "add",
+          498,
+          499,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11552,
+        "event": [
+          "relabel",
+          486,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11553,
+        "event": [
+          "add",
+          486,
+          501,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11554,
+        "event": [
+          "relabel",
+          487,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11555,
+        "event": [
+          "add",
+          487,
+          501,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11556,
+        "event": [
+          "relabel",
+          500,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11557,
+        "event": [
+          "add",
+          500,
+          501,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11558,
+        "event": [
+          "relabel",
+          536,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11559,
+        "event": [
+          "add",
+          536,
+          547,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11560,
+        "event": [
+          "relabel",
+          537,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11561,
+        "event": [
+          "add",
+          537,
+          547,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11562,
+        "event": [
+          "relabel",
+          546,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11563,
+        "event": [
+          "add",
+          546,
+          547,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11564,
+        "event": [
+          "relabel",
+          534,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11565,
+        "event": [
+          "add",
+          534,
+          549,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11566,
+        "event": [
+          "relabel",
+          535,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11567,
+        "event": [
+          "add",
+          535,
+          549,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11568,
+        "event": [
+          "relabel",
+          548,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11569,
+        "event": [
+          "add",
+          548,
+          549,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      }
+    ],
+    "backwardS": [
+      {
+        "sourceIndex": 11546,
+        "event": [
+          "relabel",
+          488,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11547,
+        "event": [
+          "add",
+          499,
+          488,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11548,
+        "event": [
+          "relabel",
+          489,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11549,
+        "event": [
+          "add",
+          499,
+          489,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11550,
+        "event": [
+          "relabel",
+          498,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11551,
+        "event": [
+          "add",
+          499,
+          498,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11552,
+        "event": [
+          "relabel",
+          486,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11553,
+        "event": [
+          "add",
+          501,
+          486,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11554,
+        "event": [
+          "relabel",
+          487,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11555,
+        "event": [
+          "add",
+          501,
+          487,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11556,
+        "event": [
+          "relabel",
+          500,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11557,
+        "event": [
+          "add",
+          501,
+          500,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11558,
+        "event": [
+          "relabel",
+          536,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11559,
+        "event": [
+          "add",
+          547,
+          536,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11560,
+        "event": [
+          "relabel",
+          537,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11561,
+        "event": [
+          "add",
+          547,
+          537,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11562,
+        "event": [
+          "relabel",
+          546,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11563,
+        "event": [
+          "add",
+          547,
+          546,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11564,
+        "event": [
+          "relabel",
+          534,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11565,
+        "event": [
+          "add",
+          549,
+          534,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11566,
+        "event": [
+          "relabel",
+          535,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11567,
+        "event": [
+          "add",
+          549,
+          535,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11568,
+        "event": [
+          "relabel",
+          548,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11569,
+        "event": [
+          "add",
+          549,
+          548,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      }
+    ],
+    "forwardT": [
+      {
+        "sourceIndex": 11570,
+        "event": [
+          "add",
+          534,
+          587,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11571,
+        "event": [
+          "add",
+          535,
+          587,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11572,
+        "event": [
+          "relabel",
+          586,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11573,
+        "event": [
+          "add",
+          586,
+          587,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11574,
+        "event": [
+          "add",
+          536,
+          589,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11575,
+        "event": [
+          "add",
+          537,
+          589,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11576,
+        "event": [
+          "add",
+          546,
+          589,
+          [
+            -4,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11577,
+        "event": [
+          "relabel",
+          588,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11578,
+        "event": [
+          "add",
+          588,
+          589,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11579,
+        "event": [
+          "add",
+          534,
+          598,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11580,
+        "event": [
+          "add",
+          548,
+          598,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11581,
+        "event": [
+          "add",
+          586,
+          598,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11582,
+        "event": [
+          "add",
+          535,
+          599,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11583,
+        "event": [
+          "add",
+          548,
+          599,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11584,
+        "event": [
+          "add",
+          586,
+          599,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11585,
+        "event": [
+          "add",
+          536,
+          600,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11586,
+        "event": [
+          "add",
+          546,
+          600,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11587,
+        "event": [
+          "add",
+          588,
+          600,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11588,
+        "event": [
+          "add",
+          537,
+          601,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11589,
+        "event": [
+          "add",
+          546,
+          601,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11590,
+        "event": [
+          "add",
+          588,
+          601,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11591,
+        "event": [
+          "relabel",
+          656,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11592,
+        "event": [
+          "add",
+          656,
+          659,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11593,
+        "event": [
+          "relabel",
+          657,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      }
+    ],
+    "backwardT": [
+      {
+        "sourceIndex": 11570,
+        "event": [
+          "add",
+          587,
+          534,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11571,
+        "event": [
+          "add",
+          587,
+          535,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11572,
+        "event": [
+          "relabel",
+          586,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11573,
+        "event": [
+          "add",
+          587,
+          586,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11574,
+        "event": [
+          "add",
+          589,
+          536,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11575,
+        "event": [
+          "add",
+          589,
+          537,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11576,
+        "event": [
+          "add",
+          589,
+          546,
+          [
+            4,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11577,
+        "event": [
+          "relabel",
+          588,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11578,
+        "event": [
+          "add",
+          589,
+          588,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11579,
+        "event": [
+          "add",
+          598,
+          534,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11580,
+        "event": [
+          "add",
+          598,
+          548,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11581,
+        "event": [
+          "add",
+          598,
+          586,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11582,
+        "event": [
+          "add",
+          599,
+          535,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11583,
+        "event": [
+          "add",
+          599,
+          548,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11584,
+        "event": [
+          "add",
+          599,
+          586,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11585,
+        "event": [
+          "add",
+          600,
+          536,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11586,
+        "event": [
+          "add",
+          600,
+          546,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11587,
+        "event": [
+          "add",
+          600,
+          588,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11588,
+        "event": [
+          "add",
+          601,
+          537,
+          [
+            -2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11589,
+        "event": [
+          "add",
+          601,
+          546,
+          [
+            2,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11590,
+        "event": [
+          "add",
+          601,
+          588,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11591,
+        "event": [
+          "relabel",
+          656,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 11592,
+        "event": [
+          "add",
+          659,
+          656,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 8,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 11593,
+        "event": [
+          "relabel",
+          657,
+          0,
+          8
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          6,
+          1
+        ]
+      }
+    ]
+  },
+  "branch_counts": {
+    "forwardS": {
+      "relabel": 12,
+      "add": 12
+    },
+    "backwardS": {
+      "relabel": 12,
+      "add": 12
+    },
+    "forwardT": {
+      "add": 20,
+      "relabel": 4
+    },
+    "backwardT": {
+      "add": 20,
+      "relabel": 4
+    }
+  },
+  "checkpoint_proposals": {
+    "new719_to8": [
+      488,
+      489,
+      498,
+      486,
+      487,
+      500,
+      536,
+      537,
+      546,
+      534,
+      535,
+      548
+    ],
+    "new743_to8": [
+      586,
+      588,
+      656,
+      657
+    ]
+  },
+  "raw_range_inclusive": [
+    11546,
+    11593
+  ],
+  "no_omitted_rows_in_this_range": true,
+  "child_key": {
+    "ordinal": 6,
+    "old": 0,
+    "new": 8,
+    "rank": 1,
+    "record_normalized_sha256": "4ce471cef6b3ba5e7771c639f5ea12fec5ac0ea9307971194a99e353beaf9fff"
+  },
+  "data_source_sha256": "66ec60cdea46074cb23cbdc473c08b20f65690802d5f1090b7d9a95c4ace2dcf",
+  "data_source_bytes": 5944,
+  "elapsed_seconds": 0.19468825399962952,
+  "maxrss_bytes": 46325760,
+  "limits": {
+    "CPU_seconds": 20,
+    "AS_bytes": 536870912,
+    "wall_seconds": 30
+  },
+  "upstream_execution": false,
+  "accepted_predicate_replay": false
+}

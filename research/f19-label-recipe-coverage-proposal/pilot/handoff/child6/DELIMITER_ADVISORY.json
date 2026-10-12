@@ -1,0 +1,40 @@
+{
+  "helper": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668",
+    "bytes": 5111
+  },
+  "results": [
+    {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 5944,
+      "source_sha256": "66ec60cdea46074cb23cbdc473c08b20f65690802d5f1090b7d9a95c4ace2dcf",
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/F19CoverageChild6Data.lean",
+      "elapsed_seconds": 0.002307022994500585,
+      "max_source_bytes": 1048576
+    },
+    {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 15168,
+      "source_sha256": "7762f2df75dd9f3e84a8d76e20c9efdc570abc6fc7ac61775b715dc698cf3969",
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/F19CoverageChild6Check.lean",
+      "elapsed_seconds": 0.008426243999565486,
+      "max_source_bytes": 1048576
+    }
+  ],
+  "advisory_only": true
+}

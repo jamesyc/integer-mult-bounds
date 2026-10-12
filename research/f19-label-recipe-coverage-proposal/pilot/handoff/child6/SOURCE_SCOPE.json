@@ -1,0 +1,114 @@
+{
+  "status": "SOURCE_FROZEN_SCIENCE_REVIEW_READY_TERMINAL695_AND_BINDING_PENDING",
+  "utc": "2026-10-12T13:32:27.665982+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/F19CoverageChild6Data.lean",
+      "sha256": "66ec60cdea46074cb23cbdc473c08b20f65690802d5f1090b7d9a95c4ace2dcf",
+      "bytes": 5944
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/F19CoverageChild6Check.lean",
+      "sha256": "7762f2df75dd9f3e84a8d76e20c9efdc570abc6fc7ac61775b715dc698cf3969",
+      "bytes": 15168
+    }
+  ],
+  "literal_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/LITERAL_AUDIT.json",
+    "sha256": "d2b847ee7659696e4651c0203a21272cb00d5e070275c2c0e0b95af2b073d490",
+    "bytes": 41485
+  },
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/decode_child6.py",
+    "sha256": "e8d6e0b36fe06d2df4ef6d3b7616614e921511dcb1b0902e7cb8a13162300bed",
+    "bytes": 4073
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/handoff/child6/DELIMITER_ADVISORY.json",
+    "sha256": "54aa45d157dc951a0c68ad83923218b6e5e890af906757ed99b965b0aa45515e",
+    "bytes": 1626
+  },
+  "prior_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_static_gap/ACCEPTANCE.json",
+    "sha256": "17d8084553c1a5bad525b78380b86e8b4c3885f6161e36ddd10cffba4e41103e",
+    "bytes": 92256
+  },
+  "prospective_local_scope": [
+    28,
+    26,
+    2
+  ],
+  "raw_indices": [
+    11546,
+    11593
+  ],
+  "chunks": {
+    "S": {
+      "rows": 24,
+      "add": 12,
+      "relabel": 12,
+      "support": [
+        488,
+        489,
+        498,
+        486,
+        487,
+        500,
+        536,
+        537,
+        546,
+        534,
+        535,
+        548
+      ]
+    },
+    "T": {
+      "rows": 24,
+      "add": 20,
+      "relabel": 4,
+      "support": [
+        586,
+        588,
+        656,
+        657
+      ]
+    }
+  },
+  "child": {
+    "ordinal": 6,
+    "key": [
+      0,
+      8,
+      1
+    ]
+  },
+  "checkpoints": [
+    719,
+    743
+  ],
+  "retained_prefix": 695,
+  "proposed_final_counts_each": {
+    "add": 633,
+    "relabel": 110
+  },
+  "proof_shape": "Unchanged synchronous two-block factored-check, constant8 sparse checkpoint and ordered append template;695 accepted prefix consumed as theorems. No new algorithm/import library.",
+  "probe_count": 38,
+  "excluded": [
+    "Earlier omitted prefix/adapters",
+    "Centre/scalar/full-payload/physical operator claims",
+    "Child6 operator correctness and all rows after11593",
+    "Global fit/throughput claims"
+  ],
+  "resource_plan": {
+    "maximum_fresh_jobs": 2,
+    "hard_seconds": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_VM_bytes": 3758096384,
+    "serial": true,
+    "async": false,
+    "stop": "First failure or review event; retain accepted roots.",
+    "baseline": "The earlier child5 packet had12/2-label supports and a11.3328s final check; static-gap previous root22.5385s/2173255680VM. Neither predicts this larger retained-import closure.",
+    "success": "Both roots below review,38 complete probes, exact48-row branch exercise and743-row composed full-label boundary."
+  }
+}
