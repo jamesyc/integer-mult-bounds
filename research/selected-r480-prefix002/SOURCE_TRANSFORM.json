@@ -1,0 +1,68 @@
+{
+  "reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-ac-boundary/SelectedR480ACCheck.lean",
+    "sha256": "fe0c9e6aa97bde85a2741bd93a0c3eb01ec24398cbad85b4759e4e942a16f01e",
+    "bytes": 8695
+  },
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix002/SelectedR480Prefix002Check.lean",
+    "sha256": "a1d909be12695819623d8c3b7b70eab17ddc9fc3d54041055a310ef5e44caa9c",
+    "bytes": 8317
+  },
+  "ordered_changes": [
+    {
+      "before": "import SelectedR480ACData",
+      "after": "import SelectedR480Prefix002Data"
+    },
+    {
+      "before": "/-! A bounded current-source A/C inverse certificate. Only the last20 A gates\nand first20 C gates are present. Frame IDs are retained by the ordered binding;\nscalarization is used explicitly for their different metadata. The conclusion\nis Boolean scalar inversion for arbitrary720 bits, with conditional off-target\ncleanup across any target-only middle map. It is not the full2708-gate A/C\ninstance, D compensation, frame transport or a complete multiplier theorem. -/",
+      "after": "/-! A bounded current-source unchanged-prefix A/C inverse certificate.\nOnly A[256:384] and C[2324:2452] are present, with 128 gates and 149 operands\nin each direction. Frame IDs are retained by exact ordered binding; scalarization\nhandles their different metadata. The conclusion is Boolean scalar inversion\nfor arbitrary 720 bits and conditional cleanup across a target-only middle map.\nOther prefix chunks, D compensation, physical transport and the full word remain open. -/"
+    },
+    {
+      "before": "SelectedR480ACBoundary",
+      "after": "SelectedR480Prefix002",
+      "count": 19
+    },
+    {
+      "before": "phaseATail",
+      "after": "phaseA",
+      "count": 17
+    },
+    {
+      "before": "phaseCHead",
+      "after": "phaseC",
+      "count": 8
+    },
+    {
+      "before": "phaseA.length = 20 \u2227 phaseC.length = 20 \u2227",
+      "after": "phaseA.length = 128 \u2227 phaseC.length = 128 \u2227"
+    },
+    {
+      "before": "(phaseA.map (fun g => g.2.2.length)).foldl Nat.add 0 = 445",
+      "after": "(phaseA.map (fun g => g.2.2.length)).foldl Nat.add 0 = 149"
+    },
+    {
+      "before": "(phaseC.map (fun g => g.2.2.length)).foldl Nat.add 0 = 445",
+      "after": "(phaseC.map (fun g => g.2.2.length)).foldl Nat.add 0 = 149"
+    },
+    {
+      "before": "(phaseA.map (fun g => g.2.2.length)).foldl Nat.max 0 = 54",
+      "after": "(phaseA.map (fun g => g.2.2.length)).foldl Nat.max 0 = 2"
+    },
+    {
+      "before": "/-- All nine changed retained-total hosts occur in their exact source order. -/\ntheorem changed_hosts_binding :\n    (phaseA.drop 11).map (fun g => g.2.1) = SelectedR480Boundary.Data.ret := by\n  decide +kernel\n\n",
+      "after": ""
+    },
+    {
+      "before": "/-- The exact isolated20+20 scalar word cancels on arbitrary720-bit state. -/",
+      "after": "/-- The exact isolated 128+128 scalar word cancels on arbitrary 720-bit state. -/"
+    },
+    {
+      "before": "#print axioms CurrentMain.SelectedR480Prefix002.changed_hosts_binding\n",
+      "after": ""
+    }
+  ],
+  "structural_proof_suffix_exact": true,
+  "all_finite_literals_inverted": true,
+  "raw_order_preserved": true
+}
