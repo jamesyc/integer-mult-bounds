@@ -1,0 +1,86 @@
+{
+  "status": "PROPOSED_SOURCE_REVIEW_REQUIRED_BEFORE_BOUNDED_ADMISSION",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-ac-boundary/SOURCE_BINDING.json",
+    "sha256": "f18cd966b102bef0ff93f8e2fc1b8d2c6af9238347c129de49ae7982e32fd899",
+    "bytes": 19079
+  },
+  "ordered_roots": [
+    "SelectedR480ACData",
+    "SelectedR480ACCheck"
+  ],
+  "ordered_local_closure": [
+    "SelectedBitCarrierBoundaryData",
+    "SelectedBitCarrierBoundaryCheck",
+    "SelectedBitCarrierPhaseBData",
+    "SelectedBitCarrierPhaseBCheck",
+    "SelectedR480Boundary",
+    "SelectedR480ACData",
+    "BitXorTargetTranslation",
+    "BitXorReversal",
+    "SelectedR480ACCheck"
+  ],
+  "local_scope": [
+    9,
+    7,
+    2
+  ],
+  "official_core_count": 317,
+  "total_scope": [
+    326,
+    324,
+    2
+  ],
+  "sources": [
+    {
+      "module": "SelectedR480ACData",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-ac-boundary/SelectedR480ACData.lean",
+      "sha256": "1f02830934d41c3abce9c2eab41b23ab37a7cf653f28c626c89300c0ee22732b",
+      "bytes": 5398,
+      "explicit_imports": [
+        "SelectedR480Boundary"
+      ],
+      "public_probes": []
+    },
+    {
+      "module": "SelectedR480ACCheck",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-ac-boundary/SelectedR480ACCheck.lean",
+      "sha256": "ac1c2464caed42e02ecdda4c36b7c7ceb456fba0ed19fe113e769fcca3983fd0",
+      "bytes": 8687,
+      "explicit_imports": [
+        "SelectedR480ACData",
+        "BitXorReversal"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480ACBoundary.block_shape",
+        "CurrentMain.SelectedR480ACBoundary.changed_hosts_binding",
+        "CurrentMain.SelectedR480ACBoundary.raw_domains",
+        "CurrentMain.SelectedR480ACBoundary.raw_cleanup_binding",
+        "CurrentMain.SelectedR480ACBoundary.no_self_reads",
+        "CurrentMain.SelectedR480ACBoundary.no_target_reads",
+        "CurrentMain.SelectedR480ACBoundary.no_target_writes",
+        "CurrentMain.SelectedR480ACBoundary.decode_roundtrip",
+        "CurrentMain.SelectedR480ACBoundary.ordered_A_binding",
+        "CurrentMain.SelectedR480ACBoundary.ordered_C_binding",
+        "CurrentMain.SelectedR480ACBoundary.decoded_no_self_reads",
+        "CurrentMain.SelectedR480ACBoundary.decoded_no_target_reads",
+        "CurrentMain.SelectedR480ACBoundary.decoded_no_target_writes",
+        "CurrentMain.SelectedR480ACBoundary.cleanup_runs_reverse",
+        "CurrentMain.SelectedR480ACBoundary.isolated_block_inverse",
+        "CurrentMain.SelectedR480ACBoundary.conditional_off_target_cleanup",
+        "CurrentMain.SelectedR480ACBoundary.conditional_target_value"
+      ]
+    }
+  ],
+  "probe_count": 17,
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "all_twelve_prior_roots_preserved": true
+}
