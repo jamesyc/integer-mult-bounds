@@ -1,0 +1,57 @@
+{
+  "status": "ROOT_AUTHORIZED_SYMBOLIC_SOURCE_PROPOSAL_NO_COMPILER",
+  "utc": "2026-10-12T15:50:16.173357+00:00",
+  "authority": "Root2026-10-12T15:46:59UTC: prepare symbolic cumulative append/reversal composition lemma as independent next work; no cumulative coverage claim before checked join.",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/bit-xor-chunk-composition/BitXorChunkComposition.lean",
+    "sha256": "90054ae1caf1a90ec0a194558bb9194b6e575c90715d9fa2b0b9c397cb82057d",
+    "bytes": 5255
+  },
+  "direct_imports": [
+    "BitXorReversal"
+  ],
+  "reused_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/bit-xor-reversal/BitXorReversal.lean",
+    "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+    "bytes": 6073
+  },
+  "probes": [
+    "CurrentMain.BitXorChunkComposition.scalarized_reverse_append",
+    "CurrentMain.BitXorChunkComposition.run_of_reverse_binding",
+    "CurrentMain.BitXorChunkComposition.append_inverse",
+    "CurrentMain.BitXorChunkComposition.append_cleanup_off_target",
+    "CurrentMain.BitXorChunkComposition.append_cleanup_target_value"
+  ],
+  "scope": {
+    "local": [
+      3,
+      2,
+      1
+    ],
+    "official_core": 317,
+    "all": [
+      320,
+      319,
+      1
+    ]
+  },
+  "proof_reuse": [
+    "List.map_append/List.reverse_append and membership splitting only.",
+    "Accepted run_scalarize, run_reverse_cancel, cleanup_off_target and cleanup_target_value. No new Boolean gate involution proof."
+  ],
+  "semantic_boundary": [
+    "Cleanup order is cb then ca for forward a then b. Operand order and multiplicity remain untouched.",
+    "Arbitrary initial Reg\u2192Bool state. Middle-map preservation outside target is explicit; no target contribution vanishing.",
+    "All selected raw-word partitions and cumulative domain premises remain outside this generic module."
+  ],
+  "later_source_join_plan": "Use a balanced binary tree of exact decoded child lists, combining their frame-erased reversal bindings and membership facts. Bind concatenated raw slices to the exact source order externally and via list-map append identities; no full by-decide literal replay.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "stop_first_failure_or_review": true
+  },
+  "resource_status": "Small proof-only source; exact current/runtime and separate bounded admission remain required.",
+  "compiler_admitted": false
+}
