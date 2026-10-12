@@ -1,0 +1,202 @@
+{
+  "status": "PASS_DRY_GUARD_AND_SYNTHETIC_NEGATIVES",
+  "utc": "2026-10-12T17:25:23.735798+00:00",
+  "seconds": 0.5952861620025942,
+  "driver_sha256": "73b44351bb110ef02653e52dad023811f1323bd81bcb201c1f0980878875dbe6",
+  "plan_sha256": "d1f0c6a8cea2980a84786488c44fb0dc950059cd781340a10508ee7f58e7c570",
+  "dry_guard": {
+    "utc": "2026-10-12T17:25:23.257648+00:00",
+    "status": "PASS_FIXED_SOURCE_RUNTIME_GUARD",
+    "head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+    "driver_sha256": "73b44351bb110ef02653e52dad023811f1323bd81bcb201c1f0980878875dbe6",
+    "plan_sha256": "d1f0c6a8cea2980a84786488c44fb0dc950059cd781340a10508ee7f58e7c570",
+    "input_inventory_sha256": "c4f7afee2dcfdd33e3e7444bcca025a8ac5b5c493d905e1933de23cfd91716da",
+    "pinned_files": 16,
+    "resolved_custom_modules": [
+      {
+        "module": "clifford_exact",
+        "origin": "/workspace/shared/integer-mult-git/checks/main-5996f90-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford/clifford_exact.py"
+      }
+    ],
+    "runtime_startup": {
+      "sys_path": [
+        "/usr/lib/python313.zip",
+        "/usr/lib/python3.13",
+        "/usr/lib/python3.13/lib-dynload",
+        "/usr/local/lib/python3.13/dist-packages",
+        "/usr/lib/python3/dist-packages"
+      ],
+      "observed_stdlib_origins": {
+        "_collections_abc": "/usr/lib/python3.13/_collections_abc.py",
+        "_compression": "/usr/lib/python3.13/_compression.py",
+        "_decimal": "/usr/lib/python3.13/lib-dynload/_decimal.cpython-313-x86_64-linux-gnu.so",
+        "_frozen_importlib": "/usr/lib/python3.13/importlib/_bootstrap.py",
+        "_frozen_importlib_external": "/usr/lib/python3.13/importlib/_bootstrap_external.py",
+        "_hashlib": "/usr/lib/python3.13/lib-dynload/_hashlib.cpython-313-x86_64-linux-gnu.so",
+        "_opcode_metadata": "/usr/lib/python3.13/_opcode_metadata.py",
+        "_sitebuiltins": "/usr/lib/python3.13/_sitebuiltins.py",
+        "_weakrefset": "/usr/lib/python3.13/_weakrefset.py",
+        "abc": "/usr/lib/python3.13/abc.py",
+        "argparse": "/usr/lib/python3.13/argparse.py",
+        "ast": "/usr/lib/python3.13/ast.py",
+        "codecs": "/usr/lib/python3.13/codecs.py",
+        "collections": "/usr/lib/python3.13/collections/__init__.py",
+        "collections.abc": "/usr/lib/python3.13/_collections_abc.py",
+        "contextlib": "/usr/lib/python3.13/contextlib.py",
+        "copy": "/usr/lib/python3.13/copy.py",
+        "copyreg": "/usr/lib/python3.13/copyreg.py",
+        "dataclasses": "/usr/lib/python3.13/dataclasses.py",
+        "decimal": "/usr/lib/python3.13/decimal.py",
+        "dis": "/usr/lib/python3.13/dis.py",
+        "encodings": "/usr/lib/python3.13/encodings/__init__.py",
+        "encodings.aliases": "/usr/lib/python3.13/encodings/aliases.py",
+        "encodings.utf_8": "/usr/lib/python3.13/encodings/utf_8.py",
+        "encodings.utf_8_sig": "/usr/lib/python3.13/encodings/utf_8_sig.py",
+        "enum": "/usr/lib/python3.13/enum.py",
+        "fnmatch": "/usr/lib/python3.13/fnmatch.py",
+        "fractions": "/usr/lib/python3.13/fractions.py",
+        "functools": "/usr/lib/python3.13/functools.py",
+        "genericpath": "/usr/lib/python3.13/genericpath.py",
+        "gettext": "/usr/lib/python3.13/gettext.py",
+        "glob": "/usr/lib/python3.13/glob.py",
+        "gzip": "/usr/lib/python3.13/gzip.py",
+        "hashlib": "/usr/lib/python3.13/hashlib.py",
+        "importlib": "/usr/lib/python3.13/importlib/__init__.py",
+        "importlib._abc": "/usr/lib/python3.13/importlib/_abc.py",
+        "importlib._bootstrap": "/usr/lib/python3.13/importlib/_bootstrap.py",
+        "importlib._bootstrap_external": "/usr/lib/python3.13/importlib/_bootstrap_external.py",
+        "importlib.machinery": "/usr/lib/python3.13/importlib/machinery.py",
+        "importlib.util": "/usr/lib/python3.13/importlib/util.py",
+        "inspect": "/usr/lib/python3.13/inspect.py",
+        "io": "/usr/lib/python3.13/io.py",
+        "json": "/usr/lib/python3.13/json/__init__.py",
+        "json.decoder": "/usr/lib/python3.13/json/decoder.py",
+        "json.encoder": "/usr/lib/python3.13/json/encoder.py",
+        "json.scanner": "/usr/lib/python3.13/json/scanner.py",
+        "keyword": "/usr/lib/python3.13/keyword.py",
+        "linecache": "/usr/lib/python3.13/linecache.py",
+        "ntpath": "/usr/lib/python3.13/ntpath.py",
+        "numbers": "/usr/lib/python3.13/numbers.py",
+        "opcode": "/usr/lib/python3.13/opcode.py",
+        "operator": "/usr/lib/python3.13/operator.py",
+        "os": "/usr/lib/python3.13/os.py",
+        "os.path": "/usr/lib/python3.13/posixpath.py",
+        "pathlib": "/usr/lib/python3.13/pathlib/__init__.py",
+        "pathlib._abc": "/usr/lib/python3.13/pathlib/_abc.py",
+        "pathlib._local": "/usr/lib/python3.13/pathlib/_local.py",
+        "posixpath": "/usr/lib/python3.13/posixpath.py",
+        "re": "/usr/lib/python3.13/re/__init__.py",
+        "re._casefix": "/usr/lib/python3.13/re/_casefix.py",
+        "re._compiler": "/usr/lib/python3.13/re/_compiler.py",
+        "re._constants": "/usr/lib/python3.13/re/_constants.py",
+        "re._parser": "/usr/lib/python3.13/re/_parser.py",
+        "reprlib": "/usr/lib/python3.13/reprlib.py",
+        "runpy": "/usr/lib/python3.13/runpy.py",
+        "site": "/usr/lib/python3.13/site.py",
+        "sitecustomize": "/usr/lib/python3.13/sitecustomize.py",
+        "stat": "/usr/lib/python3.13/stat.py",
+        "struct": "/usr/lib/python3.13/struct.py",
+        "token": "/usr/lib/python3.13/token.py",
+        "tokenize": "/usr/lib/python3.13/tokenize.py",
+        "types": "/usr/lib/python3.13/types.py",
+        "warnings": "/usr/lib/python3.13/warnings.py",
+        "weakref": "/usr/lib/python3.13/weakref.py",
+        "zipimport": "/usr/lib/python3.13/zipimport.py"
+      },
+      "absent_hooks": {
+        "apport_python_hook": true,
+        "usercustomize": true
+      },
+      "system_site_startup": true,
+      "upstream_modules_imported": false
+    },
+    "output_absent_required": true,
+    "source_execution": false
+  },
+  "checks": [
+    {
+      "name": "mutated retained checkpoint hash in fresh guard",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "missing retained checkpoint in fresh guard",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "mutated source bytes",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "missing source",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "mutated expected content digest",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "symlink source",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "duplicate JSON key",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "synthetic process-group review stop and cleanup",
+      "status": "PASS",
+      "process": {
+        "cpu_user_seconds": 0.004130999999999996,
+        "cpu_system_seconds": 0.011354000000000003,
+        "cpu_scope": "RUSAGE_CHILDREN delta for waited child and its accounted descendants",
+        "started_utc": "2026-10-12T17:25:23.387415+00:00",
+        "finished_utc": "2026-10-12T17:25:23.595806+00:00",
+        "seconds": 0.2084133229946019,
+        "pid": 77,
+        "exit_code": -9,
+        "stop_reason": "REVIEW_JOB_WALL",
+        "samples": 3,
+        "process_peaks": {
+          "77": {
+            "vm_peak_bytes": 14823424,
+            "rss_peak_bytes": 6090752,
+            "threads": 1
+          },
+          "78": {
+            "vm_peak_bytes": 14823424,
+            "rss_peak_bytes": 3239936,
+            "threads": 1
+          }
+        },
+        "peak_group_rss_bytes": 9330688,
+        "max_sum_vmpeaks_bytes": 29646848,
+        "aggregate_memory_cap_claimed": false,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "argv": [
+          "/usr/bin/python3.13",
+          "-I",
+          "-B",
+          "-c",
+          "import os,time; p=os.fork(); time.sleep(20)"
+        ]
+      }
+    },
+    {
+      "name": "owner SIGTERM cleanup before lock release",
+      "status": "PASS",
+      "owner_exit": 143,
+      "child_group": 80,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "owner SIGHUP cleanup before lock release",
+      "status": "PASS",
+      "owner_exit": 129,
+      "child_group": 83,
+      "stderr_bytes": 0
+    }
+  ],
+  "supplier_processes_executed": 0,
+  "generation_output_absent": true,
+  "limits": "Synthetic process validates kill/cleanup only; no observed supplier time/memory or full semantic artifact acceptance."
+}
