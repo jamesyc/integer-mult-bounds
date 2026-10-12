@@ -302,8 +302,8 @@
   "new_root": {
     "module": "SelectedOuterSlackCertificate",
     "path": "research/lean-selected-outer-slacks/SelectedOuterSlackCertificate.lean",
-    "sha256": "faf9c2f02e7d9c35ab63e755142b4ef36f291ebc20f46d7522f21dcc2558e518",
-    "bytes": 87663,
+    "sha256": "c768ad287ec0f92929bfdf0245caac4e005bcdf50a100c26f25330dbed6109ed",
+    "bytes": 87425,
     "explicit_imports": [
       "SelectedBootstrapCertificate"
     ],
@@ -333,9 +333,15 @@
   "private_parameter_certificates": 19,
   "private_margin_certificates": 7,
   "private_slack_certificates": 47,
-  "kernel_decision_sites": 81,
+  "kernel_decision_sites": 67,
   "proof_decomposition": "19 parameter equalities,7 margins and47 named slack equalities are closed separately. Public ordered-list equality reuses them; Bool.all discharges finite positivity, transported by installed List.all_eq_true. No large conjunction synthesis or unchecked arithmetic oracle.",
   "resource_assessment": "Same319cached objects/85527032bytes. More scalar facts than bootstrap, but separated bounded kernel reductions. Runtime fit remains unmeasured; no recursion/synthesis/cap expansion.",
-  "initial_parent": "db5c6d99cc7878af3d3dd1399752c48c07ca7658",
-  "source_binding_sha256": "f25f144deb2b8f1f9e5a4bbd86132922cb2c816b74ee85b471c89f52ebc2accd"
+  "initial_parent": "8bd9bdbee61df255551025356eb4a1d9564f4ae4",
+  "source_binding_sha256": "caac851727e72f955dc1918eb30da8626d4c1e9d5aba80839b9270f285e561e7",
+  "proof_repair": {
+    "audit_sha256": "5f403c865a2b8acd97fb362eced0f2cde9fd5c6d1a8a1319e3a5d9a65274ae9c",
+    "initial_source_sha256": "faf9c2f02e7d9c35ab63e755142b4ef36f291ebc20f46d7522f21dcc2558e518",
+    "change": "Delete exactly14 redundant decide +kernel endings at measured no-goal diagnostics. Preceding rw steps already close these alias equalities.",
+    "same_scientific_expressions": true
+  }
 }

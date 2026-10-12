@@ -3,8 +3,8 @@
   "source": {
     "module": "SelectedOuterSlackCertificate",
     "path": "research/lean-selected-outer-slacks/SelectedOuterSlackCertificate.lean",
-    "sha256": "faf9c2f02e7d9c35ab63e755142b4ef36f291ebc20f46d7522f21dcc2558e518",
-    "bytes": 87663,
+    "sha256": "c768ad287ec0f92929bfdf0245caac4e005bcdf50a100c26f25330dbed6109ed",
+    "bytes": 87425,
     "explicit_imports": [
       "SelectedBootstrapCertificate"
     ],
@@ -547,5 +547,11 @@
     "No log/exp analytic enclosure or complete multiplier/kappa theorem",
     "No physical caller, Plan/Budget, all-size compiler/precision/tape/analytic transfer",
     "No malformed-parameter controls from assemble.py:37-40"
-  ]
+  ],
+  "proof_repair": {
+    "audit_sha256": "5f403c865a2b8acd97fb362eced0f2cde9fd5c6d1a8a1319e3a5d9a65274ae9c",
+    "initial_source_sha256": "faf9c2f02e7d9c35ab63e755142b4ef36f291ebc20f46d7522f21dcc2558e518",
+    "change": "Delete exactly14 redundant decide +kernel endings at measured no-goal diagnostics. Preceding rw steps already close these alias equalities.",
+    "same_scientific_expressions": true
+  }
 }
