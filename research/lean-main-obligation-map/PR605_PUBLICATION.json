@@ -1,0 +1,38 @@
+{
+  "status": "PUBLISHED_DRAFT_INDEPENDENTLY_FETCHED_BY_ROOT",
+  "recorded_utc": "2026-10-12T17:52:45.626008+00:00",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/605",
+  "created_utc": "2026-10-12T17:50:45Z",
+  "independent_fetch_observed_utc": "2026-10-12T17:51:00Z",
+  "independent_fetch_time_precision": "Minute as reported by root",
+  "user_notified_utc": "2026-10-12T17:51:45Z",
+  "head": "d676cf35234943613d7208719e7d96f7500fdfcf",
+  "base": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "title": "[Lean] Prove the pinned PR588 native Real moment bound",
+  "draft": true,
+  "maintainer_edits": false,
+  "body_bytes": 3349,
+  "body_sha256": "141b1bcac7663f2c24540de029656b6ab9c7bdf5d7cd7fc72fe76fd3478f2e2d",
+  "package_files": 22,
+  "package_bytes": 405658,
+  "source_context": "Historical PR588 at main9594, author-checked kappa400569730495803/250000000000000000; current-main5996 context16127213726553/10^16 is separate.",
+  "root_verified": [
+    "Exact head/base/body",
+    "Existing Mac/fork/account identity",
+    "Actual remote leases and duplicate checks",
+    "All seven advertised refs match normal non-force pushes"
+  ],
+  "evidence_source": "Root publication notification received2026-10-12T17:52:05Z; root owns exact-head CI monitoring.",
+  "ci": "No new CI outcome claimed here.",
+  "pace": {
+    "public_replay_started_utc": "2026-10-12T17:28:38.824747+00:00",
+    "public_replay_finished_utc": "2026-10-12T17:31:01.867458+00:00",
+    "owner_result_utc": "2026-10-12T17:32:30.527775+00:00",
+    "independent_terminal_utc": "2026-10-12T17:33:37.979745+00:00",
+    "library_ready_utc": "2026-10-12T17:45:41.776077+00:00",
+    "final_handoff_sent_utc": "2026-10-12T17:47:38Z",
+    "published_utc": "2026-10-12T17:50:45Z",
+    "user_notified_utc": "2026-10-12T17:51:45Z",
+    "measurement_qualification": "Transfer staging began before final handoff; intervals are observed end-to-end stages, not pure transfer or controlled research speedup."
+  }
+}
