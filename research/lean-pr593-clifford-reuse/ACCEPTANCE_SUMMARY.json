@@ -1,0 +1,41 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENTLY_REVIEWED",
+  "utc": "2026-10-12T16:49:10.828882+00:00",
+  "upstream_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+  "upstream_blob": "5970d81439b8bca2935a935d964779845a45057c",
+  "source_commit": "113336b382bb12b47157e8ab594b0c2802bade32",
+  "owner_sha256": "2ec7ca87d7e7419194df98fbec0bc79cd154f4f55477afde4e4ee7820ded35f6",
+  "independent_terminal_sha256": "07f5d716a38dc6436257161a8124a76a2d6bef83e0dd8f095fbbe29c8e240193",
+  "scope": [
+    2,
+    2,
+    0
+  ],
+  "cached_pairs": 2501,
+  "probes": 10,
+  "measurements": [
+    {
+      "module": "PR593Clifford",
+      "source_sha256": "c0c51407b4fa6ff230a79d5f3b07c83b7d1c4b433ce03513f0c4fb725bf3cbe1",
+      "object_sha256": "422091cd724dae7faa3217f19d607fe32f98867142d4221711c083d7639cd5de",
+      "receipt_sha256": "d6ce65a68851077dad6ddde9d106970348f5cfbf5eb1802282acf155c4e4ba51",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compiler_seconds": 17.62883821799187,
+      "peak_vm_bytes": 3647053824
+    },
+    {
+      "module": "PR593CliffordGenericProbes",
+      "source_sha256": "d456c1ef380a4c2305ea78ec46436a6152ed6b9d7c13854c1b83e615bc3e95f8",
+      "object_sha256": "72da7bd6f4a1953e38c398ecfcc292fec578d4a721110ad2900bf28cb6c1617e",
+      "receipt_sha256": "1a1dc67f31a2fae3eb04a32e64e7004ae9dd2101019dcf15081b3812d5c867c3",
+      "log_sha256": "606700c85718c0151911e23370857c17fe9dad3835e1ed4897473eede64145d5",
+      "compiler_seconds": 5.281041801004903,
+      "peak_vm_bytes": 2373287936
+    }
+  ],
+  "exclusions": [
+    "Exact.lean and its finite pair certificates are not imported.",
+    "Gate cOk, bounded masks/list widths and chosen modulus hypotheses remain in the upstream statements.",
+    "No raw-nine-bit/selected source record, packed Gaussian adapter, physical executor, endpoint hstart or all-size conclusion is supplied by this result."
+  ]
+}
