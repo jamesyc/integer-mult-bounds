@@ -1,0 +1,14 @@
+{
+  "status": "INDEPENDENT_TERMINAL_PASS",
+  "utc": "2026-10-12T18:13:57.604887+00:00",
+  "terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_CK_FIRST33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "10cb6ed3ef6792275eb39de8c418676476929a04dd2ec86d496d0691d05e3d30"
+  },
+  "owner_acceptance_sha256": "cdd81ea84c709c10033ed29d93b4926af5d95faf8203280d148f534f683715b5",
+  "source_sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+  "scope": "Current5996 Fin1082 first33 exact24/9 declared-label and decoded relabel-key transport. No finite predicate replay; pre-A execution and physical executor remain open.",
+  "new_kernel_checks": 1,
+  "attempts": 2,
+  "accepted_prefix_replays": 0
+}
