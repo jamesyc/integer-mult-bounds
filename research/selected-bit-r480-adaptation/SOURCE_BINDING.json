@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_ONLY_R480_PARAMETER_ADAPTATION_FROZEN_FOR_REVIEW",
+  "status": "ONE_SITE_ATTRIBUTE_REPAIR_SUPERSEDES_INITIAL_SOURCE_ONLY_PACKET",
   "created_utc": "2026-10-12T13:43:07.255218+00:00",
   "snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
   "raw_source_bindings": [
@@ -103,8 +103,8 @@
     },
     {
       "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-r480-adaptation/SelectedR480ScatterLifecycle.lean",
-      "sha256": "ee69555af6f0434007695f4759cecd68c797e434430312ca7c294249e7671489",
-      "bytes": 7354,
+      "sha256": "b5f1907adb29a5ef6d4c8b83dfed9c26ed09779fc619a4c1e65361d82cba57b4",
+      "bytes": 7341,
       "imports": [
         "SelectedR480PhaseBXor",
         "BitCopyScatterWindow"
@@ -330,6 +330,99 @@
           "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
         }
       }
+    },
+    {
+      "module": "SelectedR480Boundary",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_adaptation/SelectedR480Boundary.lean",
+        "sha256": "505e5d4572888c7bd43d6547486ec64483d57887f7e7996589a4f43b0e60b481",
+        "bytes": 5177
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_adaptation/SelectedR480Boundary.olean",
+        "sha256": "79ab317f581040d590dbcd4c024c1d95070c5fd470ad03637d096eb9ae4d4438",
+        "bytes": 93840
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_r480_adaptation__SelectedR480Boundary.lean.json",
+        "sha256": "6a9ffc5ce9d5d4ef32ef7ea9bb46d0fe4783792ac26b850f19974d8f61978cd3",
+        "bytes": 2414
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_r480_adaptation__SelectedR480Boundary.lean.log",
+        "sha256": "0482b4e2c61a22ec9aa11de31015ed928e158f28990598dde52fd1c618141bd0",
+        "bytes": 1387
+      },
+      "dependencies": {
+        "SelectedBitCarrierPhaseBCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_phase_b/SelectedBitCarrierPhaseBCheck.olean",
+          "olean_sha256": "bc4b9e84f755d822b891324016f709dd4a2fdf867cb2656dc96c967984c6b938",
+          "source_sha256": "28aa20de385887812008bd300d494a030c318b330fc6b8f95fc03e3847cd01d4"
+        }
+      },
+      "public_probes": [
+        "CurrentMain.SelectedR480Boundary.selected_shape",
+        "CurrentMain.SelectedR480Boundary.line_shape",
+        "CurrentMain.SelectedR480Boundary.frame_domain",
+        "CurrentMain.SelectedR480Boundary.boundary_domain",
+        "CurrentMain.SelectedR480Boundary.zero_full_rows",
+        "CurrentMain.SelectedR480Boundary.source_entrances",
+        "CurrentMain.SelectedR480Boundary.nonsource_entrances",
+        "CurrentMain.SelectedR480Boundary.source_helper_final_full",
+        "CurrentMain.SelectedR480Boundary.retained_helper_ids",
+        "CurrentMain.SelectedR480Boundary.phase_shape",
+        "CurrentMain.SelectedR480Boundary.phase_domains",
+        "CurrentMain.SelectedR480Boundary.target_destinations",
+        "CurrentMain.SelectedR480Boundary.no_target_operands",
+        "CurrentMain.SelectedR480Boundary.no_self_reads",
+        "CurrentMain.SelectedR480Boundary.scatter_shape",
+        "CurrentMain.SelectedR480Boundary.scatter_index_domain",
+        "CurrentMain.SelectedR480Boundary.scatter_helpers"
+      ]
+    },
+    {
+      "module": "SelectedR480PhaseBXor",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_adaptation/SelectedR480PhaseBXor.lean",
+        "sha256": "94582eb91bfc9cebbf2fa892f3b8bb633c9b92c729d1f6a78079a77f7fa3239a",
+        "bytes": 5006
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_adaptation/SelectedR480PhaseBXor.olean",
+        "sha256": "e930c3df5fc93048c918df7fde760362200f9b4f460405904c53130f8d15db3a",
+        "bytes": 126712
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__selected_r480_adaptation__SelectedR480PhaseBXor.lean.json",
+        "sha256": "19e47e58608b3053c31576384654cfebb90035d9ff8886eca1c82ddcdbdb70b5",
+        "bytes": 2802
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__selected_r480_adaptation__SelectedR480PhaseBXor.lean.log",
+        "sha256": "a75d32300eebe46499c8ebd6770089f90465eb5bd04de35a0f871253c37758a4",
+        "bytes": 698
+      },
+      "dependencies": {
+        "SelectedR480Boundary": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_r480_adaptation/SelectedR480Boundary.olean",
+          "olean_sha256": "79ab317f581040d590dbcd4c024c1d95070c5fd470ad03637d096eb9ae4d4438",
+          "source_sha256": "505e5d4572888c7bd43d6547486ec64483d57887f7e7996589a4f43b0e60b481"
+        },
+        "BitXorTargetTranslation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+          "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+          "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        }
+      },
+      "public_probes": [
+        "CurrentMain.SelectedR480PhaseBXor.decode_roundtrip",
+        "CurrentMain.SelectedR480PhaseBXor.ordered_word_binding",
+        "CurrentMain.SelectedR480PhaseBXor.decoded_gate_properties",
+        "CurrentMain.SelectedR480PhaseBXor.sources_helpers_preserved",
+        "CurrentMain.SelectedR480PhaseBXor.target_translation",
+        "CurrentMain.SelectedR480PhaseBXor.target_identity",
+        "CurrentMain.SelectedR480PhaseBXor.contribution_independent_of_targets"
+      ]
     }
   ],
   "all_eight_prior_selected_quadruples_preserved": [
@@ -648,5 +741,17 @@
     "Restoration of an arbitrary dirty temporary",
     "Full selected multiplier bound and all-size theorem"
   ],
-  "external_lookup_defaults": false
+  "external_lookup_defaults": false,
+  "updated_utc": "2026-10-12T13:57:37.631534+00:00",
+  "source_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_adaptation/alias_attribute_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "e8fda037fe53935132ed578f55837dd995d3a1cd7000a42e1d6899126c9a02cf",
+    "bytes": 8955
+  },
+  "preserved_initial_binding": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_adaptation/alias_attribute_repair/failed_preimage/SOURCE_BINDING.json",
+    "sha256": "8a0e92f7f773faf5d641fe3d76ada1984d8e33b98dcfa1f205fe2847115faf52",
+    "bytes": 35619
+  },
+  "initial_raw_evidence_qualification": "Raw readback/script and ordered parameter transform describe the initial38af21d9 packet. The sole subsequent attribute removal is pinned by source_repair; raw expressions and all proof statements/bodies are unchanged."
 }

@@ -38,7 +38,7 @@ have no repeated indices, recorded separately without permuting the word. -/
 theorem source_rows_no_duplicates : Data.scatter.all (fun row => decide row.Nodup) = true := by
   decide +kernel
 
-attribute [local irreducible] rawWindows Data.scatter
+attribute [local irreducible] rawWindows
 
 private theorem raw_properties (w : RawWindow) (hw : w ∈ rawWindows) :
     (240 ≤ w.1 ∧ w.1 < 720) ∧ ∀ d ∈ w.2, 120 ≤ d ∧ d < 240 := by
