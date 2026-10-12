@@ -67,6 +67,7 @@ theorem permutation_reindex (rows inverseRows : List Nat)
   funext a
   obtain ⟨x, rfl⟩ := addressEquiv.surjective a
   simp only [payload_apply, pack_unpack, CliffordMonomialDecoder.push_apply]
+  simp only [LinearEquiv.coe_symm_toEquiv, coordinateEquiv_symm_apply]
   change v (HyperplaneEnd.Clifford.fx 512 (mv inverseRows x.val)) =
     v (pack (matrix inverseRows *ᵥ unpack x))
   rw [← packed_matrix inverseRows hi x, pack_unpack]
