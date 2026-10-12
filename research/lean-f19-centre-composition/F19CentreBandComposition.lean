@@ -137,14 +137,14 @@ theorem lonly_suffix_zero (rows : List Row) (hl : LOnlyRows rows)
 
 /-- Conditional whole projected-word independence around a certified band.
 No equality of a projected word with the full raw physical program is assumed. -/
-theorem sandwich_independent (prefix band suffix : List Row)
-    (hp : LOnlyRows prefix) (hb : bandCertificate band = true)
+theorem sandwich_independent (pre band suffix : List Row)
+    (hp : LOnlyRows pre) (hb : bandCertificate band = true)
     (hs : LOnlyRows suffix) (h h' : Register → M)
     (hL : ∀ r, r.val < 728 → h r = h' r) :
-    ∃ out, rawRowsRun ((prefix ++ band) ++ suffix) h = some out ∧
-      rawRowsRun ((prefix ++ band) ++ suffix) h' = some out ∧
+    ∃ out, rawRowsRun ((pre ++ band) ++ suffix) h = some out ∧
+      rawRowsRun ((pre ++ band) ++ suffix) h' = some out ∧
       (∀ k : Fin 8, out (centre k) = 0) := by
-  obtain ⟨p, p', hrp, hrp', he⟩ := lonly_prefix_agreement prefix hp h h' hL
+  obtain ⟨p, p', hrp, hrp', he⟩ := lonly_prefix_agreement pre hp h h' hL
   obtain ⟨b, b', hrb, hrb', hbb, hzero⟩ := certified_band_independent band hb p p' he
   subst b'
   obtain ⟨out, hrs, hz⟩ := lonly_suffix_zero suffix hs b hzero
@@ -153,21 +153,21 @@ theorem sandwich_independent (prefix band suffix : List Row)
   · simp only [rawRowsRun_append, hrp', Option.bind_some, hrb', hrs]
 
 /-- Exact selected forward centre band; actual prefix/suffix suppliers remain premises. -/
-theorem selected_forward_sandwich (prefix suffix : List Row)
-    (hp : LOnlyRows prefix) (hs : LOnlyRows suffix)
+theorem selected_forward_sandwich (pre suffix : List Row)
+    (hp : LOnlyRows pre) (hs : LOnlyRows suffix)
     (h h' : Register → M) (hL : ∀ r, r.val < 728 → h r = h' r) :
-    ∃ out, rawRowsRun ((prefix ++ forward) ++ suffix) h = some out ∧
-      rawRowsRun ((prefix ++ forward) ++ suffix) h' = some out ∧
+    ∃ out, rawRowsRun ((pre ++ forward) ++ suffix) h = some out ∧
+      rawRowsRun ((pre ++ forward) ++ suffix) h' = some out ∧
       (∀ k : Fin 8, out (centre k) = 0) :=
-  sandwich_independent prefix forward suffix hp forward_checked hs h h' hL
+  sandwich_independent pre forward suffix hp forward_checked hs h h' hL
 
-theorem selected_backward_sandwich (prefix suffix : List Row)
-    (hp : LOnlyRows prefix) (hs : LOnlyRows suffix)
+theorem selected_backward_sandwich (pre suffix : List Row)
+    (hp : LOnlyRows pre) (hs : LOnlyRows suffix)
     (h h' : Register → M) (hL : ∀ r, r.val < 728 → h r = h' r) :
-    ∃ out, rawRowsRun ((prefix ++ backward) ++ suffix) h = some out ∧
-      rawRowsRun ((prefix ++ backward) ++ suffix) h' = some out ∧
+    ∃ out, rawRowsRun ((pre ++ backward) ++ suffix) h = some out ∧
+      rawRowsRun ((pre ++ backward) ++ suffix) h' = some out ∧
       (∀ k : Fin 8, out (centre k) = 0) :=
-  sandwich_independent prefix backward suffix hp backward_checked hs h h' hL
+  sandwich_independent pre backward suffix hp backward_checked hs h h' hL
 end Semantics
 end CurrentMain.F19CentreComposition
 
