@@ -1,0 +1,57 @@
+{
+  "status": "SOURCE_ONLY_PENDING_KEY_SUPPLIER_TERMINAL_AND_INDEPENDENT_REVIEW",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-first45-recipes/Current535First45Recipes.lean",
+    "sha256": "b7aea236e8ffd5c95c65ee01b64512a46fcd466920793a32f0646743bac49a80",
+    "bytes": 6057
+  },
+  "direct_imports": [
+    "Current535First45KeyRestriction",
+    "Current535Child002Canonical"
+  ],
+  "prospective_local_scope": {
+    "total": 23,
+    "retained": 22,
+    "new": 1
+  },
+  "external_pairs": 2620,
+  "new_external_pairs": 0,
+  "expected_probes": [
+    "CurrentMain.Current535First45Recipes.frameTwo_apply",
+    "CurrentMain.Current535First45Recipes.recipe02_exact",
+    "CurrentMain.Current535First45Recipes.recipes_exact",
+    "CurrentMain.Current535First45Recipes.keyed_block",
+    "CurrentMain.Current535First45Recipes.selected_forward_A",
+    "CurrentMain.Current535First45Recipes.selected_forward_B",
+    "CurrentMain.Current535First45Recipes.selected_backward_A",
+    "CurrentMain.Current535First45Recipes.selected_backward_B"
+  ],
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "work": "No finite witness decision or new induction; restrictScalars, accepted recipe equality, relabel-key substitution and PR509 conj'.",
+  "source_binding": {
+    "snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
+    "catalog_sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+    "record_ordinal": 0,
+    "key": [
+      0,
+      2,
+      1
+    ],
+    "descriptor": [
+      459
+    ],
+    "normalized_record_sha256": "1c3baf4a4a5fee2faf4bdd8e3a3f1e8294bfe7fa40403506a03fef4d331b49a0"
+  },
+  "remaining": [
+    "Bank key supplier terminal acceptance before admission.",
+    "Caller chart0/chart2 identifications.",
+    "Actual packed/physical executor equality to the interpreted Event program.",
+    "Expanded private work and complete physical endpoint/row/column/cost suppliers."
+  ],
+  "publication": "No publication admission or author-checked kappa for this proposal."
+}
