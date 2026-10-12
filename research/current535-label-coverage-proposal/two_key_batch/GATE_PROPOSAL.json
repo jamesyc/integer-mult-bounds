@@ -1,0 +1,636 @@
+{
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/new_main_binding/pr509_reuse/SOURCE_IMPORT_FOOTPRINT_V2.json",
+    "sha256": "8ab51a655fff02741615eb04281d62a1e18236f773d8bc2c5b599bfddc929b1c",
+    "bytes": 2386951
+  },
+  "runtime_pins": {
+    "binary": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/bin/lean",
+      "sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "bytes": 8992
+    },
+    "runner": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/tools/lean_check.py",
+      "sha256": "b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207",
+      "bytes": 9277
+    },
+    "environment_file": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/LIBRARY_PATHS.env",
+      "sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b",
+      "bytes": 1104
+    },
+    "runtime_manifest": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/RUNTIME_MANIFEST.json",
+      "sha256": "ab464201c227220435a5f886c70b547d5456da32d5d526b4be077667957724cf",
+      "bytes": 4012
+    }
+  },
+  "external_library_paths": [
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/Qq/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/aesop/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/plausible/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_VM_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_VM_bytes": 3758096384,
+    "serial_client": true,
+    "shared_slots_used": 1,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "status": "SOURCE_FROZEN_CURRENT_TWO_KEY_BATCH_BINDING_REQUIRED",
+  "local_scope": {
+    "modules": 8,
+    "current": 6,
+    "pending": 2
+  },
+  "ordered_pending_roots": [
+    "Current535TwoKeyData",
+    "Current535TwoKeyCheck"
+  ],
+  "pending_sources": [
+    {
+      "module": "Current535TwoKeyData",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/two_key_batch/Current535TwoKeyData.lean",
+        "sha256": "5a2716bb8c48fbd691b0cd03457cfc5e2e1be126c49f2e86922a42de74aa43fc",
+        "bytes": 11069
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyData.lean",
+      "imports": [
+        "Current535Child003Check"
+      ],
+      "source_object_receipt_log_absent": true
+    },
+    {
+      "module": "Current535TwoKeyCheck",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/two_key_batch/Current535TwoKeyCheck.lean",
+        "sha256": "9eef1b649e1dad07b2ee26ff44ce9973f236f2f771af69bf1772b2ba6100ef54",
+        "bytes": 25721
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyCheck.lean",
+      "imports": [
+        "Current535TwoKeyData"
+      ],
+      "source_object_receipt_log_absent": true
+    }
+  ],
+  "preserved_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      },
+      "historical_execution_seconds": 6.246807060999345,
+      "historical_queue_seconds": 0.0005243800005700905,
+      "historical_peak_vm_bytes": 3301388288
+    },
+    {
+      "module": "CanonicalFrameCoverage",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.lean",
+        "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+        "bytes": 7771
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+        "sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+        "bytes": 480976
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_coverage45__CanonicalFrameCoverage.lean.json",
+        "sha256": "2996d62427134b270c29ab14853e503cec09ca467b0c34b08f02562991b0cc6d",
+        "bytes": 3515
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_coverage45__CanonicalFrameCoverage.lean.log",
+        "sha256": "8b48ab447b66e61bae4f3e1306ab6743722dc7691f55445d4a8f0d0c54a05bf2",
+        "bytes": 708
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "Current535CoverageData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageData.lean",
+        "sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2",
+        "bytes": 75035
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageData.olean",
+        "sha256": "538b54cf9551929102fcb1b45aa19a6e274fcf2ee3969a0b73bfbb0095b7e3f9",
+        "bytes": 6829544
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_coverage45__Current535CoverageData.lean.json",
+        "sha256": "26593815670e2fdb474df1ea163f338ae794b43e33b833c0890751ee4a7d8e6c",
+        "bytes": 3542
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_coverage45__Current535CoverageData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "CanonicalFrameCoverage": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+          "olean_sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+          "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+        }
+      }
+    },
+    {
+      "module": "Current535CoverageCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.lean",
+        "sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61",
+        "bytes": 10366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.olean",
+        "sha256": "eb2e8670748aebc79aaf11bfc10b024bc712182d17ac67ab6723b0405695f5fa",
+        "bytes": 89232
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_coverage45__Current535CoverageCheck.lean.json",
+        "sha256": "738ede8b9b25532e83814917c96423bfb27ed84e40ea7c1cd70625b43d026a99",
+        "bytes": 3547
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_coverage45__Current535CoverageCheck.lean.log",
+        "sha256": "04fa90dfad2080145a97d59088ef513a93e9390e851abe0f4e732624a0f36dec",
+        "bytes": 3839
+      },
+      "receipt_dependencies": {
+        "Current535CoverageData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageData.olean",
+          "olean_sha256": "538b54cf9551929102fcb1b45aa19a6e274fcf2ee3969a0b73bfbb0095b7e3f9",
+          "source_sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2"
+        }
+      }
+    },
+    {
+      "module": "Current535Child003Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Data.lean",
+        "sha256": "f27e814ff9c910eab44b4ebc3f63594feda813a648fdf2a667172cfcfff56d50",
+        "bytes": 5707
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Data.olean",
+        "sha256": "9724e1f09b716c32a7ab1b25b250a683246b9424a6d68c1b9018a305a25b558d",
+        "bytes": 320240
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_child003__Current535Child003Data.lean.json",
+        "sha256": "773958dac459b200ef54f91528084f99a3662dbaf696470e6dfaae4c85bc3a6e",
+        "bytes": 3532
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_child003__Current535Child003Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current535CoverageCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.olean",
+          "olean_sha256": "eb2e8670748aebc79aaf11bfc10b024bc712182d17ac67ab6723b0405695f5fa",
+          "source_sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+        }
+      }
+    },
+    {
+      "module": "Current535Child003Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Check.lean",
+        "sha256": "a3c891309d556436a6397934527d2615bbb2050daf9a50c95dd64d8b9d67509c",
+        "bytes": 12346
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Check.olean",
+        "sha256": "8e0b20a25def403e427596caa3bd2b64efc65c89a19d449d95935bded69111da",
+        "bytes": 96712
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_child003__Current535Child003Check.lean.json",
+        "sha256": "51b13beeee3a047b4c6eb207494d61686105c3d1a413a039843d979d65580a3b",
+        "bytes": 3534
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_child003__Current535Child003Check.lean.log",
+        "sha256": "bc28bfc5eb807684ec4c046d22ed5359fd53aa54cf84a1feccb34e72d46a0385",
+        "bytes": 4167
+      },
+      "receipt_dependencies": {
+        "Current535Child003Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Data.olean",
+          "olean_sha256": "9724e1f09b716c32a7ab1b25b250a683246b9424a6d68c1b9018a305a25b558d",
+          "source_sha256": "f27e814ff9c910eab44b4ebc3f63594feda813a648fdf2a667172cfcfff56d50"
+        }
+      }
+    }
+  ],
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_two_key/SOURCE_CURRENT_INVENTORY.json",
+    "sha256": "8616eb92a926f8a7d209d2734c7e0c07d51e2bb6060b1ebbe5188cf3aa118cf3",
+    "bytes": 14549
+  },
+  "expected_probes": {
+    "Current535TwoKeyData": [],
+    "Current535TwoKeyCheck": [
+      "CurrentMain.Current535TwoKeyCheck.exact_E_source_indices",
+      "CurrentMain.Current535TwoKeyCheck.exact_F_source_indices",
+      "CurrentMain.Current535TwoKeyCheck.exact_G_source_indices",
+      "CurrentMain.Current535TwoKeyCheck.exact_H_source_indices",
+      "CurrentMain.Current535TwoKeyCheck.forward_E_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_E_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_E_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_E_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.forward_support114",
+      "CurrentMain.Current535TwoKeyCheck.forward_touched114",
+      "CurrentMain.Current535TwoKeyCheck.forward_checkpoint114",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_wellLabelled114",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_checkpoint114",
+      "CurrentMain.Current535TwoKeyCheck.forward_F_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_F_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_F_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_F_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.forward_support135",
+      "CurrentMain.Current535TwoKeyCheck.forward_touched135",
+      "CurrentMain.Current535TwoKeyCheck.forward_checkpoint135",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_wellLabelled135",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_checkpoint135",
+      "CurrentMain.Current535TwoKeyCheck.forward_G_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_G_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_G_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_G_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.forward_support159",
+      "CurrentMain.Current535TwoKeyCheck.forward_touched159",
+      "CurrentMain.Current535TwoKeyCheck.forward_checkpoint159",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_wellLabelled159",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_checkpoint159",
+      "CurrentMain.Current535TwoKeyCheck.forward_H_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_H_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_H_checked",
+      "CurrentMain.Current535TwoKeyCheck.forward_H_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.forward_support180",
+      "CurrentMain.Current535TwoKeyCheck.forward_touched180",
+      "CurrentMain.Current535TwoKeyCheck.forward_checkpoint180",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_wellLabelled180",
+      "CurrentMain.Current535TwoKeyCheck.forward_composed_checkpoint180",
+      "CurrentMain.Current535TwoKeyCheck.backward_E_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_E_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_E_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_E_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.backward_support114",
+      "CurrentMain.Current535TwoKeyCheck.backward_touched114",
+      "CurrentMain.Current535TwoKeyCheck.backward_checkpoint114",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_wellLabelled114",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_checkpoint114",
+      "CurrentMain.Current535TwoKeyCheck.backward_F_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_F_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_F_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_F_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.backward_support135",
+      "CurrentMain.Current535TwoKeyCheck.backward_touched135",
+      "CurrentMain.Current535TwoKeyCheck.backward_checkpoint135",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_wellLabelled135",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_checkpoint135",
+      "CurrentMain.Current535TwoKeyCheck.backward_G_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_G_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_G_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_G_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.backward_support159",
+      "CurrentMain.Current535TwoKeyCheck.backward_touched159",
+      "CurrentMain.Current535TwoKeyCheck.backward_checkpoint159",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_wellLabelled159",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_checkpoint159",
+      "CurrentMain.Current535TwoKeyCheck.backward_H_labels_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_H_children_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_H_checked",
+      "CurrentMain.Current535TwoKeyCheck.backward_H_wellLabelled",
+      "CurrentMain.Current535TwoKeyCheck.backward_support180",
+      "CurrentMain.Current535TwoKeyCheck.backward_touched180",
+      "CurrentMain.Current535TwoKeyCheck.backward_checkpoint180",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_wellLabelled180",
+      "CurrentMain.Current535TwoKeyCheck.backward_composed_checkpoint180"
+    ]
+  },
+  "source_provenance": {
+    "CURRENT_SOURCE_BOUNDARY_PROPOSAL.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/CURRENT_SOURCE_BOUNDARY_PROPOSAL.json",
+      "sha256": "958e3b946773df23fc467c10389ff73a27c5c25f4dd476aad0d61bb03b9e3611",
+      "bytes": 7385
+    },
+    "SOURCE_SCOPE.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/two_key_batch/SOURCE_SCOPE.json",
+      "sha256": "a0ce12801736ecfd140ca8c8e51aef1e62c65d3e3686929aa9a90d5071b4b919",
+      "bytes": 5753
+    },
+    "decode_current45.py": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/decode_current45.py",
+      "sha256": "5f7bc612d2ec817c4561b9e928dcdc80e2bb42a3bf6bb2abf69634b53c068550",
+      "bytes": 9004
+    },
+    "DECODER_AUDIT.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/DECODER_AUDIT.json",
+      "sha256": "b0f4e83d8937ab8c93ddad21d1b1fd06d7f25f74ef4d1ad8e42bcb41d567e6b0",
+      "bytes": 2377
+    },
+    "LITERAL_PROJECTION.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/two_key_batch/LITERAL_PROJECTION.json",
+      "sha256": "890b53f5d67262dd265830964e00ebb3a6e247abe7dd987d2ea41dfc3859016f",
+      "bytes": 90507
+    },
+    "PRE_A_OMITTED_ROWS.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/PRE_A_OMITTED_ROWS.json",
+      "sha256": "a20629c0cea93eca2440e805f41dc71eda54df007b5ea412333f3d3c1ce0b87d",
+      "bytes": 188614
+    },
+    "DELIMITER_ADVISORY.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/two_key_batch/DELIMITER_ADVISORY.json",
+      "sha256": "e9436b1332ea63ffb358a50c898a0faa7483cc5ce4143f5ed622f8851841612d",
+      "bytes": 2384
+    },
+    "emit_statement.py": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/emit_statement.py",
+      "sha256": "0cd71116843aaaba5df84798495fe2abb1256acde59cb6259912db93673e48d7",
+      "bytes": 3288
+    },
+    "emit_checks.py": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/emit_checks.py",
+      "sha256": "2dc45675dba97336a601a0f152143ac7d3c820a481d818651b0f663fe828836c",
+      "bytes": 3549
+    },
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 72789,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "uncompressed_bytes": 434983,
+      "uncompressed_sha256": "7c84ac65c8b37173aa4293934f041915895e8ec30595844cc1534e2a19ae0d25"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 991124,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "uncompressed_bytes": 991124,
+      "uncompressed_sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 184042,
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "uncompressed_bytes": 1854016,
+      "uncompressed_sha256": "264d82af892c1425d17cf7dd838cae6e501d035c6493519aaa8366a2e24bc779"
+    },
+    "current_selected_manifest": {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710
+    },
+    "current_package_manifest": {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/MANIFEST.json",
+      "sha256": "64baa867bcfcfee457f612b0ff015a664bf376c030b6f1483909bbd9105d655f",
+      "bytes": 5505
+    },
+    "prepare_source.py": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/two_key_batch/prepare_source.py",
+      "sha256": "f5fb10ef5171486435d9825bf3bee1dee2d0d1e255ce0bb191b9c55078bc914b",
+      "bytes": 8924
+    },
+    "PREPARATION_BOUNDARY_CORRECTION.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/child003/PREPARATION_BOUNDARY_CORRECTION.json",
+      "sha256": "c9a545d907b274156c64219776ae237ac99c4ca5371f423e1647070049170e8c",
+      "bytes": 949
+    },
+    "accepted_current45": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_coverage45/ACCEPTANCE.json",
+      "sha256": "f533c8e40cf6ada118c756f3b635a882bae726f679a35c5659414657045c27d9",
+      "bytes": 24735
+    },
+    "terminal_current45": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_COVERAGE45_TERMINAL_REVIEW.json",
+      "sha256": "4d82a51ecd7215ab1a14b5e1d1c795a2179fe17495d6fcce3f092e7a2a59486f",
+      "bytes": 18046
+    },
+    "child003_science": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current535-child003/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "7906a82f51be6fc131c7fc98d75364cb5efcc359a68a7cf876cb307a65fe4984",
+      "bytes": 3088
+    },
+    "accepted_current90": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_child003/ACCEPTANCE.json",
+      "sha256": "74041ee2480fc32288ec2e20c0a4cb26ca6f713ec2267882f9faacba883e033d",
+      "bytes": 28816
+    },
+    "terminal_current90": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT535_COVERAGE90_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "7003d9b7929b6aff6f6df86806ebcebb9c63959532f563e5e5930c90b6263999",
+      "bytes": 3334
+    },
+    "two_key_science": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current535-two-key/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "0f703a6c67d084ecd11262273bc50743dc3cd11a1404187c00f3ff0889984b1a",
+      "bytes": 2892
+    }
+  },
+  "source_model": "One measured current53590-row two-key batch, four24/21 decisions and sparse checkpoints; accepted90 retained.",
+  "data_scope": {
+    "blocks": [
+      {
+        "raw_inclusive": [
+          10781,
+          10804
+        ],
+        "rows_each": 24,
+        "histogram_each": {
+          "relabel": 12,
+          "ADD": 12
+        },
+        "child_ordinal": 2,
+        "directed_key": [
+          0,
+          4,
+          1
+        ],
+        "support": [
+          464,
+          465,
+          474,
+          462,
+          463,
+          476,
+          538,
+          539,
+          550,
+          540,
+          541,
+          552
+        ],
+        "checkpoint": 114
+      },
+      {
+        "raw_inclusive": [
+          10805,
+          10825
+        ],
+        "rows_each": 21,
+        "histogram_each": {
+          "ADD": 19,
+          "relabel": 2
+        },
+        "child_ordinal": 2,
+        "directed_key": [
+          0,
+          4,
+          1
+        ],
+        "support": [
+          562,
+          564
+        ],
+        "checkpoint": 135
+      },
+      {
+        "raw_inclusive": [
+          10826,
+          10849
+        ],
+        "rows_each": 24,
+        "histogram_each": {
+          "relabel": 12,
+          "ADD": 12
+        },
+        "child_ordinal": 3,
+        "directed_key": [
+          0,
+          5,
+          1
+        ],
+        "support": [
+          466,
+          467,
+          478,
+          468,
+          469,
+          480,
+          490,
+          491,
+          502,
+          492,
+          493,
+          504
+        ],
+        "checkpoint": 159
+      },
+      {
+        "raw_inclusive": [
+          10850,
+          10870
+        ],
+        "rows_each": 21,
+        "histogram_each": {
+          "ADD": 19,
+          "relabel": 2
+        },
+        "child_ordinal": 3,
+        "directed_key": [
+          0,
+          5,
+          1
+        ],
+        "support": [
+          514,
+          516
+        ],
+        "checkpoint": 180
+      }
+    ],
+    "new_rows_each": 90,
+    "new_histogram_each": {
+      "ADD": 62,
+      "relabel": 28
+    },
+    "composed_rows_each": 180,
+    "composed_histogram_each": {
+      "ADD": 124,
+      "relabel": 56
+    },
+    "full_label_domain": 736,
+    "frame_count": 997,
+    "child_count": 2927
+  },
+  "excluded_scope": [
+    "Only canonical event labels, signed annotation/denominator checks and directed child key/rank.",
+    "Current operators for2/3 remain separately owned and are not inputs to these checks.",
+    "Omitted pre-A/adapter/physical/scalar endpoint remain open."
+  ],
+  "resource_caution": {
+    "hard_seconds_each": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_VM_bytes": 3758096384,
+    "fresh_jobs_max": 2,
+    "async": false,
+    "maxRecDepth": 8192,
+    "maxHeartbeats": 2000000,
+    "shared_serial_slot": 1,
+    "stop": "First failure/review; no automatic retry or cap change."
+  },
+  "authority": "Root approval relayed by integration2026-10-12T14:42:34UTC: source preparation and one measured8/6/2 first gate after independent science/API/binding. Bank is sole next compiler owner.",
+  "next_owner": "/root/prove_main_bank_routing"
+}
