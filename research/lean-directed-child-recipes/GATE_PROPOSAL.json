@@ -1,0 +1,109 @@
+{
+  "schema": "directed-child-single-root-gate-proposal-v1",
+  "status": "PROPOSAL_ONLY_NO_COMPILER_ADMISSION",
+  "root": {
+    "module": "DirectedChildRecipes",
+    "source": "DirectedChildRecipes.lean",
+    "sha256": "33d33ed6ac6de316662062ef1114904c91e75d1b57c99fed1cb0ec2dccf0e7f5",
+    "expected_object": "absent",
+    "expected_receipt": "absent"
+  },
+  "local_scope": {
+    "total_modules": 2,
+    "preserved_current_dependencies": 1,
+    "new_roots": 1,
+    "ordered_modules": [
+      "PR509Stream",
+      "DirectedChildRecipes"
+    ],
+    "no_other_root_or_prerequisite_build": true
+  },
+  "direct_import": {
+    "module": "PR509Stream",
+    "repository_source": "research/e8-lemma-g-lean/LemmaG/Stream.lean",
+    "upstream_commit": "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59",
+    "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+    "established_alias_object_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+    "established_alias_receipt_sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+    "alias_constraint": "Use the existing accepted PR509Stream module/object. The source bytes equal the upstream LemmaG/Stream.lean, but module-name identity is not interchangeable: no object rename or implicit import substitution."
+  },
+  "external_dependencies": {
+    "lean_version": "4.21.0",
+    "mathlib_commit": "308445d7985027f538e281e18df29ca16ede2ba3",
+    "direct_imports_of_PR509Stream": [
+      "Mathlib.Algebra.Module.Equiv.Defs",
+      "Mathlib.Algebra.Module.Pi",
+      "Mathlib.Algebra.BigOperators.Pi",
+      "Mathlib.Algebra.Module.LinearMap.Basic",
+      "Mathlib.LinearAlgebra.Span.Basic"
+    ],
+    "reference_source_object_pairs": 2213,
+    "reference_header_edges": 8315,
+    "reference_source_footprint_sha256": "8ab51a655fff02741615eb04281d62a1e18236f773d8bc2c5b599bfddc929b1c",
+    "installed_library_roots": [
+      "Mathlib",
+      "LeanSearchClient",
+      "Qq",
+      "Aesop",
+      "Batteries",
+      "ImportGraph",
+      "Plausible",
+      "ProofWidgets"
+    ],
+    "reference_environment_sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b",
+    "environment_requirement": "Use the explicitly pinned existing eight-path process-local environment. No package installation, dependency update, network access or inherited shell-path assumption.",
+    "scope_of_reference_pins": "These identify the existing accepted dependency boundary. Fresh guards are required before any separately released gate."
+  },
+  "source_review_requirements": [
+    "Check all public statements, direct old-to-new orientation and rank-zero/null-right convention.",
+    "Check that each all-payload physical and operator equality remains an explicit input; no finite certificate or phase identity is asserted.",
+    "Check that every relabel in the supplied stream needs lookup coverage and WellLabelled, with no dropping of ordinary adapters/residual wrappers.",
+    "Check direct invocation of existing PR509 conj' and absence of new event induction, sorry, admitted theorem or altered upstream source.",
+    "Confirm the public package contains no runtime cache, generated object or private handoff record."
+  ],
+  "proposed_single_gate": {
+    "admission": "Separate release required after exact source/dependency/driver review.",
+    "execution": "Use the existing two-slot admission service and retained-source-lock single-file checker; never run a full-closure builder.",
+    "staging": "The established checker only accepts sources under its check root. After explicit release, make one byte-identical source staging copy outside the Git worktree under that root, preserving the same module basename. Guard both the committed source and staging hash before and after checking. No staging copy is authorized by this proposal alone.",
+    "lock_and_guard": [
+      "Acquire the new-root source lock nonblocking and retain it through the exact single-file check.",
+      "Reject an existing canonical root object, receipt or log; reconcile any partial attempt rather than overwrite it.",
+      "Verify committed/staged source equality, the preserved PR509Stream source/object/receipt and expected first-match import resolution.",
+      "Verify the pinned runtime, eight-path environment and complete corrected external source/object footprint; reject shadows or changed inputs.",
+      "After the receipt, verify source and dependency stability, all four complete named axiom probes and standard-only axioms.",
+      "Enforce review stops before admitting any dependent or reporting a below-review acceptance."
+    ],
+    "hard_limits": {
+      "seconds": 60,
+      "virtual_memory_bytes": 4294967296
+    },
+    "review_limits": {
+      "seconds": 45,
+      "virtual_memory_bytes": 3758096384
+    },
+    "lean_stack_kib": 65536,
+    "lean_threads": 1,
+    "expected_axiom_probes": [
+      "CurrentMain.DirectedChildRecipes.Child.eval_rank_zero",
+      "CurrentMain.DirectedChildRecipes.Child.eval_some",
+      "CurrentMain.DirectedChildRecipes.recipesExact_of_children",
+      "CurrentMain.DirectedChildRecipes.conjugation_of_children"
+    ],
+    "claims_if_pass": "Only this conditional interface elaborates and kernel-checks under the pinned environment. No selected source/operator/recipe/row/owner/cost premise is discharged."
+  },
+  "source_correspondence": {
+    "selected_source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "clifford_compiler_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "phase_generator_sha256": "15723107eff03013b2e797fd9fa3635b1b46c5d1c8112d19fada98c178d4acb6",
+    "convention": "Right, source-defined Gaussian block, left; direct canonical(new) after inverse canonical(old); null right means left-only.",
+    "raw_recipe_limit": "The proposed structure contains interpreted linear equivalences. Raw normal-form decoding, affine invertibility, bit/quadratic/global-phase conventions, reused baseline validity and certificate soundness remain separate."
+  },
+  "excluded_work": [
+    "Supplier execution or numerical/finite replay",
+    "New generic conjugation, centre-schedule, frame-factorization or realization proof",
+    "Residual-wrapper and ordinary endpoint-adapter realization",
+    "Coefficient/tableau physical work and actual whole-word execution equality",
+    "Selected full-register scalar row/column, ownership, global normalization or cost proof",
+    "Any fetch, push, environment configuration or publication"
+  ]
+}
