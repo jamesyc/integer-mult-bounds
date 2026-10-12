@@ -1,5 +1,5 @@
 {
-  "status": "SECOND_BOUNDED_PROOF_ONLY_RETRY_AFTER_INDEPENDENT_REVIEW",
+  "status": "THIRD_FINAL_CHECK_ATTEMPT_AFTER_EXACT_ONE_LINE_AND_PRESTATE_REVIEW",
   "local_scope": {
     "modules": 4,
     "current": 3,
@@ -13,8 +13,8 @@
       "module": "F19CoveragePilotCheck",
       "candidate": {
         "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/pilot/F19CoveragePilotCheck.lean",
-        "sha256": "2e63ac5e093b5a435952ecdb98bae91923ea4b9217b0706111ba0d3697fb69ee",
-        "bytes": 1308
+        "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+        "bytes": 1316
       },
       "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
       "imports": [
@@ -24,34 +24,34 @@
       "failed_prestate": {
         "source": {
           "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
-          "sha256": "8f6dc006790e4205935f5b62e6814165aaf72a55f4588ea10703238895803758",
-          "bytes": 926
+          "sha256": "2e63ac5e093b5a435952ecdb98bae91923ea4b9217b0706111ba0d3697fb69ee",
+          "bytes": 1308
         },
         "receipt": {
           "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
-          "sha256": "9ae30ba2833dafbe0c8df621c99ecd9df9b669530722122c6aed00a5c4fcabc8",
-          "bytes": 3468
+          "sha256": "efd84c0fa5a1938aa149f3e5fa6f84feb0b6bea23486d32dc83bded9aa5c12aa",
+          "bytes": 3472
         },
         "log": {
           "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
-          "sha256": "b63d2b2a8cebdbe2a843d1df053da358d3e46a94ac3acfa5fdfe1df688665c89",
-          "bytes": 637
+          "sha256": "b1961a5798b0b051633905d5816671008b717288880d34314c887c589c6721f0",
+          "bytes": 638
         },
         "preserved": [
           {
-            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/F19CoveragePilotCheck.lean",
-            "sha256": "8f6dc006790e4205935f5b62e6814165aaf72a55f4588ea10703238895803758",
-            "bytes": 926
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure02/F19CoveragePilotCheck.lean",
+            "sha256": "2e63ac5e093b5a435952ecdb98bae91923ea4b9217b0706111ba0d3697fb69ee",
+            "bytes": 1308
           },
           {
-            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
-            "sha256": "9ae30ba2833dafbe0c8df621c99ecd9df9b669530722122c6aed00a5c4fcabc8",
-            "bytes": 3468
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure02/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+            "sha256": "efd84c0fa5a1938aa149f3e5fa6f84feb0b6bea23486d32dc83bded9aa5c12aa",
+            "bytes": 3472
           },
           {
-            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
-            "sha256": "b63d2b2a8cebdbe2a843d1df053da358d3e46a94ac3acfa5fdfe1df688665c89",
-            "bytes": 637
+            "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure02/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+            "sha256": "b1961a5798b0b051633905d5816671008b717288880d34314c887c589c6721f0",
+            "bytes": 638
           }
         ]
       }
@@ -63,9 +63,9 @@
     "bytes": 2386951
   },
   "current_inventory": {
-    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/SOURCE_CURRENT_FINAL_CHECK.json",
-    "sha256": "425c96adaae512970a029459d19813ec0bacdc4b3a92ce52bd6c1fcdc9c61ff5",
-    "bytes": 10828
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/SOURCE_CURRENT_FINAL_CHECK_REPAIR02.json",
+    "sha256": "2fb8d0d3f5921257abb5de9abf9e6e78eff8813272b2113d693c15ff7a59da01",
+    "bytes": 10830
   },
   "external_scope": {
     "nodes": 2213,
@@ -285,8 +285,8 @@
     }
   ],
   "repair": {
-    "failed_source_sha256": "8f6dc006790e4205935f5b62e6814165aaf72a55f4588ea10703238895803758",
-    "changed_only": "Only selected_pilot_checked proof body: shape decision plus separate forward/backward128-row kernel reductions, composed through Bool.and_eq_true_iff. All statements/imports/rows/options unchanged.",
+    "failed_source_sha256": "2e63ac5e093b5a435952ecdb98bae91923ea4b9217b0706111ba0d3697fb69ee",
+    "changed_only": "Only the remaining shape subproof changes from decide to decide +kernel. Public statements, selected data, imports, other proof terms and every resource/recursion option are unchanged.",
     "installed_API": {
       "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Tactics.lean",
       "sha256": "a90a98b54fcf690053ee2125e46ce4c39e5ad46712629eae1c72460d1f5494d4",
@@ -306,10 +306,11 @@
       485
     ],
     "preservation": {
-      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure01/PRESERVATION.json",
-      "sha256": "b400be07ca23511e8a8abb56a78b83a2248effc33b0c1f982cc951e5db939205",
-      "bytes": 5873
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/f19_coverage_pilot/check_failure02/PRESERVATION.json",
+      "sha256": "6b0bb36479a65436203a0bbbc4e46d2a318bd120a3566cbad8fa1ff0ac350542",
+      "bytes": 6717
     },
-    "root_second_retry_release_received_utc": "2026-10-12T10:06:44+00:00"
+    "root_second_retry_release_received_utc": "2026-10-12T10:06:44+00:00",
+    "root_third_attempt_release_received_utc": "2026-10-12T10:11:59+00:00"
   }
 }
