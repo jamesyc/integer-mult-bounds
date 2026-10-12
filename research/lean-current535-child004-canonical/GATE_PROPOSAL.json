@@ -1,0 +1,102 @@
+{
+  "status": "SOURCE_ONLY_CURRENT535_ORDINAL2_PROPOSAL",
+  "root": {
+    "module": "Current535Child004Canonical",
+    "source": "Current535Child004Canonical.lean",
+    "sha256": "38195db615aeba5167f89c8f9db90961e654c4ee1eef3db5fbfb5073ee1a886d"
+  },
+  "direct_imports": [
+    "CliffordNineBitDecoder"
+  ],
+  "local_scope": {
+    "total": 10,
+    "current": 9,
+    "pending": 1
+  },
+  "retained_current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current535_child004_canonical/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "51102ebbb7009d0ea3961af7191b2c5c905ab6320ca65291db177ef73583a6a7",
+    "bytes": 19740
+  },
+  "preserved_siblings": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current535_child004_canonical/PRESERVED_SIBLINGS.json",
+    "sha256": "4af39ebe45f3380d85196cf2aa2eb2d6e6def7de7a62a4a46b34bfacf6ac995c",
+    "bytes": 14604
+  },
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "eb44d49b0b6e2d5a9f334b3d5e42abfb6f5d2615e5d1f386c6d6be4a8c37fa12",
+    "bytes": 2891518
+  },
+  "external_pairs": 2620,
+  "new_external_pairs": 0,
+  "raw_record": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-child004-canonical/SELECTED_RECORD.json",
+    "sha256": "399056bbe93ff06e547127c5b767669ae13c8efb88b68374067a8091a9a9793a",
+    "bytes": 2779
+  },
+  "selected_inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/NOTICE.md",
+      "sha256": "1547136e6d269fdcef2b68c10a97a786a79a4732a12738363f679bfb282430cd",
+      "bytes": 3576
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ],
+  "phase_coordinates": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "parametric_address_coordinates": [
+    0,
+    1,
+    2
+  ],
+  "scalar_phase_cases": 64,
+  "closed_matrix_product_decisions": 3,
+  "resource_reuse": "Exact accepted child006 reduced inverse method; no time or memory prediction. Same scoped Elab.async false.",
+  "proposed_check": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "expected_probes": [
+      "CurrentMain.Current535Child004Canonical.record_key",
+      "CurrentMain.Current535Child004Canonical.raw_fields_bounded",
+      "CurrentMain.Current535Child004Canonical.left_inverses",
+      "CurrentMain.Current535Child004Canonical.right_inverses",
+      "CurrentMain.Current535Child004Canonical.canonical_inverses",
+      "CurrentMain.Current535Child004Canonical.canonical_source_certificate",
+      "CurrentMain.Current535Child004Canonical.canonical_first_column",
+      "CurrentMain.Current535Child004Canonical.branch_phase_certificate",
+      "CurrentMain.Current535Child004Canonical.canonical_transport",
+      "CurrentMain.Current535Child004Canonical.selected_child_operator",
+      "CurrentMain.Current535Child004Canonical.selected_child_with_spectators"
+    ]
+  },
+  "remaining_suppliers": [
+    "Actual current raw event/executor and physical recipe binding.",
+    "Residual/endpoint wrappers, expanded work, arbitrary-dirty full row/column endpoints and global costs.",
+    "Other selected records."
+  ],
+  "authority": "Root authorizes the next genuinely used current record under equivalent-template admission after independent source/model and binding review. This packet is source-only; no compiler has run."
+}

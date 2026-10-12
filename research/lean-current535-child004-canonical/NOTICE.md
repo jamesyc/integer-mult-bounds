@@ -1,0 +1,5 @@
+# Attribution and exact selected source
+
+The selected input is commit7dfa22b109996e48db68daac3706e7a49a43002b of CrocSwap/integer-mult-bounds, research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json, children[2], directed key0→4, and ordered canonical descriptors []→[504]. The exact hashes and every serialized field are retained in SELECTED_RECORD.json. The source package credits icekylinx with GPT-6 Astra and its inherited PR531/484/425/433/514 lineage; its original NOTICE and Apache-2.0 license are pinned by the proposal. No upstream code was executed to prepare this proof.
+
+The Lean source reuses the previously accepted historical child006 proof pattern and existing PR509 Stream / DirectedChildRecipes / CliffordMonomialDecoder / GaussianPhaseNormalization / RankOneRecipeCertificate / CliffordNineBitDecoder interfaces. Source-specific row, inverse, basis, Q and phase facts remain actual proof goals, with arbitrary spectator coordinates. Prepared with OpenAI assistance, Apache-2.0. No generic Clifford induction or phase convention is reattributed as new work.
