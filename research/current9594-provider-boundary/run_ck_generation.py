@@ -124,6 +124,7 @@ def limits():
  resource.setrlimit(resource.RLIMIT_CORE,(0,0))
  resource.setrlimit(resource.RLIMIT_FSIZE,(134217728,134217728))
 def run_child(argv,log,deadline,job_review_seconds=480):
+ cpu_before=resource.getrusage(resource.RUSAGE_CHILDREN)
  proc=None;start=time.monotonic();started=now();peaks={};samples=0;max_group_rss=0;max_group_vm=0;reason=None
  try:
   with log.open('xb')as f:
@@ -144,7 +145,8 @@ def run_child(argv,log,deadline,job_review_seconds=480):
    code=proc.wait()
   remaining=[r for r in group_sample(proc.pid)if r['state']!='Z']
   if remaining:reason=reason or'UNEXPECTED_REMAINING_PROCESS';terminate(proc)
-  return {'started_utc':started,'finished_utc':now(),'seconds':time.monotonic()-start,'pid':proc.pid,'exit_code':code,'stop_reason':reason,'samples':samples,'process_peaks':peaks,'peak_group_rss_bytes':max_group_rss,'max_sum_vmpeaks_bytes':max_group_vm,'aggregate_memory_cap_claimed':False,'log_sha256':sha(log),'argv':argv}
+  cpu_after=resource.getrusage(resource.RUSAGE_CHILDREN)
+  return {'cpu_user_seconds':cpu_after.ru_utime-cpu_before.ru_utime,'cpu_system_seconds':cpu_after.ru_stime-cpu_before.ru_stime,'cpu_scope':'RUSAGE_CHILDREN delta for waited child and its accounted descendants','started_utc':started,'finished_utc':now(),'seconds':time.monotonic()-start,'pid':proc.pid,'exit_code':code,'stop_reason':reason,'samples':samples,'process_peaks':peaks,'peak_group_rss_bytes':max_group_rss,'max_sum_vmpeaks_bytes':max_group_vm,'aggregate_memory_cap_claimed':False,'log_sha256':sha(log),'argv':argv}
  finally:
   if proc is not None:terminate(proc)
 def compare_content(path,expected):
