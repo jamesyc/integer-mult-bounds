@@ -1,0 +1,114 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_LITERAL_AND_API_REUSE_REVIEW_NO_COMPILER",
+  "received_utc": "2026-10-12T14:55:22Z",
+  "read_started_utc": "2026-10-12T14:56:54Z",
+  "completed_utc": "2026-10-12T14:58:14.066643+00:00",
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix002/SOURCE_BINDING.json",
+    "sha256": "f4a38be0b09c7c0c1045ccc27f82bd15998510270c7e8f42177f572c82078885",
+    "bytes": 17975
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix002/CHECK_PROPOSAL.json",
+    "sha256": "b33028207a618b3d0189862519ff776afe2f19b554ff8688b441d458b654f97b",
+    "bytes": 3494
+  },
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix002/SOURCE_TRANSFORM.json",
+    "sha256": "9e5bd9bf0879939e9f5ab83b279e970407a49e3b06cd735e9ee72b51dece8573",
+    "bytes": 3293
+  },
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix002/SelectedR480Prefix002Data.lean",
+      "sha256": "af76151c42c8936995e6d9bec0d4bc60925f40fa5278da093a7da8c44fd103de",
+      "bytes": 5754
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix002/SelectedR480Prefix002Check.lean",
+      "sha256": "a1d909be12695819623d8c3b7b70eab17ddc9fc3d54041055a310ef5e44caa9c",
+      "bytes": 8317
+    }
+  ],
+  "raw_input": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/e8-r480-dead-totals/data/bitE8mut-r480.json.gz",
+    "sha256": "92e399e9a486b55229b5624632ac54f800dd9e022f2aee97f1e5f264bbc0ef5c",
+    "bytes": 49414
+  },
+  "literal_inverse": {
+    "A_half_open": [
+      256,
+      384
+    ],
+    "C_half_open": [
+      2324,
+      2452
+    ],
+    "gates_each": 128,
+    "operands_each": 149,
+    "arities_each": {
+      "unary": 107,
+      "binary": 21
+    },
+    "register_bound": 720,
+    "frame_bound": 672,
+    "cleanup": "Exact ordered C=reverse(A) with frame1; all operand occurrences preserved."
+  },
+  "proof_reuse": {
+    "reference": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-ac-boundary/SelectedR480ACCheck.lean",
+      "sha256": "fe0c9e6aa97bde85a2741bd93a0c3eb01ec24398cbad85b4759e4e942a16f01e",
+      "bytes": 8695
+    },
+    "ordered_transforms_verified": 12,
+    "kernel_proof_body_changes": "None beyond namespace/list names. Shape counts change, unrelated changed-host theorem/probe removed, scope docs updated. The accepted scalarize rfl is retained.",
+    "API_scope": "Same proof-bounded Fin720 decoder, ordered encode bindings, no-self-read inverse and conditional target-only middle cleanup. No frame operator equality is inferred."
+  },
+  "actual_finite_conditions_checked_read_only": [
+    "Raw domains for both slices.",
+    "A never reads its own destination.",
+    "All A reads and writes avoid target120..239.",
+    "C frames are retained explicitly in raw/encode binding before scalarization."
+  ],
+  "prior_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_ac_boundary/COMPLETE_ACCEPTANCE.json",
+    "sha256": "7290551589099952306d7a872318ce6bff3025be7849350f13e005a94d903c9f",
+    "bytes": 50499
+  },
+  "prior_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_R480_AC_TERMINAL_REVIEW.json",
+    "sha256": "060d3f8b0d3ab98a39decb1587c90be8e2409a3d924ef2ae46d74354dd37ace7",
+    "bytes": 10068
+  },
+  "probes": [
+    "CurrentMain.SelectedR480Prefix002.block_shape",
+    "CurrentMain.SelectedR480Prefix002.raw_domains",
+    "CurrentMain.SelectedR480Prefix002.raw_cleanup_binding",
+    "CurrentMain.SelectedR480Prefix002.no_self_reads",
+    "CurrentMain.SelectedR480Prefix002.no_target_reads",
+    "CurrentMain.SelectedR480Prefix002.no_target_writes",
+    "CurrentMain.SelectedR480Prefix002.decode_roundtrip",
+    "CurrentMain.SelectedR480Prefix002.ordered_A_binding",
+    "CurrentMain.SelectedR480Prefix002.ordered_C_binding",
+    "CurrentMain.SelectedR480Prefix002.decoded_no_self_reads",
+    "CurrentMain.SelectedR480Prefix002.decoded_no_target_reads",
+    "CurrentMain.SelectedR480Prefix002.decoded_no_target_writes",
+    "CurrentMain.SelectedR480Prefix002.cleanup_runs_reverse",
+    "CurrentMain.SelectedR480Prefix002.isolated_block_inverse",
+    "CurrentMain.SelectedR480Prefix002.conditional_off_target_cleanup",
+    "CurrentMain.SelectedR480Prefix002.conditional_target_value"
+  ],
+  "prospective_scope": [
+    9,
+    7,
+    2
+  ],
+  "limitations": [
+    "Only this paired128-gate slice;20 other prefix chunks and full A/C composition remain open.",
+    "D compensation, physical frame transport, temporary obligations and full theorem remain separate."
+  ],
+  "resource_qualification": "Longer gate lists with lower arity require their own bounded measurement; no fit or broader21-chunk admission follows.",
+  "compiler_executed": false,
+  "runtime_review_duplicated": false,
+  "supplier_execution": false
+}
