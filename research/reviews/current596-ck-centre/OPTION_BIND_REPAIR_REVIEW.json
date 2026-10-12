@@ -1,0 +1,75 @@
+{
+  "status": "PASS_EXACT_PRIVATE_OPTION_HELPER_REPAIR",
+  "utc": "2026-10-12T17:49:37.555700+00:00",
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current596_ck_centre_proposal/gate/option_bind_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "3d080bc5069a7044b4a52440baa2156851cf9f8af8972c3d249a4f3dff791281",
+    "bytes": 2095
+  },
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+    "sha256": "c63e7f84a5a1a5de474e018416e083ff1993f8c79647604c51b026ad4903d4ee",
+    "bytes": 8763
+  },
+  "failed_source": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_ck_centre/Current596CKCentre.lean",
+    "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+    "bytes": 8666
+  },
+  "failed_preservation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current596_ck_centre_proposal/gate/first_failure/PRESERVATION.json",
+    "sha256": "d70229ef0652bfcaeec03d7c0bfc091a4c9730fb3dba93b833b61738239bef96",
+    "bytes": 13897
+  },
+  "verified_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_ck_centre/Current596CKCentre.lean",
+      "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+      "bytes": 8666
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
+      "sha256": "c63e7f84a5a1a5de474e018416e083ff1993f8c79647604c51b026ad4903d4ee",
+      "bytes": 8763
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current596_ck_centre_proposal/gate/first_failure/PRESERVATION.json",
+      "sha256": "d70229ef0652bfcaeec03d7c0bfc091a4c9730fb3dba93b833b61738239bef96",
+      "bytes": 13897
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current596_ck_centre_proposal/gate/option_bind_repair/exact.diff",
+      "sha256": "298c4dc16ad4e00ad057ac80614a7ae230cdd5276e4cd150cb81f36412993639",
+      "bytes": 519
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_ck_centre/Current596CKCentre.lean",
+      "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
+      "bytes": 8666
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current596_ck_centre__Current596CKCentre.lean.json",
+      "sha256": "2ca3af7c99c470d95bcd1a7bc84cd9a365ddee35544de5217f5154e32f80b30c",
+      "bytes": 3497
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current596_ck_centre__Current596CKCentre.lean.log",
+      "sha256": "2534df7aaca891fe8ca1f4ce28426df35aa426867e4515d0176b38d25fef7f55",
+      "bytes": 1918
+    }
+  ],
+  "exact_inverse": true,
+  "changes": [
+    {
+      "old": "  simp [decodeRows, List.mapM_cons]\n",
+      "new": "  simp [decodeRows, List.mapM_cons]\n  cases decodeEvent row.event <;>\n    cases rows.mapM (fun row => decodeEvent row.event) <;> rfl\n"
+    }
+  ],
+  "proof_readback": "The displayed residual goal has the exact same head Option and tail mapM Option on both sides. None/some cases on both expose Option.bind/Option.map definitions, yielding identical constructor terms by reflexivity. Only a private helper proof ending changes; no list, coefficient or table is enumerated.",
+  "public_scope_unchanged": true,
+  "probes_unchanged": 13,
+  "failed_module_not_accepted": true,
+  "source_review_limit": "The initial source review did not predict the residual simp goal. Clean diagnostics in the failed module remain rejected; this review certifies the exact proposed repair only. Actual success requires the admitted sole retry.",
+  "runtime_binding": "Separate integration failed-prestate/current guard required.",
+  "compiler_executed": false
+}

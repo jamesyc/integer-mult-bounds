@@ -156,8 +156,8 @@
   },
   "shared_map_source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current596-ck-centre/Current596CKCentre.lean",
-    "sha256": "d3a80995d3981cd3d0fe2dc9574d84e6cb9489c15abf7d8430de4f5caa15eddf",
-    "bytes": 8666
+    "sha256": "c63e7f84a5a1a5de474e018416e083ff1993f8c79647604c51b026ad4903d4ee",
+    "bytes": 8763
   },
   "shared_map_source_review": {
     "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current596-ck-centre/SCIENTIFIC_SOURCE_REVIEW.json",
@@ -194,5 +194,11 @@
     "Exact recipe operator/charts and physical execution are downstream premises.",
     "The current first33 excludes all pre-A phase/adapter/residual entries, later key0\u21923 and the full HPE program.",
     "No full1079 or1082 operator catalog, owner allocation, provider mixture or current-kappa theorem follows."
-  ]
+  ],
+  "shared_map_repair_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current596-ck-centre/OPTION_BIND_REPAIR_REVIEW.json",
+    "sha256": "2bc9e247266dea8f3f028ce7f9e2a115baeba83f7387fbfcf25e245a9a6425ae",
+    "bytes": 4330
+  },
+  "pre_A_boundary": "The full pre-A raw prefixes differ. Equality is only of all728 declared starting frame values and the selected33 rows. The mapped labels0/checkpoint24 are the theorem initializer; no current pre-A execution/physical entrance-state bridge is asserted."
 }

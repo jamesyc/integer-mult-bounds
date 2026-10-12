@@ -8,8 +8,8 @@
   },
   "source_scope": {
     "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current596-ck-first33-transport/SOURCE_SCOPE.json",
-    "sha256": "e56c1e6048f4ad30e0bef05875034d8b9e22e1fd27be16162f1e45bc71adf60a",
-    "bytes": 9851
+    "sha256": "07d80a0aad3a62a8963202010fa8ac3fe1ee6ecb24c8bde1830a729618f32bcf",
+    "bytes": 10396
   },
   "imports": [
     "Current596CKCentre",
