@@ -2,8 +2,8 @@
   "status": "REPAIRED_FIRST_ROOT_RETRY_THEN_UNATTEMPTED_SELECTED_ROOT_AWAITING_REVIEW",
   "source_binding": {
     "path": "research/selected-bit-xor-interpretation/SOURCE_BINDING.json",
-    "sha256": "9a17bdbe8e8d46bd73f1336e95ce6fc38a84c26cc324bac3473d47e196f0beb0",
-    "bytes": 13362
+    "sha256": "e8bc72f2e72897561f408ae15b66b438005022bb59fdf0423f49af344f3980c2",
+    "bytes": 13722
   },
   "complete_local_scope": [
     6,
@@ -29,8 +29,8 @@
   "sources": [
     {
       "path": "research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
-      "sha256": "1d2c412d2ddfa35f14895169e55f62436d00dc5ae95655e75ba73a9878eda788",
-      "bytes": 5150,
+      "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+      "bytes": 5194,
       "module": "BitXorTargetTranslation",
       "explicit_imports": [
         "Init"
@@ -74,5 +74,5 @@
   },
   "no_concrete_word_evaluation": true,
   "numerical_decisions_added": 0,
-  "notes": "First generic attempt failed on local elaboration; failure evidence preserved. Proposed exact two-root serial repair gate requires fresh failure/current/source guards. No unchanged retry."
+  "notes": "Two ordinary generic proof failures are preserved. One additional local Boolean commutativity repair is proposed; selected adapter remains unattempted and conditional. No statement/import/data change."
 }

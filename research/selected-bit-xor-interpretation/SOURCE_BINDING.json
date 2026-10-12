@@ -151,8 +151,8 @@
   "sources": [
     {
       "path": "research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
-      "sha256": "1d2c412d2ddfa35f14895169e55f62436d00dc5ae95655e75ba73a9878eda788",
-      "bytes": 5150,
+      "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+      "bytes": 5194,
       "module": "BitXorTargetTranslation",
       "explicit_imports": [
         "Init"
@@ -220,5 +220,10 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/elaboration_repair/SOURCE_REPAIR.json",
     "sha256": "8dd5cff819bd0aa1373553ba3a5831eb5180f45c8428c633d5b2fe088132b3d9",
     "failure_preservation_sha256": "09c013f25642707066512117c8e6848910195830a89b926846bbd0227da33990"
+  },
+  "xor_law_repair": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_bit493_xor/xor_law_repair/SOURCE_REPAIR.json",
+    "sha256": "ab6cc45e04680a58b927082d9757b5d6236ee813fe31565f2249a3940a06524a",
+    "failure_preservation_sha256": "60a85921d05ec65c156b4b490f4e31c9bfe03c60491a95d772a98d2d38cb5101"
   }
 }

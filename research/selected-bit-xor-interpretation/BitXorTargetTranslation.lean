@@ -58,6 +58,7 @@ theorem single_shift (dst src : Reg) (hsrc : ¬ target src)
   · subst r
     by_cases ht : target dst <;>
       simp [single, shift, ht, hsrc, Bool.xor_right_comm]
+    exact Bool.xor_comm (delta dst) (s src)
   · by_cases ht : target r <;>
       simp [single, shift, hd, ht, hsrc, Bool.xor_right_comm]
 
