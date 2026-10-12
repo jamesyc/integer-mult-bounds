@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_PROPOSAL_PENDING_REVIEW_AND_ADMISSION",
+  "direct_imports": [
+    "Current9594CKFirstRecipe"
+  ],
+  "prospective_scope": {
+    "total": 12,
+    "retained": 11,
+    "new": 1
+  },
+  "external_pairs": 2620,
+  "expected_probes": [
+    "CurrentMain.Current5996CKFirstRecipe.key_and_descriptors",
+    "CurrentMain.Current5996CKFirstRecipe.left_fields",
+    "CurrentMain.Current5996CKFirstRecipe.right_fields",
+    "CurrentMain.Current5996CKFirstRecipe.selected_child_operator"
+  ],
+  "finite_work": "Three literal equality conjunctions by reflexivity, one reused all-payload operator proof. No finite algebra or label replay.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "no_compiler_admission": true
+}
