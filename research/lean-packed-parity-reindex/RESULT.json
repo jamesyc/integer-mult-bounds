@@ -1,0 +1,62 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "d2dba974eed333348874761ae966d1c03bff7366",
+  "source_sha256": "a4821fc2c32482f43cc8fbbb90cd815866c6321cc9fcc77aa92ba5f63e1cb06a",
+  "object_sha256": "73ec9d92e2d4f113ba01d52e07f092b78b2f0fcb13af29f9210eea598b818110",
+  "receipt_sha256": "a4f0231bd02c14585e7c8502102c1f837e8b2fcb6df4227afe2ad072bd4489c6",
+  "log_sha256": "1a7faee1700f58d8f86e8b141271590f4beef00b69bad66e853ecea19ce482f6",
+  "acceptance_sha256": "820c5a922cd0c64647d5fbf62e63c3771871cc44c994c9909e751abb02d5816c",
+  "independent_terminal_review_sha256": "5884e501f9db8ba854d7e0c4599a986c672d28a4a860b4a9e00b26f1b144c90e",
+  "current_import_closure": 12,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.PackedParityReindex.parity_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedParityReindex.packed_parity_dot",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedParityReindex.packed_parity_value",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 4.546160282989149,
+  "fifo_seconds": 0.0005040379910496995,
+  "peak_vm_bytes": 2680582144,
+  "retained_first_failure": [
+    {
+      "name": "PackedParityReindex.lean",
+      "sha256": "fc1a42a252436db73dd7cfd3df575009368f86577c69e1507e88feb45ddfe29d"
+    },
+    {
+      "name": "frame_transport__directed_child_recipes__PackedParityReindex.lean.json",
+      "sha256": "986bed6d29b07932baf8d4701ad8a2057526d773882a123fe426563542fc593d"
+    },
+    {
+      "name": "frame_transport__directed_child_recipes__PackedParityReindex.lean.log",
+      "sha256": "2cdafac688bb38d487d0c003b6b6c9013ee89726c6eeba85ae6884ce68b43cb7"
+    }
+  ],
+  "claim": "Packed par9(row AND address) agrees with the accepted raw9 dot product and natural0/1 value, for arbitrary row masks and packed addresses. Recursive parity is handled symbolically; no512-state enumeration is introduced.",
+  "remaining": [
+    "Packed matrix/list and strict-upper Z4 qvalue correspondence",
+    "Actual selected circuit and expanded physical executor"
+  ],
+  "publication": "No publication authorized or performed."
+}
