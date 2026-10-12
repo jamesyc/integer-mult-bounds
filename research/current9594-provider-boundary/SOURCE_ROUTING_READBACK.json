@@ -1,0 +1,694 @@
+{
+  "status": "READ_ONLY_SELECTED_ROUTING_AND_GENERATION_BOUNDARY",
+  "completed_utc": "2026-10-12T16:05:44.962928+00:00",
+  "head": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "selected_manifest": {
+    "path": "research/community-family588-audit/SELECTED-SOURCE.json",
+    "sha256": "515b48dc5465aec3dd00bcc003a40f9ffb00069367fe47d990ca8b11945d512a",
+    "bytes": 276059
+  },
+  "source_pins": [
+    {
+      "path": "research/complex-571-free4fc8/MANIFEST.json",
+      "sha256": "4423d5646aa7fc32607041236137922ad7da49b5c402e08968e0faabe7d8bbb1",
+      "bytes": 2412
+    },
+    {
+      "path": "research/complex-571-free4fc8/NOTICE.md",
+      "sha256": "a4c084abdc1c7a9ac683eeb11124335d51cff8a6deba6ee92ba5a12bceaa2c97",
+      "bytes": 3441
+    },
+    {
+      "path": "research/complex-571-free4fc8/data/SPEC.json",
+      "sha256": "c80de50d961c1b048134452c4e0080f75a2096bcccc2c2e304362b538ae4387a",
+      "bytes": 51414
+    },
+    {
+      "path": "research/complex-571-free4fc8/data/PLAN.json",
+      "sha256": "87d06adb7a88e6e269e50c057a22b30d0266187f3b89870d6c9d54805a7d1042",
+      "bytes": 492935
+    },
+    {
+      "path": "research/complex-571-free4fc8/data/OWNERS.json.gz",
+      "sha256": "7438318922de6b796dd22c55d50a071fbd49f8a1ea0295bdff030f64e8cf609a",
+      "bytes": 413845
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/witness.py",
+      "sha256": "4f6d445f4796e9e7c0ef388370020119d4fdb929c006b2101aecb203ece8ab61",
+      "bytes": 1625
+    },
+    {
+      "path": "research/complex-571-free4fc8/verify.py",
+      "sha256": "a2268c5edcbded3dd179c54eec040ababb77de4f41964a32b6daf3043f6fd3a0",
+      "bytes": 21803
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/emit_allcold.py",
+      "sha256": "c3d7eb6ee86eebe4b389b9fa07fc8b00f1d6fdbb2d180b90ff50e55a5c78c531",
+      "bytes": 12790
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/audit_allcold.py",
+      "sha256": "1701b387e04e4180d402775f6c75b1e9b2e055ccde8d818dce5945967a95de30",
+      "bytes": 19049
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/bind_providers_portable.py",
+      "sha256": "60eedc9592d9982895e0ce7b3457cfb16190cbfad5aa79738e57beab457c642f",
+      "bytes": 5109
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/generated_identity.py",
+      "sha256": "c8af22719c0f3097a991a3f6ccac8f090afd2faba554745733d9ea88f2c25708",
+      "bytes": 2937
+    }
+  ],
+  "assembly": {
+    "path": "research/community-family588-audit/pr588/public-cold/complex/ASSEMBLY.json",
+    "sha256": "ba3c205c11c6187dcad5374923002ce586279b572d2af16327f66e8a9c5acbff",
+    "bytes": 85404
+  },
+  "conditional_kappa": "400569730495803/250000000000000000",
+  "conditional_kappa_decimal": "0.001602278921983212",
+  "assembly_scope": "Conditional native exact-complex witness after complete conservative admission, moment and outer checks; PR559 exact-cover recurrence correction only, bit bad-residue surcharge and H1-H5 retained. The frozen PR582 plain-joint-prefix, added-kernel and entrance-promoted provider dispatch with the new frame coalescences composed with cited unchanged PR543 bit supplier. All-size compiler, common-label/mutable-source realization, whole-call hosting, precision/tape and analytic transfer remain assumptions. No unconditional theorem or full Lean certification.",
+  "dispatch": {
+    "counts": {
+      "ck": 66,
+      "jp8": 1,
+      "atm3": 5
+    },
+    "order_rule": "ascending (7*stage+6*replica,stage,replica)",
+    "non_ck_calls": [
+      [
+        2,
+        1,
+        "jp8"
+      ],
+      [
+        2,
+        2,
+        "atm3"
+      ],
+      [
+        2,
+        3,
+        "atm3"
+      ],
+      [
+        3,
+        2,
+        "atm3"
+      ],
+      [
+        5,
+        5,
+        "atm3"
+      ],
+      [
+        8,
+        2,
+        "atm3"
+      ]
+    ],
+    "plan_spec_exact_order_match": true,
+    "complete_call_count": 72
+  },
+  "owners": {
+    "literal_rows": 36288,
+    "helpers_per_call": 504,
+    "literal_helper_family_distinct_per_call": true,
+    "family_range": [
+      0,
+      7168
+    ],
+    "all_time_width_family_and_declared_window_fields_match": true,
+    "cross_replica_rows": 29283,
+    "not_proved": [
+      "Disjointness from each call active data families requires generated parent call maps.",
+      "Declared PLAN windows still need actual complete controller/source-event timing binding.",
+      "Orthogonal 73-column sigma, residual/spectator operator and completed arbitrary-dirty endpoint remain separate."
+    ]
+  },
+  "provider_records": {
+    "atm3": {
+      "calls": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          8,
+          2
+        ]
+      ],
+      "count": 5,
+      "expected_events_each": {
+        "backward": 21559,
+        "forward": 21559
+      },
+      "program_orientation_sha256": {
+        "backward": "df7643b6e72bfdcb1eb39fe04954e51b6102668bb6dfba95c4275c5703e948cd",
+        "forward": "d2fd235ac4fa8fe5332676ce7f3553ac387ad9248b5df60f25e90444ff837fbe"
+      },
+      "artifact_raw_sha256": {
+        "CANONICAL-WORD.json.gz": "a3168e3b1d9eb3a001d2ae3632a01d41280481b6be78cf46dd4ebaf6f331225d",
+        "LOCAL-PROGRAMS.json.gz": "681e48e1719affe39d21772d219c19380b67cf0b793ca9eecb2d69492d9832b2",
+        "LOCAL-CHECKS.json": "e755d7f6f1eb1614fb18fdfd4326441dca30d837525866ffe5aa5373c65c6ba9",
+        "INDEPENDENT-LOCAL-REPLAY.json": "833525735a9edc59a455b64bb60a250bc04c393fff67dccff7ba13f33caed724",
+        "CLIFFORD-RECIPES.json": "4da96c507e1b851788713c658221851444d3dcbd420ed356a201e8df53b140e0",
+        "CLIFFORD-REVIEW.json": "8cb06536fe2d2aacca876991e43ea0ee291f9da7a733fb57eb956eec34789336",
+        "RESIDUAL-ADAPTERS.json": "7b0f3456a644f6ca794b74d933cf834c4a193af030cef6fe5b1d3eea3d19adc8"
+      },
+      "artifact_semantic_sha256": {
+        "CANONICAL-WORD.json.gz": "c869c87763d5a9007e5c8d5e3cc1b1599426a86a0e6caa5bd2dc652ca52a2e43",
+        "LOCAL-PROGRAMS.json.gz": "2ce07f8bd7694709be1c3b8a84ae8715a6a1ba10b3103852c18f516d7f254081",
+        "LOCAL-CHECKS.json": "aedbe90c7c0b30dc41f2caba1cf9bb2957aae096fb616fa0eaffb1620e17239e",
+        "INDEPENDENT-LOCAL-REPLAY.json": "44baa314ed44ae71f91c2683c3d089ca323746fc217ed09f9a0e848e65b8d9c7",
+        "CLIFFORD-RECIPES.json": "4da96c507e1b851788713c658221851444d3dcbd420ed356a201e8df53b140e0",
+        "CLIFFORD-REVIEW.json": "0f79e6c2585413255fdd4f09e13d4c3dce97ff4c4bea0a9fafddc4d01c2756c7",
+        "RESIDUAL-ADAPTERS.json": "149ea9ef3fd9a7d60ef0b80991ece477203df203a152fc0b6fdddd72696dd610"
+      },
+      "width_inventory": {
+        "4": 48,
+        "5": 8,
+        "7": 32,
+        "8": 140,
+        "9": 276
+      },
+      "build": {
+        "base": {
+          "kind": "source_file",
+          "file": "structural_gain:frontier-composition/combined-prefix-word/FULL-WORD.json.gz",
+          "content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6"
+        },
+        "steps": [
+          {
+            "type": "promote",
+            "recipe": "pkg:data/recipes/atm3-step0-promote.json",
+            "input_content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6",
+            "recipe_sha256": "9a7cafdf9b600ba43985c83969b75151f665b98f454afc1494b9f9ef3dd3916f",
+            "omission_controls": 4,
+            "output_content_sha256": "b672a8f4151a23fd420c7622fc127fb6c7f14564bb6cf93edfbd7aecbc38e1f9"
+          },
+          {
+            "type": "greedy_kernels",
+            "recipe": "pkg:data/recipes/atm3-step1-greedy_kernels.json",
+            "input_content_sha256": "b672a8f4151a23fd420c7622fc127fb6c7f14564bb6cf93edfbd7aecbc38e1f9",
+            "recipe_sha256": "c4bc67f329fc22e226f26bbbf7e67018a639823d99fccfc5a1e798a7a82db43f",
+            "omission_controls": 48,
+            "output_content_sha256": "8de156284cde6d475f9ef679d43ef52e9aa57a62fc3a2f554655131396c64236"
+          },
+          {
+            "type": "frame_coalesce",
+            "recipe": "pkg:data/recipes/atm3-step2-frame_coalesce.json",
+            "input_content_sha256": "8de156284cde6d475f9ef679d43ef52e9aa57a62fc3a2f554655131396c64236",
+            "recipe_sha256": "e6d7ea259a542f2b43a857998f677db4d68f8f36335e98a030bc91ab38ce758c",
+            "negative_controls": 12,
+            "output_content_sha256": "dffa3c643b522b524a79220c71aa15be9ee10134b3d597c293c643f6a543d472"
+          },
+          {
+            "type": "gate_move_coalesce",
+            "recipe": "pkg:data/recipes/atm3-step3-gate_move_coalesce.json",
+            "input_content_sha256": "dffa3c643b522b524a79220c71aa15be9ee10134b3d597c293c643f6a543d472",
+            "recipe_sha256": "3a6b8fec6c8b56a45bf8fae683083636fa295a8914ffa68d11b1f78ba3a2eb9d",
+            "negative_controls": 6,
+            "output_content_sha256": "f3f56a044177e0d4e3c0a8d47ce8d7ae90ad3332935d0c7dfb6b8cf28e290df4"
+          }
+        ],
+        "word_content_sha256": "f3f56a044177e0d4e3c0a8d47ce8d7ae90ad3332935d0c7dfb6b8cf28e290df4"
+      }
+    },
+    "ck": {
+      "calls": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "count": 66,
+      "expected_events_each": {
+        "backward": 21559,
+        "forward": 21559
+      },
+      "program_orientation_sha256": {
+        "backward": "6b0c79c3f045f8b168634a82bf74fbcfdafc9955c59ef4745a38f30ba1a574c0",
+        "forward": "0664e1d697434a49278093621ecc91d52133e7cd518d63d76cb3b9b192fe8dbf"
+      },
+      "artifact_raw_sha256": {
+        "CANONICAL-WORD.json.gz": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+        "LOCAL-PROGRAMS.json.gz": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+        "LOCAL-CHECKS.json": "1330c631cc63073c7c3b542f8a9d3a1039274259b51f96b44c9ae50a58074c9e",
+        "INDEPENDENT-LOCAL-REPLAY.json": "b8fcbb36a1a8a4417de8100324bd9faa4679eea8a3cb520edb9d9d2da52cddc5",
+        "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+        "CLIFFORD-REVIEW.json": "1d230dff3722c95aef789e9ce062b0be46134ddc6b50e7aed7fb12533951ea93",
+        "RESIDUAL-ADAPTERS.json": "13bac6a6538ed3ef021546ba8038e11db4ae85c49abcc86de4da3471fb7935c4"
+      },
+      "artifact_semantic_sha256": {
+        "CANONICAL-WORD.json.gz": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a",
+        "LOCAL-PROGRAMS.json.gz": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4",
+        "LOCAL-CHECKS.json": "3868b477aacdb3cf54f9b22c86b3b71f8aa73c91001729cf19e520b3bbf957cc",
+        "INDEPENDENT-LOCAL-REPLAY.json": "b2f3d7b64453e7336e63a894fc6afeb4f03e485c27c77cfc83c53874a6f9d484",
+        "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+        "CLIFFORD-REVIEW.json": "30249daa964b516c42d742d5dbf7ef950b02dc2fc572505e2e4b24c5fed01e96",
+        "RESIDUAL-ADAPTERS.json": "6421174f16576bd6a3caa99cad2182a8cfe3b1f47e627b6cba6d237e5764b262"
+      },
+      "width_inventory": {
+        "4": 8,
+        "5": 48,
+        "7": 32,
+        "8": 140,
+        "9": 276
+      },
+      "build": {
+        "base": {
+          "kind": "source_file",
+          "file": "structural_gain:frontier-composition/combined-prefix-word/FULL-WORD.json.gz",
+          "content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6"
+        },
+        "steps": [
+          {
+            "type": "greedy_kernels",
+            "recipe": "pkg:data/recipes/ck-step0-greedy_kernels.json",
+            "input_content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6",
+            "recipe_sha256": "c839199d0e6f8e976978fe97bc0c5579a65ba69dfb6864585b448cccc1113056",
+            "omission_controls": 48,
+            "output_content_sha256": "11afa6986e37fd10adda3453d6e55a7353302c9597b93807916a2e5f808e259b"
+          },
+          {
+            "type": "frame_coalesce",
+            "recipe": "pkg:data/recipes/ck-step1-frame_coalesce.json",
+            "input_content_sha256": "11afa6986e37fd10adda3453d6e55a7353302c9597b93807916a2e5f808e259b",
+            "recipe_sha256": "0c8e5991e1338f03b837814dd060d4dd598c324e3538ee510913e0444a384ee3",
+            "negative_controls": 12,
+            "output_content_sha256": "fac4ead822d8d18e441820f9ca87efeb1866414bb0b82817c6cce4655dc59269"
+          },
+          {
+            "type": "gate_move_coalesce",
+            "recipe": "pkg:data/recipes/ck-step2-gate_move_coalesce.json",
+            "input_content_sha256": "fac4ead822d8d18e441820f9ca87efeb1866414bb0b82817c6cce4655dc59269",
+            "recipe_sha256": "1f5b62c76915b1b8bbcf63b42dcbd87a536c34d3721c4a9b68e651404717bf00",
+            "negative_controls": 6,
+            "output_content_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b"
+          }
+        ],
+        "word_content_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b"
+      }
+    },
+    "jp8": {
+      "calls": [
+        [
+          2,
+          1
+        ]
+      ],
+      "count": 1,
+      "expected_events_each": {
+        "backward": 21479,
+        "forward": 21479
+      },
+      "program_orientation_sha256": {
+        "backward": "24882225fc77b9f11e5c0ef57e0c5ca909d9c9a1aab214b4e25608e2e421ee41",
+        "forward": "85f6356af29fbe34c8d0322c7171fb457c640bfdf552af0c60e8135edc42960b"
+      },
+      "artifact_raw_sha256": {
+        "CANONICAL-WORD.json.gz": "0122e6fd9eeccdc39a929b23c277177fe726d7bf304bfb1380531c7d147a285a",
+        "LOCAL-PROGRAMS.json.gz": "d70ed7874ffc8d09ff2911167b1ca34a9d467bb33e87f37bb6c8fa7c78122b29",
+        "LOCAL-CHECKS.json": "591d672aa14df9e6a67b05db49888dc2bade59ae04ed686ddfc9fb6274fb2da8",
+        "INDEPENDENT-LOCAL-REPLAY.json": "6aac1602035579cf8322580233075416ca0edc2ecb8e3d20ec971441291a94e2",
+        "CLIFFORD-RECIPES.json": "7bf14ad8734ba80d7c16925fd98566c8f2a0bff02e9f5859cc10d3b4e04b777a",
+        "CLIFFORD-REVIEW.json": "a22f10a56ad0de5460b32eb4e65b1504e801d203929e7aec1723a922470c37d5",
+        "RESIDUAL-ADAPTERS.json": "2e98a35a2cdbc2bc163cd9553d51dd4a8d58c6a53f031faa902877d596b45755"
+      },
+      "artifact_semantic_sha256": {
+        "CANONICAL-WORD.json.gz": "39e56aa491fcbbe0593276b0802cc8e564a3d541e524e69e14f94e927ec7581f",
+        "LOCAL-PROGRAMS.json.gz": "ff632a4705159ae0a7f07f02ee9c296995f6af22e258e132eb72e0ba0b1d7ea4",
+        "LOCAL-CHECKS.json": "97e3d3500e070049b2ba4bbcacfb0b93f5ef2c08029a863bbb2e5fd072590497",
+        "INDEPENDENT-LOCAL-REPLAY.json": "1708d1084d561243b713d539f5377e4d1cd0a97989f133132586880ff401c79a",
+        "CLIFFORD-RECIPES.json": "7bf14ad8734ba80d7c16925fd98566c8f2a0bff02e9f5859cc10d3b4e04b777a",
+        "CLIFFORD-REVIEW.json": "b6eb6eb38b7e5a69ef0b1c8c80cfd3abda1f719da3da46d66479a99875f248b0",
+        "RESIDUAL-ADAPTERS.json": "85fb4387cb172ed98a04b508e7b8d54f8e471b9ad246b905b63a5177c9365106"
+      },
+      "width_inventory": {
+        "4": 8,
+        "5": 48,
+        "8": 160,
+        "9": 288
+      },
+      "build": {
+        "base": {
+          "kind": "frozen558_promoted",
+          "content_sha256": "2b67fd69853dfc28f30ab5bb928f573077ae9d2bfa12cc36254d018d56133a5d"
+        },
+        "steps": [
+          {
+            "type": "cold_kernel",
+            "recipe": "multicold:data/EIGHT-COLD.json",
+            "input_content_sha256": "2b67fd69853dfc28f30ab5bb928f573077ae9d2bfa12cc36254d018d56133a5d",
+            "recipe_sha256": "089617bdc33fd9f27b7fc8e9ae9e01c8e65a86a57c4b6f180f4f378f3f0e6160",
+            "omission_controls": 6,
+            "output_content_sha256": "edb55811a9d38802c311c74bdd2d4d1b2f3eaf37d06e4178eef0785c2fa4b57d"
+          },
+          {
+            "type": "multicut",
+            "recipe": "multicold:data/EIGHT-MULTICOLD.json",
+            "input_content_sha256": "edb55811a9d38802c311c74bdd2d4d1b2f3eaf37d06e4178eef0785c2fa4b57d",
+            "recipe_sha256": "d18ea59995d384833c95a7a55d8167f83439b6881a524ab03df972ede3e0d7b9",
+            "omission_controls": 32,
+            "output_content_sha256": "055c0fb41d8b0d506674f62d0227833a74eabd19a022a1dfeb72c3952b7a030f"
+          },
+          {
+            "type": "frozen558_scalar_audits"
+          },
+          {
+            "type": "joint_prefix",
+            "variant": "eightcold",
+            "kernel_recipes": "joint_prefix:data/EIGHTCOLD-JOINT-KERNELS.json",
+            "recipe": "joint_prefix:data/JOINT-PREFIX.json",
+            "input_content_sha256": "055c0fb41d8b0d506674f62d0227833a74eabd19a022a1dfeb72c3952b7a030f",
+            "recipe_sha256": "0fddbd3f482b72a5197eacd75abe192e1d92f83aa2cde33a76dbc7be1682bcf2",
+            "kernel_recipes_sha256": "0381935d8d162eb48044bdf7e36a42af761f6d4032509b9b397ca02d3134f585",
+            "omission_controls": 135,
+            "rank5_controls": 8,
+            "joint_negative_controls": 15,
+            "output_content_sha256": "6c361b33967bb62d878b3acef44a4ac2c70970e99f36a11906b03811495de533"
+          }
+        ],
+        "word_content_sha256": "6c361b33967bb62d878b3acef44a4ac2c70970e99f36a11906b03811495de533"
+      }
+    }
+  },
+  "old_artifacts": [
+    {
+      "path": "research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "bytes": 184042,
+      "unchanged_from_7dfa": true,
+      "selected_manifest_member": false
+    },
+    {
+      "path": "research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789,
+      "unchanged_from_7dfa": true,
+      "selected_manifest_member": false
+    },
+    {
+      "path": "research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124,
+      "unchanged_from_7dfa": true,
+      "selected_manifest_member": false
+    }
+  ],
+  "reusable": [
+    "Parameterized CanonicalFrameCoverage, checked scalar decoder, sparse checkpoints and list composition unchanged as generic APIs.",
+    "PR509 event-restricted RecipesExact and PR516 full-state endpoint contracts remain applicable with actual new suppliers.",
+    "Old artifacts and accepted 212-row/first45 proofs stay exact source-specific evidence; no provider literal equivalence is inferred."
+  ],
+  "changed_obligations": [
+    "Three provider-local generated catalogs/canonical/programs differ from old selected artifact hashes.",
+    "Whole-call provider dispatch, per-provider wrappers/initial frames and owner-family chart binding.",
+    "Exact event keys/indices/labels and literal owner windows require current generated artifacts; no ordinal transfer."
+  ],
+  "source_lines": {
+    "witness.py": "6-13: SPEC-derived dispatch/order/provider IDs",
+    "emit_allcold.py": "25-79: source pins/provider registry/owner routes; 104-131: whole-call schedule and provider dispatch",
+    "audit_allcold.py": "85-118: chronological controller projection; 120-159: actual windows/owner routing/nonalias",
+    "verify.py": "59-62: full baseline default; 176-215: provider construction/localization and locals stopping point"
+  },
+  "next_minimum": "Recover exact ck generated artifacts, or generate the single ck chain under a separately reviewed bounded client; then compare literal labels/recipe keys and choose a real current slice.",
+  "execution": "No upstream module imported; no supplier, emitter, compiler or scientific replay executed. Static JSON/gzip/hash checks only."
+}

@@ -1,0 +1,120 @@
+{
+  "head": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "selected_manifest": {
+    "path": "research/community-family588-audit/SELECTED-SOURCE.json",
+    "sha256": "515b48dc5465aec3dd00bcc003a40f9ffb00069367fe47d990ca8b11945d512a",
+    "bytes": 276059
+  },
+  "files": [
+    {
+      "path": "research/complex-multicold/code/run_portable.py",
+      "sha256": "322d29d43dbee8130cde15d4bf05396698b5e3dfe3735813899db91cc0ba7955",
+      "bytes": 1160
+    },
+    {
+      "path": "research/complex-multicold/code/build_multicut_kernels.py",
+      "sha256": "6ab3d73f81d5b2fb884a93a336ef1940e118d419d425b3356bab3b97f774c9aa",
+      "bytes": 5779
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/static44/gk/gk_word.py",
+      "sha256": "f027a9273bcf4e0971258c160b7d3b3c196366b32a529cff6e6a0e666b03826b",
+      "bytes": 10009
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/static44/gk/gk_common.py",
+      "sha256": "e68d190fd436b2f3955decb590adb53344d5d4ea0a19d62d86df1e4b55ecd198",
+      "bytes": 5016
+    },
+    {
+      "path": "research/kernel-frame-coalescing/code/build_frames.py",
+      "sha256": "59f486c52293c76f1f6140c5f12f7a555a956b455e853c79136fc227deefbc3d",
+      "bytes": 3272
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/build_gate_moves.py",
+      "sha256": "08bf1c2652307aeefbab089fdaf02f82e2c396ca23a1eb68e294a67e74c44252",
+      "bytes": 5497
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/code/audit_and_transport.py",
+      "sha256": "a4fc272266785e1fffd44775c6fa6df783c4352de4c3f1d925cf953a23b84e7f",
+      "bytes": 9464
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/code/emit_local.py",
+      "sha256": "eefc76e0bee003015fe21ac685c2cce658033d5444add404d2d509c7d6f39bac",
+      "bytes": 7868
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/code/phases_full.py",
+      "sha256": "a273c325ffd6793d5b63b79a289a9d2bbc9292e6940fb5a926924f3708627af4",
+      "bytes": 2399
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford/clifford_exact.py",
+      "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+      "bytes": 6824
+    },
+    {
+      "path": "research/structural-gain/frontier-composition/combined-prefix-word/FULL-WORD.json.gz",
+      "sha256": "a6cd88224427bad6d00b6fbe1d201a2c09e496c90e2cecdc04d7f2ff11a4ba42",
+      "bytes": 36648
+    },
+    {
+      "path": "research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/inputs/phase-baseline/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "research/complex-571-free4fc8/data/recipes/ck-step0-greedy_kernels.json",
+      "sha256": "c839199d0e6f8e976978fe97bc0c5579a65ba69dfb6864585b448cccc1113056",
+      "bytes": 7766
+    },
+    {
+      "path": "research/complex-571-free4fc8/data/recipes/ck-step1-frame_coalesce.json",
+      "sha256": "0c8e5991e1338f03b837814dd060d4dd598c324e3538ee510913e0444a384ee3",
+      "bytes": 2211
+    },
+    {
+      "path": "research/complex-571-free4fc8/data/recipes/ck-step2-gate_move_coalesce.json",
+      "sha256": "1f5b62c76915b1b8bbcf63b42dcbd87a536c34d3721c4a9b68e651404717bf00",
+      "bytes": 1118
+    }
+  ],
+  "external_dependencies": "Python 3.13 standard library only; gk_word\u2192gk_common and phases_full\u2192clifford_exact are explicitly listed. Source import search paths must resolve these exact bytes.",
+  "root_source_pins": [
+    {
+      "path": "research/complex-571-free4fc8/data/SPEC.json",
+      "sha256": "c80de50d961c1b048134452c4e0080f75a2096bcccc2c2e304362b538ae4387a",
+      "bytes": 51414
+    },
+    {
+      "path": "research/complex-571-free4fc8/verify.py",
+      "sha256": "a2268c5edcbded3dd179c54eec040ababb77de4f41964a32b6daf3043f6fd3a0",
+      "bytes": 21803
+    },
+    {
+      "path": "research/complex-571-free4fc8/code/generated_identity.py",
+      "sha256": "c8af22719c0f3097a991a3f6ccac8f090afd2faba554745733d9ea88f2c25708",
+      "bytes": 2937
+    }
+  ],
+  "source_attribution": [
+    {
+      "path": "research/complex-571-free4fc8/NOTICE.md",
+      "sha256": "a4c084abdc1c7a9ac683eeb11124335d51cff8a6deba6ee92ba5a12bceaa2c97",
+      "bytes": 3441
+    },
+    {
+      "path": "research/complex-multicold/NOTICE.md",
+      "sha256": "d14c070a8e237cb1912e413ce22e98eb41f164b769ebaa97224c121fcc5a0fc5",
+      "bytes": 2886
+    },
+    {
+      "path": "research/kernel-frame-coalescing/NOTICE.md",
+      "sha256": "2285f8489d1588ea4deaf07a1ceb36fdc56dde5cecf228b82438284aea072050",
+      "bytes": 1205
+    }
+  ]
+}

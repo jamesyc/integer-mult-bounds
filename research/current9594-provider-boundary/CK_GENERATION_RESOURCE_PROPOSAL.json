@@ -1,0 +1,261 @@
+{
+  "status": "SOURCE_AND_RESOURCE_PROPOSAL_ONLY_NOT_ADMITTED",
+  "created_utc": "2026-10-12T16:07:21.234800+00:00",
+  "head": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "routing_readback_sha256": "4127198a3e0d8366e96227b800c2282af031f2ffb7d61ddfd93e80374a29c20c",
+  "input_inventory_sha256": "ec45dff85be3991f39ec4fbdefc88d968392c727c99519e6555ee596814e652c",
+  "goal": "Materialize exact selected ck FULL-WORD, CANONICAL-WORD, LOCAL-PROGRAMS and CLIFFORD-RECIPES for source-to-Lean literal comparison; preserve every check intrinsic to unchanged generating scripts.",
+  "authority_boundary": "Source/resource planning requested by root through integration; no execution until independent source/runtime/launcher review and explicit bounded admission.",
+  "cached_artifact_search": "Machine owns the parallel retained-artifact search outside the selected manifest. If an exact intermediate is recovered, freeze a smaller changed plan and review its hash before launch; do not automatically substitute inputs.",
+  "why_not_verify_until_locals": "verify.py lines59-62 replay the entire frozen558 baseline by default; lines209-215 build all three providers, and --until locals includes every provider local audit/phase chain. There is no ck-only generation switch. Direct unchanged child CLIs are available.",
+  "scope": {
+    "providers": [
+      "ck"
+    ],
+    "max_upstream_processes": 6,
+    "serial": true,
+    "baseline_replay": false,
+    "other_providers": false,
+    "global_owner_emitter": false,
+    "invoice_assembly": false,
+    "lean_compiler": false
+  },
+  "runtime": {
+    "python_path": "/usr/bin/python3.13",
+    "version_observed": "Python 3.13.5",
+    "sha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+    "argv_flags": [
+      "-I",
+      "-B",
+      "-X",
+      "utf8",
+      "-X",
+      "int_max_str_digits=0"
+    ],
+    "clean_environment": {
+      "PATH": "/usr/bin:/bin",
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "HOME": "external private empty run directory"
+    },
+    "unset": [
+      "PYTHONPATH",
+      "PYTHONHOME",
+      "PYTHONOPTIMIZE",
+      "WITNESS_DISCOVER"
+    ],
+    "no_site_user_imports": "-I isolated mode; source inserts only explicitly pinned own/GK/Clifford directories. No installation/network.",
+    "imports": "Only Python standard library plus exact gk_word, gk_common, clifford_exact listed in CK_GENERATION_INPUTS. All source output serialization retains unchanged run_portable wrapper."
+  },
+  "proposed_resources": {
+    "reason": "No local timing measurement exists for this ck chain. Conservative first-attempt bound, not predicted fit or throughput.",
+    "shared_slots": 1,
+    "parallel_children": 1,
+    "hard_per_process_address_space_bytes": 4294967296,
+    "review_per_process_vm_bytes": 3758096384,
+    "hard_per_job_wall_seconds": 600,
+    "review_per_job_wall_seconds": 480,
+    "hard_total_wall_seconds": 2100,
+    "max_output_directory_bytes": 536870912,
+    "max_single_file_bytes": 134217728,
+    "core_dump_bytes": 0,
+    "monitor": "Process-group wall/VM/RSS/thread count and actual child processes; per-process cap, record group memory without claiming an aggregate4GiB cap.",
+    "stop": "First nonzero exit, hash mismatch, unexpected output, missing source, resource review threshold or hard limit; retain all completed outputs and logs. No automatic retry or skipped successor."
+  },
+  "steps": [
+    {
+      "name": "ck-step0",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/build_multicut_kernels.py",
+        "--input",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/structural-gain/frontier-composition/combined-prefix-word/FULL-WORD.json.gz",
+        "--recipe",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/recipes/ck-step0-greedy_kernels.json",
+        "--gk-dir",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/static44/gk",
+        "--out",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0"
+      ],
+      "required_input_content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6",
+      "required_output_content_sha256": "11afa6986e37fd10adda3453d6e55a7353302c9597b93807916a2e5f808e259b",
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/FULL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/KERNEL-CONSTRUCTION.json"
+      ]
+    },
+    {
+      "name": "ck-step1",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/kernel-frame-coalescing/code/build_frames.py",
+        "--input",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step0/FULL-WORD.json.gz",
+        "--recipe",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/recipes/ck-step1-frame_coalesce.json",
+        "--gk-dir",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/static44/gk",
+        "--out",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1"
+      ],
+      "required_input_content_sha256": "11afa6986e37fd10adda3453d6e55a7353302c9597b93807916a2e5f808e259b",
+      "required_output_content_sha256": "fac4ead822d8d18e441820f9ca87efeb1866414bb0b82817c6cce4655dc59269",
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FULL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FRAME-CONSTRUCTION.json"
+      ]
+    },
+    {
+      "name": "ck-step2",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/code/build_gate_moves.py",
+        "--input",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step1/FULL-WORD.json.gz",
+        "--recipe",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/recipes/ck-step2-gate_move_coalesce.json",
+        "--gk-dir",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/static44/gk",
+        "--out",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2"
+      ],
+      "required_input_content_sha256": "fac4ead822d8d18e441820f9ca87efeb1866414bb0b82817c6cce4655dc59269",
+      "required_output_content_sha256": "efddf09daea03240f09f4b820704b07f53782a153e7dff154dbe7406e69cfb0b",
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FRAME-CONSTRUCTION.json"
+      ]
+    },
+    {
+      "name": "ck-localize",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/code/audit_and_transport.py",
+        "--raw",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-step2/FULL-WORD.json.gz",
+        "--routing",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-local/inputs/phase-baseline/CANONICAL-WORD.json.gz",
+        "--out",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local"
+      ],
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/FULL-WORD.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/SCALAR-FRAME-AUDIT.json"
+      ]
+    },
+    {
+      "name": "ck-emit",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/code/emit_local.py",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local"
+      ],
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-CHECKS.json"
+      ]
+    },
+    {
+      "name": "ck-recipes",
+      "argv": [
+        "/usr/bin/python3.13",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "-X",
+        "int_max_str_digits=0",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/code/run_portable.py",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/code/phases_full.py",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local",
+        "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford"
+      ],
+      "outputs": [
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+        "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-REVIEW.json"
+      ]
+    }
+  ],
+  "retained_checks": {
+    "ck-step0": "12 sequential selected cold-kernel insertions; exact dirty response, first-touch, dyadic, frame/profile and content-hash checks remain in source.",
+    "ck-step1": "Six frame-only edits, scalar/helper-response equality and all12 built-in omission/overpromotion controls.",
+    "ck-step2": "Two commuting gate moves and two frame changes, cleanup reconstruction, response/width invariants and all6 built-in controls.",
+    "ck-localize": "Unavoidable full728-column forward/backward arbitrary-dirt scalar checks inside canonicalizer, exact frame chain/profile and dyadic checks.",
+    "ck-emit": "Unavoidable scalar replay and private-centre clearing inside emitter for both orientations.",
+    "ck-recipes": "Every generated canonical frame and directed edge checked by existing exact Clifford implementation, including tableau/global-phase equality; no selected Lean theorem follows."
+  },
+  "excluded_verification": [
+    "Separate48 multicold omission controls from verify.py step0 wrapper are not run by direct constructor; no complete provider admission claim.",
+    "Independent audit_local.py mutation checks and adapters_local.py are not part of the minimum artifacts.",
+    "All-provider binding, owner/window/controller execution audit, global invoice, assembly, phase portability mutation suite and all-size theorem remain pending."
+  ],
+  "preflight_negative_controls": [
+    "Private byte-mutated copy of one recipe must fail input hash guard before any subprocess.",
+    "Private expected-content-hash mutation must fail final-output comparator; untouched exact output must pass.",
+    "Missing required input must block dispatch. These test the runner checks only and do not count as upstream scientific controls."
+  ],
+  "output_identity": {
+    "raw_hashes_recorded": {
+      "CANONICAL-WORD.json.gz": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "LOCAL-PROGRAMS.json.gz": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "LOCAL-CHECKS.json": "1330c631cc63073c7c3b542f8a9d3a1039274259b51f96b44c9ae50a58074c9e",
+      "INDEPENDENT-LOCAL-REPLAY.json": "b8fcbb36a1a8a4417de8100324bd9faa4679eea8a3cb520edb9d9d2da52cddc5",
+      "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "CLIFFORD-REVIEW.json": "1d230dff3722c95aef789e9ce062b0be46134ddc6b50e7aed7fb12533951ea93",
+      "RESIDUAL-ADAPTERS.json": "13bac6a6538ed3ef021546ba8038e11db4ae85c49abcc86de4da3471fb7935c4"
+    },
+    "mandatory_semantic_hashes": {
+      "CANONICAL-WORD.json.gz": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a",
+      "LOCAL-PROGRAMS.json.gz": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4",
+      "LOCAL-CHECKS.json": "3868b477aacdb3cf54f9b22c86b3b71f8aa73c91001729cf19e520b3bbf957cc",
+      "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "CLIFFORD-REVIEW.json": "30249daa964b516c42d742d5dbf7ef950b02dc2fc572505e2e4b24c5fed01e96"
+    },
+    "gzip": "Require exact decompressed payload hash. Record compressed hash separately; only the declared generated-identity normalization permits gzip serialization differences.",
+    "json": "Canonical sorted-key compact JSON includes every field. Phase receipt removes only validated finite nonnegative root seconds, and replaces actual matching canonical/recipe references with content identities, exactly generated_identity.py lines29-38.",
+    "catalog_raw_required": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+    "orientation_event_hashes": {
+      "backward": "6b0c79c3f045f8b168634a82bf74fbcfdafc9955c59ef4745a38f30ba1a574c0",
+      "forward": "0664e1d697434a49278093621ecc91d52133e7cd518d63d76cb3b9b192fe8dbf"
+    },
+    "event_count_expected_each": 21559
+  },
+  "completion": "All six named steps finish below review thresholds; final artifacts match exact selected identity semantics; source files remain unchanged. Then deliver raw/decompressed hashes and inspect one actual ck slice. Stop there, with no provider-global or Lean acceptance transfer.",
+  "operator_and_scientific_scope": "This is source artifact generation with intrinsic Python checks, not a new Lean certificate or full supplier audit. Conditional selected kappa is provenance only: 400569730495803/250000000000000000 = 0.001602278921983212."
+}

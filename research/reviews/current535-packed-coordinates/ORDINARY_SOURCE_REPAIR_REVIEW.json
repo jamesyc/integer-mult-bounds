@@ -1,0 +1,39 @@
+{
+  "status": "PASS_EXACT_PROOF_LOCAL_SOURCE_REPAIR_REVIEW",
+  "completed_utc": "2026-10-12T16:01:55.392842+00:00",
+  "repair_audit_sha256": "2e1d973182018f4887934c743abda54654c37cb9de9c41af9da7b43a5227dd84",
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/Current535PackedCoordinates.lean",
+    "sha256": "3806de9c06e5073c7e8c1fd94aea40acbe8f62d7b105e6403aab3c2d1d6818aa",
+    "bytes": 5248
+  },
+  "failed_source": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/packed_coordinates/Current535PackedCoordinates.lean",
+    "sha256": "6d0df547dfd5f6293b6b92e5575e719f0091b34a17759a09e04bf8c3976dab94",
+    "bytes": 5048
+  },
+  "failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/gate/first_failure/PRESERVATION.json",
+    "sha256": "b4beafc213171f36f0b41f506f65b05a0299d52967718b77c00fa9f3ddc31d34",
+    "bytes": 9233
+  },
+  "verified": [
+    "All 15 archived records rehash to preservation pins; actual failed log read.",
+    "Exact inverse replaces nine explicit width-9 annotations and one ordered proof fragment, recovering every failed source byte.",
+    "Public theorem statements, imports, fixed Packed=Fin512 and Address=Fin9\u2192ZMod2 domain, payload direction and ten probes unchanged.",
+    "Ordered getLsbD_cast then getLsbD_ofBoolListLE exposes the exact List.ofFn getElem index; i.isLt supplies its range.",
+    "Width annotations make the existing intended nine-bit domain explicit, including packedXor definition; no new arithmetic claim or selected data."
+  ],
+  "review_limits": [
+    "The initial source-only review missed elaboration/API inference failures; no compiler acceptance was inferred.",
+    "Runtime/current/failed-prestate launcher admission remains integration-owned.",
+    "No compilation or supplier replay performed by reviewer."
+  ],
+  "width_annotations": 9,
+  "scope": [
+    10,
+    9,
+    1
+  ],
+  "external_pairs": 2620
+}
