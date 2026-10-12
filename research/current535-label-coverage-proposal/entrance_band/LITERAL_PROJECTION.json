@@ -1,0 +1,2661 @@
+{
+  "status": "SOURCE_LITERAL_ONLY",
+  "current_snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "bytes": 184042,
+      "uncompressed_sha256": "264d82af892c1425d17cf7dd838cae6e501d035c6493519aaa8366a2e24bc779",
+      "uncompressed_bytes": 1854016
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124,
+      "uncompressed_sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "uncompressed_bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789,
+      "uncompressed_sha256": "7c84ac65c8b37173aa4293934f041915895e8ec30595844cc1534e2a19ae0d25",
+      "uncompressed_bytes": 434983
+    }
+  ],
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/decode_current45.py",
+    "sha256": "5f7bc612d2ec817c4561b9e928dcdc80e2bb42a3bf6bb2abf69634b53c068550",
+    "bytes": 9004
+  },
+  "generator": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/entrance_band/prepare_source.py",
+    "sha256": "ac10e0cafe94d91d15b57c6e47a6f773eb5a81be6788918ec42b0e8e30e03d58",
+    "bytes": 10738
+  },
+  "blocks": [
+    {
+      "letter": "I",
+      "raw_inclusive": [
+        10871,
+        10894
+      ],
+      "rows_each": 24,
+      "checkpoint": 204,
+      "support": [
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "values": [
+        [
+          224,
+          6
+        ],
+        [
+          225,
+          6
+        ],
+        [
+          226,
+          7
+        ],
+        [
+          227,
+          7
+        ],
+        [
+          228,
+          8
+        ],
+        [
+          229,
+          8
+        ],
+        [
+          230,
+          9
+        ],
+        [
+          231,
+          9
+        ],
+        [
+          232,
+          10
+        ],
+        [
+          233,
+          10
+        ],
+        [
+          234,
+          11
+        ],
+        [
+          235,
+          11
+        ]
+      ],
+      "histogram_each": {
+        "ADD": 12,
+        "relabel": 12
+      },
+      "child_ordinals": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "letter": "J",
+      "raw_inclusive": [
+        10895,
+        10902
+      ],
+      "rows_each": 8,
+      "checkpoint": 212,
+      "support": [
+        236,
+        237,
+        238,
+        239
+      ],
+      "values": [
+        [
+          236,
+          12
+        ],
+        [
+          237,
+          12
+        ],
+        [
+          238,
+          13
+        ],
+        [
+          239,
+          13
+        ]
+      ],
+      "histogram_each": {
+        "ADD": 4,
+        "relabel": 4
+      },
+      "child_ordinals": [
+        10,
+        11
+      ]
+    }
+  ],
+  "raw_rows": {
+    "forward": {
+      "I": [
+        [
+          "climb",
+          "A",
+          224,
+          0,
+          6,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              224
+            ],
+            [
+              "L",
+              0
+            ],
+            1,
+            1
+          ],
+          6
+        ],
+        [
+          "climb",
+          "A",
+          225,
+          0,
+          6,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              225
+            ],
+            [
+              "L",
+              0
+            ],
+            1,
+            1
+          ],
+          6
+        ],
+        [
+          "climb",
+          "A",
+          226,
+          0,
+          7,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              226
+            ],
+            [
+              "L",
+              76
+            ],
+            1,
+            1
+          ],
+          7
+        ],
+        [
+          "climb",
+          "A",
+          227,
+          0,
+          7,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              227
+            ],
+            [
+              "L",
+              76
+            ],
+            1,
+            1
+          ],
+          7
+        ],
+        [
+          "climb",
+          "A",
+          228,
+          0,
+          8,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              228
+            ],
+            [
+              "L",
+              87
+            ],
+            1,
+            1
+          ],
+          8
+        ],
+        [
+          "climb",
+          "A",
+          229,
+          0,
+          8,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              229
+            ],
+            [
+              "L",
+              87
+            ],
+            1,
+            1
+          ],
+          8
+        ],
+        [
+          "climb",
+          "A",
+          230,
+          0,
+          9,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              230
+            ],
+            [
+              "L",
+              27
+            ],
+            1,
+            1
+          ],
+          9
+        ],
+        [
+          "climb",
+          "A",
+          231,
+          0,
+          9,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              231
+            ],
+            [
+              "L",
+              27
+            ],
+            1,
+            1
+          ],
+          9
+        ],
+        [
+          "climb",
+          "A",
+          232,
+          0,
+          10,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              232
+            ],
+            [
+              "L",
+              92
+            ],
+            1,
+            1
+          ],
+          10
+        ],
+        [
+          "climb",
+          "A",
+          233,
+          0,
+          10,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              233
+            ],
+            [
+              "L",
+              92
+            ],
+            1,
+            1
+          ],
+          10
+        ],
+        [
+          "climb",
+          "A",
+          234,
+          0,
+          11,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              234
+            ],
+            [
+              "L",
+              57
+            ],
+            1,
+            1
+          ],
+          11
+        ],
+        [
+          "climb",
+          "A",
+          235,
+          0,
+          11,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              235
+            ],
+            [
+              "L",
+              57
+            ],
+            1,
+            1
+          ],
+          11
+        ]
+      ],
+      "J": [
+        [
+          "climb",
+          "A",
+          236,
+          0,
+          12,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              236
+            ],
+            [
+              "L",
+              7
+            ],
+            1,
+            1
+          ],
+          12
+        ],
+        [
+          "climb",
+          "A",
+          237,
+          0,
+          12,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              237
+            ],
+            [
+              "L",
+              7
+            ],
+            1,
+            1
+          ],
+          12
+        ],
+        [
+          "climb",
+          "A",
+          238,
+          0,
+          13,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              238
+            ],
+            [
+              "L",
+              81
+            ],
+            1,
+            1
+          ],
+          13
+        ],
+        [
+          "climb",
+          "A",
+          239,
+          0,
+          13,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              239
+            ],
+            [
+              "L",
+              81
+            ],
+            1,
+            1
+          ],
+          13
+        ]
+      ]
+    },
+    "backward": {
+      "I": [
+        [
+          "climb",
+          "A",
+          224,
+          0,
+          6,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              0
+            ],
+            [
+              "L",
+              224
+            ],
+            -1,
+            1
+          ],
+          6
+        ],
+        [
+          "climb",
+          "A",
+          225,
+          0,
+          6,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              0
+            ],
+            [
+              "L",
+              225
+            ],
+            -1,
+            1
+          ],
+          6
+        ],
+        [
+          "climb",
+          "A",
+          226,
+          0,
+          7,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              76
+            ],
+            [
+              "L",
+              226
+            ],
+            -1,
+            1
+          ],
+          7
+        ],
+        [
+          "climb",
+          "A",
+          227,
+          0,
+          7,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              76
+            ],
+            [
+              "L",
+              227
+            ],
+            -1,
+            1
+          ],
+          7
+        ],
+        [
+          "climb",
+          "A",
+          228,
+          0,
+          8,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              87
+            ],
+            [
+              "L",
+              228
+            ],
+            -1,
+            1
+          ],
+          8
+        ],
+        [
+          "climb",
+          "A",
+          229,
+          0,
+          8,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              87
+            ],
+            [
+              "L",
+              229
+            ],
+            -1,
+            1
+          ],
+          8
+        ],
+        [
+          "climb",
+          "A",
+          230,
+          0,
+          9,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              27
+            ],
+            [
+              "L",
+              230
+            ],
+            -1,
+            1
+          ],
+          9
+        ],
+        [
+          "climb",
+          "A",
+          231,
+          0,
+          9,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              27
+            ],
+            [
+              "L",
+              231
+            ],
+            -1,
+            1
+          ],
+          9
+        ],
+        [
+          "climb",
+          "A",
+          232,
+          0,
+          10,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              92
+            ],
+            [
+              "L",
+              232
+            ],
+            -1,
+            1
+          ],
+          10
+        ],
+        [
+          "climb",
+          "A",
+          233,
+          0,
+          10,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              92
+            ],
+            [
+              "L",
+              233
+            ],
+            -1,
+            1
+          ],
+          10
+        ],
+        [
+          "climb",
+          "A",
+          234,
+          0,
+          11,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              57
+            ],
+            [
+              "L",
+              234
+            ],
+            -1,
+            1
+          ],
+          11
+        ],
+        [
+          "climb",
+          "A",
+          235,
+          0,
+          11,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              57
+            ],
+            [
+              "L",
+              235
+            ],
+            -1,
+            1
+          ],
+          11
+        ]
+      ],
+      "J": [
+        [
+          "climb",
+          "A",
+          236,
+          0,
+          12,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              7
+            ],
+            [
+              "L",
+              236
+            ],
+            -1,
+            1
+          ],
+          12
+        ],
+        [
+          "climb",
+          "A",
+          237,
+          0,
+          12,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              7
+            ],
+            [
+              "L",
+              237
+            ],
+            -1,
+            1
+          ],
+          12
+        ],
+        [
+          "climb",
+          "A",
+          238,
+          0,
+          13,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              81
+            ],
+            [
+              "L",
+              238
+            ],
+            -1,
+            1
+          ],
+          13
+        ],
+        [
+          "climb",
+          "A",
+          239,
+          0,
+          13,
+          1
+        ],
+        [
+          "scalar",
+          [
+            "add",
+            [
+              "L",
+              81
+            ],
+            [
+              "L",
+              239
+            ],
+            -1,
+            1
+          ],
+          13
+        ]
+      ]
+    }
+  },
+  "typed_rows": {
+    "forward": {
+      "I": [
+        {
+          "sourceIndex": 10871,
+          "event": [
+            "relabel",
+            224,
+            0,
+            6
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            4,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10872,
+          "event": [
+            "add",
+            224,
+            0,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 6,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10873,
+          "event": [
+            "relabel",
+            225,
+            0,
+            6
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            4,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10874,
+          "event": [
+            "add",
+            225,
+            0,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 6,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10875,
+          "event": [
+            "relabel",
+            226,
+            0,
+            7
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            5,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10876,
+          "event": [
+            "add",
+            226,
+            76,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 7,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10877,
+          "event": [
+            "relabel",
+            227,
+            0,
+            7
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            5,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10878,
+          "event": [
+            "add",
+            227,
+            76,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 7,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10879,
+          "event": [
+            "relabel",
+            228,
+            0,
+            8
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            6,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10880,
+          "event": [
+            "add",
+            228,
+            87,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 8,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10881,
+          "event": [
+            "relabel",
+            229,
+            0,
+            8
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            6,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10882,
+          "event": [
+            "add",
+            229,
+            87,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 8,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10883,
+          "event": [
+            "relabel",
+            230,
+            0,
+            9
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            7,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10884,
+          "event": [
+            "add",
+            230,
+            27,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 9,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10885,
+          "event": [
+            "relabel",
+            231,
+            0,
+            9
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            7,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10886,
+          "event": [
+            "add",
+            231,
+            27,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 9,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10887,
+          "event": [
+            "relabel",
+            232,
+            0,
+            10
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            8,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10888,
+          "event": [
+            "add",
+            232,
+            92,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 10,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10889,
+          "event": [
+            "relabel",
+            233,
+            0,
+            10
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            8,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10890,
+          "event": [
+            "add",
+            233,
+            92,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 10,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10891,
+          "event": [
+            "relabel",
+            234,
+            0,
+            11
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            9,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10892,
+          "event": [
+            "add",
+            234,
+            57,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 11,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10893,
+          "event": [
+            "relabel",
+            235,
+            0,
+            11
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            9,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10894,
+          "event": [
+            "add",
+            235,
+            57,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 11,
+          "childRef": null
+        }
+      ],
+      "J": [
+        {
+          "sourceIndex": 10895,
+          "event": [
+            "relabel",
+            236,
+            0,
+            12
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            10,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10896,
+          "event": [
+            "add",
+            236,
+            7,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 12,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10897,
+          "event": [
+            "relabel",
+            237,
+            0,
+            12
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            10,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10898,
+          "event": [
+            "add",
+            237,
+            7,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 12,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10899,
+          "event": [
+            "relabel",
+            238,
+            0,
+            13
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            11,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10900,
+          "event": [
+            "add",
+            238,
+            81,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 13,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10901,
+          "event": [
+            "relabel",
+            239,
+            0,
+            13
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            11,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10902,
+          "event": [
+            "add",
+            239,
+            81,
+            [
+              1,
+              1
+            ]
+          ],
+          "scalarFrame": 13,
+          "childRef": null
+        }
+      ]
+    },
+    "backward": {
+      "I": [
+        {
+          "sourceIndex": 10871,
+          "event": [
+            "relabel",
+            224,
+            0,
+            6
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            4,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10872,
+          "event": [
+            "add",
+            0,
+            224,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 6,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10873,
+          "event": [
+            "relabel",
+            225,
+            0,
+            6
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            4,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10874,
+          "event": [
+            "add",
+            0,
+            225,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 6,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10875,
+          "event": [
+            "relabel",
+            226,
+            0,
+            7
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            5,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10876,
+          "event": [
+            "add",
+            76,
+            226,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 7,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10877,
+          "event": [
+            "relabel",
+            227,
+            0,
+            7
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            5,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10878,
+          "event": [
+            "add",
+            76,
+            227,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 7,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10879,
+          "event": [
+            "relabel",
+            228,
+            0,
+            8
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            6,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10880,
+          "event": [
+            "add",
+            87,
+            228,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 8,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10881,
+          "event": [
+            "relabel",
+            229,
+            0,
+            8
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            6,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10882,
+          "event": [
+            "add",
+            87,
+            229,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 8,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10883,
+          "event": [
+            "relabel",
+            230,
+            0,
+            9
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            7,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10884,
+          "event": [
+            "add",
+            27,
+            230,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 9,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10885,
+          "event": [
+            "relabel",
+            231,
+            0,
+            9
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            7,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10886,
+          "event": [
+            "add",
+            27,
+            231,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 9,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10887,
+          "event": [
+            "relabel",
+            232,
+            0,
+            10
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            8,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10888,
+          "event": [
+            "add",
+            92,
+            232,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 10,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10889,
+          "event": [
+            "relabel",
+            233,
+            0,
+            10
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            8,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10890,
+          "event": [
+            "add",
+            92,
+            233,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 10,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10891,
+          "event": [
+            "relabel",
+            234,
+            0,
+            11
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            9,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10892,
+          "event": [
+            "add",
+            57,
+            234,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 11,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10893,
+          "event": [
+            "relabel",
+            235,
+            0,
+            11
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            9,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10894,
+          "event": [
+            "add",
+            57,
+            235,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 11,
+          "childRef": null
+        }
+      ],
+      "J": [
+        {
+          "sourceIndex": 10895,
+          "event": [
+            "relabel",
+            236,
+            0,
+            12
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            10,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10896,
+          "event": [
+            "add",
+            7,
+            236,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 12,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10897,
+          "event": [
+            "relabel",
+            237,
+            0,
+            12
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            10,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10898,
+          "event": [
+            "add",
+            7,
+            237,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 12,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10899,
+          "event": [
+            "relabel",
+            238,
+            0,
+            13
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            11,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10900,
+          "event": [
+            "add",
+            81,
+            238,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 13,
+          "childRef": null
+        },
+        {
+          "sourceIndex": 10901,
+          "event": [
+            "relabel",
+            239,
+            0,
+            13
+          ],
+          "scalarFrame": null,
+          "childRef": [
+            11,
+            1
+          ]
+        },
+        {
+          "sourceIndex": 10902,
+          "event": [
+            "add",
+            81,
+            239,
+            [
+              -1,
+              1
+            ]
+          ],
+          "scalarFrame": 13,
+          "childRef": null
+        }
+      ]
+    }
+  },
+  "histograms": {
+    "forward": {
+      "I": {
+        "relabel": 12,
+        "add": 12
+      },
+      "J": {
+        "relabel": 4,
+        "add": 4
+      }
+    },
+    "backward": {
+      "I": {
+        "relabel": 12,
+        "add": 12
+      },
+      "J": {
+        "relabel": 4,
+        "add": 4
+      }
+    }
+  },
+  "catalog_records": [
+    {
+      "ordinal": 4,
+      "key": [
+        0,
+        6,
+        1
+      ],
+      "ordered_descriptor": [
+        11
+      ],
+      "normalized_record_sha256": "9c6f21acd67cc0ef013398624f346c4007a4afd2cd013569157061de61c7fcab",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            3,
+            5,
+            8,
+            1,
+            16,
+            32,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 6,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            3,
+            3,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            11,
+            9,
+            10,
+            4,
+            16,
+            32,
+            64,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 5,
+      "key": [
+        0,
+        7,
+        1
+      ],
+      "ordered_descriptor": [
+        448
+      ],
+      "normalized_record_sha256": "249c618fc6df576cf179bbbc96dce25cb6b8728dca3639a0fc1f32021e40e4d9",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            129,
+            257,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 7,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            2
+          ],
+          "matrix_rows": [
+            448,
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            320,
+            384
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            192,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 6,
+      "key": [
+        0,
+        8,
+        1
+      ],
+      "ordered_descriptor": [
+        493
+      ],
+      "normalized_record_sha256": "b9c450ad80ac34789e84ac1bd6a8e83dda41e258ccfbcd50fa9e0630380e7c8c",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            3,
+            4,
+            9,
+            17,
+            32,
+            65,
+            129,
+            257,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 8,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            3,
+            0,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3,
+            2
+          ],
+          "matrix_rows": [
+            493,
+            257,
+            2,
+            260,
+            264,
+            16,
+            288,
+            320,
+            384
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            237,
+            0,
+            237,
+            237,
+            0,
+            237,
+            237,
+            237,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 7,
+      "key": [
+        0,
+        9,
+        1
+      ],
+      "ordered_descriptor": [
+        38
+      ],
+      "normalized_record_sha256": "5309f411b17cfe1d57e282691995b96931578f24361337608849925c593d0c02",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            5,
+            9,
+            16,
+            32,
+            1,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 9,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            3,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            38,
+            1,
+            34,
+            36,
+            8,
+            16,
+            64,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            6,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 8,
+      "key": [
+        0,
+        10,
+        1
+      ],
+      "ordered_descriptor": [
+        499
+      ],
+      "normalized_record_sha256": "9a854ce4f1803cbb827092812b9c3f68b55bc573f497d068bb9d712a3e53c1ef",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            3,
+            5,
+            8,
+            16,
+            33,
+            65,
+            129,
+            257,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 10,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            3,
+            3,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            2
+          ],
+          "matrix_rows": [
+            499,
+            257,
+            258,
+            4,
+            8,
+            272,
+            288,
+            320,
+            384
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            243,
+            243,
+            0,
+            0,
+            243,
+            243,
+            243,
+            243,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 9,
+      "key": [
+        0,
+        11,
+        1
+      ],
+      "ordered_descriptor": [
+        56
+      ],
+      "normalized_record_sha256": "662efefc72c7574d9f54d94f6c8b78fd35076c458d5a93685c208bbcda240368",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            4,
+            8,
+            17,
+            33,
+            1,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 11,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            56,
+            1,
+            2,
+            4,
+            40,
+            48,
+            64,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            24,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 10,
+      "key": [
+        0,
+        12,
+        1
+      ],
+      "ordered_descriptor": [
+        21
+      ],
+      "normalized_record_sha256": "fbdb13a0412adb55eb5fa07f3b3a660535a7504739019fa707ffff7a714591ca",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            3,
+            4,
+            9,
+            16,
+            1,
+            32,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 12,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            3,
+            0,
+            3,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            21,
+            17,
+            2,
+            20,
+            8,
+            32,
+            64,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            5,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "ordinal": 11,
+      "key": [
+        0,
+        13,
+        1
+      ],
+      "ordered_descriptor": [
+        478
+      ],
+      "normalized_record_sha256": "5d31f4d2c8df631d4e3554776a5147603f98612982932413f652033064656636",
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            5,
+            9,
+            17,
+            33,
+            64,
+            129,
+            257,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 13,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            2
+          ],
+          "matrix_rows": [
+            478,
+            1,
+            258,
+            260,
+            264,
+            272,
+            32,
+            320,
+            384
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            222,
+            222,
+            222,
+            222,
+            0,
+            222,
+            222,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "stop_boundary": {
+    "raw_index": 10903,
+    "forward": [
+      "climb",
+      "A",
+      0,
+      6,
+      14,
+      1
+    ],
+    "backward": [
+      "climb",
+      "A",
+      0,
+      6,
+      14,
+      1
+    ]
+  },
+  "no_label_or_operator_execution": true
+}

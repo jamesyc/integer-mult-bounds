@@ -1,0 +1,56 @@
+{
+  "helper": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668",
+    "bytes": 5111
+  },
+  "results": [
+    {
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/entrance_band/Current535EntranceBandData.lean",
+        "sha256": "1d9a4cffdf687c83d930490204c7c9857aefea076107b698ee1f61f0fd1a6618",
+        "bytes": 4721
+      },
+      "result": {
+        "status": "ADVISORY_NO_ASCII_IMBALANCE",
+        "reason": null,
+        "advisory_only": true,
+        "parser_or_kernel_claim": false,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "issue_count": 0,
+        "issues": [],
+        "issue_output_limit": 32,
+        "bytes_read": 4721,
+        "source_sha256": "1d9a4cffdf687c83d930490204c7c9857aefea076107b698ee1f61f0fd1a6618",
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/entrance_band/Current535EntranceBandData.lean",
+        "elapsed_seconds": 0.006163800993817858,
+        "max_source_bytes": 1048576
+      },
+      "elapsed_seconds": 0.14881250499456655
+    },
+    {
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/entrance_band/Current535EntranceBandCheck.lean",
+        "sha256": "f2eb32edfa93f16b8155b317fe9fb52cf047d54ce921c5d2c158a4f546f737c0",
+        "bytes": 14607
+      },
+      "result": {
+        "status": "ADVISORY_NO_ASCII_IMBALANCE",
+        "reason": null,
+        "advisory_only": true,
+        "parser_or_kernel_claim": false,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "issue_count": 0,
+        "issues": [],
+        "issue_output_limit": 32,
+        "bytes_read": 14607,
+        "source_sha256": "f2eb32edfa93f16b8155b317fe9fb52cf047d54ce921c5d2c158a4f546f737c0",
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/entrance_band/Current535EntranceBandCheck.lean",
+        "elapsed_seconds": 0.030841002997476608,
+        "max_source_bytes": 1048576
+      },
+      "elapsed_seconds": 0.42361013300251216
+    }
+  ],
+  "advisory_only": true
+}
