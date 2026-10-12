@@ -1,0 +1,265 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW",
+  "utc": "2026-10-12T14:42:39.930073+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-centre-band/CurrentScalarCentreBand.lean",
+    "sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d",
+    "bytes": 37670
+  },
+  "current_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "conditional_source_kappa": "1584931111785787/1000000000000000000 = 0.001584931111785787",
+  "source_inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "bytes": 184042
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/community-family533-audit/SELECTED-SOURCE.json",
+      "sha256": "e9eef5227a626e07f55296ac3edc9949bcb744f096295a3d5614ec619539eaca",
+      "bytes": 67710
+    }
+  ],
+  "literal_projection": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current_centre_band_proposal/LITERAL_PROJECTION.json",
+    "sha256": "06f7bcb3d4d1eeb44a9a3ae26ae19b1a5e9c8099be17fd710ffb7536e8e2b506",
+    "bytes": 204694
+  },
+  "current_frame_count": 997,
+  "register_count": 736,
+  "original_inputs": 728,
+  "centre_count": 8,
+  "rows_per_direction": 256,
+  "inclusive_raw_indices": [
+    13762,
+    14017
+  ],
+  "histograms": {
+    "forward": {
+      "clear": 16,
+      "copy": 8,
+      "center": 8,
+      "add": 224
+    },
+    "backward": {
+      "clear": 16,
+      "add": 232,
+      "center": 8
+    }
+  },
+  "clear_boundaries": {
+    "forward": [
+      {
+        "centre": 0,
+        "inclusive_raw": [
+          13762,
+          13793
+        ],
+        "initial_frame": 412,
+        "final_frame": 0,
+        "centre_row": 13764
+      },
+      {
+        "centre": 1,
+        "inclusive_raw": [
+          13794,
+          13825
+        ],
+        "initial_frame": 413,
+        "final_frame": 0,
+        "centre_row": 13796
+      },
+      {
+        "centre": 2,
+        "inclusive_raw": [
+          13826,
+          13857
+        ],
+        "initial_frame": 414,
+        "final_frame": 0,
+        "centre_row": 13828
+      },
+      {
+        "centre": 3,
+        "inclusive_raw": [
+          13858,
+          13889
+        ],
+        "initial_frame": 415,
+        "final_frame": 0,
+        "centre_row": 13860
+      },
+      {
+        "centre": 4,
+        "inclusive_raw": [
+          13890,
+          13921
+        ],
+        "initial_frame": 416,
+        "final_frame": 0,
+        "centre_row": 13892
+      },
+      {
+        "centre": 5,
+        "inclusive_raw": [
+          13922,
+          13953
+        ],
+        "initial_frame": 417,
+        "final_frame": 0,
+        "centre_row": 13924
+      },
+      {
+        "centre": 6,
+        "inclusive_raw": [
+          13954,
+          13985
+        ],
+        "initial_frame": 418,
+        "final_frame": 0,
+        "centre_row": 13956
+      },
+      {
+        "centre": 7,
+        "inclusive_raw": [
+          13986,
+          14017
+        ],
+        "initial_frame": 419,
+        "final_frame": 0,
+        "centre_row": 13988
+      }
+    ],
+    "backward": [
+      {
+        "centre": 0,
+        "inclusive_raw": [
+          13762,
+          13793
+        ],
+        "initial_frame": 0,
+        "final_frame": 412,
+        "centre_row": 13791
+      },
+      {
+        "centre": 1,
+        "inclusive_raw": [
+          13794,
+          13825
+        ],
+        "initial_frame": 0,
+        "final_frame": 413,
+        "centre_row": 13823
+      },
+      {
+        "centre": 2,
+        "inclusive_raw": [
+          13826,
+          13857
+        ],
+        "initial_frame": 0,
+        "final_frame": 414,
+        "centre_row": 13855
+      },
+      {
+        "centre": 3,
+        "inclusive_raw": [
+          13858,
+          13889
+        ],
+        "initial_frame": 0,
+        "final_frame": 415,
+        "centre_row": 13887
+      },
+      {
+        "centre": 4,
+        "inclusive_raw": [
+          13890,
+          13921
+        ],
+        "initial_frame": 0,
+        "final_frame": 416,
+        "centre_row": 13919
+      },
+      {
+        "centre": 5,
+        "inclusive_raw": [
+          13922,
+          13953
+        ],
+        "initial_frame": 0,
+        "final_frame": 417,
+        "centre_row": 13951
+      },
+      {
+        "centre": 6,
+        "inclusive_raw": [
+          13954,
+          13985
+        ],
+        "initial_frame": 0,
+        "final_frame": 418,
+        "centre_row": 13983
+      },
+      {
+        "centre": 7,
+        "inclusive_raw": [
+          13986,
+          14017
+        ],
+        "initial_frame": 0,
+        "final_frame": 419,
+        "centre_row": 14015
+      }
+    ]
+  },
+  "generic_reuse": "Accepted F19CentreBand.certified_band_independent is instantiated on an explicit scalar-only frame-erasing projection. Current Row997 and decoded ScalarEvent997 retain true labels; no Fin997 to Fin983 domain embedding or historical selected264-band equality is asserted.",
+  "new_proof_boundary": [
+    "A parametric current-frame signed rational decoder preserving labels.",
+    "Explicit one-step and ordered-list transport to the accepted raw scalar interpreter.",
+    "Two exact current256-row certificates, each with arbitrary incoming centre values and final zero centres."
+  ],
+  "expected_probes": [
+    "CurrentMain.CurrentScalarCentreBand.rows_decode",
+    "CurrentMain.CurrentScalarCentreBand.decoded_step",
+    "CurrentMain.CurrentScalarCentreBand.decoded_rows_run",
+    "CurrentMain.CurrentScalarCentreBand.decoded_labels",
+    "CurrentMain.CurrentScalarCentreBand.certified_current_band",
+    "CurrentMain.CurrentScalarCentreBand.forward_independent",
+    "CurrentMain.CurrentScalarCentreBand.forward_interpreted",
+    "CurrentMain.CurrentScalarCentreBand.backward_independent",
+    "CurrentMain.CurrentScalarCentreBand.backward_interpreted",
+    "CurrentMain.CurrentScalarCentreBand.exact_source_indices"
+  ],
+  "kernel_decisions": 6,
+  "prospective_minimal_import_scope": [
+    9,
+    8,
+    1
+  ],
+  "scope_count_qualification": "Seven accepted F19CentreBand closure nodes plus newly accepted CanonicalFrameCoverage (shared PR509) plus this sole fresh source; exact inventory to be frozen after independent source review.",
+  "external_runtime": "Existing2232-pair union expected; no new external import. Must verify exact closure before admission.",
+  "limits": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "scientific_gaps": [
+    "No current band label WellLabelled or rank8 centre recipe/physical realization is asserted by scalar erasure.",
+    "Current raw prefix/suffix typed suppliers and all omitted adapters/phase/residuals remain open.",
+    "No full22253-row execution, input chart, coefficient-work lifecycle, all-register physical row/column or multiplication theorem."
+  ],
+  "historical_preservation": "The accepted f19 264-event band and limited current first64 frame0 embedding are unchanged.",
+  "no_compiler": true
+}
