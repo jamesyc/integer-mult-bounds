@@ -79,8 +79,8 @@ def childReferenceB (p : SelectedData) (row : Row) : Bool :=
 def checkRows (p : SelectedData) : List Row → (Register → FrameLabel) → Bool
   | [], _ => true
   | row :: rows, labels =>
-      admissibleB row.event labels && scalarAnnotationB row labels &&
-        childReferenceB p row && checkRows p rows (row.event.lab labels)
+      admissibleB row.event labels && (scalarAnnotationB row labels &&
+        (childReferenceB p row && checkRows p rows (row.event.lab labels)))
 
 /-- No retained event may be duplicated, reordered, or given an out-of-range index. -/
 def sourceIndicesB (next : Nat) : List Row → Bool
@@ -106,4 +106,46 @@ def ProjectedWellLabelled (p : SelectedData) : Prop :=
   LemmaG.Stream.WellLabelled (p.forward.map Row.event) (initialLabels p) ∧
   LemmaG.Stream.WellLabelled (p.backward.map Row.event) (initialLabels p)
 
+/-- The pilot covers exactly raw source rows 10851 through 10978, inclusive. -/
+def pilotShapeB (p : SelectedData) : Bool :=
+  p.frameDimensions.size == 983 && p.initialOriginalLabels.size == 728 &&
+    p.children.size == 2922 &&
+    p.forward.map Row.sourceIndex == List.range' 10851 128 &&
+    p.backward.map Row.sourceIndex == List.range' 10851 128
+
+def checkPilot (p : SelectedData) : Bool :=
+  pilotShapeB p && (checkRows p p.forward (initialLabels p) &&
+    checkRows p p.backward (initialLabels p))
+
+/-- Only Boolean equality soundness; no physical or scalar realization induction. -/
+theorem admissibleB_sound (e : LabelEvent) (labels : Register → FrameLabel)
+    (h : admissibleB e labels = true) : e.Admissible labels := by
+  cases e <;> simp_all [admissibleB, LemmaG.Event.Admissible]
+
+/-- Reuse the upstream structural label predicate on the exact supplied rows. -/
+theorem checkRows_wellLabelled (p : SelectedData) (rows : List Row)
+    (labels : Register → FrameLabel) (h : checkRows p rows labels = true) :
+    LemmaG.Stream.WellLabelled (rows.map Row.event) labels := by
+  induction rows generalizing labels with
+  | nil => trivial
+  | cons row rows ih =>
+      change admissibleB row.event labels && (scalarAnnotationB row labels &&
+        (childReferenceB p row && checkRows p rows (row.event.lab labels))) = true at h
+      have ha := (Bool.and_eq_true.mp h).1
+      have ht := (Bool.and_eq_true.mp (Bool.and_eq_true.mp
+        (Bool.and_eq_true.mp h).2).2).2
+      change row.event.Admissible labels ∧
+        LemmaG.Stream.WellLabelled (rows.map Row.event) (row.event.lab labels)
+      exact ⟨admissibleB_sound row.event labels ha, ih _ ht⟩
+
+theorem checkPilot_wellLabelled (p : SelectedData) (h : checkPilot p = true) :
+    ProjectedWellLabelled p := by
+  have ht := (Bool.and_eq_true.mp h).2
+  exact ⟨checkRows_wellLabelled p p.forward (initialLabels p) (Bool.and_eq_true.mp ht).1,
+    checkRows_wellLabelled p p.backward (initialLabels p) (Bool.and_eq_true.mp ht).2⟩
+
 end CurrentMain.F19SelectedCoverage
+
+#print axioms CurrentMain.F19SelectedCoverage.admissibleB_sound
+#print axioms CurrentMain.F19SelectedCoverage.checkRows_wellLabelled
+#print axioms CurrentMain.F19SelectedCoverage.checkPilot_wellLabelled

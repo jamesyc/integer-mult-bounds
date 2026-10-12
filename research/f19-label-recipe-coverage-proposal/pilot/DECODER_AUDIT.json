@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "full_label_check": false,
+    "generator_replay": false,
+    "lean_compiler": false,
+    "operator_or_matrix_replay": false,
+    "upstream_script_import": false
+  },
+  "data_source_bytes": 82366,
+  "data_source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+  "decoder_sha256": "89be739f32fecd831140c33f9d85027c6b2d69c17b6efc57e6faed591bc84946",
+  "excluded_boundary_rows_per_orientation": 1617,
+  "full_projected_rows_per_orientation": 21320,
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 75113,
+      "path": "research/direct-delivery504-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+      "uncompressed_bytes": 451420,
+      "uncompressed_sha256": "f7de225a5180eaf35283132accff57217b8c95f6053c80a72d048fb58a9a0296"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 990631,
+      "path": "research/direct-delivery504-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+      "uncompressed_bytes": 990631,
+      "uncompressed_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 187483,
+      "path": "research/direct-delivery504-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+      "uncompressed_bytes": 1915252,
+      "uncompressed_sha256": "9169d94d9f8e7131782bd634bf9d49f9640cebe6801787000c617aacb611608e"
+    }
+  },
+  "limits": {
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 20,
+    "external_wall_seconds": 30
+  },
+  "literal_projection_sha256": "f8e371d661ec8b3f3eafb389879c5ec881f866448bd50931475ca5c577d3185b",
+  "max_json_bytes": 16777216,
+  "negative_controls_rejected": [
+    "duplicate_json_key",
+    "nonfinite_json",
+    "boolean_integer",
+    "zero_denominator",
+    "unknown_event",
+    "invalid_register",
+    "wrong_scalar_arity"
+  ],
+  "observed_elapsed_seconds": 0.3366405679989839,
+  "observed_maxrss_bytes": 67342336,
+  "omitted_rows_sha256": "a8e4fd3491413161afdf5ac2ccab66657489126894656bb2883fb2d33579ab51",
+  "pilot_rows_per_orientation": 128,
+  "prefix_label_source_evidence": {
+    "backward": {
+      "label_effect": "PR509 add/scale preserve labels; excluded adapter rows carry no identity-operator claim",
+      "raw_range": [
+        0,
+        10851
+      ],
+      "retained_count": 10120,
+      "retained_tags": {
+        "add": 10064,
+        "scale": 56
+      }
+    },
+    "forward": {
+      "label_effect": "PR509 add/scale preserve labels; excluded adapter rows carry no identity-operator claim",
+      "raw_range": [
+        0,
+        10851
+      ],
+      "retained_count": 10120,
+      "retained_tags": {
+        "add": 10064,
+        "scale": 56
+      }
+    }
+  },
+  "program_tag_counts": {
+    "backward": {
+      "adapter": 1304,
+      "center": 16,
+      "climb": 3432,
+      "phase": 9,
+      "residual_adapter": 304,
+      "scalar": 17872
+    },
+    "forward": {
+      "adapter": 1304,
+      "center": 16,
+      "climb": 3432,
+      "phase": 9,
+      "residual_adapter": 304,
+      "scalar": 17872
+    }
+  },
+  "raw_indices_inclusive": [
+    10851,
+    10978
+  ],
+  "signed_denominator_retained": true,
+  "source_pins_sha256": "a421dbba26b1e586c6517bf011fa8ab481929ae687c124a508416b6b149c861f",
+  "status": "SOURCE_LITERAL_DECODING_ONLY_NO_LABEL_OR_OPERATOR_REPLAY"
+}
