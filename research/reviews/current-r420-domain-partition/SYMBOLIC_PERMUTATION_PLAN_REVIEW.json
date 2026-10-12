@@ -1,0 +1,67 @@
+{
+  "status": "PASS_COMPLETE_SYMBOLIC_SOURCE_PLAN_ONLY",
+  "utc": "2026-10-12T16:57:01.511759+00:00",
+  "plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/symbolic_permutation_plan/PLAN.json",
+    "sha256": "d05e14efcf2e67531d415076297d07c173f97cf3d11574d81fe276ef91572bd4"
+  },
+  "source_data": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryData.lean",
+    "sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509",
+    "bytes": 34312
+  },
+  "api_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Basic.lean",
+      "sha256": "3622990991094fa2ea739b1a2c44bcde45913c1bbec75c6c1ebad24e1d1e4175",
+      "bytes": 87846
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Perm.lean",
+      "sha256": "d14e45cd3731a275e99790c4ba5e7019aefdab7da9b9f7d83b64e55d5a7dd8e6",
+      "bytes": 23622
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Sort/Lemmas.lean",
+      "sha256": "2a5d562fa20372cdb97bb9ff8431a6cd7b80e80e051166e70eaebb2dab9cacf3",
+      "bytes": 19075
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Nat/Range.lean",
+      "sha256": "51b2385b7b639991a03fde0b5fadde4b5b1bb72577a2000126e13f93e73bab41",
+      "bytes": 28257
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Pairwise.lean",
+      "sha256": "d4f79b5073686cc3e22f97fab03c4ecab234ee2ced81b24d766cd22e9dc7d617",
+      "bytes": 12711
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/Bool.lean",
+      "sha256": "f418d6d98e4a2a8618027662eafdcf8abb69120e307254d309328e9afa1e3af9",
+      "bytes": 28387
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Prelude.lean",
+      "sha256": "1c7e90be488584bde36df22c82f632f28338b4ab22040e3e20fc22af95c4edb3",
+      "bytes": 208316
+    }
+  ],
+  "api_chain": [
+    "List.isPerm structurally consumes the first list, requiring contains and erasing exactly one matching occurrence; empty residual list enforces multiplicity and completeness. Nat has the required lawful equality.",
+    "List.isPerm_iff.mp turns the Boolean true certificate into the exact List.Perm. mergeSort_perm relates sorted input back to input in the direction required by trans hp.",
+    "List.sorted_mergeSort takes explicit Boolean transitivity and totality. The proposed decide_eq_true/of_decide_eq_true conversions and Bool.or_eq_true_iff map Nat.le_trans and Nat.le_total correctly. Pairwise.imp converts the resulting Boolean relation to Nat.le.",
+    "List.pairwise_le_range and List.Perm.eq_of_sorted require exactly the two sortedness facts and antisymmetry on members. The proposed Nat.le_antisymm discharges the last condition and yields the unchanged original mergeSort equality.",
+    "No Impl/private/import-all API is used. Both explicitly planned public imports already belong to the recorded317 core closure."
+  ],
+  "literal_readback": {
+    "indices": 672,
+    "contains_positions": 8700,
+    "erase_positions": 8700,
+    "range_fully_consumed": true
+  },
+  "resource_scope": "One kernel isPerm certificate; symbolic sort laws do not evaluate mergeSort. Operation counts are a source-level bound, not a compiler fit/speed claim. Same hard/review limits and stop rules.",
+  "proceed_boundary": "Root authorized source preparation after this plan review. Exact emitted source and failed-prestate/current binding still require their own seals before the one bounded diagnostic.",
+  "compiler_executed": false,
+  "original_failure_cause": "Still unlocalized; remaining24 facts and original wrapper remain held."
+}
