@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_PROPOSAL_PENDING_COMPONENT_TERMINALS_AND_REVIEW",
+  "direct_imports": [
+    "PackedMatrixReindex",
+    "PackedQuadraticReindex"
+  ],
+  "prospective_scope": {
+    "total": 15,
+    "retained": 14,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "expected_probes": [
+    "CurrentMain.PackedMonomialReindex.source_xor",
+    "CurrentMain.PackedMonomialReindex.offset_reindex",
+    "CurrentMain.PackedMonomialReindex.phase_reindex",
+    "CurrentMain.PackedMonomialReindex.monomial_reindex"
+  ],
+  "finite_work": "Four symbolic facts; source XOR bound, offset/global phase and literal four-gate composition through accepted circuit_eq_decoded. No address enumeration or circuit induction.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "gate_authority": "Root17:39 authorizes one bounded check after component terminals and independent source/API and exact binding reviews.",
+  "no_compiler_yet": true
+}
