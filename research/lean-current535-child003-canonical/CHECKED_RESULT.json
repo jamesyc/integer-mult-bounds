@@ -1,0 +1,142 @@
+{
+  "status": "KERNEL_PASS_WITH_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "b472c6729a10015d3c377f1d2fb13d7acc5a101f",
+  "source_sha256": "731f0f019a09bc0a8698ca251f521ecf74c6aecde46dba8a7b45df3d24df00bc",
+  "object_sha256": "99a0693ab56be5d8f19b1c11d802e4d5c56d4ecf60fe9a200b99321cf1f9e2aa",
+  "receipt_sha256": "2e42b4e4019aca1a84de0b595616fb313a858de973a514789fcf9ca6e348bfe6",
+  "log_sha256": "589c225acba097da51db4b02774ccbb0817647d84422461399f45cdbcc2e9f53",
+  "selected_key": {
+    "source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+    "ordinal": 1,
+    "old": 0,
+    "new": 3,
+    "rank": 1,
+    "descriptor": [
+      486
+    ]
+  },
+  "selected_record_sha256": "0102fd108ebf22f8f6d2faf552e13f0d92ec4b923facb745a7fbda18112f9c62",
+  "launch_scope": {
+    "modules": 10,
+    "current_local": 9,
+    "pending": 1
+  },
+  "current_scope": {
+    "total": 10,
+    "current": 10,
+    "pending": 0
+  },
+  "external_pairs": 2620,
+  "first_attempt": true,
+  "phase_case_count": 64,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current535Child003Canonical.record_key",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.raw_fields_bounded",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.left_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.right_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.canonical_inverses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.canonical_source_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.canonical_first_column",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.branch_phase_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.canonical_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.selected_child_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535Child003Canonical.selected_child_with_spectators",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "measurements": {
+    "started_utc": "2026-10-12T14:29:04.819962+00:00",
+    "finished_utc": "2026-10-12T14:29:30.106265+00:00",
+    "compile_seconds": 25.286298810999142,
+    "queue_seconds": 0.00067121499159839,
+    "preparation_seconds": 1.2233985490020132,
+    "timeout_seconds": 60,
+    "memory_limit_bytes": 4294967296,
+    "process_observations": {
+      "samples": 252,
+      "peak_vm_bytes": 2641223680,
+      "peak_rss_bytes": 1859182592,
+      "peak_threads": 4
+    }
+  },
+  "acceptance_sha256": "b6fc848346d4ab98261d0e6903791e2dfc6868ff0e7f53aee2e5a948b4f7ea9b",
+  "independent_terminal_review": {
+    "artifact": "CURRENT535_CHILD003_CANONICAL_TERMINAL_REVIEW.json",
+    "sha256": "32a3614aefce53daa99332f73f6852b31495320575c24fbfefab9a6101be24f6"
+  },
+  "claim": "Exact pinned current535 interpreted all-payload recipe/canonical Gaussian identity for this selected record, with raw bounds, two-sided inverse, source basis/Q, first-column and symbolic nine-coordinate/64-phase certificate. Three coordinate spectators and arbitrary external spectator payloads are unrestricted.",
+  "remaining": [
+    "Other selected records.",
+    "Current packed-address/event executor and physical recipe binding.",
+    "Residual/endpoint wrappers, expanded work, full dirty register rows/columns and global chart/owner/cost suppliers."
+  ],
+  "publication": "No publication admission or end-to-end multiplier bound."
+}
