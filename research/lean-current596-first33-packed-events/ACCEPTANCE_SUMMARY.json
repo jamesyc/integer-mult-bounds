@@ -1,0 +1,180 @@
+{
+  "status": "ACCEPTED_WITH_INDEPENDENT_TERMINAL_REVIEW",
+  "utc": "2026-10-12T18:24:22.628492+00:00",
+  "source_commit": {
+    "commit": "18f21179a727213b248511a901046674d4f4fe3a",
+    "path": "research/lean-current596-first33-packed-events/Current596CKFirst33PackedEvents.lean"
+  },
+  "source_sha256": "55dd3c495b2ac415506b02ce3d1acb674febe5189cd07273615a33aca0b52c31",
+  "owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current596_first33_packed_events_proposal/gate/ACCEPTANCE.json",
+    "sha256": "727522c7bfd077a6078c59e1e89959d0a49db878a002accafb8f32f43d7fa3b2",
+    "bytes": 97117
+  },
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_FIRST33_PACKED_EVENTS_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "d4ead64ae3194f3647e38e35840ae36ca5e95cb0e3d687d62c784a23a2e9ae98",
+    "bytes": 11205
+  },
+  "current_quadruple": {
+    "module": "Current596CKFirst33PackedEvents",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_first33_packed_events/Current596CKFirst33PackedEvents.lean",
+      "sha256": "55dd3c495b2ac415506b02ce3d1acb674febe5189cd07273615a33aca0b52c31",
+      "bytes": 7003
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_first33_packed_events/Current596CKFirst33PackedEvents.olean",
+      "sha256": "5a2a9fa444fd2f2e6b6d1fb05ed4a57fb05d91708fbe9e4b3c983126fd76e8ad",
+      "bytes": 118528
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current596_first33_packed_events__Current596CKFirst33PackedEvents.lean.json",
+      "sha256": "69d39b9a7f9bf754c013d7510864f6c73fd2c197af31fc761b98922319e05c57",
+      "bytes": 4391
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current596_first33_packed_events__Current596CKFirst33PackedEvents.lean.log",
+      "sha256": "5830e6e9242ff3e9696aada80aa01778dfcb293e41773778580613761d84732b",
+      "bytes": 3144
+    },
+    "receipt_dependencies": {
+      "Current596CKFirst33Transport": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current596_ck_first33_transport/Current596CKFirst33Transport.olean",
+        "olean_sha256": "78ef8482122ff70a9c8bea0af386f6c82f4d99d266662af46eba7b1d7024ad1c",
+        "source_sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239"
+      },
+      "Current5996CKPackedRecipe": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/directed_child_recipes/Current5996CKPackedRecipe.olean",
+        "olean_sha256": "d42da3ec38a4eab5fc4f985df35bd4e6fa11dbcbc7651d0969f7abe388361619",
+        "source_sha256": "bcba45749abe4a289b487fac2cd2ed4f8b9fcb2b7b69574e00a65a1c2af43392"
+      },
+      "Mathlib.Algebra.Algebra.Rat": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Algebra/Rat.olean",
+        "olean_sha256": "e87225d43f4a1df6d562aad67fc1632f1bc04ddad4847e3b185e073f34186b99"
+      }
+    },
+    "complete_probes": [
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.frameTwo_apply",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.recipe02_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.recipes_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.keyed_block",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "name": "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "total": 38,
+    "current": 38,
+    "pending": 0,
+    "launch": [
+      38,
+      37,
+      1
+    ]
+  },
+  "cached_pairs": 2664,
+  "new_probes": 8,
+  "actual_selected_theorem_types": [
+    {
+      "declaration": "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A",
+      "actual_printed_type": "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_A : \u2200\n  (T : CurrentMain.Current596CKFirst33PackedEvents.FrameMap)\n  (fallback : CurrentMain.Current596CKFirst33PackedEvents.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current596CKFirst33PackedEvents.Payload \u2192\n    T 2 = CurrentMain.Current596CKFirst33PackedEvents.frameTwo \u2192\n      CurrentMain.Current596CKFirst33PackedEvents.InterpretedBlock T fallback\n        CurrentMain.Current596CKFirst33Transport.forwardA CurrentMain.Current596CKFirst33Transport.labels0",
+      "both_endpoint_equations_explicit": true
+    },
+    {
+      "declaration": "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B",
+      "actual_printed_type": "CurrentMain.Current596CKFirst33PackedEvents.selected_forward_B : \u2200\n  (T : CurrentMain.Current596CKFirst33PackedEvents.FrameMap)\n  (fallback : CurrentMain.Current596CKFirst33PackedEvents.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current596CKFirst33PackedEvents.Payload \u2192\n    T 2 = CurrentMain.Current596CKFirst33PackedEvents.frameTwo \u2192\n      CurrentMain.Current596CKFirst33PackedEvents.InterpretedBlock T fallback\n        CurrentMain.Current596CKFirst33Transport.forwardB CurrentMain.Current596CKFirst33Transport.labels24",
+      "both_endpoint_equations_explicit": true
+    },
+    {
+      "declaration": "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A",
+      "actual_printed_type": "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_A : \u2200\n  (T : CurrentMain.Current596CKFirst33PackedEvents.FrameMap)\n  (fallback : CurrentMain.Current596CKFirst33PackedEvents.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current596CKFirst33PackedEvents.Payload \u2192\n    T 2 = CurrentMain.Current596CKFirst33PackedEvents.frameTwo \u2192\n      CurrentMain.Current596CKFirst33PackedEvents.InterpretedBlock T fallback\n        CurrentMain.Current596CKFirst33Transport.backwardA CurrentMain.Current596CKFirst33Transport.labels0",
+      "both_endpoint_equations_explicit": true
+    },
+    {
+      "declaration": "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B",
+      "actual_printed_type": "CurrentMain.Current596CKFirst33PackedEvents.selected_backward_B : \u2200\n  (T : CurrentMain.Current596CKFirst33PackedEvents.FrameMap)\n  (fallback : CurrentMain.Current596CKFirst33PackedEvents.RecipeTable),\n  T 0 = LinearEquiv.refl \u211a CurrentMain.Current596CKFirst33PackedEvents.Payload \u2192\n    T 2 = CurrentMain.Current596CKFirst33PackedEvents.frameTwo \u2192\n      CurrentMain.Current596CKFirst33PackedEvents.InterpretedBlock T fallback\n        CurrentMain.Current596CKFirst33Transport.backwardB CurrentMain.Current596CKFirst33Transport.labels24",
+      "both_endpoint_equations_explicit": true
+    }
+  ],
+  "measures": {
+    "started_utc": "2026-10-12T18:20:22.595973+00:00",
+    "finished_utc": "2026-10-12T18:20:31.400906+00:00",
+    "compile_seconds": 8.804929150006501,
+    "queue_seconds": 0.000712784007191658,
+    "preparation_seconds": 1.0475156729953596,
+    "process_observations": {
+      "samples": 88,
+      "peak_vm_bytes": 2714591232,
+      "peak_rss_bytes": 1863811072,
+      "peak_threads": 4
+    }
+  },
+  "claim": "Four current CK raw9899..9931 blocks (24/9 per orientation), with ordered signed rational decoding, current Fin1082 WellLabelled facts, exact packed recipe cL512 and event-restricted RecipesExact under explicit T0=identity and T2=reindexed canonical Gaussian chart equations. PR509 conjugation relates the chosen interpreted event run to the raw scalar run for arbitrary block input.",
+  "exclusions": [
+    "No supplied pre-A state, prefix execution or actual entrance-state equality",
+    "No Python vectorized executor, omitted adapter or expanded physical work equality",
+    "No global chart assignment for all1082 labels",
+    "No all-size multiplication or selected kappa theorem",
+    "No prior resource hold cleared"
+  ],
+  "selected_source_head": "5996f9043c27bafa90b23e1c937de92a738f1a76"
+}
