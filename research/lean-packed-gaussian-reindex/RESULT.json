@@ -1,0 +1,56 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "2018e69b75db31ec4736ab9c02bd928a76743e97",
+  "source_sha256": "00a28c8f4a68dfd59439605a8bb6f11985ddab226d1e863ca9dae0da0554c025",
+  "object_sha256": "4d3eff901f238b9ed3479597375ed544d88486e9dc52b393b8ce17c569a3231d",
+  "receipt_sha256": "31c24107e988b91254894f5f59b1197bbe9c5d15e610110a85f221e78cd3b47c",
+  "log_sha256": "adf22ad36a17758b70dc5468822cb3644dc65b3dc0ddbe77c68839b649314935",
+  "acceptance_sha256": "04b07d0c10cc209ede02599f49dd6079e3d324981fea2848680785e8f3a4d606",
+  "independent_terminal_review_sha256": "1af2515399a1dcf6ffc16e4ddb801d224a685dc99c6a7d3a1c56dea3a429f9c5",
+  "upstream_source_commit": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+  "upstream_source_sha256": "c0c51407b4fa6ff230a79d5f3b07c83b7d1c4b433ce03513f0c4fb725bf3cbe1",
+  "current_import_closure": 12,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.PackedGaussianReindex.source_xor_one",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGaussianReindex.unpack_source_flip",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGaussianReindex.gaussian_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGaussianReindex.gaussian_conjugation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 4.687471165001625,
+  "fifo_seconds": 0.0005878990050405264,
+  "peak_vm_bytes": 2680582144,
+  "claim": "Exact PR593 cg(1,true) agrees with Gaussian C0 under the explicit little-endian packed/address equivalence, for arbitrary complex payloads and with its full phase.",
+  "remaining": [
+    "Packed matrix and strict-upper quadratic source correspondence",
+    "Selected circuit/event decoding and actual executor equality",
+    "Expanded private-work endpoint and whole selected construction"
+  ],
+  "publication": "No publication authorized or performed."
+}
