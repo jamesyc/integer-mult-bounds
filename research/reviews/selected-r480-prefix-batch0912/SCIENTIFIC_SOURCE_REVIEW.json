@@ -1,0 +1,208 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_LITERAL_AND_API_REUSE_REVIEW_NO_COMPILER",
+  "received_utc": "2026-10-12T15:48:53Z",
+  "read_started_utc": "2026-10-12T15:49:00Z",
+  "completed_utc": "2026-10-12T15:49:22.585101+00:00",
+  "source_commit": "29c3f9cb3a0ee6683a48e5b1d6c4cbf92df93b79",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SOURCE_BINDING.json",
+    "sha256": "9a9c22edc7effb4b89aa23950ab96e1f4fba25f2633aaf5b4d6092f47dac1618",
+    "bytes": 11538
+  },
+  "source_transforms": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SOURCE_TRANSFORMS.json",
+    "sha256": "e2273e789505fa1ca62b2b92a09273fdd83c009e1eee2a0733491e69dbc553b8",
+    "bytes": 53496
+  },
+  "check_proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/CHECK_PROPOSAL.json",
+    "sha256": "5e7f9b302d0c664a7265c3fd74d6086c979be3fd3c18ec32bd50ece97dbc2f3d",
+    "bytes": 9394
+  },
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix009Data.lean",
+      "sha256": "00bcddaf4b45a1e236b1ef616756b5182fd4c041e581b7212ace99e4c5ecb2d4",
+      "bytes": 5630
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix009Check.lean",
+      "sha256": "6ee79b90ea641d1cb217135af42d7eac61445446cea49b7dd5338c9c247fa370",
+      "bytes": 8319
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix010Data.lean",
+      "sha256": "519e66cd39f5a86df6711b1e5a1d9aff2cd06c68c9522b9b18cbdd30f4d99274",
+      "bytes": 5630
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix010Check.lean",
+      "sha256": "e1d6f745adc901281f4971bc3a0aa36d9711bf6b6cc5dae7e4b5682d4d115612",
+      "bytes": 8319
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix011Data.lean",
+      "sha256": "96ef9b71eebe2699f2f27b16a53e0b3d93f53e4f399c8f09bdf13c59d2b24662",
+      "bytes": 5630
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix011Check.lean",
+      "sha256": "06974a52783196ff8b86f1908d74c2abb02a0505bd89464fb2f645e2a531883d",
+      "bytes": 8319
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix012Data.lean",
+      "sha256": "b49023d3a6624703910471606d5e06fe9dfa822369a289f3da5cf98b2e895715",
+      "bytes": 5630
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0912/SelectedR480Prefix012Check.lean",
+      "sha256": "8ba4163c2eb4f5aab1a6cc5531643bff711cf5800d922f0aaf3dcc09a22326d9",
+      "bytes": 8319
+    }
+  ],
+  "raw_input": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/e8-r480-dead-totals/data/bitE8mut-r480.json.gz",
+    "sha256": "92e399e9a486b55229b5624632ac54f800dd9e022f2aee97f1e5f264bbc0ef5c",
+    "bytes": 49414
+  },
+  "literal_and_semantic_results": [
+    {
+      "ordinal": 9,
+      "A_half_open": [
+        1152,
+        1280
+      ],
+      "C_half_open": [
+        1428,
+        1556
+      ],
+      "gates_each": 128,
+      "operands_each": 128,
+      "arity_histogram_each": {
+        "1": 128,
+        "2": 0
+      },
+      "maxarity": 1,
+      "ordered_literals_match": true,
+      "cleanup_frame1_reverse_exact": true,
+      "finite_domain_and_no_self_or_target_read_write": true,
+      "proof_suffix_byte_equal_after_namespace": true
+    },
+    {
+      "ordinal": 10,
+      "A_half_open": [
+        1280,
+        1408
+      ],
+      "C_half_open": [
+        1300,
+        1428
+      ],
+      "gates_each": 128,
+      "operands_each": 128,
+      "arity_histogram_each": {
+        "1": 128,
+        "2": 0
+      },
+      "maxarity": 1,
+      "ordered_literals_match": true,
+      "cleanup_frame1_reverse_exact": true,
+      "finite_domain_and_no_self_or_target_read_write": true,
+      "proof_suffix_byte_equal_after_namespace": true
+    },
+    {
+      "ordinal": 11,
+      "A_half_open": [
+        1408,
+        1536
+      ],
+      "C_half_open": [
+        1172,
+        1300
+      ],
+      "gates_each": 128,
+      "operands_each": 128,
+      "arity_histogram_each": {
+        "1": 128,
+        "2": 0
+      },
+      "maxarity": 1,
+      "ordered_literals_match": true,
+      "cleanup_frame1_reverse_exact": true,
+      "finite_domain_and_no_self_or_target_read_write": true,
+      "proof_suffix_byte_equal_after_namespace": true
+    },
+    {
+      "ordinal": 12,
+      "A_half_open": [
+        1536,
+        1664
+      ],
+      "C_half_open": [
+        1044,
+        1172
+      ],
+      "gates_each": 128,
+      "operands_each": 128,
+      "arity_histogram_each": {
+        "1": 128,
+        "2": 0
+      },
+      "maxarity": 1,
+      "ordered_literals_match": true,
+      "cleanup_frame1_reverse_exact": true,
+      "finite_domain_and_no_self_or_target_read_write": true,
+      "proof_suffix_byte_equal_after_namespace": true
+    }
+  ],
+  "total_new_raw_gate_occurrences": 1024,
+  "total_new_ordered_operand_occurrences": 1024,
+  "exact_ordered_transforms_and_inverses": 44,
+  "proof_reuse": {
+    "accepted_representative": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/selected_r480_prefix002/ACCEPTANCE.json",
+      "sha256": "488d73f690366a655340672e710cc262b563135c728036a5e82dfd525b537332",
+      "bytes": 53222
+    },
+    "accepted_terminal": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_R480_PREFIX128_TERMINAL_REVIEW.json",
+      "sha256": "99423e5c0bb039a3614850b9de669f8b2b496ac9d64c844470cd596229ce5a81",
+      "bytes": 8922
+    },
+    "prior_scientific_readback": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/selected-r480-prefix002/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "43d3237da61d06ed4d06a0e5b59bc8cf4bf253b41d875b3d53d683a6d6fbf981",
+      "bytes": 5152
+    },
+    "suffix": "From raw_domains onward, all four Check files equal the accepted ordinal2 suffix after namespace substitution, including repaired scalarize rfl. Only shape numbers and selected literals change earlier.",
+    "API": "Exact finite-domain decoder/encode roundtrip and raw frame1 reverse binding precede scalarization. No-self-read supports inverse cancellation for arbitrary Fin720 Boolean state; conditional target-only middle cleanup uses explicit no-target-read/write hypotheses."
+  },
+  "probe_count": 64,
+  "scope": {
+    "official_core": 317,
+    "retained_local_imports": 7,
+    "fresh_local": 8,
+    "local": [
+      15,
+      7,
+      8
+    ],
+    "total": [
+      332,
+      324,
+      8
+    ],
+    "all_prior_protected_roots": 32
+  },
+  "attribution": "Raw R480 supplier DreamingOfClouds with Anthropic Claude assistance, PR493 provenance, accepted own generic inversion/API reuse retained.",
+  "limitations": [
+    "Four independent128+128 certificates only; accepted ordinal2 is preserved, not replayed.",
+    "No cumulative prefix join or full2708 A/C result.",
+    "D compensation, frame/operator transport, raw physical execution and full multiplication remain separate.",
+    "Runtime/order/driver review and compiler gate remain separately owned; representative resource measurements do not establish batch fit."
+  ],
+  "compiler_executed": false,
+  "runtime_review_duplicated": false,
+  "supplier_execution": false
+}
