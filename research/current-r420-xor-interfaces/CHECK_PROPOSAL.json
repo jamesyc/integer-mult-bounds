@@ -10,13 +10,13 @@
     "BitXorTargetTranslation"
   ],
   "public_probes": [
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.decode_roundtrip",
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.ordered_word_binding",
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.decoded_gate_properties",
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.helpers_preserved",
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.target_translation",
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.target_identity",
-    "CurrentMain.CurrentR420PhaseBXor.CurrentMain.CurrentR420PhaseBXor.contribution_independent_of_targets"
+    "CurrentMain.CurrentR420PhaseBXor.decode_roundtrip",
+    "CurrentMain.CurrentR420PhaseBXor.ordered_word_binding",
+    "CurrentMain.CurrentR420PhaseBXor.decoded_gate_properties",
+    "CurrentMain.CurrentR420PhaseBXor.helpers_preserved",
+    "CurrentMain.CurrentR420PhaseBXor.target_translation",
+    "CurrentMain.CurrentR420PhaseBXor.target_identity",
+    "CurrentMain.CurrentR420PhaseBXor.contribution_independent_of_targets"
   ],
   "scope": [
     326,
@@ -32,8 +32,8 @@
   "protected_prior_outputs": 37,
   "source_dfs": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_xor_interfaces/THIN_DFS_SOURCE_INVENTORY.json",
-    "sha256": "aef7ec08ffedc9134e25e57893b29fc03758387f1c080c7d79258b082538b529",
-    "bytes": 285577
+    "sha256": "325e18fcd5133b394d4475a9f077f5be4583469db5ca0dc481ee178615719b21",
+    "bytes": 285346
   },
   "authority": "Root 2026-10-12T17:20:39 authorizes first minimal bounded thin XOR after band terminal and exact import/DFS/API/binding review.",
   "conclusion": "Exact660-register B target-translation and helper preservation, with arbitrary target-erased contribution. Source values may change across597 middle writes.",
