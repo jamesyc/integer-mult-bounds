@@ -4,8 +4,8 @@
   "source": {
     "module": "Current588BootstrapCertificate",
     "file": "Current588BootstrapCertificate.lean",
-    "sha256": "abb70a75f18f71d768b54e0388f2c1cabd619f30c538b42c0a704ffdebb0c061",
-    "bytes": 18855,
+    "sha256": "ee2ecefd4638acf789b8cffd5bac006d9e9dfec66d7d4b8bb46b960d0f900bf9",
+    "bytes": 18849,
     "explicit_imports": [
       "Current588NativeUpperAggregate"
     ],
@@ -323,5 +323,6 @@
     "Supplied initial and PR543 bit saving validity; selected native recurrence and physical/operator/profile realization.",
     "Eta-dependent q/grid calculation,47 current outer slacks and seven-margin minimum.",
     "All-size bootstrap interpretation and complete selected-kappa theorem."
-  ]
+  ],
+  "preflight_endpoint_amendment": "Remove only final rfl after rw can close the definitionally reflexive checkpoint7=recordedEndpoint goal; no compiler attempted, statements/data/options unchanged."
 }

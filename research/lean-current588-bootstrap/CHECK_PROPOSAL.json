@@ -4,8 +4,8 @@
   "source": {
     "module": "Current588BootstrapCertificate",
     "file": "Current588BootstrapCertificate.lean",
-    "sha256": "abb70a75f18f71d768b54e0388f2c1cabd619f30c538b42c0a704ffdebb0c061",
-    "bytes": 18855,
+    "sha256": "ee2ecefd4638acf789b8cffd5bac006d9e9dfec66d7d4b8bb46b960d0f900bf9",
+    "bytes": 18849,
     "explicit_imports": [
       "Current588NativeUpperAggregate"
     ],
@@ -23,7 +23,7 @@
       "CurrentMain.Current588BootstrapCertificate.bootstrap_endpoint_matches_certificate"
     ]
   },
-  "source_binding_sha256": "aac03d5b9298bcdf051a3cd75e6ab72b9387aed2ab78228555108a67bd94cbe1",
+  "source_binding_sha256": "7976b322f1ceb75c5b8c79b18d69d29d18fe960902c98aac51d76a77e07da9f6",
   "scope": [
     5,
     4,
@@ -1096,5 +1096,6 @@
   },
   "resource_qualification": "Same319 cached pairs. Twelve separate leaves per stage avoid one large Decidable tree. Seven new endpoint/cutoff literal checks use arbitrary-precision kernel rational arithmetic; prior measurements do not establish new-root fit. No Real runtime import or dependency replay.",
   "source_pin_guard": "Reuse existing exact six-file detached9594 raw/Git guard; source algorithm is pinned assembler and data are pinned selected certificate.",
-  "authority": "Root2026-10-12T17:02 requested source preparation and exact closure/probe/resource proposal. First compiler admission remains separate after source/API/scientific and binding review."
+  "authority": "Root2026-10-12T17:02 requested source preparation and exact closure/probe/resource proposal. First compiler admission remains separate after source/API/scientific and binding review.",
+  "preflight_endpoint_amendment": "Remove only final rfl after rw can close the definitionally reflexive checkpoint7=recordedEndpoint goal; no compiler attempted, statements/data/options unchanged."
 }

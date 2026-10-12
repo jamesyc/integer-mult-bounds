@@ -317,7 +317,6 @@ def recordedEndpoint : Rat := ((626894664006133348991816214434574497439639834069
 theorem bootstrap_endpoint_matches_certificate : bootstrapEndpoint = recordedEndpoint := by
   unfold bootstrapEndpoint
   rw [stage1_certificate.1, stage2_certificate.1, stage3_certificate.1, stage4_certificate.1, stage5_certificate.1, stage6_certificate.1, stage7_certificate.1]
-  rfl
 
 #print axioms saving_minimum_is_native
 #print axioms shrink_matches_literal
