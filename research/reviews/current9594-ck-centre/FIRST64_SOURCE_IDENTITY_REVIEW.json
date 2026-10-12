@@ -1,0 +1,42 @@
+{
+  "status": "PASS_READ_ONLY_FIRST64_CURRENT_SOURCE_IDENTITY",
+  "utc": "2026-10-12T16:56:01.230472+00:00",
+  "metadata": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/FIRST64_CURRENT_SOURCE_BINDING.json",
+    "sha256": "614c865c0de354a0f0bbcc4357e0307b91f12332976ee59a32e7d94fcf10bef3"
+  },
+  "accepted_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-scalar-first64/CurrentScalarFirst64.lean",
+    "sha256": "ecc3a3cf7e5b7c3526cf8c7052f1b1cff85e708eb00a0cd4399e30cf0145846f"
+  },
+  "raw_current": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+    "bytes": 181457
+  },
+  "raw_prior": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/LOCAL-PROGRAMS.json.gz",
+    "sha256": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+    "bytes": 184042
+  },
+  "directions": {
+    "forward": {
+      "exact_rows": 64,
+      "normalized_rows_sha256": "e39dacf8b9ec484a97a10032f8713ed31f4a3805b1bb9029e8a261bd939b2e5a",
+      "histogram": {
+        "scale": 22,
+        "add": 42
+      }
+    },
+    "backward": {
+      "exact_rows": 64,
+      "normalized_rows_sha256": "94ac48793bf2fecf36a9f6d805bef6425a8ab435426f786d528f1ef5fc2bd8a8",
+      "histogram": {
+        "scale": 22,
+        "add": 42
+      }
+    }
+  },
+  "scope": "Only raw indices1..64 each: exact raw arrays and accepted typed literals agree, including signed backward2/-1 and frame0. No new Lean theorem, whole Fin1079 embedding or full-prefix/adapter transfer.",
+  "compiler_executed": false
+}
