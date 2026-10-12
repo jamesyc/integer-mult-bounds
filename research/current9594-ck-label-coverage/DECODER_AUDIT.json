@@ -1,0 +1,65 @@
+{
+  "data_bytes": 76498,
+  "data_source_sha256": "a5cee682d3b8027a9a5cdece5d0048a7c0181ea322d1e8ea9bc69282d904cf7a",
+  "decoder_sha256": "c71f8240cd5f392262a121809176238294cb19ec35cdc1a5d141825a49748c7b",
+  "elapsed_seconds": 0.14629426199826412,
+  "histogram": {
+    "backward": {
+      "add": 25,
+      "relabel": 8
+    },
+    "forward": {
+      "add": 25,
+      "relabel": 8
+    }
+  },
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 71465,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "uncompressed_bytes": 420463,
+      "uncompressed_sha256": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 1017157,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "uncompressed_bytes": 1017157,
+      "uncompressed_sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 181457,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "uncompressed_bytes": 1789604,
+      "uncompressed_sha256": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4"
+    }
+  },
+  "limits": {
+    "AS": 536870912,
+    "CPU": 20,
+    "wall": 30
+  },
+  "maxrss_bytes": 44879872,
+  "negative_controls": [
+    "duplicate_json",
+    "nonfinite",
+    "bool_integer",
+    "zero_denominator",
+    "bad_frame",
+    "bad_register",
+    "unknown_row"
+  ],
+  "no_label_operator_replay": true,
+  "no_upstream_execution": true,
+  "omitted_sha256": "0e93afa5048f5ffd62e1026f13e0657667deb9507fff9140ed7e6bbe73619bf6",
+  "projection_sha256": "033b164d554ae9aabd62442c4719f985c9b6ded9cd7dea21d46e04f181870309",
+  "rows_each": 33,
+  "source_ready_utc": "2026-10-12T16:38:46.929304+00:00",
+  "split": [
+    24,
+    9
+  ],
+  "status": "STRICT_SOURCE_LITERAL_PROJECTION_ONLY"
+}

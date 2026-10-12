@@ -1,0 +1,220 @@
+{
+  "status": "SOURCE_FROZEN_CURRENT9594_CK_4_2_2_NO_COMPILER",
+  "utc": "2026-10-12T16:39:31.338488+00:00",
+  "snapshot": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "root_release": "2026-10-12T16:37:54 root selects proposal25e14308, first bounded4/2/2 after CK independent terminal and exact science/API/binding reviews.",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/Current9594CKCoverageData.lean",
+      "sha256": "a5cee682d3b8027a9a5cdece5d0048a7c0181ea322d1e8ea9bc69282d904cf7a",
+      "bytes": 76498,
+      "module": "Current9594CKCoverageData",
+      "imports": [
+        "CanonicalFrameCoverage"
+      ],
+      "probes": []
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/Current9594CKCoverageCheck.lean",
+      "sha256": "bf34d2d1e4c2ae402ea24e0ca7d3f38cb61c9880a22666534ec49626f1623471",
+      "bytes": 10720,
+      "module": "Current9594CKCoverageCheck",
+      "imports": [
+        "Current9594CKCoverageData"
+      ],
+      "probes": [
+        "current_table_shape",
+        "exact_A_source_indices",
+        "exact_B_source_indices",
+        "forward_A_labels_checked",
+        "forward_A_children_checked",
+        "forward_A_checked",
+        "forward_A_wellLabelled",
+        "forward_support24",
+        "forward_touched24",
+        "forward_checkpoint24",
+        "forward_B_labels_checked",
+        "forward_B_children_checked",
+        "forward_B_checked",
+        "forward_B_wellLabelled",
+        "forward_support33",
+        "forward_touched33",
+        "forward_checkpoint33",
+        "forward_composed_wellLabelled33",
+        "forward_composed_checkpoint33",
+        "backward_A_labels_checked",
+        "backward_A_children_checked",
+        "backward_A_checked",
+        "backward_A_wellLabelled",
+        "backward_support24",
+        "backward_touched24",
+        "backward_checkpoint24",
+        "backward_B_labels_checked",
+        "backward_B_children_checked",
+        "backward_B_checked",
+        "backward_B_wellLabelled",
+        "backward_support33",
+        "backward_touched33",
+        "backward_checkpoint33",
+        "backward_composed_wellLabelled33",
+        "backward_composed_checkpoint33"
+      ]
+    }
+  ],
+  "retained": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/CanonicalFrameCoverage.lean",
+      "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+      "bytes": 7771
+    },
+    {
+      "module": "PR509Stream",
+      "scope": "existing accepted dependency"
+    }
+  ],
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/SOURCE_TRANSFORM.json",
+    "sha256": "b77c0b7ef39bda2324ce5e88954c376ec0711b9db7b3e18997ba763b9342ef27",
+    "bytes": 3825
+  },
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/decode_ck33.py",
+    "sha256": "c71f8240cd5f392262a121809176238294cb19ec35cdc1a5d141825a49748c7b",
+    "bytes": 8988
+  },
+  "decoder_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/DECODER_AUDIT.json",
+    "sha256": "52f9defad24cfd4434c4caec7bbbbadf27ea6e35ea8a678b58dc5ddee1bb9df5",
+    "bytes": 2398
+  },
+  "literal_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/LITERAL_PROJECTION.json",
+    "sha256": "033b164d554ae9aabd62442c4719f985c9b6ded9cd7dea21d46e04f181870309",
+    "bytes": 172057
+  },
+  "omitted_inventory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/PRE_A_OMITTED_ROWS.json",
+    "sha256": "0e93afa5048f5ffd62e1026f13e0657667deb9507fff9140ed7e6bbe73619bf6",
+    "bytes": 187426
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/DELIMITER_ADVISORY.json",
+    "sha256": "177c53f1cec046b1c3dd6266c17314edaf335576c47b6c9b532a667015e95c1e",
+    "bytes": 1323
+  },
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 71465,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "uncompressed_bytes": 420463,
+      "uncompressed_sha256": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 1017157,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "uncompressed_bytes": 1017157,
+      "uncompressed_sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 181457,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "uncompressed_bytes": 1789604,
+      "uncompressed_sha256": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4"
+    }
+  },
+  "cardinality": {
+    "frames": 1079,
+    "children": 3017,
+    "original_registers": 728,
+    "extended_registers": 736
+  },
+  "slice": {
+    "raw_inclusive": [
+      9899,
+      9931
+    ],
+    "rows_each": 33,
+    "split": [
+      24,
+      9
+    ],
+    "histogram_each": {
+      "ADD": 25,
+      "relabel": 8
+    },
+    "block_histograms": [
+      {
+        "ADD": 17,
+        "relabel": 7
+      },
+      {
+        "ADD": 8,
+        "relabel": 1
+      }
+    ],
+    "supports": {
+      "backward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ],
+      "forward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ]
+    },
+    "key": [
+      0,
+      2,
+      1
+    ],
+    "child_ordinal": 0,
+    "next_excluded": 9932
+  },
+  "local_scope": {
+    "total": 4,
+    "retained": 2,
+    "fresh": 2
+  },
+  "external_pairs": 2213,
+  "caps": {
+    "hard_seconds": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_VM_bytes": 3758096384,
+    "Elab.async": false,
+    "maxHeartbeats": 2000000,
+    "maxRecDepth": 8192,
+    "serial_jobs_max": 2
+  },
+  "source_relation": "Exact current selected ck tables/starting labels and rows. Reuse prior35-goal proof template under recorded declarative transform. Parameterized generic checker/Stream are unchanged; no Fin997 selected theorem is identified with Fin1079.",
+  "limits": [
+    "Check covers only33 projected rows per orientation and full736-coordinate label boundaries0/24/33.",
+    "Prior scalar ADD/SCALE are label-neutral in the projection; omitted phase/adapter and residual-adapter actions remain unsupplied. No prior WellLabelled or physical chart conclusion.",
+    "Directed child/rank and signed denominator checks do not supply recipe operator correctness or physical execution.",
+    "Current other providers, expanded work, global whole-call hosting and all-word endpoint remain outside."
+  ],
+  "completion": "Two exact fresh roots PASS below review thresholds, all35 standard-only probes, independent source/literal inversion and terminal current audit. Stop on first failure/review."
+}

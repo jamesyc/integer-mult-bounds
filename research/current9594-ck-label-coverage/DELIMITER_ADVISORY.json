@@ -1,0 +1,35 @@
+{
+  "advisory_only": true,
+  "results": [
+    {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 76498,
+      "source_sha256": "a5cee682d3b8027a9a5cdece5d0048a7c0181ea322d1e8ea9bc69282d904cf7a",
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/Current9594CKCoverageData.lean",
+      "elapsed_seconds": 0.027050705000874586,
+      "max_source_bytes": 1048576
+    },
+    {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 10720,
+      "source_sha256": "bf34d2d1e4c2ae402ea24e0ca7d3f38cb61c9880a22666534ec49626f1623471",
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/Current9594CKCoverageCheck.lean",
+      "elapsed_seconds": 0.0036647939996328205,
+      "max_source_bytes": 1048576
+    }
+  ]
+}

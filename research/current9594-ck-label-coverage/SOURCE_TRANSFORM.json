@@ -1,0 +1,166 @@
+{
+  "utc": "2026-10-12T16:38:46.744780+00:00",
+  "decoder_preimage": {
+    "path": "research/current535-label-coverage-proposal/decode_current45.py",
+    "sha256": "5f7bc612d2ec817c4561b9e928dcdc80e2bb42a3bf6bb2abf69634b53c068550"
+  },
+  "decoder_replacements": [
+    {
+      "from": "current535",
+      "to": "current9594 CK",
+      "count": 2
+    },
+    {
+      "from": "Current535Coverage",
+      "to": "Current9594CKCoverage",
+      "count": 3
+    },
+    {
+      "from": "current45",
+      "to": "ck33",
+      "count": 1
+    },
+    {
+      "from": "BASE=Path('/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback')\nLOCAL=BASE/'research/post-center-rank4-global/evidence/local'",
+      "to": "LOCAL=Path('/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local')",
+      "count": 1
+    },
+    {
+      "from": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "to": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "count": 1
+    },
+    {
+      "from": "d403a1b263a43a40448046c7661919206d222bf37e85b63a4a8950144b8c158f",
+      "to": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "count": 1
+    },
+    {
+      "from": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "to": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "count": 1
+    },
+    {
+      "from": "997",
+      "to": "1079",
+      "count": 10
+    },
+    {
+      "from": "2927",
+      "to": "3017",
+      "count": 2
+    },
+    {
+      "from": "22253",
+      "to": "21559",
+      "count": 1
+    },
+    {
+      "from": "10691",
+      "to": "9899",
+      "count": 5
+    },
+    {
+      "from": "10736",
+      "to": "9932",
+      "count": 2
+    },
+    {
+      "from": "10735",
+      "to": "9931",
+      "count": 1
+    },
+    {
+      "from": "9904",
+      "to": "9112",
+      "count": 1
+    },
+    {
+      "from": "'adapter':520,'residual_adapter':208",
+      "to": "'adapter':500,'residual_adapter':228",
+      "count": 1
+    },
+    {
+      "from": "[[512,513,522,510,511,524,560,561,570,558,559,572],[582,584]]",
+      "to": "[[558,572,559,582,560,570,561],[584]]",
+      "count": 1
+    },
+    {
+      "from": "[24,21]",
+      "to": "[24,9]",
+      "count": 1
+    },
+    {
+      "from": "7dfa22b109996e48db68daac3706e7a49a43002b",
+      "to": "9594b61042164a27a31e44d8c3197f231470eda0",
+      "count": 1
+    },
+    {
+      "from": "(45,expected[1],24)",
+      "to": "(33,expected[1],24)",
+      "count": 1
+    },
+    {
+      "from": "certified45",
+      "to": "certified33",
+      "count": 1
+    },
+    {
+      "from": "'rows_each':45",
+      "to": "'rows_each':33",
+      "count": 1
+    }
+  ],
+  "checker_preimage": {
+    "path": "research/current535-label-coverage-proposal/Current535CoverageCheck.lean",
+    "sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+  },
+  "checker_replacements": [
+    {
+      "from": "current535",
+      "to": "current9594 CK",
+      "count": 1
+    },
+    {
+      "from": "Current535Coverage",
+      "to": "Current9594CKCoverage",
+      "count": 116
+    },
+    {
+      "from": "10691",
+      "to": "9899",
+      "count": 3
+    },
+    {
+      "from": "10735",
+      "to": "9931",
+      "count": 1
+    },
+    {
+      "from": "10715",
+      "to": "9923",
+      "count": 2
+    },
+    {
+      "from": " 21",
+      "to": " 9",
+      "count": 2
+    },
+    {
+      "from": "997",
+      "to": "1079",
+      "count": 10
+    },
+    {
+      "from": "2927",
+      "to": "3017",
+      "count": 1
+    },
+    {
+      "from": "45",
+      "to": "33",
+      "count": 36
+    }
+  ],
+  "scope": "Same decoder/checker architecture; fresh exact current tables and33 rows per orientation,24+9. No generic statement body changed."
+}
