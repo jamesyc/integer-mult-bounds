@@ -1,0 +1,264 @@
+{
+  "status": "SOURCE_ONLY_AWAITING_INDEPENDENT_REVIEW_AND_EXACT_GATE_BINDING",
+  "root": {
+    "module": "CliffordChild009Canonical",
+    "source": "CliffordChild009Canonical.lean",
+    "sha256": "f65140b816e703d0981a400e8eaa1814edf492c161abea59893540609019a3fa"
+  },
+  "local_scope": {
+    "total": 7,
+    "current": 6,
+    "new": 1,
+    "order": [
+      "PR509Stream",
+      "DirectedChildRecipes",
+      "CliffordMonomialDecoder",
+      "CliffordChild009Decoder",
+      "ExactFrameTransport",
+      "GaussianPhaseNormalization",
+      "CliffordChild009Canonical"
+    ]
+  },
+  "current_dependency_pins": [
+    {
+      "module": "PR509Stream",
+      "source": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "object": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+      "receipt": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+      "log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "DirectedChildRecipes",
+      "source": "33d33ed6ac6de316662062ef1114904c91e75d1b57c99fed1cb0ec2dccf0e7f5",
+      "object": "39c72ca083384f916162076514950e48b7b54e9efaddc74122bb27dc40d36975",
+      "receipt": "be98edb20a6fba4ce682cb39190e1abb901d9de7c66c8d8c30145506daa04323",
+      "log": "301759cd931d04eb4cd67ae3d6eeca887854194d14aeb935dc8f10d0ed626afd"
+    },
+    {
+      "module": "CliffordMonomialDecoder",
+      "source": "4dfcb7f13ae087820f3a6ad7683c71a22bfcdd39e74ad2faa8baa6c0fa7d692e",
+      "object": "0b0bc76cb0c8a6dcadc09797c9926326b8826d95fa390155b752a6ad35036547",
+      "receipt": "4349f96c96339b326f1705974ddf1b480cea53369757bee03419e25c872a6a8c",
+      "log": "f4f8da03a588553b5abac6b8a66d0f6fa0aaeffdc52c9c83a86b8b5a433377e8"
+    },
+    {
+      "module": "CliffordChild009Decoder",
+      "source": "2632264e6e071cf602464900c901f510d16c8d366aaf6df9084894081feed84b",
+      "object": "0c9e18d6109692ef917170ae17d6351c1454ec7f1ea2b0750f25d12c00e4af70",
+      "receipt": "2721f22bcceb9b6a53ce65d2d77e78f948364bb5886c5d129692ad69cc4abb9c",
+      "log": "1b2e082d71b7fa944f71a446a15b28959cef83ce47fc37ba709eb14168c108e6"
+    },
+    {
+      "module": "ExactFrameTransport",
+      "source": "cce03a75c2af1a95717f52de59d6e855cd0c8aa96b5ebda662c0b55656717f92",
+      "object": "010674c24b85135a0b9309b33a2a7718bec789526f05b54950162c2c976ffd1e",
+      "receipt": "d60b7d528cfef483404dfc47f627513ac6544531580a3e76c1680e558f75e1b3",
+      "log": "7b397edea8f9a69f1e0a57f2e7bf10bbf668b1e7ef4f139e68bf2fd441e48ad7"
+    },
+    {
+      "module": "GaussianPhaseNormalization",
+      "source": "c29a215b401bcf3fe24ca74cecffb7860d38bf2766b0bf4b02d0dab140891ebd",
+      "object": "67eadb2ef2c9bcfad7eaef7cea160cf4ef000126cdeb297cba9471caa0c3cdad",
+      "receipt": "a73d2a6b9756471d230bfd5987776c74d6154cf13a1d3a9ede1aafa045087399",
+      "log": "3771bf9c76f91da2a65c57c563a05d254777ab7c35dde18d6e2ead361343a8c4"
+    }
+  ],
+  "direct_imports": [
+    "CliffordChild009Decoder",
+    "GaussianPhaseNormalization",
+    "Mathlib.Data.Complex.Basic",
+    "Mathlib.Algebra.Ring.GrindInstances"
+  ],
+  "external_scope": {
+    "source_object_pairs": 2369,
+    "header_edges": 9031,
+    "object_bytes": 1502533800,
+    "additional_pairs": 74,
+    "additional_object_bytes": 49626616,
+    "additional_modules": [
+      "Mathlib.Algebra.GroupWithZero.Units.Lemmas",
+      "Mathlib.Algebra.Ring.Aut",
+      "Mathlib.Algebra.Star.Basic",
+      "Mathlib.Algebra.GroupWithZero.Regular",
+      "Mathlib.Algebra.Order.Hom.Basic",
+      "Mathlib.Algebra.Order.Ring.Basic",
+      "Mathlib.Algebra.Order.Group.Int",
+      "Mathlib.Algebra.Order.Group.Unbundled.Int",
+      "Mathlib.Data.Int.Sqrt",
+      "Mathlib.Algebra.Group.Int.Even",
+      "Mathlib.Algebra.Ring.Int.Parity",
+      "Mathlib.Algebra.Order.Ring.Int",
+      "Mathlib.Algebra.Ring.Divisibility.Basic",
+      "Mathlib.Algebra.Ring.Int.Units",
+      "Mathlib.Algebra.GroupWithZero.Units.Equiv",
+      "Mathlib.Algebra.Order.Monoid.Unbundled.WithTop",
+      "Mathlib.Algebra.Order.Monoid.WithTop",
+      "Mathlib.Algebra.Order.AddGroupWithTop",
+      "Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso",
+      "Mathlib.Algebra.Order.Monoid.Basic",
+      "Mathlib.Algebra.Order.Monoid.Unbundled.TypeTags",
+      "Mathlib.Algebra.Order.Monoid.TypeTags",
+      "Mathlib.Algebra.Order.GroupWithZero.Canonical",
+      "Mathlib.Algebra.Order.Ring.Nat",
+      "Mathlib.Algebra.Order.Sub.Basic",
+      "Mathlib.Data.Nat.Cast.Order.Ring",
+      "Mathlib.Algebra.Order.Ring.Abs",
+      "Mathlib.Lean.Expr.Rat",
+      "Mathlib.Algebra.GroupWithZero.Invertible",
+      "Mathlib.Tactic.NormNum.Result",
+      "Mathlib.Util.Qq",
+      "Mathlib.Tactic.NormNum.Core",
+      "Mathlib.Tactic.HaveI",
+      "Mathlib.Algebra.Ring.Invertible",
+      "Mathlib.Algebra.Order.Invertible",
+      "Mathlib.Algebra.Order.Ring.Cast",
+      "Mathlib.Tactic.Positivity.Core",
+      "Mathlib.Algebra.Order.AbsoluteValue.Basic",
+      "Mathlib.Algebra.Field.Basic",
+      "Mathlib.Order.Bounds.OrderIso",
+      "Mathlib.Algebra.Order.Field.Basic",
+      "Mathlib.Algebra.Order.Group.MinMax",
+      "Mathlib.GroupTheory.GroupAction.Ring",
+      "Mathlib.Algebra.Order.CauSeq.Basic",
+      "Mathlib.Algebra.Ring.Action.Rat",
+      "Mathlib.Algebra.Order.CauSeq.Completion",
+      "Batteries.Data.Rat.Lemmas",
+      "Mathlib.Data.Rat.Defs",
+      "Mathlib.Algebra.Ring.Rat",
+      "Mathlib.Algebra.Order.Ring.Unbundled.Rat",
+      "Mathlib.Algebra.Order.Ring.Rat",
+      "Mathlib.Algebra.Order.Nonneg.Basic",
+      "Mathlib.Data.NNRat.Defs",
+      "Mathlib.Algebra.Field.Rat",
+      "Mathlib.Algebra.Group.Semiconj.Basic",
+      "Mathlib.Algebra.Group.Commute.Basic",
+      "Mathlib.Algebra.Divisibility.Units",
+      "Mathlib.Algebra.GroupWithZero.Divisibility",
+      "Mathlib.Data.Rat.Lemmas",
+      "Mathlib.Data.Rat.Cast.Defs",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Tactic.NormNum.Basic",
+      "Mathlib.Data.Rat.Cast.CharZero",
+      "Mathlib.Tactic.NormNum.Inv",
+      "Mathlib.Tactic.NormNum.Pow",
+      "Mathlib.Tactic.Ring.Basic",
+      "Mathlib.Tactic.TryThis",
+      "Mathlib.Tactic.Ring.RingNF",
+      "Mathlib.Algebra.Order.Positive.Ring",
+      "Mathlib.Data.PNat.Basic",
+      "Mathlib.Tactic.Ring.PNat",
+      "Mathlib.Tactic.Ring",
+      "Mathlib.Data.Complex.Basic",
+      "Mathlib.Algebra.Ring.GrindInstances"
+    ],
+    "footprint_sha256": "4e34a7b4611858fb924b3598fb874c1a76282d217b6cb726bd5a26a0b89ee78e",
+    "environment_sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b",
+    "missing_sources": [],
+    "missing_objects": []
+  },
+  "record": {
+    "path": "../lean-clifford-child009/SELECTED_RECORD.json",
+    "sha256": "401a52f8fbabc3df616cd61bd605a4ae75dcd0ab2888623144efe1f069738cf9",
+    "pointer": "/children/7",
+    "old": 0,
+    "new": 9,
+    "rank": 1,
+    "selected_source_commit": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
+    "recipe_source_sha256": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9"
+  },
+  "compiler_source": {
+    "path": "research/direct-delivery504-global/vendor/clifford/clifford_exact.py",
+    "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "lines": {
+      "rank": [
+        8,
+        15
+      ],
+      "transpose_and_mv": [
+        16,
+        17
+      ],
+      "basis_extend": [
+        26,
+        31
+      ],
+      "qvalue": [
+        59,
+        60
+      ],
+      "then": [
+        69,
+        71
+      ],
+      "literal_Gaussian_C": [
+        91,
+        96
+      ],
+      "canonical_frame": [
+        120,
+        126
+      ],
+      "child_order": [
+        133,
+        149
+      ]
+    }
+  },
+  "finite_certificate_scope": {
+    "basis_input": [
+      11
+    ],
+    "dimension": 9,
+    "rank_insert_fuel": 10,
+    "exhaustion": "Option.none",
+    "basis": [
+      11,
+      1,
+      2,
+      4,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "matrix_inverse": "Exact already-certified low-bit inverse; literal five high identity rows. No assertion from source inv is assumed.",
+    "operator_cases": 16,
+    "payload": "All complex payload functions on four low bits times an arbitrary spectator type, with both Gaussian branches preserved.",
+    "source_execution": "None; only ordinary Lean reduction is proposed."
+  },
+  "hypotheses_removed": [
+    "Actual complex i instantiation of the interpreted phase unit.",
+    "Selected [11] greedy basis, transpose and Q correction constants.",
+    "The interpreted child 0->9 canonical all-payload operator equation L C0 R = K C0 K^-1."
+  ],
+  "remaining": [
+    "Python packed nine-bit address and actual executor primitive wiring to the explicit low-bit/spectator interpretation.",
+    "Record/event occurrence and exact phase-tagged registry binding.",
+    "Other child operators and endpoint/ordinary/residual adapters.",
+    "Full expanded coefficient/tableau work, row/column, label, owner and cost suppliers."
+  ],
+  "reuse": {
+    "gaussian": "Unchanged current GaussianPhaseNormalization.exactGate and phase_coefficients; no new general Gaussian inverse or phase algebra.",
+    "stream": "Accepted PR509 via DirectedChildRecipes; no generic composition induction."
+  },
+  "proposed_check": {
+    "release_context": "Root conditional sole 7/6/1 release received through integration at 2026-10-12T10:00:17Z; independent source/current/API and final binding/cap seal required first.",
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "runner": "Reuse the retained-lock single-file driver with binding-only changes; no prerequisite rebuild.",
+    "expected_probes": [
+      "CurrentMain.CliffordChild009Canonical.canonical_data_certificate",
+      "CurrentMain.CliffordChild009Canonical.canonical_inverse_decode",
+      "CurrentMain.CliffordChild009Canonical.canonical_phase_decode",
+      "CurrentMain.CliffordChild009Canonical.imagUnit_four",
+      "CurrentMain.CliffordChild009Canonical.gaussian",
+      "CurrentMain.CliffordChild009Canonical.decoded_child_on_canonical",
+      "CurrentMain.CliffordChild009Canonical.selected_child_operator"
+    ]
+  },
+  "publication": "No author-checked kappa or publication authorization."
+}
