@@ -1,0 +1,104 @@
+{
+  "status": "PASS_INDEPENDENT_GENERIC_TWO_LEVEL_CLEANUP_TERMINAL",
+  "utc": "2026-10-12T17:51:09.484237+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/bit_xor_two_level_cleanup/ACCEPTANCE.json",
+    "sha256": "709807e729d3b2ddc47b76de08f7067b937a593dd45613de93240491478594be",
+    "bytes": 364364
+  },
+  "source_commit": "5b2dd814173a23e770646738acceda6d771ff204",
+  "new_quadruple": {
+    "module": "BitXorTwoLevelCleanup",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_two_level_cleanup_20261012/BitXorTwoLevelCleanup.lean",
+      "sha256": "8ccef0a189360038b140c1a9e0ab1688d2e32baab89b828439be963b798daaf2",
+      "bytes": 4265
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_two_level_cleanup_20261012/BitXorTwoLevelCleanup.olean",
+      "sha256": "b0205e4809d489fcdfe3d6c84266297fd36c1ce26aeb285279488fb761feccca",
+      "bytes": 61816
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__bit_xor_two_level_cleanup_20261012__BitXorTwoLevelCleanup.lean.json",
+      "sha256": "1e2df02e66a3644c780288f2e13d47e137c7aa91d4a6422a55f03cee786ec466",
+      "bytes": 2461
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__bit_xor_two_level_cleanup_20261012__BitXorTwoLevelCleanup.lean.log",
+      "sha256": "ed87428bcb5325a2aafc871e791e6a3f4684fc072a475e2dde63d3af2ff65fb2",
+      "bytes": 389
+    },
+    "dependencies": {
+      "BitXorChunkComposition": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_chunk_composition_20261012/BitXorChunkComposition.olean",
+        "olean_sha256": "479b65ab086dde9144542747b039a0e8ea7629ab82b573f2ffdc2bb1789f2182",
+        "source_sha256": "90054ae1caf1a90ec0a194558bb9194b6e575c90715d9fa2b0b9c397cb82057d"
+      }
+    }
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-xor-interfaces/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "4bfc53e28591b84936bc83e63bc37251a28bf3c618cd8532a2ea172421897eb3",
+    "bytes": 3306
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/bit_xor_two_level_cleanup/BANK_SINGLE_BINDING_REVIEW.json",
+    "sha256": "25ffd6efb87a94671a7c90884ab0b804b438d5fa3df82a83473d65b59f7e6070",
+    "bytes": 4846
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/bit_xor_two_level_cleanup/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "c7669c28b1b3ccafb5b4a02637eb84d4bdff182b5a1ed5c63df73852c35a7abe",
+    "bytes": 458142
+  },
+  "verified": {
+    "import_nodes": 321,
+    "official_source_object_pairs": 317,
+    "retained_local_quadruples": 3,
+    "new_local_quadruples": 1,
+    "protected_prior_quadruples": 39,
+    "failure_archives": 44,
+    "additional_source_pins": 238,
+    "complete_probes": 4
+  },
+  "probes": {
+    "CurrentMain.BitXorTwoLevelCleanup.two_level_cleanup_off_target": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.BitXorTwoLevelCleanup.two_level_target_value": [
+      "propext"
+    ],
+    "CurrentMain.BitXorTwoLevelCleanup.bound_two_level_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.BitXorTwoLevelCleanup.bound_two_level_target_value": [
+      "propext"
+    ]
+  },
+  "compiler_metrics": {
+    "compile_seconds": 0.6293149169941898,
+    "queue_seconds": 2.7830268839898054,
+    "samples": 7,
+    "peak_vm_bytes": 641888256,
+    "peak_rss_bytes": 307691520,
+    "peak_threads": 3
+  },
+  "compiler_timing": {
+    "requested_utc": "2026-10-12T17:48:49.188569+00:00",
+    "slot_acquired_utc": "2026-10-12T17:48:51.971596+00:00",
+    "started_utc": "2026-10-12T17:48:52.962268+00:00",
+    "finished_utc": "2026-10-12T17:48:53.591585+00:00"
+  },
+  "scope": "Four generic two-level cleanup/target laws with explicit ordered reverse bindings, no-self-read and target-only middle-map hypotheses; no selected A/C/D supplier or physical conclusion.",
+  "limitations": [
+    "Actual selected A/C scalarized reverse bindings",
+    "Middle-map/scatter instances",
+    "D parity equality",
+    "Physical transport and full theorem"
+  ],
+  "historical_resource_context": "Generic structural consequence reuses accepted reversal/agreement laws; no numerical predicate replay.",
+  "compiler_executed_by_reviewer": false
+}
