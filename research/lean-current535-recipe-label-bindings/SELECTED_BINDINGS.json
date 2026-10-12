@@ -1,0 +1,194 @@
+{
+  "current_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "catalog_path": "research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+  "catalog_sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+  "canonical_word_path": "research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+  "canonical_word_sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+  "bindings": [
+    {
+      "current_ordinal": 4,
+      "record": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            3,
+            5,
+            8,
+            1,
+            16,
+            32,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 6,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            3,
+            3,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            11,
+            9,
+            10,
+            4,
+            16,
+            32,
+            64,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "old_descriptor": [],
+      "new_descriptor": [
+        11
+      ],
+      "historical_key": [
+        0,
+        9,
+        1
+      ],
+      "historical_ordinal": 7
+    },
+    {
+      "current_ordinal": 138,
+      "record": {
+        "left": {
+          "linear_Z4": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            3,
+            4,
+            9,
+            17,
+            32,
+            1,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "new": 420,
+        "old": 0,
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            13,
+            33,
+            2,
+            36,
+            40,
+            16,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            45,
+            0,
+            45,
+            45,
+            0,
+            13,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "old_descriptor": [],
+      "new_descriptor": [
+        45
+      ],
+      "historical_key": [
+        0,
+        2,
+        1
+      ],
+      "historical_ordinal": 0
+    }
+  ],
+  "comparison_sha256": "2ea3f1950604f412efc556d0370deb4485cfb4251736bd52757bd0107df27eff"
+}

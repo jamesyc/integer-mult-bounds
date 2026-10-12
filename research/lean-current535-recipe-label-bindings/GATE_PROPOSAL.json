@@ -1,0 +1,93 @@
+{
+  "status": "SOURCE_ONLY_CURRENT535_TWO_LABEL_BINDING_PROPOSAL",
+  "root": {
+    "module": "Current535RecipeLabelBindings",
+    "source": "Current535RecipeLabelBindings.lean",
+    "sha256": "d9ab93bb4c20f73a776f7624ad1e216c21795df571428f0334a80c77353d1152"
+  },
+  "direct_imports": [
+    "CliffordChild002Canonical"
+  ],
+  "scope": {
+    "total_local": 11,
+    "current_local": 10,
+    "new_roots": 1,
+    "external_pairs": 2620,
+    "new_external_pairs": 0
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current_main_7dfa22b_recipe_reuse/wrapper_proposal/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "c0da86f93b0e680e5c5433f17f6f38b9786ccc979ad7f2aae0031377284c714f",
+    "bytes": 21572
+  },
+  "preserved_siblings": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current_main_7dfa22b_recipe_reuse/wrapper_proposal/PRESERVED_SIBLINGS.json",
+    "sha256": "7412ecbccf53f2180d2bef6a806d69ad2d04f2499bfdc6a87bd18e53e784dcf4",
+    "bytes": 7338
+  },
+  "current_source_commit": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/NOTICE.md",
+      "sha256": "1547136e6d269fdcef2b68c10a97a786a79a4732a12738363f679bfb282430cd",
+      "bytes": 3576
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ],
+  "selected_bindings": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current535-recipe-label-bindings/SELECTED_BINDINGS.json",
+    "sha256": "1b84cfbc8cef9c42f11ae485012f1e12bdbad5c95907076772078ee59f6888e1",
+    "bytes": 3566
+  },
+  "comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current_main_7dfa22b_recipe_reuse/CHECKED_RECIPE_DESCRIPTOR_COMPARISON.json",
+    "sha256": "2ea3f1950604f412efc556d0370deb4485cfb4251736bd52757bd0107df27eff",
+    "bytes": 10172
+  },
+  "payload_models": {
+    "descriptor11": "Accepted four low Bool coordinates \u00d7 arbitrary spectator S; no new packed-nine-bit identification.",
+    "descriptor45": "Accepted Fin9\u2192ZMod2 address plus arbitrary external spectators."
+  },
+  "new_proofs": "Only literal full-record/ordered-descriptor equalities and direct applications of existing all-payload operator theorems. No inverse/basis/phase decision, generic induction or source executor.",
+  "proposed_check": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "expected_probes": [
+      "CurrentMain.Current535RecipeLabelBindings.current11_key",
+      "CurrentMain.Current535RecipeLabelBindings.current45_key",
+      "CurrentMain.Current535RecipeLabelBindings.current11_fields",
+      "CurrentMain.Current535RecipeLabelBindings.current45_fields",
+      "CurrentMain.Current535RecipeLabelBindings.current11_descriptors",
+      "CurrentMain.Current535RecipeLabelBindings.current45_descriptors",
+      "CurrentMain.Current535RecipeLabelBindings.current11_interpreted_rank",
+      "CurrentMain.Current535RecipeLabelBindings.current11_operator",
+      "CurrentMain.Current535RecipeLabelBindings.current45_operator",
+      "CurrentMain.Current535RecipeLabelBindings.current45_with_spectators"
+    ]
+  },
+  "authority": "Root prioritizes these exact current-label wrappers and permits integration to admit the small bounded gate after independent serialized-field/descriptor/source/API/binding reviews. No compiler yet.",
+  "remaining": [
+    "Current event/label source translation and full-stream RecipesExact/WellLabelled.",
+    "Actual raw packed-address and physical recipe/executor equivalence.",
+    "Residual/endpoint wrappers, expanded work, arbitrary-dirty full rows/columns, global owner/stage/chart and costs.",
+    "Unmatched current records and changed supplier construction."
+  ],
+  "publication": "No multiplier theorem or publication admission."
+}
