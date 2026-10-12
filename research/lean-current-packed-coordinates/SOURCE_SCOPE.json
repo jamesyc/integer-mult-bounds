@@ -1,0 +1,58 @@
+{
+  "status": "FROZEN_SOURCE_ONLY_PENDING_INDEPENDENT_SCIENCE_API_AND_CURRENT_BINDING",
+  "utc": "2026-10-12T15:49:17.780034+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/Current535PackedCoordinates.lean",
+    "sha256": "6d0df547dfd5f6293b6b92e5575e719f0091b34a17759a09e04bf8c3976dab94",
+    "bytes": 5048
+  },
+  "selected_source_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/SOURCE_INVENTORY.json",
+    "sha256": "a0c1755efe10154f688b07157d1ec5e83a5e9f2a4575dd68385aad3177f71864",
+    "bytes": 23216
+  },
+  "source_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/NEXT_SUPPLIER_PROPOSAL.json",
+    "sha256": "94a4245adbb7ed382aa7986c806c01907224cb9d2968a1504f1ec0c33c36e2c2",
+    "bytes": 8191
+  },
+  "source_bit_order": "Packed bit i is x.testBit i with weight2^i. The explicit inverse is BitVec.ofBoolListLE(List.ofFn(decide(x i=1))), not arbitrary finite choice.",
+  "inverse_scatter_convention": "Existing CliffordMonomialDecoder.push p sends v(x) to output p(x); the read formula uses p.symm. liftPermutation transports by unpack\u2218p\u2218pack.",
+  "payload_direction": "payloadEquiv takes Packed\u2192Complex to Address\u2192Complex by precomposing pack; its inverse precomposes unpack.",
+  "xor": "Fixed-width BitVec XOR is decoded to ZMod2 pointwise addition, by four Boolean cases per arbitrary coordinate. No512-address enumeration.",
+  "api_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/BitVec/Lemmas.lean",
+      "sha256": "d295aabfc8d328c7985cc068d5068726dee1faa32c42b08ff27c1be64f97f78d",
+      "bytes": 212510
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/OfFn.lean",
+      "sha256": "4882e3289610841198cfa1902487d679cb91389b39accaf06205e8edc0a0a4d6",
+      "bytes": 5801
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/ZMod/Basic.lean",
+      "sha256": "da586753cb634b208ed96bf905f5d7127003f95133beee2b47631d3db55d54b6",
+      "bytes": 47591
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Module/Equiv/Basic.lean",
+      "sha256": "ce03f992e32c2a0a65677facc95288c375fc29edbbad9ceb7f0a990988f4b678",
+      "bytes": 26342
+    }
+  ],
+  "accepted_reuse": [
+    "CliffordNineBitDecoder.Address/mask",
+    "CliffordMonomialDecoder.push/push_apply",
+    "LinearEquiv.funCongrLeft"
+  ],
+  "remaining": [
+    "Packed source mv/qvalue correspondence; no matrix or phase formula is identified here.",
+    "Gaussian integer/dyadic normalization and vectorized machine arithmetic semantics.",
+    "Actual raw macro executor and expanded physical work, routes, adapters and ownership.",
+    "PR593 endpoints remain separate; no hstart, unit-row or exact factorization premise is discharged."
+  ],
+  "authority": "Root2026-10-12T15:44:39 approved source preparation and first bounded10/9/1 after independent scientific/API and binding seals, unchanged existing caps and prior-output protection.",
+  "attribution": "Pinned PR535 selected source; upstream exact Clifford compiler PR425/433 and current531/535 caller chain. Existing accepted decoder/push APIs. OpenAI-assisted source."
+}

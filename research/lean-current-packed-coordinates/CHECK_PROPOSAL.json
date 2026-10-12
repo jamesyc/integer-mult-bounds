@@ -1,0 +1,53 @@
+{
+  "status": "PROSPECTIVE_FIRST_CHECK_NO_DISPATCH",
+  "utc": "2026-10-12T15:49:17.782377+00:00",
+  "module": "Current535PackedCoordinates",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/Current535PackedCoordinates.lean",
+    "sha256": "6d0df547dfd5f6293b6b92e5575e719f0091b34a17759a09e04bf8c3976dab94",
+    "bytes": 5048
+  },
+  "source_scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/SOURCE_SCOPE.json",
+    "sha256": "c912b320229991ccfeb27455c793c0cfd03f7ab5efcfc3fd8c7f9dc8c08b9f75",
+    "bytes": 3650
+  },
+  "direct_imports": [
+    "CliffordNineBitDecoder"
+  ],
+  "scope": [
+    10,
+    9,
+    1
+  ],
+  "external_pairs": 2620,
+  "new_external_pairs": 0,
+  "footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "eb44d49b0b6e2d5a9f334b3d5e42abfb6f5d2615e5d1f386c6d6be4a8c37fa12",
+    "bytes": 2891518
+  },
+  "expected_probes": [
+    "CurrentMain.Current535PackedCoordinates.unpack_apply",
+    "CurrentMain.Current535PackedCoordinates.pack_bit_order",
+    "CurrentMain.Current535PackedCoordinates.unpack_pack",
+    "CurrentMain.Current535PackedCoordinates.pack_unpack",
+    "CurrentMain.Current535PackedCoordinates.unpack_xor",
+    "CurrentMain.Current535PackedCoordinates.unpack_one",
+    "CurrentMain.Current535PackedCoordinates.payload_apply",
+    "CurrentMain.Current535PackedCoordinates.payload_symm_apply",
+    "CurrentMain.Current535PackedCoordinates.scatter_apply_at",
+    "CurrentMain.Current535PackedCoordinates.scatter_reindex"
+  ],
+  "probes": 10,
+  "finite_decision_scope": "Only two Boolean cases for pack inverse bit and four Boolean cases for XOR at an arbitrary coordinate. No closed512-state goal.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "next_owner": "machine after independent source/API, current/import inventory and integration binding seal",
+  "authority": "Root2026-10-12T15:44:39 approved source preparation and first bounded10/9/1 after independent scientific/API and binding seals, unchanged existing caps and prior-output protection.",
+  "compiler_run": false
+}
