@@ -1,0 +1,58 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "f9ae8cc0e10985edcb58d0b169718b04e5b9abe4",
+  "source_sha256": "cf21c60c9426483643eaa901a78017f904b7fbd10924ee2cee35d60d6597ce18",
+  "object_sha256": "d4e08daca8b32ce8ec043ebdc6cf6d93e8a03478ebe23af00a5084c601fa16b2",
+  "receipt_sha256": "4a4833d7e78e11b6492000225801fdc9fd774ce962d1e0e41728646cb7c54632",
+  "log_sha256": "673ec0851d3e95c3fed8820064bcf0e571545292164fa8c7e8ab0f2baa98df4b",
+  "acceptance_sha256": "9dd50fd4b40e0688bd197777e7baa69ff0982632f193c97587003e1ac230f92e",
+  "independent_terminal_review_sha256": "9ae1a890bd82f0818e52c0c291367d49e5e326d1e181dd1b3137720b6e9f9591",
+  "selected_head": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "catalog_sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+  "canonical_gzip_sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+  "record_key": [
+    0,
+    2,
+    1
+  ],
+  "ordered_descriptors": [
+    [],
+    [
+      459
+    ]
+  ],
+  "current_import_closure": 12,
+  "external_pairs": 2620,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current5996CKFirstRecipe.key_and_descriptors",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current5996CKFirstRecipe.left_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current5996CKFirstRecipe.right_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current5996CKFirstRecipe.selected_child_operator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "compiler_seconds": 5.079735275998246,
+  "fifo_seconds": 0.0007678389956708997,
+  "peak_vm_bytes": 2441936896,
+  "claim": "All serialized fields and ordered descriptors bind the exact current CK-HPE first recipe to the unchanged accepted all-payload Address operator.",
+  "remaining": [
+    "Explicit Fin1082 label/event transport",
+    "Raw packed recipe decoder and expanded physical-work execution"
+  ],
+  "publication": "No publication authorized or performed."
+}
