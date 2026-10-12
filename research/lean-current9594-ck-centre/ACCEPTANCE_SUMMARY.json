@@ -1,0 +1,56 @@
+{
+  "status": "HISTORICAL9594_CK_SCALAR_CENTRE_KERNEL_PASS",
+  "utc": "2026-10-12T17:21:56.306747+00:00",
+  "source_commit": "9b555701cc0df790ea2a1564b8b9867cc4b413e2",
+  "source_sha256": "281f86b189d92d203d4ad95e9186bb959c574049be48c227aef5c6eb266e8e0e",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/eight_block_repair/ACCEPTANCE.json",
+    "sha256": "2573d169aae6358d841720f6b7e01c7ca44286aafeeb71969060d9b4e4bd5834"
+  },
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_CENTRE_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "ffa435c287b2526a21ab860f1267891c742850a40e43d07d662feaec89629af8"
+  },
+  "scope": [
+    10,
+    10,
+    0
+  ],
+  "external_pairs": 2232,
+  "complete_probes": 10,
+  "measurements": {
+    "started_utc": "2026-10-12T17:17:00.485137+00:00",
+    "finished_utc": "2026-10-12T17:17:10.531936+00:00",
+    "compile_seconds": 10.04678530000092,
+    "queue_seconds": 0.0007346360071096569,
+    "preparation_seconds": 1.1213737849902827,
+    "process_observations": {
+      "samples": 100,
+      "peak_vm_bytes": 2315968512,
+      "peak_rss_bytes": 1570471936,
+      "peak_threads": 4
+    }
+  },
+  "source_context": "Pinned9594 PR588 CK provider, raw12927..13182 in both directions, Fin1079 annotations. Subsequent5996 selection is a fresh supplier obligation.",
+  "claim": "Exact selected CK Row1079 centre bands at raw12927..13182,256 events per direction. Ordered frame-erased scalar equality transports arbitrary dirty-centre independence and final eight-centre zero from the accepted band. Current labels are retained in rational decoding; no frame-domain identity is asserted.",
+  "exclusions": [
+    "No prefix/suffix or omitted adapter interpretation",
+    "No frame/operator, packed or expanded physical executor equality",
+    "No provider-mixture, all-size or selected kappa theorem",
+    "No clearance of any previously protected resource hold"
+  ],
+  "preserved_failures": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/first_failure/PRESERVATION.json",
+      "sha256": "987f77c1273b2a8d6130e0a50162e13f097d977597f8cd0e4324e5dd85054e9b",
+      "bytes": 12445
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current9594_ck_centre_proposal/gate/second_failure/PRESERVATION.json",
+      "sha256": "ef1bd8977968812e95b0ce28e5e96644a80fcd88b8ee200c44c1e203f5f7bd37",
+      "bytes": 13463
+    }
+  ],
+  "conditional_author_checked_kappa": "400569730495803/250000000000000000",
+  "full_multiplier_theorem": false
+}
