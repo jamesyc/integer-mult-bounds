@@ -1,0 +1,136 @@
+{
+  "status": "OWNER_TERMINAL_PASS_INDEPENDENT_REVIEW_PENDING",
+  "utc": "2026-10-12T14:28:26.640030+00:00",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_coverage45/ACCEPTANCE.json",
+    "sha256": "f533c8e40cf6ada118c756f3b635a882bae726f679a35c5659414657045c27d9",
+    "bytes": 24735
+  },
+  "current_snapshot": "7dfa22b109996e48db68daac3706e7a49a43002b",
+  "source_commit": "0db957fc3b7a22e3404434828aa4e7a357ee632a",
+  "metrics": [
+    {
+      "module": "CanonicalFrameCoverage",
+      "admitted_utc": "2026-10-12T14:23:23.613894+00:00",
+      "compiler_started_utc": "2026-10-12T14:23:25.223322+00:00",
+      "compile_seconds": 4.851591686005122,
+      "queue_seconds": 0.0008915350044844672,
+      "samples": 49,
+      "peak_vm_bytes": 2294996992,
+      "peak_rss_bytes": 1515167744,
+      "peak_threads": 4
+    },
+    {
+      "module": "Current535CoverageData",
+      "admitted_utc": "2026-10-12T14:23:35.093251+00:00",
+      "compiler_started_utc": "2026-10-12T14:23:36.490731+00:00",
+      "compile_seconds": 19.57808437300264,
+      "queue_seconds": 0.0004961950035067275,
+      "samples": 194,
+      "peak_vm_bytes": 2244263936,
+      "peak_rss_bytes": 1686708224,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current535CoverageCheck",
+      "admitted_utc": "2026-10-12T14:24:01.089363+00:00",
+      "compiler_started_utc": "2026-10-12T14:24:02.375485+00:00",
+      "compile_seconds": 17.65999668200675,
+      "queue_seconds": 0.0010173220071010292,
+      "samples": 176,
+      "peak_vm_bytes": 2302177280,
+      "peak_rss_bytes": 1753067520,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 42.08967274101451,
+  "total_new_queue_seconds": 0.002405052015092224,
+  "peak_new_vm_bytes": 2302177280,
+  "scope": {
+    "local_modules": 4,
+    "preserved_current": 1,
+    "new_checks": 3,
+    "historical743_replays": 0
+  },
+  "scientific_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current535/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "f91de14e8094c88104891480ff74b1738c5f933c6d3e86c54e7b3f1e870ae95f",
+    "bytes": 5386
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_coverage45/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+    "sha256": "aceccc29fa599111db2004476d5279c646a83e898846e86bade69a21b8948eb1",
+    "bytes": 15389
+  },
+  "data_scope": {
+    "block_histograms": [
+      {
+        "ADD": 12,
+        "relabel": 12
+      },
+      {
+        "ADD": 19,
+        "relabel": 2
+      }
+    ],
+    "child_ordinals": [
+      0
+    ],
+    "directed_keys": [
+      [
+        0,
+        2,
+        1
+      ]
+    ],
+    "histogram_each": {
+      "ADD": 31,
+      "relabel": 14
+    },
+    "inclusive_raw": [
+      10691,
+      10735
+    ],
+    "rows_each": 45,
+    "sparse_supports": [
+      [
+        512,
+        513,
+        522,
+        510,
+        511,
+        524,
+        560,
+        561,
+        570,
+        558,
+        559,
+        572
+      ],
+      [
+        582,
+        584
+      ]
+    ],
+    "split": [
+      24,
+      21
+    ],
+    "cardinality": {
+      "children": 2927,
+      "extended_registers": 736,
+      "frames": 997,
+      "original_registers": 728
+    },
+    "original_and_current_label_relation": "7\u21922 on these45rows only; different initializer/catalog requires fresh check."
+  },
+  "excluded_scope": [
+    "Fresh proof covers only named current45 projected events and full736-coordinate label states at0/24/45.",
+    "Pre-A canonical ADD/SCALE neutrality is a source tag boundary; no prior WellLabelled, omitted-adapter or physical chart equation follows.",
+    "Directed lookup/rank correctness is structural, not recipe operator realization.",
+    "Current535 raw executor/scalar/full-work/cost/whole-stream endpoint suppliers remain open.",
+    "Generic childReference uses defaulted dimension lookup as inherited; selected shape certifies all997 entries and typed Fin997 bounds."
+  ],
+  "new_probe_count": 39,
+  "no_next_compiler_admitted": true
+}
