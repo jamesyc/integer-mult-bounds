@@ -1,0 +1,127 @@
+{
+  "status": "PASS_CORRECTED_CURRENT_R420_SCIENTIFIC_SOURCE_API_REVIEW",
+  "packet_received_utc": "2026-10-12T16:12:44+00:00",
+  "completed_utc": "2026-10-12T16:15:53.049158+00:00",
+  "owner_commit": "f727780dfee108d5db14593fef2bd133b9e4ee66",
+  "current_head": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryData.lean",
+      "sha256": "123b45657d8f5b1fb07a9c238c49230bb99dc0a7a65b7fd6bc5717a234f6f509",
+      "bytes": 34312
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+      "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+      "bytes": 6313
+    }
+  ],
+  "source_binding_sha256": "e955e71e2eef798a5aa0de4d3269bd9276ce448073bb65aa9d3d250c61a87c5c",
+  "proposal_sha256": "106b3e57a9b876b6e281e75169fcafe35a22ed1942ea3f6c2eb66bad0b00699c",
+  "raw_input": {
+    "compressed": {
+      "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/e8-bit-r420/data/bitE8mut-r420.json.gz",
+      "sha256": "9721a3819efd68307f66f00d84a952eb28eb7c3ad2ce79653ce295c98a764784",
+      "bytes": 45278
+    },
+    "decoded_bytes": 217678,
+    "decoded_sha256": "e597e3885c0a8daa262afa5985ee2930443329126aece76d33159d81882bdcc2"
+  },
+  "source_correction": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/final_band_operand_correction/SOURCE_CORRECTION.json",
+    "sha256": "a8bc57936740039ae28a7d0007bdd2528c2b6c594d0639d840808ffaa7352feb",
+    "all_four_preimages_verified": true,
+    "exact_one_predicate_inverse": true,
+    "blocker": "Initial final-band all-source operand assertion was false and caught before compiler admission. Corrected source/helper disjunction matches exact raw values."
+  },
+  "literal_readback": {
+    "all_837_ordered_gates_and_1077_operands_equal_raw": true,
+    "first_band": {
+      "gates": 120,
+      "arity": 1,
+      "target_destinations": true,
+      "source_operands": 120
+    },
+    "middle_band": {
+      "gates": 597,
+      "arity": 1,
+      "source_destinations": true,
+      "first477_operands": "source",
+      "last120_operands": "helper"
+    },
+    "last_band": {
+      "gates": 120,
+      "arity": 3,
+      "target_destinations": true,
+      "source_operands": 120,
+      "helper_operands": 240,
+      "target_operands": 0
+    },
+    "frame_permutation": {
+      "size": 672,
+      "exact_raw_reconstruction_from_accepted_table": true,
+      "permutation_domain": "Fin672",
+      "read": "Bound-carrying list get using accepted frame_domain.1, no default fallback."
+    },
+    "other_exact_raw_fields": [
+      "h",
+      "v",
+      "R",
+      "format",
+      "form",
+      "coords",
+      "lines",
+      "start",
+      "final",
+      "ret",
+      "scatter"
+    ],
+    "new_register_domains": [
+      660,
+      661
+    ],
+    "temporary_index": 660,
+    "retained_ids": [
+      603,
+      568,
+      597,
+      583,
+      569,
+      604,
+      616,
+      596,
+      598
+    ],
+    "all_no_self_and_no_target_reads": true,
+    "final_target_frames_match": true
+  },
+  "API_readback": [
+    "Only exact literal aliases are inherited; no Fin720/729 execution or lifecycle proof is transferred.",
+    "line_shape consumes byte-equal accepted lines. Frame table is explicitly reordered by new-to-old indices; checked full permutation and raw row equality.",
+    "frameAt transports only the accepted length equality to i.isLt; no choice or out-of-bounds default.",
+    "Fresh embed Fin660\u2192Fin661 preserves val; original_excludes_temporary follows r.val<660.",
+    "Finite check root exposes 27 precise structural facts. Middle source writes expressly prevent any general off-target preservation claim."
+  ],
+  "closure_as_proposed": {
+    "total": [
+      322,
+      320,
+      2
+    ],
+    "local": [
+      5,
+      3,
+      2
+    ],
+    "official": 317,
+    "retained_local": 3,
+    "fresh": 2,
+    "edges": 1084
+  },
+  "public_probes": 27,
+  "limitations": [
+    "Science/API/literal source review only; no compiler or runtime/driver guard performed.",
+    "B scalar XOR interpreter, temporary COPY/ERASE lifecycle, A/C cleanup, D compensation and physical frames remain separate.",
+    "Conditional kappa is selected-source provenance only; no all-size theorem inferred."
+  ]
+}
