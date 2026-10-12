@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_ONLY_CURRENT535_TWO_LABEL_BINDING_PROPOSAL",
+  "status": "SOURCE_REVIEWED_FIRST_LAYOUT_REPAIR",
   "root": {
     "module": "Current535RecipeLabelBindings",
     "source": "Current535RecipeLabelBindings.lean",
-    "sha256": "d9ab93bb4c20f73a776f7624ad1e216c21795df571428f0334a80c77353d1152"
+    "sha256": "80fb6cbf9cedaa91b0eb13a4732fe1c28a3488bf78bf824877cd7e6130bb3c27"
   },
   "direct_imports": [
     "CliffordChild002Canonical"
@@ -89,5 +89,6 @@
     "Residual/endpoint wrappers, expanded work, arbitrary-dirty full rows/columns, global owner/stage/chart and costs.",
     "Unmatched current records and changed supplier construction."
   ],
-  "publication": "No multiplier theorem or publication admission."
+  "publication": "No multiplier theorem or publication admission.",
+  "repair": "Only twelve whitespace indentation changes in four nested record expressions; no non-whitespace token changed. First failure preserved."
 }

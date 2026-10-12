@@ -28,26 +28,26 @@ def current11 : RecipeFields where
   newFrame := 6
   rank := 1
   left := { rows := [3, 5, 8, 1, 16, 32, 64, 128, 256],
-    quadratic := [0, 0, 0, 0, 0, 0, 0, 0, 0],
-    linearZ4 := [2, 0, 0, 0, 0, 0, 0, 0, 0],
-    offset := 0, phase := 0 }
+            quadratic := [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            linearZ4 := [2, 0, 0, 0, 0, 0, 0, 0, 0],
+            offset := 0, phase := 0 }
   right := some { rows := [11, 9, 10, 4, 16, 32, 64, 128, 256],
-    quadratic := [3, 3, 0, 0, 0, 0, 0, 0, 0],
-    linearZ4 := [3, 3, 0, 2, 0, 0, 0, 0, 0],
-    offset := 1, phase := 1 }
+                  quadratic := [3, 3, 0, 0, 0, 0, 0, 0, 0],
+                  linearZ4 := [3, 3, 0, 2, 0, 0, 0, 0, 0],
+                  offset := 1, phase := 1 }
 
 def current45 : RecipeFields where
   oldFrame := 0
   newFrame := 420
   rank := 1
   left := { rows := [3, 4, 9, 17, 32, 1, 64, 128, 256],
-    quadratic := [1, 0, 0, 0, 0, 0, 0, 0, 0],
-    linearZ4 := [3, 0, 0, 0, 0, 0, 0, 0, 0],
-    offset := 0, phase := 0 }
+            quadratic := [1, 0, 0, 0, 0, 0, 0, 0, 0],
+            linearZ4 := [3, 0, 0, 0, 0, 0, 0, 0, 0],
+            offset := 0, phase := 0 }
   right := some { rows := [13, 33, 2, 36, 40, 16, 64, 128, 256],
-    quadratic := [45, 0, 45, 45, 0, 13, 0, 0, 0],
-    linearZ4 := [1, 0, 1, 1, 0, 2, 0, 0, 0],
-    offset := 0, phase := 0 }
+                  quadratic := [45, 0, 45, 45, 0, 13, 0, 0, 0],
+                  linearZ4 := [1, 0, 1, 1, 0, 2, 0, 0, 0],
+                  offset := 0, phase := 0 }
 
 def current11OldDescriptor : List Nat := []
 def current11NewDescriptor : List Nat := [11]
