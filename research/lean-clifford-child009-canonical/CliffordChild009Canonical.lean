@@ -69,7 +69,7 @@ theorem canonical_data_certificate :
     transpose9 canonicalQ = canonicalQ ∧
     (∀ r ∈ canonicalBasis, r < 512) ∧
     (∀ r ∈ canonicalInverseRows, r < 512) := by
-  decide
+  decide +kernel
 
 /-- The proposed inverse is proved by the already certified coordinate inverse;
 its upper five rows are literal identity. No source `inv` assertion is assumed. -/
@@ -140,7 +140,10 @@ private theorem right_apply (v : Low × S → ℂ) (x : Low) (s : S) :
       Complex.I ^ ((1 + rightPhase ((rightEquiv.trans offsetEquiv).symm x)) % 4) *
         v ((rightEquiv.trans offsetEquiv).symm x, s) := by
   have h := right_decoded_apply imagUnit v ((rightEquiv.trans offsetEquiv).symm x) s
-  simpa only [← Equiv.trans_apply, Equiv.apply_symm_apply, Units.val_pow_eq_pow_val] using h
+  change rightDecoded imagUnit v
+    ((rightEquiv.trans offsetEquiv) ((rightEquiv.trans offsetEquiv).symm x), s) = _ at h
+  rw [Equiv.apply_symm_apply] at h
+  simpa only [Units.val_pow_eq_pow_val] using h
 
 /-- The finite proof keeps arbitrary complex payloads and an arbitrary spectator
 type. It compares both Gaussian branches, retaining offset 1 and global phase 1
@@ -162,9 +165,10 @@ theorem decoded_child_on_canonical (v : Low × S → ℂ) :
   rcases y with ⟨y, s⟩
   obtain ⟨x, rfl⟩ := leftEquiv.surjective y
   rw [left_decoded_apply, canonicalK_apply]
+  simp only [gaussian_apply, right_apply, canonicalK_apply]
   rcases x with ⟨a, b, c, d⟩
   cases a <;> cases b <;> cases c <;> cases d <;>
-    simp [gaussian_apply, right_apply, canonicalK_apply, canonicalPhase,
+    simp [canonicalPhase,
       leftPhase, rightPhase, leftEquiv, leftMap, leftInverse, rightEquiv,
       rightMap, rightInverse, offsetEquiv, Equiv.trans_apply,
       Units.val_pow_eq_pow_val, imagUnit, pow_succ, Complex.I_mul_I,

@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_ONLY_AWAITING_INDEPENDENT_REVIEW_AND_EXACT_GATE_BINDING",
+  "status": "FIRST_ORDINARY_PROOF_LOCAL_REPAIR_AWAITING_EXACT_REVIEW",
   "root": {
     "module": "CliffordChild009Canonical",
     "source": "CliffordChild009Canonical.lean",
-    "sha256": "f65140b816e703d0981a400e8eaa1814edf492c161abea59893540609019a3fa"
+    "sha256": "030ac43a4b5e5d1cafca6d0bea01230cacc89e92d8f3722e6c86c51d1e06e6e3"
   },
   "local_scope": {
     "total": 7,
@@ -260,5 +260,15 @@
       "CurrentMain.CliffordChild009Canonical.selected_child_operator"
     ]
   },
-  "publication": "No author-checked kappa or publication authorization."
+  "publication": "No author-checked kappa or publication authorization.",
+  "repair": {
+    "failed_source_sha256": "f65140b816e703d0981a400e8eaa1814edf492c161abea59893540609019a3fa",
+    "sites": [
+      "Closed decide uses kernel reduction rather than elaborator reduction.",
+      "Explicit composite application and inverse cancellation replaces reverse trans_apply rewriting.",
+      "Shallow operator rewrites precede phase-unit unfolding and the unchanged16 Boolean cases."
+    ],
+    "unchanged": "Every definition, statement, assumption, source constant, import, external footprint and cap.",
+    "source_sorry_or_native_decide": false
+  }
 }
