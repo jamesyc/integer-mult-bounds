@@ -1,0 +1,210 @@
+{
+  "status": "ROOT_RELEASED_CONDITIONAL_ON_SOURCE_AND_ORDERED_DFS_CURRENT_DRIVER_REVIEWS",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SOURCE_BINDING.json",
+    "sha256": "00edf787caefadc268910bef00f3f588b7e2872c4943980355c74fda5e1775e0",
+    "bytes": 11556
+  },
+  "source_transforms": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SOURCE_TRANSFORMS.json",
+    "sha256": "59cb4b7cbc8f7150e48800682c136eac63e9356cd60604f50a6dea7f0dc68d67",
+    "bytes": 53118
+  },
+  "ordered_roots": [
+    "SelectedR480Prefix000Data",
+    "SelectedR480Prefix000Check",
+    "SelectedR480Prefix001Data",
+    "SelectedR480Prefix001Check",
+    "SelectedR480Prefix003Data",
+    "SelectedR480Prefix003Check",
+    "SelectedR480Prefix004Data",
+    "SelectedR480Prefix004Check"
+  ],
+  "sources": [
+    {
+      "module": "SelectedR480Prefix000Data",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix000Data.lean",
+      "sha256": "184a3a154ecb2d8841e76c6f792438c33b52706bbbf107c4308217cadae0ba97",
+      "bytes": 5230,
+      "explicit_imports": [
+        "SelectedR480Boundary"
+      ],
+      "public_probes": [],
+      "chunk": 0
+    },
+    {
+      "module": "SelectedR480Prefix000Check",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix000Check.lean",
+      "sha256": "60bdae939000fe3c778cd5b34101c388f86977af004f0cc6c16bf2533201927b",
+      "bytes": 8315,
+      "explicit_imports": [
+        "SelectedR480Prefix000Data",
+        "BitXorReversal"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480Prefix000.block_shape",
+        "CurrentMain.SelectedR480Prefix000.raw_domains",
+        "CurrentMain.SelectedR480Prefix000.raw_cleanup_binding",
+        "CurrentMain.SelectedR480Prefix000.no_self_reads",
+        "CurrentMain.SelectedR480Prefix000.no_target_reads",
+        "CurrentMain.SelectedR480Prefix000.no_target_writes",
+        "CurrentMain.SelectedR480Prefix000.decode_roundtrip",
+        "CurrentMain.SelectedR480Prefix000.ordered_A_binding",
+        "CurrentMain.SelectedR480Prefix000.ordered_C_binding",
+        "CurrentMain.SelectedR480Prefix000.decoded_no_self_reads",
+        "CurrentMain.SelectedR480Prefix000.decoded_no_target_reads",
+        "CurrentMain.SelectedR480Prefix000.decoded_no_target_writes",
+        "CurrentMain.SelectedR480Prefix000.cleanup_runs_reverse",
+        "CurrentMain.SelectedR480Prefix000.isolated_block_inverse",
+        "CurrentMain.SelectedR480Prefix000.conditional_off_target_cleanup",
+        "CurrentMain.SelectedR480Prefix000.conditional_target_value"
+      ],
+      "chunk": 0
+    },
+    {
+      "module": "SelectedR480Prefix001Data",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix001Data.lean",
+      "sha256": "fa67342fbe6c4c0ffd82f6e58ee844faddb983b34c31762d4f4d7b4dcc0828a3",
+      "bytes": 5384,
+      "explicit_imports": [
+        "SelectedR480Boundary"
+      ],
+      "public_probes": [],
+      "chunk": 1
+    },
+    {
+      "module": "SelectedR480Prefix001Check",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix001Check.lean",
+      "sha256": "83e864b6b758234a29db8aef474725585bbc556002c3722a20488cfaaf45c9e4",
+      "bytes": 8317,
+      "explicit_imports": [
+        "SelectedR480Prefix001Data",
+        "BitXorReversal"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480Prefix001.block_shape",
+        "CurrentMain.SelectedR480Prefix001.raw_domains",
+        "CurrentMain.SelectedR480Prefix001.raw_cleanup_binding",
+        "CurrentMain.SelectedR480Prefix001.no_self_reads",
+        "CurrentMain.SelectedR480Prefix001.no_target_reads",
+        "CurrentMain.SelectedR480Prefix001.no_target_writes",
+        "CurrentMain.SelectedR480Prefix001.decode_roundtrip",
+        "CurrentMain.SelectedR480Prefix001.ordered_A_binding",
+        "CurrentMain.SelectedR480Prefix001.ordered_C_binding",
+        "CurrentMain.SelectedR480Prefix001.decoded_no_self_reads",
+        "CurrentMain.SelectedR480Prefix001.decoded_no_target_reads",
+        "CurrentMain.SelectedR480Prefix001.decoded_no_target_writes",
+        "CurrentMain.SelectedR480Prefix001.cleanup_runs_reverse",
+        "CurrentMain.SelectedR480Prefix001.isolated_block_inverse",
+        "CurrentMain.SelectedR480Prefix001.conditional_off_target_cleanup",
+        "CurrentMain.SelectedR480Prefix001.conditional_target_value"
+      ],
+      "chunk": 1
+    },
+    {
+      "module": "SelectedR480Prefix003Data",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix003Data.lean",
+      "sha256": "a55425ac5e5b3dc97cf6052a8c6ca6b28d8254343b08866062d15b487d435d97",
+      "bytes": 5766,
+      "explicit_imports": [
+        "SelectedR480Boundary"
+      ],
+      "public_probes": [],
+      "chunk": 3
+    },
+    {
+      "module": "SelectedR480Prefix003Check",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix003Check.lean",
+      "sha256": "a03fc47d84aa4bea6a74e47bddc88eea68968204ac80caaa026a72c81d0a76f4",
+      "bytes": 8317,
+      "explicit_imports": [
+        "SelectedR480Prefix003Data",
+        "BitXorReversal"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480Prefix003.block_shape",
+        "CurrentMain.SelectedR480Prefix003.raw_domains",
+        "CurrentMain.SelectedR480Prefix003.raw_cleanup_binding",
+        "CurrentMain.SelectedR480Prefix003.no_self_reads",
+        "CurrentMain.SelectedR480Prefix003.no_target_reads",
+        "CurrentMain.SelectedR480Prefix003.no_target_writes",
+        "CurrentMain.SelectedR480Prefix003.decode_roundtrip",
+        "CurrentMain.SelectedR480Prefix003.ordered_A_binding",
+        "CurrentMain.SelectedR480Prefix003.ordered_C_binding",
+        "CurrentMain.SelectedR480Prefix003.decoded_no_self_reads",
+        "CurrentMain.SelectedR480Prefix003.decoded_no_target_reads",
+        "CurrentMain.SelectedR480Prefix003.decoded_no_target_writes",
+        "CurrentMain.SelectedR480Prefix003.cleanup_runs_reverse",
+        "CurrentMain.SelectedR480Prefix003.isolated_block_inverse",
+        "CurrentMain.SelectedR480Prefix003.conditional_off_target_cleanup",
+        "CurrentMain.SelectedR480Prefix003.conditional_target_value"
+      ],
+      "chunk": 3
+    },
+    {
+      "module": "SelectedR480Prefix004Data",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix004Data.lean",
+      "sha256": "101e8c5084aa4603a53f5fdfa6011f8b8998b4275d27e680d14fbd6737febad8",
+      "bytes": 5732,
+      "explicit_imports": [
+        "SelectedR480Boundary"
+      ],
+      "public_probes": [],
+      "chunk": 4
+    },
+    {
+      "module": "SelectedR480Prefix004Check",
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-r480-prefix-batch0001_0304/SelectedR480Prefix004Check.lean",
+      "sha256": "0c41b4c5fabf4f47cefca5cdaf650e1443bc99a51377debdc21d291980e8ccd5",
+      "bytes": 8317,
+      "explicit_imports": [
+        "SelectedR480Prefix004Data",
+        "BitXorReversal"
+      ],
+      "public_probes": [
+        "CurrentMain.SelectedR480Prefix004.block_shape",
+        "CurrentMain.SelectedR480Prefix004.raw_domains",
+        "CurrentMain.SelectedR480Prefix004.raw_cleanup_binding",
+        "CurrentMain.SelectedR480Prefix004.no_self_reads",
+        "CurrentMain.SelectedR480Prefix004.no_target_reads",
+        "CurrentMain.SelectedR480Prefix004.no_target_writes",
+        "CurrentMain.SelectedR480Prefix004.decode_roundtrip",
+        "CurrentMain.SelectedR480Prefix004.ordered_A_binding",
+        "CurrentMain.SelectedR480Prefix004.ordered_C_binding",
+        "CurrentMain.SelectedR480Prefix004.decoded_no_self_reads",
+        "CurrentMain.SelectedR480Prefix004.decoded_no_target_reads",
+        "CurrentMain.SelectedR480Prefix004.decoded_no_target_writes",
+        "CurrentMain.SelectedR480Prefix004.cleanup_runs_reverse",
+        "CurrentMain.SelectedR480Prefix004.isolated_block_inverse",
+        "CurrentMain.SelectedR480Prefix004.conditional_off_target_cleanup",
+        "CurrentMain.SelectedR480Prefix004.conditional_target_value"
+      ],
+      "chunk": 4
+    }
+  ],
+  "local_scope": [
+    15,
+    7,
+    8
+  ],
+  "total_scope": [
+    332,
+    324,
+    8
+  ],
+  "official_core": 317,
+  "probe_count": 64,
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "resource_evidence": "Representative ordinal2: 5.454228006 compiler seconds for two roots, maximum922103808 VM. Per-pair compiler/queue/FIFO/guard times will be recorded separately; no controlled speedup claim.",
+  "driver_change": "Visit each exact ordered root in DFS instead of only the last; compare complete332-node union to pinned order. All execution/lock/stop controls otherwise preserved.",
+  "protected_prior_outputs": 16,
+  "no_compiler_yet": true
+}
