@@ -1,0 +1,447 @@
+{
+  "status": "PROSPECTIVE_SOURCE_IMPORT_CENSUS_NO_COMPILER_ADMISSION",
+  "created_utc": "2026-10-12T11:22:41.420976+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-f19-scalar-interpretation/F19ScalarEventInterpretation.lean",
+    "sha256": "8049dc5ee56cb606bbd98b8d6137e16f65dfbc56b40a28dbb4cb8f5560cf8dda",
+    "bytes": 5237
+  },
+  "local_scope": [
+    3,
+    2,
+    1
+  ],
+  "retained_local": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "module": "F19CoverageStatement",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+        "sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+        "bytes": 363832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+        "sha256": "f8dde87d974d62ba82aa7ebf63ba6fcfd2a21d03e0d5715f391774458ae139de",
+        "bytes": 3493
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+        "sha256": "ad9b5a3aea4bcad7a4bc034a1d631323fdb8bbfa89153f8936ca4a3c7e421ea1",
+        "bytes": 254
+      }
+    }
+  ],
+  "base_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/new_main_binding/pr509_reuse/SOURCE_IMPORT_FOOTPRINT_V2.json",
+    "sha256": "8ab51a655fff02741615eb04281d62a1e18236f773d8bc2c5b599bfddc929b1c",
+    "bytes": 2386951
+  },
+  "base_external_nodes": 2213,
+  "new_explicit_import": "Mathlib.Algebra.Field.Rat",
+  "added_nodes": 19,
+  "external_union_nodes": 2232,
+  "total_nodes": 2235,
+  "added_object_bytes": 8283728,
+  "all_pairs_rehashed": 2232,
+  "additions": [
+    {
+      "module": "Mathlib.Algebra.Order.Group.Unbundled.Basic",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Group/Unbundled/Basic.lean",
+        "sha256": "09dea9bf887fadb04dbbbf6a7ec83058174520d6fd584bdf8d0b5cc74ca46c94",
+        "bytes": 23740
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Group/Unbundled/Basic.olean",
+        "sha256": "ad570d5218a2106f263f1d4feb47c090854be496eec484ba2708e1bad296c895",
+        "bytes": 886688
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Monoid.Unbundled.Basic",
+        "Mathlib.Algebra.Order.Sub.Defs",
+        "Mathlib.Util.AssertExists"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Group.OrderIso",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Group/OrderIso.lean",
+        "sha256": "3b4f89334953c5444dab4b5d5f0387625b75f298e05244ed79dbf0e5bb3f3e29",
+        "bytes": 3022
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Group/OrderIso.olean",
+        "sha256": "91acc413347b29bf3b25e5eff9a2cff6d898fc7374bdcf7a8076f378cc454a91",
+        "bytes": 185880
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Group.Units.Equiv",
+        "Mathlib.Algebra.Order.Group.Unbundled.Basic",
+        "Mathlib.Order.Hom.Basic"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Group.Lattice",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Group/Lattice.lean",
+        "sha256": "c394065230ca74a7c7511585129802618cf01e29ca2d810bd6c6d2f077a20343",
+        "bytes": 4366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Group/Lattice.olean",
+        "sha256": "1b2369a9ec94f1fb77d260ec56dc91736302b54b475a0bda957697d2ee6af65e",
+        "bytes": 179176
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Group.OrderIso"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Group.Unbundled.Abs",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Group/Unbundled/Abs.lean",
+        "sha256": "3edbd38436e80b689e17e0d97fce008fd9da747c710440d470b5f262b40d8b8e",
+        "bytes": 12272
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Group/Unbundled/Abs.olean",
+        "sha256": "e25c572c2bb18219adf3c6a8d7d303a64dbaf3f18aa441fc27840347004729d0",
+        "bytes": 698440
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Group.Even",
+        "Mathlib.Algebra.Order.Group.Lattice"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Group.Unbundled.Int",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Group/Unbundled/Int.lean",
+        "sha256": "63799f6284bda7b22f10bcb22f4a574382641e993d1db2eca10043304d6c6f9b",
+        "bytes": 5252
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Group/Unbundled/Int.olean",
+        "sha256": "8cb4d04e638085ddfbe893fe57f0376518777524266edbb20632ff186f0d30ed",
+        "bytes": 240640
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Group.Unbundled.Abs",
+        "Mathlib.Algebra.Group.Int.Defs",
+        "Mathlib.Data.Int.Basic"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/GroupWithZero/Unbundled/Defs.lean",
+        "sha256": "b2b926a073539e84eb76541d91eeabc441e5682e1687b6bc1bb38c1b311b93ee",
+        "bytes": 19408
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/GroupWithZero/Unbundled/Defs.olean",
+        "sha256": "f5c778128935785b5166aed0a15c3268cb61cd98dba4a9d72c70cf5bab9bd62e",
+        "bytes": 577168
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Monoid.Unbundled.Defs",
+        "Mathlib.Tactic.MkIffOfInductiveProp",
+        "Mathlib.Util.Notation3"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.ZeroLEOne",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/ZeroLEOne.lean",
+        "sha256": "63b48309c89474841067d0ee1236648976d6b3b8dded62c33d4b3f81b53f5cd6",
+        "bytes": 1512
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/ZeroLEOne.olean",
+        "sha256": "6a204f82d87f96d91cfdb819cf092f2df3ba491c0f9a4275ef01de77648b6153",
+        "bytes": 64800
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Order.Basic"
+      ]
+    },
+    {
+      "module": "Mathlib.Tactic.Bound.Init",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Tactic/Bound/Init.lean",
+        "sha256": "fc370ee3bd509d6b7edb3aa37be460ca326fc0613a071cfdd7228fa3849f0c17",
+        "bytes": 490
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Tactic/Bound/Init.olean",
+        "sha256": "709fb9176461c90c661cb8afb90d7a030100e64346b23655a34dc61a3b0aa0fa",
+        "bytes": 50840
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Init",
+        "Aesop.Frontend.Command"
+      ]
+    },
+    {
+      "module": "Mathlib.Tactic.Bound.Attribute",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Tactic/Bound/Attribute.lean",
+        "sha256": "c1cee03a91a8811c1e3a57aedc560f8e73e073043f9321447cdd51a9dff867f1",
+        "bytes": 6359
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Tactic/Bound/Attribute.olean",
+        "sha256": "03d8ea207bb1039b5a42b681d3524ae3c2a016eb1334f9fa603117594b90c198",
+        "bytes": 901568
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Tactic.Bound.Init",
+        "Qq",
+        "Aesop"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/GroupWithZero/Unbundled/Basic.lean",
+        "sha256": "9a912102b622cce7bbd49863559bd90bcdba64187a2ef93efd9adc90c911f1a8",
+        "bytes": 60406
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/GroupWithZero/Unbundled/Basic.olean",
+        "sha256": "9477c271853689957f8579d63245f2fc1994d4a60ef39c3466511e3a71782a3e",
+        "bytes": 1303376
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.GroupWithZero.Units.Basic",
+        "Mathlib.Algebra.Notation.Pi",
+        "Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs",
+        "Mathlib.Algebra.Order.ZeroLEOne",
+        "Mathlib.Order.Monotone.Basic",
+        "Mathlib.Tactic.Bound.Attribute",
+        "Mathlib.Tactic.Monotonicity.Attr"
+      ]
+    },
+    {
+      "module": "Mathlib.Data.Nat.Cast.NeZero",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/Nat/Cast/NeZero.lean",
+        "sha256": "a35aafd3564ac4e99a3b925612498b7c1249b9d9cb0f0d8afb7b03ed49e46af5",
+        "bytes": 770
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Data/Nat/Cast/NeZero.olean",
+        "sha256": "ce1a62e523e15dcdc00a12557f8df572f55e6dd37c4e876e35470a1e68e202f8",
+        "bytes": 60416
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Data.Nat.Cast.Defs"
+      ]
+    },
+    {
+      "module": "Mathlib.Data.Nat.Cast.Order.Basic",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/Nat/Cast/Order/Basic.lean",
+        "sha256": "1c9926b55add722aac435f04433b3ef67a430a850c7229fe872b5d5385eab678",
+        "bytes": 5023
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Data/Nat/Cast/Order/Basic.olean",
+        "sha256": "8fbd4d5a8f748438e539fef1326e3d2e5025bcb4e312b08d1610c145bc861ff2",
+        "bytes": 216224
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Data.Nat.Cast.Basic",
+        "Mathlib.Algebra.Order.Monoid.Unbundled.Basic",
+        "Mathlib.Data.Nat.Cast.NeZero",
+        "Mathlib.Algebra.Order.ZeroLEOne",
+        "Mathlib.Order.Hom.Basic"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Nonneg.Basic",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Nonneg/Basic.lean",
+        "sha256": "381ddfea971441330c306d1f28063b7cc67557ac687473609b6855542aa04956",
+        "bytes": 8479
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Nonneg/Basic.olean",
+        "sha256": "6389f3df54f9356191979294e6e02c65bcb8c23e881e478739a0030c419f4a93",
+        "bytes": 622088
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic",
+        "Mathlib.Algebra.Order.Monoid.Unbundled.Pow",
+        "Mathlib.Algebra.Order.ZeroLEOne",
+        "Mathlib.Algebra.Ring.Defs",
+        "Mathlib.Algebra.Ring.InjSurj",
+        "Mathlib.Data.Nat.Cast.Order.Basic"
+      ]
+    },
+    {
+      "module": "Batteries.Data.Rat.Lemmas",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/Batteries/Data/Rat/Lemmas.lean",
+        "sha256": "81c8870cfb757ffe5294a018bdc949b4ce9a305bc5f422abcd89896da079395a",
+        "bytes": 18116
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean/Batteries/Data/Rat/Lemmas.olean",
+        "sha256": "245a46c3a2fc45823f841d015e054b2d6c89c62238125c23e40f9ddbb3dba1e0",
+        "bytes": 599360
+      },
+      "imports": [
+        "Init",
+        "Batteries.Data.Rat.Basic",
+        "Batteries.Tactic.SeqFocus"
+      ]
+    },
+    {
+      "module": "Mathlib.Data.Rat.Defs",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/Rat/Defs.lean",
+        "sha256": "1e5a185664e2f06784f65829af1be5ac591ff2d7a28a4c524dfca1e85809169b",
+        "bytes": 16940
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Data/Rat/Defs.olean",
+        "sha256": "8df592b4f5f721ec0806ce3dacfe5cf3450f113044a9c8cddd40f8b2ea82b0d3",
+        "bytes": 519064
+      },
+      "imports": [
+        "Init",
+        "Batteries.Data.Rat.Lemmas",
+        "Mathlib.Algebra.Group.Defs",
+        "Mathlib.Data.Rat.Init",
+        "Mathlib.Order.Basic",
+        "Mathlib.Tactic.Common",
+        "Mathlib.Data.Nat.Basic"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Ring.Rat",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Ring/Rat.lean",
+        "sha256": "2f61ed3a031ba41b03ca7dccf958215baf8c903e0f7c78fc0f1a5674cbf7258d",
+        "bytes": 3539
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Ring/Rat.olean",
+        "sha256": "e8376fc88273a74086700fe96f268b252444c36e4d8bda98d98d3b597f0b856a",
+        "bytes": 180808
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.GroupWithZero.Units.Basic",
+        "Mathlib.Algebra.Ring.Basic",
+        "Mathlib.Algebra.Ring.Int.Defs",
+        "Mathlib.Data.Rat.Defs",
+        "Mathlib.Algebra.Group.Nat.Defs"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Ring.Unbundled.Rat",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Ring/Unbundled/Rat.lean",
+        "sha256": "52368356772df5ad47bf1850bf13fe3c67d0b8acfe0dbd08a0431a20e353da2b",
+        "bytes": 9360
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Order/Ring/Unbundled/Rat.olean",
+        "sha256": "dca713ddf5307c730e1e47547e079908b91c70ded51b2930d7a4f2f643e6467d",
+        "bytes": 438936
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Group.Unbundled.Abs",
+        "Mathlib.Algebra.Order.Group.Unbundled.Basic",
+        "Mathlib.Algebra.Ring.Rat",
+        "Mathlib.Data.Int.Order.Basic"
+      ]
+    },
+    {
+      "module": "Mathlib.Data.NNRat.Defs",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/NNRat/Defs.lean",
+        "sha256": "26acc6698f790c2055156239870a09974c8edb45de62cfb53873c75ba3ac27e6",
+        "bytes": 15063
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Data/NNRat/Defs.olean",
+        "sha256": "de98543cb4e563e12ad89049cd7997eed446c7fd24a2e14dce4fc4f9f67f035d",
+        "bytes": 391992
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Order.Group.Unbundled.Int",
+        "Mathlib.Algebra.Order.Nonneg.Basic",
+        "Mathlib.Algebra.Order.Ring.Unbundled.Rat",
+        "Mathlib.Algebra.Ring.Rat",
+        "Mathlib.Data.Set.Operations",
+        "Mathlib.Order.Bounds.Defs",
+        "Mathlib.Order.GaloisConnection.Defs"
+      ]
+    },
+    {
+      "module": "Mathlib.Algebra.Field.Rat",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Field/Rat.lean",
+        "sha256": "0e1c8339af2f386ac026e56fe2f2334f0bd7d072397bba90dcbd5f9f15ba8db2",
+        "bytes": 3355
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Field/Rat.olean",
+        "sha256": "0fec4f04bc6e8fa811a837e20c61b234134eeb9aed118b972d515eeceb415732",
+        "bytes": 166264
+      },
+      "imports": [
+        "Init",
+        "Mathlib.Algebra.Field.Defs",
+        "Mathlib.Data.NNRat.Defs"
+      ]
+    }
+  ],
+  "qualification": "Static cached object bytes are not runtime fit. No compiler, source activation or supplier execution."
+}

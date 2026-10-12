@@ -1,0 +1,49 @@
+{
+  "status": "ASSIGNED_SOURCE_PREPARATION_NOT_COMPILED",
+  "created_utc": "2026-10-12T11:19:38.603382+00:00",
+  "source": {
+    "path": "F19ScalarEventInterpretation.lean",
+    "sha256": "8049dc5ee56cb606bbd98b8d6137e16f65dfbc56b40a28dbb4cb8f5560cf8dda"
+  },
+  "inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/direct-delivery504-global/code/emit_local.py",
+      "sha256": "eefc76e0bee003015fe21ac685c2cce658033d5444add404d2d509c7d6f39bac",
+      "bytes": 7868
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/direct-delivery504-global/code/audit_local.py",
+      "sha256": "69b12c45d0a961175a824c1967353c7f3b94818a7dd6ac7bbcf56a6d1a5ed8e8",
+      "bytes": 9343
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+      "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+      "bytes": 6854
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+      "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+      "bytes": 15263
+    }
+  ],
+  "mapping": [
+    "Register=Fin736 is L0..727 plus C0..7, inherited exactly from accepted bank source.",
+    "Signed Int numerator and denominator interpreted by rational division after denominator!=0 check. Negative denominator is not coerced to Nat or silently rejected.",
+    "ADD updates target by q times source; SCALE multiplies target; COPY overwrites target; CLEAR writes zero; canonical relabel is identity only in the scalar shadow.",
+    "No JSON parser or full LOCAL-PROGRAMS coverage claim is introduced. Existing bank projection omits boundary adapters."
+  ],
+  "reuse": [
+    "PR509 Event.scal/phys definitions for one-step correspondence.",
+    "PR509 Stream.S_rowform and scalRun_eq_sum for a future matrix-to-arbitrary-payload transport; no replacement induction."
+  ],
+  "remaining": [
+    "Exact full retained row decoding and list-level soundness, plus rational-to-complex scalar compatibility.",
+    "Audit seeds only728 original basis columns. Arbitrary initial C0..7 independence needs initial-clear-before-use proof or eight work-column certificates.",
+    "Centre last CLEAR gives erased-centre endpoint only after exact full word binding; no original dirty input is assumed clean.",
+    "Coefficient Horner scratch is symbolic arithmetic in the auditor, not an emitted named register. Its physical expansion/restoration remains separate.",
+    "Physical relabel recipes, phase-aware boundary/residual charts, full all-register matrix row/column, owner and caller obligations."
+  ],
+  "new_import": "Mathlib.Algebra.Field.Rat; exact cached closure delta remains to be inventoried before any check proposal.",
+  "authorization": "Source preparation only. No compiler, supplier replay, source activation, commit or publication."
+}
