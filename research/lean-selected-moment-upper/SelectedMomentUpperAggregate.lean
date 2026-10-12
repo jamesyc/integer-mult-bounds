@@ -300,6 +300,7 @@ theorem source_domains :
     (0 ≤ bMinus * roundedLog 1 9 137 ∧ bMinus * roundedLog 1 9 137 < 1) ∧
     (0 ≤ bMinus * roundedLog 0 25 121 ∧ bMinus * roundedLog 0 25 121 < 1) := by
   rw [r1_x_binding, r2_x_binding, r3_x_binding, r4_x_binding, r5_x_binding, r6_x_binding, r7_x_binding, r32_x_binding, r48_x_binding]
+  unfold sourceLogDomain
   decide +kernel
 
 /-- Original profile order, with one outward rounding after the nine-term sum. -/
