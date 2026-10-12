@@ -1,0 +1,80 @@
+{
+  "status": "PASS_EXACT13_CURRENT535_FIRST45_KEY_OWNER_ACCEPTANCE",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current535_first45_keys/ACCEPTANCE.json",
+    "sha256": "108430e7917c4e5c84fb4c26988889381bb4b4c763da8e1c04bbd404ae0d5d8e",
+    "bytes": 43274
+  },
+  "scope": {
+    "local_modules": 13,
+    "preserved_imported": 12,
+    "new_checks": 1,
+    "protected_outside": 4
+  },
+  "timing": {
+    "source_science_ready_utc": "2026-10-12T15:15:34+00:00",
+    "dependency_terminal_received_utc": "2026-10-12T15:16:10+00:00",
+    "release_received_utc": "2026-10-12T15:16:10+00:00",
+    "binding_sealed_utc": "2026-10-12T15:19:43.275940+00:00",
+    "binding_message_received_read_utc": "2026-10-12T15:20:31+00:00",
+    "invoked_utc": "2026-10-12T15:20:42.422628083Z",
+    "post_lock_guard_utc": "2026-10-12T15:20:44.934441+00:00",
+    "admitted_utc": "2026-10-12T15:20:47.556330+00:00",
+    "checker_requested_utc": "2026-10-12T15:20:47.610025+00:00",
+    "slot_acquired_utc": "2026-10-12T15:20:47.612523+00:00",
+    "compiler_started_utc": "2026-10-12T15:20:48.778896+00:00",
+    "compiler_finished_utc": "2026-10-12T15:20:59.652738+00:00",
+    "compile_seconds": 10.873829472999205,
+    "queue_seconds": 0.0025028819945873693,
+    "preparation_seconds": 1.1663713960006135,
+    "note": "Each field records its observed boundary; no causal allocation of messaging/guard intervals or throughput claim."
+  },
+  "process_observations": {
+    "samples": 108,
+    "peak_vm_bytes": 2323116032,
+    "peak_rss_bytes": 1536118784,
+    "peak_threads": 4
+  },
+  "new_probes": [
+    {
+      "name": "CurrentMain.Current535First45KeyRestriction.selected_forward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45KeyRestriction.selected_forward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45KeyRestriction.selected_backward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current535First45KeyRestriction.selected_backward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "statement_scope": "Four existential exact rational decoder/WellLabelled/relabel-key0\u21922 facts for the accepted forward/backward24+21 slices.28 relabel and62 ADD occurrences in existing typed lists; no finite checkRows/catalog replay.",
+  "excluded_scope": [
+    "Actual rec(0,2) agrees with accepted interpreted child459 operator on all payloads.",
+    "Compatible current chart assignment T0/T2 and complex-to-rational restriction.",
+    "Actual serialized Event/packed address/full physical-work interpretation.",
+    "Omitted pre-A source/adapters or full stream/row-column endpoint."
+  ],
+  "independent_terminal": "pending"
+}
