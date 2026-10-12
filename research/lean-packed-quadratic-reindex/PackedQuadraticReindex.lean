@@ -29,7 +29,7 @@ private theorem upper_parity (row : Nat) (x : Packed) (i : Fin 9) :
     lt_of_le_of_lt Nat.and_le_right hs
   have high (j : Nat) (hj : 9 ≤ j) : x.val.testBit j = false := by
     apply Nat.testBit_lt_two_pow
-    have hp : (512 : Nat) ≤ 2 ^ j := Nat.pow_le_pow_right (by decide) hj
+    have hp : (512 : Nat) ≤ 2 ^ j := Nat.pow_le_pow_right (n := 2) (by decide) hj
     exact lt_of_lt_of_le x.isLt hp
   rw [HyperplaneEnd.Clifford.par9_spec ⟨_, hb⟩, parity_sum]
   simp only [Nat.testBit_and, bit_and, Nat.testBit_shiftRight]
@@ -119,9 +119,8 @@ theorem diagonal_reindex (Q alpha : List Nat) (hQ : Q.length = 9)
       fun a => Complex.I ^ qvalue Q alpha a * payloadEquiv v a := by
   funext a
   obtain ⟨x, rfl⟩ := addressEquiv.surjective a
-  simp only [payload_apply, pack_unpack]
-  change Complex.I ^ qv Q alpha x.val * v x =
-    Complex.I ^ qvalue Q alpha (unpack x) * v x
+  rw [show addressEquiv x = unpack x from rfl]
+  simp only [payload_apply, pack_unpack, HyperplaneEnd.Clifford.gC]
   rw [quadratic_value Q alpha hQ ha x]
 end
 end CurrentMain.PackedQuadraticReindex
