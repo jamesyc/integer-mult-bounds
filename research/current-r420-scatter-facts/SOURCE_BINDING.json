@@ -1,0 +1,133 @@
+{
+  "status": "SOURCE_ONLY_SIX_EXACT_SCATTER_TEMP_FACTS",
+  "utc": "2026-10-12T17:35:27.562435+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/CurrentR420ScatterFacts.lean",
+    "sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87",
+    "bytes": 1769
+  },
+  "original_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+    "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+    "bytes": 6313
+  },
+  "accepted_band": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_band_facts/ACCEPTANCE.json",
+    "sha256": "24d4df8588e6b60ecae91afe5f94539abb495a66170a215219e74c6267fdcdea",
+    "bytes": 366013
+  },
+  "band_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-b-band-facts/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "e4e44ace8170a908622aa1092728b1ea4e101279efcd71bb88141cb98b0b3e3c",
+    "bytes": 5141
+  },
+  "retained_band": {
+    "module": "CurrentR420BBandCheck",
+    "source": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.lean",
+      "sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41",
+      "bytes": 3006
+    },
+    "object": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.olean",
+      "sha256": "cded4db11ad6df82ba2f189ebc76b8c9ef902399632e2be0cf911e94f584d226",
+      "bytes": 47272
+    },
+    "receipt": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_b_band_facts_20261012__CurrentR420BBandCheck.lean.json",
+      "sha256": "69dca17fa453644a1d14a44e6aed63e602bc5a0378618107668c260a612df40a",
+      "bytes": 2473
+    },
+    "log": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_b_band_facts_20261012__CurrentR420BBandCheck.lean.log",
+      "sha256": "e47c5e27fee96ca841a22d3daba958923b4759d7d1af16e18b92698e2313710b",
+      "bytes": 882
+    },
+    "dependencies": {
+      "CurrentR420FrameBoundaryCheck": {
+        "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_frame_boundaries_20261012/CurrentR420FrameBoundaryCheck.olean",
+        "olean_sha256": "8c54a9c15d52c431bab7f1320050063d9aaef23933793f745c266885db21f537",
+        "source_sha256": "a667c3fbbdbe0c577e03cb1c1334b6542dcdd5cf4c546d5c26cdde2847639b96"
+      }
+    }
+  },
+  "transport": [
+    {
+      "name": "scatter_shape",
+      "fragment_sha256": "6548c720468ca74ffd4bb646336c4b7ecdd483bc1d670095cfe87c39a6636bd5",
+      "bytes": 121,
+      "statement_and_proof_exact": true
+    },
+    {
+      "name": "scatter_index_domain",
+      "fragment_sha256": "4e80ecee787501e393c821d7388791a17170d87426ab4dca302bacb159b44b4d",
+      "bytes": 130,
+      "statement_and_proof_exact": true
+    },
+    {
+      "name": "scatter_helpers",
+      "fragment_sha256": "121331f41d234d15d9f032f040ac5fa589545b4500452e1606c5a488cec96fe8",
+      "bytes": 187,
+      "statement_and_proof_exact": true
+    },
+    {
+      "name": "temporary_index",
+      "fragment_sha256": "0ca39133e009428fea66f27d58fadd84e553cc4fbf3939ca864bb89600b69bb8",
+      "bytes": 90,
+      "statement_and_proof_exact": true
+    },
+    {
+      "name": "embed_preserves_index",
+      "fragment_sha256": "e45c78c00e353038ab1b4092f3321191de2a93c141b2e0d07f4b3428b932c538",
+      "bytes": 70,
+      "statement_and_proof_exact": true
+    },
+    {
+      "name": "original_excludes_temporary",
+      "fragment_sha256": "eaa4bf957be1fcc8114c284266e4ba2ae6589f76eaeead8cd4588e784882cf39",
+      "bytes": 164,
+      "statement_and_proof_exact": true
+    }
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420Boundary.scatter_shape",
+    "CurrentMain.CurrentR420Boundary.scatter_index_domain",
+    "CurrentMain.CurrentR420Boundary.scatter_helpers",
+    "CurrentMain.CurrentR420Boundary.temporary_index",
+    "CurrentMain.CurrentR420Boundary.embed_preserves_index",
+    "CurrentMain.CurrentR420Boundary.original_excludes_temporary"
+  ],
+  "scope": {
+    "total": [
+      325,
+      324,
+      1
+    ],
+    "local": [
+      8,
+      7,
+      1
+    ],
+    "core": 317
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "authority": "Root2026-10-12T17:34:45 permits separate six scatter/temp facts and first bounded check after independent source/API/binding. Import-only27-fact wrapper only after all terminals.",
+  "next_owner": "/root/prove_main_signed_word",
+  "current_main_applicability": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_comparison/MAIN5996_R420_APPLICABILITY.json",
+    "sha256": "121fc63bf4689c4e04898e274b0d76c2dad17eb4df069cbb802318230c5d6dc1",
+    "bytes": 15463
+  },
+  "limits": [
+    "Fresh root fit unmeasured; stop first failure/review.",
+    "Finite domain facts do not establish COPY lifecycle or original dirty temporary restoration.",
+    "No full scalar/D/physical theorem."
+  ]
+}

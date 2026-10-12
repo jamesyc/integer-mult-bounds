@@ -1,0 +1,50 @@
+{
+  "status": "PENDING_SOURCE_API_AND_CURRENT_BINDING_REVIEW",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/CurrentR420ScatterFacts.lean",
+    "sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87",
+    "bytes": 1769
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-scatter-facts/SOURCE_BINDING.json",
+    "sha256": "5e33e4721e439535056e6876b3467dcfa3b2f9d3f957bf41a32efed5dc1f5520",
+    "bytes": 5654
+  },
+  "roots": [
+    "CurrentR420ScatterFacts"
+  ],
+  "explicit_imports": [
+    "CurrentR420BBandCheck"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420Boundary.scatter_shape",
+    "CurrentMain.CurrentR420Boundary.scatter_index_domain",
+    "CurrentMain.CurrentR420Boundary.scatter_helpers",
+    "CurrentMain.CurrentR420Boundary.temporary_index",
+    "CurrentMain.CurrentR420Boundary.embed_preserves_index",
+    "CurrentMain.CurrentR420Boundary.original_excludes_temporary"
+  ],
+  "scope": {
+    "total": [
+      325,
+      324,
+      1
+    ],
+    "local": [
+      8,
+      7,
+      1
+    ],
+    "core": 317
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "authority": "Root2026-10-12T17:34:45 permits separate six scatter/temp facts and first bounded check after independent source/API/binding. Import-only27-fact wrapper only after all terminals.",
+  "next_owner": "/root/prove_main_signed_word"
+}
