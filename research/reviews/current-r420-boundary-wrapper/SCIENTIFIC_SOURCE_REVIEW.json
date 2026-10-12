@@ -1,0 +1,348 @@
+{
+  "status": "PASS_IMPORT_ONLY_ORIGINAL27_R420_INTERFACE_SOURCE_REVIEW",
+  "utc": "2026-10-12T17:53:32.613485+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-boundary-wrapper/CurrentR420BoundaryCheck.lean",
+    "sha256": "45886f099a6fa32244756132280e5f4ff6d89c95e4e4505f411c870a2dff9328",
+    "bytes": 2229
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-boundary-wrapper/SOURCE_BINDING.json",
+    "sha256": "7dafaf008c5e1c1652f8a9c26670ba050722aa790bd5714fb79650b723641ee0",
+    "bytes": 21120
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-boundary-wrapper/CHECK_PROPOSAL.json",
+    "sha256": "a4c1d7dad61de842d8620d7793e05c9c97182ba9f30a2f325c354a92704dc93c",
+    "bytes": 2549
+  },
+  "verified_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-boundary-wrapper/CurrentR420BoundaryCheck.lean",
+      "sha256": "45886f099a6fa32244756132280e5f4ff6d89c95e4e4505f411c870a2dff9328",
+      "bytes": 2229
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-b-boundary/CurrentR420BoundaryCheck.lean",
+      "sha256": "d6e647c37708ea1463454f59018244282a87519d32064392aa4968f20f90abc6",
+      "bytes": 6313
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/symbolic_permutation_repair/ACCEPTANCE.json",
+      "sha256": "49fb75c31f4508537fed9fb6789492b7988b1221e90086d61d507b70bfc1d942",
+      "bytes": 356890
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT_R420_SYMBOLIC_INDEX_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "d5a5d7eec178237bcbbe62dd4bbf23d3b4c0f6b16453952809a942c42012e174",
+      "bytes": 5018
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_domain_partition_20261012/CurrentR420FrameIndexCheck.lean",
+      "sha256": "10ccd18d25e84742915cdf3615b0ed0f98c3c46ee610c66eec7af9b05322640d",
+      "bytes": 2213
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_domain_partition_20261012/CurrentR420FrameIndexCheck.olean",
+      "sha256": "ca5ca1e286854cf13a77468475b6b2d969f36eb626e1a1e613020db7f263f4c3",
+      "bytes": 42704
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_domain_partition_20261012__CurrentR420FrameIndexCheck.lean.json",
+      "sha256": "a494d871a92fdcfd0e12f29bcc94c371083bef4e644b0eead60f771d75c9f2d8",
+      "bytes": 3102
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_domain_partition_20261012__CurrentR420FrameIndexCheck.lean.log",
+      "sha256": "2c46f65c0370be14664ef840f0c18c1fee6e5328aa3adafeeefd1c641ef90fc8",
+      "bytes": 271
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_frame_boundaries/ACCEPTANCE.json",
+      "sha256": "1590bed372cb025fe19f7811345a18e88e29d2a204e1bcf4b70d5d2851aed720",
+      "bytes": 361821
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-frame-boundaries/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "b6724aa317ed9e57fe57c482761bdc8ee16c0450b0c57145db5ac98ab0289542",
+      "bytes": 5055
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_frame_boundaries_20261012/CurrentR420FrameBoundaryCheck.lean",
+      "sha256": "a667c3fbbdbe0c577e03cb1c1334b6542dcdd5cf4c546d5c26cdde2847639b96",
+      "bytes": 2635
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_frame_boundaries_20261012/CurrentR420FrameBoundaryCheck.olean",
+      "sha256": "8c54a9c15d52c431bab7f1320050063d9aaef23933793f745c266885db21f537",
+      "bytes": 57816
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_frame_boundaries_20261012__CurrentR420FrameBoundaryCheck.lean.json",
+      "sha256": "3e563b2e1860ddae935d38c0094cd3d4c790a07d270cc709881b1fbaa5cd7656",
+      "bytes": 2521
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_frame_boundaries_20261012__CurrentR420FrameBoundaryCheck.lean.log",
+      "sha256": "2969767c964016d695a845670a255d05f997d00cea6182feb570a98ba8d737ab",
+      "bytes": 603
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_band_facts/ACCEPTANCE.json",
+      "sha256": "24d4df8588e6b60ecae91afe5f94539abb495a66170a215219e74c6267fdcdea",
+      "bytes": 366013
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-b-band-facts/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "e4e44ace8170a908622aa1092728b1ea4e101279efcd71bb88141cb98b0b3e3c",
+      "bytes": 5141
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.lean",
+      "sha256": "63ecb89c56474dbe558e3aeb12bc46f7c08ba013eeed45a9e6a42e629c61fd41",
+      "bytes": 3006
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_b_band_facts_20261012/CurrentR420BBandCheck.olean",
+      "sha256": "cded4db11ad6df82ba2f189ebc76b8c9ef902399632e2be0cf911e94f584d226",
+      "bytes": 47272
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_b_band_facts_20261012__CurrentR420BBandCheck.lean.json",
+      "sha256": "69dca17fa453644a1d14a44e6aed63e602bc5a0378618107668c260a612df40a",
+      "bytes": 2473
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_b_band_facts_20261012__CurrentR420BBandCheck.lean.log",
+      "sha256": "e47c5e27fee96ca841a22d3daba958923b4759d7d1af16e18b92698e2313710b",
+      "bytes": 882
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_scatter_facts/ACCEPTANCE.json",
+      "sha256": "7eb671caaaeacff18e86c909a7805bbe026a754f86e6278ce231fe85ef87748b",
+      "bytes": 371611
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-r420-scatter-facts/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "a943416866cc7ce565459b9bf4b722afd916461662bb7dc74ae16922d94c74b6",
+      "bytes": 4831
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_scatter_facts_20261012/CurrentR420ScatterFacts.lean",
+      "sha256": "c663333b238bd522d7799f3398b3109608b3e814de24cf2828e36c92aa6f3f87",
+      "bytes": 1769
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_r420_scatter_facts_20261012/CurrentR420ScatterFacts.olean",
+      "sha256": "861eb9da25b5d51ec8ef27530272384589b0f5a0c7b0b0a8504a2ce9eef9a94c",
+      "bytes": 39584
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_r420_scatter_facts_20261012__CurrentR420ScatterFacts.lean.json",
+      "sha256": "3f43df604b3d9a964199cd94f022ce57e42431ac355a53614cbc4f8cd91f27b8",
+      "bytes": 2468
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_r420_scatter_facts_20261012__CurrentR420ScatterFacts.lean.log",
+      "sha256": "7bcd61dc61f044ccc4647bc637893e7e180d3c62aa719738ef65bc477d8266a4",
+      "bytes": 501
+    }
+  ],
+  "original_signature_transport": [
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.selected_shape",
+      "signature_sha256": "4d42541f6ba86a6c13734e6f435d8c87db2e4e6cb386c720f740c666dbdec55b",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameIndexCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.line_shape",
+      "signature_sha256": "e9c63825a5d828df098fad74c5aa01683d1fd0d44a75b071ec485f17592bf40c",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameIndexCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.frame_index_permutation",
+      "signature_sha256": "ac438445c171b38c40d7890a7426cf0eff26c0f824056646c4dd53414381c84f",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameIndexCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.frame_domain",
+      "signature_sha256": "05dcd3d789586d0c7b4312b23e104d38c976182a27d0c1f637e86c88bb91e944",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.zero_full_rows",
+      "signature_sha256": "70ae23ef0b8e898337e036436a0bb7a978fc2b6aaea7f14ec42eaa56edccfbbd",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.boundary_domain",
+      "signature_sha256": "c3d052900a1c9bfcaa886167b2a023a93256639f83834a764cd4478e4fe0f525",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.source_entrances",
+      "signature_sha256": "13966cebc63411ccee50d92788f60813f9f72c1137b27f288b5ae89b2c9aad6b",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.nonsource_entrances",
+      "signature_sha256": "2c05f62cd8dd72a0b4cabcedb24753322ee72684f6f1dbbf5cc1d009f4916ff3",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.source_helper_final_full",
+      "signature_sha256": "1a9583a540e806ac80db65a86c03fddb0e5afe5b034c82d53cc1604588965521",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.retained_helper_ids",
+      "signature_sha256": "53e16a842a202c79581b71bebfae709695a88d711969f03d454e46100e7f3da1",
+      "same_original_statement": true,
+      "provider": "CurrentR420FrameBoundaryCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.phase_shape",
+      "signature_sha256": "b0a1f80b8f05f7249b758799a76f171e1f17b63a405ef4daab334504d57303e0",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.phase_domains",
+      "signature_sha256": "46fef55e3318683f309218280446402f173e4f2832c3a831184c16b4d5c14c46",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.band_order",
+      "signature_sha256": "0cbafd4defda870af43890e526296a8339493177966238275554ccfe3e632878",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.band_lengths",
+      "signature_sha256": "d7c21500745c972806db2e1a9fdc295ac798dfdca8ee7a27c07bea426be6b589",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.first_target_band",
+      "signature_sha256": "1aa827276f40419b07fa5f8f32262ed1ff351fb2387559a0e19140653d05f9db",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.middle_source_band",
+      "signature_sha256": "c1c655f39265b25250717b080993492035389387f92ba2ca25e266d44b6d4da1",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.middle_operand_bands",
+      "signature_sha256": "65ab5d71b1c2a6d5c2c1e691de0496595012c3df84d596b374af7b1a34e655c6",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.last_target_band",
+      "signature_sha256": "96791113fb850426d38c0317b5fdebe6fd4dfb1ce296c16f2846556c6cec8a92",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.final_target_frames",
+      "signature_sha256": "23f1ba14ba6f7eb6d1e9f20279dbdd8ad4c7e68cef7a90464bf59f9096b37ec2",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.no_target_operands",
+      "signature_sha256": "bc41fd13cbaaa8d002a51d16c1ca027975fac6390cbaeb92477ffa30cea6c95d",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.no_self_reads",
+      "signature_sha256": "0bf023554e273ffc7e746b884eefb7f80cc3a804cc08438e5a7041d02dc2cef9",
+      "same_original_statement": true,
+      "provider": "CurrentR420BBandCheck"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.scatter_shape",
+      "signature_sha256": "b4382bc508bc13991c71662b23367309c94ac7a1c5e5fb77130cc583da1e98fc",
+      "same_original_statement": true,
+      "provider": "CurrentR420ScatterFacts"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.scatter_index_domain",
+      "signature_sha256": "0d643410ed431b4219c52931f230b3412fd7bcfea7e841502b66a5f60fd5a02a",
+      "same_original_statement": true,
+      "provider": "CurrentR420ScatterFacts"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.scatter_helpers",
+      "signature_sha256": "dd224d37437d63eb187fb528fe8cfcb19180abbfc2ed999237c067858732e1f7",
+      "same_original_statement": true,
+      "provider": "CurrentR420ScatterFacts"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.temporary_index",
+      "signature_sha256": "f0cf02fd7a011eab282e4b780b311050b560c4fa23e1448b5a1afc4d6d3100b2",
+      "same_original_statement": true,
+      "provider": "CurrentR420ScatterFacts"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.embed_preserves_index",
+      "signature_sha256": "baa14126ac8e052936ac47c66e98d0e807e7a75c6f35a2d2e9dda33c786c6ef2",
+      "same_original_statement": true,
+      "provider": "CurrentR420ScatterFacts"
+    },
+    {
+      "declaration": "CurrentMain.CurrentR420Boundary.original_excludes_temporary",
+      "signature_sha256": "0ae56c5e8fe3b8972f395933da1bb5fc6c687fc315677a3fda84070c1bdb9704",
+      "same_original_statement": true,
+      "provider": "CurrentR420ScatterFacts"
+    }
+  ],
+  "probes": [
+    "CurrentMain.CurrentR420Boundary.selected_shape",
+    "CurrentMain.CurrentR420Boundary.line_shape",
+    "CurrentMain.CurrentR420Boundary.frame_index_permutation",
+    "CurrentMain.CurrentR420Boundary.frame_domain",
+    "CurrentMain.CurrentR420Boundary.zero_full_rows",
+    "CurrentMain.CurrentR420Boundary.boundary_domain",
+    "CurrentMain.CurrentR420Boundary.source_entrances",
+    "CurrentMain.CurrentR420Boundary.nonsource_entrances",
+    "CurrentMain.CurrentR420Boundary.source_helper_final_full",
+    "CurrentMain.CurrentR420Boundary.retained_helper_ids",
+    "CurrentMain.CurrentR420Boundary.phase_shape",
+    "CurrentMain.CurrentR420Boundary.phase_domains",
+    "CurrentMain.CurrentR420Boundary.band_order",
+    "CurrentMain.CurrentR420Boundary.band_lengths",
+    "CurrentMain.CurrentR420Boundary.first_target_band",
+    "CurrentMain.CurrentR420Boundary.middle_source_band",
+    "CurrentMain.CurrentR420Boundary.middle_operand_bands",
+    "CurrentMain.CurrentR420Boundary.last_target_band",
+    "CurrentMain.CurrentR420Boundary.final_target_frames",
+    "CurrentMain.CurrentR420Boundary.no_target_operands",
+    "CurrentMain.CurrentR420Boundary.no_self_reads",
+    "CurrentMain.CurrentR420Boundary.scatter_shape",
+    "CurrentMain.CurrentR420Boundary.scatter_index_domain",
+    "CurrentMain.CurrentR420Boundary.scatter_helpers",
+    "CurrentMain.CurrentR420Boundary.temporary_index",
+    "CurrentMain.CurrentR420Boundary.embed_preserves_index",
+    "CurrentMain.CurrentR420Boundary.original_excludes_temporary"
+  ],
+  "scientific_scope": "The sole import exposes all27 exact original names/signatures through the four accepted fact groups. There are no theorem bodies, finite decisions or new scalar/physical conclusions in this wrapper.",
+  "fresh_destination_boundary": "The rejected original source/receipt remains at its old path without an object; new isolated wrapper uses the same module name. Independent runtime/first-match review must establish the fresh object path and preserve the failed evidence.",
+  "admission": "Source preparation only at this review; first compiler admission and binding separate.",
+  "compiler_executed": false
+}
