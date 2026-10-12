@@ -1,14 +1,14 @@
 {
   "status": "PASS_DRY_GUARD_AND_SYNTHETIC_NEGATIVES",
-  "utc": "2026-10-12T16:12:44.216046+00:00",
-  "seconds": 0.32936821100884117,
-  "driver_sha256": "7d351cf312a088396cc03be6154270ac421a2e78b14458aa48d540caeb216e55",
+  "utc": "2026-10-12T16:17:31.336703+00:00",
+  "seconds": 0.7003019380063051,
+  "driver_sha256": "3e93a818393df4b6982722913c6c4ae54f77de2830fa1ecda98156ba657e603a",
   "plan_sha256": "fcae206f3feea8f9bb7d7defe6058b51c641d450b19abbd9fe5d0c2c72d7b85d",
   "dry_guard": {
-    "utc": "2026-10-12T16:12:44.003341+00:00",
+    "utc": "2026-10-12T16:17:30.752597+00:00",
     "status": "PASS_FIXED_SOURCE_RUNTIME_GUARD",
     "head": "9594b61042164a27a31e44d8c3197f231470eda0",
-    "driver_sha256": "7d351cf312a088396cc03be6154270ac421a2e78b14458aa48d540caeb216e55",
+    "driver_sha256": "3e93a818393df4b6982722913c6c4ae54f77de2830fa1ecda98156ba657e603a",
     "plan_sha256": "fcae206f3feea8f9bb7d7defe6058b51c641d450b19abbd9fe5d0c2c72d7b85d",
     "input_inventory_sha256": "ec45dff85be3991f39ec4fbdefc88d968392c727c99519e6555ee596814e652c",
     "pinned_files": 22,
@@ -54,26 +54,26 @@
       "name": "synthetic process-group review stop and cleanup",
       "status": "PASS",
       "process": {
-        "started_utc": "2026-10-12T16:12:44.005249+00:00",
-        "finished_utc": "2026-10-12T16:12:44.215323+00:00",
-        "seconds": 0.2100988710008096,
-        "pid": 32,
+        "started_utc": "2026-10-12T16:17:30.758370+00:00",
+        "finished_utc": "2026-10-12T16:17:31.071690+00:00",
+        "seconds": 0.3134399249975104,
+        "pid": 31,
         "exit_code": -9,
         "stop_reason": "REVIEW_JOB_WALL",
         "samples": 3,
         "process_peaks": {
-          "32": {
+          "31": {
             "vm_peak_bytes": 14823424,
-            "rss_peak_bytes": 6086656,
+            "rss_peak_bytes": 6090752,
             "threads": 1
           },
-          "33": {
+          "32": {
             "vm_peak_bytes": 14823424,
-            "rss_peak_bytes": 3235840,
+            "rss_peak_bytes": 3239936,
             "threads": 1
           }
         },
-        "peak_group_rss_bytes": 9322496,
+        "peak_group_rss_bytes": 9330688,
         "max_sum_vmpeaks_bytes": 29646848,
         "aggregate_memory_cap_claimed": false,
         "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -85,6 +85,20 @@
           "import os,time; p=os.fork(); time.sleep(20)"
         ]
       }
+    },
+    {
+      "name": "owner SIGTERM cleanup before lock release",
+      "status": "PASS",
+      "owner_exit": 143,
+      "child_group": 34,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "owner SIGHUP cleanup before lock release",
+      "status": "PASS",
+      "owner_exit": 129,
+      "child_group": 37,
+      "stderr_bytes": 0
     }
   ],
   "supplier_processes_executed": 0,

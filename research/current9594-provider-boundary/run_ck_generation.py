@@ -98,6 +98,9 @@ def terminate(proc):
  try:os.killpg(proc.pid,signal.SIGKILL)
  except ProcessLookupError:pass
  proc.wait()
+def install_owner_signal_handlers():
+ def stop(signum,frame):raise SystemExit(128+signum)
+ for sig in (signal.SIGTERM,signal.SIGHUP):signal.signal(sig,stop)
 def limits():
  os.setsid()
  resource.setrlimit(resource.RLIMIT_AS,(4294967296,4294967296))
@@ -157,6 +160,7 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--execute',action='store_true');ap.add_argument('--admission');ap.add_argument('--admission-sha256');args=ap.parse_args()
  plan,before=guard(True)
  if not args.execute:print(json.dumps(before,indent=2));return 0
+ install_owner_signal_handlers()
  if not args.admission or not args.admission_sha256:raise ValueError('exact admission required')
  admission=Path(args.admission).resolve();exact(admission,args.admission_sha256);a=read(admission)
  assert a['authorized'] is True and a['driver_sha256']==sha(__file__) and a['plan_sha256']==PINS[HERE/'CK_GENERATION_RESOURCE_PROPOSAL.json']
