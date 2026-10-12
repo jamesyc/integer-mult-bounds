@@ -15,7 +15,7 @@ is proved equal, including zero, fallback, fuel exhaustion and skipped rows.
 -/
 namespace CurrentMain.CliffordNineBitDecoder
 
-open scoped BigOperators
+open scoped BigOperators Matrix
 open RankOneRecipeCertificate
 
 abbrev Bit := ZMod 2

@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_ONLY_PENDING_SOURCE_REVIEW_AND_SEPARATE_GATE_ADMISSION",
+  "status": "FIRST_ORDINARY_NOTATION_SCOPE_REPAIR_PENDING_REVIEW",
   "root": {
     "module": "CliffordNineBitDecoder",
     "source": "CliffordNineBitDecoder.lean",
-    "sha256": "b75071d1c944374127e0ae6e51f320963e40c178afa6ce567c56b8d2a5019376"
+    "sha256": "959dfc7b38e0ab8f9ec03f46b84fd60b642a94556107576ec839f7ce68cbf577"
   },
   "local_scope": {
     "total": 9,
@@ -131,5 +131,9 @@
       "CurrentMain.CliffordNineBitDecoder.gaussian_apply"
     ]
   },
-  "publication": "No publication admission; this conditional module has no author-checked standalone kappa."
+  "publication": "No publication admission; this conditional module has no author-checked standalone kappa.",
+  "notation_repair": {
+    "failed_source_sha256": "b75071d1c944374127e0ae6e51f320963e40c178afa6ce567c56b8d2a5019376",
+    "change": "Open the existing Matrix notation scope alongside BigOperators. All definitions, intended theorem statements, proof bodies, imports, selected choices and caps retain exact text."
+  }
 }
