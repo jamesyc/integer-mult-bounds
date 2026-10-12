@@ -1,0 +1,87 @@
+{
+  "status": "PASS_EXACT_SOURCE_API_REPAIR_ONLY",
+  "utc": "2026-10-12T16:40:58.314299+00:00",
+  "manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/structural_sort_repair/SOURCE_REPAIR_MANIFEST.json",
+    "sha256": "3b2e9949bb8c78eeebfa871d3fdfb829fd5895b458898d4561f590d2de1e244c"
+  },
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-domain-partition/CurrentR420FrameIndexCheck.lean",
+    "sha256": "a01484b91c52c7190782e5405f0289e5aa6406e1b5fc5f59753575fbb9b7ae71",
+    "bytes": 1319
+  },
+  "preimage": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/COMMITTED_CANDIDATE.lean",
+    "sha256": "7e89816d008a16078a5b41ecf753ca8da8fee04f4c19a4746089d85e87dbf7c4",
+    "bytes": 1227
+  },
+  "inverse": "Both ordered forward replacements and reverse reconstruction are byte-exact. All three public statements remain unchanged, with same three probes and synchronous option.",
+  "installed_api": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Sort/Impl.lean",
+    "sha256": "47c4b6efbe5e665a29b9d0861ef2ab854a5049cfbb8c018aad0758ced094bfec",
+    "bytes": 9547
+  },
+  "namespace_and_visibility": "Exact enclosing namespace is List.MergeSort.Internal. Impl starts with module and explicitly has no public API. Explicit import all exposes its internal declarations; the qualified equality rewrites List.mergeSort to the proved mergeSortTR implementation in the stated forward direction. It does not depend on automatic compiler csimp substitution.",
+  "prior_pointer_correction": "Reviewer earlier abbreviated the name as List.mergeSort_eq_mergeSortTR; owner caught the missing enclosing namespace before source emission. This review checks the full actual name.",
+  "failure_archives_rehashed": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/FAILED_SOURCE.lean",
+      "sha256": "7e89816d008a16078a5b41ecf753ca8da8fee04f4c19a4746089d85e87dbf7c4",
+      "bytes": 1227
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/FAILED_RECEIPT.json",
+      "sha256": "2acff21dbcb62fc53f40626cc528887359ffe7644b903ae66ff7a996fb35913c",
+      "bytes": 2459
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/FAILED_LOG.txt",
+      "sha256": "f427333c60cc862f35f315868619cfaa18e6945a6845920ebf34d7026386ecd5",
+      "bytes": 909
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/COMMITTED_CANDIDATE.lean",
+      "sha256": "7e89816d008a16078a5b41ecf753ca8da8fee04f4c19a4746089d85e87dbf7c4",
+      "bytes": 1227
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/EXECUTION.json",
+      "sha256": "06b566840a6edbdd43fd9fd55e150e5a8c6eb6b75d2a42027e949526d0714607",
+      "bytes": 4790
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/CLIENT.log",
+      "sha256": "d0898cc9b9b1e85ff183edb4ece7e741bc509d9c42a241ea7b5a4d6b8682780e",
+      "bytes": 3307
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/DRIVER.py.txt",
+      "sha256": "ba3a1de5c90acfdde3234830d5fc5a9b61491a640ff4101a0e7baf3f2078d5b2",
+      "bytes": 11808
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/CURRENT_INPUT_INVENTORY.json",
+      "sha256": "97db540e42fe9a5a3722fa675013b94d936cbed728c2ea250cd6e1df94b38dfc",
+      "bytes": 415793
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/SOURCE_BINDING.json",
+      "sha256": "e3f8b4f3e7cea8d4e26e7c41e6cfa723ccbb76bc42f02002327b92f83943e742",
+      "bytes": 8654
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/CHECK_PROPOSAL.json",
+      "sha256": "c62f2b76bb726d0b00b1cb9302853399976adb0655d58c6b6950a025759a1ffb",
+      "bytes": 268064
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_r420_b_boundary/index_diagnostic/reduction_failure_20261012_163419/SOURCE_REVIEW.json",
+      "sha256": "ebfafcfd84d0c516a1dda90303ab8f6840d1e90a2977b214c7db7ccaff9ed5b6",
+      "bytes": 3770
+    }
+  ],
+  "live_failed_source_receipt_log_rehashed": true,
+  "scope": "Only the released single first-index diagnostic repair. The rejected original has two clean probes but no accepted object; no original allocation cause or resource improvement inferred. The other24 facts and wrapper remain held.",
+  "compiler_executed": false,
+  "runtime_binding_owner": "integration"
+}
