@@ -1,0 +1,12 @@
+{
+  "status": "INDEPENDENT_TERMINAL_PASS",
+  "utc": "2026-10-12T17:03:25.484489+00:00",
+  "review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT9594_CK_COVERAGE33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "9ad345017571e3e5106eb16007cbf0acbdb2b77f9e7e9294b5043ea84c7b4020"
+  },
+  "owner_acceptance_sha256": "459bc60a558fb84a294941489a9f1e3adfbaf3d12ad3eed3cea5bfacc17ced91",
+  "scope": "Four current import quadruples,17 outside protected outputs,Fresh current33 rows each, full0/24/33 labels,35 clean probes.",
+  "external_pairs": 2213,
+  "clarification": "The owner summary records its earlier pending-review state; this later reference closes that review without changing any source/object/receipt or the pinned owner acceptance."
+}
