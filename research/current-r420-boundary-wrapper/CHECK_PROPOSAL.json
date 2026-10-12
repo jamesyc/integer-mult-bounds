@@ -1,0 +1,69 @@
+{
+  "status": "SOURCE_ONLY_AWAITING_ADMISSION_AND_REVIEW",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-boundary-wrapper/CurrentR420BoundaryCheck.lean",
+    "sha256": "45886f099a6fa32244756132280e5f4ff6d89c95e4e4505f411c870a2dff9328",
+    "bytes": 2229
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-boundary-wrapper/SOURCE_BINDING.json",
+    "sha256": "7dafaf008c5e1c1652f8a9c26670ba050722aa790bd5714fb79650b723641ee0",
+    "bytes": 21120
+  },
+  "roots": [
+    "CurrentR420BoundaryCheck"
+  ],
+  "explicit_imports": [
+    "CurrentR420ScatterFacts"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentR420Boundary.selected_shape",
+    "CurrentMain.CurrentR420Boundary.line_shape",
+    "CurrentMain.CurrentR420Boundary.frame_index_permutation",
+    "CurrentMain.CurrentR420Boundary.frame_domain",
+    "CurrentMain.CurrentR420Boundary.zero_full_rows",
+    "CurrentMain.CurrentR420Boundary.boundary_domain",
+    "CurrentMain.CurrentR420Boundary.source_entrances",
+    "CurrentMain.CurrentR420Boundary.nonsource_entrances",
+    "CurrentMain.CurrentR420Boundary.source_helper_final_full",
+    "CurrentMain.CurrentR420Boundary.retained_helper_ids",
+    "CurrentMain.CurrentR420Boundary.phase_shape",
+    "CurrentMain.CurrentR420Boundary.phase_domains",
+    "CurrentMain.CurrentR420Boundary.band_order",
+    "CurrentMain.CurrentR420Boundary.band_lengths",
+    "CurrentMain.CurrentR420Boundary.first_target_band",
+    "CurrentMain.CurrentR420Boundary.middle_source_band",
+    "CurrentMain.CurrentR420Boundary.middle_operand_bands",
+    "CurrentMain.CurrentR420Boundary.last_target_band",
+    "CurrentMain.CurrentR420Boundary.final_target_frames",
+    "CurrentMain.CurrentR420Boundary.no_target_operands",
+    "CurrentMain.CurrentR420Boundary.no_self_reads",
+    "CurrentMain.CurrentR420Boundary.scatter_shape",
+    "CurrentMain.CurrentR420Boundary.scatter_index_domain",
+    "CurrentMain.CurrentR420Boundary.scatter_helpers",
+    "CurrentMain.CurrentR420Boundary.temporary_index",
+    "CurrentMain.CurrentR420Boundary.embed_preserves_index",
+    "CurrentMain.CurrentR420Boundary.original_excludes_temporary"
+  ],
+  "scope": {
+    "total": [
+      326,
+      325,
+      1
+    ],
+    "local": [
+      9,
+      8,
+      1
+    ],
+    "core": 317
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  }
+}
