@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_ONLY_PENDING_REVIEW_AND_BINDING",
+  "direct_imports": [
+    "Current535Child002Canonical"
+  ],
+  "scope": {
+    "total": 11,
+    "retained": 10,
+    "new": 1
+  },
+  "external_pairs": 2620,
+  "expected_probes": [
+    "CurrentMain.Current9594CKFirstRecipe.key_and_descriptors",
+    "CurrentMain.Current9594CKFirstRecipe.left_fields",
+    "CurrentMain.Current9594CKFirstRecipe.right_fields",
+    "CurrentMain.Current9594CKFirstRecipe.selected_child_operator"
+  ],
+  "finite_work": "No finite decision. Literal reflexivity and inherited all-payload operator theorem.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "selected_scope": "Current9594 CK ordinal0 only; no emitted Fin1079 stream or packed physical executor."
+}

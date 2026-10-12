@@ -1,0 +1,129 @@
+{
+  "selected_head": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "provider": "ck",
+  "current_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CANONICAL-WORD.json.gz",
+      "sha256": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+      "bytes": 71465
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/CLIFFORD-RECIPES.json",
+      "sha256": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+      "bytes": 1017157
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+      "bytes": 181457
+    }
+  ],
+  "spec": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/SPEC.json",
+    "sha256": "c80de50d961c1b048134452c4e0080f75a2096bcccc2c2e304362b538ae4387a",
+    "bytes": 51414
+  },
+  "plan": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-9594b61-readback/research/complex-571-free4fc8/data/PLAN.json",
+    "sha256": "87d06adb7a88e6e269e50c057a22b30d0266187f3b89870d6c9d54805a7d1042",
+    "bytes": 492935
+  },
+  "first_record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        3,
+        5,
+        8,
+        17,
+        32,
+        64,
+        129,
+        257,
+        1
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 2,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "matrix_rows": [
+        203,
+        257,
+        258,
+        4,
+        264,
+        16,
+        32,
+        320,
+        384
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        459,
+        459,
+        0,
+        459,
+        0,
+        0,
+        459,
+        459,
+        203
+      ]
+    }
+  },
+  "record_sha256": "1c3baf4a4a5fee2faf4bdd8e3a3f1e8294bfe7fa40403506a03fef4d331b49a0",
+  "first_descriptors": {
+    "old": [],
+    "new": [
+      459
+    ]
+  },
+  "old_inputs": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CANONICAL-WORD.json.gz",
+      "sha256": "e070ae2c78b4a1b644b418774af62b40d8d16e6ba89602f0474afb557d507c37",
+      "bytes": 72789
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/post-center-rank4-global/evidence/local/CLIFFORD-RECIPES.json",
+      "sha256": "577a1be13f5140d9c3997637784b2f812f46b24c61877699430b02de4f662102",
+      "bytes": 991124
+    }
+  ]
+}
