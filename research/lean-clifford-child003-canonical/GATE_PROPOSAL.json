@@ -1,9 +1,9 @@
 {
-  "status": "SOURCE_REVIEWED_LITERAL_PILOT_WITH_CURRENT_DECODER_PENDING_SINGLE_GATE",
+  "status": "SOURCE_SPECIFIC_TWO_BIT_REDUCTION_PENDING_REVIEW_AND_FIRST_ADMISSION",
   "root": {
     "module": "CliffordChild003Canonical",
     "source": "CliffordChild003Canonical.lean",
-    "sha256": "3542501a52bfea133c55bf4049b1474945a9793718f4484b93833ef276445ab0"
+    "sha256": "c1dbf237e28704b57857253dc32f5d5b3c82c5dcd23ce2a4e662d4ff72081418"
   },
   "direct_imports": [
     "CliffordNineBitDecoder"
@@ -20,9 +20,9 @@
     "no_other_record_root": true
   },
   "retained_current_inventory": {
-    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/LOCAL_CURRENT_INVENTORY.json",
-    "sha256": "626beb54496d6d5f768abaa3205858c62da7ba9aa6fd5365f4ea6c40c4e36873",
-    "bytes": 17372
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child003_canonical_pilot/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "b10b38251b9b00a0e8a11ce2563ed41ee91131af6f1bd87e6b15c9e7a1c3731d",
+    "bytes": 19740
   },
   "external_scope": {
     "source_object_pairs": 2620,
@@ -43,7 +43,7 @@
     "Both binary matrix inverse products for left/right/canonical maps.",
     "Source greedy-basis result with fuel10, transpose and Gram Q correction.",
     "Actual first column, using inherited matrix linearity.",
-    "512 complete address cases of the phase-sensitive two-branch predicate.",
+    "Symbolic nine-coordinate read-address identities plus exactly4 cases on bits7/8 imply the complete all-address phase-sensitive certificate.",
     "Arbitrary-payload identity by the accepted sandwich_operator theorem; pointwise arbitrary spectators."
   ],
   "remaining_suppliers": [
@@ -57,7 +57,7 @@
     "review_seconds": 45,
     "review_vm_bytes": 3758096384,
     "shared_slots": 2,
-    "runner": "One retained-lock single-file root after separate current/input/resource guard; closed reduction cost is unmeasured.",
+    "runner": "Sole10/9/1 root after exact independent source/API/current review and separate first admission. Existing unchanged caps and FIFO; no result predicted from child002.",
     "expected_probes": [
       "CurrentMain.CliffordChild003Canonical.record_key",
       "CurrentMain.CliffordChild003Canonical.raw_fields_bounded",
@@ -104,5 +104,21 @@
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child_pair_raw_decoder_proposal/notation_repair/ACCEPTANCE.json",
     "sha256": "c844c2ac252b344a22114ea4f18b37fa4174393d37e54417179d4c998316dd9c",
     "bytes": 27314
+  },
+  "source_specific_reduction": {
+    "mask": 384,
+    "phase_coordinates": [
+      7,
+      8
+    ],
+    "phase_cases": 4,
+    "read_addresses": "y+s*mask384 and y+s*mask384+mask384, s=y7+y8 in ZMod2",
+    "canonical_inverse_reuse": "Actual canonical rows/inverse rows equal the actual left rows/inverse rows.",
+    "option": "Elab.async=false, as in accepted child002; no cap or CLI change.",
+    "preserved_child002": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/child003_canonical_pilot/PRESERVED_CHILD002_OUTSIDE_IMPORT_CLOSURE.json",
+      "sha256": "d347bd1644a931decaad0ed6fff534b6c3df7ee14ca87427750f548f07752ed1",
+      "bytes": 1789
+    }
   }
 }
