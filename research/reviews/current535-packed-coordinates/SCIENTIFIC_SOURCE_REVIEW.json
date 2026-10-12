@@ -1,0 +1,94 @@
+{
+  "status": "PASS_INDEPENDENT_SYMBOLIC_SOURCE_MODEL_AND_API_REVIEW_NO_COMPILER",
+  "received_utc": "2026-10-12T15:49:41Z",
+  "read_started_utc": "2026-10-12T15:49:45Z",
+  "completed_utc": "2026-10-12T15:51:53.034677+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/Current535PackedCoordinates.lean",
+    "sha256": "6d0df547dfd5f6293b6b92e5575e719f0091b34a17759a09e04bf8c3976dab94",
+    "bytes": 5048
+  },
+  "scope": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/SOURCE_SCOPE.json",
+    "sha256": "c912b320229991ccfeb27455c793c0cfd03f7ab5efcfc3fd8c7f9dc8c08b9f75",
+    "bytes": 3650
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-packed-coordinates/CHECK_PROPOSAL.json",
+    "sha256": "3c70a0daf8b30b6bf24c0c0f7cc7f874c2a2ac6161fefcde09f07b599c5157a9",
+    "bytes": 2363
+  },
+  "selected_source_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current535_packed_supplier_proposal/SOURCE_INVENTORY.json",
+    "sha256": "a0c1755efe10154f688b07157d1ec5e83a5e9f2a4575dd68385aad3177f71864",
+    "bytes": 23216
+  },
+  "source_convention_pin": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7dfa22b-readback/research/direct-delivery504-global/vendor/clifford/clifford_exact.py",
+    "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "bytes": 6824,
+    "repository_path": "research/direct-delivery504-global/vendor/clifford/clifford_exact.py"
+  },
+  "accepted_API_sources": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/directed_child_recipes/CliffordNineBitDecoder.lean",
+      "sha256": "959dfc7b38e0ab8f9ec03f46b84fd60b642a94556107576ec839f7ce68cbf577",
+      "bytes": 8928
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/directed_child_recipes/CliffordMonomialDecoder.lean",
+      "sha256": "4dfcb7f13ae087820f3a6ad7683c71a22bfcdd39e74ad2faa8baa6c0fa7d692e",
+      "bytes": 5041
+    }
+  ],
+  "installed_API_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/BitVec/Lemmas.lean",
+      "sha256": "d295aabfc8d328c7985cc068d5068726dee1faa32c42b08ff27c1be64f97f78d",
+      "bytes": 212510
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/OfFn.lean",
+      "sha256": "4882e3289610841198cfa1902487d679cb91389b39accaf06205e8edc0a0a4d6",
+      "bytes": 5801
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/ZMod/Basic.lean",
+      "sha256": "da586753cb634b208ed96bf905f5d7127003f95133beee2b47631d3db55d54b6",
+      "bytes": 47591
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Module/Equiv/Basic.lean",
+      "sha256": "ce03f992e32c2a0a65677facc95288c375fc29edbbad9ceb7f0a990988f4b678",
+      "bytes": 26342
+    }
+  ],
+  "proof_readback": [
+    "Packed=Fin512, Address=Fin9\u2192ZMod2 and mask use coordinate i as testBit i. The inverse uses List.ofFn in increasing Fin order followed by ofBoolListLE and an explicit length9 cast.",
+    "Installed getLsbD_ofBoolListLE, getLsbD_cast, List.getElem?_ofFn and getD conversion support the pack bit-order formula; the bound i<9 is explicit.",
+    "ZMod.val_lt and val_injective establish the two inhabitants of ZMod2. unpack_pack is coordinatewise; pack_unpack uses bit extensionality below9, with no cardinality-choice inverse.",
+    "BitVec fixed-width XOR decodes pointwise to ZMod2 addition by four Boolean cases for an arbitrary coordinate. No512-address enumeration is introduced.",
+    "payloadEquiv uses LinearEquiv.funCongrLeft with addressEquiv.symm, so forward payload evaluation is v(pack a), and inverse evaluation is v(unpack x).",
+    "liftPermutation is unpack\u2218p\u2218pack. The accepted push reads p inverse, matching source P scatter to mv(x). Reindexing reduces to pack_unpack; no fresh matrix or operator identity is assumed."
+  ],
+  "public_probe_count": 10,
+  "new_decision_scope": "Two Boolean cases for packed inverse and four Boolean cases for XOR at a generic coordinate; source-level only until compiler acceptance.",
+  "prospective_local_scope": [
+    10,
+    9,
+    1
+  ],
+  "prospective_external_pairs": 2620,
+  "no_new_imports_beyond_existing_closure": true,
+  "source_pin_qualification": "Exact7dfa22b selected-source inventory. A newer9594 main was reported during review; this seal does not transfer source identity to that revision.",
+  "remaining": [
+    "Packed source mv/qvalue correspondence; no matrix or phase formula is identified here.",
+    "Gaussian integer/dyadic normalization and vectorized machine arithmetic semantics.",
+    "Actual raw macro executor and expanded physical work, routes, adapters and ownership.",
+    "PR593 endpoints remain separate; no hstart, unit-row or exact factorization premise is discharged."
+  ],
+  "scope_limit": "Coordinate equivalence, XOR and payload scatter/reindexing only. Packed mv/qvalue/phase/dyadic executor and full physical-work correspondence remain separate.",
+  "compiler_executed": false,
+  "supplier_execution": false,
+  "runtime_review_duplicated": false
+}
