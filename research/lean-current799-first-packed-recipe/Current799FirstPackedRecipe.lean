@@ -50,7 +50,7 @@ record. The Fin1005 event and physical execution suppliers remain separate. -/
 theorem packed_canonical_child (v : Packed → ℂ) :
     cL 512 recipe v = payloadEquiv.symm
       (canonicalK canonicalLinear.toEquiv canonicalPhase
-        (gaussian ((canonicalK canonicalLinear.toEquiv canonicalPhase).symm
+        (CliffordNineBitDecoder.gaussian ((canonicalK canonicalLinear.toEquiv canonicalPhase).symm
           (payloadEquiv v)))) :=
   Current5996CKPackedRecipe.packed_canonical_child v
 end
