@@ -1,0 +1,56 @@
+{
+  "helper": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668",
+    "bytes": 5111
+  },
+  "advisory_only": true,
+  "results": [
+    {
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Check.lean",
+        "sha256": "d0cf134511495c06f4d6652f3e8fbad6ebb2cd4a7a083d97204e9184e4085ac4",
+        "bytes": 14170
+      },
+      "result": {
+        "status": "ADVISORY_NO_ASCII_IMBALANCE",
+        "reason": null,
+        "advisory_only": true,
+        "parser_or_kernel_claim": false,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "issue_count": 0,
+        "issues": [],
+        "issue_output_limit": 32,
+        "bytes_read": 14170,
+        "source_sha256": "d0cf134511495c06f4d6652f3e8fbad6ebb2cd4a7a083d97204e9184e4085ac4",
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Check.lean",
+        "elapsed_seconds": 0.004230713006108999,
+        "max_source_bytes": 1048576
+      },
+      "elapsed_seconds": 0.05998759999056347
+    },
+    {
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Data.lean",
+        "sha256": "df0c5cfeca513cf516a8ea71ac27b2bc01ef76e7ce14abc87aa8b985484043b8",
+        "bytes": 13490
+      },
+      "result": {
+        "status": "ADVISORY_NO_ASCII_IMBALANCE",
+        "reason": null,
+        "advisory_only": true,
+        "parser_or_kernel_claim": false,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "issue_count": 0,
+        "issues": [],
+        "issue_output_limit": 32,
+        "bytes_read": 13490,
+        "source_sha256": "df0c5cfeca513cf516a8ea71ac27b2bc01ef76e7ce14abc87aa8b985484043b8",
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Data.lean",
+        "elapsed_seconds": 0.007932025007903576,
+        "max_source_bytes": 1048576
+      },
+      "elapsed_seconds": 0.09536451200256124
+    }
+  ]
+}

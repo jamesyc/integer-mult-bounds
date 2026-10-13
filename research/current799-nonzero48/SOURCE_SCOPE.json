@@ -1,0 +1,503 @@
+{
+  "status": "SOURCE_ONLY_CURRENT799_NONZERO48_PENDING_SCIENCE_BINDING_ADMISSION",
+  "utc": "2026-10-13T09:56:55.872769+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Data.lean",
+      "sha256": "df0c5cfeca513cf516a8ea71ac27b2bc01ef76e7ce14abc87aa8b985484043b8",
+      "bytes": 13490
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Check.lean",
+      "sha256": "d0cf134511495c06f4d6652f3e8fbad6ebb2cd4a7a083d97204e9184e4085ac4",
+      "bytes": 14170
+    }
+  ],
+  "literal_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/LITERAL_PROJECTION.json",
+    "sha256": "3a6354c8a76a16ffbc723aa62377ec3091922fd388475d489bca6cb8925c441a",
+    "bytes": 92001
+  },
+  "delimiter_advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/DELIMITER_ADVISORY.json",
+    "sha256": "51078b50bc25bc64cbe485ffcceeac3b7e8524127fc4523572d54df3c17b52d6",
+    "bytes": 2286
+  },
+  "selected_artifact_verification": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "prior_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next32_check/ACCEPTANCE.json",
+    "sha256": "5368f7bb777893ab6b9b35c9cc2843bd0eaf5490032d9dc83ca893f3c161d090",
+    "bytes": 88107
+  },
+  "prior_independent_terminal": {
+    "status": "PENDING_INDEPENDENT129_TERMINAL",
+    "owner_acceptance": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next32_check/ACCEPTANCE.json",
+      "sha256": "5368f7bb777893ab6b9b35c9cc2843bd0eaf5490032d9dc83ca893f3c161d090",
+      "bytes": 88107
+    }
+  },
+  "prior_source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next32/Current799Next32Data.lean",
+      "sha256": "0f03e77e33e11d96f8f758a16eae82dbfb5eadcb4c521a3984877d1b51e3ff74",
+      "bytes": 5351
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next32/Current799Next32Check.lean",
+      "sha256": "64f7ea533e448903e1f631cbe9784215609c7c0e9a1ff93a6b30ded3c443022d",
+      "bytes": 13234
+    }
+  ],
+  "source_scope": {
+    "raw_zero_based_inclusive": [
+      9370,
+      9417
+    ],
+    "new_rows_each": 48,
+    "chunk_lengths": [
+      24,
+      24
+    ],
+    "histogram_each": {
+      "ADD": 28,
+      "SCALE": 4,
+      "relabel": 16
+    },
+    "child_ordinals": [
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      342,
+      343,
+      345,
+      348,
+      351,
+      352
+    ],
+    "directed_key_ranks": [
+      [
+        9,
+        17,
+        1
+      ],
+      [
+        9,
+        18,
+        1
+      ],
+      [
+        9,
+        19,
+        1
+      ],
+      [
+        10,
+        20,
+        1
+      ],
+      [
+        10,
+        21,
+        1
+      ],
+      [
+        10,
+        22,
+        1
+      ],
+      [
+        11,
+        20,
+        1
+      ],
+      [
+        11,
+        23,
+        1
+      ],
+      [
+        11,
+        24,
+        1
+      ],
+      [
+        12,
+        17,
+        1
+      ],
+      [
+        13,
+        21,
+        1
+      ],
+      [
+        13,
+        23,
+        1
+      ],
+      [
+        14,
+        18,
+        1
+      ],
+      [
+        15,
+        19,
+        1
+      ],
+      [
+        16,
+        22,
+        1
+      ],
+      [
+        16,
+        24,
+        1
+      ]
+    ],
+    "directed_descriptors": [
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          38,
+          11
+        ]
+      },
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          51,
+          11
+        ]
+      },
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          21,
+          11
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          45
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          51
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          30
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          448,
+          45
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          493,
+          30
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          478,
+          51
+        ]
+      },
+      {
+        "old": [
+          38
+        ],
+        "new": [
+          38,
+          11
+        ]
+      },
+      {
+        "old": [
+          499
+        ],
+        "new": [
+          448,
+          51
+        ]
+      },
+      {
+        "old": [
+          499
+        ],
+        "new": [
+          493,
+          30
+        ]
+      },
+      {
+        "old": [
+          56
+        ],
+        "new": [
+          51,
+          11
+        ]
+      },
+      {
+        "old": [
+          21
+        ],
+        "new": [
+          21,
+          11
+        ]
+      },
+      {
+        "old": [
+          478
+        ],
+        "new": [
+          448,
+          30
+        ]
+      },
+      {
+        "old": [
+          478
+        ],
+        "new": [
+          478,
+          51
+        ]
+      }
+    ],
+    "catalog_prefix_count": 353,
+    "full_catalog_count": 2949,
+    "frame_count": 1005,
+    "label_registers": 736,
+    "checkpoints": [
+      129,
+      153,
+      177
+    ],
+    "supports": {
+      "153": [
+        0,
+        27,
+        224,
+        57
+      ],
+      "177": [
+        225,
+        7,
+        76,
+        87,
+        226,
+        92,
+        227,
+        81,
+        228,
+        232,
+        229,
+        238
+      ]
+    },
+    "updates": {
+      "153": [
+        [
+          0,
+          17
+        ],
+        [
+          27,
+          17
+        ],
+        [
+          224,
+          18
+        ],
+        [
+          57,
+          18
+        ]
+      ],
+      "177": [
+        [
+          225,
+          19
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          76,
+          20
+        ],
+        [
+          87,
+          20
+        ],
+        [
+          226,
+          21
+        ],
+        [
+          92,
+          21
+        ],
+        [
+          227,
+          22
+        ],
+        [
+          81,
+          22
+        ],
+        [
+          228,
+          23
+        ],
+        [
+          232,
+          23
+        ],
+        [
+          229,
+          24
+        ],
+        [
+          238,
+          24
+        ]
+      ]
+    },
+    "unchanged_complements": [
+      732,
+      724
+    ],
+    "composed_histogram_each": {
+      "ADD": 101,
+      "SCALE": 4,
+      "relabel": 72
+    },
+    "next_excluded_raw": 9418,
+    "next_excluded_key": [
+      12,
+      25
+    ]
+  },
+  "local_scope": {
+    "modules": 12,
+    "current": 10,
+    "pending": 2
+  },
+  "external_pairs": 2213,
+  "expected_probes": {
+    "Current799Nonzero48Check": [
+      "CurrentMain.Current799Nonzero48Check.catalog_prefix_shape",
+      "CurrentMain.Current799Nonzero48Check.exact_source_indices",
+      "CurrentMain.Current799Nonzero48Check.forward_H_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_H_children_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_H_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_H_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.forward_support153",
+      "CurrentMain.Current799Nonzero48Check.forward_touched153",
+      "CurrentMain.Current799Nonzero48Check.forward_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_wellLabelled153",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.forward_I_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_I_children_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_I_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_I_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.forward_support177",
+      "CurrentMain.Current799Nonzero48Check.forward_touched177",
+      "CurrentMain.Current799Nonzero48Check.forward_checkpoint177",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_wellLabelled177",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_checkpoint177",
+      "CurrentMain.Current799Nonzero48Check.backward_H_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_H_children_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_H_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_H_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.backward_support153",
+      "CurrentMain.Current799Nonzero48Check.backward_touched153",
+      "CurrentMain.Current799Nonzero48Check.backward_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_wellLabelled153",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.backward_I_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_I_children_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_I_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_I_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.backward_support177",
+      "CurrentMain.Current799Nonzero48Check.backward_touched177",
+      "CurrentMain.Current799Nonzero48Check.backward_checkpoint177",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_wellLabelled177",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_checkpoint177"
+    ],
+    "Current799Nonzero48Data": []
+  },
+  "finite_decisions": 18,
+  "proof_reuse": "Accepted factorization, checkRows soundness, multivalue sparse_checkpoint and append laws. No prefix replay, new generic induction or table-wide decisions.",
+  "resource_proposal": {
+    "hard_seconds_each": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "owner_serial_jobs": 1,
+    "new_jobs_max": 2,
+    "Elab.async": false,
+    "baseline": "Prior32 Data4.641843326s/2096410624VM; Check7.059551671s/2163838976VM. Nonzero-old/SCALE48 fit unmeasured; no throughput extrapolation."
+  },
+  "completion": "Both roots below review caps,38 complete standard-only probes and all current/import/output guards exact; stop at first failure or review.",
+  "authority": "Root2026-10-13 09:54:54 authorizes exact2dd73be7 source preparation, prospective12/10/2,38probes/18decisions,129-to153-to177. Require independent nonzero-old direction/denominator/353-key source/API and standard binding before any compiler.",
+  "excluded_scope": [
+    "Actual entrance/pre-A executor, all731 omitted phase/adapter rows and full-stream coverage.",
+    "Current nonzero-old records330..352 operator or physical realization.",
+    "Full2949 catalog and events from raw9418 onward."
+  ],
+  "compiler_runs": 0
+}
