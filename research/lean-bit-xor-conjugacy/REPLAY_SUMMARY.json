@@ -1,0 +1,131 @@
+{
+  "format": "independently-reviewed-fresh-check-summary-v1",
+  "status": "PASS_INDEPENDENTLY_REVIEWED_FRESH_SOURCE_CHECK",
+  "recorded_execution": {
+    "started_utc": "2026-10-13T13:13:27.614312+00:00",
+    "finished_utc": "2026-10-13T13:13:29.378161+00:00",
+    "fresh_modules": 3,
+    "historical_local_outputs_retained": 0,
+    "complete_ordered_probe_count": 13,
+    "new_source_count": 1,
+    "new_probe_count": 2,
+    "public_predecessor_probe_count": 11,
+    "compiler_seconds": 0.8769267650013717,
+    "new_root_compiler_seconds": 0.24668880900026124,
+    "peak_vm_bytes": 841175040,
+    "peak_rss_bytes": 328904704,
+    "hard_seconds_each": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "core": {
+    "source_object_pairs": 317,
+    "ordered_import_edges": 1077,
+    "actual_source_import_order_matches": true,
+    "lean_binary_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b"
+  },
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXor.run_shift",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXor.run_off_target",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXor.target_identity",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXor.erased_eq_of_agree_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_append",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_scalarize",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.step_involutive",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_reverse_cancel",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_agree_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.cleanup_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.cleanup_target_value",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorConjugacy.run_xor",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorConjugacy.conjugated_target_injection",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "evidence": {
+    "fresh_result": "FRESH_RESULT.json",
+    "original_source_binding": "SOURCE_BINDING.json",
+    "original_receipts": [
+      "evidence/receipts/BitXorTargetTranslation.json",
+      "evidence/receipts/BitXorReversal.json",
+      "evidence/receipts/BitXorConjugacy.json"
+    ],
+    "original_raw_logs": [
+      "evidence/logs/BitXorTargetTranslation.raw.log",
+      "evidence/logs/BitXorReversal.raw.log",
+      "evidence/logs/BitXorConjugacy.raw.log"
+    ],
+    "independent_terminal": "evidence/TERMINAL_REVIEW.json"
+  },
+  "additional_compilation_for_packaging": false,
+  "historical_manifest_status_preserved": true,
+  "scope": "One new generic source with two facts. All three local modules were freshly checked. Explicit no-self-read, encoded-vector and support premises remain; no concrete D, helper-state adapter, physical, signed-positive, hosted or full multiplication claim."
+}

@@ -1,0 +1,13 @@
+{
+  "format": "immutable-official-core-reference-v1",
+  "repository": "jamesyc/integer-mult-bounds",
+  "commit": "a87e6cce090c6bdc4f0687fe80719411835b94eb",
+  "path": "research/lean-current-r480-scalar-boundaries/OFFICIAL_CORE_MANIFEST.json",
+  "sha256": "2c27354193fc7b11079b61116ab8e9c80485903845bda48ddf3c66057fed2cb1",
+  "source_object_pairs": 317,
+  "ordered_import_edges": 1077,
+  "lean_version": "4.21.0",
+  "lean_binary_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+  "scope": "Init-only runtime. No Mathlib, Std or Batteries import.",
+  "downloads_or_installs_performed_by_this_package": false
+}
