@@ -1,0 +1,75 @@
+{
+  "status": "SOURCE_ONLY_PENDING_GENERIC_PREREQUISITE_AND_INDEPENDENT_REVIEW",
+  "utc": "2026-10-13T09:02:22.150335+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current799-record3-symbolic-validity/Current799Record3Validity.lean",
+    "sha256": "7a18329534b13ecdba987cb6b2fe54fb1577aca64d79f9b2ccb35cc792ea7ff5",
+    "bytes": 4245
+  },
+  "unchanged_statement_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current799-record3-split-proposal/Current799Record3Validity.lean",
+    "sha256": "4d74393e8ab36abd3e20bc0f9aad7c224c8f55feec920b7cc7c6b0110907667b",
+    "bytes": 814
+  },
+  "exact_original_public_statement": true,
+  "direct_imports": [
+    "Current799Record3Literals",
+    "PackedGateValidity"
+  ],
+  "current_inputs": 15,
+  "pending_prerequisites": [
+    "PackedGateValidity"
+  ],
+  "eventual_local_scope": {
+    "modules": 17,
+    "current_local": 16,
+    "pending": 1
+  },
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/packed_gaussian_reindex/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "caa4906e60782c7619fbcb4278a284a5a699ac48079f19fd8d114d65adc5e8b4",
+    "bytes": 2268324
+  },
+  "probes": [
+    "CurrentMain.Current799Record3Packed.gate_validity"
+  ],
+  "finite_address_or_kernel_certificate_decisions": 0,
+  "ordinary_constant_bounds": 2,
+  "symbolic_coordinate_position_branches": 72,
+  "proof_shape": "Four fixed row actions (4x9 coordinate positions) plus four inverse compositions (4x9), then generic constructor validity and finite list conjunction. All nine address values are arbitrary; no Fin512 evaluation.",
+  "changes": "The original validity-only decision is replaced by explicit linear action/inverse certificates and unchanged Gate.ok constructor laws. All circuit literals and the public conclusion are exact.",
+  "preserved_literal_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_LITERALS_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "ee494a83c6526cadccfdc124bed4c88ad2dc2f34abc8cb19f1149e12ba8ae03a",
+    "bytes": 10164
+  },
+  "preserved_failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_split_proposal/validity_gate/allocation_failure_baseline/FAILURE.json",
+    "sha256": "23fa7fb9828dd20dd0afc311138e5eafcb4623f9e73e916f0c9ba157cacb55c0",
+    "bytes": 103598
+  },
+  "failure_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_VALIDITY_FAILURE_INDEPENDENT_REVIEW.json",
+    "sha256": "2acce051dc17179ffaf34a5ff707488897c858ce8b917f909c6f6d2af8d981e0",
+    "bytes": 3278
+  },
+  "generic_source_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/packed_gate_validity_review/SOURCE_API_REVIEW.json",
+    "sha256": "2364ff46a3b0afdf9f9350f20ff5bf91396d9228b777d70aee917cc420912e93",
+    "bytes": 20546
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "first_failure_or_review_stops": true
+  },
+  "remaining": [
+    "Accepted generic validity object",
+    "Measured current validity module and probe",
+    "Reduced packed equality remains unattempted",
+    "Event/executor and full construction obligations"
+  ]
+}
