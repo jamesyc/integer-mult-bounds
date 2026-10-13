@@ -1,0 +1,83 @@
+{
+  "status": "PASS_EXACT15_CURRENT799_FIRST33_KEY_OWNER_ACCEPTANCE",
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_first33_keys/ACCEPTANCE.json",
+    "sha256": "7ad891c7f312e3e313365bd5ad43ae7f0df66f874dfe638b2e1054a87ddb09a6",
+    "bytes": 69561
+  },
+  "scope": {
+    "local_modules": 15,
+    "preserved_imported": 14,
+    "new_checks": 1,
+    "protected_outside": 13
+  },
+  "timing": {
+    "source_science_received_utc": "2026-10-13T07:42:59+00:00",
+    "dependency_terminal_received_utc": "2026-10-13T07:31:31+00:00",
+    "release_scope": "Root current-first33 decoded-key release relayed in standing_admission; precise root delivery seconds not inferred",
+    "binding_sealed_utc": "2026-10-13T07:47:46.272606+00:00",
+    "binding_message_received_read_utc": "2026-10-13T07:48:25Z",
+    "invoked_utc": "2026-10-13T07:48:43Z..07:48:54Z",
+    "post_lock_guard_utc": "2026-10-13T07:48:55.930676+00:00",
+    "admitted_utc": "2026-10-13T07:48:58.152361+00:00",
+    "checker_requested_utc": "2026-10-13T07:48:58.197935+00:00",
+    "slot_acquired_utc": "2026-10-13T07:48:58.198914+00:00",
+    "compiler_started_utc": "2026-10-13T07:48:58.916466+00:00",
+    "compiler_finished_utc": "2026-10-13T07:49:08.440485+00:00",
+    "compile_seconds": 9.523985620995518,
+    "queue_seconds": 0.000981200995738618,
+    "preparation_seconds": 0.7175502720056102,
+    "note": "Each field records its observed boundary; no causal allocation of messaging/guard intervals or throughput claim."
+  },
+  "process_observations": {
+    "samples": 95,
+    "peak_vm_bytes": 2324779008,
+    "peak_rss_bytes": 1536458752,
+    "peak_threads": 4
+  },
+  "new_probes": [
+    {
+      "name": "CurrentMain.Current799First33KeyRestriction.selected_forward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799First33KeyRestriction.selected_forward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799First33KeyRestriction.selected_backward_A",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799First33KeyRestriction.selected_backward_B",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "statement_scope": "Four existential exact rational decoder/WellLabelled/relabel-key0\u21924 facts for the accepted current Fin1005 forward/backward24+9 slices.16 relabel and50 ADD occurrences in existing typed lists; no finite checkRows/catalog replay.",
+  "excluded_scope": [
+    "Actual execution through pre-A prefix/731 omitted phase and adapter rows.",
+    "Recipe operator and endpoint chart hypotheses remain explicit for the separate packed bridge.",
+    "Other keys,the rest of2949catalog,expanded physical work and global728owner hosting."
+  ],
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_FIRST33_KEYS_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "6162314738a93ee301aed8a9d2a2f61011c9413c75e4f810c545f8828678ad27",
+    "bytes": 33391
+  }
+}

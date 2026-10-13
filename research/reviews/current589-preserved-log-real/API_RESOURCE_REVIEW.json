@@ -1,0 +1,99 @@
+{
+  "status": "PASS_PRESERVED_NUMERICAL_SOURCE_API_AND_CURRENT_UNIT_INTERFACE",
+  "start_utc": "2026-10-13T07:46:49Z",
+  "completed_utc": "2026-10-13T07:48:24.881356+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-real/Current543LogRealEnclosure.lean",
+    "sha256": "4d6371d4ca72f1ae864e2dd0598a9b6d685164cc1707fccbfab4c1f967798d0c",
+    "bytes": 9817
+  },
+  "historical_binding_preserved": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-real/SOURCE_BINDING.json",
+    "sha256": "4f58999e0b09d0becb3576f4cff028f233054aaf383bb700d6cd90739dcd351e",
+    "bytes": 11047
+  },
+  "historical_resource_proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-real/CHECK_PROPOSAL.json",
+    "sha256": "429e5ce214652518e30a1ef15f2dca45d0f57fabf03b35b2f9452503e49d6d1f",
+    "bytes": 63017
+  },
+  "current_applicability_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_bit/PRESERVED_REAL_UNIT_CURRENT_APPLICABILITY_PROPOSAL.json",
+    "sha256": "8e85b93241f98d04f2078091aefdd1c02fd23170cbaeb20e3865e102c4da79f2",
+    "bytes": 19712
+  },
+  "accepted_generic_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-log-unit-enclosure/SelectedMomentLogUnitEnclosure.lean",
+    "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+    "bytes": 8938
+  },
+  "exact_generic_declarations": [
+    "oddSum",
+    "paired_sum",
+    "log_auxiliary",
+    "cast_power",
+    "cast_term",
+    "cast_block",
+    "cast_block_step",
+    "cast_sum80",
+    "auxiliaryTail",
+    "sourceTail",
+    "cast_auxiliaryTail",
+    "cast_sourceTail",
+    "cast_unitUpper",
+    "unit_from_tail"
+  ],
+  "accepted_finite_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current543-log/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "033518d89df0269d49442dc67950786fa1fa1370f665707a976b5840ff91c05a",
+    "bytes": 8625
+  },
+  "literal_cast_binding": "Exact accepted z3_13_upper and z11_53_upper numerators/denominators; explicit Rat.cast_div/ofNat retained.",
+  "current_unit_interface": [
+    {
+      "rank": 5,
+      "k": 3,
+      "n": 3,
+      "d": 13,
+      "unit": "8/5"
+    },
+    {
+      "rank": 42,
+      "k": 0,
+      "n": 11,
+      "d": 53,
+      "unit": "32/21"
+    }
+  ],
+  "scope": {
+    "local": [
+      3,
+      2,
+      1
+    ],
+    "cached_pairs": 3260,
+    "new_kernel_tail_comparisons": 2,
+    "public_probes": [
+      "log_eight_fifths_upper",
+      "log_thirty_two_twenty_one_upper",
+      "log_eight_fifths_literal",
+      "log_thirty_two_twenty_one_literal"
+    ]
+  },
+  "resource_boundary": {
+    "caps": {
+      "hard_seconds": 60,
+      "hard_vm_bytes": 4294967296,
+      "review_seconds": 40,
+      "review_vm_bytes": 3758096384
+    },
+    "fit": "Two fresh six-term tail decisions and aggregate elaboration remain unmeasured; previous source equivalence is not a fit guarantee."
+  },
+  "conclusion": "The same four absolute numerical Real inequalities serve the current rank5 and rank42 binary units. They do not use the historical profile, saving or kappa as mathematical hypotheses. The original comments and metadata remain historical; current selected applicability is carried only by the separate source-pinned proposal.",
+  "remaining": [
+    "Signed owns current source-formula science.",
+    "Final runtime/current/output and launcher binding must use actual latest accepted inputs.",
+    "Eight-rank binary transport, ordinary/fallback weighted bit moment, recurrence/physical/profile realization and current selected-kappa transfer remain separate."
+  ],
+  "compiler_or_supplier_execution": false
+}
