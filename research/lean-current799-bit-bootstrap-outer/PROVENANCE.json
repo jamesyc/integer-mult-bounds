@@ -69,7 +69,7 @@
   "accepted_reference_checks": "ACCEPTED_CHECKS.json",
   "public_reproduction": {
     "file": "REPLAY_SUMMARY.json",
-    "sha256": "816939a6d5597a7adb899e06efac775f35023ecc08ce4c013ea8ae19419506f3"
+    "sha256": "6fa6ea452e5dc16dcdeafb76793bd80924b69e8bda2c87381e7ff30539b17745"
   },
   "runtime": {
     "lean_version": "4.21.0",
