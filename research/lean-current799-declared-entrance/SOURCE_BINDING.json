@@ -3,8 +3,8 @@
   "selected_head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-declared-entrance/Current799DeclaredEntrance.lean",
-    "sha256": "0c7ec4b95b634c03ec059f215e6acf5e6a38d23f4e44fe590557dfefe7c6864d",
-    "bytes": 3677
+    "sha256": "e71f8bcd99321ae951f5cb4dabfe63da7237e1311711e5cfa36d3840c6bdff80",
+    "bytes": 3764
   },
   "accepted_fold_owner": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/gate/ACCEPTANCE.json",

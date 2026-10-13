@@ -1,13 +1,13 @@
 {
-  "status": "SOURCE_API_REVIEWED_PENDING_BINDING_ADMISSION",
+  "status": "FIRST_ORDINARY_BETA_REPAIR_PENDING_SOURCE_API_AND_FAILED_PRESTATE_BINDING",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-declared-entrance/Current799DeclaredEntrance.lean",
-    "sha256": "0c7ec4b95b634c03ec059f215e6acf5e6a38d23f4e44fe590557dfefe7c6864d",
-    "bytes": 3677
+    "sha256": "e71f8bcd99321ae951f5cb4dabfe63da7237e1311711e5cfa36d3840c6bdff80",
+    "bytes": 3764
   },
   "source_binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-declared-entrance/SOURCE_BINDING.json",
-    "sha256": "ddfceac0eea7fe2a6b294f1bcccada1578aad904a3150690595ee36b947b05c9",
+    "sha256": "b81d2d6a8b22e27ef71308d96751344eb8b1c57aaa53429a86f1528f194fbce6",
     "bytes": 2841
   },
   "preparation_proposal": {
@@ -36,5 +36,15 @@
   ],
   "fresh_finite_decisions": 0,
   "new_stream_inductions": 0,
-  "remaining": "Both trace predicates,16 action equations,actualEntry and actualPrefix equalities,incoming residual chart,T0 and selected declared labels. No actual execution-to-labels0 or whole-state hstart."
+  "remaining": "Both trace predicates,16 action equations,actualEntry and actualPrefix equalities,incoming residual chart,T0 and selected declared labels. No actual execution-to-labels0 or whole-state hstart.",
+  "source_repair_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/beta_reduction_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "093e53664e083b7f223a88a2045e3740e917ef24d34c353e3eb10e31bd9e1005",
+    "bytes": 2264
+  },
+  "first_failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/FIRST_FAILURE_PRESERVATION.json",
+    "sha256": "406312ff6498ef1de4268ee98c0a06fec2e66ada16926f8d6d2085199a83e53c",
+    "bytes": 16501
+  }
 }

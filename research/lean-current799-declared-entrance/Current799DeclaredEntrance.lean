@@ -55,8 +55,9 @@ theorem selected_declared_entrance
     (hinput : ∀ i ∈ selectedSupport, h i = incomingChart R (T 4) x i)
     (i : Fin 736) (hi : i ∈ selectedSupport) :
     actualPrefix h i = T (labels i) (x i) := by
-  rw [hexecPrefix,
-    folded_prefix_chart rec pre earlyA hpre hearly actualEntry act R (T 4)
+  rw [hexecPrefix]
+  change physRun rec earlyA (actualEntry (physRun rec pre h)) i = T (labels i) (x i)
+  rw [folded_prefix_chart rec pre earlyA hpre hearly actualEntry act R (T 4)
       hexecEntry hselected h x hinput i hi,
     hlabels i hi]
   by_cases hr : i.val ∈ residualRegisters
