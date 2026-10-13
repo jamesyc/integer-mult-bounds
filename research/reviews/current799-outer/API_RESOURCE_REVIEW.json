@@ -1,0 +1,64 @@
+{
+  "status": "PASS_CURRENT799_OUTER_TEMPLATE_API_RESOURCE_REVIEW",
+  "completed_utc": "2026-10-13T09:27:44.665461+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-outer-closure/Current799OuterClosure.lean",
+    "sha256": "98c7b61a95b0ef169edce59defbe60fd20191c7e1ba166f5e0c7915f9e2c0bdc",
+    "bytes": 107684
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-outer-closure/SOURCE_BINDING.json",
+    "sha256": "0be9954dbcbe95ea1cb3db6af06b6901fec3d65396606e18c3f2f99b2490316b",
+    "bytes": 7031
+  },
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_outer/SOURCE_API_RESOURCE_PROPOSAL.json",
+    "sha256": "a11f9fe8a529c2c92bad554ef8229a4252cf1a641e7312d0ad9750fceb48f3f8",
+    "bytes": 2933
+  },
+  "literal_witness": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_outer/LITERAL_AND_TEMPLATE_WITNESS.json",
+    "sha256": "1a3b1eec3c19dc9c7968dca9d82378596bafcb29ed3af55e16ec7e3592038f12",
+    "bytes": 146446
+  },
+  "metadata_amendment": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_outer/UPSTREAM_BINDING_AMENDMENT.json",
+    "sha256": "ed084138ecc384af0f7c881387c8d13ff8f53ffaad8bbcda117f000bf83cdb3a",
+    "bytes": 2060
+  },
+  "accepted_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current596-outer-closure/Current596OuterClosure.lean",
+    "sha256": "20cca61a44c39df29dd892d2fff5c6e30d365bdba0b1d761e0f6d80aa10bc483",
+    "bytes": 107757
+  },
+  "checks": {
+    "exact_accepted_namespace_body_reconstruction": true,
+    "private_literal_facts": 73,
+    "current_raw_git_pins": 8,
+    "metadata_only_engine_path_inverse": true,
+    "import_names_and_constants_checked": true,
+    "strict_slacks": 47,
+    "margins": 7,
+    "balanced_identities": 3,
+    "kernel_decisions": 68,
+    "new_probes": 11,
+    "import_probes": 39,
+    "scope": [
+      6,
+      5,
+      1
+    ],
+    "cached_pairs": 319,
+    "all_nodes": 325,
+    "all_edges": 1093
+  },
+  "meaning": "Exact per-formula rational rewrites, ordered strict constraints, seven margin minimum/inequalities and strict kappa<minimum<=kappa+10^-18 reuse the accepted proof structure. No new Real API or iteration induction.",
+  "resource_qualification": "Current large rational literals remain unmeasured; unchanged60s/4GiB hard and40s/3.5GiB review caps and first-stop apply.",
+  "remaining": [
+    "Independent source/formula science and committed source/current/driver guard.",
+    "Actual bootstrap independent terminal.",
+    "Supplied initial/bit saving validity, scalar gap1,row allowance20161,coefficient512 and source parameters remain interface inputs.",
+    "Provider/operator/profile realization, recurrence complexity, physical execution and all-size selected-kappa transfer remain separate."
+  ],
+  "compiler_runs": 0
+}

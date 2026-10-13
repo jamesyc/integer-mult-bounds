@@ -1,0 +1,38 @@
+{
+  "status": "PASS_EXACT_ONE_SITE_SOURCE_API_REPAIR",
+  "utc": "2026-10-13T09:26:03.328500+00:00",
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "59eccf6db746d2391415905f27cd8516daed1f7506ce7a1cb3d8b969d828aa02",
+    "bytes": 2391
+  },
+  "candidate": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/Current799EntryFold.lean.pending",
+    "sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0",
+    "bytes": 6085
+  },
+  "failed_source": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/Current799EntryFold.lean.failed",
+    "sha256": "c6cd3e362ac1626e25ee4deb87c7aee503743a0184fc429d37b58e95a19a823d",
+    "bytes": 6066
+  },
+  "failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/FIRST_FAILURE_PRESERVATION.json",
+    "sha256": "72ef874589f3c15f5569a3abccafa44f4a34e38b28e18ab0755275328c2606d5",
+    "bytes": 14255
+  },
+  "exact_replacement": {
+    "old": "  exact congrArg Fin.val hij",
+    "new": "  exact congrArg (fun k : Fin 736 => k.val) hij"
+  },
+  "inverse_exact": true,
+  "failure_archives": 19,
+  "current_quadruples": 5,
+  "protected_quadruples": 244,
+  "source_reason": "hij equates entryIndex outputs at Fin736. The explicit Fin736.val projection matches its domain; entryIndex unfolds to the original Fin728 value, so the resulting equality is exactly the Fin.ext goal.",
+  "public_definitions_statements_imports_options_probes_unchanged": true,
+  "initial_review_limit": "Prior source review missed the implicit projection domain inference; diagnostic clean probes in the rejected module are not acceptance.",
+  "caps_changed": false,
+  "compiler_runs": 0,
+  "next_boundary": "Pending source only; root retry authority and independent failed-prestate binding still required."
+}
