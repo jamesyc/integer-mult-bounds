@@ -1,0 +1,220 @@
+{
+  "status": "SOURCE_ONLY_RESOURCE_REDESIGN_PENDING_INDEPENDENT_REVIEW_AND_NEW_ADMISSION",
+  "utc": "2026-10-13T09:41:23.018512+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current799-record3-cancellation-validity/Current799Record3Validity.lean",
+    "sha256": "52ecfd658be8d5e69442b64ec382935754ee3a22d22a7a1978b63426814c16e3",
+    "bytes": 7842
+  },
+  "failed_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current799-record3-symbolic-validity/Current799Record3Validity.lean",
+    "sha256": "7a18329534b13ecdba987cb6b2fe54fb1577aca64d79f9b2ccb35cc792ea7ff5",
+    "bytes": 4245
+  },
+  "failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_symbolic_validity/gate/symbolic_failure_baseline/FAILURE.json",
+    "sha256": "10ff9ed84ada4f14f16bfcace6b38f35e1cb31917b841a4e800d5659d007bc09",
+    "bytes": 141175
+  },
+  "generic_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/PACKED_GATE_VALIDITY_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "1063598dc4b31bba5fb9b24a974ab7fd9deeecb35f9ede2f8365eaa9274b70e5",
+    "bytes": 36041
+  },
+  "scope": {
+    "modules": 17,
+    "current_local": 16,
+    "pending": 1
+  },
+  "direct_imports": [
+    "Current799Record3Literals",
+    "PackedGateValidity"
+  ],
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/packed_gaussian_reindex/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "caa4906e60782c7619fbcb4278a284a5a699ac48079f19fd8d114d65adc5e8b4",
+    "bytes": 2268324
+  },
+  "probes": [
+    "CurrentMain.Current799Record3Packed.gate_validity"
+  ],
+  "unchanged": "All definitions, four row-action proofs, imports, public statement and its constructor-composition proof, and probe bytes are exact. Only the inverse proof block is replaced, adding four private universal action-cancellation lemmas.",
+  "work": {
+    "coordinate_position_branches": 72,
+    "row_action_branches": 36,
+    "inverse_action_branches": 36,
+    "nontrivial_ac_rebracketings": 14,
+    "definitional_inverse_coordinates": 22,
+    "ordinary_constant_bounds": 2,
+    "address_or_circuit_decisions": 0,
+    "broad_commutative_simp_sites_removed": 4,
+    "symbolic_address_values": 9
+  },
+  "cancellation_normal_forms": [
+    {
+      "composition": "actionA_Ai",
+      "coordinate": 0,
+      "occurrences": {
+        "6": 2,
+        "0": 1
+      },
+      "pairs": 1,
+      "unpaired_coordinate": 0
+    },
+    {
+      "composition": "actionA_Ai",
+      "coordinate": 1,
+      "occurrences": {
+        "6": 2,
+        "1": 1
+      },
+      "pairs": 1,
+      "unpaired_coordinate": 1
+    },
+    {
+      "composition": "actionA_Ai",
+      "coordinate": 3,
+      "occurrences": {
+        "6": 2,
+        "3": 1
+      },
+      "pairs": 1,
+      "unpaired_coordinate": 3
+    },
+    {
+      "composition": "actionAi_A",
+      "coordinate": 1,
+      "occurrences": {
+        "0": 2,
+        "1": 1
+      },
+      "pairs": 1,
+      "unpaired_coordinate": 1
+    },
+    {
+      "composition": "actionAi_A",
+      "coordinate": 2,
+      "occurrences": {
+        "0": 2,
+        "2": 1
+      },
+      "pairs": 1,
+      "unpaired_coordinate": 2
+    },
+    {
+      "composition": "actionAi_A",
+      "coordinate": 4,
+      "occurrences": {
+        "0": 2,
+        "4": 1
+      },
+      "pairs": 1,
+      "unpaired_coordinate": 4
+    },
+    {
+      "composition": "actionB_Bi",
+      "coordinate": 0,
+      "occurrences": {
+        "0": 3,
+        "2": 2,
+        "4": 2,
+        "1": 2
+      },
+      "pairs": 4,
+      "unpaired_coordinate": 0
+    },
+    {
+      "composition": "actionB_Bi",
+      "coordinate": 1,
+      "occurrences": {
+        "0": 2,
+        "2": 2,
+        "4": 2,
+        "1": 1
+      },
+      "pairs": 3,
+      "unpaired_coordinate": 1
+    },
+    {
+      "composition": "actionB_Bi",
+      "coordinate": 2,
+      "occurrences": {
+        "0": 2,
+        "1": 2,
+        "4": 2,
+        "2": 1
+      },
+      "pairs": 3,
+      "unpaired_coordinate": 2
+    },
+    {
+      "composition": "actionB_Bi",
+      "coordinate": 4,
+      "occurrences": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "4": 1
+      },
+      "pairs": 3,
+      "unpaired_coordinate": 4
+    },
+    {
+      "composition": "actionBi_B",
+      "coordinate": 0,
+      "occurrences": {
+        "0": 1,
+        "1": 2,
+        "3": 2,
+        "6": 2
+      },
+      "pairs": 3,
+      "unpaired_coordinate": 0
+    },
+    {
+      "composition": "actionBi_B",
+      "coordinate": 1,
+      "occurrences": {
+        "0": 2,
+        "1": 1,
+        "3": 2,
+        "6": 2
+      },
+      "pairs": 3,
+      "unpaired_coordinate": 1
+    },
+    {
+      "composition": "actionBi_B",
+      "coordinate": 3,
+      "occurrences": {
+        "0": 2,
+        "1": 2,
+        "3": 1,
+        "6": 2
+      },
+      "pairs": 3,
+      "unpaired_coordinate": 3
+    },
+    {
+      "composition": "actionBi_B",
+      "coordinate": 6,
+      "occurrences": {
+        "0": 2,
+        "1": 2,
+        "3": 2,
+        "6": 3
+      },
+      "pairs": 4,
+      "unpaired_coordinate": 6
+    }
+  ],
+  "resource_change": "Removed broad simplification under Pi.single;14 explicit small AC normalizations and characteristic-two cancellations replace it. Structural removed-work claim only; no speed or fit prediction.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "authority": "Root09:37 source-only redesign instruction. New compilation requires independent source/API/resource and binding review plus explicit scope admission.",
+  "packed_equality": "Unattempted and excluded."
+}
