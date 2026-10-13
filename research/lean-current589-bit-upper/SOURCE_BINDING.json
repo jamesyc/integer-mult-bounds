@@ -1,0 +1,156 @@
+{
+  "status": "CURRENT_F567_PR589_FINITE_SOURCE_BOUND_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-13T07:44:09.587002+00:00",
+  "source": {
+    "module": "Current589BitUpperAggregate",
+    "file": "Current589BitUpperAggregate.lean",
+    "sha256": "559f9bb79bff1ac92bf44ff1edf07ef6928636370dd50c7ef1345f3a1b8c67d9",
+    "bytes": 67334,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate",
+      "CurrentBitLogCheckpoints",
+      "Current543LogCheckpoints"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current589BitUpperAggregate.profile_totals",
+      "CurrentMain.Current589BitUpperAggregate.current_domains",
+      "CurrentMain.Current589BitUpperAggregate.ordinary_rounded_exact",
+      "CurrentMain.Current589BitUpperAggregate.fallback_rounded_exact",
+      "CurrentMain.Current589BitUpperAggregate.upper_matches_current_certificate",
+      "CurrentMain.Current589BitUpperAggregate.current_upper_strict"
+    ]
+  },
+  "current_source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-f567884-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/certificates/selected-result.json",
+      "sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+      "bytes": 7059,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "1f107b55a2f045fa66d9c35d658b3b79549f5ba6"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+      "bytes": 127995,
+      "repository_path": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "git_blob": "9921a5d90ef8aa005df3a872adbf1a90e484cad8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/ASSEMBLY.json",
+      "sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+      "bytes": 85641,
+      "repository_path": "research/community-frontier799-audit/ASSEMBLY.json",
+      "git_blob": "a04bfd932a15196fe8e2418eae912ea745152593"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987,
+      "repository_path": "research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987,
+      "repository_path": "research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/assemble.py",
+      "sha256": "4c270a996b380ab712f72b81173ab24f1c73203a33578f261bfbaa7e67d75aec",
+      "bytes": 20788,
+      "repository_path": "research/gauge44-frames-x/code/assemble.py",
+      "git_blob": "8cee90b50e238bd1519a7aeb7395f62d277b8ae4"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1661634653669567/1000000000000000000",
+  "decimal": "0.001661634653669567",
+  "target_fields": {
+    "saving": {
+      "pointer": "/bit_lower",
+      "value": "1733427039589844234749/1000000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/moments/bit,accept=true/base_two/1",
+      "value": "-3197378653350863173989/2000000000000000000000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 381024,
+      "2": 400416,
+      "3": 22752,
+      "4": 26880,
+      "5": 29376,
+      "6": 17376,
+      "7": 26784,
+      "42": 288
+    },
+    "dimension": 64,
+    "live": 28416,
+    "fallbackCount": 118606528512
+  },
+  "source_lines": {
+    "bit_supplier": "gauge44-frames-x/code/assemble.py:31-49,177-183,202-203",
+    "rounding_and_fallback": "gauge44-frames-x/code/assemble.py:190-199",
+    "base_two": "base_two_moment.py:20-58"
+  },
+  "read_only_map": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_bit/CURRENT_SOURCE_AND_WEIGHTED_MAP.json",
+    "sha256": "e24ebab4d6cded562eda5af6ead7844c775af1bcf2bbf29a1875bf7af005df6a",
+    "bytes": 60675
+  },
+  "accepted_log_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current-bit-log-checkpoints/CurrentBitLogCheckpoints.lean",
+      "sha256": "e603335f6420b4b4033c33652f3361121fce8f00daf16a6858a9c8a02738298d",
+      "bytes": 10306
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-checkpoints/Current543LogCheckpoints.lean",
+      "sha256": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+      "bytes": 12224
+    }
+  ],
+  "reused_public_definitions": [
+    "unitUpper",
+    "roundedLog",
+    "ceilGrid",
+    "expBlock",
+    "expState12",
+    "expUpper"
+  ],
+  "dimension_domain": "bitLogDomain uses64 and permits reduced unit=2 exactly as the actual source loop. Historical dimension73/native profile assumptions are excluded.",
+  "reduction_plan": {
+    "log_checkpoint_reproofs": 0,
+    "exp_literal_state_blocks": 24,
+    "total_kernel_decisions": 69,
+    "domain_leaves": 16,
+    "max_exp_steps_per_literal_check": 4
+  },
+  "rounding": "Ordinary and rank-one fallback calls each ceil at10^30; only then the fallback receives10^-16. Actual assemble.py190-203 and native call225 keep this bit surcharge true.",
+  "remaining": [
+    "Current589 Real weighted bit enclosure, including two preserved uncompiled unit bounds.",
+    "Bit recurrence/profile/operator realization and source supplier validity.",
+    "Current bootstrap/outer realization and physical/all-size selected-kappa theorem."
+  ]
+}
