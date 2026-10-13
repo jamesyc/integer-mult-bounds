@@ -1,0 +1,121 @@
+{
+  "status": "PASS_INDEPENDENT_ENTRY_FOLD_SOURCE_API_AND_ORDER_REVIEW",
+  "review_started_utc": "2026-10-13T08:44:06Z",
+  "completed_utc": "2026-10-13T08:45:58.664607+00:00",
+  "source": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/candidate/Current799EntryFold.lean",
+    "sha256": "c6cd3e362ac1626e25ee4deb87c7aee503743a0184fc429d37b58e95a19a823d",
+    "bytes": 6066
+  },
+  "binding": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/SOURCE_BINDING.json",
+    "sha256": "194efb2731cd10001738008af023da412c5778df7c6df675d03058b67f62473d",
+    "bytes": 77884
+  },
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/SOURCE_PROPOSAL.json",
+    "sha256": "b2a7c49f79d05b99cb98324c5339d6e2dd245f0b8f3c7587931f1fb8ed40e36e",
+    "bytes": 2806
+  },
+  "prerequisite_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-connection/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "2bed1ed81432ba708b572af591409fb255702afb4c814018c1d039731e4e0796",
+    "bytes": 18610
+  },
+  "installed_api_pins": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Logic/Function/Basic.lean",
+      "sha256": "92103eb04a6fdbed788653698d0e928957a888384bb0b4e3607c9e3ce39fcf15",
+      "bytes": 45757
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Data/List/FinRange.lean",
+      "sha256": "4bb651e0c03ac13cb4bdf1fc2fb208339754ac858b7f70df718f3471a600a974",
+      "bytes": 4211
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/OfFn.lean",
+      "sha256": "4882e3289610841198cfa1902487d679cb91389b39accaf06205e8edc0a0a4d6",
+      "bytes": 5801
+    }
+  ],
+  "source_order": {
+    "both_directions_zero_based_range": [
+      6490,
+      7217
+    ],
+    "entry_count": 728,
+    "register_values": "Exactly range728 in both raw lists; all entries are adapter/residual_adapter.",
+    "selected_support": [
+      558,
+      559,
+      560,
+      561,
+      570,
+      571,
+      572,
+      573,
+      582,
+      583,
+      584,
+      585,
+      594,
+      595,
+      596,
+      597
+    ],
+    "residual_support": [
+      571,
+      573,
+      583,
+      585,
+      594,
+      595,
+      596,
+      597
+    ],
+    "sixteen_actual_rows_match": true
+  },
+  "proof_readback": {
+    "runUpdates": "A chronological fold with own-coordinate-only inputs. Generic operator values and other-coordinate repetitions remain unrestricted.",
+    "absent": "Tail induction preserves an unlisted coordinate via the correctly oriented Function.update_of_ne.",
+    "nodup_membership": "The head case uses absence from the tail; the non-head case uses the nodup tail and preserves this coordinate across the head update.",
+    "entry_schedule": "Symbolic ofFn injectivity, map_coe_finRange and bound-carrying Fin embedding avoid728-row reduction.",
+    "selected_action": "Membership follows from the sixteen small index bounds. The actual operator equations are explicit hselected premises.",
+    "executor": "hexec remains an explicit equality with the formal fold; no source-loop-to-executor theorem is inferred."
+  },
+  "scope": [
+    6,
+    5,
+    1
+  ],
+  "cached_pairs": 2213,
+  "new_probes": [
+    "CurrentMain.IndependentEntryFold.runUpdates_eq_foldl",
+    "CurrentMain.IndependentEntryFold.runUpdates_of_not_mem",
+    "CurrentMain.IndependentEntryFold.runUpdates_of_mem",
+    "CurrentMain.Current799EntryFold.entryRegisters_nodup",
+    "CurrentMain.Current799EntryFold.entryRegisters_values",
+    "CurrentMain.Current799EntryFold.selected_entry_action",
+    "CurrentMain.Current799EntryFold.selected_executor_action"
+  ],
+  "required_printed_types": [
+    "CurrentMain.Current799EntryFold.selected_entry_action",
+    "CurrentMain.Current799EntryFold.selected_executor_action"
+  ],
+  "small_numeric_leaves": 17,
+  "whole_state_replay": false,
+  "remaining_suppliers": [
+    "Sixteen actual interpreted operator equations, with exact R(4,1) inverse for the residual eight.",
+    "Actual executor equals the formal ordered independent-update fold.",
+    "Both scalar typed destination traces, prew/hstart labels, incoming chart, physical realization and all-size hypotheses remain separate."
+  ],
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "compiler_executed": false,
+  "qualification": "Source/API review only; all hypotheses must remain visible in the actual compiled type audits. Actual operator semantics, both scalar traces, incoming charts/prew/hstart and physical full executor remain separate."
+}
