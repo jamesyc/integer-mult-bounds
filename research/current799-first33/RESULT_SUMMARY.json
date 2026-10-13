@@ -1,0 +1,133 @@
+{
+  "status": "PASS_EXACT4_CURRENT799_FIRST33_OWNER_ACCEPTANCE",
+  "utc": "2026-10-13T07:24:11.251897+00:00",
+  "source_commit": "13999b61720d5d932502ee03b3a163535b2b327f",
+  "scope": {
+    "local_modules": 4,
+    "preserved_current": 2,
+    "new_checks": 2,
+    "outside_protected": 23,
+    "historical743_replays": 0
+  },
+  "new_metrics": [
+    {
+      "module": "Current799First33CoverageData",
+      "admitted_utc": "2026-10-13T07:22:44.442367+00:00",
+      "compiler_started_utc": "2026-10-13T07:22:45.068415+00:00",
+      "compile_seconds": 6.058523254992906,
+      "queue_seconds": 0.0011273809941485524,
+      "samples": 61,
+      "peak_vm_bytes": 2097295360,
+      "peak_rss_bytes": 1546510336,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current799First33CoverageCheck",
+      "admitted_utc": "2026-10-13T07:22:55.081123+00:00",
+      "compiler_started_utc": "2026-10-13T07:22:55.703825+00:00",
+      "compile_seconds": 9.364163139995071,
+      "queue_seconds": 0.0005683259951183572,
+      "samples": 94,
+      "peak_vm_bytes": 2296922112,
+      "peak_rss_bytes": 1726590976,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 15.422686394987977,
+  "total_new_queue_seconds": 0.0016957069892669097,
+  "peak_new_vm_bytes": 2296922112,
+  "data_scope": {
+    "frame_dimensions": 1005,
+    "original_labels": 728,
+    "full_source_catalog_count": 2949,
+    "literal_catalog_prefix_count": 3,
+    "used_child_ordinal": 2,
+    "used_key": [
+      0,
+      4,
+      1
+    ],
+    "rows_each": 33,
+    "raw_inclusive": [
+      9241,
+      9273
+    ],
+    "splits": [
+      24,
+      9
+    ],
+    "histogram_each": {
+      "add": 25,
+      "relabel": 8
+    },
+    "block_histograms": [
+      {
+        "add": 17,
+        "relabel": 7
+      },
+      {
+        "add": 8,
+        "relabel": 1
+      }
+    ],
+    "supports": {
+      "backward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ],
+      "forward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ]
+    },
+    "next_excluded_raw": 9274,
+    "next_excluded_key": [
+      0,
+      5
+    ]
+  },
+  "excluded_scope": [
+    "Only current33 projected rows per orientation and full736-coordinate label boundaries0/24/33.",
+    "Declared canonical initial labels are actual728 start entries; centresdefault0. No executed prefix/entrance-state theorem, omitted adapter action or payload-cleanliness premise.",
+    "Prior scalar events are label-neutral in the projection;731 phase/adapter rows remain omitted and unproved. No prefix WellLabelled statement.",
+    "Directed catalog/rank and signed denominator checks supply no operator/physical execution.",
+    "Three-entry catalog prefix retains source array ordinals0,1,2. Shape theorem says3, not2949; no full current catalog coverage."
+  ],
+  "qualification": "Exactly33 fresh selected799 rows9241..9273 each in24+9 decisions, directed child2/rank1 key0\u21924; full736-label checkpoints0/24/33 with current1005 dimensions/728 starts and only first3 catalog keys. Generic checker/Stream retained,23 outside outputs protected. Raw9274 key0\u21925,actual pre-A execution,operator/omitted-adapter/physical suppliers remain separate.",
+  "timing": {
+    "binding_notification_observed_utc": "2026-10-13T07:22:14Z",
+    "invocation_observed_window_utc": "2026-10-13T07:22:28Z..07:22:41Z",
+    "post_lock_guard_utc": "2026-10-13T07:22:42.456300+00:00",
+    "per_job_fields": "new_metrics retains actual admitted/compiler start; queue_seconds includes checker queue/guard and is not pure FIFO. No causal attribution or inferred model time."
+  },
+  "terminal_independent_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_FIRST33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "bcee8dc869eefb2c877a4203da686a5fd7c69c9bf59cabb232613d0c66083084",
+    "bytes": 17616
+  },
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_first33/ACCEPTANCE.json",
+    "sha256": "013e5212ed7af74544c374176ce4e8048d27b819cb2e0176715cef382921e12c",
+    "bytes": 74630
+  }
+}

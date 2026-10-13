@@ -1,0 +1,128 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_TEMPLATE_API_RESOURCE_SHAPE_REVIEW",
+  "started_utc": "2026-10-13T07:42:27Z",
+  "completed_utc": "2026-10-13T07:44:31.024825+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-native-real/Current799NativeRealEnclosure.lean",
+    "sha256": "13662565524336ee693ee356770072c071ab31234c7ac8c70413cda9ac1ba9ba",
+    "bytes": 12022
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-native-real/SOURCE_BINDING.json",
+    "sha256": "78ce19ab19834b322951600b16889af012ec9eeeb693e146fa40657c797a43f7",
+    "bytes": 8427
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-native-real/CHECK_PROPOSAL.json",
+    "sha256": "9fddcb46fc00700801ef286f0ebe99ed0ba8f9da8813ceb980a9d742403838d6",
+    "bytes": 69135
+  },
+  "source_preparation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/SOURCE_PREPARATION.json",
+    "sha256": "35d412eca84665628bd36e4bde2fdb5c9f85b332b4ed211a112a7e11257a60c8",
+    "bytes": 2448
+  },
+  "committed_source": "abe83f1717393baea07b460ae2fd008dc37e817b",
+  "current_finite_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_NATIVE_UPPER_TERMINAL_REVIEW.json",
+    "sha256": "c24e8f0b7449219a2493a6dec4d90d6fe53806b84f0651c04cc0a1ab1c8e06d3",
+    "bytes": 9426
+  },
+  "generic_reuse": {
+    "rounded_from_domain": "Exact accepted theorem text, including rational casts and outward ceiling.",
+    "weighted_sum": "Eight complete nonnegative source weights multiplied by exponential bounds; ordered addition and one outward ceiling.",
+    "rank44": "Accepted log_seventy_three_forty_four_upper, no new logarithm checkpoint."
+  },
+  "independent_checks": {
+    "all_source_pins_and_git_bodies": 7,
+    "eight_ordered_arguments": [
+      {
+        "rank": 1,
+        "count": 183457,
+        "k": 6,
+        "n": 9,
+        "d": 137
+      },
+      {
+        "rank": 2,
+        "count": 24336,
+        "k": 5,
+        "n": 9,
+        "d": 137
+      },
+      {
+        "rank": 3,
+        "count": 30961,
+        "k": 4,
+        "n": 25,
+        "d": 121
+      },
+      {
+        "rank": 4,
+        "count": 13968,
+        "k": 4,
+        "n": 9,
+        "d": 137
+      },
+      {
+        "rank": 5,
+        "count": 4032,
+        "k": 3,
+        "n": 33,
+        "d": 113
+      },
+      {
+        "rank": 8,
+        "count": 576,
+        "k": 3,
+        "n": 9,
+        "d": 137
+      },
+      {
+        "rank": 44,
+        "count": 1,
+        "k": 0,
+        "n": 29,
+        "d": 117
+      },
+      {
+        "rank": 48,
+        "count": 2396,
+        "k": 0,
+        "n": 25,
+        "d": 121
+      }
+    ],
+    "complete_rational_pre_ceiling_body_exact": true,
+    "complete_real_weighted_terms_match": true,
+    "native_branch_surcharge": false,
+    "currentUpper_definitional_ordinary_identity": true,
+    "finite_checkpoint_reproofs": 0,
+    "public_probes": [
+      "current_rounded_log_enclosures",
+      "currentRealMoment_le_upper",
+      "currentRealMoment_strict"
+    ],
+    "scope": [
+      9,
+      8,
+      1
+    ],
+    "cached_pairs": 3260,
+    "import_probes": 31,
+    "caps": {
+      "hard_seconds": 60,
+      "hard_vm_bytes": 4294967296,
+      "review_seconds": 40,
+      "review_vm_bytes": 3758096384
+    }
+  },
+  "reasoning": "The domain hypotheses supply the logarithm ratio and positivity. Monotonicity of Real.exp and nonnegative source weights preserve each enclosure. The exact rational sum is rounded once and equals the accepted finite currentUpper, whose strict bound is transported by exact_mod_cast. No finite residual is assumed as a free hypothesis.",
+  "remaining": [
+    "Independent formula science remains separate.",
+    "Exact current/runtime and launcher binding before any compiler.",
+    "Native recurrence, provider/operator/profile realization, fallback-bearing bit/conservative branches, bootstrap/outer and all-size selected-kappa theorem remain outside."
+  ],
+  "compiler_executed": false,
+  "fit": "Fresh elaboration is unmeasured; the stated 40-second/3.5GiB review threshold remains mandatory."
+}

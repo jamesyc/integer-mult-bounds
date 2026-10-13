@@ -1,0 +1,218 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT_PR589_B_TERMINAL",
+  "utc": "2026-10-13T07:19:48.780295+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_b/ACCEPTANCE.json",
+    "sha256": "ec40fa5326393d12aa33e1cf11fc7cc03f81a80753ca0cba91f5d23bedd4eeb7",
+    "bytes": 374767
+  },
+  "source_commit": "5f2ea9045c061100fca6f599ee808e3ea24dff05",
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_b/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "d9185c6e237f72df5ec9146e93fc69b81ce51435ddcbdc4c679d8ce7bfe3b948",
+    "bytes": 527596
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-b/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "88e573e7d47ce7b24bd8e3e40f89aecef3234b36928c889b602e640c4660b493",
+    "bytes": 3953
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_b/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+    "sha256": "f47f5b26904d87ab883949ba2ca93176d0db28bd8f705ffc35658fbfdc0df616",
+    "bytes": 5721
+  },
+  "new_quadruples": [
+    {
+      "module": "CurrentPR589BData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BData.lean",
+        "sha256": "ffc2768ad0168ea764e8aaea0a81b4a97129130dcb60e8764f99ab1804b84b23",
+        "bytes": 15929
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BData.olean",
+        "sha256": "c8e36ee201bc3c19a75115249c2b7d9090a3101e989adffca350c494949b95f8",
+        "bytes": 2241432
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_b_20261013__CurrentPR589BData.lean.json",
+        "sha256": "230b7ee0819d6c09f9c171215dc0d5ab3a431647bdc852fbaa842e9529810353",
+        "bytes": 2232
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_b_20261013__CurrentPR589BData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589BCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BCheck.lean",
+        "sha256": "3db82fe5b541e1b85e6cf6ec4e4065f496aafca02b7229653daeb1004da6016f",
+        "bytes": 2974
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BCheck.olean",
+        "sha256": "6a6b570e841f932625b19ff32132c9904c9a0d964363abcf5fc18354dc1c858c",
+        "bytes": 49048
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_b_20261013__CurrentPR589BCheck.lean.json",
+        "sha256": "973dd5c7b93a6fb2ff530d15bf841215a8895ae49ee0b0553df255832ab11df2",
+        "bytes": 2375
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_b_20261013__CurrentPR589BCheck.lean.log",
+        "sha256": "207b8a5725e8e91521451ef92415c7592ede3b3935aff090087bc345239508c2",
+        "bytes": 881
+      },
+      "dependencies": {
+        "CurrentPR589BData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BData.olean",
+          "olean_sha256": "c8e36ee201bc3c19a75115249c2b7d9090a3101e989adffca350c494949b95f8",
+          "source_sha256": "ffc2768ad0168ea764e8aaea0a81b4a97129130dcb60e8764f99ab1804b84b23"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589PhaseBXor",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589PhaseBXor.lean",
+        "sha256": "ffd57b2feb3a06289efb2d7fdc2214d275a7fc160d8c828aa375a723c0ff5151",
+        "bytes": 5685
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589PhaseBXor.olean",
+        "sha256": "c592375857fd92acff82384680cc1f3744728a68f8736321d3996475c2299b12",
+        "bytes": 134920
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_b_20261013__CurrentPR589PhaseBXor.lean.json",
+        "sha256": "433fadc1140c4a72ebf5f3de74f5bfcfa5e1d2a61532a51f97ed62ce7749ea44",
+        "bytes": 2789
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_b_20261013__CurrentPR589PhaseBXor.lean.log",
+        "sha256": "43f0fca666ad508d3ce44e7506c7f9dd153af5d355813f3819c7feb47c8fcc31",
+        "bytes": 697
+      },
+      "dependencies": {
+        "CurrentPR589BCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BCheck.olean",
+          "olean_sha256": "6a6b570e841f932625b19ff32132c9904c9a0d964363abcf5fc18354dc1c858c",
+          "source_sha256": "3db82fe5b541e1b85e6cf6ec4e4065f496aafca02b7229653daeb1004da6016f"
+        },
+        "BitXorTargetTranslation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.olean",
+          "olean_sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5",
+          "source_sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        }
+      }
+    }
+  ],
+  "verified": {
+    "current_import_nodes": 321,
+    "retained_inputs": 318,
+    "official_cached_pairs": 317,
+    "new_roots": 3,
+    "protected_prior_quadruples": 42,
+    "failure_archives": 44,
+    "complete_probes": 19
+  },
+  "complete_probes": {
+    "CurrentMain.CurrentPR589B.dimensions": [],
+    "CurrentMain.CurrentPR589B.phase_shape": [],
+    "CurrentMain.CurrentPR589B.phase_domains": [],
+    "CurrentMain.CurrentPR589B.band_order": [],
+    "CurrentMain.CurrentPR589B.band_lengths": [],
+    "CurrentMain.CurrentPR589B.first_target_band": [],
+    "CurrentMain.CurrentPR589B.middle_off_target_band": [],
+    "CurrentMain.CurrentPR589B.middle_write_counts": [],
+    "CurrentMain.CurrentPR589B.last_target_band": [],
+    "CurrentMain.CurrentPR589B.write_region": [],
+    "CurrentMain.CurrentPR589B.no_target_operands": [],
+    "CurrentMain.CurrentPR589B.no_self_reads": [],
+    "CurrentMain.CurrentPR589PhaseBXor.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589PhaseBXor.ordered_word_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589PhaseBXor.decoded_gate_properties": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589PhaseBXor.helpers_preserved_except": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589PhaseBXor.target_translation": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589PhaseBXor.target_identity": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589PhaseBXor.contribution_independent_of_targets": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "resources": [
+    {
+      "module": "CurrentPR589BData",
+      "compile_seconds": 3.705436442003702,
+      "queue_seconds": 2.7787097389955306,
+      "samples": 37,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 352071680,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589BCheck",
+      "compile_seconds": 2.6644511640042765,
+      "queue_seconds": 2.743155553995166,
+      "samples": 27,
+      "peak_vm_bytes": 707723264,
+      "peak_rss_bytes": 364617728,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589PhaseBXor",
+      "compile_seconds": 0.8115383859985741,
+      "queue_seconds": 2.8088976059952984,
+      "samples": 9,
+      "peak_vm_bytes": 842321920,
+      "peak_rss_bytes": 315375616,
+      "peak_threads": 4
+    }
+  ],
+  "total_compiler_seconds": 7.181425992006552,
+  "actual_fifo_seconds": 0.0013740809954470024,
+  "scope": "Fresh selected PR589 B finite data and ordered Fin661 scalar interpretation passed. Helpers outside465/466/468 are preserved; target translation and initial-target-independent contribution hold. Source/helper exception values may change.",
+  "remaining": [
+    "A/C and exact whole-list cleanup binding",
+    "D parity compensation",
+    "Current Fin662 COPY/scatter lifecycle",
+    "Frame geometry and physical transport",
+    "Selected provider and full kappa theorem"
+  ],
+  "source_bound_context": "Exact PR589 literals retained byte-for-byte at f567; no whole-kappa or physical realization conclusion.",
+  "compiler_executed_by_reviewer": false,
+  "review_interval_utc": [
+    "2026-10-13T07:17:56Z",
+    "2026-10-13T07:19:48.780729+00:00"
+  ],
+  "timing_qualification": "Read-only terminal/tool review; model inference time unknown."
+}

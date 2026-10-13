@@ -1,0 +1,95 @@
+{
+  "status": "PASS_INDEPENDENT_PR589_AC128_LITERAL_SOURCE_API_REVIEW",
+  "utc": "2026-10-13T07:31:13.146777+00:00",
+  "source_commit": "eb261a96a8ce045cfe9a72420f3a434a300e4919",
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/SOURCE_BINDING.json",
+    "sha256": "9d5a2c2bc72c8f5fcb4d17c2e2f9fa691e03b8c7ac75caa1d6cffc36578a9967",
+    "bytes": 2423
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CHECK_PROPOSAL.json",
+    "sha256": "cb8e961ed5e9100affb31909288a2435e0b557a5b28a61c05ead659c5ce03fe9",
+    "bytes": 2753
+  },
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/SOURCE_TRANSFORM.json",
+    "sha256": "4ae37cc9996e72019d440472085cf2e012e4ec48ded2462c8de8d5e2e84d07aa",
+    "bytes": 15681
+  },
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+      "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+      "bytes": 5312
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+      "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+      "bytes": 8554
+    }
+  ],
+  "raw_source": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "literal_readback": {
+    "A_half_open": [
+      0,
+      128
+    ],
+    "C_half_open": [
+      2446,
+      2574
+    ],
+    "gates_each": 128,
+    "operands_each": 128,
+    "arity": 1,
+    "registers": 661,
+    "frame_count": 636,
+    "all_destinations_helpers": true,
+    "all_operands_sources": true,
+    "C_exact_frame1_reverse_A": true
+  },
+  "API_review": [
+    "Ordered attach/map decoder uses exact raw domains and no default indexing.",
+    "C is defined by frameOne applied to reverse(decodedA), then separately matched to rawC by the finite ordered equality; unequal frame IDs are not identified as operators.",
+    "No-self-read guarantees scalar gate involution; accepted reverse cancellation gives isolated arbitrary-state inverse.",
+    "No-target reads and writes are freshly finite-checked at target111..221. Conditional cleanup retains off-target-preserving middle-map premise; it is not discharged by the B word, which writes sources and three helpers.",
+    "The repaired final rfl in cleanup_runs_reverse remains exact. Only numeral/domain/list substitutions and the additional helper-only finite fact depart from the accepted template."
+  ],
+  "probes": [
+    "CurrentMain.CurrentPR589AC128.block_shape",
+    "CurrentMain.CurrentPR589AC128.raw_domains",
+    "CurrentMain.CurrentPR589AC128.raw_cleanup_binding",
+    "CurrentMain.CurrentPR589AC128.no_self_reads",
+    "CurrentMain.CurrentPR589AC128.no_target_reads",
+    "CurrentMain.CurrentPR589AC128.no_target_writes",
+    "CurrentMain.CurrentPR589AC128.helper_only_destinations",
+    "CurrentMain.CurrentPR589AC128.decode_roundtrip",
+    "CurrentMain.CurrentPR589AC128.ordered_A_binding",
+    "CurrentMain.CurrentPR589AC128.ordered_C_binding",
+    "CurrentMain.CurrentPR589AC128.decoded_no_self_reads",
+    "CurrentMain.CurrentPR589AC128.decoded_no_target_reads",
+    "CurrentMain.CurrentPR589AC128.decoded_no_target_writes",
+    "CurrentMain.CurrentPR589AC128.cleanup_runs_reverse",
+    "CurrentMain.CurrentPR589AC128.isolated_block_inverse",
+    "CurrentMain.CurrentPR589AC128.conditional_off_target_cleanup",
+    "CurrentMain.CurrentPR589AC128.conditional_target_value"
+  ],
+  "fresh_finite_decisions": 7,
+  "exclusions": [
+    "Fresh raw tuple domains and Fin661 decoding; no historical Fin720 proof relabelling.",
+    "Isolated inverse for arbitrary state and conditional cleanup/target formula through an off-target-preserving middle map.",
+    "No full selected A/C or actual intervening-map theorem, D parity, geometry or physical transport."
+  ],
+  "no_compiler": true,
+  "timing": {
+    "observed_window_utc": [
+      "2026-10-13T07:29:42Z",
+      "2026-10-13T07:31:13.146937+00:00"
+    ],
+    "qualification": "Mixed independent source/API and literal-tool review; inference time unknown."
+  }
+}
