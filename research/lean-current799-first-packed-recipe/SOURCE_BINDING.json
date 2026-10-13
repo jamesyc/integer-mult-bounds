@@ -1,0 +1,203 @@
+{
+  "status": "EXACT_SOURCE_BINDING_WITH_EXTERNAL_READBACK",
+  "main_checkpoints": [
+    {
+      "commit": "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+      "archive_repository_path": "research/community-frontier741-audit/composed-replay-evidence.tar.gz",
+      "archive_sha256": "27516447e242c264030ba427dabc5e616f9a4aacbff9e0623db4d00c058e1a7b",
+      "archive_git_blob": "687b1bb827ac939c3feb1d538c4fd2684b0debed",
+      "selected_artifacts": [
+        {
+          "member": "complex/local/CANONICAL-WORD.json.gz",
+          "sha256": "cc8ff381409472e96284d3c145ce0820ebf8ac2ad124a04b82961a817b4ec5b9",
+          "semantic_sha256": "b0d27d99423047ce07af847734f5a86f9411038bb3b0bf721918ece1ee579325"
+        },
+        {
+          "member": "complex/local/LOCAL-PROGRAMS.json.gz",
+          "sha256": "140f504a14a393ef197df3bdc8924ec241a6395e9bad39f4ddf77d625d00206e",
+          "semantic_sha256": "69384a1069969209c5c082cd17cafbf97b8e02f0bd141cb0f08e46cea56df92c"
+        },
+        {
+          "member": "complex/local/LOCAL-CHECKS.json",
+          "sha256": "e01b9c16e363a37b069d12d8cb82959f5ce1c52830b05088a466b0080cd4023c",
+          "semantic_sha256": "0639edeae441d1b7677e15aab4d2f301455be217231c29c09625231a55067f6e"
+        },
+        {
+          "member": "complex/local/INDEPENDENT-LOCAL-REPLAY.json",
+          "sha256": "9c5c6e2cd367a91c7e311ab5b8feb2b5ef69b4e98c987d1a25808688e99be6cf",
+          "semantic_sha256": "fe3b912bb75bb444b5f1eb9a47473f26d748bff8d2ba77c4af818fe6fd444ed9"
+        },
+        {
+          "member": "complex/local/CLIFFORD-RECIPES.json",
+          "sha256": "eb7569e004bd2a2937928db9db49dad949ec291f00c2d21df6af722df7cb6c9c",
+          "semantic_sha256": "eb7569e004bd2a2937928db9db49dad949ec291f00c2d21df6af722df7cb6c9c"
+        },
+        {
+          "member": "complex/local/CLIFFORD-REVIEW.json",
+          "sha256": "f1047df8e8126eaf93d0657fefd707eb61e954a4328024b28219bf23fc38092b",
+          "semantic_sha256": "229c7b8f5204ac7ace61451389f961677465db7bc79cabc013c662670327d69a"
+        },
+        {
+          "member": "complex/local/RESIDUAL-ADAPTERS.json",
+          "sha256": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+          "semantic_sha256": "55281b345e902c04c38a6e82a44e2c84467cd1b93198c101d5cb00d8f7bf40fb"
+        }
+      ]
+    },
+    {
+      "commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+      "archive_repository_path": "research/community-frontier799-audit/integrated799-replay.tar.gz",
+      "archive_sha256": "70dfdfcf2ff95352c6020ee9dfca6dca9032b33c10daed3f3dc574c014f4e2cb",
+      "archive_git_blob": "c80685bdf48cea26561b25900ce0416ba2cf709f",
+      "selected_artifacts": [
+        {
+          "member": "native/local/CANONICAL-WORD.json.gz",
+          "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+          "semantic_sha256": "1c0e9da767d4418f70016af599e4a447a3f7777acabe930318459c0fbbd260aa"
+        },
+        {
+          "member": "native/local/LOCAL-PROGRAMS.json.gz",
+          "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+          "semantic_sha256": "223c2bb27ad68a4e9468c3ddaece1899d577b661190922fdd25f5976052c4cab"
+        },
+        {
+          "member": "native/local/LOCAL-CHECKS.json",
+          "sha256": "bbde5cea7bfd5df3d3ee7dfada0ff9d165af43a4d1dec6a9597cbfd8f87cc3b2",
+          "semantic_sha256": "4cca9475a0d9a93041696c570cbc8d91a40be76e63196a670256ce7e79521580"
+        },
+        {
+          "member": "native/local/INDEPENDENT-LOCAL-REPLAY.json",
+          "sha256": "355e2ae57b8eadc957bed567ba7c5caf33202ace690560c94b008f10cf906364",
+          "semantic_sha256": "f5602b0862efebb326631a3e054ad64df4b8e56a6565954711e1b76e21880858"
+        },
+        {
+          "member": "native/local/CLIFFORD-RECIPES.json",
+          "sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+          "semantic_sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7"
+        },
+        {
+          "member": "native/local/CLIFFORD-REVIEW.json",
+          "sha256": "77e510b9718bae6574fbff72dcfb1fecf4ed8cfe237f40295fe1ab4f2d43a57e",
+          "semantic_sha256": "6ab55441fe530281981e54acccfc152e3de8a71fa1f4fff4db40447deeec3dc1"
+        },
+        {
+          "member": "native/local/RESIDUAL-ADAPTERS.json",
+          "sha256": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+          "semantic_sha256": "55281b345e902c04c38a6e82a44e2c84467cd1b93198c101d5cb00d8f7bf40fb"
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "ordinal": 2,
+    "old": 0,
+    "new": 4,
+    "rank": 1,
+    "descriptors": [
+      [],
+      [
+        459
+      ]
+    ],
+    "record": {
+      "left": {
+        "linear_Z4": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrix_rows": [
+          3,
+          5,
+          8,
+          17,
+          32,
+          64,
+          129,
+          257,
+          1
+        ],
+        "offset": 0,
+        "phase": 0,
+        "quadratic_rows": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "new": 4,
+      "old": 0,
+      "rank": 1,
+      "right": {
+        "linear_Z4": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "matrix_rows": [
+          203,
+          257,
+          258,
+          4,
+          264,
+          16,
+          32,
+          320,
+          384
+        ],
+        "offset": 0,
+        "phase": 0,
+        "quadratic_rows": [
+          459,
+          459,
+          0,
+          459,
+          0,
+          0,
+          459,
+          459,
+          203
+        ]
+      }
+    },
+    "normalized_record_sha256": "2f3fd69e1096a44b35b9298c2af9096ace5c4f52b9401e7e3e5187063636b0b3"
+  },
+  "accepted_historical": {
+    "ordinal": 0,
+    "old": 0,
+    "new": 2,
+    "rank": 1,
+    "descriptors": [
+      [],
+      [
+        459
+      ]
+    ],
+    "catalog_sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+    "source_sha256": "bcba45749abe4a289b487fac2cd2ed4f8b9fcb2b7b69574e00a65a1c2af43392"
+  },
+  "complete_comparison_receipt": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_first_packed_recipe/EXACT_SOURCE_COMPARISON.json",
+    "sha256": "20ab201db4460ac2868083ce685ef722c7924c3809b9041443d35c5a979a35a2",
+    "bytes": 6470
+  },
+  "boundary": "Only new label changes from accepted record; no Fin1082=Fin1005 identification. Event lists, charts, entry execution and full physical work need their own suppliers."
+}

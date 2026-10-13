@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE_PROPOSAL_PENDING_INDEPENDENT_REVIEW_AND_ADMISSION",
+  "source": {
+    "file": "Current799FirstPackedRecipe.lean",
+    "sha256": "00e0f6ad08205b502f2e001a50a8103b3582378cef720fda0a358d517fb1e077",
+    "bytes": 2681
+  },
+  "direct_imports": [
+    "Current5996CKPackedRecipe"
+  ],
+  "prospective_scope": {
+    "total": 21,
+    "retained": 20,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "expected_probes": [
+    "CurrentMain.Current799FirstPackedRecipe.key_and_descriptors",
+    "CurrentMain.Current799FirstPackedRecipe.left_fields",
+    "CurrentMain.Current799FirstPackedRecipe.right_fields",
+    "CurrentMain.Current799FirstPackedRecipe.packed_canonical_child"
+  ],
+  "finite_decisions": 0,
+  "proof_work": "Three reflexive conjunctions and direct application of the accepted all-payload packed identity. No new matrix, phase, basis or finite address computation.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "current_scope": "Exact 7ee and f567 catalog ordinal2 with ordered []->[459]; first33 data identity is read-only evidence, not a stream theorem.",
+  "no_compiler_admission": true
+}
