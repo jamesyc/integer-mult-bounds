@@ -1,0 +1,33 @@
+'CurrentMain.Current1094BootstrapCertificate.saving_minimum_is_native' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.shrink_matches_literal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.supplied_input_domains' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage1_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage2_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage3_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage4_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage5_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage6_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.stage7_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current1094BootstrapCertificate.bootstrap_endpoint_matches_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

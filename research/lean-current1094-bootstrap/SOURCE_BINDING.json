@@ -1,0 +1,155 @@
+{
+  "schema": "current1094-seven-update-bootstrap-source-binding-v1",
+  "status": "SOURCE_PREPARATION_UNCOMPILED",
+  "selected_main": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+  "audited_source": "0fc329d0bec93ca7cd288eaea1295172e8789810",
+  "author_checked_kappa": "836330098538459/500000000000000000",
+  "source": {
+    "module": "Current1094BootstrapCertificate",
+    "bytes": 19069,
+    "sha256": "fd33309d400c61dbb44dd3a0a5f7775e5718446b269fa45d300f9d2ed732bd5d"
+  },
+  "raw_inputs": [
+    {
+      "path": "certificates/selected-result.json",
+      "git_blob": "ae6a99f28aa468649eb66a361e764d769363bf11",
+      "sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+      "bytes": 10725
+    },
+    {
+      "path": "research/community-frontier1094-audit/SELECTED-SOURCE.json",
+      "git_blob": "6a75493790b4eff9c4a98051ef8b01d6aad0d5a8",
+      "sha256": "79b3de5db3dbcb9829789ba58e9e45758926031e2a7d80667a08429d369be53b",
+      "bytes": 232740
+    },
+    {
+      "path": "research/community-frontier1094-audit/ASSEMBLY.json",
+      "git_blob": "5fd676df060f3b450782fdf5ff5f6beb63a5eeb0",
+      "sha256": "1122cb3a575f8c788345fc1bf4c108ac7c3250fb81a5988671f5eb04b3ab3045",
+      "bytes": 85147
+    },
+    {
+      "path": "research/complex-t16-rare-pattern-exchanges/data/SPEC.json",
+      "git_blob": "af013ccc2975d9d575d116f8a463cc947f220c8d",
+      "sha256": "8cb51f25a5da4a29d3783853025b73ff1f452429d4fdb30c599e598bcab0e71d",
+      "bytes": 24437
+    },
+    {
+      "path": "research/complex-t16-rare-pattern-exchanges/verify.py",
+      "git_blob": "9d471cf90835bc91d32bb0216c2bb867011a7420",
+      "sha256": "b8c2f76b305c5c9ceb42df203deef564857d17f1f8182d0745dda9ab96e3d4de",
+      "bytes": 2089
+    },
+    {
+      "path": "research/complex-t16-rare-pattern-exchanges/SOURCE.json",
+      "git_blob": "1e43afd08c060373b6fde3c775c23c180cb6a794",
+      "sha256": "4cfd44cebfe88f4450294239fbea8feecb564338dc3027b76065227f5d19cb6f",
+      "bytes": 19360
+    },
+    {
+      "path": "research/gauge44-slots-t16/code/assemble.py",
+      "git_blob": "581dd9cb29a45bd68cc651538311b63f6966ad68",
+      "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+      "bytes": 20940
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742
+    },
+    {
+      "path": "research/gauge44-slots-t16/inputs/PR589-EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987
+    }
+  ],
+  "caller": {
+    "path": "research/gauge44-slots-t16/code/assemble.py",
+    "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+    "native_call": "check_moment('complex',H,73,owner['live'],b,5120,False)",
+    "spec_path": "research/complex-t16-rare-pattern-exchanges/data/SPEC.json",
+    "spec_sha256": "8cb51f25a5da4a29d3783853025b73ff1f452429d4fdb30c599e598bcab0e71d",
+    "bit_unchanged": true,
+    "bit_surcharge": true,
+    "later_bootstrap_charged_coefficient": 512,
+    "read_only": true,
+    "supplier_executed": false,
+    "overlay": {
+      "verifier_path": "research/complex-t16-rare-pattern-exchanges/verify.py",
+      "verifier_sha256": "b8c2f76b305c5c9ceb42df203deef564857d17f1f8182d0745dda9ab96e3d4de",
+      "archive_source_path": "research/complex-t16-rare-pattern-exchanges/SOURCE.json",
+      "archive_source_sha256": "4cfd44cebfe88f4450294239fbea8feecb564338dc3027b76065227f5d19cb6f",
+      "archive_head": "589d1cedf5ef5f231182f4ec86408616311a8af0",
+      "assembler_archive_pin_matches_same_committed_base_bytes": true,
+      "replaced_files": [
+        "data/OWNERS.json.gz",
+        "data/PLAN.json",
+        "data/SPEC.json"
+      ]
+    }
+  },
+  "scope": {
+    "local": 4,
+    "retained": 3,
+    "fresh": 1,
+    "cached_pairs": 319,
+    "reachable_nodes": 323,
+    "ordered_edges": 1088,
+    "decisions": 87,
+    "new_probes": 11,
+    "reachable_probes": 27
+  },
+  "template": {
+    "repository": "jamesyc/integer-mult-bounds",
+    "commit": "bc5b54e67a977a3d763722423e53361c1389500d",
+    "path": "research/lean-current942-bootstrap/Current942BootstrapCertificate.lean",
+    "sha256": "3f850bde24a238ce61bd36741a791c4419e17dde7c9b26c550a8bd6cb6ff07d9",
+    "historical_charged_coefficient": 1024
+  },
+  "predecessor": {
+    "module": "Current1094NativeUpperAggregate",
+    "source_sha256": "de367aca2684506d8b16419523595a000769ebbe789479899bac44747fa39bf3",
+    "object_sha256": "106515252a33c87aec01f58e5706a83fe379631360b5397ba3cbfbe345594d54",
+    "raw_log_sha256": "e56e61383f9224a29bdbe487da6f81ad21ca525fd674350afc0cffeb9c260673",
+    "receipt_sha256": "c44aeeeefd2ed264f2661f293d738e59e15d8d4663b49ef8b8f5e0943451f550",
+    "terminal_sha256": "02b8f1f9b64bd7b109afac5df13be70fce5d8fb2dc0a909f83eb8c49f32814ab",
+    "status": "PASS"
+  },
+  "target": {
+    "native": "67018507072324140917/40000000000000000000000",
+    "supplied_bit": "1733427039589844234749/1000000000000000000000000",
+    "initial": "384599/10000000000",
+    "beta": "1/1000000000000000000000000",
+    "eta": "1/1000000000000000000000000",
+    "strict_offset": "1/1000000000000000000000000000",
+    "shrink": "67018507072324140916999892981492927675859083/40000000000000000000000000000000000000000000000",
+    "charged_coefficient": 512,
+    "linear_numerator": 1032,
+    "stage_count": 7,
+    "first_gap_unique_minimum": true,
+    "quadratic_dominates_all": true,
+    "endpoint_sha256": "fd2eda7a4870763be810a7b7e1f28c7827d26fc9c9aa31783b6431744e75c2ea",
+    "kernel_checked": false
+  },
+  "witness": {
+    "bytes": 20940,
+    "sha256": "abf093925df0049d33b6d3fba559d49d7a53447bd3634982154c5aa417c9a0e1",
+    "contains": "All seven source-ordered updates, four gaps per stage, both ceilings, selected cutoffs and exact endpoint."
+  },
+  "reviews": {
+    "bank_api": "9c96d0956af425b2ed0ec50bfbccf5221ba4fd0a816bc261b5522d483b72bbdd",
+    "frame_science": "46868275b805da050031828ea4f55440a63bd891e25a1e8184d975bf08d4d59b"
+  },
+  "method": "Exactly38 literal substitutions from accepted T37 bootstrap after namespace changes; every proof body and ordered seven-stage endpoint rewrite is retained.",
+  "assumptions_excluded": [
+    "Native saving validity and no-surcharge recurrence license",
+    "Bit and initial saving validity",
+    "Real enclosures and rounded-size recurrence interpretation",
+    "Operator/profile and physical realization",
+    "47 outer slacks",
+    "Precision/tape and all-size transfer",
+    "Complete selected-kappa theorem"
+  ]
+}

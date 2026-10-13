@@ -1,0 +1,541 @@
+{
+  "format": "current942-one-fresh-root-launcher-freeze-v1",
+  "status": "UNCOMPILED_NOT_ADMITTED",
+  "scientific_source_pin": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+  "binding_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/SOURCE_BINDING.json",
+  "binding_sha256": "449e67cbd096ef2dcf97daca92f099ba145e87742723c9387d3a67e4b1aecc38",
+  "supervisor_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/supervised-core-run.py",
+  "supervisor_sha256": "0ea523cf41f0c57c559e2ff8663b542a9461481afcf8caee4642a2bf5c7a3684",
+  "monitor_adapter_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/frozen-pilot-executor.py",
+  "monitor_adapter_sha256": "0251896d3b3cf94fd83c78d2d174632a2257b0ce83c0632e43c364581160e101",
+  "source_monitor_ast_sha256": "17655ecd4d1ac96dd2c68226e5e9144efbf6875c272b06c99d775510a095393d",
+  "configured_monitor_ast_sha256": "31712017677c64d1f25e7d79763ac01b83247010def47b4458479b22c6398184",
+  "finite_catalog_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/FROZEN_MANIFEST.json",
+  "finite_catalog_sha256": "6746e32ff09db470b93208c62de857cc788178b1f58d4d519e2ded0534a14d52",
+  "finite_terminal_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current890-preparation-5an6nghg/SEVEN_FINITE_TERMINAL_REVIEW.json",
+  "finite_terminal_sha256": "22d33d39bd7f86a9fc0862a9efbefd8a2358e6726d350cba4f4786091ef0dc22",
+  "preservation_preimage_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/PREIMAGE.json",
+  "preservation_preimage_sha256": "84b84c2b067725eb07a5894bc2a639aeae085691463d2cba53791082b1051dd0",
+  "source": {
+    "module": "Current1094BootstrapCertificate",
+    "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/output/Current1094BootstrapCertificate.lean",
+    "bytes": 19069,
+    "sha256": "fd33309d400c61dbb44dd3a0a5f7775e5718446b269fa45d300f9d2ed732bd5d",
+    "explicit_imports": [
+      "Current1094NativeUpperAggregate"
+    ],
+    "effective_imports": [
+      "Init",
+      "Current1094NativeUpperAggregate"
+    ],
+    "kernel_decisions": 87,
+    "bootstrap_stages": 7
+  },
+  "retained_roots": [
+    {
+      "module": "SelectedMomentLogCheckpoints",
+      "receipt_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/receipts/SelectedMomentLogCheckpoints.json",
+      "receipt_sha256": "a1f7a8dc76e85632ee6d07dc13bca03a7831554a43f9d93f25571c9e734ab087",
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "kind": "sources",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/sources/SelectedMomentLogCheckpoints.lean",
+          "bytes": 33554,
+          "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021"
+        },
+        {
+          "kind": "objects",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentLogCheckpoints.olean",
+          "bytes": 385208,
+          "sha256": "45410e51c7245c94df6116cf6cbc3898f52e1a2a43b575ff1a2b8929a012a79d"
+        },
+        {
+          "kind": "logs",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/logs/SelectedMomentLogCheckpoints.raw.log",
+          "bytes": 576,
+          "sha256": "02b6f7b82ebe48765c4428122bdd936207e2560805c1efbd90902cd2d5d21619"
+        },
+        {
+          "kind": "receipts",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/receipts/SelectedMomentLogCheckpoints.json",
+          "bytes": 4967,
+          "sha256": "a1f7a8dc76e85632ee6d07dc13bca03a7831554a43f9d93f25571c9e734ab087"
+        }
+      ]
+    },
+    {
+      "module": "SelectedMomentUpperAggregate",
+      "receipt_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/receipts/SelectedMomentUpperAggregate.json",
+      "receipt_sha256": "927fd1e42ec18016d94398ede8a8f77eabbe5ed5eea6463f789561868eda933c",
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "kind": "sources",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/sources/SelectedMomentUpperAggregate.lean",
+          "bytes": 75995,
+          "sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6"
+        },
+        {
+          "kind": "objects",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentUpperAggregate.olean",
+          "bytes": 562296,
+          "sha256": "514b4159d5e93a3614f3ac8102ca04a9412ef97f3c0184990a1e441afdaf0c78"
+        },
+        {
+          "kind": "logs",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/logs/SelectedMomentUpperAggregate.raw.log",
+          "bytes": 726,
+          "sha256": "9cbc3d4dd8248924dc042576326ce4c8a15eb6feb9c5dad719e58b68be925aaa"
+        },
+        {
+          "kind": "receipts",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/receipts/SelectedMomentUpperAggregate.json",
+          "bytes": 5132,
+          "sha256": "927fd1e42ec18016d94398ede8a8f77eabbe5ed5eea6463f789561868eda933c"
+        }
+      ]
+    },
+    {
+      "module": "Current1094NativeUpperAggregate",
+      "receipt_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-native-a8geqqqp/execution/receipts/Current1094NativeUpperAggregate.json",
+      "receipt_sha256": "c44aeeeefd2ed264f2661f293d738e59e15d8d4663b49ef8b8f5e0943451f550",
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current1094NativeUpperAggregate.profile_totals",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.Current1094NativeUpperAggregate.current_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094NativeUpperAggregate.ordinary_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094NativeUpperAggregate.upper_matches_current_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094NativeUpperAggregate.current_upper_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "kind": "sources",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-native-a8geqqqp/output/Current1094NativeUpperAggregate.lean",
+          "bytes": 65724,
+          "sha256": "de367aca2684506d8b16419523595a000769ebbe789479899bac44747fa39bf3"
+        },
+        {
+          "kind": "objects",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-native-a8geqqqp/execution/objects/Current1094NativeUpperAggregate.olean",
+          "bytes": 468856,
+          "sha256": "106515252a33c87aec01f58e5706a83fe379631360b5397ba3cbfbe345594d54"
+        },
+        {
+          "kind": "logs",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-native-a8geqqqp/execution/logs/Current1094NativeUpperAggregate.raw.log",
+          "bytes": 611,
+          "sha256": "e56e61383f9224a29bdbe487da6f81ad21ca525fd674350afc0cffeb9c260673"
+        },
+        {
+          "kind": "receipts",
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-native-a8geqqqp/execution/receipts/Current1094NativeUpperAggregate.json",
+          "bytes": 12548,
+          "sha256": "c44aeeeefd2ed264f2661f293d738e59e15d8d4663b49ef8b8f5e0943451f550"
+        }
+      ]
+    }
+  ],
+  "new_probes": [
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.saving_minimum_is_native",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.shrink_matches_literal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.supplied_input_domains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage1_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage2_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage3_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage4_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage5_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage6_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.stage7_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094BootstrapCertificate.bootstrap_endpoint_matches_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "inherited_probes": [
+    {
+      "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094NativeUpperAggregate.profile_totals",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.Current1094NativeUpperAggregate.current_domains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094NativeUpperAggregate.ordinary_rounded_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094NativeUpperAggregate.upper_matches_current_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1094NativeUpperAggregate.current_upper_strict",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "scope": {
+    "local": 4,
+    "retained": 3,
+    "fresh": 1,
+    "cached_pairs": 319,
+    "reachable_nodes": 323,
+    "ordered_import_edges": 1088,
+    "new_probes": 11,
+    "inherited_probes": 16,
+    "reachable_probes": 27
+  },
+  "environment": {
+    "LEAN_PATH": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/execution/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-native-a8geqqqp/execution/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/batteries-pilot-20261013T132458Z-32myp4ed/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/lib/lean",
+    "LEAN_NUM_THREADS": "1",
+    "MIMALLOC_ARENA_RESERVE": "64MiB"
+  },
+  "limits": {
+    "review_seconds_each": 40,
+    "review_vm_bytes": 3758096384,
+    "hard_seconds_each": 60,
+    "rlimit_as_bytes": 4294967296,
+    "aggregate_hard_seconds": 60,
+    "serial": true,
+    "retry": false
+  },
+  "execution_directory": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/execution",
+  "command": [
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/bin/lean",
+    "-j1",
+    "-s65536",
+    "-o",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/execution/objects/Current1094BootstrapCertificate.olean",
+    "Current1094BootstrapCertificate.lean"
+  ],
+  "cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/output",
+  "expected_object_sha256": null,
+  "protected_spectators": [
+    "Current741LogCheckpoints",
+    "Current799NativeUpperAggregate",
+    "CurrentBitLogCheckpoints",
+    "Current543LogCheckpoints",
+    "Current589BitUpperAggregate",
+    "Current942NativeUpperAggregate",
+    "Current942BootstrapCertificate",
+    "Current942OuterClosure",
+    "Current1042NativeUpperAggregate"
+  ],
+  "derived_caller_check": {
+    "path": "research/gauge44-slots-t16/code/assemble.py",
+    "git_blob": "581dd9cb29a45bd68cc651538311b63f6966ad68",
+    "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+    "overlay_binding": {
+      "verifier_path": "research/complex-t16-rare-pattern-exchanges/verify.py",
+      "verifier_sha256": "b8c2f76b305c5c9ceb42df203deef564857d17f1f8182d0745dda9ab96e3d4de",
+      "archive_source_path": "research/complex-t16-rare-pattern-exchanges/SOURCE.json",
+      "archive_source_sha256": "4cfd44cebfe88f4450294239fbea8feecb564338dc3027b76065227f5d19cb6f",
+      "archive_head": "589d1cedf5ef5f231182f4ec86408616311a8af0",
+      "assembler_archive_pin_matches_same_committed_base_bytes": true,
+      "replaced_files": [
+        "data/OWNERS.json.gz",
+        "data/PLAN.json",
+        "data/SPEC.json"
+      ]
+    },
+    "matches": true,
+    "upstream_code_executed": false
+  },
+  "review_seals": {
+    "bank_api": "9c96d0956af425b2ed0ec50bfbccf5221ba4fd0a816bc261b5522d483b72bbdd",
+    "integration_launcher_current_binding": "PENDING",
+    "frame_source": "46868275b805da050031828ea4f55440a63bd891e25a1e8184d975bf08d4d59b"
+  },
+  "runner_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1094-bootstrap-fkzu_zeh/launch-bootstrap.py",
+  "runner_sha256": "1f2c0c36b6326c25426b8d89bed0607854ebcbd11f207baf286a748c3ff22541"
+}

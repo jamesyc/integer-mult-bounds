@@ -1,0 +1,85 @@
+{
+  "schema": "current1094-bootstrap-independent-terminal-v1",
+  "status": "PASS",
+  "reviewer": "analytic owner",
+  "closed_utc": "2026-10-13T20:20:00Z",
+  "scientific_pin": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+  "author_checked_kappa": "836330098538459/500000000000000000",
+  "actual_turn": "01a136e6-8a7a-727b-8398-c378b1b295ce",
+  "actual_result_message": "msg_00854d979964dd50016ace91f4f2288190b49988b2d2e272c5",
+  "source": {
+    "bytes": 19069,
+    "sha256": "fd33309d400c61dbb44dd3a0a5f7775e5718446b269fa45d300f9d2ed732bd5d"
+  },
+  "object": {
+    "bytes": 273800,
+    "sha256": "a842dac1f694958a21ac5a4d581744b0b716509d8845db98640b33031e3ba128",
+    "verification": "Actual successful receipt and post-guard; binary object was not independently downloaded."
+  },
+  "receipt_and_result": {
+    "bytes": 19274,
+    "sha256": "4dd88147ae1d723a0fbbee91b6ef857ab625f7b1b8e6317b79fbdf11f1b14d7e",
+    "independently_hashed_literal": true
+  },
+  "raw_log": {
+    "bytes": 1420,
+    "sha256": "02ed74161f686dc6aed3b014be2124bc6308def2ce4649e28421cc622ff49887",
+    "independently_hashed_literal": true,
+    "ordered_probes": 11,
+    "unparsed_residue": false,
+    "standard_axioms_only": true
+  },
+  "guards": {
+    "before_sha256": "606010fcf5df4f42e70dcc5ba4279e71ebb0ed7db4f03813831ac5a283313731",
+    "after_sha256": "ab3b145ab1ddb69ce16026a47e33519cdd65dbb638a11f6d30b0d9a235638fd0",
+    "literal_reconstruction_exact": true,
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "local_roots": 4,
+    "retained": 3,
+    "fresh": 1,
+    "reachable_nodes": 323,
+    "reachable_edges": 1088,
+    "retained_probes": 16,
+    "new_probes": 11,
+    "reachable_probes": 27,
+    "first_matches": 322,
+    "raw_git_inputs": 9,
+    "protected_paths": 1718,
+    "worktree_states": 8,
+    "fresh_object_absent_before": true,
+    "fresh_identity_verified_after": true,
+    "preservation_error": null
+  },
+  "binding": {
+    "manifest_sha256": "d84f6e4150aa62af596eeda1cfb590cc706febd4ed18bcbb43c8afdb6b381779",
+    "wrapper_sha256": "1f2c0c36b6326c25426b8d89bed0607854ebcbd11f207baf286a748c3ff22541",
+    "launcher_review_sha256": "27d8fec652e8d69bd41c3dc849065e7b111619d8db32690770e71216b7d6461b",
+    "materialized_applicability_sha256": "78fe008cec37a1d926996bfbf133b17c0c28197fc67947771f9832eb8d37603d",
+    "bank_api_sha256": "9c96d0956af425b2ed0ec50bfbccf5221ba4fd0a816bc261b5522d483b72bbdd",
+    "frame_science_sha256": "46868275b805da050031828ea4f55440a63bd891e25a1e8184d975bf08d4d59b",
+    "native_terminal_sha256": "02b8f1f9b64bd7b109afac5df13be70fce5d8fb2dc0a909f83eb8c49f32814ab",
+    "command_cwd_environment_limits_match": true,
+    "three_retained_identities_and_ordered_probes_match": true
+  },
+  "actual": {
+    "started_utc": "2026-10-13T20:14:26.880130+00:00",
+    "finished_utc": "2026-10-13T20:14:27.943726+00:00",
+    "exit_code": 0,
+    "stop_reason": null,
+    "compiler_seconds": 1.063581399001123,
+    "before_guard_seconds": 0.4660643280003569,
+    "after_guard_seconds": 0.4661131139982899,
+    "peak_vm_bytes": 708562944,
+    "peak_rss_bytes": 328552448,
+    "below_review_limits": true,
+    "whole_wrapper_seconds": null,
+    "delivery_seconds": null
+  },
+  "coverage": {
+    "closed": "Eleven exact finite rational facts: native minimum, shrink literal, input domains, seven StageFacts and seven-update endpoint composition. Charged coefficient512 is explicit;87 finite decisions were checked.",
+    "conditional": "The imported native finite certificate is accepted. Native, bit and initial saving validity and the recurrence meaning of these finite updates remain supplied assumptions.",
+    "open": "Real enclosure, profile/provider/operator and physical realization, precision/tape model,47 outer slacks, all-size multiplication and the complete selected-kappa theorem are not established by this chunk."
+  },
+  "rerun_performed": false
+}
