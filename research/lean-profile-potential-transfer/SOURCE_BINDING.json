@@ -1,0 +1,96 @@
+{
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-f567884-readback",
+  "current_source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/certificates/selected-result.json",
+      "sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+      "bytes": 7059,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "1f107b55a2f045fa66d9c35d658b3b79549f5ba6"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+      "bytes": 127995,
+      "repository_path": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "git_blob": "9921a5d90ef8aa005df3a872adbf1a90e484cad8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/ASSEMBLY.json",
+      "sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+      "bytes": 85641,
+      "repository_path": "research/community-frontier799-audit/ASSEMBLY.json",
+      "git_blob": "a04bfd932a15196fe8e2418eae912ea745152593"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/data/SPEC.json",
+      "sha256": "64817c60a4a2c1839bf12239cb1b7515a40bf8988229d81d4c9faa17b488c7d5",
+      "bytes": 19085,
+      "repository_path": "research/gauge44-frames-x/data/SPEC.json",
+      "git_blob": "65d1048b0356ce508fbd8f2607eae7689d598d9f"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/assemble.py",
+      "sha256": "4c270a996b380ab712f72b81173ab24f1c73203a33578f261bfbaa7e67d75aec",
+      "bytes": 20788,
+      "repository_path": "research/gauge44-frames-x/code/assemble.py",
+      "git_blob": "8cee90b50e238bd1519a7aeb7395f62d277b8ae4"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/witness.py",
+      "sha256": "779c5172894b992131e85be1e592ed2a1aec8c287b872ff42007d36a7291e444",
+      "bytes": 2985,
+      "repository_path": "research/gauge44-frames-x/code/witness.py",
+      "git_blob": "c5c7fbc1142220ce854907de4e439420ac12d30c"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/outer.py",
+      "sha256": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c",
+      "bytes": 3535,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/outer.py",
+      "git_blob": "43007488ad2c43187c77cc6798beff8b1cd76ad2"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/outer.py",
+    "sha256": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c",
+    "byte_identical_current_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/outer.py"
+  },
+  "status": "GENERIC_THEOREM_SOURCE_WITH_PROTECTED_CURRENT_CONTEXT",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-profile-potential-transfer/ProfilePotentialTransfer.lean",
+    "sha256": "91682e1019fef8398a78757370a04f0ecf358360133b057856b7271c7ea324bc",
+    "bytes": 2811
+  },
+  "generic_hypotheses": [
+    "s:Finset iota",
+    "c,q:iota -> Real",
+    "b,L,t:Real",
+    "forall i in s,0<q i",
+    "0<L",
+    "0<t",
+    "sum_i ((c_i*q_i/L)*exp(b*log(1/q_i)))<1"
+  ],
+  "conclusion": "sum_i c_i*exp((1-b)*log(q_i*t)) < L*exp((1-b)*log(t))",
+  "source_independence": "No selected field is referenced by the generic Lean theorem. Existing selected-source guards are retained as an extra preservation boundary for subsequent applicability, not theorem assumptions.",
+  "conditional_application_context": {
+    "kappa": "1661634653669567/1000000000000000000",
+    "author_checked": true,
+    "scope": "Pinned f567 application context only; generic theorem has no kappa literal."
+  },
+  "scope_exclusions": [
+    "No sign restriction on c or b is needed for this algebraic implication. Concrete counts are nonnegative.",
+    "Positive q and t justify log multiplication; positive L justifies normalized strict inequality.",
+    "Native instantiation is q_i=rank_i/73,c_i=count_i,L=7168.",
+    "Bit instantiation is q_i=rank_i/64,c_i=count_i,L=28416, plus an extra rank-one row whose Real count is fallbackCount*10^-16; this preserves the separately proved aggregate bound.",
+    "The exact contraction at scaled Real sizes does not supply an integer-rounded child-size bound, additive work term, valid algorithmic recurrence, initial scalar saving, profile/operator realization, physical execution or all-size multiplication theorem."
+  ]
+}
