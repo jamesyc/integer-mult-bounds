@@ -87,7 +87,7 @@ theorem current_rounded_log_enclosures :
       (unitUpper 29 117 : ℝ) := by
     convert log_seventy_three_forty_four_upper using 1 <;> norm_num
   rcases current_domains with ⟨h1, h2, h3, h4, h5, h6, h7, h8, _⟩
-  exact ⟨rounded_from_domain 1 183457 6 9 137 h1 hu9,
+  exact ⟨(by simpa only [Nat.cast_one] using (rounded_from_domain 1 183457 6 9 137 h1 hu9)),
     rounded_from_domain 2 24336 5 9 137 h2 hu9,
     rounded_from_domain 3 30961 4 25 121 h3 hu25,
     rounded_from_domain 4 13968 4 9 137 h4 hu9,

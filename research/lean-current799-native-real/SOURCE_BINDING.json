@@ -1,11 +1,11 @@
 {
-  "status": "SOURCE_BOUND_CURRENT_PR799_NATIVE_REAL_PROPOSAL_UNCHECKED",
+  "status": "FIRST_PROOF_LOCAL_CAST_ONE_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-13T07:33:14.497619+00:00",
   "source": {
     "module": "Current799NativeRealEnclosure",
     "file": "Current799NativeRealEnclosure.lean",
-    "sha256": "13662565524336ee693ee356770072c071ab31234c7ac8c70413cda9ac1ba9ba",
-    "bytes": 12022,
+    "sha256": "0881f16da93e47ed521474977db174c092cab34556512e9c8d90ba7c62b59ac2",
+    "bytes": 12061,
     "explicit_imports": [
       "Current799NativeUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -210,5 +210,13 @@
     "Native recurrence validity, source profile/operator realization and provider/admission interfaces.",
     "Current seven-update bootstrap/eta/beta/offset/grid/47-slack data and fallback-bearing bit branch.",
     "Physical/all-size transfer and full selected-kappa theorem."
-  ]
+  ],
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "16ef47b144ab02c54a7a2561d093eff74d40995f1ef50dfa36c271721e9d5283",
+      "bytes": 7195
+    },
+    "scope": "Only the rank1 tuple proof wraps the exact generic theorem with simpa only [Nat.cast_one] to align the measured natural cast of one. Statements/literals/imports/options/current data unchanged."
+  }
 }

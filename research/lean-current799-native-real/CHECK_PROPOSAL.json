@@ -2,8 +2,8 @@
   "source": {
     "module": "Current799NativeRealEnclosure",
     "file": "Current799NativeRealEnclosure.lean",
-    "sha256": "13662565524336ee693ee356770072c071ab31234c7ac8c70413cda9ac1ba9ba",
-    "bytes": 12022,
+    "sha256": "0881f16da93e47ed521474977db174c092cab34556512e9c8d90ba7c62b59ac2",
+    "bytes": 12061,
     "explicit_imports": [
       "Current799NativeUpperAggregate",
       "SelectedMomentExpEnclosure",
@@ -16,7 +16,7 @@
       "CurrentMain.Current799NativeRealEnclosure.currentRealMoment_strict"
     ]
   },
-  "source_binding_sha256": "78ce19ab19834b322951600b16889af012ec9eeeb693e146fa40657c797a43f7",
+  "source_binding_sha256": "1bdbd21e118dfc7b53d998963a6046d41db8df86aab90befeaaecd9ce9947588",
   "cached_inputs": 3260,
   "all_nodes": 3269,
   "cached_edges": 12847,
@@ -38,7 +38,7 @@
     "review_vm_bytes": 3758096384
   },
   "authority": "Root2026-10-13T06:49 standing rank44 and subsequent source-matched minimal aggregate work, conditional on independent source/API/current/binding reviews and actual finite predecessor terminal.",
-  "status": "SOURCE_API_RESOURCE_PROPOSAL_CURRENT_FINITE_OWNER_PASS_TERMINAL_PENDING",
+  "status": "FIRST_PROOF_LOCAL_CAST_ONE_REPAIR_PENDING_REVIEW",
   "utc": "2026-10-13T07:39:42.175308+00:00",
   "scope": [
     9,
@@ -1720,5 +1720,13 @@
     "sha256": "5ae8201ba8833d0cf61f674d7020838ad9cbb6dd41b65b10943623e74603c975",
     "bytes": 65742
   },
-  "actual_finite_predecessor_condition": "Owner acceptance is pinned; independent current799 finite terminal required before dispatch."
+  "actual_finite_predecessor_condition": "Owner acceptance is pinned; independent current799 finite terminal required before dispatch.",
+  "repair": {
+    "failure": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/gate/FIRST_FAILURE_PRESERVATION.json",
+      "sha256": "16ef47b144ab02c54a7a2561d093eff74d40995f1ef50dfa36c271721e9d5283",
+      "bytes": 7195
+    },
+    "scope": "Only the rank1 tuple proof wraps the exact generic theorem with simpa only [Nat.cast_one] to align the measured natural cast of one. Statements/literals/imports/options/current data unchanged."
+  }
 }
