@@ -1,0 +1,92 @@
+{
+  "schema": "current799-record3-resource-redesign-v1",
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW_AND_NEW_ADMISSION",
+  "roots": [
+    {
+      "module": "Current799Record3Literals",
+      "imports": [
+        "PR593ExactHelpers"
+      ],
+      "scope": {
+        "total": 3,
+        "retained": 2,
+        "new": 1
+      },
+      "kernel_decisions": 1,
+      "probes": [
+        "CurrentMain.Current799Record3Packed.literal_binding"
+      ],
+      "work": "Exact original canonical/monomial helper decision isolated unchanged; source fuel64 and frozen definitions unchanged."
+    },
+    {
+      "module": "Current799Record3Validity",
+      "imports": [
+        "Current799Record3Literals"
+      ],
+      "scope": {
+        "total": 4,
+        "retained": 3,
+        "new": 1
+      },
+      "kernel_decisions": 1,
+      "probes": [
+        "CurrentMain.Current799Record3Packed.gate_validity"
+      ],
+      "work": "Exact original cOk decision isolated unchanged:13 literal gates;11 non-phase512-address predicates. No source helper computation in cOk."
+    },
+    {
+      "module": "Current799Record3Packed",
+      "imports": [
+        "Current799Record3Validity"
+      ],
+      "scope": {
+        "total": 5,
+        "retained": 4,
+        "new": 1
+      },
+      "kernel_decisions": 1,
+      "probes": [
+        "CurrentMain.Current799Record3Packed.rhs_reduced",
+        "CurrentMain.Current799Record3Packed.exact_packed_check",
+        "CurrentMain.Current799Record3Packed.packed_child"
+      ],
+      "work": "Two symbolic zero-gate action lemmas; one chronological circuit normalization; reduced check5+5 gates,512leaves,one Gaussian each,radix16,scale1; original all-payload conclusion from cL_eq_of_check."
+    }
+  ],
+  "external_pairs": 2501,
+  "options": {
+    "Elab.async": false,
+    "maxRecDepth": "unchanged default",
+    "maxHeartbeats": "unchanged default"
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "source_binding": "Exact original frozen current799 catalog child3/key0\u21925/[]\u2192[75]; no selected source change.",
+  "changed_work": {
+    "preserved": [
+      "All original descriptors, monomial fields and full gate lists",
+      "literal_binding statement and proof",
+      "gate_validity statement and proof",
+      "packed_child complete all-payload statement"
+    ],
+    "changed": [
+      "Three independent decisions become three retained-object boundaries",
+      "Four literal identity gates removed from packed comparison only, reducing14 to10 full tree-gate evaluations",
+      "exact_packed_check now certifies lhs against rhsReduced; rhs_reduced proves complete original complex action equal to reduced action"
+    ],
+    "not_claimed": "No measured speedup or memory fit; the abort log provides no declaration attribution."
+  },
+  "failure_baseline": {
+    "compile_seconds": 23.451141965,
+    "peak_vm_bytes": 4278988800,
+    "exit_code": -6,
+    "diagnostic": "std::bad_alloc",
+    "probes": 0,
+    "object_produced": false
+  },
+  "execution_policy": "Each root needs its own admitted retained-predecessor binding; preserve accepted predecessor and stop immediately on failure or review excess. No full historical record173 execution."
+}

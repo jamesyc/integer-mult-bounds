@@ -1,0 +1,249 @@
+{
+  "old_frame": {
+    "descriptor": [],
+    "circuit": []
+  },
+  "new_frame": {
+    "descriptor": [
+      75
+    ],
+    "basis": [
+      75,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      128,
+      256
+    ],
+    "basis_steps": [
+      {
+        "candidate": 75,
+        "taken": true,
+        "rank_after": 1,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 1,
+        "taken": true,
+        "rank_after": 2,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 2,
+        "taken": true,
+        "rank_after": 3,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 4,
+        "taken": true,
+        "rank_after": 4,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 8,
+        "taken": true,
+        "rank_after": 5,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 16,
+        "taken": true,
+        "rank_after": 6,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 32,
+        "taken": true,
+        "rank_after": 7,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 64,
+        "taken": false,
+        "rank_after": 7,
+        "xor_steps": 4
+      },
+      {
+        "candidate": 128,
+        "taken": true,
+        "rank_after": 8,
+        "xor_steps": 0
+      },
+      {
+        "candidate": 256,
+        "taken": true,
+        "rank_after": 9,
+        "xor_steps": 0
+      }
+    ],
+    "G": [
+      3,
+      5,
+      8,
+      17,
+      32,
+      64,
+      1,
+      128,
+      256
+    ],
+    "Gi": [
+      64,
+      65,
+      66,
+      4,
+      72,
+      16,
+      32,
+      128,
+      256
+    ],
+    "Gi_transpose": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      23,
+      128,
+      256
+    ],
+    "Q": [
+      64,
+      64,
+      0,
+      64,
+      0,
+      0,
+      75,
+      0,
+      0
+    ],
+    "alpha": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "adjoint_alpha": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ]
+  },
+  "left_monomial": {
+    "linear_Z4": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "matrix_rows": [
+      3,
+      5,
+      8,
+      17,
+      32,
+      64,
+      1,
+      128,
+      256
+    ],
+    "offset": 0,
+    "phase": 0,
+    "quadratic_rows": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "right_monomial": {
+    "linear_Z4": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "matrix_rows": [
+      11,
+      65,
+      66,
+      4,
+      72,
+      16,
+      32,
+      128,
+      256
+    ],
+    "offset": 0,
+    "phase": 0,
+    "quadratic_rows": [
+      75,
+      75,
+      0,
+      75,
+      0,
+      0,
+      11,
+      0,
+      0
+    ]
+  },
+  "inverse_rows": {
+    "left": [
+      64,
+      65,
+      66,
+      4,
+      72,
+      16,
+      32,
+      128,
+      256
+    ],
+    "right": [
+      21,
+      19,
+      8,
+      7,
+      32,
+      64,
+      23,
+      128,
+      256
+    ]
+  },
+  "scope": "Nine-column linear/inverse arithmetic only; no packed or complex operator evaluation. The literal_binding and original cOk/check are kernel goals."
+}
