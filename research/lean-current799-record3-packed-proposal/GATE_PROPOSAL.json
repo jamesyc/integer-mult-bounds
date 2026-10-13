@@ -1,0 +1,51 @@
+{
+  "status": "SOURCE_AND_RESOURCE_PROPOSAL_NOT_ADMITTED",
+  "root": "Current799Record3Packed",
+  "direct_imports": [
+    "PR593ExactHelpers"
+  ],
+  "prospective_scope": {
+    "modules": 3,
+    "retained": 2,
+    "new": 1
+  },
+  "external_pairs": 2501,
+  "probes": [
+    "CurrentMain.Current799Record3Packed.literal_binding",
+    "CurrentMain.Current799Record3Packed.gate_validity",
+    "CurrentMain.Current799Record3Packed.exact_packed_check",
+    "CurrentMain.Current799Record3Packed.packed_child"
+  ],
+  "finite_decisions": [
+    {
+      "name": "literal_binding",
+      "work": "Empty canonical frame by reduction, one nine-coordinate greedy canonical frame and two monomial inverse computations, each frozen once."
+    },
+    {
+      "name": "gate_validity",
+      "work": "Four literal circuits with13 gates total,11 non-phase gates use original512-address predicate; no canonical helper repeated inside the predicate."
+    },
+    {
+      "name": "exact_packed_check",
+      "work": "Unchanged PR593 check:5 canonical gates versus9 recipe gates; one Gaussian each, radix16,relative scale1,512 leaves/depth9, largest initial entry2045bits.14 tree-gate evaluations. No512x512 matrix."
+    }
+  ],
+  "options": {
+    "Elab.async": false,
+    "maxRecDepth": "unchanged default",
+    "maxHeartbeats": "unchanged default"
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "fit": "Unmeasured. Structural counts do not predict wall time or VM. First failure/review stops; no unchanged repeat or cap increase.",
+  "preferred_admission": "Only after independent current record/literal/fuel/model/API and exact closure/binding reviews plus explicit root finite-experiment scope. No certificate executed by preparation.",
+  "remaining": [
+    "Kernel literal,gate-validity and packed-check goals",
+    "Exact source helper/Python canonical interpretation binding",
+    "Actual selected events,chart assignment,pre-A and full physical-work execution"
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "status": "CURRENT799_SOURCE_BOUND_PROPOSAL_NO_CERTIFICATE_EXECUTION",
+  "source_main": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "archive": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/integrated799-replay.tar.gz",
+    "sha256": "70dfdfcf2ff95352c6020ee9dfca6dca9032b33c10daed3f3dc574c014f4e2cb",
+    "bytes": 3544685,
+    "git_blob": "c80685bdf48cea26561b25900ce0416ba2cf709f"
+  },
+  "artifact_receipt": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "input_artifacts": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "bytes": 83939
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "bytes": 208661
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CLIFFORD-RECIPES.json",
+      "sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+      "bytes": 994364
+    }
+  ],
+  "ordinal": 3,
+  "key": [
+    0,
+    5,
+    1
+  ],
+  "record_normalized_sha256": "8f93815e078870585dc22938d31244dd7c6f225bc46a8d22f273f5475d031ccf",
+  "old_ordered_descriptor": [],
+  "new_ordered_descriptor": [
+    75
+  ],
+  "source_record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        3,
+        5,
+        8,
+        17,
+        32,
+        64,
+        1,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 5,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        11,
+        65,
+        66,
+        4,
+        72,
+        16,
+        32,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        75,
+        75,
+        0,
+        75,
+        0,
+        0,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  "source_positions": {
+    "forward": {
+      "first_index": 9274,
+      "end_index_inclusive": 9289,
+      "relabel_indices": [
+        9274,
+        9276,
+        9278,
+        9280,
+        9282,
+        9284,
+        9286,
+        9288
+      ],
+      "next_event": [
+        "climb",
+        "A",
+        478,
+        0,
+        6,
+        1
+      ]
+    },
+    "backward": {
+      "first_index": 9274,
+      "end_index_inclusive": 9289,
+      "relabel_indices": [
+        9274,
+        9276,
+        9278,
+        9280,
+        9282,
+        9284,
+        9286,
+        9288
+      ],
+      "next_event": [
+        "climb",
+        "A",
+        478,
+        0,
+        6,
+        1
+      ]
+    }
+  },
+  "prior_record173_relation": "Left/right/rank data agrees, but both canonical descriptors differ. No historical theorem transfer is made. Direct current certificate is proposed.",
+  "source_helpers": {
+    "status": "EXACT_SOURCE_SLICE_PROPOSAL",
+    "upstream": {
+      "sha256": "eebf3a3982af7ab9be45777b272a6aaa523206fa7667ceb6df63ad6589fd8183",
+      "bytes": 26016
+    },
+    "upstream_commit": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+    "upstream_path": "research/hyperplane-end-lean/HyperplaneEnd/Exact.lean",
+    "upstream_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4/research/hyperplane-end-lean/HyperplaneEnd/Exact.lean",
+    "git_blob": "1af33a206a9ba6c4826b3a1516d104e770380869",
+    "slice": {
+      "lines_inclusive": [
+        29,
+        96
+      ],
+      "sha256": "bcee6a011387d9c97da8ebe7f2c90d09655157822c865756c1992b4e10e716cb",
+      "bytes": 2743,
+      "candidate_offset_bytes": 621
+    },
+    "declarations": [
+      "colBits",
+      "transpose",
+      "lead",
+      "insPiv",
+      "rank",
+      "basisExtend",
+      "invRows",
+      "fourierC",
+      "canon",
+      "Mono",
+      "Mono.gates"
+    ],
+    "changes_outside_slice": [
+      "Flat accepted import alias PR593Clifford",
+      "Namespace/open scaffolding without Main, TensorProduct or Complex",
+      "Attribution/scope header",
+      "Four definition-axiom probes and three explicit API type checks"
+    ],
+    "excluded": [
+      "HyperplaneEnd.Main",
+      "Pair and residual record literals",
+      "Tensor-product operators and endpoint theorems",
+      "All upstream finite check/validity certificates"
+    ],
+    "claim": "The exact helper definitions elaborate against accepted PR593Clifford; no mathematical or selected-instance correctness theorem is added."
+  },
+  "fuel_bound": "All initial/basis/pivot masks below512; at most9 pivots, lead index at most8 and at most9 elimination steps. Fuel64 remains literal and must reduce in the kernel; no fallback premise is assumed."
+}
