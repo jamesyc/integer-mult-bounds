@@ -1,0 +1,39 @@
+{
+  "status": "LITERAL_STAGE_ACCEPTED_VALIDITY_RESOURCE_STOP_PACKED_UNRUN",
+  "utc": "2026-10-13T09:07:13.069830+00:00",
+  "literal_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_split_proposal/literals_gate/ACCEPTANCE.json",
+    "sha256": "3424e824218f1ce96baabe0b1d5bf2d8aa091547ad88948adf0e8c6f823eced6",
+    "bytes": 109582
+  },
+  "literal_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_LITERALS_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "ee494a83c6526cadccfdc124bed4c88ad2dc2f34abc8cb19f1149e12ba8ae03a",
+    "bytes": 10164
+  },
+  "validity_failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_split_proposal/validity_gate/allocation_failure_baseline/FAILURE.json",
+    "sha256": "23fa7fb9828dd20dd0afc311138e5eafcb4623f9e73e916f0c9ba157cacb55c0",
+    "bytes": 103598
+  },
+  "validity_failure_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_VALIDITY_FAILURE_INDEPENDENT_REVIEW.json",
+    "sha256": "2acce051dc17179ffaf34a5ff707488897c858ce8b917f909c6f6d2af8d981e0",
+    "bytes": 3278
+  },
+  "original_combined_failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_packed_proposal/allocation_failure_baseline/FAILURE.json",
+    "sha256": "106ad1cc2fcf598ff37c4225143b0c0f465e4aa6081b91e2705714f7cabe1b09",
+    "bytes": 5559
+  },
+  "measurements": {
+    "literal_seconds": 5.080620870983694,
+    "literal_peak_vm_bytes": 2373591040,
+    "validity_seconds": 23.942876052984502,
+    "validity_peak_vm_bytes": 4245577728,
+    "validity_exit_code": -6,
+    "validity_probes": 0,
+    "validity_object": false
+  },
+  "conclusion": "Only literal_binding is accepted by this split. The unchanged validity-only decision exhausted allocation; final reduced packed equality was not executed. New symbolic validity proposals are separate, source-only work. All prior failures and accepted outputs remain preserved."
+}
