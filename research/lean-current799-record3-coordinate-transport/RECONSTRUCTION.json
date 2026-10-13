@@ -1,0 +1,55 @@
+{
+  "schema": "frame-coordinate-reconstruction-checkpoint-v1",
+  "status": "UNCOMPILED",
+  "metadata_status": "Newly authored checkpoint metadata; no recovery of the original uncommitted draft or prior metadata is claimed.",
+  "source_file": "Current799Record3CoordinateTransport.lean",
+  "source_bytes": 12705,
+  "source_sha256": "356ee3e3ce6ab1cb16fb9624b134efc70e94dae8a4b7fd2875d7b9992496602f",
+  "expected_parent": "b3cdf49c702230e5f6f4845899fc4cca3970a452",
+  "source_inputs": [
+    {
+      "path": "research/lean-clifford-child002-canonical/CliffordChild002Canonical.lean",
+      "sha256": "c6626416e650fe76f2f3bdf8aedd4b2fd6e0c0136dfb4183b5c4fc69389eea4f",
+      "historical_object_sha256": "c682d00be1ce64e98d8acb4aa6da2d5ba03f2956b635e723a79039d4c96b7156"
+    },
+    {
+      "path": "research/lean-current799-record3-split-proposal/Current799Record3Literals.lean",
+      "sha256": "551541ba79850883eb4cf8e7cae32402fe156db2a33b0067f868d5f27d98a769"
+    }
+  ],
+  "input_repository": "jamesyc/integer-mult-bounds",
+  "input_commit": "b3cdf49c702230e5f6f4845899fc4cca3970a452",
+  "source_review": {
+    "reviewer": "prove_main_bank_routing",
+    "status": "Source/API and mathematical implication PASS on the complete canonical source; actual kernel acceptance remains pending.",
+    "reviewed_sha256": "356ee3e3ce6ab1cb16fb9624b134efc70e94dae8a4b7fd2875d7b9992496602f",
+    "reviewed_utc": "2026-10-13T13:28:37Z",
+    "transport_comparison": "Independent byte-level comparison confirmed exactly seven escaped tactic tokens, two escaped arrows and one added comment space in the failed scratch transfer. Canonical base64 decoded to the reviewed source hash."
+  },
+  "preserved_failed_transfer": {
+    "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/frame-coordinate-checkpoint-20261013T141547Z-td5pjim5/source.transport.txt",
+    "bytes": 12754,
+    "sha256": "fbce567c2a2909d40011a0724227af58bfdd9d2b20cf25ad50207fa728ed1e61"
+  },
+  "scope": {
+    "prior_local_source_dependencies": 13,
+    "new_source": 1,
+    "probes": 14,
+    "coordinate_branches": 63,
+    "address_or_circuit_decisions": 0
+  },
+  "runtime_status": "No current object availability, import guard or compiler result is claimed. The historical runtime union is 2663 pairs; any future execution requires separate recovery and admission.",
+  "caps": {
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296
+  },
+  "next_boundary": "Separate packed gate-list composition using accepted primitive adapters and PR593 cL_adjC/cE; event and physical execution remain separate.",
+  "compiler_run": false,
+  "publication": false,
+  "selected_source_scope": {
+    "status": "Historical PR799/f567 source only; applicability to later selected main is not claimed.",
+    "main_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631"
+  }
+}
