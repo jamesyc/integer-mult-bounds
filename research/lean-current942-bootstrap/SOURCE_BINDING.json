@@ -1,0 +1,124 @@
+{
+  "schema": "current942-seven-update-bootstrap-source-binding-v1",
+  "status": "SOURCE_PREPARATION_UNCOMPILED",
+  "selected_main": "bbc600db2fc15007b7c914f4f2b2ed55fa909c87",
+  "audited_source": "1960cfa919a0945d0ca4cb14ea96237000037903",
+  "author_checked_kappa": "1661960547713947/1000000000000000000",
+  "source": {
+    "module": "Current942BootstrapCertificate",
+    "bytes": 18941,
+    "sha256": "3f850bde24a238ce61bd36741a791c4419e17dde7c9b26c550a8bd6cb6ff07d9"
+  },
+  "raw_inputs": [
+    {
+      "path": "certificates/selected-result.json",
+      "git_blob": "3d7529d77a5f22d8c6f64f98bd5a0e71b8eee892",
+      "sha256": "1d35283cb0ce3f8db1f285683933517f9e87475d295e2b6316399ad9928c81c3",
+      "bytes": 8988
+    },
+    {
+      "path": "research/community-frontier942-audit/SELECTED-SOURCE.json",
+      "git_blob": "7bb22cec9e1150f81c2d695c73d9f5fe4c847f84",
+      "sha256": "1cd8dfde15919d1c3df9796b262e67898143d9793d2b86ee7b0a47fc903654c9",
+      "bytes": 139619
+    },
+    {
+      "path": "research/community-frontier942-audit/ASSEMBLY.json",
+      "git_blob": "9e71e9c1a1c1cbd1979f0c7bac87495322cbfad0",
+      "sha256": "4b2894956e594e408e111d806c842f2ed2c32aefcadff93fad69ff0b46f1991a",
+      "bytes": 85734
+    },
+    {
+      "path": "research/complex-t37-owners/CLAIM.json",
+      "git_blob": "609cfc6a7311310ee3a311faf70699172d79a55a",
+      "sha256": "a383da34ee22da831fa436ad3483568ae1fcd62cd76581f2c2dd2b6473b346fb",
+      "bytes": 992
+    },
+    {
+      "path": "research/complex-t37-owners/prepare.py",
+      "git_blob": "6f1de4128ef5b6acdcffcecac09c5db9e16bf83c",
+      "sha256": "8414859fc69885e5698fb3dbe0f7d9ee20d9782102e0abf7da991c904920fe47",
+      "bytes": 4850
+    },
+    {
+      "path": "research/complex-t21-owners/data/ADAPTER-EDITS.json",
+      "git_blob": "0ecdc5c06a98931867df6b102d277ec546ad63e2",
+      "sha256": "507e45b14439c8a19e269ee3c92fe9f28c80bf93375696b51e6618494de2c46a",
+      "bytes": 3316
+    },
+    {
+      "path": "research/complex-t21-owners/vendor/pr870/code/assemble.py",
+      "git_blob": "581dd9cb29a45bd68cc651538311b63f6966ad68",
+      "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+      "bytes": 20940
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742
+    }
+  ],
+  "derived_caller": {
+    "source": "research/complex-t21-owners/vendor/pr870/code/assemble.py",
+    "recipe": "research/complex-t37-owners/prepare.py",
+    "edits": "research/complex-t21-owners/data/ADAPTER-EDITS.json",
+    "sha256": "d89ed7a68f19e6d0dbb9d1bd75805433b1dc000bd89649fb598ef381c3887925",
+    "method": "Read-only exact reconstruction of declared fixed string edits; no upstream supplier or assembler execution",
+    "native_call": "check_moment('complex',H,73,owner['live'],b,11840,False)",
+    "bit_unchanged": true
+  },
+  "scope": {
+    "local": 4,
+    "retained": 3,
+    "fresh": 1,
+    "cached_pairs": 319,
+    "reachable_nodes": 323,
+    "ordered_edges": 1088,
+    "decisions": 87,
+    "new_probes": 11,
+    "reachable_probes": 27
+  },
+  "predecessor": {
+    "module": "Current942NativeUpperAggregate",
+    "source_sha256": "3af1227a1924d5906bf1339884c2e57b157c9e74afaede984c4739ecef78d3df",
+    "object_sha256": "0a27464ccde1b0dc05447c9bd3d6968443f496df1ea63c3bc4ea6fe00229284e",
+    "raw_log_sha256": "8421c9f370e85ad0f869d7e42f08974f14d7ff097ffe2c9eed2dc82033f8bf23",
+    "receipt_sha256": "5d9a807d223e171dd9db1d645fb9a89a616adda5bb66fc6b2fcc7dbe4d0be5cd",
+    "terminal_sha256": "a255501f5e64ef261626dee9874da0fe9597ac9e662f93b8ba964505f5b5d7f4"
+  },
+  "target": {
+    "native": "416181814685169713943/250000000000000000000000",
+    "supplied_bit": "1733427039589844234749/1000000000000000000000000",
+    "initial": "384599/10000000000",
+    "beta": "1/1000000000000000000000000",
+    "eta": "1/1000000000000000000000000",
+    "strict_offset": "1/1000000000000000000000000000",
+    "shrink": "416181814685169713942999333818185314830286057/250000000000000000000000000000000000000000000000",
+    "charged_coefficient": 1024,
+    "endpoint": "25401722087717878047399515354675370480720123834301459117238230678240097544423754070673558407597137813240645080999367118185569781125616007693489164172440492770797245366869199496205505620356638937167352620756623487537852259814168118115963527897743737948573541399678233704713759901054310968219181698547664514178261166218891162436092280671878444412343826049897797210985799185303999/15258789062500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "kernel_checked": false,
+    "stage_count": 7,
+    "checkpoint_names": [
+      "checkpoint1",
+      "checkpoint2",
+      "checkpoint3",
+      "checkpoint4",
+      "checkpoint5",
+      "checkpoint6",
+      "checkpoint7"
+    ],
+    "final_cutoff": "10842148173643272889999539096203012516204841615",
+    "stage_witness": "Full ordered old/exponent/four-gap/minimum/ceiling/cutoff rows are emitted in BOOTSTRAP_WITNESS.json by the pinned generator; the complete Lean source commits their literals."
+  },
+  "method": "Seven source-ordered rational updates, four-way minimum, separate quadratic and linear ceilings, then maximum cutoff. All proof bodies retained from accepted Current799BootstrapCertificate after namespace and literal substitutions.",
+  "assumptions_excluded": [
+    "Native saving validity and no-surcharge license",
+    "Bit and initial saving validity",
+    "Recurrence and rounded-size interpretation",
+    "Operator/profile and physical realization",
+    "47 outer slacks",
+    "All-size transfer",
+    "Complete selected-kappa theorem"
+  ]
+}

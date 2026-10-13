@@ -1,0 +1,79 @@
+{
+  "schema": "current942-bootstrap-independent-terminal-v1",
+  "status": "PASS",
+  "reviewer": "analytic",
+  "closed_utc": "2026-10-13T17:26:30Z",
+  "actual_turn": "01a13648-3ed9-76d3-b00d-b57fc157697b",
+  "actual_result_message": "msg_00854d979964dd50016ace6947008c8190afa3740eac0e6492",
+  "scientific_pin": "bbc600db2fc15007b7c914f4f2b2ed55fa909c87",
+  "author_checked_kappa": "1661960547713947/1000000000000000000",
+  "source": {
+    "bytes": 18941,
+    "sha256": "3f850bde24a238ce61bd36741a791c4419e17dde7c9b26c550a8bd6cb6ff07d9",
+    "reviewed_decisions": 87
+  },
+  "object": {
+    "bytes": 273584,
+    "sha256": "482b05d76a94ad26c2c330795b4e0f97151e19cd78f35a6064fa9aa1ed233d46",
+    "verification": "Actual supervisor receipt and successful post-guard; binary object was not independently downloaded."
+  },
+  "receipt_and_result": {
+    "bytes": 19226,
+    "sha256": "4ae7d59d475409ae61b8518e993dffda0be7889bb9ec75ac5a3f3ffef9e29c03",
+    "independently_hashed_literal": true,
+    "three_literal_chunks_verified": true
+  },
+  "raw_log": {
+    "bytes": 1409,
+    "sha256": "e16be3bd07ec2466550eb42ca4495578d74a58baa21bf57838ffac665e167cfd",
+    "independently_hashed_literal": true,
+    "exact_ordered_probe_match": true,
+    "observed_probes": 11,
+    "standard_axioms_only": true
+  },
+  "current_guards": {
+    "before_sha256": "ff55dd2be8c3dd777b52fb61623353a4b7e9deca89cd0e9e86a7accbe12e73a3",
+    "after_sha256": "522c0f82929fd4d7b0f745f58244d35fd9cbe4973cddd65f99611c47ecbe17f3",
+    "independently_reconstructed_from_literal_receipt": true,
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 323,
+    "reachable_edges": 1088,
+    "retained_roots": 3,
+    "retained_probes": 16,
+    "retained_first_matches": 322,
+    "scientific_git_inputs": 8,
+    "protected_files": 1698,
+    "worktree_heads_and_statuses": 8,
+    "fresh_absent_before": true,
+    "fresh_identity_added_to_after_guard": true,
+    "preservation_error": null
+  },
+  "binding": {
+    "wrapper_sha256": "5c81cdff550f3a237d90f3bedab36de42dacbdcb492b0abf3085bd38d3e63344",
+    "manifest_sha256": "f515630ae534be14a18e175fd1951809a26732955518958ca9cc6027aa510a00",
+    "complete_binding_review_sha256": "39e0cac40d26663e6eaf9228973ef2db0a9810f5e1e525e22c35379f05672e91",
+    "retained_t37_terminal_sha256": "a255501f5e64ef261626dee9874da0fe9597ac9e662f93b8ba964505f5b5d7f4",
+    "command_cwd_environment_limits_match": true
+  },
+  "actual": {
+    "started_utc": "2026-10-13T17:21:32.437178+00:00",
+    "finished_utc": "2026-10-13T17:21:33.558846+00:00",
+    "exit_code": 0,
+    "stop_reason": null,
+    "compiler_seconds": 1.1216555089995381,
+    "wrapper_seconds": 2.2331729120014643,
+    "before_guard_seconds": 0.5273659179983952,
+    "after_guard_seconds": 0.5214029279995884,
+    "peak_vm_bytes": 643452928,
+    "peak_rss_bytes": 327798784,
+    "below_review_limits": true
+  },
+  "coverage": {
+    "finite": "Native minimum selection, exact shrink and input domains, seven twelve-fact stage certificates including four-way minima and both cutoff inequalities, and composition to the exact serialized endpoint.",
+    "conditional": "Native, bit and initial savings are supplied numerical inputs. The charged complex coefficient is1024; the separate bit coefficient is not substituted.",
+    "open": "Real enclosure and saving-supplier validity, recurrence interpretation, profile/operator/physical realization,47 outer slacks, all-size transfer and the complete selected-kappa theorem."
+  },
+  "review_basis": "Direct complete actual receipt and raw-log readback, retained exact source/probe expectations and independently sealed launcher/current binding. Source and all local/runtime identity checks are reported by the guarded executor; this reviewer did not access the cloud filesystem.",
+  "rerun_performed": false
+}
