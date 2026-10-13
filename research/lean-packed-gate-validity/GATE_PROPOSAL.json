@@ -1,0 +1,78 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_MATH_API_AND_RESOURCE_REVIEW",
+  "utc": "2026-10-13T08:55:48.247610+00:00",
+  "source": {
+    "file": "PackedGateValidity.lean",
+    "sha256": "4507d57d009614d8a392e673a191a00d5c75478b956fa0ccd1165ffdf584e677",
+    "bytes": 4269
+  },
+  "direct_imports": [
+    "PackedMatrixReindex"
+  ],
+  "local_scope": {
+    "modules": 14,
+    "current_local": 13,
+    "pending": 1
+  },
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/packed_gaussian_reindex/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "caa4906e60782c7619fbcb4278a284a5a699ac48079f19fd8d114d65adc5e8b4",
+    "bytes": 2268324
+  },
+  "probes": [
+    "CurrentMain.PackedGateValidity.diagonal_ok",
+    "CurrentMain.PackedGateValidity.translation_ok",
+    "CurrentMain.PackedGateValidity.gaussian_ok",
+    "CurrentMain.PackedGateValidity.phase_ok",
+    "CurrentMain.PackedGateValidity.permutation_ok"
+  ],
+  "finite_kernel_decisions": 0,
+  "address_enumeration": false,
+  "proof_shape": {
+    "diagonal": "Induction on source Q with paired alpha stopping, arbitrary Nat address/index; one selected-bit split and Boolean parity split per induction step.",
+    "xor": "Arbitrary bounded x/b, Nat.xor_lt_two_pow then exact xor involution.",
+    "matrix": "Apply accepted packed_matrix twice and the supplied inverse equation; repeat only for opposite direction.",
+    "phase": "Literal reflexivity."
+  },
+  "premises": {
+    "permutation": [
+      "rows.length=9",
+      "inverseRows.length=9",
+      "matrix rows * matrix inverseRows = 1",
+      "matrix inverseRows * matrix rows = 1"
+    ],
+    "xor_and_gaussian": [
+      "mask<512"
+    ],
+    "diagonal": []
+  },
+  "current_predecessor_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/PACKED_MATRIX_REINDEX_TERMINAL_REVIEW.json",
+    "sha256": "a057e3df72d3eb34f05f1d81b0451adaf1744124fd752239f145c2f44e735462",
+    "bytes": 4061
+  },
+  "resource_baseline": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_split_proposal/validity_gate/allocation_failure_baseline/FAILURE.json",
+    "sha256": "23fa7fb9828dd20dd0afc311138e5eafcb4623f9e73e916f0c9ba157cacb55c0",
+    "bytes": 103598
+  },
+  "baseline_independent_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_VALIDITY_FAILURE_INDEPENDENT_REVIEW.json",
+    "sha256": "2acce051dc17179ffaf34a5ff707488897c858ce8b917f909c6f6d2af8d981e0",
+    "bytes": 3278
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_first_failure_or_review": true
+  },
+  "admission": "Source preparation only; no new check requested before independent review. Earlier record3 serial sequence stopped at validity allocation failure.",
+  "remaining": [
+    "Concrete record3 matrix certificates and exact unchanged cOk conjunction",
+    "Reduced packed equality and all-payload theorem",
+    "Typed-event entry/executor and full-construction suppliers"
+  ]
+}
