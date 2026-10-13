@@ -1,0 +1,1888 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT_PR589_FOURTEEN_PAIR_TERMINAL",
+  "utc": "2026-10-13T08:56:31.068337+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/ACCEPTANCE.json",
+    "sha256": "4313e4713d29d4604e7ba03de4f7a1079d4760e4879ba81d50c5f9b8a481e3bc",
+    "bytes": 488807
+  },
+  "source_commit": "bc9de18e9cd60b8a9665300eece18657bcb0efe7",
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/CURRENT_INPUT_INVENTORY.json",
+    "sha256": "df3bee90ab8cc044c478777cf0a2817b7d4c3ddd46926c12392811c79e497007",
+    "bytes": 578467
+  },
+  "source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac128/FOURTEEN_PAIR_EMITTED_SOURCE_REVIEW.json",
+    "sha256": "8b9c9071917e8c73c292a068c2f036c7c0cba1becb1f90eeccbd910133b09f32",
+    "bytes": 1997
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/FRAME_SINGLE_BINDING_REVIEW.json",
+    "sha256": "098ed12042d064a14d3d512a8d774734f64d0e64d33567a9ad51b1b3b16653c2",
+    "bytes": 4947
+  },
+  "new_quadruples": [
+    {
+      "module": "CurrentPR589AC001Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC001Data.lean",
+        "sha256": "2d71866354e93e6603cb6626f2ecc6a35228c2a4bcb31e87f46a6fe211a63763",
+        "bytes": 5462
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC001Data.olean",
+        "sha256": "e5fe269b4f4ecfaf99b518a8a59697431a9b8a81935700f38b0ae16f4c5f8677",
+        "bytes": 677224
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC001Data.lean.json",
+        "sha256": "40c832d1ec6f8696681f9bd83f034fa9331c3d688597f3c46c44f1b33a2e5443",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC001Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC001Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC001Check.lean",
+        "sha256": "8d599224219efad636602f367a760394465bfe8ea963b60e4d92c887f7cc14a1",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC001Check.olean",
+        "sha256": "8d694a69b815dc658748093258df581a30d856af6d6a0c045487491a25d8c08a",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC001Check.lean.json",
+        "sha256": "ffbe84fa5104a9497ac6f571badc6afc2683d3e44ef5ac0093500a79dba3238c",
+        "bytes": 2864
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC001Check.lean.log",
+        "sha256": "7cea5fe36af4f31b0629c892bcb5154c6a3457f5ed0a4fad16a3f83e124c8587",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC001Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC001Data.olean",
+          "olean_sha256": "e5fe269b4f4ecfaf99b518a8a59697431a9b8a81935700f38b0ae16f4c5f8677",
+          "source_sha256": "2d71866354e93e6603cb6626f2ecc6a35228c2a4bcb31e87f46a6fe211a63763"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC002Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC002Data.lean",
+        "sha256": "b352691c530e86574003b275347f249861e0035da1a081b192525c78c7f38965",
+        "bytes": 5649
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC002Data.olean",
+        "sha256": "88b4c0658a012024c499092da258b712fc14c73fde6070eee757b6d8c727403e",
+        "bytes": 739128
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC002Data.lean.json",
+        "sha256": "7727a7279493645e346182277340dfd93b64ea1ee2d50cee76f88adb2d28a0a6",
+        "bytes": 2313
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC002Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC002Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC002Check.lean",
+        "sha256": "bf7c24e1e851e36f65bb2e6e85591dbf8f4fee810fc4800f570d6c6bec2e9553",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC002Check.olean",
+        "sha256": "28639bbda725826d8656016a17f462009a26de2b9ab9d7d3c049e2939b56dea5",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC002Check.lean.json",
+        "sha256": "a0b8b711b25da879ad519ff88085769ce989308c9f43633fbd08b449db926aa1",
+        "bytes": 2865
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC002Check.lean.log",
+        "sha256": "7e9f428c787c5685f2b9e71a78a46d8c6a011f1fd58d7c2c3ad0d2801da31fa5",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC002Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC002Data.olean",
+          "olean_sha256": "88b4c0658a012024c499092da258b712fc14c73fde6070eee757b6d8c727403e",
+          "source_sha256": "b352691c530e86574003b275347f249861e0035da1a081b192525c78c7f38965"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC003Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC003Data.lean",
+        "sha256": "8140dbdf2b656e16f156f9a86bad8c5407327d86d56639a8df0d7407b6169428",
+        "bytes": 5674
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC003Data.olean",
+        "sha256": "790dc8cb3d61fbd299ba370c37eacac04a4a837f04a16405578a9102942bfc9f",
+        "bytes": 739152
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC003Data.lean.json",
+        "sha256": "355b79a63aa1834146e7edbd00d931ed8210f118c6e8534308a264ddce9d24dd",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC003Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC003Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC003Check.lean",
+        "sha256": "1e015b8cd2e597de7e60c9a639ac602be54f3448da06786c3477390e9c6eacbc",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC003Check.olean",
+        "sha256": "50a5e500d752389fd46b9028a7fa623f7c92893e04e802f8f4b0f7fe245d0f09",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC003Check.lean.json",
+        "sha256": "f1305da457ca353a1cccc9ae661e3dfb251ce12576be4faa625c181714c0b3f5",
+        "bytes": 2864
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC003Check.lean.log",
+        "sha256": "391c6ad54b57e0cc09fc323e226ed082db1354219f470294693c67cded70561f",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC003Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC003Data.olean",
+          "olean_sha256": "790dc8cb3d61fbd299ba370c37eacac04a4a837f04a16405578a9102942bfc9f",
+          "source_sha256": "8140dbdf2b656e16f156f9a86bad8c5407327d86d56639a8df0d7407b6169428"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC004Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC004Data.lean",
+        "sha256": "1259eb3cd291aeca451a5516abcefcdcd09fc31b00e517c2edfdaf23f8f3b16b",
+        "bytes": 5713
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC004Data.olean",
+        "sha256": "830cd5bc5d6fcf61c1e516576bf9e8603bb38def779c06d23be10a5b5076784d",
+        "bytes": 672720
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC004Data.lean.json",
+        "sha256": "8704d4a8730452adecc13ca922dbb18739aa2845da020d97b7a7cc2a7364aa0f",
+        "bytes": 2313
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC004Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC004Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC004Check.lean",
+        "sha256": "991dafd074c03256cd680173f9b7b1a4519ac8ab66b9f9f1e7d6944f7875ef00",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC004Check.olean",
+        "sha256": "6cf1daa95702392d7940e55bcb0fd5b1b16e7d41a7b91dad44456a46ecc96081",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC004Check.lean.json",
+        "sha256": "439e89d46e87a926a5788a60579b7e3fd0bf282f1a0477ab41a2fb6fbff1165d",
+        "bytes": 2866
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC004Check.lean.log",
+        "sha256": "a380472d0efb6bd398e00be7c53e459224bc272c2578fc9663bf211a74605301",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC004Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC004Data.olean",
+          "olean_sha256": "830cd5bc5d6fcf61c1e516576bf9e8603bb38def779c06d23be10a5b5076784d",
+          "source_sha256": "1259eb3cd291aeca451a5516abcefcdcd09fc31b00e517c2edfdaf23f8f3b16b"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC005Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC005Data.lean",
+        "sha256": "e046940483f4905294b238b5eadfa294fe2f3021cb7717b4a5e60044c3e4b700",
+        "bytes": 5761
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC005Data.olean",
+        "sha256": "8faf83cde24e9e850abf7aed6b0e432e2bf6fccd5ef11adca68be35140fc0f71",
+        "bytes": 573152
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC005Data.lean.json",
+        "sha256": "004bd1c98e7d4ae0c65dd6c5dd598df1e811f6cfb508fea33f8aeaa80cefedd5",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC005Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC005Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC005Check.lean",
+        "sha256": "944375a4283beb9d5cacdafaa38bd404c69f1c8184d7cdbcda7a74aa92f5039a",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC005Check.olean",
+        "sha256": "2c4438f9fc8c824b020335d2712bb2608a4815512a164f4124ed70d4b8e8220c",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC005Check.lean.json",
+        "sha256": "8075dc9d13760c1a4b983b9227ef72b08187f3e4aa04d4b8ba97d8541764cc9b",
+        "bytes": 2866
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC005Check.lean.log",
+        "sha256": "85114dd22187b9ef795144813a112cc52452e4ec92f214bd82c161ee1a11d428",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC005Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC005Data.olean",
+          "olean_sha256": "8faf83cde24e9e850abf7aed6b0e432e2bf6fccd5ef11adca68be35140fc0f71",
+          "source_sha256": "e046940483f4905294b238b5eadfa294fe2f3021cb7717b4a5e60044c3e4b700"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC006Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC006Data.lean",
+        "sha256": "f2572db7ec3d938f17d27c1ca47d4eaf2cd2fb1f6db6ca7fd76dc9be9e2aa331",
+        "bytes": 5761
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC006Data.olean",
+        "sha256": "c4e248bb113b643742abca7c4bc318bb7e581181a7320da4da92c8f0b1698ad1",
+        "bytes": 580264
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC006Data.lean.json",
+        "sha256": "9a4cffc8454895a2102756d43f8ae1ea1204265d98a1d20b72fe7a8e73a9b41f",
+        "bytes": 2308
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC006Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC006Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC006Check.lean",
+        "sha256": "1ea367faa45d368d3df78f836d169b61922060be0a67a3fe3bd878c5acf8178f",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC006Check.olean",
+        "sha256": "25250154cf334cc32a65759a463c55f042f839ce8964f1e7a520b309d5eaa032",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC006Check.lean.json",
+        "sha256": "22015afd3f229e0ca608e64e4bfea062cce50cd3e638fbe51b12af9b6b87562e",
+        "bytes": 2864
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC006Check.lean.log",
+        "sha256": "26fca7aeda3a71194c00a35cb3d9baac358a9c3ddb40b99d30d776265ae7d558",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC006Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC006Data.olean",
+          "olean_sha256": "c4e248bb113b643742abca7c4bc318bb7e581181a7320da4da92c8f0b1698ad1",
+          "source_sha256": "f2572db7ec3d938f17d27c1ca47d4eaf2cd2fb1f6db6ca7fd76dc9be9e2aa331"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC007Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC007Data.lean",
+        "sha256": "bfe0491273ed06ce192eba354ba26d2be443b46381038bef87f9c9cb241b0a27",
+        "bytes": 5762
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC007Data.olean",
+        "sha256": "918e7889dcdfb118baad395498f46006e5476d08b377d606ee2482e9f8c3c893",
+        "bytes": 577808
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC007Data.lean.json",
+        "sha256": "3bc79ac1bcf833b03e5d5a8866bce03b39cd1826246cf4a75eafb501ac311fa4",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC007Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC007Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC007Check.lean",
+        "sha256": "fca3bcc6e147d9f0e5ca23c740a79cf4d1a2a2be2ebd632b51a6c287ef43ab27",
+        "bytes": 8550
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC007Check.olean",
+        "sha256": "d57f206a77d3a1fd3d8a0cc636c3be7cfc13fa0ad85600c5adbbe71d21880c13",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC007Check.lean.json",
+        "sha256": "a376f0e300963511919225813b12bfde1bada166f657d62d258b473840ae2142",
+        "bytes": 2867
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC007Check.lean.log",
+        "sha256": "7c32b69e82cef21af965e9fcd5cba469c6dda466f6816e8e1769088ab8669bc4",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC007Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC007Data.olean",
+          "olean_sha256": "918e7889dcdfb118baad395498f46006e5476d08b377d606ee2482e9f8c3c893",
+          "source_sha256": "bfe0491273ed06ce192eba354ba26d2be443b46381038bef87f9c9cb241b0a27"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC008Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC008Data.lean",
+        "sha256": "895e61e2fbd01b55bf78a5b97208718b835d56128e23cf8e95b9799c1d33a08a",
+        "bytes": 5763
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC008Data.olean",
+        "sha256": "fa2083ce1ca9f35d33ae4ecd5660735c3b29a601aeda4f47a64b5cd24913a9a2",
+        "bytes": 576456
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC008Data.lean.json",
+        "sha256": "375aad5c4ee6bbedcab9099f9576e86b0e2b0f0b9656ac7fa08fc89545fccd96",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC008Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC008Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC008Check.lean",
+        "sha256": "6654eafb6c154ec5cdb678ea2c840998148df7c81f3dad3bf926ac53bc5223e2",
+        "bytes": 8551
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC008Check.olean",
+        "sha256": "5df9667eb5de83679c5a512f7f4392a21b06c2884c185b2405c151c7ab17bbe1",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC008Check.lean.json",
+        "sha256": "353dcece3c5aa41180b83356bf1fc40f6e97f5873fc8f12ccc21a2c0976c5ecd",
+        "bytes": 2866
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC008Check.lean.log",
+        "sha256": "a86c65d99e5f2934cf2304fe68539a8bcd6a64965b95edf1c2c35b5b044bcd68",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC008Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC008Data.olean",
+          "olean_sha256": "fa2083ce1ca9f35d33ae4ecd5660735c3b29a601aeda4f47a64b5cd24913a9a2",
+          "source_sha256": "895e61e2fbd01b55bf78a5b97208718b835d56128e23cf8e95b9799c1d33a08a"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC009Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC009Data.lean",
+        "sha256": "0dfc050e69f8177a4de4aa367842e5905a614ca2a771ef0489b116375ea15637",
+        "bytes": 5763
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC009Data.olean",
+        "sha256": "1e06acdb5bff41ed9f5687931622e5dcc0c522376fca01ac3fadd8da548d26de",
+        "bytes": 580840
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC009Data.lean.json",
+        "sha256": "696902bc28029d6ef5412da59d2cb79666ddc69c625de197a9097f3a43981ceb",
+        "bytes": 2315
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC009Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC009Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC009Check.lean",
+        "sha256": "bceaa0679016a09e344ba80b1f6d0992d9157225647ab97cc4fc1072472347b0",
+        "bytes": 8551
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC009Check.olean",
+        "sha256": "e8940654c80798461cd16632ea91e3a272aae0c5a0597545b1aaad0f0d916129",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC009Check.lean.json",
+        "sha256": "5a9611f340941dead6cfcab3598004df58310e49a0ac5004e8ed065f8b119152",
+        "bytes": 2866
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC009Check.lean.log",
+        "sha256": "74ab105d5b5b772530667719abd11295504cf1c8abb2d4f656528987f589508f",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC009Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC009Data.olean",
+          "olean_sha256": "1e06acdb5bff41ed9f5687931622e5dcc0c522376fca01ac3fadd8da548d26de",
+          "source_sha256": "0dfc050e69f8177a4de4aa367842e5905a614ca2a771ef0489b116375ea15637"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC010Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC010Data.lean",
+        "sha256": "6071427c0291acc93fcda5957f33760ff9427517892c57d5058754c1a8429c53",
+        "bytes": 5763
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC010Data.olean",
+        "sha256": "d953d6301ebf9d4b103aec47b76e43154a6e79b421936604c323c838f87fdaf9",
+        "bytes": 578152
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC010Data.lean.json",
+        "sha256": "d2674f06a4c767e34af832f9ce0c58f6b3042093bc8c47ab5bbd9e089194ccda",
+        "bytes": 2312
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC010Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC010Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC010Check.lean",
+        "sha256": "6aefe1c5d66ba49553f266eaa3c2d32493a277fb2d2c8958a641a559eaf4399c",
+        "bytes": 8551
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC010Check.olean",
+        "sha256": "d94d5aea545ae2a264aaff1110ca7650d7f82bc17a8ed73222da167b560feee2",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC010Check.lean.json",
+        "sha256": "1c9dfa71d31c57e7aa9a5144d76f70c9b43d9f2f4b2bc0b7cfce80b5c2a33988",
+        "bytes": 2864
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC010Check.lean.log",
+        "sha256": "a30404e69e7259465ab47341cd300d6f1c7ee861adac5dc1fe638a38bd11812e",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC010Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC010Data.olean",
+          "olean_sha256": "d953d6301ebf9d4b103aec47b76e43154a6e79b421936604c323c838f87fdaf9",
+          "source_sha256": "6071427c0291acc93fcda5957f33760ff9427517892c57d5058754c1a8429c53"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC011Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC011Data.lean",
+        "sha256": "d285635e195321aebe83f368ef2476c872981c100d1f70ace145d87d0acffd71",
+        "bytes": 5763
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC011Data.olean",
+        "sha256": "afadec2b0472d3e208f86d940a07faa71d2026dc8b48ddb56baf7901faebf6da",
+        "bytes": 581352
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC011Data.lean.json",
+        "sha256": "7737866202bf6bcd56165b6e301ff05963417e171a453c8b2783986901f31016",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC011Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC011Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC011Check.lean",
+        "sha256": "1433e51b592fa87c2685eafd95a071d05e07b50cba88cfeebf9ac91f4563a684",
+        "bytes": 8551
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC011Check.olean",
+        "sha256": "cd5fed7c6f469f4711dbfec96e0f54f92b9988ce09ea4f19dcf524cd8d7c66ed",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC011Check.lean.json",
+        "sha256": "19ae4a3b01a6732fefa098ea37b74f06bad8a9f34e12fe9f8c0b76ed3075f68a",
+        "bytes": 2864
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC011Check.lean.log",
+        "sha256": "39366362cd5c160935fb37f43b4c2a308c67135609818991568f3215dcc0635b",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC011Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC011Data.olean",
+          "olean_sha256": "afadec2b0472d3e208f86d940a07faa71d2026dc8b48ddb56baf7901faebf6da",
+          "source_sha256": "d285635e195321aebe83f368ef2476c872981c100d1f70ace145d87d0acffd71"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC012Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC012Data.lean",
+        "sha256": "99e06366ac0645ce9ea0cf8ae32dad11f88dffe38360192541ef55c42aabd2f5",
+        "bytes": 5762
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC012Data.olean",
+        "sha256": "bb453081a81529d6d8a3d72a6694fea34c875e8dd1dbf64faccf4d81b52dd2e7",
+        "bytes": 581064
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC012Data.lean.json",
+        "sha256": "23548f83df4b7525f87dba61f461fa05e518e638a64743715aa8abdd7cca693b",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC012Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC012Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC012Check.lean",
+        "sha256": "682eacdd973b7ca51d4c9281b0940aee5ccf6060ebfef0e208c1a3b9dd98dec5",
+        "bytes": 8550
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC012Check.olean",
+        "sha256": "332703773bf438099a48663c00ed4c8104a50aa89e71b6b56c73da8b6d4744cf",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC012Check.lean.json",
+        "sha256": "92151b76eff1255a9de40259a70314d4ba0681ac2a6ed7fd3621ece547f19e9d",
+        "bytes": 2865
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC012Check.lean.log",
+        "sha256": "60e5677325e9a3335e0bb049030ad0632ec04febd69427438d04bc65bedd2d76",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC012Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC012Data.olean",
+          "olean_sha256": "bb453081a81529d6d8a3d72a6694fea34c875e8dd1dbf64faccf4d81b52dd2e7",
+          "source_sha256": "99e06366ac0645ce9ea0cf8ae32dad11f88dffe38360192541ef55c42aabd2f5"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC013Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC013Data.lean",
+        "sha256": "cf5ecbd5ee985b8daf1286bf8402234e297a62b6bb9f464d698c62b214aaf11a",
+        "bytes": 5761
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC013Data.olean",
+        "sha256": "93f04fd5a4d02abdc6079c9bb86a4ece102fbdf847c4b7a832c829a0142ea8a0",
+        "bytes": 582200
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC013Data.lean.json",
+        "sha256": "4ec1bcee2270b1ed9c9a6ddc0c2eeae4ad447ac19826b7afcd4cc53ff9367dec",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC013Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC013Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC013Check.lean",
+        "sha256": "e4faa0e689fa205945a4ef98d83e61108f5ae5980a1b74073f862b05c2a956fd",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC013Check.olean",
+        "sha256": "fb5fbbd1f2dcd063a8f0f91dedb3f057c80318e6b8e6b5162e7ca606fa23ceec",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC013Check.lean.json",
+        "sha256": "40fb1045a724bbbc976aa0f0b8b7947ba3f5c52b9813d8a49879214f62e75339",
+        "bytes": 2864
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC013Check.lean.log",
+        "sha256": "ecaa4573c490b715c3c03a55a02a4848fdc1bc6397da8bc42e3a38c0e1aa8ad4",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC013Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC013Data.olean",
+          "olean_sha256": "93f04fd5a4d02abdc6079c9bb86a4ece102fbdf847c4b7a832c829a0142ea8a0",
+          "source_sha256": "cf5ecbd5ee985b8daf1286bf8402234e297a62b6bb9f464d698c62b214aaf11a"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC014Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC014Data.lean",
+        "sha256": "867492b1d3e939f21d316dfd9b76a7ea8876e72e884c9ab56d8e1f21c98f1d42",
+        "bytes": 5761
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC014Data.olean",
+        "sha256": "5e8ed29520926a64902f79863d7322832b6264bd55481334be4eb01e481fb1be",
+        "bytes": 746312
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC014Data.lean.json",
+        "sha256": "c3a015cdd8661f71451ed0caeddb157230262d832dfe003d007aac2ae7daf1fa",
+        "bytes": 2314
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC014Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "dependencies": {
+        "Init": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/lib/lean/Init.olean",
+          "olean_sha256": "986cb78b8abe89c1eb21703cc912053875d2d18bc3e8a8249140c7f808505172"
+        }
+      }
+    },
+    {
+      "module": "CurrentPR589AC014Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC014Check.lean",
+        "sha256": "d03a3d9e0374be8ca1eabeea56cb7bb6124511d4199426682838c70f3b0db91b",
+        "bytes": 8549
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC014Check.olean",
+        "sha256": "4cf4ef6ed13386e3220cba16052f716d3ee84790d676cab99c9e4305665d305e",
+        "bytes": 163936
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC014Check.lean.json",
+        "sha256": "00db6dcad4fa3e4ccf4202745b3b071723b117153e86afaa1d8b6116fc7c87fb",
+        "bytes": 2866
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/signed_word__current_pr589_ac_unary_pairs_20261013__CurrentPR589AC014Check.lean.log",
+        "sha256": "6c2b0e1397aac182e4e7858d5fc23c0a03eb6103d752e253341e72c25158e498",
+        "bytes": 1504
+      },
+      "dependencies": {
+        "CurrentPR589AC014Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_unary_pairs_20261013/CurrentPR589AC014Data.olean",
+          "olean_sha256": "5e8ed29520926a64902f79863d7322832b6264bd55481334be4eb01e481fb1be",
+          "source_sha256": "867492b1d3e939f21d316dfd9b76a7ea8876e72e884c9ab56d8e1f21c98f1d42"
+        },
+        "BitXorReversal": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.olean",
+          "olean_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+          "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        }
+      }
+    }
+  ],
+  "verified": {
+    "current_import_nodes": 347,
+    "retained_inputs": 319,
+    "official_cached_pairs": 317,
+    "new_roots": 28,
+    "protected_prior_quadruples": 47,
+    "failure_archives": 44,
+    "complete_probes": 238
+  },
+  "complete_probes": {
+    "CurrentMain.CurrentPR589AC001.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC001.block_shape": [],
+    "CurrentMain.CurrentPR589AC001.raw_domains": [],
+    "CurrentMain.CurrentPR589AC001.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC001.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC001.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC001.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC001.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC002.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC002.block_shape": [],
+    "CurrentMain.CurrentPR589AC002.raw_domains": [],
+    "CurrentMain.CurrentPR589AC002.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC002.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC002.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC002.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC002.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC003.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC003.block_shape": [],
+    "CurrentMain.CurrentPR589AC003.raw_domains": [],
+    "CurrentMain.CurrentPR589AC003.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC003.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC003.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC003.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC003.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC004.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC004.block_shape": [],
+    "CurrentMain.CurrentPR589AC004.raw_domains": [],
+    "CurrentMain.CurrentPR589AC004.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC004.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC004.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC004.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC004.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC005.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC005.block_shape": [],
+    "CurrentMain.CurrentPR589AC005.raw_domains": [],
+    "CurrentMain.CurrentPR589AC005.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC005.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC005.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC005.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC005.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC006.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC006.block_shape": [],
+    "CurrentMain.CurrentPR589AC006.raw_domains": [],
+    "CurrentMain.CurrentPR589AC006.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC006.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC006.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC006.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC006.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC007.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC007.block_shape": [],
+    "CurrentMain.CurrentPR589AC007.raw_domains": [],
+    "CurrentMain.CurrentPR589AC007.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC007.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC007.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC007.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC007.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC008.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC008.block_shape": [],
+    "CurrentMain.CurrentPR589AC008.raw_domains": [],
+    "CurrentMain.CurrentPR589AC008.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC008.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC008.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC008.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC008.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC009.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC009.block_shape": [],
+    "CurrentMain.CurrentPR589AC009.raw_domains": [],
+    "CurrentMain.CurrentPR589AC009.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC009.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC009.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC009.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC009.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC010.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC010.block_shape": [],
+    "CurrentMain.CurrentPR589AC010.raw_domains": [],
+    "CurrentMain.CurrentPR589AC010.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC010.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC010.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC010.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC010.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC011.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC011.block_shape": [],
+    "CurrentMain.CurrentPR589AC011.raw_domains": [],
+    "CurrentMain.CurrentPR589AC011.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC011.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC011.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC011.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC011.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC012.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC012.block_shape": [],
+    "CurrentMain.CurrentPR589AC012.raw_domains": [],
+    "CurrentMain.CurrentPR589AC012.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC012.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC012.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC012.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC012.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC013.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC013.block_shape": [],
+    "CurrentMain.CurrentPR589AC013.raw_domains": [],
+    "CurrentMain.CurrentPR589AC013.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC013.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC013.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC013.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC013.helper_only_destinations": [],
+    "CurrentMain.CurrentPR589AC014.decode_roundtrip": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.ordered_A_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.ordered_C_binding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.decoded_no_self_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.decoded_no_target_reads": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.decoded_no_target_writes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.cleanup_runs_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.isolated_block_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.conditional_off_target_cleanup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.conditional_target_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.CurrentPR589AC014.block_shape": [],
+    "CurrentMain.CurrentPR589AC014.raw_domains": [],
+    "CurrentMain.CurrentPR589AC014.raw_cleanup_binding": [],
+    "CurrentMain.CurrentPR589AC014.no_self_reads": [],
+    "CurrentMain.CurrentPR589AC014.no_target_reads": [],
+    "CurrentMain.CurrentPR589AC014.no_target_writes": [],
+    "CurrentMain.CurrentPR589AC014.helper_only_destinations": []
+  },
+  "resources": [
+    {
+      "module": "CurrentPR589AC001Data",
+      "compile_seconds": 1.4028624540078454,
+      "queue_seconds": 3.1369600370235275,
+      "samples": 14,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 321396736,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC001Check",
+      "compile_seconds": 1.366074715013383,
+      "queue_seconds": 4.873185065982398,
+      "samples": 14,
+      "peak_vm_bytes": 907923456,
+      "peak_rss_bytes": 336965632,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC002Data",
+      "compile_seconds": 1.3546342400077265,
+      "queue_seconds": 3.097031262004748,
+      "samples": 14,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 322080768,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC002Check",
+      "compile_seconds": 1.3509622539859265,
+      "queue_seconds": 3.635486375016626,
+      "samples": 14,
+      "peak_vm_bytes": 907984896,
+      "peak_rss_bytes": 340623360,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC003Data",
+      "compile_seconds": 1.3491218559793197,
+      "queue_seconds": 3.500136296992423,
+      "samples": 14,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 322179072,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC003Check",
+      "compile_seconds": 1.436268518998986,
+      "queue_seconds": 3.2260563710005954,
+      "samples": 15,
+      "peak_vm_bytes": 907984896,
+      "peak_rss_bytes": 340103168,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC004Data",
+      "compile_seconds": 1.5170336549927015,
+      "queue_seconds": 3.310540039004991,
+      "samples": 15,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 321351680,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC004Check",
+      "compile_seconds": 1.4818749199912418,
+      "queue_seconds": 3.161107935011387,
+      "samples": 15,
+      "peak_vm_bytes": 907919360,
+      "peak_rss_bytes": 337772544,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC005Data",
+      "compile_seconds": 1.4165488069993444,
+      "queue_seconds": 3.162057036999613,
+      "samples": 15,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 320565248,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC005Check",
+      "compile_seconds": 1.5218073149735574,
+      "queue_seconds": 3.3556267810054123,
+      "samples": 16,
+      "peak_vm_bytes": 907816960,
+      "peak_rss_bytes": 335495168,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC006Data",
+      "compile_seconds": 1.3004712089896202,
+      "queue_seconds": 3.29763550098869,
+      "samples": 13,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 320135168,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC006Check",
+      "compile_seconds": 1.349008749006316,
+      "queue_seconds": 3.285361316986382,
+      "samples": 14,
+      "peak_vm_bytes": 907825152,
+      "peak_rss_bytes": 337784832,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC007Data",
+      "compile_seconds": 1.2829736400162801,
+      "queue_seconds": 3.0698749530129135,
+      "samples": 13,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 321851392,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC007Check",
+      "compile_seconds": 1.3708789329975843,
+      "queue_seconds": 3.1999808010004926,
+      "samples": 14,
+      "peak_vm_bytes": 907825152,
+      "peak_rss_bytes": 335564800,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC008Data",
+      "compile_seconds": 1.351366107002832,
+      "queue_seconds": 3.5212962630030233,
+      "samples": 14,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 320188416,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC008Check",
+      "compile_seconds": 1.3788657620025333,
+      "queue_seconds": 3.3388777269865386,
+      "samples": 14,
+      "peak_vm_bytes": 907821056,
+      "peak_rss_bytes": 335327232,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC009Data",
+      "compile_seconds": 1.4462036930199247,
+      "queue_seconds": 3.3704730269964784,
+      "samples": 15,
+      "peak_vm_bytes": 706564096,
+      "peak_rss_bytes": 326250496,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC009Check",
+      "compile_seconds": 1.4266569539904594,
+      "queue_seconds": 3.220177937997505,
+      "samples": 15,
+      "peak_vm_bytes": 907825152,
+      "peak_rss_bytes": 337510400,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC010Data",
+      "compile_seconds": 1.438232873013476,
+      "queue_seconds": 3.3881821270042565,
+      "samples": 15,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 325283840,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC010Check",
+      "compile_seconds": 1.3972104669956025,
+      "queue_seconds": 4.295819636987289,
+      "samples": 14,
+      "peak_vm_bytes": 907825152,
+      "peak_rss_bytes": 335147008,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC011Data",
+      "compile_seconds": 1.4646212089865003,
+      "queue_seconds": 3.3436498279916123,
+      "samples": 15,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 319115264,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC011Check",
+      "compile_seconds": 1.398366128996713,
+      "queue_seconds": 3.2064142010058276,
+      "samples": 14,
+      "peak_vm_bytes": 907825152,
+      "peak_rss_bytes": 336154624,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC012Data",
+      "compile_seconds": 1.6440370249911211,
+      "queue_seconds": 3.3120078400243074,
+      "samples": 16,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 320131072,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC012Check",
+      "compile_seconds": 1.255287837004289,
+      "queue_seconds": 3.162795834999997,
+      "samples": 13,
+      "peak_vm_bytes": 907825152,
+      "peak_rss_bytes": 335601664,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC013Data",
+      "compile_seconds": 1.2307144130172674,
+      "queue_seconds": 3.1162613180058543,
+      "samples": 13,
+      "peak_vm_bytes": 706564096,
+      "peak_rss_bytes": 333262848,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC013Check",
+      "compile_seconds": 3.387053697981173,
+      "queue_seconds": 3.7580307640018873,
+      "samples": 34,
+      "peak_vm_bytes": 907829248,
+      "peak_rss_bytes": 335745024,
+      "peak_threads": 4
+    },
+    {
+      "module": "CurrentPR589AC014Data",
+      "compile_seconds": 1.3944189400062896,
+      "queue_seconds": 3.192813866015058,
+      "samples": 14,
+      "peak_vm_bytes": 705478656,
+      "peak_rss_bytes": 322072576,
+      "peak_threads": 3
+    },
+    {
+      "module": "CurrentPR589AC014Check",
+      "compile_seconds": 1.4041524800122716,
+      "queue_seconds": 3.1718237540044356,
+      "samples": 14,
+      "peak_vm_bytes": 907993088,
+      "peak_rss_bytes": 337133568,
+      "peak_threads": 4
+    }
+  ],
+  "total_compiler_seconds": 41.117708852980286,
+  "actual_fifo_seconds": 0.014951928023947403,
+  "post_fifo_guard_seconds": 94.65776623701095,
+  "scope": "Fourteen independent current PR589128-gate A/C windows and238 finite/structural probes passed. Destinations are helpers; unary operands can be sources or helpers under exact no-target/no-self facts. Frame1 reversal and conditional middle-map cleanup hold for each separate slice. No cumulative or whole A/C composition is inferred.",
+  "remaining": [
+    "A/C and exact whole-list cleanup binding",
+    "D parity compensation",
+    "Current Fin662 COPY/scatter lifecycle",
+    "Frame geometry and physical transport",
+    "Selected provider and full kappa theorem"
+  ],
+  "source_bound_context": "Exact PR589 literals retained byte-for-byte at f567; no whole-kappa or physical realization conclusion.",
+  "compiler_executed_by_reviewer": false,
+  "first_matches_verified": 347,
+  "durable_pair_checkpoints": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/PAIR_CHECKPOINT_04.json",
+      "sha256": "23605b2640fdb3bda7af391a598db3c5a6df25b86645e44cdc62ede44a845f9c",
+      "bytes": 27932
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/PAIR_CHECKPOINT_08.json",
+      "sha256": "594f492e1af5145195ad1e41e6e4dc67fc5a4f90906a01590b4ade1f7a7ecc76",
+      "bytes": 55293
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/PAIR_CHECKPOINT_12.json",
+      "sha256": "4702be335c1cc495b80a9aadb1649b115e52b66e343a9cfa35dd06dcb738554f",
+      "bytes": 82657
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/PAIR_CHECKPOINT_14.json",
+      "sha256": "31e6cf43d7680f31d42fcbd6e9108437c6f7dbf64373c99abcac186fe9b4f42d",
+      "bytes": 96360
+    }
+  ],
+  "measurement_qualification": "Observed compiler41.117708853s, FIFO and94.657766237s post-slot guards are separate. No cumulative join or extrapolated throughput follows.",
+  "review_interval_utc": [
+    "2026-10-13T08:54:41Z",
+    "2026-10-13T08:56:31.069126+00:00"
+  ],
+  "timing_qualification": "Read-only terminal/tool review; model inference time unknown."
+}

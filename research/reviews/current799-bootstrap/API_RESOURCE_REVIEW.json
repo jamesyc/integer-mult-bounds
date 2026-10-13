@@ -1,0 +1,78 @@
+{
+  "status": "PASS_INDEPENDENT_BOOTSTRAP_TEMPLATE_API_RESOURCE_SHAPE_REVIEW",
+  "review_started_utc": "2026-10-13T08:52:40Z",
+  "completed_utc": "2026-10-13T08:54:18.367566+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-bootstrap/Current799BootstrapCertificate.lean",
+    "sha256": "059da0a82641d911be8e13663cdcbb5e5f188680c1ee270e8d403520faa3282e",
+    "bytes": 18930
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-bootstrap/SOURCE_BINDING.json",
+    "sha256": "9b0bd725b76602c3fb61066245fa2891b3b8bc678bd96665bb4713946dfc8049",
+    "bytes": 28417
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-bootstrap/CHECK_PROPOSAL.json",
+    "sha256": "1aee49e6e362683a2d38420431e66b99967a8e9afde68cfca425ec3403746ecc",
+    "bytes": 72884
+  },
+  "preparation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_bootstrap/SOURCE_PREPARATION.json",
+    "sha256": "72cc23e0dfb211cfbb64ecdedc6fa92a182435ceb24714c1283f39ca91ffec6a",
+    "bytes": 23413
+  },
+  "accepted_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current596-bootstrap/Current596BootstrapCertificate.lean",
+    "sha256": "e76169162bc2a42e2580a36fe7a9471c10a61dbb4b6a5a41b1b34edd60597b70",
+    "bytes": 18907
+  },
+  "native_finite_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_NATIVE_UPPER_TERMINAL_REVIEW.json",
+    "sha256": "c24e8f0b7449219a2493a6dec4d90d6fe53806b84f0651c04cc0a1ab1c8e06d3",
+    "bytes": 9426
+  },
+  "checks": {
+    "exact_body_inverse": "43 named literal definition substitutions and Current799\u2192Current596 namespace/imported-name normalization recover the entire accepted body from namespace onward.",
+    "all_current_source_git_pins": 7,
+    "all_literal_definitions_match_bound_parameters_and_seven_updates": true,
+    "final_rfl_retained": true,
+    "stage_facts": "Twelve separate atomic decisions per stage check exact update, all four minimum gaps, both ceilings and max, monotonic/domain inequalities and cutoff bounds.",
+    "endpoint": "Seven prior update equalities compose to the exact serialized endpoint; no new iteration theorem is invented.",
+    "scope": [
+      5,
+      4,
+      1
+    ],
+    "cached_pairs": 319,
+    "new_probes": [
+      "saving_minimum_is_native",
+      "shrink_matches_literal",
+      "supplied_input_domains",
+      "stage1_certificate",
+      "stage2_certificate",
+      "stage3_certificate",
+      "stage4_certificate",
+      "stage5_certificate",
+      "stage6_certificate",
+      "stage7_certificate",
+      "bootstrap_endpoint_matches_certificate"
+    ],
+    "import_probes": 28,
+    "kernel_decisions": 87,
+    "caps": {
+      "hard_seconds": 60,
+      "hard_vm_bytes": 4294967296,
+      "review_seconds": 40,
+      "review_vm_bytes": 3758096384
+    }
+  },
+  "remaining": [
+    "Signed source/formula science remains separate.",
+    "Exact committed current/driver binding and first-check admission; fresh resource fit remains unmeasured.",
+    "Supplied initial/bit saving validity and native/bit recurrence interpretation.",
+    "Eta-dependent outer q/grid/slacks, physical/operator/profile realization and all-size selected-kappa theorem."
+  ],
+  "compiler_executed": false,
+  "resource_qualification": "Reused decomposition has87 atomic decisions but current large literals still require actual measurement; stop at40seconds/3.5GiB review or60seconds/4GiB hard limits."
+}
