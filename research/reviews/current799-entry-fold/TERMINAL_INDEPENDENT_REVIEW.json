@@ -1,0 +1,433 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT799_ENTRY_FOLD_REPAIR_TERMINAL",
+  "utc": "2026-10-13T09:47:28.164122+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/gate/ACCEPTANCE.json",
+    "sha256": "9ab629183baa4fcb5344bc4a414cca90a2e50dee71bb23cd7f7bf12b1f0b5cb2",
+    "bytes": 23026
+  },
+  "committed_source": {
+    "commit": "9868c4be9c5af0caff2802790141a8649e588d4f",
+    "path": "research/lean-current799-entry-fold/Current799EntryFold.lean"
+  },
+  "current_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      }
+    },
+    {
+      "module": "PR516Realize",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.lean",
+        "sha256": "39d6a1031f29b35c59b581ef5ed939aaa4b80b272df39dafc5608c76d2cf4d3f",
+        "bytes": 8106
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.olean",
+        "sha256": "3bfca6738e7218e4f5357cb40d56fcb671831496fb986b90ef506a8037ecd07a",
+        "bytes": 536080
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__external_reuse__PR516Realize.lean.json",
+        "sha256": "15a76dc639d63eef37b121d242df6c61c30c296096607fc4d272f53e9f280ff2",
+        "bytes": 3437
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__external_reuse__PR516Realize.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "ScalarWriteSupport",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/scalar_write_support/ScalarWriteSupport.lean",
+        "sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e",
+        "bytes": 10646
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/scalar_write_support/ScalarWriteSupport.olean",
+        "sha256": "24161a1625c86789acd5b6d950e5ffd50c43b1100fabaad72b693c120a6dea4b",
+        "bytes": 620328
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__scalar_write_support__ScalarWriteSupport.lean.json",
+        "sha256": "4833a2c0073b58ff9fbd88864588ad3ac7cf94b10fdf77bf46c407f18cc823ff",
+        "bytes": 3518
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__scalar_write_support__ScalarWriteSupport.lean.log",
+        "sha256": "5a0c43c910073ab7f102fc56af25b6fcafebd51077f9005b5dc2f03a73a6f593",
+        "bytes": 1016
+      },
+      "receipt_dependencies": {
+        "PR516Realize": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.olean",
+          "olean_sha256": "3bfca6738e7218e4f5357cb40d56fcb671831496fb986b90ef506a8037ecd07a",
+          "source_sha256": "39d6a1031f29b35c59b581ef5ed939aaa4b80b272df39dafc5608c76d2cf4d3f"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.ScalarWriteSupport.physRun_unchanged",
+          "axioms": []
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.scalRun_unchanged",
+          "axioms": []
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.expanded_target_lt",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.Historical596.encoded_event_count",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.Historical596.support_above_targets",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799ScalarSupport",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_scalar_support/Current799ScalarSupport.lean",
+        "sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7",
+        "bytes": 44632
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_scalar_support/Current799ScalarSupport.olean",
+        "sha256": "1d2cb9032adc7a18ff8d28f032115e0bbff21b2f8e7e4462e77e03f1daed2e4c",
+        "bytes": 3260136
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_scalar_support__Current799ScalarSupport.lean.json",
+        "sha256": "cbe16e10691cb6925880511a3e91a6679a438f2c785f2b7effb10d93a3f75d04",
+        "bytes": 3588
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_scalar_support__Current799ScalarSupport.lean.log",
+        "sha256": "a6ba2f51e739fedfb0d515bd5ced864cce55b7ec8e54302f1561c8f541c46752",
+        "bytes": 1528
+      },
+      "receipt_dependencies": {
+        "ScalarWriteSupport": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/scalar_write_support/ScalarWriteSupport.olean",
+          "olean_sha256": "24161a1625c86789acd5b6d950e5ffd50c43b1100fabaad72b693c120a6dea4b",
+          "source_sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.Current799ScalarSupport.expanded_targets_safe",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799ScalarSupport.interpreted_run_preserves_support",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799EntryConnection",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_connection/Current799EntryConnection.lean",
+        "sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66",
+        "bytes": 5254
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_connection/Current799EntryConnection.olean",
+        "sha256": "0b6f91756aeab985f766de95322b83933d1c03b457c731064a3cfae05dd822d9",
+        "bytes": 115552
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_entry_connection__Current799EntryConnection.lean.json",
+        "sha256": "1b4da1615127b4be5625abb439d11673cd8204640dbdada7564c86d5b24eb632",
+        "bytes": 3619
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_entry_connection__Current799EntryConnection.lean.log",
+        "sha256": "ab266125920c9efee4188a54ffaff332121c5f83e3b3ff467e29c3f7e62e499d",
+        "bytes": 2666
+      },
+      "receipt_dependencies": {
+        "Current799ScalarSupport": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_scalar_support/Current799ScalarSupport.olean",
+          "olean_sha256": "1d2cb9032adc7a18ff8d28f032115e0bbff21b2f8e7e4462e77e03f1daed2e4c",
+          "source_sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.Current799EntryConnection.entryValue_inverse_chart",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryConnection.supported_first_climb_entry_value",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryConnection.supported_first_climb_chart",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799EntryFold",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_fold/Current799EntryFold.lean",
+        "sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0",
+        "bytes": 6085
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_fold/Current799EntryFold.olean",
+        "sha256": "723b27bdd533f581c96f9c88d307307056319d928030baa6534fd2140ab33f08",
+        "bytes": 184696
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_entry_fold__Current799EntryFold.lean.json",
+        "sha256": "5277f4ede366bf72e01433bef1692bc24e83a775d13dd2080d272d56968fd494",
+        "bytes": 3571
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_entry_fold__Current799EntryFold.lean.log",
+        "sha256": "04bd451ca0731a23f22011569a231916023d4665525628741e075b1c0e60cae9",
+        "bytes": 1687
+      },
+      "receipt_dependencies": {
+        "Current799EntryConnection": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_connection/Current799EntryConnection.olean",
+          "olean_sha256": "0b6f91756aeab985f766de95322b83933d1c03b457c731064a3cfae05dd822d9",
+          "source_sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.IndependentEntryFold.runUpdates_eq_foldl",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.IndependentEntryFold.runUpdates_of_not_mem",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.IndependentEntryFold.runUpdates_of_mem",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.entryRegisters_nodup",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.entryRegisters_values",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.selected_entry_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.selected_executor_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    }
+  ],
+  "verified": {
+    "current_quadruples": 6,
+    "external_pairs_and_first_matches": 2213,
+    "protected_prior_quadruples": 244,
+    "complete_probes": 7,
+    "actual_printed_types": 2
+  },
+  "complete_probes": {
+    "CurrentMain.IndependentEntryFold.runUpdates_eq_foldl": [
+      "propext"
+    ],
+    "CurrentMain.IndependentEntryFold.runUpdates_of_not_mem": [
+      "propext"
+    ],
+    "CurrentMain.IndependentEntryFold.runUpdates_of_mem": [
+      "propext"
+    ],
+    "CurrentMain.Current799EntryFold.entryRegisters_nodup": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurrentMain.Current799EntryFold.entryRegisters_values": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurrentMain.Current799EntryFold.selected_entry_action": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurrentMain.Current799EntryFold.selected_executor_action": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "actual_printed_types": [
+    {
+      "declaration": "@CurrentMain.Current799EntryFold.selected_entry_action",
+      "actual_printed_type": "@CurrentMain.Current799EntryFold.selected_entry_action : \u2200 {M : Type u_1} (act : Fin 736 \u2192 M \u2192 M) (Rinv : M \u2192 M),\n  (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n      \u2200 (v : M), act i v = CurrentMain.Current799EntryConnection.entryValue Rinv i v) \u2192\n    CurrentMain.Current799EntryConnection.HasSelectedEntryAction\n      (CurrentMain.IndependentEntryFold.runUpdates act CurrentMain.Current799EntryFold.entryRegisters) Rinv",
+      "selected_operator_equations_explicit": true,
+      "executor_equality_explicit": false
+    },
+    {
+      "declaration": "@CurrentMain.Current799EntryFold.selected_executor_action",
+      "actual_printed_type": "@CurrentMain.Current799EntryFold.selected_executor_action : \u2200 {M : Type u_1} (actualEntry : (Fin 736 \u2192 M) \u2192 Fin 736 \u2192 M)\n  (act : Fin 736 \u2192 M \u2192 M) (Rinv : M \u2192 M),\n  actualEntry = CurrentMain.IndependentEntryFold.runUpdates act CurrentMain.Current799EntryFold.entryRegisters \u2192\n    (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n        \u2200 (v : M), act i v = CurrentMain.Current799EntryConnection.entryValue Rinv i v) \u2192\n      CurrentMain.Current799EntryConnection.HasSelectedEntryAction actualEntry Rinv",
+      "selected_operator_equations_explicit": true,
+      "executor_equality_explicit": true
+    }
+  ],
+  "failure_archives_verified": 19,
+  "measures": {
+    "started_utc": "2026-10-13T09:43:39.979739+00:00",
+    "finished_utc": "2026-10-13T09:43:45.192778+00:00",
+    "compile_seconds": 5.213027140998747,
+    "queue_seconds": 0.0005291840061545372,
+    "preparation_seconds": 0.9583729099831544,
+    "process_observations": {
+      "samples": 52,
+      "peak_vm_bytes": 2299547648,
+      "peak_rss_bytes": 1514524672,
+      "peak_threads": 4
+    }
+  },
+  "source_repair_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-fold/PROJECTION_TYPE_REPAIR_REVIEW.json",
+    "sha256": "8c22a0f296a068a765a233bba58806a35d6def327addbbd05b7cfb55a96fbb46",
+    "bytes": 2165
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/gate/SIGNED_SINGLE_BINDING_REVIEW.json",
+    "sha256": "4632ac66c597d0a7f0aed7de2fcc48444c77c61ae6ee8156fd39d2615831bf15",
+    "bytes": 5267
+  },
+  "scientific_scope": "Own-coordinate update fold, absent/nodup laws and exact0..727 schedule. The sixteen selected operator equations are explicit; actual executor equality is retained in the executor theorem. Other operators remain arbitrary.",
+  "exclusions": [
+    "Concrete residualR(4,1) semantics and its selected operator equations.",
+    "Actual Python/physical entry executor equality with this formal fold.",
+    "Both typed scalar traces, prew/hstart labels, incoming chart and all-size hypotheses."
+  ],
+  "qualification": "Actual printed types retain all sixteen selected operator equations and actualEntry=runUpdates for the executor corollary. The generic fold and source register order are accepted; concrete operators, physical executor correspondence, both scalar trace suppliers and incoming charts remain separate.",
+  "reviewer_compiler_execution": false
+}
