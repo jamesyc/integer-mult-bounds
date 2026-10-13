@@ -1,0 +1,214 @@
+{
+  "status": "SOURCE_BOUND_CURRENT_PR799_NATIVE_REAL_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-13T07:33:14.497619+00:00",
+  "source": {
+    "module": "Current799NativeRealEnclosure",
+    "file": "Current799NativeRealEnclosure.lean",
+    "sha256": "13662565524336ee693ee356770072c071ab31234c7ac8c70413cda9ac1ba9ba",
+    "bytes": 12022,
+    "explicit_imports": [
+      "Current799NativeUpperAggregate",
+      "SelectedMomentExpEnclosure",
+      "SelectedRoundedLogEnclosure",
+      "Current741LogRealEnclosure"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current799NativeRealEnclosure.current_rounded_log_enclosures",
+      "CurrentMain.Current799NativeRealEnclosure.currentRealMoment_le_upper",
+      "CurrentMain.Current799NativeRealEnclosure.currentRealMoment_strict"
+    ]
+  },
+  "current_source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-f567884-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/certificates/selected-result.json",
+      "sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+      "bytes": 7059,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "1f107b55a2f045fa66d9c35d658b3b79549f5ba6"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+      "bytes": 127995,
+      "repository_path": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "git_blob": "9921a5d90ef8aa005df3a872adbf1a90e484cad8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/ASSEMBLY.json",
+      "sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+      "bytes": 85641,
+      "repository_path": "research/community-frontier799-audit/ASSEMBLY.json",
+      "git_blob": "a04bfd932a15196fe8e2418eae912ea745152593"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/data/SPEC.json",
+      "sha256": "64817c60a4a2c1839bf12239cb1b7515a40bf8988229d81d4c9faa17b488c7d5",
+      "bytes": 19085,
+      "repository_path": "research/gauge44-frames-x/data/SPEC.json",
+      "git_blob": "65d1048b0356ce508fbd8f2607eae7689d598d9f"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/assemble.py",
+      "sha256": "4c270a996b380ab712f72b81173ab24f1c73203a33578f261bfbaa7e67d75aec",
+      "bytes": 20788,
+      "repository_path": "research/gauge44-frames-x/code/assemble.py",
+      "git_blob": "8cee90b50e238bd1519a7aeb7395f62d277b8ae4"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/witness.py",
+      "sha256": "779c5172894b992131e85be1e592ed2a1aec8c287b872ff42007d36a7291e444",
+      "bytes": 2985,
+      "repository_path": "research/gauge44-frames-x/code/witness.py",
+      "git_blob": "c5c7fbc1142220ce854907de4e439420ac12d30c"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1661634653669567/1000000000000000000",
+  "decimal": "0.001661634653669567",
+  "target_fields": {
+    "bCurrent": {
+      "pointer": "/complex_lower",
+      "value": "1664400278850482327913/1000000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/moments/complex,accept=true/base_two/1",
+      "value": "-622009/1000000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 183457,
+      "2": 24336,
+      "3": 30961,
+      "4": 13968,
+      "5": 4032,
+      "8": 576,
+      "44": 1,
+      "48": 2396
+    },
+    "dimension": 73,
+    "live": 7168,
+    "source_surcharge_model": {
+      "complex": false,
+      "bit": true
+    },
+    "conservative_complex_surcharge": true
+  },
+  "source_lines": {
+    "profile_and_native_moment": "gauge44-frames-x/code/assemble.py:177-203,225-230;SPEC.json expected.global_profile/live;witness.py:7-10,46-52",
+    "base_two": "base_two_moment.py:20-58"
+  },
+  "finite_predecessor_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-native-upper/Current799NativeUpperAggregate.lean",
+    "sha256": "8f42c1972477423572ba85819437c6ca130bc6dbaa791dba3bccbebe50934217",
+    "bytes": 66868
+  },
+  "finite_predecessor_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-native-upper/SOURCE_BINDING.json",
+    "sha256": "0584f7ce5f2f6c41e46d6de5488e999e99b43156e31af943ed7fccb8ba54c6f8",
+    "bytes": 7981
+  },
+  "finite_acceptance_condition": "Actual owner and independent terminal required before compiler dispatch; no target residual accepted by this proposal.",
+  "ordered_arguments": [
+    {
+      "rank": 1,
+      "count": 183457,
+      "k": 6,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 2,
+      "count": 24336,
+      "k": 5,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 3,
+      "count": 30961,
+      "k": 4,
+      "n": 25,
+      "d": 121
+    },
+    {
+      "rank": 4,
+      "count": 13968,
+      "k": 4,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 5,
+      "count": 4032,
+      "k": 3,
+      "n": 33,
+      "d": 113
+    },
+    {
+      "rank": 8,
+      "count": 576,
+      "k": 3,
+      "n": 9,
+      "d": 137
+    },
+    {
+      "rank": 44,
+      "count": 1,
+      "k": 0,
+      "n": 29,
+      "d": 117
+    },
+    {
+      "rank": 48,
+      "count": 2396,
+      "k": 0,
+      "n": 25,
+      "d": 121
+    }
+  ],
+  "source_preparation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/SOURCE_PREPARATION.json",
+    "sha256": "35d412eca84665628bd36e4bde2fdb5c9f85b332b4ed211a112a7e11257a60c8",
+    "bytes": 2448
+  },
+  "generic_binary_transport": {
+    "source": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-rounded-log-enclosure/SelectedRoundedLogEnclosure.lean",
+      "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6",
+      "bytes": 6046
+    },
+    "segment_sha256": "305a9a59ae4380d30a1756751946a746554ce2495c6181102b027d5fcaca81dd",
+    "status": "Byte-identical accepted private rounded_from_domain, including all cast fixes."
+  },
+  "accepted_rank44_real_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT741_LOG_REAL_TERMINAL_REVIEW.json",
+    "sha256": "25267c87ef233aaab5e64e616b841c39eb4b6e549a3d1357b75637b8cabe6e61",
+    "bytes": 7546
+  },
+  "pre_ceiling_rational_body_byte_identity": true,
+  "real_whole_weighted_terms": 8,
+  "rounding": "One ceiling of the eight-term native ordinary sum at GRID10^30. No fallback term in this selected native branch. Conservative complex and PR589 bit retain independent fallbacks and are excluded.",
+  "new_public_facts": [
+    "All eight current rounded Real.log bounds.",
+    "The actual native Real moment is bounded by the exact ordinary ceiling.",
+    "The actual native Real moment is strictly below1, conditional on the checked finite predecessor."
+  ],
+  "remaining": [
+    "Native recurrence validity, source profile/operator realization and provider/admission interfaces.",
+    "Current seven-update bootstrap/eta/beta/offset/grid/47-slack data and fallback-bearing bit branch.",
+    "Physical/all-size transfer and full selected-kappa theorem."
+  ]
+}
