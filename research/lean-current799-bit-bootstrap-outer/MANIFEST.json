@@ -1,0 +1,746 @@
+{
+  "format": "flat-exact-source-manifest-v1",
+  "lean_version": "4.21.0",
+  "source_modules": 15,
+  "included_source_modules": 8,
+  "external_source_modules": 7,
+  "source_bytes": 456699,
+  "included_source_bytes": 249331,
+  "compile_order": [
+    {
+      "module": "SelectedMomentLogCheckpoints",
+      "file": "SelectedMomentLogCheckpoints.lean",
+      "origin": "pr585",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554,
+      "imports": [
+        "Batteries.Data.Rat.Basic"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedMomentUpperAggregate",
+      "file": "SelectedMomentUpperAggregate.lean",
+      "origin": "pr585",
+      "sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6",
+      "bytes": 75995,
+      "imports": [
+        "SelectedMomentLogCheckpoints"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedMomentExpEnclosure",
+      "file": "SelectedMomentExpEnclosure.lean",
+      "origin": "pr605",
+      "sha256": "b999dafefb6f3e2fd5b03babb91491800855064ae6407c8878c605f20160d000",
+      "bytes": 8071,
+      "imports": [
+        "SelectedMomentUpperAggregate",
+        "Mathlib.Data.Complex.Exponential"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentExpEnclosure.expUpper_real_enclosure",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentExpEnclosure.selected_exp_enclosures",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedMomentLogUnitEnclosure",
+      "file": "SelectedMomentLogUnitEnclosure.lean",
+      "origin": "pr605",
+      "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+      "bytes": 8938,
+      "imports": [
+        "SelectedMomentLogCheckpoints",
+        "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedMomentLogUnitEnclosure.log_two_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_64_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_48_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_40_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedMomentLogUnitEnclosure.log_73_56_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "SelectedRoundedLogEnclosure",
+      "file": "SelectedRoundedLogEnclosure.lean",
+      "origin": "pr605",
+      "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6",
+      "bytes": 6046,
+      "imports": [
+        "SelectedMomentUpperAggregate",
+        "SelectedMomentLogUnitEnclosure"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.SelectedRoundedLogEnclosure.ceilGrid_outward",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedRoundedLogEnclosure.selected_rounded_log_enclosures",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current741LogCheckpoints",
+      "file": "Current741LogCheckpoints.lean",
+      "origin": "pr885",
+      "sha256": "3c8de84bb92bdfebf5960578c10dcd4613a3ddd717e94be3028c3c1892cddb0d",
+      "bytes": 7896,
+      "imports": [
+        "SelectedMomentLogCheckpoints"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current741LogCheckpoints.z29_117_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799NativeUpperAggregate",
+      "file": "Current799NativeUpperAggregate.lean",
+      "origin": "pr885",
+      "sha256": "8f42c1972477423572ba85819437c6ca130bc6dbaa791dba3bccbebe50934217",
+      "bytes": 66868,
+      "imports": [
+        "SelectedMomentUpperAggregate",
+        "Current741LogCheckpoints"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current799NativeUpperAggregate.profile_totals",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.Current799NativeUpperAggregate.current_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799NativeUpperAggregate.ordinary_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799NativeUpperAggregate.upper_matches_current_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799NativeUpperAggregate.current_upper_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "CurrentBitLogCheckpoints",
+      "file": "CurrentBitLogCheckpoints.lean",
+      "origin": "included",
+      "sha256": "e603335f6420b4b4033c33652f3361121fce8f00daf16a6858a9c8a02738298d",
+      "bytes": 10306,
+      "imports": [
+        "SelectedMomentLogCheckpoints"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.CurrentBitLogCheckpoints.z1_7_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.CurrentBitLogCheckpoints.z1_15_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current543LogCheckpoints",
+      "file": "Current543LogCheckpoints.lean",
+      "origin": "included",
+      "sha256": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+      "bytes": 12224,
+      "imports": [
+        "SelectedMomentLogCheckpoints"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current543LogCheckpoints.z3_13_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current543LogCheckpoints.z11_53_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current589BitUpperAggregate",
+      "file": "Current589BitUpperAggregate.lean",
+      "origin": "included",
+      "sha256": "559f9bb79bff1ac92bf44ff1edf07ef6928636370dd50c7ef1345f3a1b8c67d9",
+      "bytes": 67334,
+      "imports": [
+        "SelectedMomentUpperAggregate",
+        "CurrentBitLogCheckpoints",
+        "Current543LogCheckpoints"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current589BitUpperAggregate.profile_totals",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.Current589BitUpperAggregate.current_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current589BitUpperAggregate.ordinary_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current589BitUpperAggregate.fallback_rounded_exact",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current589BitUpperAggregate.upper_matches_current_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current589BitUpperAggregate.current_upper_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "CurrentBitLogRealEnclosure",
+      "file": "CurrentBitLogRealEnclosure.lean",
+      "origin": "included",
+      "sha256": "646bfa9dd620d5a3a04979c3fa52d1bb0ae36953acc365ab9f2cf4baebb29202",
+      "bytes": 9523,
+      "imports": [
+        "CurrentBitLogCheckpoints",
+        "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.CurrentBitLogRealEnclosure.log_four_thirds_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.CurrentBitLogRealEnclosure.log_eight_sevenths_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.CurrentBitLogRealEnclosure.log_four_thirds_literal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.CurrentBitLogRealEnclosure.log_eight_sevenths_literal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current543LogRealEnclosure",
+      "file": "Current543LogRealEnclosure.lean",
+      "origin": "included",
+      "sha256": "4d6371d4ca72f1ae864e2dd0598a9b6d685164cc1707fccbfab4c1f967798d0c",
+      "bytes": 9817,
+      "imports": [
+        "Current543LogCheckpoints",
+        "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current543LogRealEnclosure.log_eight_fifths_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current543LogRealEnclosure.log_thirty_two_twenty_one_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current543LogRealEnclosure.log_eight_fifths_literal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current543LogRealEnclosure.log_thirty_two_twenty_one_literal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current589BitRealEnclosure",
+      "file": "Current589BitRealEnclosure.lean",
+      "origin": "included",
+      "sha256": "c052ad8982516520ee18176fa5f1400fef1267932cd0a6ecc88ad09dfd4b883e",
+      "bytes": 13513,
+      "imports": [
+        "Current589BitUpperAggregate",
+        "SelectedMomentExpEnclosure",
+        "SelectedRoundedLogEnclosure",
+        "CurrentBitLogRealEnclosure",
+        "Current543LogRealEnclosure"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current589BitRealEnclosure.current_rounded_log_enclosures",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current589BitRealEnclosure.currentRealMoment_le_upper",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current589BitRealEnclosure.currentRealMoment_strict",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799BootstrapCertificate",
+      "file": "Current799BootstrapCertificate.lean",
+      "origin": "included",
+      "sha256": "059da0a82641d911be8e13663cdcbb5e5f188680c1ee270e8d403520faa3282e",
+      "bytes": 18930,
+      "imports": [
+        "Current799NativeUpperAggregate"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.saving_minimum_is_native",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.shrink_matches_literal",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.supplied_input_domains",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage1_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage2_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage3_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage4_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage5_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage6_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.stage7_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799BootstrapCertificate.bootstrap_endpoint_matches_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799OuterClosure",
+      "file": "Current799OuterClosure.lean",
+      "origin": "included",
+      "sha256": "98c7b61a95b0ef169edce59defbe60fd20191c7e1ba166f5e0c7915f9e2c0bdc",
+      "bytes": 107684,
+      "imports": [
+        "Current799BootstrapCertificate"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.strict_constraints_match_certificate",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.strict_constraint_count",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.strict_constraints_positive",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.seven_margins_match",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.seven_margin_count",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.seven_margin_minimum",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.all_margins_above_kappa",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.balanced_prefix_gap",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.gamma_identity",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.geometry_identity",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current799OuterClosure.selected_kappa_grid",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    }
+  ],
+  "axiom_probe_count": 69,
+  "public_reproduction": "See the sole mutable REPLAY_SUMMARY.json record.",
+  "explicit_imports_only": true
+}

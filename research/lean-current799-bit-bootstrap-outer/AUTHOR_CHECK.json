@@ -1,0 +1,49 @@
+{
+  "status": "AUTHOR_CHECKED_EXACT_SOURCE_AND_SCOPE",
+  "checked_utc": "2026-10-13T10:08:11.197467+00:00",
+  "author_role": "analytic proof owner",
+  "conditional_kappa": {
+    "numerator": 1661634653669567,
+    "denominator": 1000000000000000000,
+    "decimal": "0.001661634653669567",
+    "selected_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "meaning": "Pinned conditional source context; finite/Real moment and bootstrap/outer arithmetic leave supplier/recurrence/physical/all-size semantics open."
+  },
+  "scope": {
+    "total_sources": 15,
+    "included_sources": 8,
+    "retained_public_outputs": 7,
+    "fresh_public_checks": 8,
+    "new_probes": 43,
+    "complete_probes": 69,
+    "external_cached_modules": 3260
+  },
+  "source_bytes_unchanged": true,
+  "public_pins": {
+    "ACCEPTED_CHECKS.json": "25cbf54872c892c2ccb9beef407dd68f0870d470c4ca31121a6294f9abeb53b5",
+    "Current543LogCheckpoints.lean": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+    "Current543LogRealEnclosure.lean": "4d6371d4ca72f1ae864e2dd0598a9b6d685164cc1707fccbfab4c1f967798d0c",
+    "Current589BitRealEnclosure.lean": "c052ad8982516520ee18176fa5f1400fef1267932cd0a6ecc88ad09dfd4b883e",
+    "Current589BitUpperAggregate.lean": "559f9bb79bff1ac92bf44ff1edf07ef6928636370dd50c7ef1345f3a1b8c67d9",
+    "Current799BootstrapCertificate.lean": "059da0a82641d911be8e13663cdcbb5e5f188680c1ee270e8d403520faa3282e",
+    "Current799OuterClosure.lean": "98c7b61a95b0ef169edce59defbe60fd20191c7e1ba166f5e0c7915f9e2c0bdc",
+    "CurrentBitLogCheckpoints.lean": "e603335f6420b4b4033c33652f3361121fce8f00daf16a6858a9c8a02738298d",
+    "CurrentBitLogRealEnclosure.lean": "646bfa9dd620d5a3a04979c3fa52d1bb0ae36953acc365ab9f2cf4baebb29202",
+    "DEPENDENCIES.json": "39f4d86479a9a36900ecbae01c11db0d8ed0db7f9d0ba42d7eda1ac251bc2e16",
+    "EXTERNAL_OBJECTS_REFERENCE.json": "9ce56e24806a3548252701a8d419e937db6d9680c9fb4ecb2dd9bfe968014836",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "MANIFEST.json": "1da4d7f1bedebaf297540535c44c1c44fb797dd3fe18b826aba0fc2c337250f0",
+    "NOTICE.md": "2dc2b1ae8e79deb9aafc8a830ba3e4f719e7987f5770581d5d08316aff444db6",
+    "PROVENANCE.json": "0f08818971d53131e516551156e1bc3f3352f276e0e7ae4d7d6a28977707c9ca",
+    "README.md": "56cdf445cf33ef0e25bf240a3693890188efdec8024aa75c0a7054670d164800",
+    "REPLAY_SUMMARY.json": "816939a6d5597a7adb899e06efac775f35023ecc08ce4c013ea8ae19419506f3",
+    "SOURCE_BINDING.json": "ec0d2f9b69bb92801372842fd3539ed107f7bfc39fc8b6f2ad9352ef733c070b"
+  },
+  "native_origin_publication": {
+    "pr": 885,
+    "commit": "0181d0f2e00278535f435968f000d7e2ec4b93aa",
+    "parent": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "publisher_verified_utc": "2026-10-13T10:04:48Z"
+  },
+  "mutable_reproduction_status_file": "REPLAY_SUMMARY.json"
+}

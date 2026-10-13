@@ -1,0 +1,112 @@
+{
+  "status": "AUTHOR_CHECKED_BYTE_IDENTICAL_ACCEPTED_RESEARCH_SOURCES",
+  "included_modules": [
+    {
+      "module": "CurrentBitLogCheckpoints",
+      "file": "CurrentBitLogCheckpoints.lean",
+      "sha256": "e603335f6420b4b4033c33652f3361121fce8f00daf16a6858a9c8a02738298d",
+      "bytes": 10306
+    },
+    {
+      "module": "Current543LogCheckpoints",
+      "file": "Current543LogCheckpoints.lean",
+      "sha256": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+      "bytes": 12224
+    },
+    {
+      "module": "Current589BitUpperAggregate",
+      "file": "Current589BitUpperAggregate.lean",
+      "sha256": "559f9bb79bff1ac92bf44ff1edf07ef6928636370dd50c7ef1345f3a1b8c67d9",
+      "bytes": 67334
+    },
+    {
+      "module": "CurrentBitLogRealEnclosure",
+      "file": "CurrentBitLogRealEnclosure.lean",
+      "sha256": "646bfa9dd620d5a3a04979c3fa52d1bb0ae36953acc365ab9f2cf4baebb29202",
+      "bytes": 9523
+    },
+    {
+      "module": "Current543LogRealEnclosure",
+      "file": "Current543LogRealEnclosure.lean",
+      "sha256": "4d6371d4ca72f1ae864e2dd0598a9b6d685164cc1707fccbfab4c1f967798d0c",
+      "bytes": 9817
+    },
+    {
+      "module": "Current589BitRealEnclosure",
+      "file": "Current589BitRealEnclosure.lean",
+      "sha256": "c052ad8982516520ee18176fa5f1400fef1267932cd0a6ecc88ad09dfd4b883e",
+      "bytes": 13513
+    },
+    {
+      "module": "Current799BootstrapCertificate",
+      "file": "Current799BootstrapCertificate.lean",
+      "sha256": "059da0a82641d911be8e13663cdcbb5e5f188680c1ee270e8d403520faa3282e",
+      "bytes": 18930
+    },
+    {
+      "module": "Current799OuterClosure",
+      "file": "Current799OuterClosure.lean",
+      "sha256": "98c7b61a95b0ef169edce59defbe60fd20191c7e1ba166f5e0c7915f9e2c0bdc",
+      "bytes": 107684
+    }
+  ],
+  "public_sources_byte_identical_to_accepted": true,
+  "conditional_project_context": {
+    "source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "kappa": "1661634653669567/1000000000000000000",
+    "decimal": "0.001661634653669567",
+    "selected_result_sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+    "certificate": "research/community-frontier799-audit/ASSEMBLY.json",
+    "certificate_sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+    "author_checked": true,
+    "qualification": "Pinned conditional project context. Bit Real moment and finite bootstrap/outer arithmetic do not establish source realization, a complexity recurrence or the full selected-kappa/all-size multiplication theorem."
+  },
+  "publication_base": {
+    "initial_intended_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "final_candidate_binding": "The exact publication parent is recorded in the separately reviewed final candidate receipt."
+  },
+  "source_binding": "SOURCE_BINDING.json",
+  "accepted_reference_checks": "ACCEPTED_CHECKS.json",
+  "public_reproduction": {
+    "file": "REPLAY_SUMMARY.json",
+    "sha256": "816939a6d5597a7adb899e06efac775f35023ecc08ce4c013ea8ae19419506f3"
+  },
+  "runtime": {
+    "lean_version": "4.21.0",
+    "lean_binary_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "mathlib_commit": "308445d7985027f538e281e18df29ca16ede2ba3",
+    "library_paths_relative_to_mathlib": [
+      ".lake/build/lib/lean",
+      ".lake/packages/LeanSearchClient/.lake/build/lib/lean",
+      ".lake/packages/Qq/.lake/build/lib/lean",
+      ".lake/packages/aesop/.lake/build/lib/lean",
+      ".lake/packages/batteries/.lake/build/lib/lean",
+      ".lake/packages/importGraph/.lake/build/lib/lean",
+      ".lake/packages/plausible/.lake/build/lib/lean",
+      ".lake/packages/proofwidgets/.lake/build/lib/lean"
+    ],
+    "external_objects": 3260,
+    "external_object_bytes": 2129675328,
+    "inventory_reference": "EXTERNAL_OBJECTS_REFERENCE.json",
+    "fit_qualification": "Summed external-object bytes are a static inventory measurement, not a runtime memory bound or fit guarantee.",
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 40,
+    "review_vm_bytes": 3758096384
+  },
+  "overlap": {
+    "PR585": "Retain two public helpers only.",
+    "PR605": "Retain three generic Real helpers and runtime inventory provenance.",
+    "PR885": "Retain rank44 finite and current native rational roots only; no native Real sources copied.",
+    "PR842": "No historical596 instance/outer source imported."
+  },
+  "scope_exclusions": [
+    "Profile/operator/provider realization and source correctness beyond pinned arithmetic and reviewed transcription.",
+    "Supplied initial saving384599/10^10, scalar strict_literal_gap1/row20161 and coefficient512 semantics.",
+    "Interpreting the bit/native moment bounds and seven bootstrap updates as valid complexity-saving contracts.",
+    "Integer child-size rounding, additive recurrence work, caller/precision, physical/tape execution and all-size transfer.",
+    "The generic homogeneous-potential transfer proposal is outside this completed package."
+  ],
+  "ai_disclosure": "Proofs, data transcription, metadata and prose were substantially prepared with OpenAI assistance and independently reviewed.",
+  "aggregate_validation": "Candidate-specific aggregate or hostedCI outcomes require their own exact receipts."
+}
