@@ -1,0 +1,65 @@
+{
+  "data_bytes": 14025,
+  "data_source_sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+  "decoder_sha256": "e3e3d5d8b478a36d8d8bcbdd1f674f15503500ee4196d8127e3962916eff40fc",
+  "elapsed_seconds": 0.1584074559941655,
+  "histogram": {
+    "backward": {
+      "add": 25,
+      "relabel": 8
+    },
+    "forward": {
+      "add": 25,
+      "relabel": 8
+    }
+  },
+  "inputs": {
+    "CANONICAL-WORD.json.gz": {
+      "bytes": 83939,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "uncompressed_bytes": 482268,
+      "uncompressed_sha256": "1c0e9da767d4418f70016af599e4a447a3f7777acabe930318459c0fbbd260aa"
+    },
+    "CLIFFORD-RECIPES.json": {
+      "bytes": 994364,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CLIFFORD-RECIPES.json",
+      "sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+      "uncompressed_bytes": 994364,
+      "uncompressed_sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7"
+    },
+    "LOCAL-PROGRAMS.json.gz": {
+      "bytes": 208661,
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "uncompressed_bytes": 2047934,
+      "uncompressed_sha256": "223c2bb27ad68a4e9468c3ddaece1899d577b661190922fdd25f5976052c4cab"
+    }
+  },
+  "limits": {
+    "AS": 536870912,
+    "CPU": 20,
+    "wall": 30
+  },
+  "maxrss_bytes": 49291264,
+  "negative_controls": [
+    "duplicate_json",
+    "nonfinite",
+    "bool_integer",
+    "zero_denominator",
+    "bad_frame",
+    "bad_register",
+    "unknown_row"
+  ],
+  "no_label_operator_replay": true,
+  "no_upstream_execution": true,
+  "omitted_sha256": "38de1c9b54465cb3793e1e359bc162ab4b770608168d7bda0d8553e0307066cb",
+  "projection_sha256": "a0199f66a1e1a513b0a773e8310e2201ddd2fc04d776b74eb7e31444886da31c",
+  "rows_each": 33,
+  "source_ready_utc": "2026-10-13T07:11:07.995883+00:00",
+  "split": [
+    24,
+    9
+  ],
+  "status": "STRICT_SOURCE_LITERAL_PROJECTION_ONLY"
+}

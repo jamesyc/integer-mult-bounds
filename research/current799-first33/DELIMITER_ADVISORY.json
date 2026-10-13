@@ -1,0 +1,40 @@
+{
+  "tool": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668",
+    "bytes": 5111
+  },
+  "advisory_only": true,
+  "results": [
+    {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 14025,
+      "source_sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageData.lean",
+      "elapsed_seconds": 0.004189699990092777,
+      "max_source_bytes": 1048576
+    },
+    {
+      "status": "ADVISORY_NO_ASCII_IMBALANCE",
+      "reason": null,
+      "advisory_only": true,
+      "parser_or_kernel_claim": false,
+      "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+      "issue_count": 0,
+      "issues": [],
+      "issue_output_limit": 32,
+      "bytes_read": 11287,
+      "source_sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7",
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageCheck.lean",
+      "elapsed_seconds": 0.003346190002048388,
+      "max_source_bytes": 1048576
+    }
+  ]
+}

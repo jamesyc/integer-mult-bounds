@@ -1,0 +1,161 @@
+{
+  "decoder": {
+    "reference": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/decode_ck33.py",
+      "sha256": "c71f8240cd5f392262a121809176238294cb19ec35cdc1a5d141825a49748c7b",
+      "bytes": 8988
+    },
+    "candidate": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/decode_current33.py",
+      "sha256": "e3e3d5d8b478a36d8d8bcbdd1f674f15503500ee4196d8127e3962916eff40fc",
+      "bytes": 9079
+    },
+    "ordered_replacements": [
+      {
+        "before": "current9594 CK",
+        "after": "current799 gauge44",
+        "count": 2
+      },
+      {
+        "before": "Current9594CK",
+        "after": "Current799First33",
+        "count": 3
+      },
+      {
+        "before": "decode_ck33.py",
+        "after": "decode_current33.py",
+        "count": 1
+      },
+      {
+        "before": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck_generation/output/ck-local",
+        "after": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local",
+        "count": 1
+      },
+      {
+        "before": "1079",
+        "after": "1005",
+        "count": 10
+      },
+      {
+        "before": "3017",
+        "after": "2949",
+        "count": 2
+      },
+      {
+        "before": "21559",
+        "after": "24399",
+        "count": 1
+      },
+      {
+        "before": "9899",
+        "after": "9241",
+        "count": 5
+      },
+      {
+        "before": "9932",
+        "after": "9274",
+        "count": 2
+      },
+      {
+        "before": "9931",
+        "after": "9273",
+        "count": 1
+      },
+      {
+        "before": "25d7ea5a5f9ea1206a343548460d1c9775fdb9bdabdedc8d73f122ace019cd93",
+        "after": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+        "count": 1
+      },
+      {
+        "before": "b0f956032fbd98b9702e1904f78e911e810e55835b2aff025952182762b32623",
+        "after": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+        "count": 1
+      },
+      {
+        "before": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+        "after": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+        "count": 1
+      },
+      {
+        "before": "enumerate(arr(recipes['children'],2949))",
+        "after": "enumerate(arr(recipes['children'],2949)[:3])",
+        "count": 1
+      },
+      {
+        "before": "keymap[0,2]!=(0,1)",
+        "after": "keymap[0,4]!=(2,1)",
+        "count": 1
+      },
+      {
+        "before": "{'phase':3,'scalar:scale':56,'scalar:add':9112,'adapter':500,'residual_adapter':228}",
+        "after": "{'phase':3,'scalar:scale':339,'scalar:add':8171,'adapter':440,'residual_adapter':288}",
+        "count": 1
+      },
+      {
+        "before": "1005 frames and2949 directed children retain source order; no old f19 table is substituted.",
+        "after": "1005 frame dimensions and the first3 of2949 directed child keys retain exact source order.\nThe bounded catalog prefix includes ordinal2; no full catalog theorem is claimed.",
+        "count": 1
+      },
+      {
+        "before": "then 2 else labels",
+        "after": "then 4 else labels",
+        "count": 1
+      },
+      {
+        "before": "9594b61042164a27a31e44d8c3197f231470eda0",
+        "after": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+        "count": 1
+      }
+    ]
+  },
+  "check": {
+    "reference": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-label-coverage/Current9594CKCoverageCheck.lean",
+      "sha256": "bf34d2d1e4c2ae402ea24e0ca7d3f38cb61c9880a22666534ec49626f1623471",
+      "bytes": 10720
+    },
+    "candidate": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageCheck.lean",
+      "sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7",
+      "bytes": 11287
+    },
+    "ordered_replacements": [
+      {
+        "before": "Fresh current9594 CK canonical-frame checks for exactly raw9899..9931, both orientations.\nThe current1079-frame catalog and initializer are certified at this literal boundary.",
+        "after": "Fresh current799 canonical-frame checks for exactly raw9241..9273, both orientations.\nThe1005-frame dimensions,728 initial labels and first3 child keys are certified at this literal boundary.\nOnly ordinal2 old0/new4 is exercised. Actual pre-A execution remains a separate supplier.",
+        "count": 1
+      },
+      {
+        "before": "Current9594CK",
+        "after": "Current799First33",
+        "count": 116
+      },
+      {
+        "before": "1079",
+        "after": "1005",
+        "count": 9
+      },
+      {
+        "before": "children.size = 3017",
+        "after": "children.size = 3",
+        "count": 1
+      },
+      {
+        "before": "List.range' 9899 24",
+        "after": "List.range' 9241 24",
+        "count": 2
+      },
+      {
+        "before": "List.range' 9923 9",
+        "after": "List.range' 9265 9",
+        "count": 2
+      },
+      {
+        "before": "(2 : FrameLabel 1005)",
+        "after": "(4 : FrameLabel 1005)",
+        "count": 8
+      }
+    ]
+  },
+  "note": "Exact forward transforms. Proof bodies remain unchanged after only namespace,finite-label target and exact source-index bindings. No compiler has run."
+}

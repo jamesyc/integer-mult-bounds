@@ -1,0 +1,244 @@
+{
+  "status": "SOURCE_FROZEN_CURRENT799_FIRST33_NO_COMPILER",
+  "utc": "2026-10-13T07:12:21.016101+00:00",
+  "snapshot": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "root_authority": "Root2026-10-13 06:57 and07:05 authorizes current first33 source preparation; exact first compiler admission still follows independent science/API and binding review.",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageData.lean",
+      "sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+      "bytes": 14025,
+      "module": "Current799First33CoverageData",
+      "imports": [
+        "CanonicalFrameCoverage"
+      ],
+      "probes": []
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageCheck.lean",
+      "sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7",
+      "bytes": 11287,
+      "module": "Current799First33CoverageCheck",
+      "imports": [
+        "Current799First33CoverageData"
+      ],
+      "probes": [
+        "current_table_shape",
+        "exact_A_source_indices",
+        "exact_B_source_indices",
+        "forward_A_labels_checked",
+        "forward_A_children_checked",
+        "forward_A_checked",
+        "forward_A_wellLabelled",
+        "forward_support24",
+        "forward_touched24",
+        "forward_checkpoint24",
+        "forward_B_labels_checked",
+        "forward_B_children_checked",
+        "forward_B_checked",
+        "forward_B_wellLabelled",
+        "forward_support33",
+        "forward_touched33",
+        "forward_checkpoint33",
+        "forward_composed_wellLabelled33",
+        "forward_composed_checkpoint33",
+        "backward_A_labels_checked",
+        "backward_A_children_checked",
+        "backward_A_checked",
+        "backward_A_wellLabelled",
+        "backward_support24",
+        "backward_touched24",
+        "backward_checkpoint24",
+        "backward_B_labels_checked",
+        "backward_B_children_checked",
+        "backward_B_checked",
+        "backward_B_wellLabelled",
+        "backward_support33",
+        "backward_touched33",
+        "backward_checkpoint33",
+        "backward_composed_wellLabelled33",
+        "backward_composed_checkpoint33"
+      ]
+    }
+  ],
+  "retained": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current535-label-coverage-proposal/CanonicalFrameCoverage.lean",
+      "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+      "bytes": 7771
+    },
+    {
+      "module": "PR509Stream",
+      "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+    }
+  ],
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/SOURCE_TRANSFORM.json",
+    "sha256": "33d2f06566fc9202a1db457fa1de94089e0ec8855fc1c0cc797a30f007d48924",
+    "bytes": 5425
+  },
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/decode_current33.py",
+    "sha256": "e3e3d5d8b478a36d8d8bcbdd1f674f15503500ee4196d8127e3962916eff40fc",
+    "bytes": 9079
+  },
+  "decoder_audit": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/DECODER_AUDIT.json",
+    "sha256": "b1f4ed87ef8539295117fc6499b4cfcca3b694baaa342c9aee81865d0a6fdeea",
+    "bytes": 2335
+  },
+  "literal_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/LITERAL_PROJECTION.json",
+    "sha256": "a0199f66a1e1a513b0a773e8310e2201ddd2fc04d776b74eb7e31444886da31c",
+    "bytes": 42970
+  },
+  "omitted_rows": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/PRE_A_OMITTED_ROWS.json",
+    "sha256": "38de1c9b54465cb3793e1e359bc162ab4b770608168d7bda0d8553e0307066cb",
+    "bytes": 190620
+  },
+  "advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/DELIMITER_ADVISORY.json",
+    "sha256": "105f53a5c2dcb574b8a4c11690b7ba509daab37a0cbf75c8d75aa2e004f0f477",
+    "bytes": 1567
+  },
+  "artifact_verification": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "data_scope": {
+    "frame_dimensions": 1005,
+    "original_labels": 728,
+    "full_source_catalog_count": 2949,
+    "literal_catalog_prefix_count": 3,
+    "used_child_ordinal": 2,
+    "used_key": [
+      0,
+      4,
+      1
+    ],
+    "rows_each": 33,
+    "raw_inclusive": [
+      9241,
+      9273
+    ],
+    "splits": [
+      24,
+      9
+    ],
+    "histogram_each": {
+      "add": 25,
+      "relabel": 8
+    },
+    "block_histograms": [
+      {
+        "add": 17,
+        "relabel": 7
+      },
+      {
+        "add": 8,
+        "relabel": 1
+      }
+    ],
+    "supports": {
+      "backward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ],
+      "forward": [
+        [
+          558,
+          572,
+          559,
+          582,
+          560,
+          570,
+          561
+        ],
+        [
+          584
+        ]
+      ]
+    },
+    "next_excluded_raw": 9274,
+    "next_excluded_key": [
+      0,
+      5
+    ]
+  },
+  "local_scope": {
+    "total": 4,
+    "retained": 2,
+    "fresh": 2
+  },
+  "external_pairs": 2213,
+  "caps": {
+    "hard_seconds": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_VM_bytes": 3758096384,
+    "Elab.async": false,
+    "maxHeartbeats": 2000000,
+    "maxRecDepth": 8192,
+    "serial_jobs_max": 2
+  },
+  "baseline": {
+    "acceptance": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current9594_ck33/ACCEPTANCE.json",
+      "sha256": "459bc60a558fb84a294941489a9f1e3adfbaf3d12ad3eed3cea5bfacc17ced91",
+      "bytes": 57636
+    },
+    "metrics": [
+      {
+        "module": "Current9594CKCoverageData",
+        "admitted_utc": "2026-10-12T16:51:42.655812+00:00",
+        "compiler_started_utc": "2026-10-12T16:51:43.753941+00:00",
+        "compile_seconds": 18.369842564992723,
+        "queue_seconds": 0.0005843160033691674,
+        "samples": 181,
+        "peak_vm_bytes": 2244399104,
+        "peak_rss_bytes": 1693810688,
+        "peak_threads": 3
+      },
+      {
+        "module": "Current9594CKCoverageCheck",
+        "admitted_utc": "2026-10-12T16:52:07.346025+00:00",
+        "compiler_started_utc": "2026-10-12T16:52:08.435500+00:00",
+        "compile_seconds": 11.424758755005314,
+        "queue_seconds": 0.00045732200669590384,
+        "samples": 114,
+        "peak_vm_bytes": 2302357504,
+        "peak_rss_bytes": 1730506752,
+        "peak_threads": 3
+      }
+    ],
+    "qualification": "Historical different-catalog baseline; no speedup or fit inferred."
+  },
+  "limits": [
+    "Only current33 projected rows per orientation and full736-coordinate label boundaries0/24/33.",
+    "Declared canonical initial labels are actual728 start entries; centresdefault0. No executed prefix/entrance-state theorem, omitted adapter action or payload-cleanliness premise.",
+    "Prior scalar events are label-neutral in the projection;731 phase/adapter rows remain omitted and unproved. No prefix WellLabelled statement.",
+    "Directed catalog/rank and signed denominator checks supply no operator/physical execution.",
+    "Three-entry catalog prefix retains source array ordinals0,1,2. Shape theorem says3, not2949; no full current catalog coverage."
+  ],
+  "completion": "Two fresh roots accepted below existing review thresholds and all35 complete probes, exact inverse/source review and independent terminal. Stop on first failure/review.",
+  "math_wall": {
+    "observed_window_utc": [
+      "2026-10-13T07:08:06Z",
+      "2026-10-13T07:12:21.017124+00:00"
+    ],
+    "kind": "mixed source preparation, reduction-scope design and bounded literal tools",
+    "inference_minutes": null
+  }
+}
