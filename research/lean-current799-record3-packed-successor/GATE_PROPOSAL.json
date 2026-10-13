@@ -1,0 +1,91 @@
+{
+  "status": "SOURCE_UNCHANGED_PACKED_SUCCESSOR_PENDING_VALIDITY_TERMINAL_SOURCE_ALIGNMENT_AND_FRESH_ADMISSION",
+  "utc": "2026-10-13T09:51:59.504124+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/frame/research/lean-current799-record3-split-proposal/Current799Record3Packed.lean",
+    "sha256": "7535f8813cb78158fecefb1f9ca9953778520a87a538d40431a7dd5f0da43728",
+    "bytes": 2601
+  },
+  "committed_source": {
+    "commit": "252352b08497ee6ace2e66e08f8eacbe884807ba",
+    "path": "research/lean-current799-record3-split-proposal/Current799Record3Packed.lean"
+  },
+  "prior_exact_source_api_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current799_record3_review/SPLIT_RESOURCE_REDESIGN_SOURCE_API_REVIEW.json",
+    "sha256": "dfd21f89424e1c4c087d4af0d31177c8925a1ff013722cab236401a616f17217",
+    "bytes": 6817
+  },
+  "actual_validity_owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_cancellation_validity/gate/ACCEPTANCE.json",
+    "sha256": "f0e06ab97c3fb2acdcd8884baea0a3b5aa63bef9ec2f972ed7041d27237ec58e",
+    "bytes": 184930
+  },
+  "validity_terminal": "PENDING_INDEPENDENT_REVIEW",
+  "scope": {
+    "modules": 18,
+    "current_local": 17,
+    "pending": 1
+  },
+  "direct_imports": [
+    "Current799Record3Validity"
+  ],
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/packed_gaussian_reindex/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "caa4906e60782c7619fbcb4278a284a5a699ac48079f19fd8d114d65adc5e8b4",
+    "bytes": 2268324
+  },
+  "external_pairs": 2663,
+  "probes": [
+    "CurrentMain.Current799Record3Packed.rhs_reduced",
+    "CurrentMain.Current799Record3Packed.exact_packed_check",
+    "CurrentMain.Current799Record3Packed.packed_child"
+  ],
+  "kernel_decisions": 1,
+  "decision_statement": "HyperplaneEnd.Clifford.check lhs rhsReduced = true",
+  "decision_work": {
+    "lhs_gates": 5,
+    "rhs_reduced_gates": 5,
+    "tree_depth": 9,
+    "tree_leaves": 512,
+    "gaussians_each_side": 1,
+    "radix": 16,
+    "scale": 1,
+    "materialized_gate_tree_evaluations": 10,
+    "initial_packed_tree": 1,
+    "compared_complex_integer_leaves": 512
+  },
+  "symbolic_work": "Two universal literal-identity gate laws plus chronological rhs normalization; original full recipe conclusion via the accepted cL_eq_of_check and cE inverse laws.",
+  "source_binding": "Exact current799 catalog ordinal3/key0\u21925/rank1,ordered[]\u2192[75],all stored phase and offset fields retained; accepted literal_binding and unchanged cOk conjunction are prerequisites.",
+  "removed_work": "No canonical helper, matrix inverse, Gate.ok or source literal decision is repeated in this root. Four identity gates are omitted only from packed comparison through a proved full complex-action equality.",
+  "cost_qualification": "Ten versus fourteen tree-gate evaluations is a structural reduction only. No measured fit, speedup, completed packed equality or accepted all-payload recipe is claimed.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "options": {
+    "Elab.async": false,
+    "maxHeartbeats": "unchanged default",
+    "maxRecDepth": "unchanged default"
+  },
+  "preserved_failures": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_packed_proposal/allocation_failure_baseline/FAILURE.json",
+      "sha256": "106ad1cc2fcf598ff37c4225143b0c0f465e4aa6081b91e2705714f7cabe1b09",
+      "bytes": 5559
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_split_proposal/validity_gate/allocation_failure_baseline/FAILURE.json",
+      "sha256": "23fa7fb9828dd20dd0afc311138e5eafcb4623f9e73e916f0c9ba157cacb55c0",
+      "bytes": 103598
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/current799_record3_symbolic_validity/gate/symbolic_failure_baseline/FAILURE.json",
+      "sha256": "10ff9ed84ada4f14f16bfcace6b38f35e1cb31917b841a4e800d5659d007bc09",
+      "bytes": 141175
+    }
+  ],
+  "physical_boundary": "Typed events, charts/entry, packed executor and full-work interpretation remain separate.",
+  "admission": "Concrete18/17/1 fresh closure and actual validity terminal require source/API/resource alignment and root release before final failed-prestate binding or execution."
+}
