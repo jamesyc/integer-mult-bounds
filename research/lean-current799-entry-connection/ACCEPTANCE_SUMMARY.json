@@ -1,0 +1,74 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENTLY_REVIEWED",
+  "utc": "2026-10-13T08:17:47.434073+00:00",
+  "source_commit": {
+    "commit": "01626f9a46a5e32fcb24673715256f1503813424",
+    "path": "research/lean-current799-entry-connection/Current799EntryConnection.lean"
+  },
+  "owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_connection_proposal/gate/ACCEPTANCE.json",
+    "sha256": "b51a1c5e743fa26b0ddf0be10e46004af509151579f9136a0e52745ac7a4360e",
+    "bytes": 20000
+  },
+  "independent_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-connection/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "2bed1ed81432ba708b572af591409fb255702afb4c814018c1d039731e4e0796",
+    "bytes": 18610
+  },
+  "measures": {
+    "started_utc": "2026-10-13T07:59:57.743338+00:00",
+    "finished_utc": "2026-10-13T08:00:01.960778+00:00",
+    "compile_seconds": 4.217435594997369,
+    "queue_seconds": 0.0013644179998664185,
+    "preparation_seconds": 1.9826974180032266,
+    "process_observations": {
+      "samples": 42,
+      "peak_vm_bytes": 2299428864,
+      "peak_rss_bytes": 1506578432,
+      "peak_threads": 4
+    }
+  },
+  "probes": [
+    {
+      "name": "CurrentMain.Current799EntryConnection.entryValue_inverse_chart",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799EntryConnection.supported_first_climb_entry_value",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799EntryConnection.supported_first_climb_chart",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "printed_types": [
+    {
+      "declaration": "@CurrentMain.Current799EntryConnection.supported_first_climb_entry_value",
+      "actual_printed_type": "@CurrentMain.Current799EntryConnection.supported_first_climb_entry_value : \u2200 {\u039b : Type u_1} {K : Type u_2}\n  {M : Type u_3} [inst : Semiring K] [inst_1 : AddCommMonoid M] [inst_2 : Module K M] (rec : \u039b \u2192 \u039b \u2192 M \u2192 M)\n  (pre earlyA : List (LemmaG.Event (Fin 736) \u039b K)),\n  CurrentMain.Current799ScalarSupport.HasDestinationTrace pre CurrentMain.Current799ScalarSupport.preconditionTargets\n      CurrentMain.Current799ScalarSupport.preconditionRuns \u2192\n    CurrentMain.Current799ScalarSupport.HasDestinationTrace earlyA CurrentMain.Current799ScalarSupport.earlyATargets\n        CurrentMain.Current799ScalarSupport.earlyARuns \u2192\n      \u2200 (entry : (Fin 736 \u2192 M) \u2192 Fin 736 \u2192 M) (Rinv : M \u2192 M),\n        CurrentMain.Current799EntryConnection.HasSelectedEntryAction entry Rinv \u2192\n          \u2200 (h : Fin 736 \u2192 M),\n            \u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n              LemmaG.Stream.physRun rec earlyA (entry (LemmaG.Stream.physRun rec pre h)) i =\n                CurrentMain.Current799EntryConnection.entryValue Rinv i (h i)",
+      "typed_trace_premise_explicit": true
+    },
+    {
+      "declaration": "@CurrentMain.Current799EntryConnection.supported_first_climb_chart",
+      "actual_printed_type": "@CurrentMain.Current799EntryConnection.supported_first_climb_chart : \u2200 {\u039b : Type u_1} {K : Type u_2} {M : Type u_3}\n  [inst : Semiring K] [inst_1 : AddCommMonoid M] [inst_2 : Module K M] (rec : \u039b \u2192 \u039b \u2192 M \u2192 M)\n  (pre earlyA : List (LemmaG.Event (Fin 736) \u039b K)),\n  CurrentMain.Current799ScalarSupport.HasDestinationTrace pre CurrentMain.Current799ScalarSupport.preconditionTargets\n      CurrentMain.Current799ScalarSupport.preconditionRuns \u2192\n    CurrentMain.Current799ScalarSupport.HasDestinationTrace earlyA CurrentMain.Current799ScalarSupport.earlyATargets\n        CurrentMain.Current799ScalarSupport.earlyARuns \u2192\n      \u2200 (entry : (Fin 736 \u2192 M) \u2192 Fin 736 \u2192 M) (R : M \u2243\u2097[K] M) (T4 : M \u2192 M),\n        CurrentMain.Current799EntryConnection.HasSelectedEntryAction entry \u21d1R.symm \u2192\n          \u2200 (h x : Fin 736 \u2192 M),\n            (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                h i = CurrentMain.Current799EntryConnection.incomingChart (\u21d1R) T4 x i) \u2192\n              \u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                LemmaG.Stream.physRun rec earlyA (entry (LemmaG.Stream.physRun rec pre h)) i =\n                  CurrentMain.Current799EntryConnection.enteredChart T4 x i",
+      "typed_trace_premise_explicit": true
+    }
+  ],
+  "scientific_scope": "Selected first-climb values equal the supplied entry action on the original16 registers; with incomingR41(T4(x)) at residual8, the inverse cancels toT4(x). Both typed scalar traces, the full entry-executor selected pointwise law, concreteR41/frame4 interpretation and incoming chart are explicit premises.",
+  "exclusions": [
+    "No concrete full-prefix typed trace supplier or prefix execution-to-labels theorem.",
+    "Actual entry executor correspondence, concrete packedR41 inverse, prew labels and hstart remain separate.",
+    "Backward dependency slice, physical executor and all-size conclusions remain open.",
+    "Actual selected source destination arrays are bound; typed-event trace/executor correspondence is not inferred.",
+    "No previous resource hold cleared."
+  ]
+}
