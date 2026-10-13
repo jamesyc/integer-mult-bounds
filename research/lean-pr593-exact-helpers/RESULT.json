@@ -1,0 +1,57 @@
+{
+  "status": "PASS_EXACT_HELPER_DEFINITIONS_AND_API",
+  "source_commit": "45da88839917c28f94d5d879b4b280646edb82a1",
+  "module": "PR593ExactHelpers",
+  "source_sha256": "89af6f75b50cf3b2645ba73ac335d148b8668fdadac2f9080c9b01f9b614a617",
+  "object_sha256": "ae0c83bdab044ec828ac8e2758fccf6d0af1ce780f47920cdd58dc00d3f31a91",
+  "receipt_sha256": "9b83a70a37807836a3bb5f52a27582b37966c0d0f5dd1fe0d879b3fc88532508",
+  "log_sha256": "798c39ace775e152e1f35a593e1e0d2820944317bd39f256512d58d8ac41a749",
+  "owner_acceptance_sha256": "a6a1aaa61eec7b69619b705e13e2e86523ade56ef3fdc02a61ea2b7de096fa57",
+  "independent_terminal_sha256": "fa019006548a546f229a049031df2781ab3eb3d5f2895ec84ac79e90f3180597",
+  "original_run_utc": "2026-10-12T18:31:29.969952+00:00",
+  "terminal_readback_utc": "2026-10-13T06:36:09.121731+00:00",
+  "scope": {
+    "modules": 2,
+    "current_local": 2,
+    "pending": 0
+  },
+  "external_pairs": 2501,
+  "definition_probes": [
+    {
+      "name": "HyperplaneEnd.Exact.invRows",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "HyperplaneEnd.Exact.fourierC",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "HyperplaneEnd.Exact.canon",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "HyperplaneEnd.Exact.Mono.gates",
+      "axioms": [
+        "propext"
+      ]
+    }
+  ],
+  "printed_API_types": [
+    "HyperplaneEnd.Exact.canon : \u2115 \u2192 List \u2115 \u2192 List HyperplaneEnd.Clifford.Gate",
+    "HyperplaneEnd.Exact.invRows : \u2115 \u2192 List \u2115 \u2192 List \u2115",
+    "HyperplaneEnd.Exact.Mono.gates : HyperplaneEnd.Exact.Mono \u2192 List HyperplaneEnd.Clifford.Gate"
+  ],
+  "resources": {
+    "compile_seconds": 4.784165164994192,
+    "fifo_seconds": 0.000685172009980306,
+    "peak_vm_bytes": 2574753792
+  },
+  "claim": "Exact upstream pure helper definitions elaborate and expose the recorded API. No source-loop correctness, selected inverse/validity or packed certificate is implied.",
+  "publication": "No independent publication or selected-source adoption."
+}
