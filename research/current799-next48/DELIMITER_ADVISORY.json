@@ -1,0 +1,56 @@
+{
+  "helper": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/f19-label-recipe-coverage-proposal/tools/lean_delimiter_advisory.py",
+    "sha256": "e52b1e4b01197317a7ecfe0c55438829e8e4a350bd59a40cce2705b985e9b668",
+    "bytes": 5111
+  },
+  "advisory_only": true,
+  "results": [
+    {
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next48/Current799Next48Data.lean",
+        "sha256": "2ec4b675d8ea1deb6cdb29cafb1eb076dfa065a9a921cda9a192f11d5848c3a0",
+        "bytes": 6766
+      },
+      "result": {
+        "status": "ADVISORY_NO_ASCII_IMBALANCE",
+        "reason": null,
+        "advisory_only": true,
+        "parser_or_kernel_claim": false,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "issue_count": 0,
+        "issues": [],
+        "issue_output_limit": 32,
+        "bytes_read": 6766,
+        "source_sha256": "2ec4b675d8ea1deb6cdb29cafb1eb076dfa065a9a921cda9a192f11d5848c3a0",
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next48/Current799Next48Data.lean",
+        "elapsed_seconds": 0.0017240630113519728,
+        "max_source_bytes": 1048576
+      },
+      "elapsed_seconds": 0.04256327397888526
+    },
+    {
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next48/Current799Next48Check.lean",
+        "sha256": "954512cf7f29a02dac54cc25800d3e4d0ab65cdd3a148797f0684099854d6486",
+        "bytes": 12569
+      },
+      "result": {
+        "status": "ADVISORY_NO_ASCII_IMBALANCE",
+        "reason": null,
+        "advisory_only": true,
+        "parser_or_kernel_claim": false,
+        "delimiter_subset": "ASCII (), [], {} plus Lean tuple \u27e8\u27e9",
+        "issue_count": 0,
+        "issues": [],
+        "issue_output_limit": 32,
+        "bytes_read": 12569,
+        "source_sha256": "954512cf7f29a02dac54cc25800d3e4d0ab65cdd3a148797f0684099854d6486",
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next48/Current799Next48Check.lean",
+        "elapsed_seconds": 0.0034953710273839533,
+        "max_source_bytes": 1048576
+      },
+      "elapsed_seconds": 0.04186176898656413
+    }
+  ]
+}

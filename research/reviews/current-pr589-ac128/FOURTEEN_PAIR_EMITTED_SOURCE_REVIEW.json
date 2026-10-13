@@ -1,0 +1,33 @@
+{
+  "status": "PASS_EXACT_EMITTED_SOURCE_APPLICABILITY_TO_REVIEWED_PLAN",
+  "completed_utc": "2026-10-13T08:34:11.702997+00:00",
+  "emission": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/SOURCE_EMISSION.json",
+    "sha256": "8aa4ac382ede7095f385bb8c55f184cbb9cb15f046d436f87781886e7afb17f4",
+    "bytes": 198802
+  },
+  "commit_binding": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/COMMIT_BINDING.json",
+    "sha256": "b5161c899f11942afa9b74e8c8bd7159674e27e05d6c42c3b9007d41289956f8",
+    "bytes": 7172
+  },
+  "plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac128/FOURTEEN_UNARY_PAIR_ADMISSION_PLAN.json",
+    "sha256": "1bb8f91a7ebbb8f320c88eab28bdf5dc531a63a3c4782c8b708bb0da50d2270c",
+    "bytes": 40849
+  },
+  "independent_plan_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac128/FOURTEEN_PAIR_PLAN_REVIEW.json",
+    "sha256": "331b36cc77f6fad6e5e2463f75dc940f842df099eb6578dbcac4f29193967e4d",
+    "bytes": 5697
+  },
+  "source_commit": "bc9de18e9cd60b8a9665300eece18657bcb0efe7",
+  "exact_sources": 28,
+  "lean_bytes": 199814,
+  "probes": 238,
+  "kernel_decisions": 98,
+  "checks": "Every committed emitted byte equals the reviewed prospective hash and reconstructs from the exact accepted representative using its ordered substitutions. Prior independent raw-slice/reversal and proof-template readback applies unchanged.",
+  "resource_qualification": "1680 seconds is summed per-job compiler hard caps only. Root acknowledges guards/FIFO/review/transfer separately, with no total wall cap inferred.",
+  "remaining": "Exact current closure, named serial driver/first-stop and runtime binding before any compiler. No aggregate join or selected B off-target-preservation premise is supplied.",
+  "compiler_executed": false
+}

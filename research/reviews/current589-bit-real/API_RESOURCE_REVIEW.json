@@ -1,0 +1,122 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_TEMPLATE_API_RESOURCE_SHAPE_REVIEW",
+  "review_started_utc": "2026-10-13T08:29:41Z",
+  "completed_utc": "2026-10-13T08:32:45.280152+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current589-bit-real/Current589BitRealEnclosure.lean",
+    "sha256": "c052ad8982516520ee18176fa5f1400fef1267932cd0a6ecc88ad09dfd4b883e",
+    "bytes": 13513
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current589-bit-real/SOURCE_BINDING.json",
+    "sha256": "804af44de6b72ff56f5c08dcb2651fbcf003e42df93bc008e1339d3532fc956f",
+    "bytes": 6753
+  },
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_real/SOURCE_API_RESOURCE_PROPOSAL.json",
+    "sha256": "9e12254af10a1c3a42a70cea6760ff007403d6257b08666aec82f6ec21fe7493",
+    "bytes": 28862
+  },
+  "preparation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_real/SOURCE_PREPARATION.json",
+    "sha256": "7fbd828afe0d115cb7e5f4419bc21dc15f451069011ef51a062751d7c1f74122",
+    "bytes": 2484
+  },
+  "checks": {
+    "source_git_pins": 7,
+    "rounded_from_domain": "Exact accepted native generic proof after sourceLogDomain\u2192bitLogDomain and Real73\u219264 only. Strict lower unit bound suffices; upper\u22642 is not misused as strict.",
+    "rank_one_cast": "Explicit accepted Nat.cast_one normalization retained.",
+    "ordered_arguments": [
+      [
+        1,
+        381024,
+        5,
+        1,
+        3
+      ],
+      [
+        2,
+        400416,
+        4,
+        1,
+        3
+      ],
+      [
+        3,
+        22752,
+        4,
+        1,
+        7
+      ],
+      [
+        4,
+        26880,
+        3,
+        1,
+        3
+      ],
+      [
+        5,
+        29376,
+        3,
+        3,
+        13
+      ],
+      [
+        6,
+        17376,
+        3,
+        1,
+        7
+      ],
+      [
+        7,
+        26784,
+        3,
+        1,
+        15
+      ],
+      [
+        42,
+        288,
+        0,
+        11,
+        53
+      ]
+    ],
+    "ordinary_rational_body_exact": true,
+    "ordinary_real_whole_terms_match": true,
+    "fallback_rational_body_exact": true,
+    "fallback_proof": "Exact accepted proof after names and 73*7168\u219264*28416 substitutions.",
+    "ceilings": 2,
+    "fallback_scale_after_separate_ceilings": "1/10000000000000000",
+    "numeric_decisions": 0,
+    "scope": [
+      11,
+      10,
+      1
+    ],
+    "cached_pairs": 3260,
+    "import_probes": 41,
+    "new_probes": [
+      "current_rounded_log_enclosures",
+      "currentRealMoment_le_upper",
+      "currentRealMoment_strict"
+    ],
+    "caps": {
+      "hard_seconds": 60,
+      "hard_vm_bytes": 4294967296,
+      "review_seconds": 40,
+      "review_vm_bytes": 3758096384
+    }
+  },
+  "reasoning": "Positive ratio and binary logarithm identity give the eight rounded log enclosures; positive saving, exponential monotonicity and nonnegative full source weights preserve each upper bound. Ordinary and fallback sums have separate outward ceilings before the fallback scale. The existing finite strict aggregate closes the Real inequality by exact_mod_cast.",
+  "prerequisite_status": "Current543LogRealEnclosure source is reviewed but its independent accepted object remains required; this is not a runtime/current admission.",
+  "remaining": [
+    "Signed scientific formula review.",
+    "Actual prerequisite terminal, committed exact source, current/runtime/driver admission before compiler.",
+    "Supplier/profile/operator realization, recurrence saving meaning, bootstrap/outer and all-size selected kappa remain separate."
+  ],
+  "compiler_executed": false,
+  "fit": "No new numeric decisions; actual fresh elaboration is unmeasured and the40s/3.5GiB review boundary remains."
+}
