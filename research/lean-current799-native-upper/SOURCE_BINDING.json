@@ -1,0 +1,176 @@
+{
+  "status": "SOURCE_BOUND_CURRENT_PR799_NATIVE_FINITE_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-13T07:21:41.289303+00:00",
+  "source": {
+    "module": "Current799NativeUpperAggregate",
+    "file": "Current799NativeUpperAggregate.lean",
+    "sha256": "8f42c1972477423572ba85819437c6ca130bc6dbaa791dba3bccbebe50934217",
+    "bytes": 66868,
+    "explicit_imports": [
+      "SelectedMomentUpperAggregate",
+      "Current741LogCheckpoints"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current799NativeUpperAggregate.profile_totals",
+      "CurrentMain.Current799NativeUpperAggregate.current_domains",
+      "CurrentMain.Current799NativeUpperAggregate.ordinary_rounded_exact",
+      "CurrentMain.Current799NativeUpperAggregate.upper_matches_current_certificate",
+      "CurrentMain.Current799NativeUpperAggregate.current_upper_strict"
+    ]
+  },
+  "current_source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-f567884-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/certificates/selected-result.json",
+      "sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+      "bytes": 7059,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "1f107b55a2f045fa66d9c35d658b3b79549f5ba6"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+      "bytes": 127995,
+      "repository_path": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "git_blob": "9921a5d90ef8aa005df3a872adbf1a90e484cad8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/ASSEMBLY.json",
+      "sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+      "bytes": 85641,
+      "repository_path": "research/community-frontier799-audit/ASSEMBLY.json",
+      "git_blob": "a04bfd932a15196fe8e2418eae912ea745152593"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/data/SPEC.json",
+      "sha256": "64817c60a4a2c1839bf12239cb1b7515a40bf8988229d81d4c9faa17b488c7d5",
+      "bytes": 19085,
+      "repository_path": "research/gauge44-frames-x/data/SPEC.json",
+      "git_blob": "65d1048b0356ce508fbd8f2607eae7689d598d9f"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/assemble.py",
+      "sha256": "4c270a996b380ab712f72b81173ab24f1c73203a33578f261bfbaa7e67d75aec",
+      "bytes": 20788,
+      "repository_path": "research/gauge44-frames-x/code/assemble.py",
+      "git_blob": "8cee90b50e238bd1519a7aeb7395f62d277b8ae4"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/witness.py",
+      "sha256": "779c5172894b992131e85be1e592ed2a1aec8c287b872ff42007d36a7291e444",
+      "bytes": 2985,
+      "repository_path": "research/gauge44-frames-x/code/witness.py",
+      "git_blob": "c5c7fbc1142220ce854907de4e439420ac12d30c"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1661634653669567/1000000000000000000",
+  "decimal": "0.001661634653669567",
+  "target_fields": {
+    "bCurrent": {
+      "pointer": "/complex_lower",
+      "value": "1664400278850482327913/1000000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/moments/complex,accept=true/base_two/1",
+      "value": "-622009/1000000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 183457,
+      "2": 24336,
+      "3": 30961,
+      "4": 13968,
+      "5": 4032,
+      "8": 576,
+      "44": 1,
+      "48": 2396
+    },
+    "dimension": 73,
+    "live": 7168,
+    "source_surcharge_model": {
+      "complex": false,
+      "bit": true
+    },
+    "conservative_complex_surcharge": true
+  },
+  "source_lines": {
+    "profile_and_native_moment": "gauge44-frames-x/code/assemble.py:177-203,225-230;SPEC.json expected.global_profile/live;witness.py:7-10,46-52",
+    "base_two": "base_two_moment.py:20-58"
+  },
+  "accepted_log_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+      "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+      "bytes": 33554
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current741-log-checkpoints/Current741LogCheckpoints.lean",
+      "sha256": "3c8de84bb92bdfebf5960578c10dcd4613a3ddd717e94be3028c3c1892cddb0d",
+      "bytes": 7896
+    }
+  ],
+  "finite_rank44_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT741_LOG_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "8b84adb382520a0da74bb7fa079797bab3eb9c56bd669154bf4b8ce7b849868b",
+    "bytes": 6802
+  },
+  "reused_public_definitions": [
+    "unitUpper",
+    "roundedLog",
+    "ceilGrid",
+    "expBlock",
+    "expState12",
+    "expUpper",
+    "sourceLogDomain"
+  ],
+  "rounding": "One ceiling of the eight-term native ordinary sum at GRID10^30. No fallback term in this selected native branch. Conservative complex and PR589 bit retain independent fallbacks and are excluded.",
+  "reduction_plan": {
+    "log_checkpoint_reproofs": 0,
+    "exp_literal_state_blocks": 24,
+    "total_kernel_decisions": 68,
+    "domain_leaves": 16,
+    "max_exp_steps_per_literal_check": 4
+  },
+  "checkpoint_witnesses": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_upper/CHECKPOINT_WITNESSES.json",
+    "sha256": "1b893588972ac5fb5098e7ca9c7fd85459f99db9c199b1fde5b11ce0375ff83d",
+    "bytes": 56342
+  },
+  "emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_upper/prepare_source.py",
+    "sha256": "37f5ff8a4fb88af6dedd4fecc12020c7fa3fb438193d8b6697eb98af3fabc9e9",
+    "bytes": 4481,
+    "trusted_for_proof": false,
+    "upstream_modules_executed": false
+  },
+  "planning_equalities": {
+    "ordinaryRounded": "999999999999999999999999377991/1000000000000000000000000000000",
+    "upper_minus_one": "-622009/1000000000000000000000000000000",
+    "matches_record": true,
+    "kernel_acceptance": false
+  },
+  "comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_main_f567884_comparison/SOURCE_DELTA_AND_AUTHOR_CONTEXT.json",
+    "sha256": "41335c6b0fe17b7d294ba269872c4f04b927f904a64b60856f083ae0bef0f586",
+    "bytes": 4254
+  },
+  "remaining": [
+    "Current native Real log/exp weighted transport.",
+    "Native recurrence validity, source profile/operator realization and provider/admission interfaces.",
+    "Current seven-update bootstrap/eta/beta/offset/grid/47-slack data and fallback-bearing bit branch.",
+    "Physical/all-size transfer and full selected-kappa theorem."
+  ]
+}
