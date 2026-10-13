@@ -1,0 +1,185 @@
+{
+  "schema": "packed-entrance-transcript-source-checkpoint-v1",
+  "status": "UNCOMPILED_TRANSCRIPT_DERIVED_SOURCE_ONLY",
+  "owner": "prove_main_machine_contracts",
+  "prepared_utc": "2026-10-13T17:25:38Z",
+  "source": {
+    "path": "research/lean-current799-packed-entrance/Current799PackedEntrance.lean",
+    "bytes": 4844,
+    "sha256": "8c73cc721ad3057c5377fcb385f0200c629c42acb7e5d4f4757edaef220f6fd8",
+    "encoding": "UTF-8; LF; one final newline"
+  },
+  "recovery": {
+    "backed_machine_head": "4dd61aa7038b58680e0c0797b5d3e28e4b896c6e",
+    "origin": "Complete source from the successful apply_patch call at 2026-10-13T10:42:31Z, preserved in this owner's conversation.",
+    "original_disk_hash_read": false,
+    "descendant_commit_verified": false,
+    "old_gate_metadata_recovered": false,
+    "new_provenance_authored": true,
+    "compiler_runs": 0
+  },
+  "historical_source_context": {
+    "selected_main": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "profile": "PR799 gauge44-frames-x",
+    "module_name_unchanged": true
+  },
+  "current_applicability_readback": {
+    "selected_main": "bbc600db2fc15007b7c914f4f2b2ed55fa909c87",
+    "local_provider": "U8",
+    "report_sha256": "1064954379f2c8d27825849d9d46033e1da1b227d4019c0eae448ee352d53c28",
+    "report_bytes": 495528,
+    "local_registers": 728,
+    "work_registers": 736,
+    "frames": 1005,
+    "entry_register_order": "0 through 727 exactly",
+    "entry_raw_range_inclusive": [
+      6490,
+      7217
+    ],
+    "first_climb_raw_index": 9241,
+    "selected_support": [
+      558,
+      559,
+      560,
+      561,
+      570,
+      571,
+      572,
+      573,
+      582,
+      583,
+      584,
+      585,
+      594,
+      595,
+      596,
+      597
+    ],
+    "selected_initial_labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      4,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "residual_key": "4",
+    "selected_residual_final_label": 1,
+    "residual_raw_sha256": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+    "destination_trace_comparison": {
+      "status": "SOURCE_DATA_EQUALITY_ONLY",
+      "report_sha256": "b0d5fbac8ad4106440a0eb870aa0531d901db610bd5f6df32fd7e97b2339169d",
+      "projections": [
+        {
+          "slice": [
+            1,
+            6489
+          ],
+          "length": 6488,
+          "sha256": "b587f91344c6602a52f695ca91565f6b429c78ef3438283d93af4c466b79804a",
+          "runs": 224,
+          "distinct": 112,
+          "min": 112,
+          "max": 223,
+          "selected_writes": 0
+        },
+        {
+          "slice": [
+            7219,
+            9241
+          ],
+          "length": 2022,
+          "sha256": "2ed1a80fa6951d4c8c1486fce9950f5fbc9b7e35eeaa69e6e263d3fdcc995ee7",
+          "runs": 2001,
+          "distinct": 251,
+          "min": 224,
+          "max": 690,
+          "selected_writes": 0
+        }
+      ],
+      "baseline_selected_head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+      "baseline_raw_program_sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "mismatches": 0,
+      "actual_typed_trace_proof": false
+    },
+    "fresh_kernel_acceptance": false
+  },
+  "direct_dependencies": [
+    {
+      "module": "Current799DeclaredEntrance",
+      "source_sha256": "e71f8bcd99321ae951f5cb4dabfe63da7237e1311711e5cfa36d3840c6bdff80",
+      "historical_source_commit": "4b3653c129cb11221c484b60595a13a1d0a44fb3",
+      "historical_terminal_sha256": "de4d3a0456b9f103517efce6dbec02efd59da3157f8240cf4084fb36e3fcf3ca"
+    },
+    {
+      "module": "Current799InitialLabels",
+      "source_sha256": "9c03b282550e897fe89c7d51096957b0878f646fcfe6abb3a9901852dc4bee22",
+      "historical_source_commit": "4dd61aa7038b58680e0c0797b5d3e28e4b896c6e",
+      "historical_terminal_sha256": "f3289241ada19c9b52fae65d2dfb752e601cda31634de6f3dd858a02d804632b"
+    },
+    {
+      "module": "Current799ResidualFourMonomial",
+      "source_sha256": "20bcc884ef345cab47c81a3ed3816445d637f3325d7b311ce9e2e9eda4763053",
+      "historical_source_commit": "f3bf10b95fa916b345bcc01bafea66c55acbf040",
+      "historical_terminal_sha256": "dc7127b781249fd626fc2e4eabc14bc434b282b6df01ba037a056f290b65071c"
+    },
+    {
+      "module": "Mathlib.Algebra.Algebra.Rat",
+      "source_sha256": "8cb7044eec70c106a799d4c3ba32fd0e71c56ef9b5233d937019101d302c3366",
+      "historical_object_sha256": "e87225d43f4a1df6d562aad67fc1632f1bc04ddad4847e3b185e073f34186b99"
+    }
+  ],
+  "historical_ancestor_source_pins": [
+    {
+      "module": "Current799EntryFold",
+      "source_sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0",
+      "terminal_sha256": "ab19c6ed98afb7ccb2efc4b076b1dee478be30af9ff31a0fa6cc79381671a14b"
+    },
+    {
+      "module": "Current799EntryConnection",
+      "source_sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66",
+      "terminal_sha256": "2bed1ed81432ba708b572af591409fb255702afb4c814018c1d039731e4e0796"
+    },
+    {
+      "module": "Current799ScalarSupport",
+      "source_sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7",
+      "terminal_sha256": "e08f0629a233b2751cd67972d9b56e5334460c4c40d387a2b66690cf8b69dce5"
+    }
+  ],
+  "prospective_scope": {
+    "local": 26,
+    "retained": 25,
+    "fresh": 1,
+    "cached_pairs": 2664,
+    "axiom_probes": 4,
+    "printed_type_audits": 2,
+    "new_finite_decisions": 0,
+    "condition": "Full closure, source/object pairs, actual retained receipts and runtime must be recovered and independently rebound before any check. Counts describe the earlier proposed union, not a newly verified runtime."
+  },
+  "explicit_assumptions": [
+    "Both HasDestinationTrace premises",
+    "Actual entry executor equals runUpdates(actions fallback) entryRegisters, including inverse-action convention",
+    "Actual prefix executor equals typed pre then actual entry then earlyA",
+    "Incoming residual chart",
+    "Frame-zero identity"
+  ],
+  "excluded_claims": [
+    "Actual inverse-list/Python/physical executor equality",
+    "Canonical residual endpoint relation",
+    "Full-state initial-label execution or hstart",
+    "T37 global owner realization",
+    "New source or compiler acceptance"
+  ],
+  "attribution": "Prepared with OpenAI assistance; Apache-2.0 source header retained. Retain all inherited PR509/PR516/PR593 and Mathlib notices; PR509 Stream attribution remains DreamingOfClouds, Claude-assisted. No numerical bound or publication claim.",
+  "materialized_utc": "2026-10-13T17:30:31.761650+00:00"
+}
