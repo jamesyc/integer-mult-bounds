@@ -1,0 +1,89 @@
+{
+  "schema": "current1094-outer-independent-terminal-v1",
+  "status": "PASS",
+  "reviewer": "analytic",
+  "closed_utc": "2026-10-13T21:19:55Z",
+  "scientific_source_pin": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+  "author_checked_kappa": "836330098538459/500000000000000000",
+  "actual_turn": "01a1371e-4953-761e-b9d9-8afe470009bb",
+  "actual_result_message": "msg_00854d979964dd50016acea000b2fc8190a103cc9c762405bf",
+  "source": {
+    "bytes": 105745,
+    "sha256": "e878cffbe14bdd4a86e21bc3a7e247a96877246116279a38976cf0c155d60959"
+  },
+  "object": {
+    "bytes": 730544,
+    "sha256": "9e5447a5cba5285f123f0ba6d130ff6eda2f8894232aa2b44cfff266d8dc3074",
+    "evidence": "Actual accepted receipt and successful post-guard; binary object not independently downloaded."
+  },
+  "receipt_and_result": {
+    "bytes": 24452,
+    "sha256": "e222832e9fcc1e1ba37b34811fdaa7fc05a7be3c6dd738a69142efa91b844bac",
+    "complete_literal_independently_hashed": true
+  },
+  "raw_log": {
+    "bytes": 1317,
+    "sha256": "55400b61e58e2849c931297875501242c32544e42060657e4fc87f4a32afdda7",
+    "complete_literal_independently_hashed": true,
+    "ordered_probes": 11,
+    "standard_axioms_only": true
+  },
+  "binding": {
+    "manifest_sha256": "18e6448a0dbf53fd7cb4b35144315edcbcdc83c1a5db6b3d4797bf78770bff09",
+    "wrapper_sha256": "56021261db62b3f895fc7164d9b2cb2b70c8d02ae500c84f58b6874a7a547bd5",
+    "source_binding_sha256": "c545c79bbc8cd7bcac0ebb6373ee8730a1657dd41f22fab19084c4f8de0c3122",
+    "actual_binding_review": "98f1fdb7c21b9e2f1981af822c407b9da9fdbf6a1ee47c7db36cec13ed26d284",
+    "materialized_applicability": "504733f2c60fb0ad7e72e893555175434132ce41941d239627189769d892cadd",
+    "command_cwd_environment_limits_exact": true
+  },
+  "guards": {
+    "before_sha256": "f5a0271617e92d538aab9b8ff1b8c6816a136076dabef1f5578bc393954f7cb5",
+    "after_sha256": "db1155eb63d66ffb9a4102daf7606a2e1310f68745fc19a35f7baad427ac5b8e",
+    "both_hashes_independently_reconstructed": true,
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 324,
+    "reachable_edges": 1090,
+    "retained_roots": 4,
+    "retained_probes": 27,
+    "new_probes": 11,
+    "reachable_probes": 38,
+    "first_matches": 323,
+    "scientific_git_inputs": 10,
+    "protected_files": 1722,
+    "worktree_states": 8,
+    "fresh_absent_before": true,
+    "fresh_present_after": true,
+    "retained_quadruples_and_probes_exact": true,
+    "preservation_error": null
+  },
+  "actual": {
+    "started_utc": "2026-10-13T21:15:11.748421+00:00",
+    "finished_utc": "2026-10-13T21:15:13.351062+00:00",
+    "exit_code": 0,
+    "stop_reason": null,
+    "compiler_seconds": 1.6026295389965526,
+    "before_guard_seconds": 0.46890636700118193,
+    "after_guard_seconds": 0.4525826750032138,
+    "peak_vm_bytes": 909225984,
+    "peak_rss_bytes": 351023104,
+    "below_review_limits": true,
+    "wrapper_tool_seconds_approximately": 2.4724,
+    "whole_wrapper_timing_qualification": "Approximate tool elapsed reported separately; no exact wrapper duration is recorded in the receipt.",
+    "receipt_mtime_utc": "2026-10-13T21:15:13.805590+00:00",
+    "result_mtime_utc": "2026-10-13T21:15:13.806207+00:00",
+    "rendering_and_delivery_timestamps": "Unknown"
+  },
+  "coverage": {
+    "finite": "Eleven accepted rational facts: all47 strict source constraints, their count and positivity; seven recorded margins, their count, minimum and strict kappa comparison; three balanced identities; strict next-tick grid.",
+    "source_census": {
+      "private_values": 73,
+      "literal_sites": 128,
+      "changed_sites": 103,
+      "kernel_decisions": 68
+    },
+    "conditional_inputs": "Native, bit and initial saving validity; row allowance20161; scalar gap1; current charged coefficient512.",
+    "excluded": "Real enclosure and saving interpretation, recurrence complexity, provider/operator/profile and physical realization, precision/tape, integer rounding, all-size transfer and complete selected-kappa multiplication theorem."
+  },
+  "rerun_performed": false
+}

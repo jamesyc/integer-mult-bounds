@@ -1,0 +1,228 @@
+{
+  "schema": "current1094-native-real-independent-science-review-v1",
+  "status": "PASS_SOURCE_MATHEMATICS_UNCOMPILED",
+  "reviewer": "frame owner",
+  "reviewed_at_utc": "2026-10-13T19:58:31Z",
+  "scientific_main": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+  "author_checked_kappa": "836330098538459/500000000000000000",
+  "candidate": {
+    "module": "Current1094NativeRealEnclosure",
+    "bytes": 12166,
+    "sha256": "03877a492cac78ad1a3a7ed6dee56d645acd9c6e7e13d95726378792f241ba87"
+  },
+  "recipe": {
+    "bytes": 5356,
+    "sha256": "b1bfc9ce0101949ac6db8469501cace4c9b11e8d528d1d7702a6668ac091e6f5",
+    "executed": false
+  },
+  "template": {
+    "repository": "jamesyc/integer-mult-bounds",
+    "commit": "0181d0f2e00278535f435968f000d7e2ec4b93aa",
+    "path": "research/lean-current799-native-moment/Current799NativeRealEnclosure.lean",
+    "bytes": 12061,
+    "sha256": "0881f16da93e47ed521474977db174c092cab34556512e9c8d90ba7c62b59ac2",
+    "repair": "Accepted Nat.cast_one repair, not the prior failed source."
+  },
+  "finite_predecessor": {
+    "repository": "jamesyc/integer-mult-bounds",
+    "commit": "6d2850948b5c4514ec7e30f68a722a1f07a43ac8",
+    "path": "research/lean-current1094-native-finite/Current1094NativeUpperAggregate.lean",
+    "source_sha256": "de367aca2684506d8b16419523595a000769ebbe789479899bac44747fa39bf3",
+    "terminal_path": "research/lean-current1094-native-finite/TERMINAL_REVIEW.json",
+    "terminal_sha256": "02b8f1f9b64bd7b109afac5df13be70fce5d8fb2dc0a909f83eb8c49f32814ab",
+    "source_and_terminal_directly_rehashed": true,
+    "object_sha256_from_terminal": "106515252a33c87aec01f58e5706a83fe379631360b5397ba3cbfbe345594d54",
+    "object_not_downloaded_in_this_review": true
+  },
+  "inherited_helpers": {
+    "repository": "CrocSwap/integer-mult-bounds",
+    "commit": "d676cf35234943613d7208719e7d96f7500fdfcf",
+    "directory": "research/lean-current588-native-moment",
+    "sources": [
+      {
+        "module": "SelectedMomentExpEnclosure",
+        "bytes": 8071,
+        "sha256": "b999dafefb6f3e2fd5b03babb91491800855064ae6407c8878c605f20160d000"
+      },
+      {
+        "module": "SelectedMomentLogUnitEnclosure",
+        "bytes": 8938,
+        "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a"
+      },
+      {
+        "module": "SelectedRoundedLogEnclosure",
+        "bytes": 6046,
+        "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6"
+      }
+    ],
+    "all_complete_bodies_directly_rehashed": true
+  },
+  "exact_reconstruction": {
+    "body_substitutions": 24,
+    "all_declared_occurrence_counts_exact": true,
+    "body_inverse_exact": true,
+    "complete_source_hash_exact": true,
+    "direct_imports": [
+      "Current1094NativeUpperAggregate",
+      "SelectedMomentExpEnclosure",
+      "SelectedRoundedLogEnclosure"
+    ],
+    "new_probes": 3,
+    "new_decide_kernel_sites": 0
+  },
+  "source_checks": {
+    "ordinaryUnroundedExact": true,
+    "termCount": 8,
+    "allWeightsAndLogRanksExact": true,
+    "eightDomainsCorrect": true,
+    "rank7InheritedUnit": true,
+    "noCurrent741Dependency": true,
+    "noRank44Body": true,
+    "natCastOneRepairPreserved": true,
+    "endpointCastOfFiniteStrict": true,
+    "onlyDeclaredNativeImport": true,
+    "noFallback": true,
+    "domainProjectionCount": 8,
+    "zeroNewKernelDecisions": true,
+    "noNewAxiomsOrSorry": true
+  },
+  "weighted_terms": [
+    {
+      "rank": 1,
+      "count": 349604,
+      "live": 14336,
+      "logRank": 1
+    },
+    {
+      "rank": 2,
+      "count": 60192,
+      "live": 14336,
+      "logRank": 2
+    },
+    {
+      "rank": 3,
+      "count": 62585,
+      "live": 14336,
+      "logRank": 3
+    },
+    {
+      "rank": 4,
+      "count": 20448,
+      "live": 14336,
+      "logRank": 4
+    },
+    {
+      "rank": 5,
+      "count": 11808,
+      "live": 14336,
+      "logRank": 5
+    },
+    {
+      "rank": 7,
+      "count": 7,
+      "live": 14336,
+      "logRank": 7
+    },
+    {
+      "rank": 8,
+      "count": 1152,
+      "live": 14336,
+      "logRank": 8
+    },
+    {
+      "rank": 48,
+      "count": 4866,
+      "live": 14336,
+      "logRank": 48
+    }
+  ],
+  "mathematical_chain": [
+    "The finite current_domains theorem supplies the eight binary identities 73/rank divided by 2^k = (d+n)/(d-n), positive unit ratios, and eight rational exponent domains 0 <= bCurrent*roundedLog < 1.",
+    "The unchanged rounded_from_domain proof combines each inherited log-unit upper bound with k copies of log_two_upper and executable ceilGrid_outward. The known Nat.cast_one repair remains in the rank-one application.",
+    "Rank7 uses (129+17)/(129-17)=73/56 and k=3, so the inherited log_73_56_upper gives log(73/7) after binary reduction. No rank44 unit or Current741LogRealEnclosure dependency remains.",
+    "The inherited log-unit helper derives the one-sided log estimate from Mathlib's paired signed Taylor bounds and exact casts of the 80-term rational source sum. Its five auxiliary-tail inequalities were independently recomputed here.",
+    "The inherited generic expUpper_real_enclosure uses the actual 12-step rational recurrence and geometric tail, via Real.exp_bound' at n=15. Its positive denominator and coefficient comparison are valid on the supplied 0 <= x < 1 domains.",
+    "The literal bCurrent is nonnegative. Multiplication preserves each logarithm inequality, Real.exp monotonicity gives eight exponential bounds, and all eight complete rank*count/(73*14336) weights are nonnegative.",
+    "The ordered sum of those eight weighted bounds is the cast of ordinaryUnrounded, whose expression is byte-identical to the finite source's pre-ceiling sum. One executable outward ceiling yields currentRealMoment <= currentUpper.",
+    "Casting the accepted finite current_upper_strict concludes currentRealMoment < 1 for the exact defined finite Real expression."
+  ],
+  "additional_exact_tail_checks": {
+    "logTails": [
+      {
+        "n": 1,
+        "d": 3,
+        "positiveZ": true,
+        "zBelowOne": true,
+        "auxiliaryAtMostSource": true,
+        "strict": true
+      },
+      {
+        "n": 9,
+        "d": 137,
+        "positiveZ": true,
+        "zBelowOne": true,
+        "auxiliaryAtMostSource": true,
+        "strict": true
+      },
+      {
+        "n": 25,
+        "d": 121,
+        "positiveZ": true,
+        "zBelowOne": true,
+        "auxiliaryAtMostSource": true,
+        "strict": true
+      },
+      {
+        "n": 33,
+        "d": 113,
+        "positiveZ": true,
+        "zBelowOne": true,
+        "auxiliaryAtMostSource": true,
+        "strict": true
+      },
+      {
+        "n": 17,
+        "d": 129,
+        "positiveZ": true,
+        "zBelowOne": true,
+        "auxiliaryAtMostSource": true,
+        "strict": true
+      }
+    ],
+    "expCoefficientComparison": true
+  },
+  "finite_context": {
+    "dimension": 73,
+    "live": 14336,
+    "deficit": 5120,
+    "endpoint": "67018507072324140917/40000000000000000000000",
+    "native_fallback": false,
+    "residual": "-260843/200000000000000000000000000000",
+    "prior_finite_science_sha256": "97c4bb3b38f0c2c6091520a90eaa1f6b55121a4a26ce282c77035f92b3226030"
+  },
+  "scope": {
+    "source_dependency_graph": "Seven local source modules: two accepted rational helpers, current native finite root, three inherited Real helpers, and the proposed Real bridge.",
+    "installed_real_runtime_or_helper_object_availability": "Not established.",
+    "current_proof_scope": "The exact source-bound finite weighted Real moment is enclosed and shown below one if this source is kernel accepted.",
+    "supplied_external_obligations": [
+      "Current profile/provider/operator/physical realization",
+      "Saving interpretation and native recurrence license",
+      "PR589 bit supplier validity",
+      "Bootstrap and outer interpretation",
+      "Precision/tape model",
+      "All-size multiplication and complete selected-kappa theorem"
+    ],
+    "no_implicit_full_theorem_claim": true,
+    "fit_claim": false
+  },
+  "issues": [],
+  "activity": {
+    "start_utc": "2026-10-13T19:52:45Z",
+    "full_packet_available_utc": "2026-10-13T19:55:40Z",
+    "source_review_end_utc": "2026-10-13T19:58:31Z",
+    "description": "Observed interval includes waiting, connector reads, exact calculations and messages; inference minutes unknown.",
+    "cloud_job_started": false,
+    "compiler_executed": false,
+    "supplier_executed": false
+  }
+}

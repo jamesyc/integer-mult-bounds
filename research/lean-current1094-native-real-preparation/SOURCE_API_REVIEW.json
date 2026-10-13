@@ -1,0 +1,87 @@
+{
+  "schema": "pr1094-real-bridge-source-api-review-v1",
+  "reviewer": "prove_main_bank_routing",
+  "status": "PASS_SOURCE_API_PREPARATION",
+  "reviewed_utc": "2026-10-13T19:56:12Z",
+  "context": {
+    "main": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+    "author_checked_kappa": "836330098538459/500000000000000000"
+  },
+  "generator": {
+    "bytes": 5356,
+    "sha256": "b1bfc9ce0101949ac6db8469501cace4c9b11e8d528d1d7702a6668ac091e6f5"
+  },
+  "candidate": {
+    "file": "Current1094NativeRealEnclosure.lean",
+    "bytes": 12166,
+    "sha256": "03877a492cac78ad1a3a7ed6dee56d645acd9c6e7e13d95726378792f241ba87"
+  },
+  "template": {
+    "repository": "jamesyc/integer-mult-bounds",
+    "commit": "0181d0f2e00278535f435968f000d7e2ec4b93aa",
+    "path": "research/lean-current799-native-moment/Current799NativeRealEnclosure.lean",
+    "bytes": 12061,
+    "sha256": "0881f16da93e47ed521474977db174c092cab34556512e9c8d90ba7c62b59ac2",
+    "repaired_Nat_cast_one_preserved": true
+  },
+  "read_prerequisites": [
+    {
+      "file": "SelectedMomentExpEnclosure.lean",
+      "sha256": "b999dafefb6f3e2fd5b03babb91491800855064ae6407c8878c605f20160d000",
+      "bytes": 8071
+    },
+    {
+      "file": "SelectedMomentLogUnitEnclosure.lean",
+      "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+      "bytes": 8938
+    },
+    {
+      "file": "SelectedRoundedLogEnclosure.lean",
+      "sha256": "fcae09674448dd8a21b006b3f3fda866ff381eeb37747ed95d09e2d15b86f1d6",
+      "bytes": 6046
+    }
+  ],
+  "prerequisite_origin": {
+    "repository": "CrocSwap/integer-mult-bounds",
+    "commit": "d676cf35234943613d7208719e7d96f7500fdfcf",
+    "directory": "research/lean-current588-native-moment"
+  },
+  "finite_source": {
+    "repository": "jamesyc/integer-mult-bounds",
+    "commit": "6d2850948b5c4514ec7e30f68a722a1f07a43ac8",
+    "path": "research/lean-current1094-native-finite/Current1094NativeUpperAggregate.lean",
+    "bytes": 65724,
+    "sha256": "de367aca2684506d8b16419523595a000769ebbe789479899bac44747fa39bf3"
+  },
+  "checks": [
+    "The actual complete immutable template and all three helper sources rehash exactly. The complete generator and reconstructed candidate match their full expected hashes.",
+    "All 24 ordered body replacements have the specified occurrence counts and invert exactly to the repaired PR799 body. The generic rounded_from_domain proof is byte-identical.",
+    "Rank7 uses the existing log_73_56_upper API with unitUpper17/129. Rank44 and Current741LogRealEnclosure are removed. The other four imported logarithm bounds and binary factorization/cast proofs are reused without a new unit proof.",
+    "Eight sourceLogDomain and eight exp-input domain facts are taken from the current finite root in their exact order. expUpper_real_enclosure receives 0<=x and x<1 for each current input; positive bCurrent justifies logarithm monotonicity.",
+    "Every complete weighted term retains the same rank, count, denominator and logarithm in the rational sum, Real sum and positivity argument. The 841-byte ordinaryUnrounded expression is byte-identical to the published finite expression inside its sole ceilGrid.",
+    "All weights are nonnegative, the positive denominator is73*14336, and the accepted Rat-to-Real casts connect the sums. ceilGrid_outward applies once to the complete sum; current_upper_strict supplies the final strict inequality.",
+    "The three public probes are current_rounded_log_enclosures, currentRealMoment_le_upper and currentRealMoment_strict. There are zero new decide+kernel occurrences and no new induction.",
+    "These are closed numerical Real-moment statements. They do not manufacture a recurrence, a realized owner/profile/operator, or a physical multiplier premise."
+  ],
+  "expression_pin": {
+    "bytes": 841,
+    "sha256": "3d7d125f8a53aa2a0e5d90633a9386e12351cc4c8fa3494198c10ed551973993"
+  },
+  "runtime_boundary": "The generic Real sources were read, not recovered as accepted current objects. Their objects, exact Mathlib closure, current import bindings and a separately admitted compiler check remain prerequisites; no runtime scope or fit is certified here.",
+  "excluded": [
+    "Native recurrence license",
+    "Saving/profile/provider/operator/physical realization",
+    "Bit validity",
+    "Bootstrap and outer interpretation",
+    "Precision and tape model",
+    "All-size multiplication",
+    "Complete selected-kappa theorem"
+  ],
+  "execution": {
+    "cloud_job": false,
+    "shell": false,
+    "compiler": false,
+    "supplier_code": false,
+    "source_reconstruction_in_memory": true
+  }
+}
