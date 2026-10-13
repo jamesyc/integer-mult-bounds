@@ -1,0 +1,134 @@
+{
+  "status": "CURRENT_PR589_REAL_WEIGHTED_SOURCE_PREPARATION_PENDING_UNIT_GATE",
+  "utc": "2026-10-13T08:27:47.984320+00:00",
+  "source": {
+    "module": "Current589BitRealEnclosure",
+    "file": "Current589BitRealEnclosure.lean",
+    "sha256": "c052ad8982516520ee18176fa5f1400fef1267932cd0a6ecc88ad09dfd4b883e",
+    "bytes": 13513,
+    "explicit_imports": [
+      "Current589BitUpperAggregate",
+      "SelectedMomentExpEnclosure",
+      "SelectedRoundedLogEnclosure",
+      "CurrentBitLogRealEnclosure",
+      "Current543LogRealEnclosure"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current589BitRealEnclosure.current_rounded_log_enclosures",
+      "CurrentMain.Current589BitRealEnclosure.currentRealMoment_le_upper",
+      "CurrentMain.Current589BitRealEnclosure.currentRealMoment_strict"
+    ]
+  },
+  "current_source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-f567884-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/certificates/selected-result.json",
+      "sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+      "bytes": 7059,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "1f107b55a2f045fa66d9c35d658b3b79549f5ba6"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+      "bytes": 127995,
+      "repository_path": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "git_blob": "9921a5d90ef8aa005df3a872adbf1a90e484cad8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/ASSEMBLY.json",
+      "sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+      "bytes": 85641,
+      "repository_path": "research/community-frontier799-audit/ASSEMBLY.json",
+      "git_blob": "a04bfd932a15196fe8e2418eae912ea745152593"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987,
+      "repository_path": "research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987,
+      "repository_path": "research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/assemble.py",
+      "sha256": "4c270a996b380ab712f72b81173ab24f1c73203a33578f261bfbaa7e67d75aec",
+      "bytes": 20788,
+      "repository_path": "research/gauge44-frames-x/code/assemble.py",
+      "git_blob": "8cee90b50e238bd1519a7aeb7395f62d277b8ae4"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1661634653669567/1000000000000000000",
+  "decimal": "0.001661634653669567",
+  "finite_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current589-bit-upper/SOURCE_BINDING.json",
+    "sha256": "6a7f14732df9de0b1bb4d53ad5f97db3ce34f8b4dd437e3932efb86d10ac9c88",
+    "bytes": 7218
+  },
+  "finite_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_bit/ACCEPTANCE.json",
+    "sha256": "d914fac8f39270556867798a57172fb91f96676eae2749cc033fb5b5c91c1dd7",
+    "bytes": 82000
+  },
+  "source_preparation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_real/SOURCE_PREPARATION.json",
+    "sha256": "7fbd828afe0d115cb7e5f4419bc21dc15f451069011ef51a062751d7c1f74122",
+    "bytes": 2484
+  },
+  "target_fields": {
+    "saving": {
+      "pointer": "/bit_lower",
+      "value": "1733427039589844234749/1000000000000000000000000"
+    },
+    "negative_residual": {
+      "pointer": "/moments/bit,accept=true/base_two/1",
+      "value": "-3197378653350863173989/2000000000000000000000000000000000000000000000",
+      "kernel_checked": false
+    },
+    "profile": {
+      "1": 381024,
+      "2": 400416,
+      "3": 22752,
+      "4": 26880,
+      "5": 29376,
+      "6": 17376,
+      "7": 26784,
+      "42": 288
+    },
+    "dimension": 64,
+    "live": 28416,
+    "fallbackCount": 118606528512
+  },
+  "rounding": "Ordinary and rank-one fallback calls each ceil at10^30; only then the fallback receives10^-16. Actual assemble.py190-203 and native call225 keep this bit surcharge true.",
+  "dimension_domain": "Private generic rounded_from_domain adapts accepted73 to64 and sourceLogDomain to the exact accepted bitLogDomain only. The unit upper\u22642 premise is retained in the source domain; logarithm positivity uses the strict lower1 bound.",
+  "required_unit_candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-real/Current543LogRealEnclosure.lean",
+    "sha256": "4d6371d4ca72f1ae864e2dd0598a9b6d685164cc1707fccbfab4c1f967798d0c",
+    "bytes": 9817
+  },
+  "source_scope": "Eight ordered full weights and rank-one fallback; separate ordinary and fallback ceilGrid, then10^-16 factor. No new finite checkpoint.",
+  "remaining": [
+    "Actual acceptance of preserved8/5 and32/21 Real units.",
+    "Independent scientific/API/runtime/binding review and bounded Real join check.",
+    "Supplier/profile/operator realization, bit recurrence interpretation and physical/all-size selected-kappa transfer."
+  ]
+}
