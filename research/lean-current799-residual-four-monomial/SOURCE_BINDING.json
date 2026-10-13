@@ -1,0 +1,94 @@
+{
+  "construction_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "archive_repository_path": "research/community-frontier799-audit/integrated799-replay.tar.gz",
+  "archive_sha256": "70dfdfcf2ff95352c6020ee9dfca6dca9032b33c10daed3f3dc574c014f4e2cb",
+  "member": "native/local/RESIDUAL-ADAPTERS.json",
+  "member_sha256": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+  "dictionary_key": "4",
+  "record": {
+    "entrance_rank": 1,
+    "frame": 4,
+    "left": {
+      "linear_Z4": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "matrix_rows": [
+        257,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        203
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        203,
+        203,
+        0,
+        203,
+        0,
+        0,
+        203,
+        203,
+        0
+      ]
+    },
+    "rank": 8,
+    "right": {
+      "linear_Z4": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        1,
+        258,
+        4,
+        264,
+        16,
+        32,
+        320,
+        384,
+        256
+      ],
+      "offset": 309,
+      "phase": 3,
+      "quadratic_rows": [
+        256,
+        256,
+        0,
+        256,
+        0,
+        0,
+        256,
+        256,
+        203
+      ]
+    },
+    "vectors": [
+      459
+    ]
+  },
+  "right_normalized_sha256": "b43922ea8b9001d5c22c938c346fb3a6b1ddda0cccf338da7707ff9bf3bdcafa",
+  "normalization": "sorted-key compact JSON, no trailing LF",
+  "convention": "Special FULL-terminal residual key; source phase is at input/preimage, with global phase3 retained. The source affine forward map is Gx xor309; inverse read is G(y xor309).",
+  "scope": "Only exact right-monomial interpretation. Residual canonical endpoint and actual typed entry/executor suppliers are separate."
+}

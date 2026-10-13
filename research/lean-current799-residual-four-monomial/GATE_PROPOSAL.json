@@ -1,0 +1,40 @@
+{
+  "status": "SOURCE_PREPARATION_ONLY_PENDING_INDEPENDENT_MODEL_API_REVIEW",
+  "root": "Current799ResidualFourMonomial",
+  "direct_imports": [
+    "PackedMonomialReindex"
+  ],
+  "scope": {
+    "modules": 16,
+    "retained": 15,
+    "new": 1
+  },
+  "external_pairs": 2663,
+  "probes": [
+    "CurrentMain.Current799ResidualFourMonomial.matrix_inverse",
+    "CurrentMain.Current799ResidualFourMonomial.preimage_read",
+    "CurrentMain.Current799ResidualFourMonomial.packed_reindex",
+    "CurrentMain.Current799ResidualFourMonomial.packed_apply"
+  ],
+  "work": {
+    "symbolic_address_lemmas": "G=I+mask202*e8^T; coordinate8 fixed; shear involution implies both matrix inverse equations",
+    "closed_coordinate_branches": 18,
+    "closed_bound": "309<512",
+    "all_payload_enumeration": false,
+    "quadratic_phase_recheck": "None: exact nine source rows/alpha remain arguments of accepted qvalue bridge",
+    "global_phase": 3,
+    "inverse_read_offset": 511
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "fit": "Unmeasured. No new finite packed check or512-state decision. Source-only preparation does not itself grant compiler admission.",
+  "remaining": [
+    "Exact residual canonical endpoint identity",
+    "Actual selected typed traces and entry/executor action",
+    "Whole-stream/full-work and analytic theorem"
+  ]
+}
