@@ -1,0 +1,157 @@
+{
+  "status": "SOURCE_ONLY_CURRENT799_NEXT16",
+  "utc": "2026-10-13T07:58:21.412759+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next16/Current799Next16Data.lean",
+      "sha256": "525be9252b00f58efee9fc80ce07b1f9249da9b31982cb3c89e8cef040c18503",
+      "bytes": 2777
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next16/Current799Next16Check.lean",
+      "sha256": "d9ee2a6f92b3c60e136111e26ef1de701351403663a8849545225a139ff16b44",
+      "bytes": 6724
+    }
+  ],
+  "literal_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next16/LITERAL_PROJECTION.json",
+    "sha256": "29b1373a690de1ba8a7476e92fc46dd25e72d42679710ba634d387f5378ba3c7",
+    "bytes": 16026
+  },
+  "delimiter_advisory": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next16/DELIMITER_ADVISORY.json",
+    "sha256": "cb4c235d06c4e3666d13a37c63c93a070773998d4004b68ba44012ee1a825667",
+    "bytes": 2260
+  },
+  "selected_artifact_verification": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "prior_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_first33/ACCEPTANCE.json",
+    "sha256": "013e5212ed7af74544c374176ce4e8048d27b819cb2e0176715cef382921e12c",
+    "bytes": 74630
+  },
+  "prior_independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_FIRST33_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "bcee8dc869eefb2c877a4203da686a5fd7c69c9bf59cabb232613d0c66083084",
+    "bytes": 17616
+  },
+  "prior_source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageData.lean",
+      "sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+      "bytes": 14025
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageCheck.lean",
+      "sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7",
+      "bytes": 11287
+    }
+  ],
+  "source_scope": {
+    "raw_zero_based_inclusive": [
+      9274,
+      9289
+    ],
+    "new_rows_each": 16,
+    "histogram_each": {
+      "ADD": 8,
+      "relabel": 8
+    },
+    "child_ordinal": 3,
+    "directed_key_rank": [
+      0,
+      5,
+      1
+    ],
+    "ordered_target_descriptor": [
+      75
+    ],
+    "signed_denominators": [
+      1,
+      2
+    ],
+    "catalog_prefix_count": 4,
+    "full_catalog_count": 2949,
+    "frame_count": 1005,
+    "label_registers": 736,
+    "checkpoint_from_to": [
+      33,
+      49
+    ],
+    "support": [
+      474,
+      475,
+      480,
+      481,
+      490,
+      491,
+      526,
+      527
+    ],
+    "unchanged_complement": 728,
+    "composed_histogram_each": {
+      "ADD": 33,
+      "relabel": 16
+    },
+    "next_excluded_raw": 9290,
+    "next_excluded_key": [
+      0,
+      6
+    ]
+  },
+  "local_scope": {
+    "modules": 6,
+    "current": 4,
+    "pending": 2
+  },
+  "external_pairs": 2213,
+  "expected_probes": {
+    "Current799Next16Check": [
+      "CurrentMain.Current799Next16Check.catalog_prefix_shape",
+      "CurrentMain.Current799Next16Check.exact_C_source_indices",
+      "CurrentMain.Current799Next16Check.forward_C_labels_checked",
+      "CurrentMain.Current799Next16Check.forward_C_children_checked",
+      "CurrentMain.Current799Next16Check.forward_C_checked",
+      "CurrentMain.Current799Next16Check.forward_C_wellLabelled",
+      "CurrentMain.Current799Next16Check.forward_support49",
+      "CurrentMain.Current799Next16Check.forward_touched49",
+      "CurrentMain.Current799Next16Check.forward_checkpoint49",
+      "CurrentMain.Current799Next16Check.forward_composed_wellLabelled49",
+      "CurrentMain.Current799Next16Check.forward_composed_checkpoint49",
+      "CurrentMain.Current799Next16Check.backward_C_labels_checked",
+      "CurrentMain.Current799Next16Check.backward_C_children_checked",
+      "CurrentMain.Current799Next16Check.backward_C_checked",
+      "CurrentMain.Current799Next16Check.backward_C_wellLabelled",
+      "CurrentMain.Current799Next16Check.backward_support49",
+      "CurrentMain.Current799Next16Check.backward_touched49",
+      "CurrentMain.Current799Next16Check.backward_checkpoint49",
+      "CurrentMain.Current799Next16Check.backward_composed_wellLabelled49",
+      "CurrentMain.Current799Next16Check.backward_composed_checkpoint49"
+    ],
+    "Current799Next16Data": []
+  },
+  "finite_decisions": 10,
+  "proof_reuse": "Exact accepted factorization, checkRows soundness, sparse_checkpoint and append theorem architecture. Fresh16 literal rows each; frame dimensions/728 starts reuse accepted33 data. New catalog contains first4 original keys, no full-catalog theorem. Prior33 decisions are not repeated.",
+  "resource_proposal": {
+    "hard_seconds_each": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "owner_serial_jobs": 1,
+    "new_jobs_max": 2,
+    "Elab.async": false,
+    "baseline": "Accepted33 Data6.0585s/2097295360VM; Check9.3642s/2296922112VM. Next16 fit unmeasured; no throughput extrapolation."
+  },
+  "completion": "Both roots below review caps,20 complete standard-only probes, all current/import/output guards exact; stop at first failure or review.",
+  "authority": "Root2026-10-13 07:54 prepares next current16 rows independently of frame operator redesign; integration to review concrete closure/probes/decisions before bounded admission.",
+  "excluded_scope": [
+    "Actual entrance/pre-A executor, all731 omitted phase/adapter rows and full-stream coverage.",
+    "Current record3/key0\u21925 operator/physical realization, separate frame task.",
+    "Full2949 catalog and subsequent key0\u21926."
+  ],
+  "compiler_runs": 0
+}

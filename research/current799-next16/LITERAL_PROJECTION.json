@@ -1,0 +1,1027 @@
+{
+  "status": "READ_ONLY_STRICT_SOURCE_PROJECTION",
+  "head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "bytes": 208661,
+      "uncompressed_sha256": "223c2bb27ad68a4e9468c3ddaece1899d577b661190922fdd25f5976052c4cab",
+      "uncompressed_bytes": 2047934
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CLIFFORD-RECIPES.json",
+      "sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+      "bytes": 994364,
+      "uncompressed_sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+      "uncompressed_bytes": 994364
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "bytes": 83939,
+      "uncompressed_sha256": "1c0e9da767d4418f70016af599e4a447a3f7777acabe930318459c0fbbd260aa",
+      "uncompressed_bytes": 482268
+    }
+  ],
+  "decoder": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/decode_current33.py",
+    "sha256": "e3e3d5d8b478a36d8d8bcbdd1f674f15503500ee4196d8127e3962916eff40fc",
+    "bytes": 9079
+  },
+  "preparer": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-next16/prepare_source.py",
+    "sha256": "71fda31b72c6bc45a64f8528f1da2b9a4ad792a5325ef431d9b0b1f69e5132eb",
+    "bytes": 10674
+  },
+  "range_zero_based_inclusive": [
+    9274,
+    9289
+  ],
+  "raw_rows": {
+    "forward": [
+      [
+        "climb",
+        "A",
+        474,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            474
+          ],
+          [
+            "L",
+            488
+          ],
+          -1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        475,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            475
+          ],
+          [
+            "L",
+            489
+          ],
+          -1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        480,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            480
+          ],
+          [
+            "L",
+            536
+          ],
+          1,
+          2
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        481,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            481
+          ],
+          [
+            "L",
+            537
+          ],
+          1,
+          2
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        490,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            490
+          ],
+          [
+            "L",
+            538
+          ],
+          -1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        491,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            491
+          ],
+          [
+            "L",
+            539
+          ],
+          -1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        526,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            526
+          ],
+          [
+            "L",
+            574
+          ],
+          -1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        527,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            527
+          ],
+          [
+            "L",
+            575
+          ],
+          -1,
+          1
+        ],
+        5
+      ]
+    ],
+    "backward": [
+      [
+        "climb",
+        "A",
+        474,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            488
+          ],
+          [
+            "L",
+            474
+          ],
+          1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        475,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            489
+          ],
+          [
+            "L",
+            475
+          ],
+          1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        480,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            536
+          ],
+          [
+            "L",
+            480
+          ],
+          -1,
+          2
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        481,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            537
+          ],
+          [
+            "L",
+            481
+          ],
+          -1,
+          2
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        490,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            538
+          ],
+          [
+            "L",
+            490
+          ],
+          1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        491,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            539
+          ],
+          [
+            "L",
+            491
+          ],
+          1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        526,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            574
+          ],
+          [
+            "L",
+            526
+          ],
+          1,
+          1
+        ],
+        5
+      ],
+      [
+        "climb",
+        "A",
+        527,
+        0,
+        5,
+        1
+      ],
+      [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            575
+          ],
+          [
+            "L",
+            527
+          ],
+          1,
+          1
+        ],
+        5
+      ]
+    ]
+  },
+  "typed_rows": {
+    "forward": [
+      {
+        "sourceIndex": 9274,
+        "event": [
+          "relabel",
+          474,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9275,
+        "event": [
+          "add",
+          474,
+          488,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9276,
+        "event": [
+          "relabel",
+          475,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9277,
+        "event": [
+          "add",
+          475,
+          489,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9278,
+        "event": [
+          "relabel",
+          480,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9279,
+        "event": [
+          "add",
+          480,
+          536,
+          [
+            1,
+            2
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9280,
+        "event": [
+          "relabel",
+          481,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9281,
+        "event": [
+          "add",
+          481,
+          537,
+          [
+            1,
+            2
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9282,
+        "event": [
+          "relabel",
+          490,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9283,
+        "event": [
+          "add",
+          490,
+          538,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9284,
+        "event": [
+          "relabel",
+          491,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9285,
+        "event": [
+          "add",
+          491,
+          539,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9286,
+        "event": [
+          "relabel",
+          526,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9287,
+        "event": [
+          "add",
+          526,
+          574,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9288,
+        "event": [
+          "relabel",
+          527,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9289,
+        "event": [
+          "add",
+          527,
+          575,
+          [
+            -1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      }
+    ],
+    "backward": [
+      {
+        "sourceIndex": 9274,
+        "event": [
+          "relabel",
+          474,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9275,
+        "event": [
+          "add",
+          488,
+          474,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9276,
+        "event": [
+          "relabel",
+          475,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9277,
+        "event": [
+          "add",
+          489,
+          475,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9278,
+        "event": [
+          "relabel",
+          480,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9279,
+        "event": [
+          "add",
+          536,
+          480,
+          [
+            -1,
+            2
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9280,
+        "event": [
+          "relabel",
+          481,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9281,
+        "event": [
+          "add",
+          537,
+          481,
+          [
+            -1,
+            2
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9282,
+        "event": [
+          "relabel",
+          490,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9283,
+        "event": [
+          "add",
+          538,
+          490,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9284,
+        "event": [
+          "relabel",
+          491,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9285,
+        "event": [
+          "add",
+          539,
+          491,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9286,
+        "event": [
+          "relabel",
+          526,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9287,
+        "event": [
+          "add",
+          574,
+          526,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      },
+      {
+        "sourceIndex": 9288,
+        "event": [
+          "relabel",
+          527,
+          0,
+          5
+        ],
+        "scalarFrame": null,
+        "childRef": [
+          3,
+          1
+        ]
+      },
+      {
+        "sourceIndex": 9289,
+        "event": [
+          "add",
+          575,
+          527,
+          [
+            1,
+            1
+          ]
+        ],
+        "scalarFrame": 5,
+        "childRef": null
+      }
+    ]
+  },
+  "catalog_prefix_keys": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      4,
+      1
+    ],
+    [
+      0,
+      5,
+      1
+    ]
+  ],
+  "catalog_record3": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        3,
+        5,
+        8,
+        17,
+        32,
+        64,
+        1,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 5,
+    "old": 0,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        11,
+        65,
+        66,
+        4,
+        72,
+        16,
+        32,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        75,
+        75,
+        0,
+        75,
+        0,
+        0,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  "catalog_record3_normalized_sha256": "8f93815e078870585dc22938d31244dd7c6f225bc46a8d22f273f5475d031ccf",
+  "ordered_descriptors": [
+    [],
+    [
+      75
+    ]
+  ],
+  "support": [
+    474,
+    475,
+    480,
+    481,
+    490,
+    491,
+    526,
+    527
+  ],
+  "prior_checkpoint_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/LITERAL_PROJECTION.json",
+    "sha256": "a0199f66a1e1a513b0a773e8310e2201ddd2fc04d776b74eb7e31444886da31c",
+    "bytes": 42970
+  },
+  "labels49_readback_only": true,
+  "unchanged_complement": 728,
+  "elapsed_seconds": 0.30267968800035305
+}

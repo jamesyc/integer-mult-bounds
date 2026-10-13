@@ -1,0 +1,35 @@
+{
+  "status": "PASS_EXACT_ONE_SITE_PROOF_REPAIR",
+  "utc": "2026-10-13T07:55:21.353142+00:00",
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current799-native-real/Current799NativeRealEnclosure.lean",
+    "sha256": "0881f16da93e47ed521474977db174c092cab34556512e9c8d90ba7c62b59ac2",
+    "bytes": 12061
+  },
+  "repair_audit": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/nat_one_repair/SOURCE_REPAIR_AUDIT.json",
+    "sha256": "bc5f31a4b86993690ed7d4280b27cf7fd466ef440504053480caba3ba58cd0f4",
+    "bytes": 987
+  },
+  "failure_manifest": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/gate/FIRST_FAILURE_PRESERVATION.json",
+    "sha256": "16ef47b144ab02c54a7a2561d093eff74d40995f1ef50dfa36c271721e9d5283",
+    "bytes": 7195
+  },
+  "failure_pins_rehashed": 1,
+  "failure_log": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_799_real/gate/first_failure/04_CLIENT.log",
+    "sha256": "448ff8bb9e83ad6d5f7fbaa3fc59747ecfabc8ac9acaacdc3716429b23292aca",
+    "bytes": 6832
+  },
+  "exact_change": {
+    "old": "rounded_from_domain 1 183457 6 9 137 h1 hu9",
+    "new": "(by simpa only [Nat.cast_one] using (rounded_from_domain 1 183457 6 9 137 h1 hu9))",
+    "scope": "Only the first current_rounded_log_enclosures tuple component; statement and generic helper remain exact."
+  },
+  "inverse_recovers_failed_source": true,
+  "committed_source": "0ad5aa900ceb16671f41bf84e0491e5c3b651183",
+  "reason": "Nat.cast_one rewrites only the real cast of the Nat rank1 in the accepted helper conclusion to the literal real1 in the unchanged first conjunction component. No generic proof, statement, weight, domain, import or option changes.",
+  "initial_review_limit": "The original source/API readback missed this rank1 elaboration normalization; the failed module is preserved and none of its sorryAx-dependent probes is accepted.",
+  "runtime_boundary": "Independent failure-aware binding and fresh guard remain required under the existing single ordinary repair authority. No retry/compiler performed by reviewer."
+}
