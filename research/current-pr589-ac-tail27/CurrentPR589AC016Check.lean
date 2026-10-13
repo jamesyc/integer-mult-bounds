@@ -146,7 +146,7 @@ theorem cleanup_runs_reverse (s : State) :
     _ = BitXor.run (decodedA.reverse.map BitXorReversal.scalarize) s := by rw [h]
     _ = BitXor.run decodedA.reverse s := BitXorReversal.run_scalarize decodedA.reverse s
 
-/-- The exact isolated 128+128 scalar word cancels on arbitrary 661-bit state. -/
+/-- The exact isolated 27+27 scalar word cancels on arbitrary 661-bit state. -/
 theorem isolated_block_inverse (s : State) :
     BitXor.run decodedC (BitXor.run decodedA s) = s := by
   rw [cleanup_runs_reverse]

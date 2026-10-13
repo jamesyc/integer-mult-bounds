@@ -43,13 +43,13 @@
   "finite_decisions": 7,
   "source_binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/SOURCE_BINDING.json",
-    "sha256": "c1ec20306983bfd1035c7ebf087b5fae48f9c10cc87aff27b0911404e26a1fc3",
+    "sha256": "b03e4974d1e6ad4d6cbf1e0d141f642471926dfd1aeca8b8804058b5fcc41e61",
     "bytes": 3433
   },
   "source_transform": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/SOURCE_TRANSFORM.json",
-    "sha256": "bc419d1434eb48da8ef34d14663651d237f81e32f192f1a217835956e553e206",
-    "bytes": 11663
+    "sha256": "a0d78452ce7ae506c3671a6bc7bc9ffebe0578e278601cf5535c540bb4898f28",
+    "bytes": 11826
   },
   "protected_prior_quadruples": 75,
   "archived_failures": 44,

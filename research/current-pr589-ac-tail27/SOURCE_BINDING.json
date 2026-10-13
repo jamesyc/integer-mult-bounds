@@ -38,8 +38,8 @@
   "normalized_C_sha256": "426fdfe8098317df7f3685a0e5fdeb6ae92eaec5ad083b2a6d497582f4cd6793",
   "source_transform": {
     "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/SOURCE_TRANSFORM.json",
-    "sha256": "bc419d1434eb48da8ef34d14663651d237f81e32f192f1a217835956e553e206",
-    "bytes": 11663
+    "sha256": "a0d78452ce7ae506c3671a6bc7bc9ffebe0578e278601cf5535c540bb4898f28",
+    "bytes": 11826
   },
   "sources": [
     {
@@ -49,8 +49,8 @@
     },
     {
       "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
-      "sha256": "a6663ce7366d51acf512ad9447a667c046d573bec86410397e20cc3d3b1fa4e3",
-      "bytes": 8568
+      "sha256": "614afc98eccafc5a8503b90383d36a7924da9226c24928403c368c8ef3d56b5b",
+      "bytes": 8566
     }
   ],
   "representative_data": {

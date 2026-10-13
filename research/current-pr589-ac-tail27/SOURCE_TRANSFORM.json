@@ -48,8 +48,8 @@
       "module": "CurrentPR589AC016Check",
       "source": {
         "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
-        "sha256": "a6663ce7366d51acf512ad9447a667c046d573bec86410397e20cc3d3b1fa4e3",
-        "bytes": 8568
+        "sha256": "614afc98eccafc5a8503b90383d36a7924da9226c24928403c368c8ef3d56b5b",
+        "bytes": 8566
       },
       "reference": {
         "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
@@ -75,6 +75,11 @@
         {
           "before": "theorem block_shape :\n    phaseA.length = 128 \u2227 phaseC.length = 128 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.add 0 = 128 \u2227\n    (phaseC.map (fun g => g.2.2.length)).foldl Nat.add 0 = 128 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.max 0 = 1 := by decide +kernel",
           "after": "theorem block_shape :\n    phaseA.length = 27 \u2227 phaseC.length = 27 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.add 0 = 36 \u2227\n    (phaseC.map (fun g => g.2.2.length)).foldl Nat.add 0 = 36 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.max 0 = 2 := by decide +kernel",
+          "count": 1
+        },
+        {
+          "before": "The exact isolated 128+128 scalar word",
+          "after": "The exact isolated 27+27 scalar word",
           "count": 1
         }
       ],
