@@ -1,0 +1,502 @@
+{
+  "status": "SOURCE_ONLY_SYMBOLIC_JOIN_PENDING_BOTH_PAIR_TERMINALS_AND_REVIEW",
+  "utc": "2026-10-13T09:35:28.913191+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-join/CurrentPR589ACJoin.lean",
+    "sha256": "ec172fa5f6b69db35c7564101157f2dbf1047f006df1228ed152e44a8aa3e994",
+    "bytes": 19243
+  },
+  "plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_remaining/CUMULATIVE_JOIN_READ_ONLY_PLAN.json",
+    "sha256": "05bf491222434d475cafcb56c1038ef93ee61d54f0bab272f5967afba07bf3ed",
+    "bytes": 17050
+  },
+  "raw_input": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "decoded_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b",
+  "window_sources": [
+    {
+      "ordinal": 0,
+      "A": [
+        0,
+        128
+      ],
+      "C": [
+        2446,
+        2574
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+          "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+          "bytes": 5312
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+          "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+          "bytes": 8554
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 1,
+      "A": [
+        128,
+        256
+      ],
+      "C": [
+        2318,
+        2446
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC001Data.lean",
+          "sha256": "2d71866354e93e6603cb6626f2ecc6a35228c2a4bcb31e87f46a6fe211a63763",
+          "bytes": 5462
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC001Check.lean",
+          "sha256": "8d599224219efad636602f367a760394465bfe8ea963b60e4d92c887f7cc14a1",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 2,
+      "A": [
+        256,
+        384
+      ],
+      "C": [
+        2190,
+        2318
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC002Data.lean",
+          "sha256": "b352691c530e86574003b275347f249861e0035da1a081b192525c78c7f38965",
+          "bytes": 5649
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC002Check.lean",
+          "sha256": "bf7c24e1e851e36f65bb2e6e85591dbf8f4fee810fc4800f570d6c6bec2e9553",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 3,
+      "A": [
+        384,
+        512
+      ],
+      "C": [
+        2062,
+        2190
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC003Data.lean",
+          "sha256": "8140dbdf2b656e16f156f9a86bad8c5407327d86d56639a8df0d7407b6169428",
+          "bytes": 5674
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC003Check.lean",
+          "sha256": "1e015b8cd2e597de7e60c9a639ac602be54f3448da06786c3477390e9c6eacbc",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 4,
+      "A": [
+        512,
+        640
+      ],
+      "C": [
+        1934,
+        2062
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC004Data.lean",
+          "sha256": "1259eb3cd291aeca451a5516abcefcdcd09fc31b00e517c2edfdaf23f8f3b16b",
+          "bytes": 5713
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC004Check.lean",
+          "sha256": "991dafd074c03256cd680173f9b7b1a4519ac8ab66b9f9f1e7d6944f7875ef00",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 5,
+      "A": [
+        640,
+        768
+      ],
+      "C": [
+        1806,
+        1934
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC005Data.lean",
+          "sha256": "e046940483f4905294b238b5eadfa294fe2f3021cb7717b4a5e60044c3e4b700",
+          "bytes": 5761
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC005Check.lean",
+          "sha256": "944375a4283beb9d5cacdafaa38bd404c69f1c8184d7cdbcda7a74aa92f5039a",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 6,
+      "A": [
+        768,
+        896
+      ],
+      "C": [
+        1678,
+        1806
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC006Data.lean",
+          "sha256": "f2572db7ec3d938f17d27c1ca47d4eaf2cd2fb1f6db6ca7fd76dc9be9e2aa331",
+          "bytes": 5761
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC006Check.lean",
+          "sha256": "1ea367faa45d368d3df78f836d169b61922060be0a67a3fe3bd878c5acf8178f",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 7,
+      "A": [
+        896,
+        1024
+      ],
+      "C": [
+        1550,
+        1678
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC007Data.lean",
+          "sha256": "bfe0491273ed06ce192eba354ba26d2be443b46381038bef87f9c9cb241b0a27",
+          "bytes": 5762
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC007Check.lean",
+          "sha256": "fca3bcc6e147d9f0e5ca23c740a79cf4d1a2a2be2ebd632b51a6c287ef43ab27",
+          "bytes": 8550
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 8,
+      "A": [
+        1024,
+        1152
+      ],
+      "C": [
+        1422,
+        1550
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC008Data.lean",
+          "sha256": "895e61e2fbd01b55bf78a5b97208718b835d56128e23cf8e95b9799c1d33a08a",
+          "bytes": 5763
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC008Check.lean",
+          "sha256": "6654eafb6c154ec5cdb678ea2c840998148df7c81f3dad3bf926ac53bc5223e2",
+          "bytes": 8551
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 9,
+      "A": [
+        1152,
+        1280
+      ],
+      "C": [
+        1294,
+        1422
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC009Data.lean",
+          "sha256": "0dfc050e69f8177a4de4aa367842e5905a614ca2a771ef0489b116375ea15637",
+          "bytes": 5763
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC009Check.lean",
+          "sha256": "bceaa0679016a09e344ba80b1f6d0992d9157225647ab97cc4fc1072472347b0",
+          "bytes": 8551
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 10,
+      "A": [
+        1280,
+        1408
+      ],
+      "C": [
+        1166,
+        1294
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC010Data.lean",
+          "sha256": "6071427c0291acc93fcda5957f33760ff9427517892c57d5058754c1a8429c53",
+          "bytes": 5763
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC010Check.lean",
+          "sha256": "6aefe1c5d66ba49553f266eaa3c2d32493a277fb2d2c8958a641a559eaf4399c",
+          "bytes": 8551
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 11,
+      "A": [
+        1408,
+        1536
+      ],
+      "C": [
+        1038,
+        1166
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC011Data.lean",
+          "sha256": "d285635e195321aebe83f368ef2476c872981c100d1f70ace145d87d0acffd71",
+          "bytes": 5763
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC011Check.lean",
+          "sha256": "1433e51b592fa87c2685eafd95a071d05e07b50cba88cfeebf9ac91f4563a684",
+          "bytes": 8551
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 12,
+      "A": [
+        1536,
+        1664
+      ],
+      "C": [
+        910,
+        1038
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC012Data.lean",
+          "sha256": "99e06366ac0645ce9ea0cf8ae32dad11f88dffe38360192541ef55c42aabd2f5",
+          "bytes": 5762
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC012Check.lean",
+          "sha256": "682eacdd973b7ca51d4c9281b0940aee5ccf6060ebfef0e208c1a3b9dd98dec5",
+          "bytes": 8550
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 13,
+      "A": [
+        1664,
+        1792
+      ],
+      "C": [
+        782,
+        910
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC013Data.lean",
+          "sha256": "cf5ecbd5ee985b8daf1286bf8402234e297a62b6bb9f464d698c62b214aaf11a",
+          "bytes": 5761
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC013Check.lean",
+          "sha256": "e4faa0e689fa205945a4ef98d83e61108f5ae5980a1b74073f862b05c2a956fd",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 14,
+      "A": [
+        1792,
+        1920
+      ],
+      "C": [
+        654,
+        782
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 128,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC014Data.lean",
+          "sha256": "867492b1d3e939f21d316dfd9b76a7ea8876e72e884c9ab56d8e1f21c98f1d42",
+          "bytes": 5761
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-unary-pairs/CurrentPR589AC014Check.lean",
+          "sha256": "d03a3d9e0374be8ca1eabeea56cb7bb6124511d4199426682838c70f3b0db91b",
+          "bytes": 8549
+        }
+      ],
+      "status": "independent_terminal_pass"
+    },
+    {
+      "ordinal": 15,
+      "A": [
+        1920,
+        2048
+      ],
+      "C": [
+        526,
+        654
+      ],
+      "gates_each": 128,
+      "operand_occurrences_each": 174,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/CurrentPR589AC015Data.lean",
+          "sha256": "51524f69a1ae31c08c836173cc458fc29f7f672859047205ed03ed8c8f07c73c",
+          "bytes": 6207
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/CurrentPR589AC015Check.lean",
+          "sha256": "6572c5d49e594c048de807f745855e0decc42115381fdf16d91a3141f82cec55",
+          "bytes": 8574
+        }
+      ],
+      "status": "source_reviewed_not_checked"
+    },
+    {
+      "ordinal": 16,
+      "A": [
+        2048,
+        2075
+      ],
+      "C": [
+        499,
+        526
+      ],
+      "gates_each": 27,
+      "operand_occurrences_each": 36,
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Data.lean",
+          "sha256": "f5e13021583ad55c8f7bd160dc38b78c39e2713e6e18de062ed1ef440f424732",
+          "bytes": 1824
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
+          "sha256": "614afc98eccafc5a8503b90383d36a7924da9226c24928403c368c8ef3d56b5b",
+          "bytes": 8566
+        }
+      ],
+      "status": "owner_pass_pending_terminal"
+    }
+  ],
+  "imported_generic_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/bit-xor-chunk-composition/BitXorChunkComposition.lean",
+    "sha256": "90054ae1caf1a90ec0a194558bb9194b6e575c90715d9fa2b0b9c397cb82057d",
+    "bytes": 5255
+  },
+  "literal_emission": false,
+  "new_finite_decisions": 0,
+  "public_probes": [
+    "CurrentMain.CurrentPR589ACJoin.ordered_A_binding",
+    "CurrentMain.CurrentPR589ACJoin.ordered_C_suffix_binding",
+    "CurrentMain.CurrentPR589ACJoin.decoded_no_self_reads",
+    "CurrentMain.CurrentPR589ACJoin.decoded_no_target_reads",
+    "CurrentMain.CurrentPR589ACJoin.decoded_no_target_writes",
+    "CurrentMain.CurrentPR589ACJoin.cleanup_runs_reverse",
+    "CurrentMain.CurrentPR589ACJoin.isolated_A_inverse",
+    "CurrentMain.CurrentPR589ACJoin.conditional_off_target_cleanup",
+    "CurrentMain.CurrentPR589ACJoin.conditional_target_value"
+  ],
+  "scope": [
+    37,
+    36,
+    1
+  ],
+  "total_scope": [
+    354,
+    353,
+    1
+  ],
+  "official_core": 317,
+  "public_semantics": "A[0:2075] with C[499:2574] only, arbitrary661 state, exact source-window concatenations. Conditional middle-map facts remain hypotheses; full C prefix/B/D/physical theorem excluded.",
+  "resource_plan": "Same60s/4GiB hard and45s/3.5GiB review, sole serial root; stop on any failure/resource review. Finite chunks are imported, not rechecked. Symbolic root fit is unmeasured.",
+  "remaining": [
+    "Both tuning and tail independent terminals before dispatch.",
+    "Concrete final emitted source/API review, exact DFS/probes/current inventory and root gate admission.",
+    "Actual Bmiddle typed reverse binding and two-level middle maps; B cannot be substituted for a target-only map because it writes sources and helpers465/466/468.",
+    "D parity compensation, Fin662 temporary lifecycle, frame geometry and physical/all-size transfer."
+  ],
+  "compiler_runs": 0
+}
