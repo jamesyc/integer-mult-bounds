@@ -1,0 +1,78 @@
+{
+  "status": "SOURCE_REVIEWED_PENDING_EXACT_BINDING_AND_ADMISSION",
+  "utc": "2026-10-13T08:56:08.073351+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-fold/Current799EntryFold.lean",
+    "sha256": "c6cd3e362ac1626e25ee4deb87c7aee503743a0184fc429d37b58e95a19a823d",
+    "bytes": 6066
+  },
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-fold/SOURCE_BINDING.json",
+    "sha256": "194efb2731cd10001738008af023da412c5778df7c6df675d03058b67f62473d",
+    "bytes": 77884
+  },
+  "footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "689bacfd37ebe7737dde9e03fe02223e39b9a181bb57a9b56f1af688680bf435",
+    "bytes": 1864868
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "d1e126c613e1034448054c794e10cee4887ee92ec6165a050fe135dce746aba0",
+    "bytes": 89608
+  },
+  "authority": "Root2026-10-13 08:20 and08:37 authorizes source preparation for the reusable nodup update fold and exact0..727 entry application. No compiler before independent source/API and binding/admission.",
+  "prospective_scope": [
+    6,
+    5,
+    1
+  ],
+  "external_pairs": 2213,
+  "all_nodes": 2219,
+  "all_edges": 8331,
+  "public_probes": [
+    "CurrentMain.IndependentEntryFold.runUpdates_eq_foldl",
+    "CurrentMain.IndependentEntryFold.runUpdates_of_not_mem",
+    "CurrentMain.IndependentEntryFold.runUpdates_of_mem",
+    "CurrentMain.Current799EntryFold.entryRegisters_nodup",
+    "CurrentMain.Current799EntryFold.entryRegisters_values",
+    "CurrentMain.Current799EntryFold.selected_entry_action",
+    "CurrentMain.Current799EntryFold.selected_executor_action"
+  ],
+  "required_printed_types": [
+    "CurrentMain.Current799EntryFold.selected_entry_action",
+    "CurrentMain.Current799EntryFold.selected_executor_action"
+  ],
+  "computation": {
+    "generic_list_inductions": 3,
+    "full_state_replays": 0,
+    "whole728_list_decisions": 0,
+    "bounded_numeric_proof_leaves": 17,
+    "description": "One constant728<736 bound plus sixteen selected-support index bounds. The728-entry order/no-duplicates proof uses symbolic ofFn/injective/map lemmas, not enumeration."
+  },
+  "imports_unchanged_cache": [
+    "Current799EntryConnection"
+  ],
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "preserved_prerequisites": 5,
+  "compiler_runs": 0,
+  "preparation_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/SOURCE_PROPOSAL.json",
+    "sha256": "b2a7c49f79d05b99cb98324c5339d6e2dd245f0b8f3c7587931f1fb8ed40e36e",
+    "bytes": 2806
+  },
+  "independent_source_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-fold/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "dd181ceb9c1bcbca00edc89cb4c8854761847002dcd30b55809dc22dd7118c17",
+    "bytes": 5014
+  },
+  "next_conditions": [
+    "Exact committed current/source/output binding and fresh independently reviewed guard.",
+    "Concrete first-check admission for the recorded6/5/1 scope; do not infer it from preparation."
+  ]
+}
