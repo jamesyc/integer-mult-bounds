@@ -6,4 +6,4 @@ Each of363 target-table entries carries a proof that it lies outside the16-regis
 
 The second segment includes frame0/2/3 annotations; no label or actual executor conclusion is inferred. Sixteen entry adapters, including eight residual pre wrappers at frame4, backward dependency work, residual inverse/hstart and full physical/all-size suppliers remain open.
 
-No compiler has run for this proposal. See SOURCE_PROPOSAL.json for exact scope and preserved predecessor pins.
+The sole first check passed and was independently terminal-reviewed. See ACCEPTANCE_SUMMARY.json for the exact measured result and both printed trace-premise types. SOURCE_PROPOSAL.json preserves the original pre-check scope and predecessor pins.

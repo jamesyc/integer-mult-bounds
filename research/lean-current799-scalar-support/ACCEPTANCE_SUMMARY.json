@@ -1,0 +1,81 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENTLY_REVIEWED",
+  "utc": "2026-10-13T07:51:02.325537+00:00",
+  "source_commit": {
+    "commit": "f81f7a636b8bd245f471425cf7090fcdf86cd149",
+    "path": "research/lean-current799-scalar-support/Current799ScalarSupport.lean"
+  },
+  "owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_proposal/gate/ACCEPTANCE.json",
+    "sha256": "83f4f36e833d58283fa9fbcb2d9aa02b4fdf98a06c532f71b70bd31fd66c4854",
+    "bytes": 16195
+  },
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_SCALAR_SUPPORT_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "e08f0629a233b2751cd67972d9b56e5334460c4c40d387a2b66690cf8b69dce5",
+    "bytes": 7144
+  },
+  "measures": {
+    "started_utc": "2026-10-13T07:41:40.454941+00:00",
+    "finished_utc": "2026-10-13T07:42:00.644416+00:00",
+    "compile_seconds": 20.18943151900021,
+    "queue_seconds": 0.0007383210031548515,
+    "preparation_seconds": 0.9772876070055645,
+    "process_observations": {
+      "samples": 201,
+      "peak_vm_bytes": 2303619072,
+      "peak_rss_bytes": 1730555904,
+      "peak_threads": 3
+    }
+  },
+  "probes": [
+    {
+      "name": "CurrentMain.Current799ScalarSupport.expanded_targets_safe",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799ScalarSupport.interpreted_run_preserves_support",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "printed_types": [
+    {
+      "declaration": "@CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support",
+      "actual_printed_type": "@CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support : \u2200 {\u039b : Type u_1} {K : Type u_2}\n  {M : Type u_3} [inst : Semiring K] [inst_1 : AddCommMonoid M] [inst_2 : Module K M]\n  (es : List (LemmaG.Event (Fin 736) \u039b K)),\n  CurrentMain.Current799ScalarSupport.HasDestinationTrace es CurrentMain.Current799ScalarSupport.preconditionTargets\n      CurrentMain.Current799ScalarSupport.preconditionRuns \u2192\n    \u2200 (h : Fin 736 \u2192 M), \u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport, LemmaG.Stream.scalRun es h i = h i",
+      "typed_trace_premise_explicit": true
+    },
+    {
+      "declaration": "@CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support",
+      "actual_printed_type": "@CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support : \u2200 {\u039b : Type u_1} {K : Type u_2} {M : Type u_3}\n  [inst : Semiring K] [inst_1 : AddCommMonoid M] [inst_2 : Module K M] (es : List (LemmaG.Event (Fin 736) \u039b K)),\n  CurrentMain.Current799ScalarSupport.HasDestinationTrace es CurrentMain.Current799ScalarSupport.earlyATargets\n      CurrentMain.Current799ScalarSupport.earlyARuns \u2192\n    \u2200 (h : Fin 736 \u2192 M), \u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport, LemmaG.Stream.scalRun es h i = h i",
+      "typed_trace_premise_explicit": true
+    }
+  ],
+  "scientific_scope": "Exact current799 source-bound safe tables and ordered runs yield unchanged16 selected registers across the separated6488 and2022 scalar segments for arbitrary payload, under both explicit HasDestinationTrace premises.",
+  "exclusions": [
+    "No concrete full-prefix typed trace supplier or prefix execution-to-labels theorem.",
+    "Sixteen entry adapters, residual inverse and hstart remain separate.",
+    "Backward dependency slice, physical executor and all-size conclusions remain open.",
+    "Actual selected source destination arrays are bound; typed-event trace/executor correspondence is not inferred.",
+    "No previous resource hold cleared."
+  ]
+}
