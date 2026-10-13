@@ -1,0 +1,62 @@
+{
+  "status": "PASS_CURRENT_PR589_FINITE_TEMPLATE_API_RESOURCE_SHAPE",
+  "completed_utc": "2026-10-13T08:06:50.544018+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current589-bit-upper/Current589BitUpperAggregate.lean",
+    "sha256": "559f9bb79bff1ac92bf44ff1edf07ef6928636370dd50c7ef1345f3a1b8c67d9",
+    "bytes": 67334
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current589-bit-upper/SOURCE_BINDING.json",
+    "sha256": "6a7f14732df9de0b1bb4d53ad5f97db3ce34f8b4dd437e3932efb86d10ac9c88",
+    "bytes": 7218
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current589-bit-upper/CHECK_PROPOSAL.json",
+    "sha256": "d4a3ebf430a3f0f9bbc4df702fb4225a7a228719fc22ac52f0ebc93a0372e4b6",
+    "bytes": 67813
+  },
+  "source_map": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_bit/CURRENT_SOURCE_AND_WEIGHTED_MAP.json",
+    "sha256": "e24ebab4d6cded562eda5af6ead7844c775af1bcf2bbf29a1875bf7af005df6a",
+    "bytes": 60675
+  },
+  "accepted_emitter_reference": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_bit_upper/prepare_source.py",
+    "sha256": "5f270956b38ee3745b88df17021b7ba01d651f52c7a74bb5c013adaaa309285f",
+    "bytes": 8713
+  },
+  "checks": [
+    "Actual dimension64 bitLogDomain exactly equals the accepted bit template; reduced unit2 is permitted.",
+    "All eight log/x/three exp-state literals and ordered block proof connections match the source-pinned map.",
+    "Each exponential uses exactly three four-step expBlock certificates with the accepted expState12/expUpper definitions.",
+    "The exact full weighted ordinary expression has one ceiling; the separate fallback has its own ceiling before10^-16 scaling.",
+    "Six public conclusions consume actual literal checks; supplied negative residual is checked by the kernel rather than trusted."
+  ],
+  "scope": {
+    "local": [
+      5,
+      4,
+      1
+    ],
+    "cached_pairs": 319,
+    "blocks": 24,
+    "domain_leaves": 16,
+    "finite_decisions": 69,
+    "new_probes": 6,
+    "import_probes": 21
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 40,
+    "review_vm_bytes": 3758096384
+  },
+  "fit": "The fresh root and69 decisions are unmeasured; stop at the stated40-second/3.5GiB review boundary.",
+  "remaining": [
+    "Signed owns source formula/number correctness review.",
+    "Candidate source was uncommitted at review handoff; final source commit/current/runtime/driver alignment remains required.",
+    "No Real log/exponential enclosure, bit recurrence/profile/operator realization or current outer/all-size theorem is inferred."
+  ],
+  "compiler_or_supplier_execution": false
+}
