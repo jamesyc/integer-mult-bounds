@@ -1,0 +1,51 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_EXACT_RECORD3_CIRCUIT_VALIDITY",
+  "utc": "2026-10-13T09:55:00.261949+00:00",
+  "source_commit": "390607dc",
+  "source_sha256": "52ecfd658be8d5e69442b64ec382935754ee3a22d22a7a1978b63426814c16e3",
+  "owner_acceptance": {
+    "path": "recovery_20261011/post114_reconstruction/frame/current799_record3_cancellation_validity/gate/ACCEPTANCE.json",
+    "sha256": "f0e06ab97c3fb2acdcd8884baea0a3b5aa63bef9ec2f972ed7041d27237ec58e",
+    "bytes": 184930
+  },
+  "independent_terminal": {
+    "path": "recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_CANCELLATION_VALIDITY_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "6f5d30f2177ea132257bacf9aa4219689b9eda964ba7f518a4677f897df603c7",
+    "bytes": 41424
+  },
+  "current_scope": {
+    "modules": 17,
+    "current_local": 17,
+    "pending": 0
+  },
+  "probes": [
+    {
+      "name": "CurrentMain.Current799Record3Packed.gate_validity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "compiler_seconds": 19.28731545599294,
+  "peak_vm_bytes": 2684854272,
+  "preserved_failures": [
+    {
+      "path": "recovery_20261011/post114_reconstruction/frame/current799_record3_packed_proposal/allocation_failure_baseline/FAILURE.json",
+      "sha256": "106ad1cc2fcf598ff37c4225143b0c0f465e4aa6081b91e2705714f7cabe1b09",
+      "bytes": 5559
+    },
+    {
+      "path": "recovery_20261011/post114_reconstruction/frame/current799_record3_split_proposal/validity_gate/allocation_failure_baseline/FAILURE.json",
+      "sha256": "23fa7fb9828dd20dd0afc311138e5eafcb4623f9e73e916f0c9ba157cacb55c0",
+      "bytes": 103598
+    },
+    {
+      "path": "recovery_20261011/post114_reconstruction/frame/current799_record3_symbolic_validity/gate/symbolic_failure_baseline/FAILURE.json",
+      "sha256": "10ff9ed84ada4f14f16bfcace6b38f35e1cb31917b841a4e800d5659d007bc09",
+      "bytes": 141175
+    }
+  ],
+  "qualification": "Only the exact original cOk conjunction is accepted. Proof strategy changed and prior failures remain evidence; this is no controlled runtime speed claim. The reduced packed equality/all-payload canonical recipe remains separately unattempted."
+}
