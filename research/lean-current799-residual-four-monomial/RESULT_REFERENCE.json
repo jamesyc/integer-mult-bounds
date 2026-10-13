@@ -1,0 +1,65 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_EXACT_RESIDUAL_RIGHT_MONOMIAL_INTERPRETATION",
+  "utc": "2026-10-13T10:10:04.830366+00:00",
+  "source_commit": "f3bf10b95fa916b345bcc01bafea66c55acbf040",
+  "source_sha256": "20bcc884ef345cab47c81a3ed3816445d637f3325d7b311ce9e2e9eda4763053",
+  "owner_acceptance": {
+    "path": "recovery_20261011/post114_reconstruction/frame/current799_residual_four_full/gate/ACCEPTANCE.json",
+    "sha256": "992f9bd58a66572e311cd0709e0565c9f0201cf6c80aec54a28b82759954ec48",
+    "bytes": 186588
+  },
+  "independent_terminal": {
+    "path": "recovery_20261011/post114_reconstruction/integration/CURRENT799_RESIDUAL_FOUR_TERMINAL_REVIEW.json",
+    "sha256": "dc7127b781249fd626fc2e4eabc14bc434b282b6df01ba037a056f290b65071c",
+    "bytes": 4154
+  },
+  "current_scope": {
+    "modules": 16,
+    "current_local": 16,
+    "pending": 0
+  },
+  "probes": [
+    {
+      "name": "CurrentMain.Current799ResidualFourMonomial.matrix_inverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799ResidualFourMonomial.preimage_read",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799ResidualFourMonomial.packed_reindex",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.Current799ResidualFourMonomial.packed_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "compiler_seconds": 10.373789770004805,
+  "peak_vm_bytes": 2682527744,
+  "exact_conventions": {
+    "source_key": "4 means full-terminal residual",
+    "stored_offset": 309,
+    "inverse_read_offset": 511,
+    "global_phase": 3,
+    "phase_coordinates": "input preimage"
+  },
+  "remaining": "Canonical residual endpoint identity, actual typed-trace/entry/executor action, whole-stream and full-work suppliers remain separate."
+}
