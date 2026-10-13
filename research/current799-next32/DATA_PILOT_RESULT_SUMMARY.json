@@ -1,0 +1,261 @@
+{
+  "status": "PASS_INDEPENDENT_DATA_ONLY_TERMINAL_CURRENT799_NEXT32",
+  "utc": "2026-10-13T09:30:42.245051+00:00",
+  "source_commit": "0afab839260f1bb0ba530320e6233890618adab6",
+  "scope": {
+    "local_modules": 9,
+    "preserved_current": 8,
+    "new_checks": 1,
+    "outside_protected": 24,
+    "historical743_replays": 0
+  },
+  "new_metrics": [
+    {
+      "module": "Current799Next32Data",
+      "admitted_utc": "2026-10-13T09:29:47.463504+00:00",
+      "compiler_started_utc": "2026-10-13T09:29:48.590834+00:00",
+      "compile_seconds": 4.64184332601144,
+      "queue_seconds": 0.0005083360010758042,
+      "samples": 47,
+      "peak_vm_bytes": 2096410624,
+      "peak_rss_bytes": 1500643328,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 4.64184332601144,
+  "total_new_queue_seconds": 0.0005083360010758042,
+  "peak_new_vm_bytes": 2096410624,
+  "data_scope": {
+    "raw_zero_based_inclusive": [
+      9338,
+      9369
+    ],
+    "new_rows_each": 32,
+    "chunk_lengths": [
+      24,
+      8
+    ],
+    "histogram_each": {
+      "ADD": 16,
+      "relabel": 16
+    },
+    "child_ordinals": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "directed_key_ranks": [
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        10,
+        1
+      ],
+      [
+        0,
+        11,
+        1
+      ],
+      [
+        0,
+        12,
+        1
+      ],
+      [
+        0,
+        13,
+        1
+      ],
+      [
+        0,
+        14,
+        1
+      ],
+      [
+        0,
+        15,
+        1
+      ],
+      [
+        0,
+        16,
+        1
+      ]
+    ],
+    "ordered_target_descriptors": [
+      [
+        11
+      ],
+      [
+        448
+      ],
+      [
+        493
+      ],
+      [
+        38
+      ],
+      [
+        499
+      ],
+      [
+        56
+      ],
+      [
+        21
+      ],
+      [
+        478
+      ]
+    ],
+    "catalog_prefix_count": 15,
+    "full_catalog_count": 2949,
+    "frame_count": 1005,
+    "label_registers": 736,
+    "checkpoints": [
+      97,
+      121,
+      129
+    ],
+    "supports": {
+      "121": [
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "129": [
+        236,
+        237,
+        238,
+        239
+      ]
+    },
+    "updates": {
+      "121": [
+        [
+          224,
+          9
+        ],
+        [
+          225,
+          9
+        ],
+        [
+          226,
+          10
+        ],
+        [
+          227,
+          10
+        ],
+        [
+          228,
+          11
+        ],
+        [
+          229,
+          11
+        ],
+        [
+          230,
+          12
+        ],
+        [
+          231,
+          12
+        ],
+        [
+          232,
+          13
+        ],
+        [
+          233,
+          13
+        ],
+        [
+          234,
+          14
+        ],
+        [
+          235,
+          14
+        ]
+      ],
+      "129": [
+        [
+          236,
+          15
+        ],
+        [
+          237,
+          15
+        ],
+        [
+          238,
+          16
+        ],
+        [
+          239,
+          16
+        ]
+      ]
+    },
+    "unchanged_complements": [
+      724,
+      732
+    ],
+    "composed_histogram_each": {
+      "ADD": 73,
+      "relabel": 56
+    },
+    "next_excluded_raw": 9370,
+    "next_excluded_event": "ADD"
+  },
+  "excluded_scope": [
+    "Actual entrance/pre-A executor, all731 omitted phase/adapter rows and full-stream coverage.",
+    "Current records7..14 operator or physical realization.",
+    "Full2949 catalog and events from raw9370 onward.",
+    "The Check root, all38 theorem probes and18 finite predicates are unattempted and outside this one-root pilot.",
+    "A kernel-pass data module is provisional pending independent source/API review; it is not a verified label/catalog claim."
+  ],
+  "qualification": "Data-only whole-module kernel acceptance with independent source/API and terminal reviews. Zero new theorem probes or explicit finite check predicates. Source review preceded compilation, overlap0 and no speedup inference. Check and the finite97-to129 claims remain unattempted; actual entrance/operator/physical suppliers stay open.",
+  "timing": {
+    "binding_notification_observed_utc": "2026-10-13T09:28:52Z",
+    "invocation_observed_window_utc": "2026-10-13T09:29:29Z",
+    "post_lock_guard_utc": "2026-10-13T09:29:45.194992+00:00",
+    "per_job_fields": "new_metrics retains actual admitted/compiler start; queue_seconds includes checker queue/guard and is not pure FIFO. No causal attribution or inferred model time."
+  },
+  "terminal_independent_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-next32/DATA_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "4d13fbd201128f16dfb01ffecbf0edb9798d859618fffc440d4408e016247929",
+    "bytes": 5369
+  },
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next32_data_pilot/ACCEPTANCE.json",
+    "sha256": "53f2a4c2cc4c8e71e0ebb9a8372ffdc883c771c6b0f08322c2526ed04d807732",
+    "bytes": 80642
+  },
+  "owner_only_preimage": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next32_data_pilot/DATA_PILOT_RESULT_SUMMARY.owner_only.json",
+    "sha256": "f5ddd570a8929803b46efc3789d333ea069f67852eae7dccef49c1ea9be778de",
+    "bytes": 5066
+  }
+}
