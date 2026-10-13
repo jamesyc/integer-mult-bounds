@@ -1,0 +1,61 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_GENERIC_SYMBOLIC_GATE_VALIDITY",
+  "utc": "2026-10-13T09:32:43.390687+00:00",
+  "source_commit": "9ea3aeb5",
+  "source_sha256": "4507d57d009614d8a392e673a191a00d5c75478b956fa0ccd1165ffdf584e677",
+  "owner_acceptance": {
+    "path": "recovery_20261011/post114_reconstruction/frame/packed_gate_validity/gate/ACCEPTANCE.json",
+    "sha256": "3865acf106c2ff34f14aeb09057524a1ccf9b2930e33320f785a7035e0eb3721",
+    "bytes": 166180
+  },
+  "independent_terminal": {
+    "path": "recovery_20261011/post114_reconstruction/machine/PACKED_GATE_VALIDITY_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "1063598dc4b31bba5fb9b24a974ab7fd9deeecb35f9ede2f8365eaa9274b70e5",
+    "bytes": 36041
+  },
+  "current_scope": {
+    "modules": 14,
+    "current_local": 14,
+    "pending": 0
+  },
+  "probes": [
+    {
+      "name": "CurrentMain.PackedGateValidity.diagonal_ok",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGateValidity.translation_ok",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGateValidity.gaussian_ok",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGateValidity.phase_ok",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "CurrentMain.PackedGateValidity.permutation_ok",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "compiler_seconds": 5.649004398001125,
+  "peak_vm_bytes": 2680885248,
+  "remaining": "Concrete circuit validity, packed equality, typed execution and full-work suppliers remain separately scoped. The record3 combined and isolated validity allocation failures stay preserved; this result is not a controlled speed comparison."
+}
