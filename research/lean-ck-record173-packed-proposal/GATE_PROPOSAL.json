@@ -1,0 +1,52 @@
+{
+  "status": "SOURCE_AND_RESOURCE_PROPOSAL_NOT_ADMITTED",
+  "root": "Current5996CKRecord173Packed",
+  "direct_imports": [
+    "PR593ExactHelpers"
+  ],
+  "prospective_scope": {
+    "modules": 3,
+    "retained": 2,
+    "new": 1
+  },
+  "external_pairs": 2501,
+  "probes": [
+    "CurrentMain.Current5996CKRecord173Packed.literal_binding",
+    "CurrentMain.Current5996CKRecord173Packed.gate_validity",
+    "CurrentMain.Current5996CKRecord173Packed.exact_packed_check",
+    "CurrentMain.Current5996CKRecord173Packed.packed_child"
+  ],
+  "finite_decisions": [
+    {
+      "name": "literal_binding",
+      "work": "Two canonical frames from ordered descriptors plus two monomial inverse-row computations. Helper results are compared once to frozen lists."
+    },
+    {
+      "name": "gate_validity",
+      "work": "Four literal circuits,19 gates total;17 non-phase gates each use original all512 predicate; no canonical helper is evaluated inside that predicate."
+    },
+    {
+      "name": "exact_packed_check",
+      "work": "Original PR593 encoded Gaussian-integer check;11 canonical gates versus9 child gates on512 leaves,depth9. Canonical first,3 versus1 Gaussian gates,B256,relative scale4,largest initial entry4089bits."
+    }
+  ],
+  "options": {
+    "Elab.async": false,
+    "maxRecDepth": "unchanged default",
+    "maxHeartbeats": "unchanged default"
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "fit": "Unmeasured. Structural counts do not predict wall time or VM. First failure/review stops; no unchanged repeat or cap increase.",
+  "preferred_admission": "Only after independent literal/model/API, helper terminal, current source applicability disposition and exact binding review. This packet authorizes no compiler.",
+  "remaining": [
+    "Kernel literal,gate-validity and packed-check goals",
+    "Independent source-fuel and stored phase/inverse interpretation review",
+    "Current7ee applicability or explicit historical-method pilot disposition",
+    "Actual emitted event/circuit and full-work semantics"
+  ]
+}

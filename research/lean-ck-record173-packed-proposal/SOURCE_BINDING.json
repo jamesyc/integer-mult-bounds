@@ -1,0 +1,132 @@
+{
+  "status": "HISTORICAL5996_SOURCE_BOUND_PROPOSAL_NO_CERTIFICATE_EXECUTION",
+  "source_main": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+  "current741_applicability": "Unestablished; no descriptor/key transfer inferred.",
+  "input_artifacts": [
+    {
+      "sha256": "d7556154fb94c597e46e140c8d5c111387fb8f9216baece38dd3d12ec0799e09",
+      "bytes": 71560,
+      "name": "CANONICAL-WORD.json.gz"
+    },
+    {
+      "sha256": "d0d4397ca553671cf831f469252b6d6d770e3daaa36f45d00a3f79d7419f926b",
+      "bytes": 181755,
+      "name": "LOCAL-PROGRAMS.json.gz"
+    },
+    {
+      "sha256": "6c02ffe58c574f2b037d74c03326021f0908a5b95993da1bc178c0aee7745649",
+      "bytes": 1024385,
+      "name": "CLIFFORD-RECIPES.json"
+    }
+  ],
+  "ordinal": 173,
+  "key": [
+    3,
+    4,
+    1
+  ],
+  "record_normalized_sha256": "fe50dc72c4d2ad9ce8dcb9411aa6b875d629b86a62dc07764ac3ead21fac7c5e",
+  "old_ordered_descriptor": [
+    42
+  ],
+  "new_ordered_descriptor": [
+    75,
+    42
+  ],
+  "raw_positions_both_orientations": [
+    9934,
+    9938
+  ],
+  "source_record": {
+    "left": {
+      "linear_Z4": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        3,
+        5,
+        8,
+        17,
+        32,
+        64,
+        1,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new": 4,
+    "old": 3,
+    "rank": 1,
+    "right": {
+      "linear_Z4": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        11,
+        65,
+        66,
+        4,
+        72,
+        16,
+        32,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        75,
+        75,
+        0,
+        75,
+        0,
+        0,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  "frozen_literals_sha256": "0d58822ff9f614fde2a096cc19d2dfb0007999496710a6d98796e568150d09de",
+  "upstream_helpers": {
+    "source_commit": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+    "source_path": "research/hyperplane-end-lean/HyperplaneEnd/Exact.lean",
+    "exact_source_sha256": "eebf3a3982af7ab9be45777b272a6aaa523206fa7667ceb6df63ad6589fd8183",
+    "slice_lines": [
+      29,
+      96
+    ],
+    "slice_sha256": "bcee6a011387d9c97da8ebe7f2c90d09655157822c865756c1992b4e10e716cb"
+  },
+  "source_fuel_boundary": "Helper lead/insPiv use fuel64 and retain original fallback/default semantics. Fixed nine-bit inputs, basis-rank trace and both inverse products are separately read back; the kernel literal-binding goal still must pass. No generic Python-loop correctness theorem is claimed.",
+  "physical_boundary": "Actual selected event/circuit decoder and physical/full-work execution remain separate."
+}
