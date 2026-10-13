@@ -1,0 +1,86 @@
+{
+  "status": "SOURCE_REVIEWED_PENDING_COMMITTED_BINDING",
+  "utc": "2026-10-13T07:53:59.332260+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-connection/Current799EntryConnection.lean",
+    "sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66",
+    "bytes": 5254
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-connection/SOURCE_BINDING.json",
+    "sha256": "f8b04ab8bf5ae850082800ea0ff865134fe8a199fdaf9606c78ac7e4e6ebf8a0",
+    "bytes": 7978
+  },
+  "authority": "Root2026-10-13 07:47 exact5/4/1 first bounded entry connection after independent source/API and binding; same2213 pairs,three probes,two printed types,zero finite decisions,unchanged caps and one ordinary reviewed proof-local repair. Integration relayed at07:52.",
+  "public_facts": [
+    "entryValue_inverse_chart",
+    "supported_first_climb_entry_value",
+    "supported_first_climb_chart"
+  ],
+  "required_printed_types": [
+    "supported_first_climb_entry_value",
+    "supported_first_climb_chart"
+  ],
+  "prospective_scope": [
+    5,
+    4,
+    1
+  ],
+  "cached_pairs": 2213,
+  "source_dependency_graph": [
+    "PR509Stream",
+    "PR516Realize",
+    "ScalarWriteSupport",
+    "Current799ScalarSupport",
+    "Current799EntryConnection"
+  ],
+  "finite_decisions": 0,
+  "source_array_replays": 0,
+  "public_qualifications": [
+    "Both typed destination traces are explicit premises.",
+    "Full entry executor pointwise action on selected16 is explicit.",
+    "R41 interpreted monomial/inverse and actual frame4 chart are supplied.",
+    "Incoming R41(T4(x)) values required; PR593 prew/hstart, unit row, N and endpoints are not concluded.",
+    "No whole-word or physical executor inference."
+  ],
+  "next_conditions": [
+    "Exact committed current/source/driver binding and independent fresh guard"
+  ],
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "compiler_runs": 0,
+  "preparation_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_connection_proposal/SOURCE_PROPOSAL.json",
+    "sha256": "b563d72d7b3711159256451e7ec83faa63cc4385faa249e268b7af754211b03d",
+    "bytes": 2191
+  },
+  "science": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-connection/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "4728195d25317f697c71b95ecb10ff80858a26ca0ae2d878769bce7b572afaba",
+    "bytes": 6460
+  },
+  "import_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_connection_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "57d24f83574e8e1e4f7ab14d94cb23b9832e2f2de192fe9f71af0049bc62cfad",
+    "bytes": 1864870
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_connection_proposal/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "148aeed65abbe11af15e35f4b4cd3c083f90b3a622dd44b55d4d1fd19bb85f33",
+    "bytes": 86846
+  },
+  "support_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_SCALAR_SUPPORT_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "e08f0629a233b2751cd67972d9b56e5334460c4c40d387a2b66690cf8b69dce5",
+    "bytes": 7144
+  },
+  "dependency_addendum": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_connection_proposal/DEPENDENCY_TERMINAL.json",
+    "sha256": "b79e53fdb2aa78f0f698516b89a3d2ef55ebb2f9853373642ad5dfe7ac10ce5e",
+    "bytes": 3483
+  }
+}

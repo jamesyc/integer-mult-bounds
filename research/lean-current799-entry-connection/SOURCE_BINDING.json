@@ -1,0 +1,358 @@
+{
+  "status": "SOURCE_ONLY_EXACT_SELECTED_ENTRY_BOUNDARY",
+  "utc": "2026-10-13T07:47:03.705911+00:00",
+  "selected_head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "source": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_connection_proposal/candidate/Current799EntryConnection.lean",
+    "sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66",
+    "bytes": 5254
+  },
+  "shared_verified_artifacts": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "raw_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "bytes": 83939
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "bytes": 208661
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/RESIDUAL-ADAPTERS.json",
+      "sha256": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+      "bytes": 17105
+    }
+  ],
+  "emitter": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_emit_local.py",
+    "sha256": "7e4a6fbc38c8228157b6311457d1496bf460291393043932d2c365f004f77805",
+    "bytes": 8821
+  },
+  "adapter_semantics": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_adapters_local.py",
+    "sha256": "eb0b5c6c7161e18dc22168da3211448d321586edd15bcfb4b4741174d36993cf",
+    "bytes": 9982
+  },
+  "selected_support": [
+    558,
+    559,
+    560,
+    561,
+    570,
+    571,
+    572,
+    573,
+    582,
+    583,
+    584,
+    585,
+    594,
+    595,
+    596,
+    597
+  ],
+  "plain_registers": [
+    558,
+    559,
+    560,
+    561,
+    570,
+    572,
+    582,
+    584
+  ],
+  "residual_registers": [
+    571,
+    573,
+    583,
+    585,
+    594,
+    595,
+    596,
+    597
+  ],
+  "entry_rows": [
+    {
+      "raw_index": 7048,
+      "event": [
+        "adapter",
+        "old_to_new",
+        558,
+        0
+      ]
+    },
+    {
+      "raw_index": 7049,
+      "event": [
+        "adapter",
+        "old_to_new",
+        559,
+        0
+      ]
+    },
+    {
+      "raw_index": 7050,
+      "event": [
+        "adapter",
+        "old_to_new",
+        560,
+        0
+      ]
+    },
+    {
+      "raw_index": 7051,
+      "event": [
+        "adapter",
+        "old_to_new",
+        561,
+        0
+      ]
+    },
+    {
+      "raw_index": 7060,
+      "event": [
+        "adapter",
+        "old_to_new",
+        570,
+        0
+      ]
+    },
+    {
+      "raw_index": 7061,
+      "event": [
+        "residual_adapter",
+        "pre",
+        571,
+        4
+      ]
+    },
+    {
+      "raw_index": 7062,
+      "event": [
+        "adapter",
+        "old_to_new",
+        572,
+        0
+      ]
+    },
+    {
+      "raw_index": 7063,
+      "event": [
+        "residual_adapter",
+        "pre",
+        573,
+        4
+      ]
+    },
+    {
+      "raw_index": 7072,
+      "event": [
+        "adapter",
+        "old_to_new",
+        582,
+        0
+      ]
+    },
+    {
+      "raw_index": 7073,
+      "event": [
+        "residual_adapter",
+        "pre",
+        583,
+        4
+      ]
+    },
+    {
+      "raw_index": 7074,
+      "event": [
+        "adapter",
+        "old_to_new",
+        584,
+        0
+      ]
+    },
+    {
+      "raw_index": 7075,
+      "event": [
+        "residual_adapter",
+        "pre",
+        585,
+        4
+      ]
+    },
+    {
+      "raw_index": 7084,
+      "event": [
+        "residual_adapter",
+        "pre",
+        594,
+        4
+      ]
+    },
+    {
+      "raw_index": 7085,
+      "event": [
+        "residual_adapter",
+        "pre",
+        595,
+        4
+      ]
+    },
+    {
+      "raw_index": 7086,
+      "event": [
+        "residual_adapter",
+        "pre",
+        596,
+        4
+      ]
+    },
+    {
+      "raw_index": 7087,
+      "event": [
+        "residual_adapter",
+        "pre",
+        597,
+        4
+      ]
+    }
+  ],
+  "frame_descriptors": {
+    "0": [],
+    "4": [
+      459
+    ],
+    "1": [
+      256,
+      128,
+      64,
+      32,
+      16,
+      8,
+      4,
+      2,
+      1
+    ]
+  },
+  "residual_recipe_key": "4",
+  "key_interpretation": "Legacy string entrance key is selected by adapter generator for final frame1. It denotes pair(4,1), not an arbitrary terminal frame.",
+  "residual_record": {
+    "entrance_rank": 1,
+    "frame": 4,
+    "left": {
+      "linear_Z4": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "matrix_rows": [
+        257,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        203
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        203,
+        203,
+        0,
+        203,
+        0,
+        0,
+        203,
+        203,
+        0
+      ]
+    },
+    "rank": 8,
+    "right": {
+      "linear_Z4": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "matrix_rows": [
+        1,
+        258,
+        4,
+        264,
+        16,
+        32,
+        320,
+        384,
+        256
+      ],
+      "offset": 309,
+      "phase": 3,
+      "quadratic_rows": [
+        256,
+        256,
+        0,
+        256,
+        0,
+        0,
+        256,
+        256,
+        203
+      ]
+    },
+    "vectors": [
+      459
+    ]
+  },
+  "right_record_normalized_sha256": "b43922ea8b9001d5c22c938c346fb3a6b1ddda0cccf338da7707ff9bf3bdcafa",
+  "abstract_entry_contract": "On selected16 only: full entry executor acts by supplied R41 inverse for residual8 and identity for plain8. This must be established by an actual executor supplier.",
+  "incoming_chart": "Residual8 incoming values equal R41(T4(x)); plain8 equal x. Neither value equality nor prew label/hstart is inferred from source labels.",
+  "pr593_interface_reference": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/hyperplane-end-lean/HyperplaneEnd/Labels.lean",
+      "sha256": "febdc3f1734281178b043d714ab70b197d1c34d58ad15462386060b821b80e0c",
+      "bytes": 5069
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/hyperplane-end-lean/HyperplaneEnd/Main.lean",
+      "sha256": "221a5126ec46141e5cba7689aaddd38746183ed15fa91ec229e32a16302b42a6",
+      "bytes": 8174
+    }
+  ],
+  "pr593_reuse": "Only the exact interface/order is used for design; no unchecked module is imported and no hstart premise is discharged.",
+  "support_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-scalar-support/Current799ScalarSupport.lean",
+    "sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7",
+    "bytes": 44632
+  },
+  "support_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_proposal/gate/ACCEPTANCE.json",
+    "sha256": "83f4f36e833d58283fa9fbcb2d9aa02b4fdf98a06c532f71b70bd31fd66c4854",
+    "bytes": 16195
+  },
+  "scalar_comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_comparison/SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+    "sha256": "84edd2d24a3c930612115cd357211f40718dbb7cb3679e5be2791f7aa8c0a790",
+    "bytes": 628741
+  }
+}
