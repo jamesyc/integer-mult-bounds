@@ -1,0 +1,75 @@
+{
+  "status": "SOURCE_REVIEWED_PENDING_BINDING_AND_FIRST_CHECK",
+  "utc": "2026-10-13T06:47:30.326433+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-scalar-write-support/ScalarWriteSupport.lean",
+    "sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e",
+    "bytes": 10646
+  },
+  "source_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/scalar_write_support_proposal/PRE_A_SOURCE_CONTRACT_INVENTORY.json",
+    "sha256": "0a1589a1b2a124ecb0ac255701cca9e257759cf03d7481255541d6a4a088f18d",
+    "bytes": 16127
+  },
+  "source_api_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/scalar-write-support/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "cb3ff535b1d9b495c5007f3c1814efe899df1018c9e2ab6adac1a57a67c2ae85",
+    "bytes": 4602
+  },
+  "import_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/scalar_write_support_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "e405a218c69bf47216aa3e9609f011af24f750db4eda2fc97b5a1f355391ea4e",
+    "bytes": 1864858
+  },
+  "local_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/scalar_write_support_proposal/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "b8d3c66e3528d5a696e6ef3bdf35611bef7c3f0c74a6f360b66327ba7b807763",
+    "bytes": 81143
+  },
+  "local_scope": [
+    3,
+    2,
+    1
+  ],
+  "external_pairs": 2213,
+  "new_axiom_probes": [
+    "CurrentMain.ScalarWriteSupport.physRun_unchanged",
+    "CurrentMain.ScalarWriteSupport.scalRun_unchanged",
+    "CurrentMain.ScalarWriteSupport.expanded_target_lt",
+    "CurrentMain.ScalarWriteSupport.Historical596.encoded_event_count",
+    "CurrentMain.ScalarWriteSupport.Historical596.support_above_targets",
+    "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved"
+  ],
+  "printed_types": [
+    "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved"
+  ],
+  "kernel_scope": {
+    "explicit_finite_decisions": 2,
+    "Fin_bound_terms": 224,
+    "historical_trace_events": 9168,
+    "compressed_trace_runs": 224,
+    "protected_support_registers": 16,
+    "state_execution_decisions": 0
+  },
+  "claims": [
+    "Generic interpreted event runs preserve a register outside every event destination.",
+    "The scalar specialization has the same support law.",
+    "Historical PR596 destination trace runs lie below224; the declared support lies at or above224.",
+    "Historical application explicitly requires equality to the supplied full typed destination trace."
+  ],
+  "open_obligations": [
+    "No full-prefix typed decoder or concrete HasSourceWriteTrace supplier.",
+    "Sixteen entry adapters, residual R-inverse and hstart remain open.",
+    "Backward88-event dependency slice on32 registers is separate.",
+    "Physical executor and all-size conclusions remain open.",
+    "New main7ee selected source applicability is unassessed."
+  ],
+  "admission": "Root18:29 preparation and first minimal bounded check after independent science/API and binding review, unchanged caps/protected outputs. Generic theorem is reusable; the optional literal witness remains historical5996.",
+  "caps": {
+    "hard_seconds": 60,
+    "hard_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_bytes": 3758096384
+  },
+  "compiler_runs": 0
+}
