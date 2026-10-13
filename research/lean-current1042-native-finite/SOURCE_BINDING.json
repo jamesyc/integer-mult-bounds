@@ -1,0 +1,136 @@
+{
+  "schema": "current1042-native-finite-source-binding-v1",
+  "status": "SOURCE_PREPARATION_UNCOMPILED",
+  "selected_main": "ba82555c64e1879e4b7decce28186f208fcb8262",
+  "audited_source": "7e8ef087c02a77038a28a337a7ee3a77039cac0d",
+  "author_checked_kappa": "1672188119205421/1000000000000000000",
+  "source": {
+    "module": "Current1042NativeUpperAggregate",
+    "bytes": 74277,
+    "sha256": "111bafce89e70eb97a605991aafc1aa6e12d837c3328f1836e3b576fdd016cae",
+    "generator_bytes": 8247,
+    "generator_sha256": "408800f1c54233cda3dbd5469d2d7743e8a90d3db57876d6e8900ca3194ad89a"
+  },
+  "raw_inputs": [
+    {
+      "path": "certificates/selected-result.json",
+      "git_blob": "f451ced6626a1f03aba6915ce23a136b01ebe51d",
+      "sha256": "207d1f49f113c585024b9d3c17eadbb8b1be17c1321e3d190aabe2f18ce1c5b7",
+      "bytes": 9522
+    },
+    {
+      "path": "research/community-frontier1042-audit/SELECTED-SOURCE.json",
+      "git_blob": "ab596b9f914f3ea0766b508e267582ec03a17edb",
+      "sha256": "f2c1594a39facf5d634d02e8a684677831e97f41ab2e609e8c35b52c1fec814b",
+      "bytes": 230826
+    },
+    {
+      "path": "research/community-frontier1042-audit/ASSEMBLY.json",
+      "git_blob": "4e308dc23da97373d66e5d8d4a68b0661caea8e9",
+      "sha256": "093f35445812ea96fe1bfe6a3af7d769cb7f274e08f4fb30f71a17ed1161e54e",
+      "bytes": 85535
+    },
+    {
+      "path": "research/gauge44-slots-t16/data/SPEC.json",
+      "git_blob": "84450b3b278e0409b66176598900b74412298a72",
+      "sha256": "78fb24ab0852fa52ceada755aff737165e92f80e5fff89a5452c9eceaae4f63c",
+      "bytes": 24484
+    },
+    {
+      "path": "research/gauge44-slots-t16/code/assemble.py",
+      "git_blob": "581dd9cb29a45bd68cc651538311b63f6966ad68",
+      "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+      "bytes": 20940
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742
+    },
+    {
+      "path": "research/gauge44-slots-t16/inputs/PR589-EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987
+    }
+  ],
+  "caller": {
+    "path": "research/gauge44-slots-t16/code/assemble.py",
+    "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+    "native_call": "check_moment('complex',H,73,owner['live'],b,5120,False)",
+    "spec_path": "research/gauge44-slots-t16/data/SPEC.json",
+    "spec_sha256": "78fb24ab0852fa52ceada755aff737165e92f80e5fff89a5452c9eceaae4f63c",
+    "bit_unchanged": true,
+    "bit_surcharge": true,
+    "later_bootstrap_charged_coefficient": 512,
+    "read_only": true,
+    "supplier_executed": false
+  },
+  "target": {
+    "dimension": 73,
+    "live": 14336,
+    "deficit": 5120,
+    "profile": {
+      "1": 349577,
+      "2": 60193,
+      "3": 62608,
+      "4": 20448,
+      "5": 11808,
+      "7": 3,
+      "8": 1152,
+      "16": 47,
+      "48": 4850
+    },
+    "count": 510686,
+    "rank_mass": 1041408,
+    "endpoint": "418747253984418082117/250000000000000000000000",
+    "ordinary_upper": "999999999999999999999997611023/1000000000000000000000000000000",
+    "residual": "-2388977/1000000000000000000000000000000",
+    "ordinary_ceiling_count": 1,
+    "native_fallback": false
+  },
+  "templates": [
+    {
+      "repository": "jamesyc/integer-mult-bounds",
+      "commit": "bc5b54e67a977a3d763722423e53361c1389500d",
+      "path": "research/lean-current942-native-finite/Current942NativeUpperAggregate.lean",
+      "sha256": "3af1227a1924d5906bf1339884c2e57b157c9e74afaede984c4739ecef78d3df"
+    },
+    {
+      "repository": "jamesyc/integer-mult-bounds",
+      "commit": "809915a264d4fbe1f7597cc13da3610dc4d52f15",
+      "path": "research/lean-selected-rational-certificates/SelectedMomentUpperAggregate.lean",
+      "sha256": "586a1d4d3031742343f6c1f78c59f44f3c6d84091c6a0433c562f9d036f19bc6"
+    }
+  ],
+  "scope": {
+    "local": 3,
+    "retained": 2,
+    "fresh": 1,
+    "cached_pairs": 319,
+    "reachable_nodes": 322,
+    "ordered_edges": 1086,
+    "decisions": 76,
+    "exp_blocks": 27,
+    "domain_leaves": 18,
+    "new_probes": 5,
+    "reachable_probes": 16
+  },
+  "retained_finite_terminal": "22d33d39bd7f86a9fc0862a9efbefd8a2358e6726d350cba4f4786091ef0dc22",
+  "witness": {
+    "bytes": 64140,
+    "sha256": "e447961fc9884bbfe21b48c69f2e1be7b569ec68087f2749e2daff36bb117b6b"
+  },
+  "reuse": "Seven accepted PR942 private proof shapes plus accepted PR585 rank7 text and the z9/137 rank16 binary reduction. All27 exponential checkpoint pairs are regenerated and remain linked by ordinary proofs. No unit root, supplier execution or native evaluation is added.",
+  "assumptions_excluded": [
+    "Real enclosure",
+    "profile/provider/operator realization",
+    "native recurrence license",
+    "bit supplier validity",
+    "bootstrap",
+    "outer slacks",
+    "all-size multiplication",
+    "selected kappa theorem"
+  ]
+}

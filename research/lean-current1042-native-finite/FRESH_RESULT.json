@@ -1,0 +1,402 @@
+{
+  "status": "PASS",
+  "module": "Current1042NativeUpperAggregate",
+  "command": [
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/bin/lean",
+    "-j1",
+    "-s65536",
+    "-o",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1042-native-n26tkvbt/execution/objects/Current1042NativeUpperAggregate.olean",
+    "Current1042NativeUpperAggregate.lean"
+  ],
+  "cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1042-native-n26tkvbt/output",
+  "environment": {
+    "LEAN_PATH": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1042-native-n26tkvbt/execution/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/batteries-pilot-20261013T132458Z-32myp4ed/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/lib/lean",
+    "LEAN_NUM_THREADS": "1",
+    "MIMALLOC_ARENA_RESERVE": "64MiB"
+  },
+  "limits": {
+    "review_seconds_each": 40,
+    "review_vm_bytes": 3758096384,
+    "hard_seconds_each": 60,
+    "rlimit_as_bytes": 4294967296,
+    "aggregate_hard_seconds": 60,
+    "serial": true,
+    "retry": false
+  },
+  "started_utc": "2026-10-13T19:01:40.462146+00:00",
+  "finished_utc": "2026-10-13T19:01:42.261711+00:00",
+  "exit_code": 0,
+  "stop_reason": null,
+  "compiler_seconds": 1.799550334999367,
+  "peak_vm_bytes": 708149248,
+  "peak_rss_bytes": 335237120,
+  "source_sha256": "111bafce89e70eb97a605991aafc1aa6e12d837c3328f1836e3b576fdd016cae",
+  "object_sha256": "b177d366fb95a41bc185ba455ab871de94db53c31595e5b0b1800c29a12d290a",
+  "object_bytes": 522088,
+  "raw_log_sha256": "d914f0202fc65ccd3278db9905a0f2a35fe66e54871dadc78a5a3d3ad6aedbd0",
+  "complete_ordered_probes": [
+    {
+      "declaration": "CurrentMain.Current1042NativeUpperAggregate.profile_totals",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.Current1042NativeUpperAggregate.current_domains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1042NativeUpperAggregate.ordinary_rounded_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1042NativeUpperAggregate.upper_matches_current_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current1042NativeUpperAggregate.current_upper_strict",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "before_guard": {
+    "status": "PASS_COMPILER_FREE_GUARD",
+    "verified_utc": "2026-10-13T19:01:40.460890+00:00",
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 322,
+    "reachable_edges": 1086,
+    "retained_roots": 2,
+    "retained_probes": [
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "new_probes": [
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.current_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.upper_matches_current_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.current_upper_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "first_matches_checked": 321,
+    "local_first_matches": [
+      {
+        "module": "SelectedMomentLogCheckpoints",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentLogCheckpoints.olean",
+        "sha256": "45410e51c7245c94df6116cf6cbc3898f52e1a2a43b575ff1a2b8929a012a79d"
+      },
+      {
+        "module": "SelectedMomentUpperAggregate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentUpperAggregate.olean",
+        "sha256": "514b4159d5e93a3614f3ac8102ca04a9412ef97f3c0184990a1e441afdaf0c78"
+      }
+    ],
+    "raw_inputs_checked": 7,
+    "protected_files_checked": 1710,
+    "worktree_heads_statuses_checked": 8,
+    "execution_directory_absent": false,
+    "fresh_object_absent": true,
+    "core_guard": {
+      "verified_utc": "2026-10-13T19:01:40.092898+00:00",
+      "pairs_checked": 317,
+      "ordered_edges_checked": 1077,
+      "actual_source_import_order_matches": true,
+      "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "protected_metadata_count": 1714,
+      "successful_predecessor_artifacts_checked": 9,
+      "guard_seconds": 0.2030588470006478
+    },
+    "guard_seconds": 0.5715559189993655
+  },
+  "after_guard": {
+    "status": "PASS_COMPILER_FREE_GUARD",
+    "verified_utc": "2026-10-13T19:01:42.798375+00:00",
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 322,
+    "reachable_edges": 1086,
+    "retained_roots": 2,
+    "retained_probes": [
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "new_probes": [
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.current_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.upper_matches_current_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current1042NativeUpperAggregate.current_upper_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "first_matches_checked": 321,
+    "local_first_matches": [
+      {
+        "module": "SelectedMomentLogCheckpoints",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentLogCheckpoints.olean",
+        "sha256": "45410e51c7245c94df6116cf6cbc3898f52e1a2a43b575ff1a2b8929a012a79d"
+      },
+      {
+        "module": "SelectedMomentUpperAggregate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentUpperAggregate.olean",
+        "sha256": "514b4159d5e93a3614f3ac8102ca04a9412ef97f3c0184990a1e441afdaf0c78"
+      }
+    ],
+    "raw_inputs_checked": 7,
+    "protected_files_checked": 1710,
+    "worktree_heads_statuses_checked": 8,
+    "execution_directory_absent": false,
+    "fresh_object_absent": false,
+    "core_guard": {
+      "verified_utc": "2026-10-13T19:01:42.485442+00:00",
+      "pairs_checked": 317,
+      "ordered_edges_checked": 1077,
+      "actual_source_import_order_matches": true,
+      "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "protected_metadata_count": 1714,
+      "successful_predecessor_artifacts_checked": 10,
+      "guard_seconds": 0.22281565700177453
+    },
+    "guard_seconds": 0.5358959899967886
+  },
+  "preservation_error": null,
+  "historical_expected_object_hash": null
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "current1042-native-finite-independent-terminal-v1",
+  "status": "PASS",
+  "reviewer": "analytic owner",
+  "closed_utc": "2026-10-13T19:05:45Z",
+  "scientific_pin": "ba82555c64e1879e4b7decce28186f208fcb8262",
+  "author_checked_context_kappa": "1672188119205421/1000000000000000000",
+  "current_selection_qualification": "PR1094 is now selected. This accepted root remains exact historical PR1042 T16 arithmetic.",
+  "cloud_turn": "01a136a3-f23c-72c7-9c4f-9b98e1d9d396",
+  "actual_final_message": "msg_00854d979964dd50016ace80c0ac808190861a631d2c55a109",
+  "source": {
+    "module": "Current1042NativeUpperAggregate",
+    "bytes": 74277,
+    "sha256": "111bafce89e70eb97a605991aafc1aa6e12d837c3328f1836e3b576fdd016cae"
+  },
+  "object": {
+    "bytes": 522088,
+    "sha256": "b177d366fb95a41bc185ba455ab871de94db53c31595e5b0b1800c29a12d290a",
+    "verification": "Actual supervisor receipt and successful post-guard; the binary object was not independently downloaded."
+  },
+  "receipt": {
+    "bytes": 12548,
+    "sha256": "7f153edbbbb3821879b43b449ec75f9069455c2ab66b2530fd3f1f3d353a5b5a",
+    "complete_literal_chunks_independently_rehashed": true
+  },
+  "raw_log": {
+    "bytes": 611,
+    "sha256": "d914f0202fc65ccd3278db9905a0f2a35fe66e54871dadc78a5a3d3ad6aedbd0",
+    "independently_rehashed": true,
+    "ordered_complete_probes": 5,
+    "profile_totals_axiom_free": true,
+    "other_four_standard_axioms_only": true,
+    "unparsed_residue": false
+  },
+  "guards": {
+    "before_sha256": "1a0308ca94c519d9c9d6f9668ed5be98c1058fd16a53d91b366d5d437375e72e",
+    "after_sha256": "146536df41696360378aad87f7bf9f65950e862f7739aeb23d4316c36e3bfe64",
+    "independently_reconstructed_from_literal_receipt": true,
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 322,
+    "reachable_edges": 1086,
+    "retained_roots": 2,
+    "retained_probes": 11,
+    "retained_first_matches": 321,
+    "scientific_git_inputs": 7,
+    "protected_files": 1710,
+    "worktree_heads_statuses": 8,
+    "twelve_historical_t37_spectator_paths_preserved": true,
+    "fresh_object_absent_before": true,
+    "fresh_object_present_after": true,
+    "historical_expected_object_hash": null,
+    "preservation_error": null
+  },
+  "binding": {
+    "wrapper_sha256": "63fd82a08a61d205f48af5b194b83567bdc505b1c4ae49619f5243b83d7a8738",
+    "manifest_sha256": "4ae046901e6a48ef2e9e8f2c5345a9ed96a5b62d74635b4a62c906bf946f3b46",
+    "integration_review_sha256": "44231f906ace7eebf98ac4b6181d2097b4a8ffbd2f97f4c2a75756afc5ad3145",
+    "bank_api_sha256": "648e96d7fb092f8977e8b733cddaa3bb27b03b6d8183fbbc9397785ceb677348",
+    "frame_science_sha256": "25909d217e6cdad941099011ec00f34abd0d21bb15f9c7d4b228f65c1431e16f",
+    "owner_materialized_applicability_sha256": "be54c79b5a5c23f0150e5fd56343dd0fe7fd67b28d846e7844e3392b6bbf1c06",
+    "command_cwd_environment_limits_exact": true
+  },
+  "actual": {
+    "started_utc": "2026-10-13T19:01:40.462146+00:00",
+    "finished_utc": "2026-10-13T19:01:42.261711+00:00",
+    "exit_code": 0,
+    "stop_reason": null,
+    "compiler_seconds": 1.799550334999367,
+    "before_guard_seconds": 0.5715559189993655,
+    "after_guard_seconds": 0.5358959899967886,
+    "peak_vm_bytes": 708149248,
+    "peak_rss_bytes": 335237120,
+    "below_review_limits": true,
+    "whole_wrapper_seconds": null,
+    "whole_wrapper_qualification": "Not recorded in the returned saved receipt; no estimate is supplied.",
+    "rerun_performed": false
+  },
+  "coverage": {
+    "finite": "Five finite rational facts: exact profile totals, current source domains, one ordinary rounded aggregate, equality to the selected residual -2388977/10^30, and strict upper below one. All27 four-step recurrence blocks and76 kernel decisions are contained in this accepted source.",
+    "conditional_inputs": "The rank/count profile, live width14336, native endpoint and no-surcharge branch are supplied source-bound finite inputs.",
+    "not_established": [
+      "Real log/exp enclosure",
+      "Native recurrence license",
+      "Saving supplier validity",
+      "Profile/operator/provider/physical realization",
+      "PR589 bit supplier validity",
+      "Seven-update bootstrap",
+      "47 outer inequalities",
+      "Precision and tape model",
+      "All-size transfer",
+      "Complete selected-kappa multiplication theorem"
+    ]
+  }
+}
