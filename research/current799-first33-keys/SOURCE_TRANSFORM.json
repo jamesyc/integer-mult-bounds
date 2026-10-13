@@ -1,0 +1,66 @@
+{
+  "reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current9594-ck-first33-keys/Current9594CKFirst33KeyRestriction.lean",
+    "sha256": "6c5cff1f423448c3c7ce6fe6abd35536b60925143182acb5e6464aff0379241f",
+    "bytes": 6990
+  },
+  "candidate": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33-keys/Current799First33KeyRestriction.lean",
+    "sha256": "fc22e6ed14562b9542b12674b0f0ac85055e5c3e3d70693bae9bbb914a3e48a3",
+    "bytes": 7078
+  },
+  "ordered_replacements": [
+    {
+      "before": "First33 current9594 CK",
+      "after": "First33 current799 gauge44",
+      "count": 1
+    },
+    {
+      "before": "400569730495803/250000000000000000",
+      "after": "1661634653669567/1000000000000000000",
+      "count": 1
+    },
+    {
+      "before": "Current9594CKFirst33KeyRestriction",
+      "after": "Current799First33KeyRestriction",
+      "count": 6
+    },
+    {
+      "before": "Current9594CKCoverage",
+      "after": "Current799First33Coverage",
+      "count": 25
+    },
+    {
+      "before": "Fin 1079",
+      "after": "Fin 1005",
+      "count": 4
+    },
+    {
+      "before": "(0 : Fin 1005) 2 row.event",
+      "after": "(0 : Fin 1005) 4 row.event",
+      "count": 4
+    },
+    {
+      "before": "KeyedDecoded 0 2",
+      "after": "KeyedDecoded 0 4",
+      "count": 4
+    },
+    {
+      "before": "raw9899..9922",
+      "after": "raw9241..9264",
+      "count": 1
+    },
+    {
+      "before": "raw9923..9931",
+      "after": "raw9265..9273",
+      "count": 1
+    },
+    {
+      "before": "key0\u21922",
+      "after": "key0\u21924",
+      "count": 2
+    }
+  ],
+  "whole_source_transform_exact": true,
+  "generic_membership_bodies": "Verbatim accepted eventKey,decoded_event_key,decoded_keys,RelabelsUse,KeyedDecoded,checked_keyed. No new scalar/stream execution induction."
+}

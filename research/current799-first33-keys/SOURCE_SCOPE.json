@@ -1,0 +1,86 @@
+{
+  "status": "SOURCE_FROZEN_CURRENT799_FIRST33_KEYS_COMPILER_PENDING",
+  "utc": "2026-10-13T07:29:24.517327+00:00",
+  "source_main": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "authority": "Root2026-10-13T07:28 authorizes current first33 decoded-key supplier15/14/1,2232pairs,four probes after independent source/API and binding review; integration may admit without another root roundtrip.",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33-keys/Current799First33KeyRestriction.lean",
+    "sha256": "fc22e6ed14562b9542b12674b0f0ac85055e5c3e3d70693bae9bbb914a3e48a3",
+    "bytes": 7078
+  },
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33-keys/SOURCE_TRANSFORM.json",
+    "sha256": "d55e961e89c7ed71123ae8c88955f600d6d2789983894d6a74ae843d1c1c4923",
+    "bytes": 1864
+  },
+  "prerequisite_sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageData.lean",
+      "sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+      "bytes": 14025
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageCheck.lean",
+      "sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7",
+      "bytes": 11287
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current-checked-scalar-rows/CurrentCheckedScalarRows.lean",
+      "sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+      "bytes": 8397
+    }
+  ],
+  "first33_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_first33/ACCEPTANCE.json",
+    "sha256": "013e5212ed7af74544c374176ce4e8048d27b819cb2e0176715cef382921e12c",
+    "bytes": 74630
+  },
+  "first33_independent_terminal": "pending; required before compiler dispatch",
+  "selected_artifact_verification": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "exact_projection": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/LITERAL_PROJECTION.json",
+    "sha256": "a0199f66a1e1a513b0a773e8310e2201ddd2fc04d776b74eb7e31444886da31c",
+    "bytes": 42970
+  },
+  "selected_spec": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/data/SPEC.json",
+    "sha256": "64817c60a4a2c1839bf12239cb1b7515a40bf8988229d81d4c9faa17b488c7d5",
+    "bytes": 19085
+  },
+  "probes": [
+    "CurrentMain.Current799First33KeyRestriction.selected_forward_A",
+    "CurrentMain.Current799First33KeyRestriction.selected_forward_B",
+    "CurrentMain.Current799First33KeyRestriction.selected_backward_A",
+    "CurrentMain.Current799First33KeyRestriction.selected_backward_B"
+  ],
+  "scope": [
+    15,
+    14,
+    1
+  ],
+  "external_pairs": 2232,
+  "fresh_finite_decisions": 0,
+  "caps": {
+    "hard_seconds": 60,
+    "hard_AS_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_VM_bytes": 3758096384,
+    "serial_fresh_jobs": 1,
+    "Elab.async": false
+  },
+  "statements": "Four exact existential rational decoded lists, ordered decode identity,WellLabelled at actualdeclared labels0/24 and every relabel key0\u21924. Existing checked-row predicates supply nonzero signed denominators; no catalog decision repeated.",
+  "exclusions": [
+    "Actual execution through pre-A prefix/731 omitted phase and adapter rows.",
+    "Recipe operator and endpoint chart hypotheses remain explicit for the separate packed bridge.",
+    "Other keys,the rest of2949catalog,expanded physical work and global728owner hosting."
+  ],
+  "timing": {
+    "source_preparation_window_start": "2026-10-13T07:28:02Z",
+    "source_ready": "2026-10-13T07:29:24.518404+00:00",
+    "inference_minutes": null
+  }
+}
