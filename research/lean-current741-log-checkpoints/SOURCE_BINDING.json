@@ -1,0 +1,144 @@
+{
+  "status": "SOURCE_BOUND_CURRENT_PR741_FINITE_LOG_PROPOSAL_UNCHECKED",
+  "utc": "2026-10-13T06:48:54.066978+00:00",
+  "source": {
+    "module": "Current741LogCheckpoints",
+    "file": "Current741LogCheckpoints.lean",
+    "sha256": "3c8de84bb92bdfebf5960578c10dcd4613a3ddd717e94be3028c3c1892cddb0d",
+    "bytes": 7896,
+    "explicit_imports": [
+      "SelectedMomentLogCheckpoints"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current741LogCheckpoints.z29_117_upper"
+    ]
+  },
+  "current_source_commit": "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/certificates/selected-result.json",
+      "sha256": "8f2bfbf11609194654d4da145866223d4c546c5418727cae056bfb9968cabcac",
+      "bytes": 6509,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "f767a7670ff26cf1a90d8a00fcc57498f1f2aa11"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/community-frontier741-audit/SELECTED-SOURCE.json",
+      "sha256": "8bf379a8a3d1a34c76fd4c868e1d125e78360f02066553a8d1a30d3bc96f6d8b",
+      "bytes": 110483,
+      "repository_path": "research/community-frontier741-audit/SELECTED-SOURCE.json",
+      "git_blob": "fe9540b58a7010316b22b87df243cee469f919d3"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/community-frontier741-audit/ASSEMBLY.json",
+      "sha256": "21e2df9286542c9e2786f3720d0f13de0d0a7a982761ebe2184f8f7f811c774d",
+      "bytes": 86038,
+      "repository_path": "research/community-frontier741-audit/ASSEMBLY.json",
+      "git_blob": "d2a594a6fdb33907f8e6760aa00fd4650535930f"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/complex-sw4-frame8/data/SPEC.json",
+      "sha256": "7fc2bd2e3c0ac13729c1fa1f0f327a4eb7c72373ba58e5ed3954b30e23c803be",
+      "bytes": 19102,
+      "repository_path": "research/complex-sw4-frame8/data/SPEC.json",
+      "git_blob": "c54052846b3d52a412b6901f9feb2a2d43dfbb2e"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/complex-sw4-frame8/code/assemble.py",
+      "sha256": "bb32035aefe575da3335da4e907553e2e6fdca0a0f997db569cab651c2ddb008",
+      "bytes": 20944,
+      "repository_path": "research/complex-sw4-frame8/code/assemble.py",
+      "git_blob": "2e098cabbd09edcca56780469b083385b1bc365e"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/complex-sw4-frame8/code/witness.py",
+      "sha256": "779c5172894b992131e85be1e592ed2a1aec8c287b872ff42007d36a7291e444",
+      "bytes": 2985,
+      "repository_path": "research/complex-sw4-frame8/code/witness.py",
+      "git_blob": "c5c7fbc1142220ce854907de4e439420ac12d30c"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1661202643272239/1000000000000000000",
+  "decimal": "0.001661202643272239",
+  "current_complex_input": {
+    "m": 73,
+    "live": 7168,
+    "saving": "1663966829367501881629/1000000000000000000000000",
+    "profile": {
+      "1": 184033,
+      "2": 24048,
+      "3": 30961,
+      "4": 13968,
+      "5": 4032,
+      "8": 576,
+      "44": 1,
+      "48": 2396
+    },
+    "native_surcharge": false,
+    "conservative_surcharge": true,
+    "bit_surcharge": true
+  },
+  "binary_reduction_read_only": {
+    "rank": 44,
+    "count": 1,
+    "binary_k": 0,
+    "unit": "73/44",
+    "z": "29/117"
+  },
+  "source_lines": {
+    "profile_and_model": "assemble.py:177-203,225-230;SPEC.json expected.global_profile/live;witness.py:7-10,46-52",
+    "unit_formula": "base_two_moment.py:20-24",
+    "binary_reduction": "base_two_moment.py:27-37"
+  },
+  "accepted_definitions": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-upper/SelectedMomentLogCheckpoints.lean",
+    "sha256": "94c17dbb46ebf409b14694674ec28ed3884ef2e1a6b37adef95f5bd449259021",
+    "bytes": 33554
+  },
+  "reused_public_definitions": [
+    "powerFraction",
+    "logTerm",
+    "logBlock",
+    "logSum80",
+    "unitUpper"
+  ],
+  "new_log_literal_blocks": 10,
+  "total_kernel_decisions": 11,
+  "witnesses": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_741_log/CHECKPOINT_WITNESSES.json",
+    "sha256": "28a7099b15acd7d5b2490d7ebd7e878eee49668cfdb1f9aeb589873d6da654ae",
+    "bytes": 7137
+  },
+  "emitter": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_741_log/prepare_sources.py",
+    "sha256": "2da35a864c796b0615341a1ac8c09cbf92959baea5894fe5b24e8e4b52938aef",
+    "bytes": 6952,
+    "trusted_for_proof": false,
+    "upstream_modules_executed": false
+  },
+  "comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_main_7ee02b7_comparison/SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+    "sha256": "1af5cd3d350b5516a6794a2413a07958bfbc72fdd27284ca885eec822b01da68",
+    "bytes": 10380
+  },
+  "applicability": "Actual imported assembler passes73 and owner live7168, checks exact profile and selects native bad=False. The expected profile contains rank44 once. This is source/caller binding, not proof that supplier receipts realize those inputs.",
+  "remaining": [
+    "Real log bound for73/44.",
+    "Current eight-profile native weighted finite and Real moment.",
+    "Current seven-update bootstrap/outer data and PR589 bit moment with its separate fallback.",
+    "Provider/profile/operator realization and full selected-kappa/all-size theorem."
+  ]
+}
