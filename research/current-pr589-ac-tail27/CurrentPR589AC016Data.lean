@@ -1,0 +1,65 @@
+import Init
+/- Exact selected PR589 A[2048:2075] and C[499:526] ordered tuples.
+27 gates/36 ordered operands per direction; all A destinations are helpers
+and operands never read target registers. The original PR589 punctured/tuned package is attributed
+to eumemic with Anthropic Claude assistance and Claude Opus5.5/Claude Code,
+Apache-2.0. Finite Lean projection and proofs use OpenAI assistance.
+Frame metadata stays exact; physical frame interpretation remains separate. -/
+namespace CurrentMain.CurrentPR589AC016.Data
+def phaseA : List (Nat × Nat × List Nat) := [(505, 250, [316]),
+  (391, 371, [296]),
+  (427, 297, [294]),
+  (499, 394, [288]),
+  (481, 452, [276]),
+  (367, 443, [252]),
+  (469, 428, [266]),
+  (475, 277, [226]),
+  (439, 411, [244]),
+  (328, 472, [234]),
+  (510, 472, [240, 360]),
+  (346, 473, [246]),
+  (511, 473, [349, 486]),
+  (335, 474, [400]),
+  (512, 474, [381, 509]),
+  (394, 475, [487]),
+  (513, 475, [444, 337]),
+  (431, 476, [331]),
+  (514, 476, [385, 328]),
+  (350, 477, [341]),
+  (515, 477, [340, 233]),
+  (359, 478, [495]),
+  (516, 478, [387, 241]),
+  (388, 479, [561]),
+  (517, 479, [413, 296]),
+  (421, 480, [280]),
+  (518, 480, [538, 368])]
+
+def phaseC : List (Nat × Nat × List Nat) := [(1, 480, [538, 368]),
+  (1, 480, [280]),
+  (1, 479, [413, 296]),
+  (1, 479, [561]),
+  (1, 478, [387, 241]),
+  (1, 478, [495]),
+  (1, 477, [340, 233]),
+  (1, 477, [341]),
+  (1, 476, [385, 328]),
+  (1, 476, [331]),
+  (1, 475, [444, 337]),
+  (1, 475, [487]),
+  (1, 474, [381, 509]),
+  (1, 474, [400]),
+  (1, 473, [349, 486]),
+  (1, 473, [246]),
+  (1, 472, [240, 360]),
+  (1, 472, [234]),
+  (1, 411, [244]),
+  (1, 277, [226]),
+  (1, 428, [266]),
+  (1, 443, [252]),
+  (1, 452, [276]),
+  (1, 394, [288]),
+  (1, 297, [294]),
+  (1, 371, [296]),
+  (1, 250, [316])]
+
+end CurrentMain.CurrentPR589AC016.Data

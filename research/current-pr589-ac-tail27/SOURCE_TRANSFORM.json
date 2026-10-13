@@ -1,0 +1,134 @@
+{
+  "status": "EXACT_ACCEPTED_TEMPLATE_TRANSFORM",
+  "rows": [
+    {
+      "module": "CurrentPR589AC016Data",
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Data.lean",
+        "sha256": "f5e13021583ad55c8f7bd160dc38b78c39e2713e6e18de062ed1ef440f424732",
+        "bytes": 1824
+      },
+      "reference": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+        "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+        "bytes": 5312
+      },
+      "ordered_replacements": [
+        {
+          "before": "128 unary gates per direction; all A destinations are helpers and operands\nare source registers.",
+          "after": "27 gates/36 ordered operands per direction; all A destinations are helpers\nand operands never read target registers.",
+          "count": 1
+        },
+        {
+          "before": "CurrentPR589AC128",
+          "after": "CurrentPR589AC016",
+          "count": 2
+        },
+        {
+          "before": "A[0:128] and C[2446:2574]",
+          "after": "A[2048:2075] and C[499:526]",
+          "count": 1
+        },
+        {
+          "before": "def phaseA : List (Nat \u00d7 Nat \u00d7 List Nat) := [(2, 222, [0]),\n  (2, 223, [0]),\n  (3, 224, [1]),\n  (3, 225, [1]),\n  (4, 226, [2]),\n  (4, 227, [2]),\n  (5, 228, [3]),\n  (5, 229, [3]),\n  (6, 230, [4]),\n  (6, 231, [4]),\n  (7, 232, [5]),\n  (7, 233, [5]),\n  (8, 234, [6]),\n  (8, 235, [6]),\n  (9, 236, [7]),\n  (9, 237, [7]),\n  (10, 238, [8]),\n  (10, 239, [8]),\n  (11, 240, [9]),\n  (11, 241, [9]),\n  (12, 244, [10]),\n  (12, 245, [10]),\n  (13, 246, [11]),\n  (13, 247, [11]),\n  (14, 248, [12]),\n  (14, 249, [12]),\n  (15, 250, [13]),\n  (15, 251, [13]),\n  (16, 254, [14]),\n  (16, 255, [14]),\n  (17, 256, [15]),\n  (17, 257, [15]),\n  (18, 258, [16]),\n  (18, 259, [16]),\n  (19, 260, [17]),\n  (19, 261, [17]),\n  (20, 262, [18]),\n  (20, 263, [18]),\n  (21, 264, [19]),\n  (21, 265, [19]),\n  (22, 266, [20]),\n  (22, 267, [20]),\n  (23, 268, [21]),\n  (23, 269, [21]),\n  (24, 270, [22]),\n  (24, 271, [22]),\n  (25, 272, [23]),\n  (25, 273, [23]),\n  (26, 274, [24]),\n  (26, 275, [24]),\n  (27, 276, [25]),\n  (27, 277, [25]),\n  (28, 278, [26]),\n  (28, 279, [26]),\n  (29, 280, [27]),\n  (29, 281, [27]),\n  (30, 282, [28]),\n  (30, 283, [28]),\n  (31, 284, [29]),\n  (31, 285, [29]),\n  (32, 286, [30]),\n  (32, 287, [30]),\n  (33, 288, [31]),\n  (33, 289, [31]),\n  (34, 290, [32]),\n  (34, 291, [32]),\n  (35, 292, [33]),\n  (35, 293, [33]),\n  (36, 294, [34]),\n  (36, 295, [34]),\n  (37, 296, [35]),\n  (37, 297, [35]),\n  (38, 298, [36]),\n  (38, 299, [36]),\n  (39, 300, [37]),\n  (39, 301, [37]),\n  (40, 302, [38]),\n  (40, 303, [38]),\n  (41, 304, [39]),\n  (41, 305, [39]),\n  (42, 306, [40]),\n  (42, 307, [40]),\n  (43, 308, [41]),\n  (43, 309, [41]),\n  (44, 310, [42]),\n  (44, 311, [42]),\n  (45, 312, [43]),\n  (45, 313, [43]),\n  (46, 314, [44]),\n  (46, 315, [44]),\n  (47, 316, [45]),\n  (47, 317, [45]),\n  (48, 318, [46]),\n  (48, 319, [46]),\n  (49, 320, [47]),\n  (49, 321, [47]),\n  (50, 322, [48]),\n  (50, 323, [48]),\n  (51, 326, [49]),\n  (51, 327, [49]),\n  (52, 330, [50]),\n  (52, 331, [50]),\n  (53, 332, [51]),\n  (53, 333, [51]),\n  (54, 336, [52]),\n  (54, 337, [52]),\n  (55, 338, [53]),\n  (55, 339, [53]),\n  (56, 340, [54]),\n  (56, 341, [54]),\n  (57, 342, [55]),\n  (57, 343, [55]),\n  (58, 344, [56]),\n  (58, 345, [56]),\n  (59, 346, [57]),\n  (59, 347, [57]),\n  (60, 348, [58]),\n  (60, 349, [58]),\n  (61, 350, [59]),\n  (61, 351, [59]),\n  (62, 352, [60]),\n  (62, 353, [60]),\n  (63, 356, [61]),\n  (63, 357, [61]),\n  (64, 358, [62]),\n  (64, 359, [62]),\n  (65, 360, [63]),\n  (65, 361, [63])]\n",
+          "after": "def phaseA : List (Nat \u00d7 Nat \u00d7 List Nat) := [(505, 250, [316]),\n  (391, 371, [296]),\n  (427, 297, [294]),\n  (499, 394, [288]),\n  (481, 452, [276]),\n  (367, 443, [252]),\n  (469, 428, [266]),\n  (475, 277, [226]),\n  (439, 411, [244]),\n  (328, 472, [234]),\n  (510, 472, [240, 360]),\n  (346, 473, [246]),\n  (511, 473, [349, 486]),\n  (335, 474, [400]),\n  (512, 474, [381, 509]),\n  (394, 475, [487]),\n  (513, 475, [444, 337]),\n  (431, 476, [331]),\n  (514, 476, [385, 328]),\n  (350, 477, [341]),\n  (515, 477, [340, 233]),\n  (359, 478, [495]),\n  (516, 478, [387, 241]),\n  (388, 479, [561]),\n  (517, 479, [413, 296]),\n  (421, 480, [280]),\n  (518, 480, [538, 368])]\n",
+          "count": 1
+        },
+        {
+          "before": "def phaseC : List (Nat \u00d7 Nat \u00d7 List Nat) := [(1, 361, [63]),\n  (1, 360, [63]),\n  (1, 359, [62]),\n  (1, 358, [62]),\n  (1, 357, [61]),\n  (1, 356, [61]),\n  (1, 353, [60]),\n  (1, 352, [60]),\n  (1, 351, [59]),\n  (1, 350, [59]),\n  (1, 349, [58]),\n  (1, 348, [58]),\n  (1, 347, [57]),\n  (1, 346, [57]),\n  (1, 345, [56]),\n  (1, 344, [56]),\n  (1, 343, [55]),\n  (1, 342, [55]),\n  (1, 341, [54]),\n  (1, 340, [54]),\n  (1, 339, [53]),\n  (1, 338, [53]),\n  (1, 337, [52]),\n  (1, 336, [52]),\n  (1, 333, [51]),\n  (1, 332, [51]),\n  (1, 331, [50]),\n  (1, 330, [50]),\n  (1, 327, [49]),\n  (1, 326, [49]),\n  (1, 323, [48]),\n  (1, 322, [48]),\n  (1, 321, [47]),\n  (1, 320, [47]),\n  (1, 319, [46]),\n  (1, 318, [46]),\n  (1, 317, [45]),\n  (1, 316, [45]),\n  (1, 315, [44]),\n  (1, 314, [44]),\n  (1, 313, [43]),\n  (1, 312, [43]),\n  (1, 311, [42]),\n  (1, 310, [42]),\n  (1, 309, [41]),\n  (1, 308, [41]),\n  (1, 307, [40]),\n  (1, 306, [40]),\n  (1, 305, [39]),\n  (1, 304, [39]),\n  (1, 303, [38]),\n  (1, 302, [38]),\n  (1, 301, [37]),\n  (1, 300, [37]),\n  (1, 299, [36]),\n  (1, 298, [36]),\n  (1, 297, [35]),\n  (1, 296, [35]),\n  (1, 295, [34]),\n  (1, 294, [34]),\n  (1, 293, [33]),\n  (1, 292, [33]),\n  (1, 291, [32]),\n  (1, 290, [32]),\n  (1, 289, [31]),\n  (1, 288, [31]),\n  (1, 287, [30]),\n  (1, 286, [30]),\n  (1, 285, [29]),\n  (1, 284, [29]),\n  (1, 283, [28]),\n  (1, 282, [28]),\n  (1, 281, [27]),\n  (1, 280, [27]),\n  (1, 279, [26]),\n  (1, 278, [26]),\n  (1, 277, [25]),\n  (1, 276, [25]),\n  (1, 275, [24]),\n  (1, 274, [24]),\n  (1, 273, [23]),\n  (1, 272, [23]),\n  (1, 271, [22]),\n  (1, 270, [22]),\n  (1, 269, [21]),\n  (1, 268, [21]),\n  (1, 267, [20]),\n  (1, 266, [20]),\n  (1, 265, [19]),\n  (1, 264, [19]),\n  (1, 263, [18]),\n  (1, 262, [18]),\n  (1, 261, [17]),\n  (1, 260, [17]),\n  (1, 259, [16]),\n  (1, 258, [16]),\n  (1, 257, [15]),\n  (1, 256, [15]),\n  (1, 255, [14]),\n  (1, 254, [14]),\n  (1, 251, [13]),\n  (1, 250, [13]),\n  (1, 249, [12]),\n  (1, 248, [12]),\n  (1, 247, [11]),\n  (1, 246, [11]),\n  (1, 245, [10]),\n  (1, 244, [10]),\n  (1, 241, [9]),\n  (1, 240, [9]),\n  (1, 239, [8]),\n  (1, 238, [8]),\n  (1, 237, [7]),\n  (1, 236, [7]),\n  (1, 235, [6]),\n  (1, 234, [6]),\n  (1, 233, [5]),\n  (1, 232, [5]),\n  (1, 231, [4]),\n  (1, 230, [4]),\n  (1, 229, [3]),\n  (1, 228, [3]),\n  (1, 227, [2]),\n  (1, 226, [2]),\n  (1, 225, [1]),\n  (1, 224, [1]),\n  (1, 223, [0]),\n  (1, 222, [0])]\n",
+          "after": "def phaseC : List (Nat \u00d7 Nat \u00d7 List Nat) := [(1, 480, [538, 368]),\n  (1, 480, [280]),\n  (1, 479, [413, 296]),\n  (1, 479, [561]),\n  (1, 478, [387, 241]),\n  (1, 478, [495]),\n  (1, 477, [340, 233]),\n  (1, 477, [341]),\n  (1, 476, [385, 328]),\n  (1, 476, [331]),\n  (1, 475, [444, 337]),\n  (1, 475, [487]),\n  (1, 474, [381, 509]),\n  (1, 474, [400]),\n  (1, 473, [349, 486]),\n  (1, 473, [246]),\n  (1, 472, [240, 360]),\n  (1, 472, [234]),\n  (1, 411, [244]),\n  (1, 277, [226]),\n  (1, 428, [266]),\n  (1, 443, [252]),\n  (1, 452, [276]),\n  (1, 394, [288]),\n  (1, 297, [294]),\n  (1, 371, [296]),\n  (1, 250, [316])]\n",
+          "count": 1
+        }
+      ],
+      "inverse_exact": true,
+      "probes": [],
+      "finite_decisions": 0
+    },
+    {
+      "module": "CurrentPR589AC016Check",
+      "source": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
+        "sha256": "a6663ce7366d51acf512ad9447a667c046d573bec86410397e20cc3d3b1fa4e3",
+        "bytes": 8568
+      },
+      "reference": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+        "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+        "bytes": 8554
+      },
+      "ordered_replacements": [
+        {
+          "before": "each128 unary source operands.",
+          "after": "27 gates and36 ordered operands per direction.",
+          "count": 1
+        },
+        {
+          "before": "CurrentPR589AC128",
+          "after": "CurrentPR589AC016",
+          "count": 20
+        },
+        {
+          "before": "A[0:128] and C[2446:2574]",
+          "after": "A[2048:2075] and C[499:526]",
+          "count": 1
+        },
+        {
+          "before": "theorem block_shape :\n    phaseA.length = 128 \u2227 phaseC.length = 128 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.add 0 = 128 \u2227\n    (phaseC.map (fun g => g.2.2.length)).foldl Nat.add 0 = 128 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.max 0 = 1 := by decide +kernel",
+          "after": "theorem block_shape :\n    phaseA.length = 27 \u2227 phaseC.length = 27 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.add 0 = 36 \u2227\n    (phaseC.map (fun g => g.2.2.length)).foldl Nat.add 0 = 36 \u2227\n    (phaseA.map (fun g => g.2.2.length)).foldl Nat.max 0 = 2 := by decide +kernel",
+          "count": 1
+        }
+      ],
+      "inverse_exact": true,
+      "probes": [
+        "CurrentMain.CurrentPR589AC016.block_shape",
+        "CurrentMain.CurrentPR589AC016.raw_domains",
+        "CurrentMain.CurrentPR589AC016.raw_cleanup_binding",
+        "CurrentMain.CurrentPR589AC016.no_self_reads",
+        "CurrentMain.CurrentPR589AC016.no_target_reads",
+        "CurrentMain.CurrentPR589AC016.no_target_writes",
+        "CurrentMain.CurrentPR589AC016.helper_only_destinations",
+        "CurrentMain.CurrentPR589AC016.decode_roundtrip",
+        "CurrentMain.CurrentPR589AC016.ordered_A_binding",
+        "CurrentMain.CurrentPR589AC016.ordered_C_binding",
+        "CurrentMain.CurrentPR589AC016.decoded_no_self_reads",
+        "CurrentMain.CurrentPR589AC016.decoded_no_target_reads",
+        "CurrentMain.CurrentPR589AC016.decoded_no_target_writes",
+        "CurrentMain.CurrentPR589AC016.cleanup_runs_reverse",
+        "CurrentMain.CurrentPR589AC016.isolated_block_inverse",
+        "CurrentMain.CurrentPR589AC016.conditional_off_target_cleanup",
+        "CurrentMain.CurrentPR589AC016.conditional_target_value"
+      ],
+      "finite_decisions": 7
+    }
+  ],
+  "scope": {
+    "pair_ordinal": 16,
+    "A_half_open": [
+      2048,
+      2075
+    ],
+    "C_half_open": [
+      499,
+      526
+    ],
+    "gates_each": 27,
+    "operands_each": 36,
+    "max_arity": 2,
+    "arity_histogram": {
+      "1": 18,
+      "2": 9
+    },
+    "source_operand_occurrences": 0,
+    "helper_operand_occurrences": 36,
+    "helper_destinations": true,
+    "no_target_operands": true,
+    "no_self_reads": true,
+    "exact_frame1_reverse": true
+  },
+  "reference_statement_change": "Only block_shape lengths, operand counts and maximum arity change; all later proof/statement bytes are exact after namespace substitution.",
+  "recipe": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_remaining/prepare_sources.py",
+    "sha256": "99bd57a6a7459b9bbaab688f6bf30ce33088722ffb01886f990a398abe2e0656",
+    "bytes": 7348
+  }
+}

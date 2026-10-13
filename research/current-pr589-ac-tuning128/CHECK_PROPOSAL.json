@@ -1,0 +1,102 @@
+{
+  "status": "SOURCE_ONLY_TWO_ROOT_PROPOSAL_PENDING_INDEPENDENT_REVIEW_AND_FIRST_GATE_ADMISSION",
+  "authority": "Root2026-10-13T08:53:47: prepare tuning-move128 group and27-gate tail as separate bounded source packets after preserving the28 accepted roots. No compiler admission inferred.",
+  "scope": [
+    4,
+    2,
+    2
+  ],
+  "total_scope": [
+    321,
+    319,
+    2
+  ],
+  "official_core": 317,
+  "retained_generic_roots": [
+    "BitXorTargetTranslation",
+    "BitXorReversal"
+  ],
+  "ordered_roots": [
+    "CurrentPR589AC015Data",
+    "CurrentPR589AC015Check"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentPR589AC015.block_shape",
+    "CurrentMain.CurrentPR589AC015.raw_domains",
+    "CurrentMain.CurrentPR589AC015.raw_cleanup_binding",
+    "CurrentMain.CurrentPR589AC015.no_self_reads",
+    "CurrentMain.CurrentPR589AC015.no_target_reads",
+    "CurrentMain.CurrentPR589AC015.no_target_writes",
+    "CurrentMain.CurrentPR589AC015.helper_only_destinations",
+    "CurrentMain.CurrentPR589AC015.decode_roundtrip",
+    "CurrentMain.CurrentPR589AC015.ordered_A_binding",
+    "CurrentMain.CurrentPR589AC015.ordered_C_binding",
+    "CurrentMain.CurrentPR589AC015.decoded_no_self_reads",
+    "CurrentMain.CurrentPR589AC015.decoded_no_target_reads",
+    "CurrentMain.CurrentPR589AC015.decoded_no_target_writes",
+    "CurrentMain.CurrentPR589AC015.cleanup_runs_reverse",
+    "CurrentMain.CurrentPR589AC015.isolated_block_inverse",
+    "CurrentMain.CurrentPR589AC015.conditional_off_target_cleanup",
+    "CurrentMain.CurrentPR589AC015.conditional_target_value"
+  ],
+  "probe_count": 17,
+  "finite_decisions": 7,
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/SOURCE_BINDING.json",
+    "sha256": "8b359ca94a4e47971e0ea4e018d57841d3588dc4c5dde7fc81ea1f41df5e4a3a",
+    "bytes": 3503
+  },
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/SOURCE_TRANSFORM.json",
+    "sha256": "ae41bf599694e366c11077dd4a0fca92c012964dd4029bdbf7511d0e6b21d545",
+    "bytes": 16321
+  },
+  "protected_prior_quadruples": 75,
+  "archived_failures": 44,
+  "source_scope": {
+    "pair_ordinal": 15,
+    "A_half_open": [
+      1920,
+      2048
+    ],
+    "C_half_open": [
+      526,
+      654
+    ],
+    "gates_each": 128,
+    "operands_each": 174,
+    "max_arity": 8,
+    "arity_histogram": {
+      "1": 119,
+      "8": 1,
+      "5": 2,
+      "7": 3,
+      "6": 2,
+      "4": 1
+    },
+    "source_operand_occurrences": 12,
+    "helper_operand_occurrences": 162,
+    "helper_destinations": true,
+    "no_target_operands": true,
+    "no_self_reads": true,
+    "exact_frame1_reverse": true
+  },
+  "caps": {
+    "hard_seconds_each": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "shared_FIFO": 2,
+    "stop_first_failure_or_review": true
+  },
+  "resource_basis": "Accepted unary128 pair measured3.303051430 compiler seconds; fourteen unary pairs measured41.117708853s total. Different arity and shape here are unmeasured, and no performance extrapolation is asserted.",
+  "remaining": [
+    "Other independent window",
+    "Cumulative or whole-list typed A/C assembly",
+    "Actual two-level middle map and reverse Bmiddle source binding",
+    "D parity compensation",
+    "Fin662 scatter lifecycle and physical frame/provider realization"
+  ],
+  "compiler_runs": 0
+}

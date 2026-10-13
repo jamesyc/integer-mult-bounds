@@ -1,0 +1,83 @@
+{
+  "status": "SOURCE_ONLY_CURRENT_PR589_SEPARATE_AC_WINDOW",
+  "utc": "2026-10-13T09:02:17.744018+00:00",
+  "current_main": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "selected_supplier": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+  "raw_gzip": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "decoded_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b",
+  "author_checked_conditional_kappa": "1661634653669567/1000000000000000000",
+  "scope": {
+    "pair_ordinal": 16,
+    "A_half_open": [
+      2048,
+      2075
+    ],
+    "C_half_open": [
+      499,
+      526
+    ],
+    "gates_each": 27,
+    "operands_each": 36,
+    "max_arity": 2,
+    "arity_histogram": {
+      "1": 18,
+      "2": 9
+    },
+    "source_operand_occurrences": 0,
+    "helper_operand_occurrences": 36,
+    "helper_destinations": true,
+    "no_target_operands": true,
+    "no_self_reads": true,
+    "exact_frame1_reverse": true
+  },
+  "normalized_A_sha256": "46024143f5177f734fbf1cf6d5034099573d27edba2f5cbcd8dfd49f2f3e4e51",
+  "normalized_C_sha256": "426fdfe8098317df7f3685a0e5fdeb6ae92eaec5ad083b2a6d497582f4cd6793",
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/SOURCE_TRANSFORM.json",
+    "sha256": "bc419d1434eb48da8ef34d14663651d237f81e32f192f1a217835956e553e206",
+    "bytes": 11663
+  },
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Data.lean",
+      "sha256": "f5e13021583ad55c8f7bd160dc38b78c39e2713e6e18de062ed1ef440f424732",
+      "bytes": 1824
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
+      "sha256": "a6663ce7366d51acf512ad9447a667c046d573bec86410397e20cc3d3b1fa4e3",
+      "bytes": 8568
+    }
+  ],
+  "representative_data": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+    "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+    "bytes": 5312
+  },
+  "representative_check": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+    "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+    "bytes": 8554
+  },
+  "preceding_batch_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_unary_pairs/ACCEPTANCE.json",
+    "sha256": "4313e4713d29d4604e7ba03de4f7a1079d4760e4879ba81d50c5f9b8a481e3bc",
+    "bytes": 488807
+  },
+  "preceding_batch_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac128/FOURTEEN_PAIR_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "a26c0ce0d3be02ae57a1964c30c9d1aaffdc6b207999797e7ceef7aaa204796a",
+    "bytes": 86688
+  },
+  "remaining": [
+    "Other independent window",
+    "Cumulative or whole-list typed A/C assembly",
+    "Actual two-level middle map and reverse Bmiddle source binding",
+    "D parity compensation",
+    "Fin662 scatter lifecycle and physical frame/provider realization"
+  ]
+}
