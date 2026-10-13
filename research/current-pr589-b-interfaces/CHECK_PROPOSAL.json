@@ -1,0 +1,86 @@
+{
+  "status": "PROPOSED_SERIAL_FIRST_CHECK_AFTER_INDEPENDENT_REVIEWS",
+  "created_utc": "2026-10-13T07:01:49.489592+00:00",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/SOURCE_BINDING.json",
+    "sha256": "815c879830b5f480c0ab00fe4d7e45ead23c68d0530450d87d476bd15ac2213c",
+    "bytes": 5390
+  },
+  "current_applicability": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CURRENT_MAIN_APPLICABILITY.json",
+    "sha256": "0ea3bf3d2f86e23079d9801ee38634aa17e4511c45e6e712017cf4f234ffefca",
+    "bytes": 3921
+  },
+  "roots": [
+    "CurrentPR589BData",
+    "CurrentPR589BCheck",
+    "CurrentPR589PhaseBXor"
+  ],
+  "complete_local_scope": [
+    4,
+    1,
+    3
+  ],
+  "prospective_total_scope": [
+    321,
+    318,
+    3
+  ],
+  "official_core_modules": 317,
+  "retained_Lean_modules": [
+    "BitXorTargetTranslation"
+  ],
+  "pending_roots": 3,
+  "new_printed_probes": 19,
+  "per_root_probes": {
+    "CurrentPR589BData": [],
+    "CurrentPR589BCheck": [
+      "CurrentMain.CurrentPR589B.dimensions",
+      "CurrentMain.CurrentPR589B.phase_shape",
+      "CurrentMain.CurrentPR589B.phase_domains",
+      "CurrentMain.CurrentPR589B.band_order",
+      "CurrentMain.CurrentPR589B.band_lengths",
+      "CurrentMain.CurrentPR589B.first_target_band",
+      "CurrentMain.CurrentPR589B.middle_off_target_band",
+      "CurrentMain.CurrentPR589B.middle_write_counts",
+      "CurrentMain.CurrentPR589B.last_target_band",
+      "CurrentMain.CurrentPR589B.write_region",
+      "CurrentMain.CurrentPR589B.no_target_operands",
+      "CurrentMain.CurrentPR589B.no_self_reads"
+    ],
+    "CurrentPR589PhaseBXor": [
+      "CurrentMain.CurrentPR589PhaseBXor.decode_roundtrip",
+      "CurrentMain.CurrentPR589PhaseBXor.ordered_word_binding",
+      "CurrentMain.CurrentPR589PhaseBXor.decoded_gate_properties",
+      "CurrentMain.CurrentPR589PhaseBXor.helpers_preserved_except",
+      "CurrentMain.CurrentPR589PhaseBXor.target_translation",
+      "CurrentMain.CurrentPR589PhaseBXor.target_identity",
+      "CurrentMain.CurrentPR589PhaseBXor.contribution_independent_of_targets"
+    ]
+  },
+  "kernel_decisions": 11,
+  "execution_order": "Data, then finite Check, then thin adapter only after preceding roots pass ordinary/resource/probe checks.",
+  "protected_prior_accepted_roots": 42,
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "authority": "Root2026-10-13T06:54:14 relayed preparation of minimum fresh B data/domain facts then thin generic XOR adapter, with independent source/API and exact closure/binding review before bounded admission.",
+  "missing_before_dispatch": [
+    "Independent literal/source/API seal",
+    "Exact current all-root DFS/import inventory and protected quadruple/failure pins",
+    "Commit binding and independently reviewed declaration-only driver adaptation",
+    "Specific bounded dispatch authority carried in launch receipt"
+  ],
+  "scientific_boundary": [
+    "B-only ordered raw scalar semantics; frame IDs retained but not geometrically interpreted.",
+    "FreshFin661 and helper exceptions465/466/468; no unconditional helper/source preservation.",
+    "No A/C/D, scatter lifecycle, physical provider or full kappa theorem."
+  ],
+  "compiler_jobs": 0
+}

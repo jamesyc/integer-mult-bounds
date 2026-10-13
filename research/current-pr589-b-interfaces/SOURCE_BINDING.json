@@ -1,0 +1,131 @@
+{
+  "status": "SOURCE_ONLY_UNCHECKED",
+  "created_utc": "2026-10-13T06:57:46.224093+00:00",
+  "source_main": "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+  "selected_bit": "PR589 a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+  "source_gzip": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-7ee02b7-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "decoded_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b"
+  },
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CurrentPR589BData.lean",
+      "sha256": "ffc2768ad0168ea764e8aaea0a81b4a97129130dcb60e8764f99ab1804b84b23",
+      "bytes": 15929
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CurrentPR589BCheck.lean",
+      "sha256": "3db82fe5b541e1b85e6cf6ec4e4065f496aafca02b7229653daeb1004da6016f",
+      "bytes": 2974
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CurrentPR589PhaseBXor.lean",
+      "sha256": "ffd57b2feb3a06289efb2d7fdc2214d275a7fc160d8c828aa375a723c0ff5151",
+      "bytes": 5685
+    }
+  ],
+  "projection": {
+    "exact_raw_fields": [
+      "v",
+      "R",
+      "len(frames)",
+      "B"
+    ],
+    "B_ranges": [
+      [
+        0,
+        102
+      ],
+      [
+        102,
+        601
+      ],
+      [
+        601,
+        712
+      ]
+    ],
+    "gates": 712,
+    "operands": 934,
+    "registers": 661,
+    "helper_exceptions": [
+      465,
+      466,
+      468
+    ]
+  },
+  "finite_probes": [
+    "CurrentMain.CurrentPR589B.dimensions",
+    "CurrentMain.CurrentPR589B.phase_shape",
+    "CurrentMain.CurrentPR589B.phase_domains",
+    "CurrentMain.CurrentPR589B.band_order",
+    "CurrentMain.CurrentPR589B.band_lengths",
+    "CurrentMain.CurrentPR589B.first_target_band",
+    "CurrentMain.CurrentPR589B.middle_off_target_band",
+    "CurrentMain.CurrentPR589B.middle_write_counts",
+    "CurrentMain.CurrentPR589B.last_target_band",
+    "CurrentMain.CurrentPR589B.write_region",
+    "CurrentMain.CurrentPR589B.no_target_operands",
+    "CurrentMain.CurrentPR589B.no_self_reads"
+  ],
+  "semantic_probes": [
+    "CurrentMain.CurrentPR589PhaseBXor.decode_roundtrip",
+    "CurrentMain.CurrentPR589PhaseBXor.ordered_word_binding",
+    "CurrentMain.CurrentPR589PhaseBXor.decoded_gate_properties",
+    "CurrentMain.CurrentPR589PhaseBXor.helpers_preserved_except",
+    "CurrentMain.CurrentPR589PhaseBXor.target_translation",
+    "CurrentMain.CurrentPR589PhaseBXor.target_identity",
+    "CurrentMain.CurrentPR589PhaseBXor.contribution_independent_of_targets"
+  ],
+  "finite_decisions": 11,
+  "semantic_decisions": 0,
+  "scope": [
+    "Frame-ID bounds only; no frame geometry, rank, Gram or physical provider.",
+    "No old Fin660 theorem is transported by renaming.",
+    "No unconditional helper or source preservation.",
+    "Arbitrary target values preserved as a translation, with independent contribution unconstrained.",
+    "A/C/D, actual whole-list reversal binding and Fin662 temporary lifecycle remain separate."
+  ],
+  "attribution": [
+    "Original package eumemic with substantial Anthropic Claude assistance, Apache-2.0.",
+    "Selected tuning Claude Opus5.5 via Claude Code, Apache-2.0.",
+    "Finite Lean source preparation uses OpenAI assistance."
+  ],
+  "math_focused_wall_intervals": [
+    {
+      "start_utc": "2026-10-13T06:55:47Z",
+      "end_utc": "2026-10-13T06:56:15Z",
+      "seconds": 28,
+      "activity": "Choose minimum B predicates and exception-preservation proof through accepted run_off_target/target laws"
+    }
+  ],
+  "inference_minutes": null,
+  "compiler_jobs": 0,
+  "source_comparison": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/current-pr589-source-comparison/SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+    "sha256": "66a9cfa39b89e56fb0a922d7f38471ec7ef39e01b7634c235973c451eeb684d4",
+    "bytes": 47519
+  },
+  "latest_context_applicability": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CURRENT_MAIN_APPLICABILITY.json",
+    "sha256": "0ea3bf3d2f86e23079d9801ee38634aa17e4511c45e6e712017cf4f234ffefca",
+    "bytes": 3921
+  },
+  "accepted_semantic_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-r420-xor-interfaces/CurrentR420PhaseBXor.lean",
+    "sha256": "5ab8ca016e7e53de76b13ef553fe85412d7c9100b30851fa4a81c31ad77d1c11",
+    "bytes": 5712
+  },
+  "semantic_delta": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_b/SEMANTIC_SOURCE_DELTA.diff",
+    "sha256": "b89aaab0b821adb7ea4985631088be8c5ef7a2a32ff84e5a51f1bb41756f5247",
+    "bytes": 6805
+  },
+  "preparer": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_b/prepare_source.py",
+    "sha256": "8d6872d2aa5832a2cc3cec74917b6d1586c8b80b985c5e3a14dc7282e4a91a27",
+    "bytes": 8929
+  },
+  "preparer_note": "Owned projection only. The preflight preparer had a disabled reference assertion; it was corrected to the exact accepted source hash before any review or compiler. Generated Lean bytes are unchanged."
+}
