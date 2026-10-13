@@ -1,0 +1,87 @@
+{
+  "status": "KERNEL_PASS_INDEPENDENTLY_REVIEWED",
+  "utc": "2026-10-13T07:12:24.497430+00:00",
+  "source_commit": {
+    "commit": "cb39ecbd12b6341c9a17e97188e624652de81fea",
+    "path": "research/lean-scalar-write-support/ScalarWriteSupport.lean"
+  },
+  "owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/scalar_write_support_proposal/gate/ACCEPTANCE.json",
+    "sha256": "726781d4577025e03de55ff3e945efecc3a897605074c0bf1370989aca8cdd43",
+    "bytes": 12746
+  },
+  "independent_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SCALAR_WRITE_SUPPORT_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "d4b090d787562a7c5aa19ba6898edd343534cd0f3499bb140fbd9f152c6240e5",
+    "bytes": 6436
+  },
+  "measures": {
+    "started_utc": "2026-10-13T07:02:44.469043+00:00",
+    "finished_utc": "2026-10-13T07:02:52.724178+00:00",
+    "compile_seconds": 8.255093081999803,
+    "queue_seconds": 0.0010355220001656562,
+    "preparation_seconds": 1.0527550029946724,
+    "process_observations": {
+      "samples": 82,
+      "peak_vm_bytes": 2429624320,
+      "peak_rss_bytes": 1894006784,
+      "peak_threads": 3
+    }
+  },
+  "probes": [
+    {
+      "name": "CurrentMain.ScalarWriteSupport.physRun_unchanged",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.ScalarWriteSupport.scalRun_unchanged",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.ScalarWriteSupport.expanded_target_lt",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "CurrentMain.ScalarWriteSupport.Historical596.encoded_event_count",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "CurrentMain.ScalarWriteSupport.Historical596.support_above_targets",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "printed_type": [
+    {
+      "declaration": "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved",
+      "actual_printed_type": "@CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved : \u2200 {\u039b : Type u_1} {K : Type u_2} {M : Type u_3}\n  [inst : Semiring K] [inst_1 : AddCommMonoid M] [inst_2 : Module K M] (es : List (LemmaG.Event (Fin 736) \u039b K)),\n  CurrentMain.ScalarWriteSupport.Historical596.HasSourceWriteTrace es \u2192\n    \u2200 (h : Fin 736 \u2192 M),\n      \u2200 r \u2208 CurrentMain.ScalarWriteSupport.Historical596.first33Support, LemmaG.Stream.scalRun es h r = h r",
+      "typed_trace_premise_explicit": true
+    }
+  ],
+  "scientific_scope": "Generic interpreted physical/scalar stream support preservation. Historical5996 forward9168 destination trace encoded by224 runs yields unchanged16 selected registers for arbitrary payload states, under explicit HasSourceWriteTrace.",
+  "exclusions": [
+    "No concrete full-prefix typed trace supplier or prefix execution-to-labels theorem.",
+    "Sixteen entry adapters, residual inverse and hstart remain separate.",
+    "Backward dependency slice, physical executor and all-size conclusions remain open.",
+    "New selected741/799 source applicability is not inferred.",
+    "No previous resource hold cleared."
+  ],
+  "current799_comparison_is_separate": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_comparison/SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+    "sha256": "84edd2d24a3c930612115cd357211f40718dbb7cb3679e5be2791f7aa8c0a790",
+    "bytes": 628741
+  }
+}
