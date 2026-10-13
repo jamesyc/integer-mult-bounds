@@ -1,0 +1,241 @@
+{
+  "status": "PRESERVED_PR543_TWO_UNIT_REAL_SOURCE_CURRENT_PR589_APPLICABILITY_UNCHECKED",
+  "utc": "2026-10-13T08:23:03.872108+00:00",
+  "source": {
+    "module": "Current543LogRealEnclosure",
+    "file": "Current543LogRealEnclosure.lean",
+    "sha256": "4d6371d4ca72f1ae864e2dd0598a9b6d685164cc1707fccbfab4c1f967798d0c",
+    "bytes": 9817,
+    "explicit_imports": [
+      "Current543LogCheckpoints",
+      "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
+    ],
+    "expected_probes": [
+      "CurrentMain.Current543LogRealEnclosure.log_eight_fifths_upper",
+      "CurrentMain.Current543LogRealEnclosure.log_thirty_two_twenty_one_upper",
+      "CurrentMain.Current543LogRealEnclosure.log_eight_fifths_literal",
+      "CurrentMain.Current543LogRealEnclosure.log_thirty_two_twenty_one_literal"
+    ]
+  },
+  "current_source_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "current_source_root": "/workspace/shared/integer-mult-git/checks/main-f567884-readback",
+  "source_pins": [
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/certificates/selected-result.json",
+      "sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+      "bytes": 7059,
+      "repository_path": "certificates/selected-result.json",
+      "git_blob": "1f107b55a2f045fa66d9c35d658b3b79549f5ba6"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+      "bytes": 127995,
+      "repository_path": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+      "git_blob": "9921a5d90ef8aa005df3a872adbf1a90e484cad8"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/community-frontier799-audit/ASSEMBLY.json",
+      "sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+      "bytes": 85641,
+      "repository_path": "research/community-frontier799-audit/ASSEMBLY.json",
+      "git_blob": "a04bfd932a15196fe8e2418eae912ea745152593"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987,
+      "repository_path": "research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987,
+      "repository_path": "research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/assemble.py",
+      "sha256": "4c270a996b380ab712f72b81173ab24f1c73203a33578f261bfbaa7e67d75aec",
+      "bytes": 20788,
+      "repository_path": "research/gauge44-frames-x/code/assemble.py",
+      "git_blob": "8cee90b50e238bd1519a7aeb7395f62d277b8ae4"
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742,
+      "repository_path": "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    }
+  ],
+  "upstream_engine": {
+    "repository_path": "research/direct-delivery504-global/inputs/data-base/work/pr361/code/engines/base_two_moment.py",
+    "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "byte_identical_historical_path": true
+  },
+  "author_checked_conditional_kappa": "1661634653669567/1000000000000000000",
+  "decimal": "0.001661634653669567",
+  "current_bit_input": {
+    "m": 64,
+    "live": 28416,
+    "bit_lower": "1733427039589844234749/1000000000000000000000000",
+    "profile": {
+      "1": 381024,
+      "2": 400416,
+      "3": 22752,
+      "4": 26880,
+      "5": 29376,
+      "6": 17376,
+      "7": 26784,
+      "42": 288
+    },
+    "surcharge": true,
+    "immutable_supplier": {
+      "pr": 589,
+      "commit": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+      "current_input": {
+        "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/inputs/PR589-EXPECTED.json",
+        "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+        "bytes": 5987,
+        "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+      },
+      "scope": "Source application only; supplier realization remains open."
+    }
+  },
+  "binary_reductions_read_only": [
+    {
+      "rank": 1,
+      "count": 381024,
+      "binary_k": 5,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 2,
+      "count": 400416,
+      "binary_k": 4,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 3,
+      "count": 22752,
+      "binary_k": 4,
+      "unit": "4/3",
+      "z": "1/7"
+    },
+    {
+      "rank": 4,
+      "count": 26880,
+      "binary_k": 3,
+      "unit": "2",
+      "z": "1/3"
+    },
+    {
+      "rank": 5,
+      "count": 29376,
+      "binary_k": 3,
+      "unit": "8/5",
+      "z": "3/13"
+    },
+    {
+      "rank": 6,
+      "count": 17376,
+      "binary_k": 3,
+      "unit": "4/3",
+      "z": "1/7"
+    },
+    {
+      "rank": 7,
+      "count": 26784,
+      "binary_k": 3,
+      "unit": "8/7",
+      "z": "1/15"
+    },
+    {
+      "rank": 42,
+      "count": 288,
+      "binary_k": 0,
+      "unit": "32/21",
+      "z": "11/53"
+    }
+  ],
+  "correspondence": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_543_log_real/GENERIC_SOURCE_CORRESPONDENCE.json",
+    "sha256": "4ca640305597395978018008da729965d35c0482042073c3e57d098c1ce1df20",
+    "bytes": 5540
+  },
+  "accepted_finite_source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current543-log-checkpoints/Current543LogCheckpoints.lean",
+    "sha256": "77df96e78551ffe4801dd4a7b6b807db437c5b71d12a7c5462705dbb1bd947d0",
+    "bytes": 12224
+  },
+  "accepted_finite_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_543_log/ACCEPTANCE.json",
+    "sha256": "25d2b355d66d734bcc03ec7ea31fb9c5ef72a9577386021ce517ee6c8a0761d2",
+    "bytes": 71770
+  },
+  "accepted_finite_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current543-log/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "033518d89df0269d49442dc67950786fa1fa1370f665707a976b5840ff91c05a",
+    "bytes": 8625
+  },
+  "source_lines": {
+    "loaded_bit_profile": "gauge44-frames-x/code/assemble.py:31-49,177-183,202-203",
+    "unit_formula": "base_two_moment.py:20-24",
+    "binary_reduction": "base_two_moment.py:27-37"
+  },
+  "two_new_tail_comparisons": [
+    {
+      "n": 3,
+      "d": 13,
+      "unit": "8/5",
+      "auxiliary_tail": "7053724375373058549539413006077598542487826173600054169609648280937572443304922241729702210800263/1815945618894462417370120687014938834856394063120581698413447517327261255973336186697669189464569320564718122303065773884002382070335727743176104204404684391116042009816716308472036264484262089759164745",
+      "source_tail": "65542350158517637872691969508970705427701150314738255642438471845988797065603/16861992034628788696861158524638231917832097385313541910199733203888952029551942902218503409259855297953722930638797761546767874713361390240776746615282963502911018195810393062735760",
+      "positive_gap": "77333107720194050209483279331015986729944524731195761933513487176102165762051214609696580749443/29055129902311398677921930992239021357702305009929307174615160277236180095573378987162707031433109129035489956849052382144038113125371643890817667270474950257856672157067460935552580231748193436146635920",
+      "accepted_upper": "6447905907869983072408678215642743434115440225347832158339701576949236962719145572050521571672370413328965948598450739770220684592289574657953003792825494396835097018008985061363611620398048144662698457612464529524279212870292642209520423/13718842805996239743985078292465714201763488058191677834283408698880653122719648394595487595017716829275922611563420084522467646976808929306066785503995662168514530861352571508666405175689823925244737937539648873778488619944178949831058000"
+    },
+    {
+      "n": 11,
+      "d": 53,
+      "unit": "32/21",
+      "auxiliary_tail": "5021449044190215843113500295432364896390157407412090088514620740951899610618677536540196954084685183920786914362111572254356659281001081975766388617941068258919724931243747438959527818454265707371/34035669846008165341772271826353529545712009371697456882593437162631834835170835559436277865434365774916530826817247463174493875273904036244897633223577516615554281457288941284288722796916275285977513423830618908087430722811603763324263936682110204594838181437084099544466283056789357743871018378745814959485",
+      "source_tail": "461553778302516101219595780543690076578237793475384851351117346845246972842221214888488459448939298279659511273931105260323202407002439745328148634957378727907157929611/3126715821899248112893646627762610530390776202189418926906002501657553439522174697704259565532800015440605267049105636032995060537340172943549538445489361237569039422437182349364257934561606857106241508768614475057840823327928004183141834289725292514750375334301044172941212196928",
+      "positive_gap": "8673517238031838099800877477475559999475749897678564261051015484170732628094351435358865415722952791830386130440088382715052914361301340181703204892598060001080810117580925187123520164594998755439/106735860637081606511797844447444668655352861389643224783813018942013434043095740314392167386002171070138240672898888044515212792858963057663998977789139092106378226650058119867529434691129439296825482097132820895762182746737189401784891705435097601609412536986695736171446263666091425884779513635746875712944960",
+      "accepted_upper": "2959532525041993318146014596272840402119157805065713166204019370795429042985037174301776228372201769272715828159299753851950852166198996300448313399304070939191411643719464563410778468620974744439489196096599450249578777656187313946570217041781546431528093709648122411878162010628264344308804225372742707640827128502896544797326011342050711/7026205879970785982255069070842073989157033264134613384322249560203525571922531054158937988071858988165109410562224225654147524343294739867580924510021386765512184212693780046988772761083301179722396155255754736673341304381962573913415636998000940601782877251909182983851247812648508536032909500896682629269938457989708609377022796586568000"
+    }
+  ],
+  "accepted_numeric_identity_use": "Literal Real bounds substitute the corresponding accepted unitUpper identities z3_13_upper/z11_53_upper with explicit Rat literal cast normalization.",
+  "remaining": [
+    "Binary reduction and outward ceilings for the eight current PR589 bit ranks.",
+    "Real weighted aggregate with separate ordinary/fallback ceilings; accepted rational aggregate is retained separately.",
+    "Supplier/profile/operator realization, recurrence and physical/all-size selected-kappa transfer."
+  ],
+  "historical_candidate_context": {
+    "source_bytes_and_namespace_unchanged": true,
+    "original_binding": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_log_real/original543_preparation/SOURCE_BINDING.json",
+      "sha256": "4f58999e0b09d0becb3576f4cff028f233054aaf383bb700d6cd90739dcd351e",
+      "bytes": 11047
+    },
+    "original_proposal": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_589_log_real/original543_preparation/CHECK_PROPOSAL.json",
+      "sha256": "429e5ce214652518e30a1ef15f2dca45d0f57fabf03b35b2f9452503e49d6d1f",
+      "bytes": 63017
+    },
+    "original_conditional_kappa": "16127213726553/10000000000000000",
+    "source_comment_qualification": "The unchanged Lean header records its original5996/PR543 preparation context. The four closed Real statements carry no profile, endpoint or kappa hypothesis; current f567/PR589 applicability is separately pinned here."
+  },
+  "current_scientific_applicability": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/analytic-current543-real-applicability/SCIENTIFIC_CURRENT_APPLICABILITY.json",
+    "sha256": "e3d0527e07ed0b18dee54e7daf98fcb7d3309616a17fe263444fa7f688986a6e",
+    "bytes": 7009
+  },
+  "current_api_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current589-preserved-log-real/API_RESOURCE_REVIEW.json",
+    "sha256": "46b7bb1a5bf10e26e621c3511114063daf09f79a79aa2c3edbf9f7968fb0a3c6",
+    "bytes": 3861
+  }
+}
