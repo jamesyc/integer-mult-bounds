@@ -1,0 +1,137 @@
+{
+  "stage": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik",
+  "setup": {
+    "setup_start_utc": "2026-10-13T14:58:55.687679+00:00",
+    "setup_end_utc": "2026-10-13T14:58:55.690478+00:00",
+    "runner_pin_verified": true,
+    "config_pin_verified": true,
+    "reverse_replacements_recover_baseline": true
+  },
+  "wrapper_invocation_utc": "2026-10-13T14:59:20.033983+00:00",
+  "wrapper_end_utc": "2026-10-13T14:59:21.016682+00:00",
+  "wrapper_elapsed_seconds": 0.9827030950000335,
+  "wrapper_command": [
+    "python3",
+    "supervised-config-run.py"
+  ],
+  "wrapper_cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik",
+  "wrapper_exit_code": 0,
+  "original_baseline_and_retained_quadruples_preserved": true,
+  "inventory": [
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/FRESH_RESULT.json",
+      "bytes": 3126,
+      "sha256": "201e70f51ef565a20922092e31181c33d122b6971f95d57c17700656fdac00e3"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/SETUP_TIMING.json",
+      "bytes": 226,
+      "sha256": "717ee8de9b94bd2b3fbd9bac70f4f9b324394364b5427f8ed7699a6df630412f"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/BitXorInjectionAdapter-after-core-guard.json",
+      "bytes": 252396,
+      "sha256": "078cc8ad82b824e91fd94e6de7647627fe220e424700e38898fd48929aecf801"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/BitXorInjectionAdapter-before-core-guard.json",
+      "bytes": 252396,
+      "sha256": "480404ef609f25937bbcdeb1cce777dc18d47523246d763c0bfbd73f1f6dd66e"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/BitXorInjectionAdapter.raw.log",
+      "bytes": 202,
+      "sha256": "9c889b714d5312e9d7cb8f2de20c8a7f033b15660e44b55463dd8add28f70d71"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/BitXorInjectionAdapter.resources.jsonl",
+      "bytes": 6616,
+      "sha256": "ae76fcaf393caeb7c5782a4fc6e4795095af7ad674e4505d9996ba350726dc3e"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/final-core-guard.json",
+      "bytes": 252396,
+      "sha256": "12520b1c3204a2432ec8f497a95e13cc30947a9ba723c5f2cebf3caba7b568f9"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/initial-core-guard.json",
+      "bytes": 252396,
+      "sha256": "9956da5ea21a1b2fb7b2209b0723567973639c454575fdc1e934959613212361"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/metadata/OFFICIAL_CORE_MANIFEST.json",
+      "bytes": 180001,
+      "sha256": "2c27354193fc7b11079b61116ab8e9c80485903845bda48ddf3c66057fed2cb1"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/metadata/RUN_CONFIG.json",
+      "bytes": 7639,
+      "sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorConjugacy.olean",
+      "bytes": 91816,
+      "sha256": "abd10b97981ef8e97a33f226f65960cf924b355aadef3cc969170d152bf16528"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorInjectionAdapter.olean",
+      "bytes": 79240,
+      "sha256": "9c39405b3fc467b900d06098cb612adf5f0e852bee2c5ebb94381272174889ad"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorReversal.olean",
+      "bytes": 115832,
+      "sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorTargetTranslation.olean",
+      "bytes": 184152,
+      "sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/preimage/INPUT_BINDING_AND_BLOCKER.json",
+      "bytes": 5342,
+      "sha256": "a61ccb8c1842d6f8f256f4d219a32d6baf5a9d2c609d612a0b48fda45ef2a24f"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/preimage/supervised-core-run.py",
+      "bytes": 10526,
+      "sha256": "0ea523cf41f0c57c559e2ff8663b542a9461481afcf8caee4642a2bf5c7a3684"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/receipts/BitXorInjectionAdapter.json",
+      "bytes": 6222,
+      "sha256": "ac50d73e34898096873233515fbda8fbc051c4be27475c5c65dbf1b982928b1d"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorConjugacy.lean",
+      "bytes": 4183,
+      "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorInjectionAdapter.lean",
+      "bytes": 4867,
+      "sha256": "281847fd74cb3bebf9bb40456faec0b190a069c77cbad3df8f797bff7bd31007"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorReversal.lean",
+      "bytes": 6073,
+      "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorTargetTranslation.lean",
+      "bytes": 5194,
+      "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/supervised-config-run.py",
+      "bytes": 13622,
+      "sha256": "a7080136c183d62d7a2c83ec7306825467528ede00c241797dd285b21dee6c6f"
+    },
+    {
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/wrapper.stdout.log",
+      "bytes": 9465,
+      "sha256": "ee3edc21c3f78ff4d351cce7f782da6d5cc45c2557be2e563932be4a11f48833"
+    }
+  ]
+}

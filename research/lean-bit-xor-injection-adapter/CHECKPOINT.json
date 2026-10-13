@@ -1,0 +1,109 @@
+{
+  "format": "durable-research-owner-checkpoint-v1",
+  "module": "BitXorInjectionAdapter",
+  "status": "ACCEPTED_BY_RECORDED_KERNEL_RUN_AND_INDEPENDENT_TERMINAL",
+  "proof_scope": "Generic ordered actual-injection adapter on arbitrary incoming bits. Target-only entrance writes, original/encoded target writes and off-target reads, no-self-read reversal and encoded-vector equality remain explicit. No concrete PR915/926 matrix, selected D word, physical executor or multiplication theorem is supplied.",
+  "source_proposal_comment": "The unchanged Lean header records its original uncompiled proposal state. The actual later acceptance is recorded in the receipt and independent terminal.",
+  "license": "Apache-2.0; prepared with OpenAI assistance",
+  "attribution": [
+    {
+      "work": "PR590 ordered multioperand Boolean interpreter",
+      "head": "58690bdbb587f482569ba1bdf7bf61a5396b4768",
+      "path": "research/lean-selected-bit-scalar-boundaries/BitXorTargetTranslation.lean"
+    },
+    {
+      "work": "PR597 ordered reversal interface",
+      "head": "a87e6cce090c6bdc4f0687fe80719411835b94eb",
+      "path": "research/lean-current-r480-scalar-boundaries/BitXorReversal.lean"
+    },
+    {
+      "work": "Accepted ordered conjugacy API",
+      "path": "research/lean-bit-xor-conjugacy/BitXorConjugacy.lean",
+      "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d"
+    },
+    {
+      "work": "Gareth Davidson/bitplane PR915 restored-basis motivation, including its credited PR794/713/716/686 lineage",
+      "mathematical_head": "7d5ef1dcf994d0542f2d302110b33780f5504ab7",
+      "publication_head": "e9daefe320a0043000bd9746664ed02c3287d056"
+    },
+    {
+      "work": "Anthony (@anthonylei) PR774 already proves the underlying XOR-conjugacy algebra in a separate unary interpreter",
+      "head": "50f8c366f27a9083e0655593a1be3d6810d1f053",
+      "path": "research/r420-forest-cut-budget/Forest.lean"
+    }
+  ],
+  "author_checked_context": {
+    "commit": "47481c89fd30a43f8f882eb4b391e89c29273fd0",
+    "selected_result_path": "certificates/selected-result.json",
+    "selected_result_git_blob": "5dbfac5424703adbb97f38edbdcaea4627215132",
+    "certificate_path": "research/community-frontier890-audit/ASSEMBLY.json",
+    "certificate_sha256": "190110b509dc87d38b72ad37c3290efcc245ce26df4cae3d7e2d6dcf0bac2c43",
+    "kappa": {
+      "numerator": "1661957774647029",
+      "denominator": "1000000000000000000",
+      "decimal": "0.001661957774647029"
+    },
+    "scope": "Pinned historical numerical context. This generic source neither derives this kappa nor supplies a selected finite D instance."
+  },
+  "counts": {
+    "official_cached_pairs": 317,
+    "official_edges": 1077,
+    "local_retained": 3,
+    "local_fresh": 1,
+    "total_modules": 321,
+    "new_probes": 2
+  },
+  "evidence_files": [
+    {
+      "file": "BitXorInjectionAdapter.lean",
+      "bytes": 4867,
+      "sha256": "281847fd74cb3bebf9bb40456faec0b190a069c77cbad3df8f797bff7bd31007"
+    },
+    {
+      "file": "evidence/FRESH_RESULT.json",
+      "bytes": 3126,
+      "sha256": "201e70f51ef565a20922092e31181c33d122b6971f95d57c17700656fdac00e3"
+    },
+    {
+      "file": "evidence/BitXorInjectionAdapter.receipt.json",
+      "bytes": 6222,
+      "sha256": "ac50d73e34898096873233515fbda8fbc051c4be27475c5c65dbf1b982928b1d"
+    },
+    {
+      "file": "evidence/BitXorInjectionAdapter.raw.log",
+      "bytes": 202,
+      "sha256": "9c889b714d5312e9d7cb8f2de20c8a7f033b15660e44b55463dd8add28f70d71"
+    },
+    {
+      "file": "evidence/RUN_CONFIG.json",
+      "bytes": 7639,
+      "sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60"
+    },
+    {
+      "file": "evidence/supervised-config-run.py",
+      "bytes": 13622,
+      "sha256": "a7080136c183d62d7a2c83ec7306825467528ede00c241797dd285b21dee6c6f"
+    },
+    {
+      "file": "evidence/POST_RUN_INVENTORY_TIMING.json",
+      "bytes": 6841,
+      "sha256": "2842ee2efc9f5a763c6b68dea4dc8056e97c317920e9b3c4392cb47406d08b13"
+    },
+    {
+      "file": "evidence/TERMINAL_REVIEW.json",
+      "bytes": 3426,
+      "sha256": "cdaccb749631fde0ba5976e83bb2840ff5d206a7cb0d46b567b2cd7a80c2762d"
+    }
+  ],
+  "object_reference": {
+    "file": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorInjectionAdapter.olean",
+    "bytes": 79240,
+    "sha256": "9c39405b3fc467b900d06098cb612adf5f0e852bee2c5ebb94381272174889ad"
+  },
+  "source_control_review_sha256": "4040f777bbca5859bc64aa1302e15c3f6f19021a9f02ce822777323dec4a2657",
+  "official_core_manifest_reference": {
+    "path": "research/lean-current-r480-scalar-boundaries/OFFICIAL_CORE_MANIFEST.json",
+    "sha256": "2c27354193fc7b11079b61116ab8e9c80485903845bda48ddf3c66057fed2cb1"
+  },
+  "evidence_note": "The copied supervisor and absolute-path configuration document the accepted recovery run. They are not presented as a portable package checker. No additional compiler or publication replay is part of this checkpoint."
+}

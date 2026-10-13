@@ -1,0 +1,222 @@
+{
+  "format": "bounded-core-local-scope-v1",
+  "total_modules": 321,
+  "local_total": 4,
+  "fresh_probe_count": 2,
+  "retained_terminal": {
+    "path": "/workspace/worktrees/signed/research/lean-bit-xor-conjugacy/evidence/TERMINAL_REVIEW.json",
+    "bytes": 6422,
+    "sha256": "54e04f7386b912520cb4744c86c8d5170581b8ef8d725a2f03e9ea413f6cd49d"
+  },
+  "retained_modules": [
+    {
+      "module": "BitXorTargetTranslation",
+      "file": "BitXorTargetTranslation.lean",
+      "bytes": 5194,
+      "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+      "imports": [
+        "Init"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.BitXor.run_shift",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXor.run_off_target",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXor.target_identity",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXor.erased_eq_of_agree_off_target",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "artifacts": {
+        "sources": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorTargetTranslation.lean",
+          "bytes": 5194,
+          "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873"
+        },
+        "objects": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorTargetTranslation.olean",
+          "bytes": 184152,
+          "sha256": "e4af00397dd2156592348e4054e4fa6281c1a3e0aa183579931040c6c357edd5"
+        },
+        "logs": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorTargetTranslation.raw.log",
+          "bytes": 1860,
+          "sha256": "15d76d8d3e47ca89b71aabb20aec1c7f9febf841a2e909b3b879511afaf9d6dd"
+        },
+        "receipts": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorTargetTranslation.json",
+          "bytes": 3902,
+          "sha256": "cc2611a9a4e75908ca2896dbd20814bbeca61860c00dc1385b01fbff64a8fdf4"
+        }
+      }
+    },
+    {
+      "module": "BitXorReversal",
+      "file": "BitXorReversal.lean",
+      "bytes": 6073,
+      "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+      "imports": [
+        "BitXorTargetTranslation"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.BitXorReversal.run_append",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.BitXorReversal.run_scalarize",
+          "axioms": []
+        },
+        {
+          "declaration": "CurrentMain.BitXorReversal.step_involutive",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXorReversal.run_reverse_cancel",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXorReversal.run_agree_off_target",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXorReversal.cleanup_off_target",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXorReversal.cleanup_target_value",
+          "axioms": [
+            "propext"
+          ]
+        }
+      ],
+      "artifacts": {
+        "sources": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorReversal.lean",
+          "bytes": 6073,
+          "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f"
+        },
+        "objects": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorReversal.olean",
+          "bytes": 115832,
+          "sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94"
+        },
+        "logs": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorReversal.raw.log",
+          "bytes": 1114,
+          "sha256": "bd9549010e35c816e7d0405aa44131edc63b7342aae4f1f85cf486107035c9b1"
+        },
+        "receipts": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorReversal.json",
+          "bytes": 4255,
+          "sha256": "cd75adee41ddc21e7a3e75f128686a83f1dd026544272f2eca26d339e98c9404"
+        }
+      }
+    },
+    {
+      "module": "BitXorConjugacy",
+      "file": "BitXorConjugacy.lean",
+      "bytes": 4183,
+      "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d",
+      "imports": [
+        "BitXorReversal"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.BitXorConjugacy.run_xor",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXorConjugacy.conjugated_target_injection",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "artifacts": {
+        "sources": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorConjugacy.lean",
+          "bytes": 4183,
+          "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d"
+        },
+        "objects": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorConjugacy.olean",
+          "bytes": 91816,
+          "sha256": "abd10b97981ef8e97a33f226f65960cf924b355aadef3cc969170d152bf16528"
+        },
+        "logs": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorConjugacy.raw.log",
+          "bytes": 178,
+          "sha256": "f1b456ab763ce3420747edc9c15979963b1ab86a646a3ca031b6dee10ff7a88e"
+        },
+        "receipts": {
+          "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorConjugacy.json",
+          "bytes": 3633,
+          "sha256": "3ada7342bb343c05d515ededed8a59b9cb806aa9224a4c9a1722905dacd0e11b"
+        }
+      }
+    }
+  ],
+  "fresh_modules": [
+    {
+      "module": "BitXorInjectionAdapter",
+      "file": "BitXorInjectionAdapter.lean",
+      "bytes": 4867,
+      "sha256": "281847fd74cb3bebf9bb40456faec0b190a069c77cbad3df8f797bff7bd31007",
+      "imports": [
+        "BitXorConjugacy"
+      ],
+      "expected_probes": [
+        {
+          "declaration": "CurrentMain.BitXorInjectionAdapter.injection_execution",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.BitXorInjectionAdapter.conjugated_word_injection",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "module": "BitXorInjectionAdapter",
+  "output_provenance": "FRESH_CURRENT_EXECUTOR_RUN",
+  "status": "PASS",
+  "started_utc": "2026-10-13T14:59:20.413054+00:00",
+  "finished_utc": "2026-10-13T14:59:20.732912+00:00",
+  "command": [
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/bin/lean",
+    "-s65536",
+    "-j1",
+    "-o",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorInjectionAdapter.olean",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorInjectionAdapter.lean"
+  ],
+  "cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources",
+  "environment_overrides": {
+    "LEAN_PATH": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects",
+    "MIMALLOC_ARENA_RESERVE": "64MiB",
+    "LEAN_NUM_THREADS": "1"
+  },
+  "hard_wall_seconds": 60,
+  "rlimit_as_bytes": 4294967296,
+  "review_wall_seconds": 45,
+  "review_vm_peak_bytes": 3758096384,
+  "exit_code": 0,
+  "stop_reason": null,
+  "compile_seconds": 0.31983734000095865,
+  "peak_vm_bytes": 841277440,
+  "peak_rss_bytes": 321908736,
+  "kernel_peak_rss_bytes": 321589248,
+  "peak_threads": 4,
+  "samples": 60,
+  "sample_interval_seconds": 0.005,
+  "user_cpu_seconds": 0.23954399999999998,
+  "system_cpu_seconds": 0.076953,
+  "source_bytes": 4867,
+  "source_sha256": "281847fd74cb3bebf9bb40456faec0b190a069c77cbad3df8f797bff7bd31007",
+  "lean_binary_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+  "official_core_manifest_sha256": "2c27354193fc7b11079b61116ab8e9c80485903845bda48ddf3c66057fed2cb1",
+  "official_core_pairs": 317,
+  "official_core_ordered_edges": 1077,
+  "imports": [
+    "BitXorConjugacy"
+  ],
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXorInjectionAdapter.injection_execution",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorInjectionAdapter.conjugated_word_injection",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "expected_probes_match": true,
+  "standard_only_axioms": true,
+  "forbidden_axioms_or_sorry": false,
+  "raw_log_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/logs/BitXorInjectionAdapter.raw.log",
+  "raw_log_sha256": "9c889b714d5312e9d7cb8f2de20c8a7f033b15660e44b55463dd8add28f70d71",
+  "object_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/objects/BitXorInjectionAdapter.olean",
+  "object_bytes": 79240,
+  "object_sha256": "9c39405b3fc467b900d06098cb612adf5f0e852bee2c5ebb94381272174889ad",
+  "pre_guard": {
+    "verified_utc": "2026-10-13T14:59:20.409790+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 2,
+    "successful_predecessor_artifacts_checked": 3,
+    "retained_quadruples_checked": 3,
+    "local_import_order": [
+      {
+        "module": "BitXorTargetTranslation",
+        "imports": [
+          "Init"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorTargetTranslation.lean"
+      },
+      {
+        "module": "BitXorReversal",
+        "imports": [
+          "BitXorTargetTranslation"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorReversal.lean"
+      },
+      {
+        "module": "BitXorConjugacy",
+        "imports": [
+          "BitXorReversal"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorConjugacy.lean"
+      },
+      {
+        "module": "BitXorInjectionAdapter",
+        "imports": [
+          "BitXorConjugacy"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorInjectionAdapter.lean"
+      }
+    ],
+    "total_modules_checked": 321,
+    "configuration_sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60",
+    "guard_seconds": 0.16770280899982026
+  },
+  "post_guard": {
+    "verified_utc": "2026-10-13T14:59:20.867387+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 2,
+    "successful_predecessor_artifacts_checked": 4,
+    "retained_quadruples_checked": 3,
+    "local_import_order": [
+      {
+        "module": "BitXorTargetTranslation",
+        "imports": [
+          "Init"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorTargetTranslation.lean"
+      },
+      {
+        "module": "BitXorReversal",
+        "imports": [
+          "BitXorTargetTranslation"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorReversal.lean"
+      },
+      {
+        "module": "BitXorConjugacy",
+        "imports": [
+          "BitXorReversal"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorConjugacy.lean"
+      },
+      {
+        "module": "BitXorInjectionAdapter",
+        "imports": [
+          "BitXorConjugacy"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorInjectionAdapter.lean"
+      }
+    ],
+    "total_modules_checked": 321,
+    "configuration_sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60",
+    "guard_seconds": 0.13398367399895506
+  },
+  "post_guard_error": null
+}

@@ -1,0 +1,2 @@
+'CurrentMain.BitXorInjectionAdapter.injection_execution' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXorInjectionAdapter.conjugated_word_injection' depends on axioms: [propext, Quot.sound]

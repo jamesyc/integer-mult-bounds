@@ -1,0 +1,81 @@
+{
+  "status": "PASS_INDEPENDENT_INJECTION_ADAPTER_TERMINAL",
+  "reviewer": "bank",
+  "completed_utc": "2026-10-13T15:02:02Z",
+  "cloud_thread": "01a1351f-a737-723e-9803-5bd18bb920fa",
+  "cloud_turn": "01a135c5-08f3-7198-b59a-23f196e5475b",
+  "cloud_message": "msg_00854d979964dd50016ace4757fda88190b8609f875a4bf213",
+  "stage": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik",
+  "source": {
+    "bytes": 4867,
+    "sha256": "281847fd74cb3bebf9bb40456faec0b190a069c77cbad3df8f797bff7bd31007"
+  },
+  "object": {
+    "bytes": 79240,
+    "sha256": "9c39405b3fc467b900d06098cb612adf5f0e852bee2c5ebb94381272174889ad"
+  },
+  "result": {
+    "bytes": 3126,
+    "sha256": "201e70f51ef565a20922092e31181c33d122b6971f95d57c17700656fdac00e3"
+  },
+  "receipt": {
+    "bytes": 6222,
+    "sha256": "ac50d73e34898096873233515fbda8fbc051c4be27475c5c65dbf1b982928b1d"
+  },
+  "raw_log": {
+    "bytes": 202,
+    "sha256": "9c889b714d5312e9d7cb8f2de20c8a7f033b15660e44b55463dd8add28f70d71"
+  },
+  "runner_sha256": "a7080136c183d62d7a2c83ec7306825467528ede00c241797dd285b21dee6c6f",
+  "configuration_sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60",
+  "source_control_review_sha256": "4040f777bbca5859bc64aa1302e15c3f6f19021a9f02ce822777323dec4a2657",
+  "prerequisite_terminal_sha256": "54e04f7386b912520cb4744c86c8d5170581b8ef8d725a2f03e9ea413f6cd49d",
+  "counts": {
+    "official_cached_pairs": 317,
+    "official_edges": 1077,
+    "local_retained": 3,
+    "local_fresh": 1,
+    "total_modules": 321,
+    "new_probes": 2
+  },
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXorInjectionAdapter.injection_execution",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorInjectionAdapter.conjugated_word_injection",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "measures": {
+    "compiler_seconds": 0.31983734000095865,
+    "user_cpu_seconds": 0.23954399999999998,
+    "system_cpu_seconds": 0.076953,
+    "peak_vm_bytes": 841277440,
+    "peak_rss_bytes": 321908736,
+    "wrapper_seconds": 0.9827030950000335
+  },
+  "checks": {
+    "literal_result_receipt_log_sha256_recomputed": true,
+    "reviewed_source_hash_matches": true,
+    "runner_and_config_match_source_control_review": true,
+    "retained_three_source_object_pairs_match": true,
+    "pre_post_final_guard_import_order_and_counts_match": true,
+    "exit_code": 0,
+    "stop_reason": null,
+    "post_guard_error": null,
+    "forbidden_axioms_or_sorry": false,
+    "full_reported_inventory_rows": 23
+  },
+  "review_basis": "Direct complete cloud receipt and raw-log readback; independently rehashed their literal UTF-8 bytes and matched actual records to reviewed source/configuration and prior terminal. Current binary/object and original quadruple preservation were reported by the sole executor's saved guarded inventory; reviewer did not access that filesystem or rerun a guard/compiler.",
+  "scope": "Generic ordered actual-injection adapter on arbitrary incoming bits. Target-only entrance writes, original/encoded target writes and off-target reads, no-self-read reversal and encoded-vector equality remain explicit. No concrete PR915/926 matrix, selected D word, physical executor or multiplication theorem is supplied.",
+  "compiler_rerun": false,
+  "repair_used": false
+}

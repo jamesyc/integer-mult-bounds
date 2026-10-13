@@ -1,0 +1,88 @@
+{
+  "kind": "fresh-core-only-signed-owner-handoff-verification",
+  "status": "PASS",
+  "stage": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik",
+  "started_utc": "2026-10-13T14:59:20.241967+00:00",
+  "modules_planned": 1,
+  "axiom_records_required": 2,
+  "retained_local_outputs": 3,
+  "configuration_sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60",
+  "retained_modules": [
+    "BitXorTargetTranslation",
+    "BitXorReversal",
+    "BitXorConjugacy"
+  ],
+  "fresh_receipts": [
+    {
+      "module": "BitXorInjectionAdapter",
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/receipts/BitXorInjectionAdapter.json",
+      "sha256": "ac50d73e34898096873233515fbda8fbc051c4be27475c5c65dbf1b982928b1d",
+      "status": "PASS"
+    }
+  ],
+  "finished_utc": "2026-10-13T14:59:21.009361+00:00",
+  "modules_successful": 1,
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXorInjectionAdapter.injection_execution",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorInjectionAdapter.conjugated_word_injection",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "axiom_records_observed": 2,
+  "final_guard": {
+    "verified_utc": "2026-10-13T14:59:21.006315+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 2,
+    "successful_predecessor_artifacts_checked": 6,
+    "retained_quadruples_checked": 3,
+    "local_import_order": [
+      {
+        "module": "BitXorTargetTranslation",
+        "imports": [
+          "Init"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorTargetTranslation.lean"
+      },
+      {
+        "module": "BitXorReversal",
+        "imports": [
+          "BitXorTargetTranslation"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorReversal.lean"
+      },
+      {
+        "module": "BitXorConjugacy",
+        "imports": [
+          "BitXorReversal"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorConjugacy.lean"
+      },
+      {
+        "module": "BitXorInjectionAdapter",
+        "imports": [
+          "BitXorConjugacy"
+        ],
+        "source_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/bitxor-injection-config-exc4rcik/sources/BitXorInjectionAdapter.lean"
+      }
+    ],
+    "total_modules_checked": 321,
+    "configuration_sha256": "8a6360e48b608a23ee546faa2f063b3e314958fed98ab9229aaa03a981e5bf60",
+    "guard_seconds": 0.13556517799952417
+  },
+  "peak_vm_bytes": 841277440,
+  "peak_rss_bytes": 321908736,
+  "compile_seconds": 0.31983734000095865
+}
