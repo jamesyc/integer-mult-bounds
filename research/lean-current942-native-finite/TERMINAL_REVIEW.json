@@ -1,0 +1,66 @@
+{
+  "schema": "current942-native-finite-independent-terminal-v1",
+  "status": "PASS",
+  "reviewer": "integration",
+  "closed_utc": "2026-10-13T16:12:08Z",
+  "actual_result_message": "msg_00854d979964dd50016ace57ac36e48190b6726f974c43e46e",
+  "source_sha256": "3af1227a1924d5906bf1339884c2e57b157c9e74afaede984c4739ecef78d3df",
+  "object": {
+    "bytes": 409408,
+    "sha256": "0a27464ccde1b0dc05447c9bd3d6968443f496df1ea63c3bc4ea6fe00229284e",
+    "verification": "Actual supervisor receipt and successful post-guard; binary object was not independently downloaded."
+  },
+  "receipt_and_result": {
+    "bytes": 12537,
+    "sha256": "5d9a807d223e171dd9db1d645fb9a89a616adda5bb66fc6b2fcc7dbe4d0be5cd",
+    "independently_hashed_literal": true
+  },
+  "raw_log": {
+    "bytes": 606,
+    "sha256": "8421c9f370e85ad0f869d7e42f08974f14d7ff097ffe2c9eed2dc82033f8bf23",
+    "independently_hashed_literal": true,
+    "exact_ordered_probe_match": true,
+    "observed_probes": 5,
+    "standard_axioms_only": true
+  },
+  "current_guards": {
+    "before_sha256": "2ea8f4221cc5ab38196c82720706096ac9666d644c2015dfb177f9d66842741b",
+    "after_sha256": "7a4ed47d85d8457b259b2bb8f22b33cf731b4c0dfd1d08d91da14d8a4ca4cc14",
+    "independently_reconstructed_from_literal_receipt": true,
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 322,
+    "reachable_edges": 1086,
+    "retained_roots": 2,
+    "retained_probes": 11,
+    "retained_first_matches": 321,
+    "scientific_git_inputs": 8,
+    "protected_files": 1698,
+    "worktree_heads_and_statuses": 8,
+    "fresh_absent_before": true,
+    "fresh_identity_added_to_after_guard": true,
+    "preservation_error": null
+  },
+  "binding": {
+    "wrapper_sha256": "b04c4ec08175307cd6234ca38a14add0917d17fb788805fad8f34ebdde34bad3",
+    "manifest_sha256": "1191745331e5d8eae5a509e047885851046a70773c6c8192c51c913dd33d6f8e",
+    "base_review_sha256": "d40393aaece8d1def47567c371715f6e7e9b41b271f25f4a896c680162b4cb1f",
+    "spectator_amendment_sha256": "cdcd8b4ce9cad34aad3644a0a165f440594d705a49446bb4b269f3dfa45a8a9f",
+    "command_cwd_environment_limits_match": true
+  },
+  "actual": {
+    "started_utc": "2026-10-13T16:08:51.360494+00:00",
+    "finished_utc": "2026-10-13T16:08:52.730175+00:00",
+    "exit_code": 0,
+    "stop_reason": null,
+    "compiler_seconds": 1.3696678699998301,
+    "wrapper_seconds": 2.4790802169991366,
+    "before_guard_seconds": 0.5470594750004238,
+    "after_guard_seconds": 0.5009469269989495,
+    "peak_vm_bytes": 708132864,
+    "peak_rss_bytes": 333123584,
+    "below_review_limits": true
+  },
+  "scope": "Five finite rational T37 facts at pinned bbc600db. No Real enclosure, recurrence/model applicability, physical/operator/profile realization, bit supplier, bootstrap, outer slacks, all-size transfer, or complete selected-kappa theorem is established.",
+  "rerun_performed": false
+}
