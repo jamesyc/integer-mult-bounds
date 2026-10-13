@@ -1,0 +1,155 @@
+{
+  "schema": "current1094-native-finite-source-binding-v1",
+  "status": "SOURCE_PREPARATION_UNCOMPILED",
+  "selected_main": "ce7ad1b6ab09452c3478723a2e96ed5ff212dc08",
+  "audited_source": "0fc329d0bec93ca7cd288eaea1295172e8789810",
+  "author_checked_kappa": "836330098538459/500000000000000000",
+  "source": {
+    "module": "Current1094NativeUpperAggregate",
+    "bytes": 65724,
+    "sha256": "de367aca2684506d8b16419523595a000769ebbe789479899bac44747fa39bf3",
+    "generator_bytes": 7543,
+    "generator_sha256": "e1e1f787696594974048e26ebcbb3cf217e0638309ea3ec424fb51627ec2b3e4"
+  },
+  "raw_inputs": [
+    {
+      "path": "certificates/selected-result.json",
+      "git_blob": "ae6a99f28aa468649eb66a361e764d769363bf11",
+      "sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+      "bytes": 10725
+    },
+    {
+      "path": "research/community-frontier1094-audit/SELECTED-SOURCE.json",
+      "git_blob": "6a75493790b4eff9c4a98051ef8b01d6aad0d5a8",
+      "sha256": "79b3de5db3dbcb9829789ba58e9e45758926031e2a7d80667a08429d369be53b",
+      "bytes": 232740
+    },
+    {
+      "path": "research/community-frontier1094-audit/ASSEMBLY.json",
+      "git_blob": "5fd676df060f3b450782fdf5ff5f6beb63a5eeb0",
+      "sha256": "1122cb3a575f8c788345fc1bf4c108ac7c3250fb81a5988671f5eb04b3ab3045",
+      "bytes": 85147
+    },
+    {
+      "path": "research/complex-t16-rare-pattern-exchanges/data/SPEC.json",
+      "git_blob": "af013ccc2975d9d575d116f8a463cc947f220c8d",
+      "sha256": "8cb51f25a5da4a29d3783853025b73ff1f452429d4fdb30c599e598bcab0e71d",
+      "bytes": 24437
+    },
+    {
+      "path": "research/complex-t16-rare-pattern-exchanges/verify.py",
+      "git_blob": "9d471cf90835bc91d32bb0216c2bb867011a7420",
+      "sha256": "b8c2f76b305c5c9ceb42df203deef564857d17f1f8182d0745dda9ab96e3d4de",
+      "bytes": 2089
+    },
+    {
+      "path": "research/complex-t16-rare-pattern-exchanges/SOURCE.json",
+      "git_blob": "1e43afd08c060373b6fde3c775c23c180cb6a794",
+      "sha256": "4cfd44cebfe88f4450294239fbea8feecb564338dc3027b76065227f5d19cb6f",
+      "bytes": 19360
+    },
+    {
+      "path": "research/gauge44-slots-t16/code/assemble.py",
+      "git_blob": "581dd9cb29a45bd68cc651538311b63f6966ad68",
+      "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+      "bytes": 20940
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742
+    },
+    {
+      "path": "research/gauge44-slots-t16/inputs/PR589-EXPECTED.json",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "bytes": 5987
+    }
+  ],
+  "caller": {
+    "path": "research/gauge44-slots-t16/code/assemble.py",
+    "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+    "native_call": "check_moment('complex',H,73,owner['live'],b,5120,False)",
+    "spec_path": "research/complex-t16-rare-pattern-exchanges/data/SPEC.json",
+    "spec_sha256": "8cb51f25a5da4a29d3783853025b73ff1f452429d4fdb30c599e598bcab0e71d",
+    "bit_unchanged": true,
+    "bit_surcharge": true,
+    "later_bootstrap_charged_coefficient": 512,
+    "read_only": true,
+    "supplier_executed": false,
+    "overlay": {
+      "verifier_path": "research/complex-t16-rare-pattern-exchanges/verify.py",
+      "verifier_sha256": "b8c2f76b305c5c9ceb42df203deef564857d17f1f8182d0745dda9ab96e3d4de",
+      "archive_source_path": "research/complex-t16-rare-pattern-exchanges/SOURCE.json",
+      "archive_source_sha256": "4cfd44cebfe88f4450294239fbea8feecb564338dc3027b76065227f5d19cb6f",
+      "archive_head": "589d1cedf5ef5f231182f4ec86408616311a8af0",
+      "assembler_archive_pin_matches_same_committed_base_bytes": true,
+      "replaced_files": [
+        "data/OWNERS.json.gz",
+        "data/PLAN.json",
+        "data/SPEC.json"
+      ]
+    }
+  },
+  "target": {
+    "dimension": 73,
+    "live": 14336,
+    "deficit": 5120,
+    "profile": {
+      "1": 349604,
+      "2": 60192,
+      "3": 62585,
+      "4": 20448,
+      "5": 11808,
+      "7": 7,
+      "8": 1152,
+      "48": 4866
+    },
+    "count": 510662,
+    "rank_mass": 1041408,
+    "endpoint": "67018507072324140917/40000000000000000000000",
+    "ordinary_upper": "199999999999999999999999739157/200000000000000000000000000000",
+    "residual": "-260843/200000000000000000000000000000",
+    "ordinary_ceiling_count": 1,
+    "native_fallback": false
+  },
+  "templates": [
+    {
+      "module": "Current1042NativeUpperAggregate",
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current1042-native-n26tkvbt/output/Current1042NativeUpperAggregate.lean",
+      "sha256": "111bafce89e70eb97a605991aafc1aa6e12d837c3328f1836e3b576fdd016cae",
+      "status": "Exact accepted source; independent terminal 0b9d6879504d18bda0a11f1069e0218e2eecde395ebbef7b9437143f928d1e94. The source is used only as a textual template, not imported.",
+      "terminal_sha256": "0b9d6879504d18bda0a11f1069e0218e2eecde395ebbef7b9437143f928d1e94"
+    }
+  ],
+  "scope": {
+    "local": 3,
+    "retained": 2,
+    "fresh": 1,
+    "cached_pairs": 319,
+    "reachable_nodes": 322,
+    "ordered_edges": 1086,
+    "decisions": 68,
+    "exp_blocks": 24,
+    "domain_leaves": 16,
+    "new_probes": 5,
+    "reachable_probes": 16
+  },
+  "retained_finite_terminal": "22d33d39bd7f86a9fc0862a9efbefd8a2358e6726d350cba4f4786091ef0dc22",
+  "witness": {
+    "bytes": 56334,
+    "sha256": "f207eb6f795b5812670bc907c670ab79f2610754bd50e4adf1d43315211fb19f"
+  },
+  "reuse": "Remove rank16 from the exact PR1042 source and preserve all eight remaining logarithm unit proofs. Regenerate24 connected exponential checkpoint pairs,16 domain leaves and one source-ordered ceiling. No new unit root or runtime dependency.",
+  "assumptions_excluded": [
+    "Real enclosure",
+    "profile/provider/operator realization",
+    "native recurrence license",
+    "bit supplier validity",
+    "bootstrap",
+    "outer slacks",
+    "all-size multiplication",
+    "selected kappa theorem"
+  ]
+}
