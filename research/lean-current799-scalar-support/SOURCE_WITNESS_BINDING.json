@@ -1,0 +1,232 @@
+{
+  "status": "SOURCE_BOUND_SUPPORT_WITNESSES_PENDING_INDEPENDENT_SOURCE_REVIEW",
+  "utc": "2026-10-13T07:16:47.677940+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-scalar-support/Current799ScalarSupport.lean",
+    "sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7",
+    "bytes": 44632
+  },
+  "source_comparison": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_comparison/SOURCE_COMPARISON_AND_MINIMUM_PROPOSAL.json",
+    "sha256": "84edd2d24a3c930612115cd357211f40718dbb7cb3679e5be2791f7aa8c0a790",
+    "bytes": 628741
+  },
+  "current_source_head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "selected_artifact_receipt": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "actual_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "bytes": 83939
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "bytes": 208661
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CLIFFORD-RECIPES.json",
+      "sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+      "bytes": 994364
+    }
+  ],
+  "source_chain": [
+    {
+      "repository_path": "scripts/verify_frontier799.py",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/scripts/verify_frontier799.py",
+      "sha256": "19fe1b32079095160dc00fe2f7df75e0fcbc82cff37f7159b755c8a63bd5ce99",
+      "bytes": 3086,
+      "git_blob": "c0d8b0d0c9c52ed17ad37cbf7dc88838daea203a"
+    },
+    {
+      "repository_path": "research/gauge44-frames-x/construction/jx/reproduce_jx.py",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/construction/jx/reproduce_jx.py",
+      "sha256": "5c7afebb4eb7fcdeb7e971cfbc457cf071850e2da21c3c71295efdd453c2399c",
+      "bytes": 6472,
+      "git_blob": "6829a1b25d4ff473dfd1ea315cf6e363aecfd139"
+    },
+    {
+      "repository_path": "research/gauge44-frames-x/verify_global.py",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/verify_global.py",
+      "sha256": "16bd5e54598592e92e210f99065348c5df261b8350fdc688072ce053d15b088a",
+      "bytes": 6118,
+      "git_blob": "7ab79e3062e23e3ebfadecddb7851c65799f2f9a"
+    },
+    {
+      "repository_path": "research/gauge44-frames-x/data/SPEC.json",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/data/SPEC.json",
+      "sha256": "64817c60a4a2c1839bf12239cb1b7515a40bf8988229d81d4c9faa17b488c7d5",
+      "bytes": 19085,
+      "git_blob": "65d1048b0356ce508fbd8f2607eae7689d598d9f"
+    },
+    {
+      "repository_path": "research/gauge44-frames-x/code/bind_providers_portable.py",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/gauge44-frames-x/code/bind_providers_portable.py",
+      "sha256": "1d39bcc7b63ac158e021454beaae897d123e174360573762aecade3cd43193f6",
+      "bytes": 5420,
+      "git_blob": "97e28da17ed75cd4add54394f6178dba8c9b257f"
+    },
+    {
+      "repository_path": "research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_emit_local.py",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_emit_local.py",
+      "sha256": "7e4a6fbc38c8228157b6311457d1496bf460291393043932d2c365f004f77805",
+      "bytes": 8821,
+      "git_blob": "534fdc71f7641c704575efc038363d7eb206b2df"
+    },
+    {
+      "repository_path": "research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_audit_local.py",
+      "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_audit_local.py",
+      "sha256": "6bd9a1e279c9c9e4f3767d9f82e537b559292906feb2ddab02f380fb6523a810",
+      "bytes": 13348,
+      "git_blob": "17bccb64fdca54f329a3ce16e369449cb76c2802"
+    }
+  ],
+  "first_climb_support": [
+    558,
+    559,
+    560,
+    561,
+    570,
+    571,
+    572,
+    573,
+    582,
+    583,
+    584,
+    585,
+    594,
+    595,
+    596,
+    597
+  ],
+  "start_labels": [
+    [
+      558,
+      0
+    ],
+    [
+      559,
+      0
+    ],
+    [
+      560,
+      0
+    ],
+    [
+      561,
+      0
+    ],
+    [
+      570,
+      0
+    ],
+    [
+      571,
+      4
+    ],
+    [
+      572,
+      0
+    ],
+    [
+      573,
+      4
+    ],
+    [
+      582,
+      0
+    ],
+    [
+      583,
+      4
+    ],
+    [
+      584,
+      0
+    ],
+    [
+      585,
+      4
+    ],
+    [
+      594,
+      4
+    ],
+    [
+      595,
+      4
+    ],
+    [
+      596,
+      4
+    ],
+    [
+      597,
+      4
+    ]
+  ],
+  "segments": [
+    {
+      "table": "preconditionTargets",
+      "runs": "preconditionRuns",
+      "raw_inclusive": [
+        1,
+        6488
+      ],
+      "raw_events": 6488,
+      "table_entries": 112,
+      "run_pairs": 224,
+      "indices_all_in_range": true,
+      "all_multiplicities_positive": true,
+      "source_ordered_expansion_exact": true,
+      "annotation_counts": {
+        "0": 6488
+      }
+    },
+    {
+      "table": "earlyATargets",
+      "runs": "earlyARuns",
+      "raw_inclusive": [
+        7219,
+        9240
+      ],
+      "raw_events": 2022,
+      "table_entries": 251,
+      "run_pairs": 2001,
+      "indices_all_in_range": true,
+      "all_multiplicities_positive": true,
+      "source_ordered_expansion_exact": true,
+      "annotation_counts": {
+        "0": 2014,
+        "2": 3,
+        "3": 5
+      }
+    }
+  ],
+  "source_table_proof_terms": {
+    "register_lt736": 363,
+    "not_in16_support": 363,
+    "default_target_proofs": 2,
+    "other_finite_decisions": 0
+  },
+  "kernel_work": "Data tables and run indices only; no full expanded-list decision, rational state replay, sum-count theorem or new stream induction. Invalid table indices are totalized to an explicitly safe default; independent source readback verifies every literal index is in range.",
+  "typed_source_obligation": "Both HasDestinationTrace premises are explicit and must appear in printed theorem types. The source comparison binds the data; it does not itself prove that a supplied typed stream equals the raw bytes.",
+  "open": [
+    "Sixteen entry adapters/eight residual frame4 pre wrappers.",
+    "Label interpretation of the2022-row segment:2014 frame0,3 frame2,5 frame3.",
+    "Residual inverse/hstart, backward88-event dependency and physical/fullword/allsize interpretation."
+  ],
+  "prospective_scope": [
+    4,
+    3,
+    1
+  ],
+  "cached_pairs": 2213,
+  "new_probes": 4,
+  "printed_types": 2,
+  "compiler_runs": 0
+}

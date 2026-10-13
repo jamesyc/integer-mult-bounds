@@ -1,0 +1,64 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW_AND_BINDING",
+  "utc": "2026-10-13T07:21:48.922888+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-scalar-support/Current799ScalarSupport.lean",
+    "sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7",
+    "bytes": 44632
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-scalar-support/SOURCE_WITNESS_BINDING.json",
+    "sha256": "0352db64123376d5193855f0b98ccc9feeda08280df381f58946dcb4815960b0",
+    "bytes": 7351
+  },
+  "import_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_proposal/SOURCE_IMPORT_FOOTPRINT.json",
+    "sha256": "f53979869b5f9225d4ab15079196c7945a3b21208a99c07e5ec31680dd4b38bf",
+    "bytes": 1864863
+  },
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_scalar_support_proposal/LOCAL_CURRENT_INVENTORY.json",
+    "sha256": "ad0d00836b13a57233e22680ca1b72c0c8781002330868a4b295ab813e12cab5",
+    "bytes": 84174
+  },
+  "accepted_generic_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/SCALAR_WRITE_SUPPORT_TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "d4b090d787562a7c5aa19ba6898edd343534cd0f3499bb140fbd9f152c6240e5",
+    "bytes": 6436
+  },
+  "scope": [
+    4,
+    3,
+    1
+  ],
+  "external_pairs": 2213,
+  "all_nodes": 2217,
+  "all_edges": 8327,
+  "new_probes": [
+    "CurrentMain.Current799ScalarSupport.expanded_targets_safe",
+    "CurrentMain.Current799ScalarSupport.interpreted_run_preserves_support",
+    "CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support",
+    "CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support"
+  ],
+  "printed_types": [
+    "@CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support",
+    "@CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support"
+  ],
+  "kernel_scope": {
+    "safe_table_entries": 363,
+    "proof_terms_per_entry": 2,
+    "default_safe_proof_terms": 2,
+    "full_trace_decisions": 0,
+    "state_replay_decisions": 0,
+    "new_stream_inductions": 0
+  },
+  "caps": {
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds": 45,
+    "review_vm_bytes": 3758096384
+  },
+  "authority": "Root2026-10-13 07:12 source-bound witnesses for two separated scalar segments and thin generic application; minimal closure/probes aligned with integration after independent review.",
+  "source_scope": "Current selected799/f567 raw1..6488 and7219..9240; actual first-climb support16, both explicit typed destination traces. Entry adapters and labels remain separate.",
+  "compiler_runs": 0
+}
