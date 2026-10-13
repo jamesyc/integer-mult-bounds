@@ -1,0 +1,1886 @@
+{
+  "external_footprint": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/new_main_binding/pr509_reuse/SOURCE_IMPORT_FOOTPRINT_V2.json",
+    "sha256": "8ab51a655fff02741615eb04281d62a1e18236f773d8bc2c5b599bfddc929b1c",
+    "bytes": 2386951
+  },
+  "runtime_pins": {
+    "binary": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/bin/lean",
+      "sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "bytes": 8992
+    },
+    "runner": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/tools/lean_check.py",
+      "sha256": "b71431bd34bfae67677ad6e8b49207c23ee2ba936c8507202416db4e0af22207",
+      "bytes": 9277
+    },
+    "environment_file": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/LIBRARY_PATHS.env",
+      "sha256": "aa9867a0b325048379038afcf66ac0f8f13353de302b25246406e7c2a8d4d01b",
+      "bytes": 1104
+    },
+    "runtime_manifest": {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/RUNTIME_MANIFEST.json",
+      "sha256": "ab464201c227220435a5f886c70b547d5456da32d5d526b4be077667957724cf",
+      "bytes": 4012
+    }
+  },
+  "external_library_paths": [
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/Qq/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/aesop/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/batteries/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/plausible/.lake/build/lib/lean",
+    "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_VM_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_VM_bytes": 3758096384,
+    "serial_client": true,
+    "shared_slots_used": 1,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "status": "SOURCE_REVIEWED_CURRENT799_NONZERO48_BINDING_REQUIRED",
+  "local_scope": {
+    "modules": 12,
+    "current": 10,
+    "pending": 2
+  },
+  "ordered_pending_roots": [
+    "Current799Nonzero48Data",
+    "Current799Nonzero48Check"
+  ],
+  "pending_sources": [
+    {
+      "module": "Current799Nonzero48Data",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Data.lean",
+        "sha256": "df0c5cfeca513cf516a8ea71ac27b2bc01ef76e7ce14abc87aa8b985484043b8",
+        "bytes": 13490
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_nonzero48/Current799Nonzero48Data.lean",
+      "imports": [
+        "Current799Next32Check"
+      ],
+      "source_object_receipt_log_absent": true
+    },
+    {
+      "module": "Current799Nonzero48Check",
+      "candidate": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/Current799Nonzero48Check.lean",
+        "sha256": "d0cf134511495c06f4d6652f3e8fbad6ebb2cd4a7a083d97204e9184e4085ac4",
+        "bytes": 14170
+      },
+      "destination": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_nonzero48/Current799Nonzero48Check.lean",
+      "imports": [
+        "Current799Nonzero48Data"
+      ],
+      "source_object_receipt_log_absent": true
+    }
+  ],
+  "preserved_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      },
+      "historical_execution_seconds": 6.246807060999345,
+      "historical_queue_seconds": 0.0005243800005700905,
+      "historical_peak_vm_bytes": 3301388288
+    },
+    {
+      "module": "CanonicalFrameCoverage",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.lean",
+        "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+        "bytes": 7771
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+        "sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+        "bytes": 480976
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_coverage45__CanonicalFrameCoverage.lean.json",
+        "sha256": "2996d62427134b270c29ab14853e503cec09ca467b0c34b08f02562991b0cc6d",
+        "bytes": 3515
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_coverage45__CanonicalFrameCoverage.lean.log",
+        "sha256": "8b48ab447b66e61bae4f3e1306ab6743722dc7691f55445d4a8f0d0c54a05bf2",
+        "bytes": 708
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "Current799First33CoverageData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageData.lean",
+        "sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+        "bytes": 14025
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageData.olean",
+        "sha256": "f1bf132802d415b119366a764a36f178dd57cd825aab5a0e6743dc882a8b6333",
+        "bytes": 1567960
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_first33__Current799First33CoverageData.lean.json",
+        "sha256": "1e7729101bc5d430244a36db74a8f1d833aef82efb078d019acf599c2af2f73c",
+        "bytes": 3554
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_first33__Current799First33CoverageData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "CanonicalFrameCoverage": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+          "olean_sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+          "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+        }
+      }
+    },
+    {
+      "module": "Current799First33CoverageCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageCheck.lean",
+        "sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7",
+        "bytes": 11287
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageCheck.olean",
+        "sha256": "120c3e9eb1a4a4322438d94e562a80da09a89102ed4233e4b9c594701275145f",
+        "bytes": 89248
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_first33__Current799First33CoverageCheck.lean.json",
+        "sha256": "67d233f8fb0a59363c3e6eed14bfbeb16d8436f517967504091aaac91676e437",
+        "bytes": 3569
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_first33__Current799First33CoverageCheck.lean.log",
+        "sha256": "050e42315b5a2a244562a6a8f6f57715f0a8bb7ebe693cfe875e431abb058f9b",
+        "bytes": 3985
+      },
+      "receipt_dependencies": {
+        "Current799First33CoverageData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageData.olean",
+          "olean_sha256": "f1bf132802d415b119366a764a36f178dd57cd825aab5a0e6743dc882a8b6333",
+          "source_sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab"
+        }
+      }
+    },
+    {
+      "module": "Current799Next16Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next16/Current799Next16Data.lean",
+        "sha256": "525be9252b00f58efee9fc80ce07b1f9249da9b31982cb3c89e8cef040c18503",
+        "bytes": 2777
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next16/Current799Next16Data.olean",
+        "sha256": "110bedb21762b6d23f2a9a708cd831ec213c2857f3b04d3bcc6b2769857ad922",
+        "bytes": 168328
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_next16__Current799Next16Data.lean.json",
+        "sha256": "4634a520520396f200797df711f35760c6952b009ca0f78fba1439d5badb7fef",
+        "bytes": 3525
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_next16__Current799Next16Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current799First33CoverageCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageCheck.olean",
+          "olean_sha256": "120c3e9eb1a4a4322438d94e562a80da09a89102ed4233e4b9c594701275145f",
+          "source_sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7"
+        }
+      }
+    },
+    {
+      "module": "Current799Next16Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next16/Current799Next16Check.lean",
+        "sha256": "d9ee2a6f92b3c60e136111e26ef1de701351403663a8849545225a139ff16b44",
+        "bytes": 6724
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next16/Current799Next16Check.olean",
+        "sha256": "e3d1f82f4516159bed9364e50e14adc8438bbcf202a203cc4701d3c82ca849b1",
+        "bytes": 71976
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_next16__Current799Next16Check.lean.json",
+        "sha256": "554d0f6b25df786c09cdd6f7e2a11d8bb4c27e8e9d6f91282bcacc2e7ea9bfd6",
+        "bytes": 3509
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_next16__Current799Next16Check.lean.log",
+        "sha256": "7636f70bf8e934de57d0ca854da2f1aec450371c26e72fc3143f69b372e476cf",
+        "bytes": 2268
+      },
+      "receipt_dependencies": {
+        "Current799Next16Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next16/Current799Next16Data.olean",
+          "olean_sha256": "110bedb21762b6d23f2a9a708cd831ec213c2857f3b04d3bcc6b2769857ad922",
+          "source_sha256": "525be9252b00f58efee9fc80ce07b1f9249da9b31982cb3c89e8cef040c18503"
+        }
+      }
+    },
+    {
+      "module": "Current799Next48Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next48/Current799Next48Data.lean",
+        "sha256": "2ec4b675d8ea1deb6cdb29cafb1eb076dfa065a9a921cda9a192f11d5848c3a0",
+        "bytes": 6766
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next48/Current799Next48Data.olean",
+        "sha256": "fca9b91cd4f91a93b41c6bba3db9919912fe1620d6c92d5fb0b4f56af0feaf3c",
+        "bytes": 375152
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_next48__Current799Next48Data.lean.json",
+        "sha256": "d5f5f0ecb8b19542a196de0c66c247c54e12c50ee4254c054820d866d9352cc9",
+        "bytes": 3507
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_next48__Current799Next48Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current799Next16Check": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next16/Current799Next16Check.olean",
+          "olean_sha256": "e3d1f82f4516159bed9364e50e14adc8438bbcf202a203cc4701d3c82ca849b1",
+          "source_sha256": "d9ee2a6f92b3c60e136111e26ef1de701351403663a8849545225a139ff16b44"
+        }
+      }
+    },
+    {
+      "module": "Current799Next48Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next48/Current799Next48Check.lean",
+        "sha256": "954512cf7f29a02dac54cc25800d3e4d0ab65cdd3a148797f0684099854d6486",
+        "bytes": 12569
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next48/Current799Next48Check.olean",
+        "sha256": "d0ab2b8e186807dbd8ed3943177e2956f8e82f274c3bf0130915d1b7a1b00ae9",
+        "bytes": 97112
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_next48__Current799Next48Check.lean.json",
+        "sha256": "2f53b8b8525ac23125c0ec472e0f7e31124744ed722c3c58003ffcb7d245d443",
+        "bytes": 3512
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_next48__Current799Next48Check.lean.log",
+        "sha256": "1ba2dae913a98dc2b3b349039cc082825636bcff0d535ad0783c8bdf47461100",
+        "bytes": 3989
+      },
+      "receipt_dependencies": {
+        "Current799Next48Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next48/Current799Next48Data.olean",
+          "olean_sha256": "fca9b91cd4f91a93b41c6bba3db9919912fe1620d6c92d5fb0b4f56af0feaf3c",
+          "source_sha256": "2ec4b675d8ea1deb6cdb29cafb1eb076dfa065a9a921cda9a192f11d5848c3a0"
+        }
+      }
+    },
+    {
+      "module": "Current799Next32Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next32/Current799Next32Data.lean",
+        "sha256": "0f03e77e33e11d96f8f758a16eae82dbfb5eadcb4c521a3984877d1b51e3ff74",
+        "bytes": 5351
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next32/Current799Next32Data.olean",
+        "sha256": "b41680dfc41ade8f6d1ddb11048c4654132ec83161210119db6911c4972fc6ba",
+        "bytes": 317888
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_next32__Current799Next32Data.lean.json",
+        "sha256": "af851baf8640ab3fcce4144cd8d628a9a0838476ffec17917862462e68cdfa87",
+        "bytes": 3518
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_next32__Current799Next32Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current799Next48Check": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next48/Current799Next48Check.olean",
+          "olean_sha256": "d0ab2b8e186807dbd8ed3943177e2956f8e82f274c3bf0130915d1b7a1b00ae9",
+          "source_sha256": "954512cf7f29a02dac54cc25800d3e4d0ab65cdd3a148797f0684099854d6486"
+        }
+      }
+    },
+    {
+      "module": "Current799Next32Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next32/Current799Next32Check.lean",
+        "sha256": "64f7ea533e448903e1f631cbe9784215609c7c0e9a1ff93a6b30ded3c443022d",
+        "bytes": 13234
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next32/Current799Next32Check.olean",
+        "sha256": "bd6ee6041793653616a0e40bf3f0fac0e89eb6af4d2a7c19de414f596f4ed0af",
+        "bytes": 98056
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_next32__Current799Next32Check.lean.json",
+        "sha256": "d3c1c37aa9377b402d8585d4ce2c4bceac8fd3686f4ce704a8580ec91e912419",
+        "bytes": 3515
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_next32__Current799Next32Check.lean.log",
+        "sha256": "f33898d43574f305ab85ae99030380bb8680bd7033b68d2d3958a9e8fadf7fc0",
+        "bytes": 4012
+      },
+      "receipt_dependencies": {
+        "Current799Next32Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_next32/Current799Next32Data.olean",
+          "olean_sha256": "b41680dfc41ade8f6d1ddb11048c4654132ec83161210119db6911c4972fc6ba",
+          "source_sha256": "0f03e77e33e11d96f8f758a16eae82dbfb5eadcb4c521a3984877d1b51e3ff74"
+        }
+      }
+    },
+    {
+      "module": "F19CoverageStatement",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.lean",
+        "sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58",
+        "bytes": 6854
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+        "sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+        "bytes": 363832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.json",
+        "sha256": "f8dde87d974d62ba82aa7ebf63ba6fcfd2a21d03e0d5715f391774458ae139de",
+        "bytes": 3493
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoverageStatement.lean.log",
+        "sha256": "ad9b5a3aea4bcad7a4bc034a1d631323fdb8bbfa89153f8936ca4a3c7e421ea1",
+        "bytes": 254
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "F19ScalarEventInterpretation",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.lean",
+        "sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0",
+        "bytes": 5497
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.olean",
+        "sha256": "8581266bc5f8218adf9827e9ed18b656ed1556ec6316adeba82796516cf7bf40",
+        "bytes": 303304
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__f19_scalar_event__F19ScalarEventInterpretation.lean.json",
+        "sha256": "a43f00e83bc4e4ad15aa1927972dc28049654c2ad58d5dcefe7a46448c40d603",
+        "bytes": 3865
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__f19_scalar_event__F19ScalarEventInterpretation.lean.log",
+        "sha256": "73653db3b7460ea4763de906c5f25ace3879964373150b992fda97f9f5c472b3",
+        "bytes": 7154
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        },
+        "Mathlib.Algebra.Field.Rat": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Field/Rat.olean",
+          "olean_sha256": "0fec4f04bc6e8fa811a837e20c61b234134eeb9aed118b972d515eeceb415732"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.lean",
+        "sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395",
+        "bytes": 82366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+        "sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+        "bytes": 7177224
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.json",
+        "sha256": "e44a6ae95ba4d27b08d0c0a8180a76c455e4683f727bcada009448fcf06761d2",
+        "bytes": 3513
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "F19CoverageStatement": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoverageStatement.olean",
+          "olean_sha256": "baefcfccf7087d6d1722056ea8aa6f50ee83cefec167fadc60f109c6bf7084fb",
+          "source_sha256": "b4f932375b7f4b40c3428cff7d018418b0b245167f0c6280112fb3a174909d58"
+        }
+      }
+    },
+    {
+      "module": "F19CoveragePilotCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.lean",
+        "sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4",
+        "bytes": 1316
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.olean",
+        "sha256": "42a79ef3a064316b3dc9f16136315ff54e111987c07f37d6fd9609c0b1ac315a",
+        "bytes": 42576
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.json",
+        "sha256": "5a1673a7962c881e5a840900abf3291d91430c6a6348de2a055d266e75eae4df",
+        "bytes": 3517
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__f19_coverage_pilot__F19CoveragePilotCheck.lean.log",
+        "sha256": "77e4fbe3c285cf8da16b49122eca9f4c240557947218563465093e3e9be7e197",
+        "bytes": 294
+      },
+      "receipt_dependencies": {
+        "F19CoveragePilotData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotData.olean",
+          "olean_sha256": "420f0a27add8658b86927a61ac5f04a3528252653a59a71a08ad803a5b80e4a0",
+          "source_sha256": "7826ef39ca0251dd94199f70b9866573b6b301075f6cafbcd3af3ed7b1753395"
+        }
+      }
+    },
+    {
+      "module": "F19ScalarPilotComposition",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_pilot/F19ScalarPilotComposition.lean",
+        "sha256": "63fdeffaf0d1ead7571fb66074f75a0e49f593cea6891cc15c1caeb416d90c1e",
+        "bytes": 7108
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_pilot/F19ScalarPilotComposition.olean",
+        "sha256": "2289136b1f9a10ed153f0b99855575b1b1d29b509cb29984f7417fc50853a541",
+        "bytes": 218648
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__f19_scalar_pilot__F19ScalarPilotComposition.lean.json",
+        "sha256": "fe27fbc6fe0aafc2caa2d54df28a9ae6bf0b242c93da3bdf51074567d34fd9e1",
+        "bytes": 3967
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__f19_scalar_pilot__F19ScalarPilotComposition.lean.log",
+        "sha256": "fcbdee845c3eacc4be703acdfca6dc593b8755acbd11a6115ce654fc47cf648e",
+        "bytes": 3758
+      },
+      "receipt_dependencies": {
+        "F19ScalarEventInterpretation": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_event/F19ScalarEventInterpretation.olean",
+          "olean_sha256": "8581266bc5f8218adf9827e9ed18b656ed1556ec6316adeba82796516cf7bf40",
+          "source_sha256": "c54c37421913ca2d00400d7ccefd17f464462a39ab2b96763dfcef7663d758f0"
+        },
+        "F19CoveragePilotCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/f19_coverage_pilot/F19CoveragePilotCheck.olean",
+          "olean_sha256": "42a79ef3a064316b3dc9f16136315ff54e111987c07f37d6fd9609c0b1ac315a",
+          "source_sha256": "944b2162f83f5dc7428dd0d85ffb143a3088c50f9ac4665f1df866601fd3aff4"
+        }
+      }
+    },
+    {
+      "module": "F19CentreBandIndependence",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_centre_band/F19CentreBandIndependence.lean",
+        "sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279",
+        "bytes": 35713
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_centre_band/F19CentreBandIndependence.olean",
+        "sha256": "842c3e455781da140f70893231e9372d7814f8936e80643eb8bcf3d0941f9e6e",
+        "bytes": 2023752
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__f19_centre_band__F19CentreBandIndependence.lean.json",
+        "sha256": "38d8d70955576e3caa474288a9ccca5726a8d5aa087a3c826f31831fb1139de8",
+        "bytes": 3556
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__f19_centre_band__F19CentreBandIndependence.lean.log",
+        "sha256": "455d861ec545d48acc3df11f98d80d5557cb89c94e5cba6f5377b61a0c3418fb",
+        "bytes": 1250
+      },
+      "receipt_dependencies": {
+        "F19ScalarPilotComposition": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_scalar_pilot/F19ScalarPilotComposition.olean",
+          "olean_sha256": "2289136b1f9a10ed153f0b99855575b1b1d29b509cb29984f7417fc50853a541",
+          "source_sha256": "63fdeffaf0d1ead7571fb66074f75a0e49f593cea6891cc15c1caeb416d90c1e"
+        }
+      }
+    },
+    {
+      "module": "CurrentScalarCentreBand",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_centre_band/CurrentScalarCentreBand.lean",
+        "sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d",
+        "bytes": 37670
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_centre_band/CurrentScalarCentreBand.olean",
+        "sha256": "156b18ad3b3864f382e30f0b8cba246daa03ec1aded0bcba9166da499bf9d595",
+        "bytes": 2004856
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current_centre_band__CurrentScalarCentreBand.lean.json",
+        "sha256": "07a4e2a3d2f8c82c653235544b74bcd572ba990bed49afc06a8089e2ba115ad7",
+        "bytes": 3968
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current_centre_band__CurrentScalarCentreBand.lean.log",
+        "sha256": "aca696aba1000f57f3a2df0664cac9ef28b094c939905b2ead9710dbf4744936",
+        "bytes": 7521
+      },
+      "receipt_dependencies": {
+        "F19CentreBandIndependence": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/f19_centre_band/F19CentreBandIndependence.olean",
+          "olean_sha256": "842c3e455781da140f70893231e9372d7814f8936e80643eb8bcf3d0941f9e6e",
+          "source_sha256": "6849d413e6fe9b111b523ff7ce671ca383e4bf7ac9f894e0ffe702d04b6a9279"
+        },
+        "CanonicalFrameCoverage": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+          "olean_sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+          "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+        }
+      }
+    },
+    {
+      "module": "Current535CoverageData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageData.lean",
+        "sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2",
+        "bytes": 75035
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageData.olean",
+        "sha256": "538b54cf9551929102fcb1b45aa19a6e274fcf2ee3969a0b73bfbb0095b7e3f9",
+        "bytes": 6829544
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_coverage45__Current535CoverageData.lean.json",
+        "sha256": "26593815670e2fdb474df1ea163f338ae794b43e33b833c0890751ee4a7d8e6c",
+        "bytes": 3542
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_coverage45__Current535CoverageData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "CanonicalFrameCoverage": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+          "olean_sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+          "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+        }
+      }
+    },
+    {
+      "module": "Current535CoverageCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.lean",
+        "sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61",
+        "bytes": 10366
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.olean",
+        "sha256": "eb2e8670748aebc79aaf11bfc10b024bc712182d17ac67ab6723b0405695f5fa",
+        "bytes": 89232
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_coverage45__Current535CoverageCheck.lean.json",
+        "sha256": "738ede8b9b25532e83814917c96423bfb27ed84e40ea7c1cd70625b43d026a99",
+        "bytes": 3547
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_coverage45__Current535CoverageCheck.lean.log",
+        "sha256": "04fa90dfad2080145a97d59088ef513a93e9390e851abe0f4e732624a0f36dec",
+        "bytes": 3839
+      },
+      "receipt_dependencies": {
+        "Current535CoverageData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageData.olean",
+          "olean_sha256": "538b54cf9551929102fcb1b45aa19a6e274fcf2ee3969a0b73bfbb0095b7e3f9",
+          "source_sha256": "5e2203e202b79b0b0aca3d9edafcb7237c63837df7be60ffd21a985fbc3503a2"
+        }
+      }
+    },
+    {
+      "module": "CurrentCheckedScalarRows",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.lean",
+        "sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037",
+        "bytes": 8397
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.olean",
+        "sha256": "0fc9de0270dc394685d8acdf338e1c290181ccea992803a695545e0150f9fd89",
+        "bytes": 234448
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current_checked_rows__CurrentCheckedScalarRows.lean.json",
+        "sha256": "8184412fc1040801efe8c2e242669d9cb71aa2737e1dbf55c22596186313fbec",
+        "bytes": 3975
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current_checked_rows__CurrentCheckedScalarRows.lean.log",
+        "sha256": "702eafebf113aa53b13a828d9d0abae03801c3648a571e164c7a9ad372ac2fe6",
+        "bytes": 3914
+      },
+      "receipt_dependencies": {
+        "CurrentScalarCentreBand": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_centre_band/CurrentScalarCentreBand.olean",
+          "olean_sha256": "156b18ad3b3864f382e30f0b8cba246daa03ec1aded0bcba9166da499bf9d595",
+          "source_sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d"
+        },
+        "Current535CoverageCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.olean",
+          "olean_sha256": "eb2e8670748aebc79aaf11bfc10b024bc712182d17ac67ab6723b0405695f5fa",
+          "source_sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+        }
+      }
+    },
+    {
+      "module": "Current799First33KeyRestriction",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33_keys/Current799First33KeyRestriction.lean",
+        "sha256": "fc22e6ed14562b9542b12674b0f0ac85055e5c3e3d70693bae9bbb914a3e48a3",
+        "bytes": 7078
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33_keys/Current799First33KeyRestriction.olean",
+        "sha256": "0953fe83efa46c36681f77a8fb994da3f4510be6ad9ded396bc5494e5a38d0ec",
+        "bytes": 335696
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current799_first33_keys__Current799First33KeyRestriction.lean.json",
+        "sha256": "dfac7005d7d47845ac3209d0a739416ab21a462db6351c6dba3b46f594793d3a",
+        "bytes": 4009
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current799_first33_keys__Current799First33KeyRestriction.lean.log",
+        "sha256": "a62fae275a04d45de0e441c8e036bfc4721c062aff3c16783c4baf686845b752",
+        "bytes": 506
+      },
+      "receipt_dependencies": {
+        "CurrentCheckedScalarRows": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.olean",
+          "olean_sha256": "0fc9de0270dc394685d8acdf338e1c290181ccea992803a695545e0150f9fd89",
+          "source_sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037"
+        },
+        "Current799First33CoverageCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current799_first33/Current799First33CoverageCheck.olean",
+          "olean_sha256": "120c3e9eb1a4a4322438d94e562a80da09a89102ed4233e4b9c594701275145f",
+          "source_sha256": "a8b82012388f66984725060735bdd83560713002f16b58a470a4f64bf8f200d7"
+        }
+      }
+    },
+    {
+      "module": "Current9594CKCentre",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current9594_ck_centre/Current9594CKCentre.lean",
+        "sha256": "281f86b189d92d203d4ad95e9186bb959c574049be48c227aef5c6eb266e8e0e",
+        "bytes": 34363
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current9594_ck_centre/Current9594CKCentre.olean",
+        "sha256": "5501eddd0e46f535833d4c635f00fc5fa55a41cbcb81af87895dafa9f84121e0",
+        "bytes": 1712944
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current9594_ck_centre__Current9594CKCentre.lean.json",
+        "sha256": "ab6c8dc40b9be57fd39a8bfa181ddd972793be26cccfc15c6290f64df5b0bd18",
+        "bytes": 3561
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current9594_ck_centre__Current9594CKCentre.lean.log",
+        "sha256": "bb1bdc5fa085d87bbf59336f8d15e98336349aa2bcf322b52e36c1edc4a8837b",
+        "bytes": 1040
+      },
+      "receipt_dependencies": {
+        "CurrentScalarCentreBand": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_centre_band/CurrentScalarCentreBand.olean",
+          "olean_sha256": "156b18ad3b3864f382e30f0b8cba246daa03ec1aded0bcba9166da499bf9d595",
+          "source_sha256": "1d280786209f440ff43bd834ba301a8fea2baca34b2fa56d6f2db065b75d195d"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.Current9594CKCentre.raw_run_congr_events",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.forward_scalar_events",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.backward_scalar_events",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.forward_run_eq",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.backward_run_eq",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.forward_independent",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.forward_interpreted",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.backward_independent",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.backward_interpreted",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current9594CKCentre.exact_source_indices",
+          "axioms": [
+            "propext"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current596CKCentre",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_ck_centre/Current596CKCentre.lean",
+        "sha256": "c63e7f84a5a1a5de474e018416e083ff1993f8c79647604c51b026ad4903d4ee",
+        "bytes": 8763
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_ck_centre/Current596CKCentre.olean",
+        "sha256": "2b9faf96aec709fa0bfbb42b33d2a52b6c1cf0b3811e63975d785baaf84173fe",
+        "bytes": 293616
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current596_ck_centre__Current596CKCentre.lean.json",
+        "sha256": "f1ba80f73c6410619074cc063bd9c03637b2d2e5a18dfe28ca65411d83bb83d0",
+        "bytes": 3544
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current596_ck_centre__Current596CKCentre.lean.log",
+        "sha256": "08bf906efb65bb481db0c84c35f59f43b5dfd734584efffa5ee83bd8a294c660",
+        "bytes": 1353
+      },
+      "receipt_dependencies": {
+        "Current9594CKCentre": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current9594_ck_centre/Current9594CKCentre.olean",
+          "olean_sha256": "5501eddd0e46f535833d4c635f00fc5fa55a41cbcb81af87895dafa9f84121e0",
+          "source_sha256": "281f86b189d92d203d4ad95e9186bb959c574049be48c227aef5c6eb266e8e0e"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.FrameDomainTransport.decodeEvent_map",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.FrameDomainTransport.decodeRows_map",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.FrameDomainTransport.projectRows_map",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.FrameDomainTransport.rawRowsRun_map",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.FrameDomainTransport.decoded_map_run",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.embed_value",
+          "axioms": []
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.exact_source_indices",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.forward_run_eq",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.backward_run_eq",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.forward_independent",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.backward_independent",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.forward_interpreted",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current596CKCentre.backward_interpreted",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current9594CKCoverageData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageData.lean",
+        "sha256": "a5cee682d3b8027a9a5cdece5d0048a7c0181ea322d1e8ea9bc69282d904cf7a",
+        "bytes": 76498
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageData.olean",
+        "sha256": "daed1b108817099a865e36a11105f6903fc78c6dca366cc4a1e2392816d27ad8",
+        "bytes": 7006776
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current9594_ck33__Current9594CKCoverageData.lean.json",
+        "sha256": "9f7781e0c42824f431fd1602ca661a20e4db60e955c72fef10182de60a15e90f",
+        "bytes": 3531
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current9594_ck33__Current9594CKCoverageData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "CanonicalFrameCoverage": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.olean",
+          "olean_sha256": "be56d12b2761b5c4bc6180dc0eeae77a165a43a120ef9f09d1d58a30eafde3be",
+          "source_sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27"
+        }
+      }
+    },
+    {
+      "module": "Current9594CKCoverageCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageCheck.lean",
+        "sha256": "bf34d2d1e4c2ae402ea24e0ca7d3f38cb61c9880a22666534ec49626f1623471",
+        "bytes": 10720
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageCheck.olean",
+        "sha256": "730d78941f0aa834390bbe3b930073441acb07d9bfa1c8c6d755b5eb5492fb55",
+        "bytes": 89248
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current9594_ck33__Current9594CKCoverageCheck.lean.json",
+        "sha256": "14d13c595a2eb73a0ccd8afb80c21c1cf9f31aa12dca1046a559a18c64526504",
+        "bytes": 3536
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current9594_ck33__Current9594CKCoverageCheck.lean.log",
+        "sha256": "29d951b32e40dc28d6ae4965051bc45f5e0c5822446eaceea895910f85c61473",
+        "bytes": 3947
+      },
+      "receipt_dependencies": {
+        "Current9594CKCoverageData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageData.olean",
+          "olean_sha256": "daed1b108817099a865e36a11105f6903fc78c6dca366cc4a1e2392816d27ad8",
+          "source_sha256": "a5cee682d3b8027a9a5cdece5d0048a7c0181ea322d1e8ea9bc69282d904cf7a"
+        }
+      }
+    },
+    {
+      "module": "Current9594CKFirst33KeyRestriction",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33_keys/Current9594CKFirst33KeyRestriction.lean",
+        "sha256": "6c5cff1f423448c3c7ce6fe6abd35536b60925143182acb5e6464aff0379241f",
+        "bytes": 6990
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33_keys/Current9594CKFirst33KeyRestriction.olean",
+        "sha256": "c48cdc2fd8cd623dc737db78c4f205b1361b0e2b7f3e73c2f454840ac11f0f5b",
+        "bytes": 335680
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current9594_ck33_keys__Current9594CKFirst33KeyRestriction.lean.json",
+        "sha256": "a2a089db2baee5e800dedb279c3f4f8741e499e1d2774c1c29b95042a52e95f4",
+        "bytes": 3998
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current9594_ck33_keys__Current9594CKFirst33KeyRestriction.lean.log",
+        "sha256": "0df722a751e5aa98488bb39007e387fa64033c6ad7dca867b19a32598fb6e8a0",
+        "bytes": 518
+      },
+      "receipt_dependencies": {
+        "CurrentCheckedScalarRows": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.olean",
+          "olean_sha256": "0fc9de0270dc394685d8acdf338e1c290181ccea992803a695545e0150f9fd89",
+          "source_sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037"
+        },
+        "Current9594CKCoverageCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33/Current9594CKCoverageCheck.olean",
+          "olean_sha256": "730d78941f0aa834390bbe3b930073441acb07d9bfa1c8c6d755b5eb5492fb55",
+          "source_sha256": "bf34d2d1e4c2ae402ea24e0ca7d3f38cb61c9880a22666534ec49626f1623471"
+        }
+      }
+    },
+    {
+      "module": "Current596CKFirst33Transport",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current596_ck_first33_transport/Current596CKFirst33Transport.lean",
+        "sha256": "60b9429e37ef8475645c0e8feb22dd03bf41102003c5d56219dd7ae0fa610239",
+        "bytes": 6360
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current596_ck_first33_transport/Current596CKFirst33Transport.olean",
+        "sha256": "78ef8482122ff70a9c8bea0af386f6c82f4d99d266662af46eba7b1d7024ad1c",
+        "bytes": 159384
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current596_ck_first33_transport__Current596CKFirst33Transport.lean.json",
+        "sha256": "c5391eb08e2757efbed79a0115c7578a87e2407f9a8976c3f066fe5a7000fb48",
+        "bytes": 4032
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current596_ck_first33_transport__Current596CKFirst33Transport.lean.log",
+        "sha256": "0efcfcd0b7be4b261a290086e9d2126ac67e814ffee23ae37a7deea9252f8efc",
+        "bytes": 999
+      },
+      "receipt_dependencies": {
+        "Current596CKCentre": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current596_ck_centre/Current596CKCentre.olean",
+          "olean_sha256": "2b9faf96aec709fa0bfbb42b33d2a52b6c1cf0b3811e63975d785baaf84173fe",
+          "source_sha256": "c63e7f84a5a1a5de474e018416e083ff1993f8c79647604c51b026ad4903d4ee"
+        },
+        "Current9594CKFirst33KeyRestriction": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current9594_ck33_keys/Current9594CKFirst33KeyRestriction.olean",
+          "olean_sha256": "c48cdc2fd8cd623dc737db78c4f205b1361b0e2b7f3e73c2f454840ac11f0f5b",
+          "source_sha256": "6c5cff1f423448c3c7ce6fe6abd35536b60925143182acb5e6464aff0379241f"
+        }
+      }
+    },
+    {
+      "module": "Current535Child003Data",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Data.lean",
+        "sha256": "f27e814ff9c910eab44b4ebc3f63594feda813a648fdf2a667172cfcfff56d50",
+        "bytes": 5707
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Data.olean",
+        "sha256": "9724e1f09b716c32a7ab1b25b250a683246b9424a6d68c1b9018a305a25b558d",
+        "bytes": 320240
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_child003__Current535Child003Data.lean.json",
+        "sha256": "773958dac459b200ef54f91528084f99a3662dbaf696470e6dfaae4c85bc3a6e",
+        "bytes": 3532
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_child003__Current535Child003Data.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current535CoverageCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/Current535CoverageCheck.olean",
+          "olean_sha256": "eb2e8670748aebc79aaf11bfc10b024bc712182d17ac67ab6723b0405695f5fa",
+          "source_sha256": "da3cdf5b757f5afa95dedebabd9d6623b5934c01122784bdb06c6e95cc1ebf61"
+        }
+      }
+    },
+    {
+      "module": "Current535Child003Check",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Check.lean",
+        "sha256": "a3c891309d556436a6397934527d2615bbb2050daf9a50c95dd64d8b9d67509c",
+        "bytes": 12346
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Check.olean",
+        "sha256": "8e0b20a25def403e427596caa3bd2b64efc65c89a19d449d95935bded69111da",
+        "bytes": 96712
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_child003__Current535Child003Check.lean.json",
+        "sha256": "51b13beeee3a047b4c6eb207494d61686105c3d1a413a039843d979d65580a3b",
+        "bytes": 3534
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_child003__Current535Child003Check.lean.log",
+        "sha256": "bc28bfc5eb807684ec4c046d22ed5359fd53aa54cf84a1feccb34e72d46a0385",
+        "bytes": 4167
+      },
+      "receipt_dependencies": {
+        "Current535Child003Data": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Data.olean",
+          "olean_sha256": "9724e1f09b716c32a7ab1b25b250a683246b9424a6d68c1b9018a305a25b558d",
+          "source_sha256": "f27e814ff9c910eab44b4ebc3f63594feda813a648fdf2a667172cfcfff56d50"
+        }
+      }
+    },
+    {
+      "module": "Current535TwoKeyData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyData.lean",
+        "sha256": "5a2716bb8c48fbd691b0cd03457cfc5e2e1be126c49f2e86922a42de74aa43fc",
+        "bytes": 11069
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyData.olean",
+        "sha256": "cc54251189cfe084e888ab3cd95c2b160a6b355997f835e298a9903bf32e5e8d",
+        "bytes": 539656
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_two_key__Current535TwoKeyData.lean.json",
+        "sha256": "d4d4b88da5369a32d057797fa7e282ef6bd76bcae0ab83a33ffff366cd85b096",
+        "bytes": 3518
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_two_key__Current535TwoKeyData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current535Child003Check": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_child003/Current535Child003Check.olean",
+          "olean_sha256": "8e0b20a25def403e427596caa3bd2b64efc65c89a19d449d95935bded69111da",
+          "source_sha256": "a3c891309d556436a6397934527d2615bbb2050daf9a50c95dd64d8b9d67509c"
+        }
+      }
+    },
+    {
+      "module": "Current535TwoKeyCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyCheck.lean",
+        "sha256": "9eef1b649e1dad07b2ee26ff44ce9973f236f2f771af69bf1772b2ba6100ef54",
+        "bytes": 25721
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyCheck.olean",
+        "sha256": "7efdbae5eb50a401a347f0a319d990a12a4b03854db73ade1f445ab2abe3186d",
+        "bytes": 150312
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_two_key__Current535TwoKeyCheck.lean.json",
+        "sha256": "75cc932a9a7b1dc10e2c516fb1a7cbe2864be32b1447452175aa5225a5994b61",
+        "bytes": 3516
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_two_key__Current535TwoKeyCheck.lean.log",
+        "sha256": "0e8c40688ecb1263d9f397a9b647173f919343116c5fa54392324bc9e1ead23b",
+        "bytes": 7855
+      },
+      "receipt_dependencies": {
+        "Current535TwoKeyData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyData.olean",
+          "olean_sha256": "cc54251189cfe084e888ab3cd95c2b160a6b355997f835e298a9903bf32e5e8d",
+          "source_sha256": "5a2716bb8c48fbd691b0cd03457cfc5e2e1be126c49f2e86922a42de74aa43fc"
+        }
+      }
+    },
+    {
+      "module": "Current535EntranceBandData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_entrance_band/Current535EntranceBandData.lean",
+        "sha256": "1d9a4cffdf687c83d930490204c7c9857aefea076107b698ee1f61f0fd1a6618",
+        "bytes": 4721
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_entrance_band/Current535EntranceBandData.olean",
+        "sha256": "1655d78ffe7a6235f1c0d1c15e97fe84d23ee7babe844fa0472710ba2d1e64f2",
+        "bytes": 339896
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_entrance_band__Current535EntranceBandData.lean.json",
+        "sha256": "e03e8018e02bb78a5cf2ed9f614ccb1b51499655279efa16b13d6b4218865cdf",
+        "bytes": 3567
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_entrance_band__Current535EntranceBandData.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Current535TwoKeyCheck": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_two_key/Current535TwoKeyCheck.olean",
+          "olean_sha256": "7efdbae5eb50a401a347f0a319d990a12a4b03854db73ade1f445ab2abe3186d",
+          "source_sha256": "9eef1b649e1dad07b2ee26ff44ce9973f236f2f771af69bf1772b2ba6100ef54"
+        }
+      }
+    },
+    {
+      "module": "Current535EntranceBandCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_entrance_band/Current535EntranceBandCheck.lean",
+        "sha256": "f2eb32edfa93f16b8155b317fe9fb52cf047d54ce921c5d2c158a4f546f737c0",
+        "bytes": 14607
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_entrance_band/Current535EntranceBandCheck.olean",
+        "sha256": "65166de52a32e30c6488f8f586001718d5f04197bae6c993b42e032dae209ca7",
+        "bytes": 98144
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_entrance_band__Current535EntranceBandCheck.lean.json",
+        "sha256": "f0d90705f845f520f992dc2eb514792e86b2303701515daf8ea6c578c653d429",
+        "bytes": 3588
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_entrance_band__Current535EntranceBandCheck.lean.log",
+        "sha256": "5e5f207bb2d6c75bd3999015429ca64090773019b49f2d2fb49b0a155cddfcfd",
+        "bytes": 4340
+      },
+      "receipt_dependencies": {
+        "Current535EntranceBandData": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_entrance_band/Current535EntranceBandData.olean",
+          "olean_sha256": "1655d78ffe7a6235f1c0d1c15e97fe84d23ee7babe844fa0472710ba2d1e64f2",
+          "source_sha256": "1d9a4cffdf687c83d930490204c7c9857aefea076107b698ee1f61f0fd1a6618"
+        }
+      }
+    },
+    {
+      "module": "Current535First45KeyRestriction",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_first45_keys/Current535First45KeyRestriction.lean",
+        "sha256": "cd879d38afa254da1ed980da38070d1b8e0c6b284b53681b374d6f75d83f4de8",
+        "bytes": 6849
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_first45_keys/Current535First45KeyRestriction.olean",
+        "sha256": "ec64d4caa2e4bc31072c2c4e6f3e30580b3460b17d5747429dafa9a32f860026",
+        "bytes": 380824
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__current535_first45_keys__Current535First45KeyRestriction.lean.json",
+        "sha256": "553d1330d5b14b1ea22b3651f034e2d64cc56622515141bcff446536e462c8bb",
+        "bytes": 3598
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__current535_first45_keys__Current535First45KeyRestriction.lean.log",
+        "sha256": "8dc0706cb8817f6c15b9aa14f323fff0a8effa50aa8ab44d0e66eef3affccef4",
+        "bytes": 506
+      },
+      "receipt_dependencies": {
+        "CurrentCheckedScalarRows": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current_checked_rows/CurrentCheckedScalarRows.olean",
+          "olean_sha256": "0fc9de0270dc394685d8acdf338e1c290181ccea992803a695545e0150f9fd89",
+          "source_sha256": "1e750079cb8dfe1d00ddb29367aeefbc41846eeafbb7b57383becb431aa12037"
+        }
+      }
+    }
+  ],
+  "current_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_nonzero48/SOURCE_CURRENT_INVENTORY.json",
+    "sha256": "3eb7fda9eb342203746b813d80252e2ed4d57ed96e566a046549121fbe285274",
+    "bytes": 72642
+  },
+  "expected_probes": {
+    "Current799Nonzero48Data": [],
+    "Current799Nonzero48Check": [
+      "CurrentMain.Current799Nonzero48Check.catalog_prefix_shape",
+      "CurrentMain.Current799Nonzero48Check.exact_source_indices",
+      "CurrentMain.Current799Nonzero48Check.forward_H_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_H_children_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_H_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_H_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.forward_support153",
+      "CurrentMain.Current799Nonzero48Check.forward_touched153",
+      "CurrentMain.Current799Nonzero48Check.forward_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_wellLabelled153",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.forward_I_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_I_children_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_I_checked",
+      "CurrentMain.Current799Nonzero48Check.forward_I_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.forward_support177",
+      "CurrentMain.Current799Nonzero48Check.forward_touched177",
+      "CurrentMain.Current799Nonzero48Check.forward_checkpoint177",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_wellLabelled177",
+      "CurrentMain.Current799Nonzero48Check.forward_composed_checkpoint177",
+      "CurrentMain.Current799Nonzero48Check.backward_H_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_H_children_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_H_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_H_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.backward_support153",
+      "CurrentMain.Current799Nonzero48Check.backward_touched153",
+      "CurrentMain.Current799Nonzero48Check.backward_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_wellLabelled153",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_checkpoint153",
+      "CurrentMain.Current799Nonzero48Check.backward_I_labels_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_I_children_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_I_checked",
+      "CurrentMain.Current799Nonzero48Check.backward_I_wellLabelled",
+      "CurrentMain.Current799Nonzero48Check.backward_support177",
+      "CurrentMain.Current799Nonzero48Check.backward_touched177",
+      "CurrentMain.Current799Nonzero48Check.backward_checkpoint177",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_wellLabelled177",
+      "CurrentMain.Current799Nonzero48Check.backward_composed_checkpoint177"
+    ]
+  },
+  "source_provenance": {
+    "SOURCE_SCOPE.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/SOURCE_SCOPE.json",
+      "sha256": "c85f0da7cb7a1649ea3b35a32fcaae2e8e8d1853c812621195520aea759fd2bc",
+      "bytes": 11397
+    },
+    "prepare_source.py": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/prepare_source.py",
+      "sha256": "2920f982264ea97413a29c74ed62912956d1d7181b94ab8d771f9c30a0a6b734",
+      "bytes": 12493
+    },
+    "LITERAL_PROJECTION.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/LITERAL_PROJECTION.json",
+      "sha256": "3a6354c8a76a16ffbc723aa62377ec3091922fd388475d489bca6cb8925c441a",
+      "bytes": 92001
+    },
+    "DELIMITER_ADVISORY.json": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-nonzero48/DELIMITER_ADVISORY.json",
+      "sha256": "51078b50bc25bc64cbe485ffcceeac3b7e8524127fc4523572d54df3c17b52d6",
+      "bytes": 2286
+    },
+    "prior_129_acceptance": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next32_check/ACCEPTANCE.json",
+      "sha256": "5368f7bb777893ab6b9b35c9cc2843bd0eaf5490032d9dc83ca893f3c161d090",
+      "bytes": 88107
+    },
+    "prior_129_terminal": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-next32/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "4d24a24c9f470ac1e3b7baa83fb7719f5cc0508ef81b766fcf0c12680fd1034a",
+      "bytes": 10464
+    },
+    "current_artifact_verification": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+      "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+      "bytes": 21245
+    },
+    "science": {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-nonzero48/SCIENTIFIC_SOURCE_REVIEW.json",
+      "sha256": "f8dc156a7903dea93c54ebddc3d679cc8af3cba61ff4ad94338fb0813dd22f84",
+      "bytes": 8083
+    },
+    "raw_input_0": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "bytes": 208661
+    },
+    "raw_input_1": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CLIFFORD-RECIPES.json",
+      "sha256": "20dddfce0ded7e41dc507939df7297bd98aec1286e05d7dbf18000d57e69a0b7",
+      "bytes": 994364
+    },
+    "raw_input_2": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "bytes": 83939
+    }
+  },
+  "source_model": "Accepted factorization, checkRows soundness, multivalue sparse_checkpoint and append laws. No prefix replay, new generic induction or table-wide decisions.",
+  "data_scope": {
+    "raw_zero_based_inclusive": [
+      9370,
+      9417
+    ],
+    "new_rows_each": 48,
+    "chunk_lengths": [
+      24,
+      24
+    ],
+    "histogram_each": {
+      "ADD": 28,
+      "SCALE": 4,
+      "relabel": 16
+    },
+    "child_ordinals": [
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      342,
+      343,
+      345,
+      348,
+      351,
+      352
+    ],
+    "directed_key_ranks": [
+      [
+        9,
+        17,
+        1
+      ],
+      [
+        9,
+        18,
+        1
+      ],
+      [
+        9,
+        19,
+        1
+      ],
+      [
+        10,
+        20,
+        1
+      ],
+      [
+        10,
+        21,
+        1
+      ],
+      [
+        10,
+        22,
+        1
+      ],
+      [
+        11,
+        20,
+        1
+      ],
+      [
+        11,
+        23,
+        1
+      ],
+      [
+        11,
+        24,
+        1
+      ],
+      [
+        12,
+        17,
+        1
+      ],
+      [
+        13,
+        21,
+        1
+      ],
+      [
+        13,
+        23,
+        1
+      ],
+      [
+        14,
+        18,
+        1
+      ],
+      [
+        15,
+        19,
+        1
+      ],
+      [
+        16,
+        22,
+        1
+      ],
+      [
+        16,
+        24,
+        1
+      ]
+    ],
+    "directed_descriptors": [
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          38,
+          11
+        ]
+      },
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          51,
+          11
+        ]
+      },
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          21,
+          11
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          45
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          51
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          30
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          448,
+          45
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          493,
+          30
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          478,
+          51
+        ]
+      },
+      {
+        "old": [
+          38
+        ],
+        "new": [
+          38,
+          11
+        ]
+      },
+      {
+        "old": [
+          499
+        ],
+        "new": [
+          448,
+          51
+        ]
+      },
+      {
+        "old": [
+          499
+        ],
+        "new": [
+          493,
+          30
+        ]
+      },
+      {
+        "old": [
+          56
+        ],
+        "new": [
+          51,
+          11
+        ]
+      },
+      {
+        "old": [
+          21
+        ],
+        "new": [
+          21,
+          11
+        ]
+      },
+      {
+        "old": [
+          478
+        ],
+        "new": [
+          448,
+          30
+        ]
+      },
+      {
+        "old": [
+          478
+        ],
+        "new": [
+          478,
+          51
+        ]
+      }
+    ],
+    "catalog_prefix_count": 353,
+    "full_catalog_count": 2949,
+    "frame_count": 1005,
+    "label_registers": 736,
+    "checkpoints": [
+      129,
+      153,
+      177
+    ],
+    "supports": {
+      "153": [
+        0,
+        27,
+        224,
+        57
+      ],
+      "177": [
+        225,
+        7,
+        76,
+        87,
+        226,
+        92,
+        227,
+        81,
+        228,
+        232,
+        229,
+        238
+      ]
+    },
+    "updates": {
+      "153": [
+        [
+          0,
+          17
+        ],
+        [
+          27,
+          17
+        ],
+        [
+          224,
+          18
+        ],
+        [
+          57,
+          18
+        ]
+      ],
+      "177": [
+        [
+          225,
+          19
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          76,
+          20
+        ],
+        [
+          87,
+          20
+        ],
+        [
+          226,
+          21
+        ],
+        [
+          92,
+          21
+        ],
+        [
+          227,
+          22
+        ],
+        [
+          81,
+          22
+        ],
+        [
+          228,
+          23
+        ],
+        [
+          232,
+          23
+        ],
+        [
+          229,
+          24
+        ],
+        [
+          238,
+          24
+        ]
+      ]
+    },
+    "unchanged_complements": [
+      732,
+      724
+    ],
+    "composed_histogram_each": {
+      "ADD": 101,
+      "SCALE": 4,
+      "relabel": 72
+    },
+    "next_excluded_raw": 9418,
+    "next_excluded_key": [
+      12,
+      25
+    ]
+  },
+  "excluded_scope": [
+    "Actual entrance/pre-A executor, all731 omitted phase/adapter rows and full-stream coverage.",
+    "Current nonzero-old records330..352 operator or physical realization.",
+    "Full2949 catalog and events from raw9418 onward."
+  ],
+  "resource_caution": {
+    "hard_seconds_each": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_each": 45,
+    "review_vm_bytes": 3758096384,
+    "shared_slots": 2,
+    "owner_serial_jobs": 1,
+    "new_jobs_max": 2,
+    "Elab.async": false,
+    "baseline": "Prior32 Data4.641843326s/2096410624VM; Check7.059551671s/2163838976VM. Nonzero-old/SCALE48 fit unmeasured; no throughput extrapolation."
+  },
+  "authority": "Root2026-10-13 09:54:54 authorizes source preparation for proposal2dd73be7, prospective12/10/2,38probes/18decisions,129-to153-to177. Review actual nonzero-old directions, signed denominators and353-key prefix at f567. Prepare exact source and unchanged driver together; independent source/API and binding/admission gates required before compiler. Existing60s/4GiB hard45s/3.5GiB review and first-stop architecture retained; no dispatch authority is inferred from source preparation alone.",
+  "next_owner": "/root/prove_main_bank_routing",
+  "protected_current_counts": {
+    "import_closure": 10,
+    "outside_import_closure": 24,
+    "total_source_locks_and_quadruples": 34
+  },
+  "standing_admission": {
+    "authority": "Root2026-10-13 09:54:54 authorizes source preparation for proposal2dd73be7, prospective12/10/2,38probes/18decisions,129-to153-to177. Review actual nonzero-old directions, signed denominators and353-key prefix at f567. Prepare exact source and unchanged driver together; independent source/API and binding/admission gates required before compiler. Existing60s/4GiB hard45s/3.5GiB review and first-stop architecture retained; no dispatch authority is inferred from source preparation alone.",
+    "next_owner": "/root/prove_main_bank_routing",
+    "scope": {
+      "modules": 12,
+      "current": 10,
+      "pending": 2
+    },
+    "ordered_jobs": [
+      "Current799Nonzero48Data",
+      "Current799Nonzero48Check"
+    ],
+    "required_reviews": [
+      {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-nonzero48/SCIENTIFIC_SOURCE_REVIEW.json",
+        "sha256": "f8dc156a7903dea93c54ebddc3d679cc8af3cba61ff4ad94338fb0813dd22f84",
+        "bytes": 8083
+      },
+      {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-next32/TERMINAL_INDEPENDENT_REVIEW.json",
+        "sha256": "4d24a24c9f470ac1e3b7baa83fb7719f5cc0508ef81b766fcf0c12680fd1034a",
+        "bytes": 10464
+      },
+      "One independent single binding/current guard and explicit first-check admission"
+    ],
+    "caps": {
+      "hard_seconds_per_module": 60,
+      "hard_VM_bytes": 4294967296,
+      "review_seconds_per_module": 45,
+      "review_VM_bytes": 3758096384,
+      "serial_client": true,
+      "shared_slots_used": 1,
+      "stop_on_first_failure_or_review": true,
+      "automatic_retry": false
+    },
+    "ordinary_repairs": "At most one proof-local ordinary repair after exact source and failed-prestate binding review; no automatic retry.",
+    "protected_outputs": {
+      "import_closure": 10,
+      "outside_import_closure": 24,
+      "total_source_locks_and_quadruples": 34
+    },
+    "next_independent_task": "Coordinate pending operator suppliers independently; raw9418 onward and actual prefix execution remain excluded."
+  },
+  "finite_decisions": 18
+}
