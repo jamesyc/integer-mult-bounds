@@ -1,0 +1,118 @@
+{
+  "status": "PASS_EXACT6_CURRENT799_NEXT16_INDEPENDENTLY_REVIEWED",
+  "utc": "2026-10-13T08:17:21.348137+00:00",
+  "source_commit": "7a9aa1ba4b61ea2a4d0b4a4d3cc6d1ba974f5c9e",
+  "scope": {
+    "local_modules": 6,
+    "preserved_current": 4,
+    "new_checks": 2,
+    "outside_protected": 24,
+    "historical743_replays": 0
+  },
+  "new_metrics": [
+    {
+      "module": "Current799Next16Data",
+      "admitted_utc": "2026-10-13T08:16:01.814060+00:00",
+      "compiler_started_utc": "2026-10-13T08:16:02.474772+00:00",
+      "compile_seconds": 5.325121282978216,
+      "queue_seconds": 0.000767109013395384,
+      "samples": 53,
+      "peak_vm_bytes": 2095689728,
+      "peak_rss_bytes": 1499521024,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current799Next16Check",
+      "admitted_utc": "2026-10-13T08:16:12.073760+00:00",
+      "compiler_started_utc": "2026-10-13T08:16:12.718736+00:00",
+      "compile_seconds": 7.782814912992762,
+      "queue_seconds": 0.0007272750081028789,
+      "samples": 78,
+      "peak_vm_bytes": 2297188352,
+      "peak_rss_bytes": 1737916416,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 13.107936195970979,
+  "total_new_queue_seconds": 0.0014943840214982629,
+  "peak_new_vm_bytes": 2297188352,
+  "data_scope": {
+    "raw_zero_based_inclusive": [
+      9274,
+      9289
+    ],
+    "new_rows_each": 16,
+    "histogram_each": {
+      "ADD": 8,
+      "relabel": 8
+    },
+    "child_ordinal": 3,
+    "directed_key_rank": [
+      0,
+      5,
+      1
+    ],
+    "ordered_target_descriptor": [
+      75
+    ],
+    "signed_denominators": [
+      1,
+      2
+    ],
+    "catalog_prefix_count": 4,
+    "full_catalog_count": 2949,
+    "frame_count": 1005,
+    "label_registers": 736,
+    "checkpoint_from_to": [
+      33,
+      49
+    ],
+    "support": [
+      474,
+      475,
+      480,
+      481,
+      490,
+      491,
+      526,
+      527
+    ],
+    "unchanged_complement": 728,
+    "composed_histogram_each": {
+      "ADD": 33,
+      "relabel": 16
+    },
+    "next_excluded_raw": 9290,
+    "next_excluded_key": [
+      0,
+      6
+    ]
+  },
+  "excluded_scope": [
+    "Actual entrance/pre-A executor, all731 omitted phase/adapter rows and full-stream coverage.",
+    "Current record3/key0\u21925 operator/physical realization, separate frame task.",
+    "Full2949 catalog and subsequent key0\u21926."
+  ],
+  "qualification": "Exactly16 fresh selected799 rows9274..9289 per direction, eight ADD and eight directed child3/rank1 relabels0\u21925. Full736-coordinate checkpoint33\u219249 and both49-row WellLabelled compositions consume the accepted33 predicates without replay. Frame dimensions/728 initial labels are retained; fresh catalog prefix has four of2949 original keys. All24 outside outputs remain protected. Raw9290/key0\u21926, actual pre-A and current record3 operator/physical execution remain separate.",
+  "timing": {
+    "binding_notification_observed_utc": "2026-10-13T08:15:41Z",
+    "invocation_observed_window_utc": "2026-10-13T08:15:47Z..08:15:58Z",
+    "post_lock_guard_utc": "2026-10-13T08:15:59.683979+00:00",
+    "per_job_fields": "new_metrics retains actual admitted/compiler start; queue_seconds includes checker queue/guard and is not pure FIFO. No causal attribution or inferred model time."
+  },
+  "terminal_independent_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-next16/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "8fa24b202880911edb6c80fd15dffdd3b48a58d212c26d15f71aff7c7d7cfdff",
+    "bytes": 10002
+  },
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next16/ACCEPTANCE.json",
+    "sha256": "7059f0f1abc583cd4f0951a376b06c6e5eb7e77c8adf01fd59f5b8168a7742b4",
+    "bytes": 77269
+  },
+  "owner_summary_preimage": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_next16/RESULT_SUMMARY.owner_only.json",
+    "sha256": "038e972d65ebe2ac0228bd54417a6a47d5478ba115dafd171470b90a61c3a0cb",
+    "bytes": 3600
+  }
+}

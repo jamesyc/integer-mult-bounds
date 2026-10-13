@@ -1,0 +1,138 @@
+{
+  "status": "PASS_EXACT_SOURCE_MECHANISM_PLAN_WITH_TOTAL_ADMISSION_OPEN",
+  "utc": "2026-10-13T08:21:42.929274+00:00",
+  "plan": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac128/FOURTEEN_UNARY_PAIR_ADMISSION_PLAN.json",
+    "sha256": "1bb8f91a7ebbb8f320c88eab28bdf5dc531a63a3c4782c8b708bb0da50d2270c",
+    "bytes": 40849
+  },
+  "raw_source": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "representative_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac128/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "82d12d3825d161d6d490dc60d246be9d0fed59ff312cc1e2f845ac6f3587cc30",
+    "bytes": 8369
+  },
+  "independent_checks": {
+    "raw_pairs": 14,
+    "new_A_interval_half_open": [
+      128,
+      1920
+    ],
+    "new_C_interval_half_open": [
+      654,
+      2446
+    ],
+    "gates_each_direction": 1792,
+    "prospective_bodies_reconstructed_in_memory": 28,
+    "proof_suffixes_exact": 14,
+    "new_probes": 238,
+    "new_decisions": 98,
+    "whole_C_reverse_slice_and_no_target_semantics": true
+  },
+  "mechanism": "Independent128+128 unary windows preserve helper destinations, no target operands, no self-read, exact frame1 reverse and the accepted repaired generic proof suffix. Later helper operands do not add a source-only assumption to the reused decoder/reversal theorem. No cumulative join follows.",
+  "resource_review": {
+    "proposed_scope": {
+      "pair_ordinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "pairs": 14,
+      "fresh_roots": 28,
+      "local": [
+        30,
+        2,
+        28
+      ],
+      "total": [
+        347,
+        319,
+        28
+      ],
+      "official_core": 317,
+      "retained_generic_imports": [
+        "BitXorTargetTranslation",
+        "BitXorReversal"
+      ],
+      "protected_prior_outputs": 47,
+      "archived_failures": 44,
+      "printed_probes": 238,
+      "finite_decisions": 98,
+      "A_gates": 1792,
+      "C_gates": 1792,
+      "operand_occurrences_total": 3584,
+      "max_gates_each_check": 256,
+      "max_operands_each_direction": 128,
+      "max_arity": 1,
+      "cumulative_check_roots": 0
+    },
+    "per_root_caps": {
+      "hard_seconds_each": 60,
+      "hard_vm_bytes": 4294967296,
+      "review_seconds_each": 45,
+      "review_vm_bytes": 3758096384,
+      "serial_client": true,
+      "shared_FIFO_slots": 2,
+      "max_simultaneous_owned_compilers": 1,
+      "stop_on_first_failure_or_review": true,
+      "automatic_retry": false,
+      "maximum_compiler_budget_seconds": 1680
+    },
+    "measured_representative": {
+      "source_data": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+        "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+        "bytes": 5312
+      },
+      "source_check": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+        "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+        "bytes": 8554
+      },
+      "owner": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac128/ACCEPTANCE.json",
+        "sha256": "b897a15d2b6224de7c6a0debd49258618a2a0b3f0e1d3e634f9edd53e8ef8d2f",
+        "bytes": 379822
+      },
+      "independent_terminal": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac128/TERMINAL_INDEPENDENT_REVIEW.json",
+        "sha256": "82d12d3825d161d6d490dc60d246be9d0fed59ff312cc1e2f845ac6f3587cc30",
+        "bytes": 8369
+      },
+      "compiler_seconds": 3.303051429989864,
+      "peak_vm_bytes": 907902976,
+      "actual_fifo_seconds": 0.001794175012037158,
+      "post_fifo_guard_seconds": 6.181948278986965
+    },
+    "concern": "1680 seconds is only the sum of28 compiler hard limits. It does not bound client wall time, full-manifest/current rehashes, post-FIFO guard overhead or queue waits. Final total admission should explicitly choose a client/active-wall budget or acknowledge those separate waits; do not label1680 a total wall cap.",
+    "required_controls": [
+      "Fixed28 named roots, serial Data then Check per pair; no automatic retry.",
+      "Persist every successful root and exact metrics; stop before successor on first failure or review threshold.",
+      "Final full-root DFS/first matches and actual47 prior outputs/44 archives must be frozen after any intervening owner result.",
+      "Guard overhead scales with a larger protected union; preserve measured FIFO versus guard versus compiler time separately.",
+      "No full-stream throughput or controlled speedup extrapolation from the single representative."
+    ]
+  },
+  "authority_boundary": "Read-only plan review only. Root still decides source preparation and exact total execution admission; no source bodies or compiler were emitted by reviewer.",
+  "excluded": [
+    "Ordinal15 tuning-move group:128 gates each,174 operands each,maxarity8.",
+    "Ordinal16 final tail:27 gates each,36 operands each,maxarity2.",
+    "Selected499-gate Bmiddle reverse binding, full A/C or cumulative join.",
+    "Actual middle maps, D parity, temporary lifecycle and physical realization."
+  ]
+}
