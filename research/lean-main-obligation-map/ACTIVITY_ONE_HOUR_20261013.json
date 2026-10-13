@@ -1,0 +1,367 @@
+{
+  "window_start_utc": "2026-10-13T06:32:05Z",
+  "window_end_utc": "2026-10-13T07:32:05Z",
+  "source_sha256": "ac2b219c4be11220cec10b30de4df03b0402c34b69fd5f0103d2c5751ad2ba60",
+  "measurement_limit": "Actual model inference timing is unavailable. Task-focus wall intervals may include tools/communication. Unknown gaps are not inactivity. Measured compiler/FIFO/guards and elapsed review-turnaround are orthogonal, not additive to focus totals.",
+  "owner_summary": {
+    "integration": {
+      "wall_seconds_by_reported_focus": {
+        "unknown": 1903.565527,
+        "transfer": 374.0,
+        "tool_review_coordination": 1322.434473
+      },
+      "unreported_gaps": [
+        {
+          "start_utc": "2026-10-13T06:32:05+00:00",
+          "end_utc": "2026-10-13T06:43:13+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:46:28.710275+00:00",
+          "end_utc": "2026-10-13T06:48:56+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:50:03+00:00",
+          "end_utc": "2026-10-13T06:50:26+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:54:52+00:00",
+          "end_utc": "2026-10-13T06:55:14+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:59:10.724198+00:00",
+          "end_utc": "2026-10-13T06:59:25+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:00:51+00:00",
+          "end_utc": "2026-10-13T07:02:44+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:07:51+00:00",
+          "end_utc": "2026-10-13T07:08:32+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:10:30+00:00",
+          "end_utc": "2026-10-13T07:11:18+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:13:20+00:00",
+          "end_utc": "2026-10-13T07:14:02+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:15:19+00:00",
+          "end_utc": "2026-10-13T07:27:44+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:31:25+00:00",
+          "end_utc": "2026-10-13T07:32:05+00:00"
+        }
+      ]
+    },
+    "analytic": {
+      "wall_seconds_by_reported_focus": {
+        "unknown": 2771.0,
+        "tool_review_coordination": 450.0,
+        "math_focused_wall_proxy": 379.0
+      },
+      "unreported_gaps": [
+        {
+          "start_utc": "2026-10-13T06:32:05+00:00",
+          "end_utc": "2026-10-13T06:32:43+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:43:08+00:00",
+          "end_utc": "2026-10-13T07:16:36+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:18:45+00:00",
+          "end_utc": "2026-10-13T07:25:46+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:27:01+00:00",
+          "end_utc": "2026-10-13T07:32:05+00:00"
+        }
+      ]
+    },
+    "machine": {
+      "wall_seconds_by_reported_focus": {
+        "unknown": 2577.0,
+        "mixed_math_source_tools": 597.0,
+        "tool_review_coordination": 426.0
+      },
+      "unreported_gaps": [
+        {
+          "start_utc": "2026-10-13T06:32:05+00:00",
+          "end_utc": "2026-10-13T06:45:29+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:49:15+00:00",
+          "end_utc": "2026-10-13T06:49:25+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:02:42+00:00",
+          "end_utc": "2026-10-13T07:32:05+00:00"
+        }
+      ]
+    },
+    "frame": {
+      "wall_seconds_by_reported_focus": {
+        "unknown": 2689.0,
+        "tool_review_coordination": 472.0,
+        "math_focused_wall_proxy": 48.0,
+        "mixed_source_tools": 391.0
+      },
+      "unreported_gaps": [
+        {
+          "start_utc": "2026-10-13T06:32:05+00:00",
+          "end_utc": "2026-10-13T06:33:20+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:34:14+00:00",
+          "end_utc": "2026-10-13T06:34:44+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:35:32+00:00",
+          "end_utc": "2026-10-13T06:57:55+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:02:16+00:00",
+          "end_utc": "2026-10-13T07:06:48+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:10:07+00:00",
+          "end_utc": "2026-10-13T07:11:26+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:14:38+00:00",
+          "end_utc": "2026-10-13T07:17:04+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:19:41+00:00",
+          "end_utc": "2026-10-13T07:32:05+00:00"
+        }
+      ]
+    },
+    "bank": {
+      "wall_seconds_by_reported_focus": {
+        "unknown": 2231.0,
+        "mixed_math_source_tools": 748.0,
+        "tool_review_coordination": 436.0,
+        "mixed_source_tools": 136.0,
+        "compiler_tool_wait": 49.0
+      },
+      "unreported_gaps": [
+        {
+          "start_utc": "2026-10-13T06:32:05+00:00",
+          "end_utc": "2026-10-13T06:55:34+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:58:25+00:00",
+          "end_utc": "2026-10-13T06:59:02+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:01:40+00:00",
+          "end_utc": "2026-10-13T07:02:12+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:03:52+00:00",
+          "end_utc": "2026-10-13T07:05:24+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:07:15+00:00",
+          "end_utc": "2026-10-13T07:08:06+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:12:21+00:00",
+          "end_utc": "2026-10-13T07:13:06+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:15:22+00:00",
+          "end_utc": "2026-10-13T07:15:33+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:17:20+00:00",
+          "end_utc": "2026-10-13T07:17:56+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:19:49+00:00",
+          "end_utc": "2026-10-13T07:20:19+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:22:14+00:00",
+          "end_utc": "2026-10-13T07:22:28+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:24:11+00:00",
+          "end_utc": "2026-10-13T07:32:05+00:00"
+        }
+      ]
+    },
+    "signed": {
+      "wall_seconds_by_reported_focus": {
+        "unknown": 2696.0,
+        "math_focused_wall_proxy": 85.0,
+        "mixed_source_tools": 819.0
+      },
+      "unreported_gaps": [
+        {
+          "start_utc": "2026-10-13T06:32:05+00:00",
+          "end_utc": "2026-10-13T06:35:18+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:35:50+00:00",
+          "end_utc": "2026-10-13T06:39:38+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:40:03+00:00",
+          "end_utc": "2026-10-13T06:45:24+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:46:09+00:00",
+          "end_utc": "2026-10-13T06:46:34+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:50:12+00:00",
+          "end_utc": "2026-10-13T06:50:20+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:51:06+00:00",
+          "end_utc": "2026-10-13T06:51:29+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T06:53:23+00:00",
+          "end_utc": "2026-10-13T06:54:45+00:00"
+        },
+        {
+          "start_utc": "2026-10-13T07:01:49+00:00",
+          "end_utc": "2026-10-13T07:32:05+00:00"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "fresh_kernel_checks_passed": 12,
+    "public_reproductions_completed": 1,
+    "new_PRs_published_in_window": 1,
+    "published_PRs": [
+      842
+    ],
+    "publication_scientific_owner": "analytic",
+    "publication_integration_owner": "integration"
+  },
+  "publication_milestones": [
+    {
+      "event": "public_replay_finished",
+      "utc": "2026-10-13T06:47:32.565399+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/current596_public_checker/OWNER_REPLAY_ACCEPTANCE.json",
+        "sha256": "a4cf89ad0e2828e47b2bca3089a7b151646a582facad5c2c483d623de137cdd7"
+      }
+    },
+    {
+      "event": "owner_result_sealed",
+      "utc": "2026-10-13T06:49:53.603731+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/current596_public_checker/OWNER_REPLAY_ACCEPTANCE.json",
+        "sha256": "a4cf89ad0e2828e47b2bca3089a7b151646a582facad5c2c483d623de137cdd7"
+      }
+    },
+    {
+      "event": "independent_terminal_sealed",
+      "utc": "2026-10-13T06:52:05.059974+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_PUBLIC_TERMINAL_INDEPENDENT_REVIEW.json",
+        "sha256": "510292b38c21e58880c736f9f4b5f6a343caf18a34011e482139ef75db53c8b4"
+      }
+    },
+    {
+      "event": "final_package_frozen",
+      "utc": "2026-10-13T06:53:17.616457+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/current596_public_checker/FINAL_PACKAGE_INVENTORY.json",
+        "sha256": "488421d5bbc73a6b6da3316c88482943107e064086a46e51d49d7bee7713298a"
+      }
+    },
+    {
+      "event": "final_package_static_sealed",
+      "utc": "2026-10-13T06:55:24.656173+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT596_PUBLIC_FINAL_PACKAGE_DELTA_REVIEW.json",
+        "sha256": "7a94981f0782ef7f94f3b26b70f10a9b5079e395cf389a576487920096c7074e"
+      }
+    },
+    {
+      "event": "final_package_author_sealed",
+      "utc": "2026-10-13T06:55:32.260649+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_596_publication_inventory/FINAL_MEASURED_AUTHOR_READBACK.json",
+        "sha256": "efdd8758c9aeea39749e3ae84e776a484f72bc864df4550a545eb6a857fb5682"
+      }
+    },
+    {
+      "event": "candidate_ready",
+      "utc": "2026-10-13T06:59:10.724198+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/current596_public_checker/FINAL_GIT_CANDIDATE.json",
+        "sha256": "c0ef212534e811328ddade49aed190e0858fc9a4f1189e83826423328e2ea650"
+      }
+    },
+    {
+      "event": "bundle_ready",
+      "utc": "2026-10-13T07:05:03.849581+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/NATIVE596_OWNER_GIT_BUNDLE.json",
+        "sha256": "bd29f4207bfdf92715e285bc4367fbdcbf640595a3e5d769b1c19946354ed1bd"
+      }
+    },
+    {
+      "event": "final_body_author_sealed",
+      "utc": "2026-10-13T07:05:43.798862+00:00",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/current_596_publication_inventory/FINAL_EXTERNAL_BODY_AUTHOR_READBACK.json",
+        "sha256": "348ff68af6bd3bbbd52982261fa25e306016ead295cce5af20c55e1208bbca03"
+      }
+    },
+    {
+      "event": "Mac_import_verified",
+      "utc": "2026-10-13T07:07:41Z",
+      "evidence": {
+        "kind": "Root/Mac exact seven-ref import report"
+      }
+    },
+    {
+      "event": "final_handoff_sent",
+      "utc": "2026-10-13T07:07:51Z",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/current596_public_checker/FINAL_PUBLICATION_HANDOFF.json",
+        "sha256": "f691a776f667284c4c3be7b491c8ab12ef6b24da97c6dabd98e700f680f73392"
+      }
+    },
+    {
+      "event": "PR842_created",
+      "utc": "2026-10-13T07:11:47Z",
+      "evidence": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/PR842_PUBLICATION.json",
+        "sha256": "ad94c9d3a95c1ec612dfbf695e450ef0736dae06ea80f6a1a7eee04b43d21019"
+      }
+    }
+  ],
+  "review_turnaround_elapsed_not_idle_time": [
+    {
+      "phase": "owner-result to independent terminal",
+      "seconds": 131.456243
+    },
+    {
+      "phase": "final-package to independent static",
+      "seconds": 127.039716
+    },
+    {
+      "phase": "final-package to author readback",
+      "seconds": 134.644192
+    },
+    {
+      "phase": "public replay finish to PR creation",
+      "seconds": 1454.434601
+    }
+  ],
+  "qualification": "Partial observed-focus coverage; exact remaining gaps are unknown. Actual inference unavailable. No retrospective reconstruction."
+}

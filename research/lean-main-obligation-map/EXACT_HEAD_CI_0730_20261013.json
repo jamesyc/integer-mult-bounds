@@ -1,0 +1,27 @@
+{
+  "observed_by": "Root, exact-head GitHub readback",
+  "checked_utc": "2026-10-13T07:30:00Z",
+  "timestamp_precision": "Root report minute; exact request second not supplied",
+  "main": {
+    "head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "workflows_success": 7,
+    "workflows_total": 7,
+    "family799_run": 38358662484,
+    "research_run": 38358586481
+  },
+  "PR842": {
+    "head": "deb26103657d3190e3a655c5f6a332982fdecfc3",
+    "upstream": {
+      "success": 5,
+      "total": 5,
+      "research_run": 38361152824
+    },
+    "fork": {
+      "success": 5,
+      "queued": 1,
+      "total": 6,
+      "research_run": 38361067193
+    }
+  },
+  "qualification": "Point-in-time observations from root; queued fork research remains uncompleted. No workflow cancellation, rerun or publication."
+}
