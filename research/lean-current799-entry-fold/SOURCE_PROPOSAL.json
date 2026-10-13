@@ -1,15 +1,15 @@
 {
-  "status": "SOURCE_REVIEWED_PENDING_EXACT_BINDING_AND_ADMISSION",
-  "utc": "2026-10-13T08:56:08.073351+00:00",
+  "status": "ORDINARY_SOURCE_REPAIR_REVIEWED_PENDING_FAILED_PRESTATE_BINDING",
+  "utc": "2026-10-13T09:37:34.575240+00:00",
   "source": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-fold/Current799EntryFold.lean",
-    "sha256": "c6cd3e362ac1626e25ee4deb87c7aee503743a0184fc429d37b58e95a19a823d",
-    "bytes": 6066
+    "sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0",
+    "bytes": 6085
   },
   "source_binding": {
     "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-fold/SOURCE_BINDING.json",
-    "sha256": "194efb2731cd10001738008af023da412c5778df7c6df675d03058b67f62473d",
-    "bytes": 77884
+    "sha256": "8409167e7d014c9a09621209fd059696fbb58167725f9591e82ef1b755b83f38",
+    "bytes": 77851
   },
   "footprint": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/SOURCE_IMPORT_FOOTPRINT.json",
@@ -74,5 +74,20 @@
   "next_conditions": [
     "Exact committed current/source/output binding and fresh independently reviewed guard.",
     "Concrete first-check admission for the recorded6/5/1 scope; do not infer it from preparation."
-  ]
+  ],
+  "source_repair_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-fold/PROJECTION_TYPE_REPAIR_REVIEW.json",
+    "sha256": "8c22a0f296a068a765a233bba58806a35d6def327addbbd05b7cfb55a96fbb46",
+    "bytes": 2165
+  },
+  "source_repair_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "59eccf6db746d2391415905f27cd8516daed1f7506ce7a1cb3d8b969d828aa02",
+    "bytes": 2391
+  },
+  "first_failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/FIRST_FAILURE_PRESERVATION.json",
+    "sha256": "72ef874589f3c15f5569a3abccafa44f4a34e38b28e18ab0755275328c2606d5",
+    "bytes": 14255
+  }
 }

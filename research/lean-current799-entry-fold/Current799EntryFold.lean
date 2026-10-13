@@ -77,7 +77,7 @@ theorem entryRegisters_nodup : entryRegisters.Nodup := by
   apply List.nodup_ofFn_ofInjective
   intro i j hij
   apply Fin.ext
-  exact congrArg Fin.val hij
+  exact congrArg (fun k : Fin 736 => k.val) hij
 
 theorem entryRegisters_values : entryRegisters.map Fin.val = List.range 728 := by
   rw [entryRegisters, List.map_ofFn]

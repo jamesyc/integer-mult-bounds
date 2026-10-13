@@ -3,9 +3,9 @@
   "utc": "2026-10-13T08:38:48.816332+00:00",
   "selected_head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
   "source": {
-    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/candidate/Current799EntryFold.lean",
-    "sha256": "c6cd3e362ac1626e25ee4deb87c7aee503743a0184fc429d37b58e95a19a823d",
-    "bytes": 6066
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-fold/Current799EntryFold.lean",
+    "sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0",
+    "bytes": 6085
   },
   "shared_verified_artifacts": {
     "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
