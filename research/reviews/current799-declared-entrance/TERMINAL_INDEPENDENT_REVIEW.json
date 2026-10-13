@@ -1,0 +1,477 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT799_DECLARED_ENTRANCE_REPAIR_TERMINAL",
+  "utc": "2026-10-13T10:25:31.537145+00:00",
+  "owner_acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/beta_reduction_repair/gate/ACCEPTANCE.json",
+    "sha256": "a9f068a9ae91cb49627ed3cc7a17df9a6b33b05924f741abb62ccc58a36812b8",
+    "bytes": 27841
+  },
+  "committed_source": {
+    "commit": "4b3653c129cb11221c484b60595a13a1d0a44fb3",
+    "path": "research/lean-current799-declared-entrance/Current799DeclaredEntrance.lean"
+  },
+  "current_rows": [
+    {
+      "module": "PR509Stream",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+        "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+        "bytes": 15263
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+        "sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+        "bytes": 1117832
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/frame_transport__external_reuse__PR509Stream.lean.json",
+        "sha256": "80760c28594c2e256d81693d763aad84d8203bb370924ed39c18f3e52d184eaa",
+        "bytes": 4637
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/frame_transport__external_reuse__PR509Stream.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "Mathlib.Algebra.Module.Equiv.Defs": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Equiv/Defs.olean",
+          "olean_sha256": "e1fedac072180be58f7629ec045ba513710e309ba5f81d49603129dab8e4cae1"
+        },
+        "Mathlib.Algebra.Module.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/Pi.olean",
+          "olean_sha256": "4096cf436a8e1a929bf69932f8cdfedf2c3306bbf01e3b92bf52677162bd5115"
+        },
+        "Mathlib.Algebra.BigOperators.Pi": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Pi.olean",
+          "olean_sha256": "96b0aefa2fdd1902765167cd4d2f971eccd7f288219979f12db65f57bb40d573"
+        },
+        "Mathlib.Algebra.Module.LinearMap.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/Basic.olean",
+          "olean_sha256": "2f27d7a23c248759ff05dc6693ca025754ae5ad842f28017289bf33767c53944"
+        },
+        "Mathlib.LinearAlgebra.Span.Basic": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/.lake/build/lib/lean/Mathlib/LinearAlgebra/Span/Basic.olean",
+          "olean_sha256": "4eb7d7576d23e2cbf37d2dfebf0da15eec6d79f346d11d8881fc412a26d9521b"
+        }
+      }
+    },
+    {
+      "module": "PR516Realize",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.lean",
+        "sha256": "39d6a1031f29b35c59b581ef5ed939aaa4b80b272df39dafc5608c76d2cf4d3f",
+        "bytes": 8106
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.olean",
+        "sha256": "3bfca6738e7218e4f5357cb40d56fcb671831496fb986b90ef506a8037ecd07a",
+        "bytes": 536080
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/bank_routing__external_reuse__PR516Realize.lean.json",
+        "sha256": "15a76dc639d63eef37b121d242df6c61c30c296096607fc4d272f53e9f280ff2",
+        "bytes": 3437
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/bank_routing__external_reuse__PR516Realize.lean.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "receipt_dependencies": {
+        "PR509Stream": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.olean",
+          "olean_sha256": "68274d6835c2c940b0f5028c3ceda86ed90a3ea1467204c2c3d9be0f70d9d3ce",
+          "source_sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8"
+        }
+      }
+    },
+    {
+      "module": "ScalarWriteSupport",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/scalar_write_support/ScalarWriteSupport.lean",
+        "sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e",
+        "bytes": 10646
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/scalar_write_support/ScalarWriteSupport.olean",
+        "sha256": "24161a1625c86789acd5b6d950e5ffd50c43b1100fabaad72b693c120a6dea4b",
+        "bytes": 620328
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__scalar_write_support__ScalarWriteSupport.lean.json",
+        "sha256": "4833a2c0073b58ff9fbd88864588ad3ac7cf94b10fdf77bf46c407f18cc823ff",
+        "bytes": 3518
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__scalar_write_support__ScalarWriteSupport.lean.log",
+        "sha256": "5a0c43c910073ab7f102fc56af25b6fcafebd51077f9005b5dc2f03a73a6f593",
+        "bytes": 1016
+      },
+      "receipt_dependencies": {
+        "PR516Realize": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.olean",
+          "olean_sha256": "3bfca6738e7218e4f5357cb40d56fcb671831496fb986b90ef506a8037ecd07a",
+          "source_sha256": "39d6a1031f29b35c59b581ef5ed939aaa4b80b272df39dafc5608c76d2cf4d3f"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.ScalarWriteSupport.physRun_unchanged",
+          "axioms": []
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.scalRun_unchanged",
+          "axioms": []
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.expanded_target_lt",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.Historical596.encoded_event_count",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.Historical596.support_above_targets",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799ScalarSupport",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_scalar_support/Current799ScalarSupport.lean",
+        "sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7",
+        "bytes": 44632
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_scalar_support/Current799ScalarSupport.olean",
+        "sha256": "1d2cb9032adc7a18ff8d28f032115e0bbff21b2f8e7e4462e77e03f1daed2e4c",
+        "bytes": 3260136
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_scalar_support__Current799ScalarSupport.lean.json",
+        "sha256": "cbe16e10691cb6925880511a3e91a6679a438f2c785f2b7effb10d93a3f75d04",
+        "bytes": 3588
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_scalar_support__Current799ScalarSupport.lean.log",
+        "sha256": "a6ba2f51e739fedfb0d515bd5ced864cce55b7ec8e54302f1561c8f541c46752",
+        "bytes": 1528
+      },
+      "receipt_dependencies": {
+        "ScalarWriteSupport": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/scalar_write_support/ScalarWriteSupport.olean",
+          "olean_sha256": "24161a1625c86789acd5b6d950e5ffd50c43b1100fabaad72b693c120a6dea4b",
+          "source_sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.Current799ScalarSupport.expanded_targets_safe",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799ScalarSupport.interpreted_run_preserves_support",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799ScalarSupport.forward_precondition_preserves_support",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799ScalarSupport.forward_early_A_preserves_support",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799EntryConnection",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_connection/Current799EntryConnection.lean",
+        "sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66",
+        "bytes": 5254
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_connection/Current799EntryConnection.olean",
+        "sha256": "0b6f91756aeab985f766de95322b83933d1c03b457c731064a3cfae05dd822d9",
+        "bytes": 115552
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_entry_connection__Current799EntryConnection.lean.json",
+        "sha256": "1b4da1615127b4be5625abb439d11673cd8204640dbdada7564c86d5b24eb632",
+        "bytes": 3619
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_entry_connection__Current799EntryConnection.lean.log",
+        "sha256": "ab266125920c9efee4188a54ffaff332121c5f83e3b3ff467e29c3f7e62e499d",
+        "bytes": 2666
+      },
+      "receipt_dependencies": {
+        "Current799ScalarSupport": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_scalar_support/Current799ScalarSupport.olean",
+          "olean_sha256": "1d2cb9032adc7a18ff8d28f032115e0bbff21b2f8e7e4462e77e03f1daed2e4c",
+          "source_sha256": "9e0b827dc831e4a773509790b45ae514b0ee7c072ddf77562b6d756f42317dd7"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.Current799EntryConnection.entryValue_inverse_chart",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryConnection.supported_first_climb_entry_value",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryConnection.supported_first_climb_chart",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799EntryFold",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_fold/Current799EntryFold.lean",
+        "sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0",
+        "bytes": 6085
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_fold/Current799EntryFold.olean",
+        "sha256": "723b27bdd533f581c96f9c88d307307056319d928030baa6534fd2140ab33f08",
+        "bytes": 184696
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_entry_fold__Current799EntryFold.lean.json",
+        "sha256": "5277f4ede366bf72e01433bef1692bc24e83a775d13dd2080d272d56968fd494",
+        "bytes": 3571
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_entry_fold__Current799EntryFold.lean.log",
+        "sha256": "04bd451ca0731a23f22011569a231916023d4665525628741e075b1c0e60cae9",
+        "bytes": 1687
+      },
+      "receipt_dependencies": {
+        "Current799EntryConnection": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_connection/Current799EntryConnection.olean",
+          "olean_sha256": "0b6f91756aeab985f766de95322b83933d1c03b457c731064a3cfae05dd822d9",
+          "source_sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.IndependentEntryFold.runUpdates_eq_foldl",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.IndependentEntryFold.runUpdates_of_not_mem",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.IndependentEntryFold.runUpdates_of_mem",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.entryRegisters_nodup",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.entryRegisters_values",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.selected_entry_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799EntryFold.selected_executor_action",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "Current799DeclaredEntrance",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_declared_entrance/Current799DeclaredEntrance.lean",
+        "sha256": "e71f8bcd99321ae951f5cb4dabfe63da7237e1311711e5cfa36d3840c6bdff80",
+        "bytes": 3764
+      },
+      "object": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_declared_entrance/Current799DeclaredEntrance.olean",
+        "sha256": "6c0e17ad40aaffd51290e0d91bbd570b3288025c674808510246df4000929333",
+        "bytes": 78872
+      },
+      "receipt": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/receipts/machine_contracts__current799_declared_entrance__Current799DeclaredEntrance.lean.json",
+        "sha256": "8fa9afe268aa52aa713ef2f18e12fe06d8c1a515c2382975b5baf00c41b79e1a",
+        "bytes": 3615
+      },
+      "log": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/logs/machine_contracts__current799_declared_entrance__Current799DeclaredEntrance.lean.log",
+        "sha256": "7bebd0b8ebf49cea27d68a5f52f6ccd5f3275a95810e7305ee9b08bc51ee9953",
+        "bytes": 3621
+      },
+      "receipt_dependencies": {
+        "Current799EntryFold": {
+          "olean_path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_entry_fold/Current799EntryFold.olean",
+          "olean_sha256": "723b27bdd533f581c96f9c88d307307056319d928030baa6534fd2140ab33f08",
+          "source_sha256": "3105ee9875ffe4e3905dff19a1de592dd89f6163fbf054dc4bfb044c5cb59ac0"
+        }
+      },
+      "complete_probes": [
+        {
+          "name": "CurrentMain.Current799DeclaredEntrance.folded_prefix_chart",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "name": "CurrentMain.Current799DeclaredEntrance.selected_declared_entrance",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    }
+  ],
+  "verified": {
+    "current_quadruples": 7,
+    "external_pairs_and_first_matches": 2213,
+    "protected_prior_quadruples": 257,
+    "complete_probes": 2,
+    "actual_printed_types": 2
+  },
+  "complete_probes": {
+    "CurrentMain.Current799DeclaredEntrance.folded_prefix_chart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurrentMain.Current799DeclaredEntrance.selected_declared_entrance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "actual_printed_types": [
+    {
+      "declaration": "@CurrentMain.Current799DeclaredEntrance.folded_prefix_chart",
+      "actual_printed_type": "@CurrentMain.Current799DeclaredEntrance.folded_prefix_chart : \u2200 {K : Type u_1} {M : Type u_2} [inst : Semiring K]\n  [inst_1 : AddCommMonoid M] [inst_2 : Module K M] (rec : Fin 1005 \u2192 Fin 1005 \u2192 M \u2192 M)\n  (pre earlyA : List (LemmaG.Event (Fin 736) (Fin 1005) K)),\n  CurrentMain.Current799ScalarSupport.HasDestinationTrace pre CurrentMain.Current799ScalarSupport.preconditionTargets\n      CurrentMain.Current799ScalarSupport.preconditionRuns \u2192\n    CurrentMain.Current799ScalarSupport.HasDestinationTrace earlyA CurrentMain.Current799ScalarSupport.earlyATargets\n        CurrentMain.Current799ScalarSupport.earlyARuns \u2192\n      \u2200 (actualEntry : (Fin 736 \u2192 M) \u2192 Fin 736 \u2192 M) (act : Fin 736 \u2192 M \u2192 M) (R : M \u2243\u2097[K] M) (T4 : M \u2192 M),\n        actualEntry = CurrentMain.IndependentEntryFold.runUpdates act CurrentMain.Current799EntryFold.entryRegisters \u2192\n          (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n              \u2200 (v : M), act i v = CurrentMain.Current799EntryConnection.entryValue (\u21d1R.symm) i v) \u2192\n            \u2200 (h x : Fin 736 \u2192 M),\n              (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                  h i = CurrentMain.Current799EntryConnection.incomingChart (\u21d1R) T4 x i) \u2192\n                \u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                  LemmaG.Stream.physRun rec earlyA (actualEntry (LemmaG.Stream.physRun rec pre h)) i =\n                    CurrentMain.Current799EntryConnection.enteredChart T4 x i",
+      "verified_premises": {
+        "both_traces": true,
+        "entry_executor_equality": true,
+        "selected_operator_equations": true,
+        "incoming_chart": true
+      }
+    },
+    {
+      "declaration": "@CurrentMain.Current799DeclaredEntrance.selected_declared_entrance",
+      "actual_printed_type": "@CurrentMain.Current799DeclaredEntrance.selected_declared_entrance : \u2200 {K : Type u_1} {M : Type u_2} [inst : Semiring K]\n  [inst_1 : AddCommMonoid M] [inst_2 : Module K M] (rec : Fin 1005 \u2192 Fin 1005 \u2192 M \u2192 M)\n  (pre earlyA : List (LemmaG.Event (Fin 736) (Fin 1005) K)),\n  CurrentMain.Current799ScalarSupport.HasDestinationTrace pre CurrentMain.Current799ScalarSupport.preconditionTargets\n      CurrentMain.Current799ScalarSupport.preconditionRuns \u2192\n    CurrentMain.Current799ScalarSupport.HasDestinationTrace earlyA CurrentMain.Current799ScalarSupport.earlyATargets\n        CurrentMain.Current799ScalarSupport.earlyARuns \u2192\n      \u2200 (actualEntry actualPrefix : (Fin 736 \u2192 M) \u2192 Fin 736 \u2192 M) (act : Fin 736 \u2192 M \u2192 M) (R : M \u2243\u2097[K] M)\n        (T : Fin 1005 \u2192 M \u2192 M) (labels : Fin 736 \u2192 Fin 1005),\n        actualEntry = CurrentMain.IndependentEntryFold.runUpdates act CurrentMain.Current799EntryFold.entryRegisters \u2192\n          (actualPrefix = fun h => LemmaG.Stream.physRun rec earlyA (actualEntry (LemmaG.Stream.physRun rec pre h))) \u2192\n            (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                \u2200 (v : M), act i v = CurrentMain.Current799EntryConnection.entryValue (\u21d1R.symm) i v) \u2192\n              (\u2200 (v : M), T 0 v = v) \u2192\n                (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                    labels i = if \u2191i \u2208 CurrentMain.Current799EntryConnection.residualRegisters then 4 else 0) \u2192\n                  \u2200 (h x : Fin 736 \u2192 M),\n                    (\u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport,\n                        h i = CurrentMain.Current799EntryConnection.incomingChart (\u21d1R) (T 4) x i) \u2192\n                      \u2200 i \u2208 CurrentMain.Current799ScalarSupport.selectedSupport, actualPrefix h i = T (labels i) (x i)",
+      "verified_premises": {
+        "both_traces": true,
+        "entry_executor_equality": true,
+        "selected_operator_equations": true,
+        "incoming_chart": true,
+        "prefix_executor_equality": true,
+        "zero_chart": true,
+        "selected_declared_label_equations": true
+      }
+    }
+  ],
+  "failure_archives_verified": 21,
+  "measures": {
+    "requested_utc": "2026-10-13T10:22:29.788671+00:00",
+    "slot_acquired_utc": "2026-10-13T10:22:29.789504+00:00",
+    "started_utc": "2026-10-13T10:22:30.858468+00:00",
+    "finished_utc": "2026-10-13T10:22:35.388118+00:00",
+    "compile_seconds": 4.529645770002389,
+    "queue_seconds": 0.0008379759965464473,
+    "preparation_seconds": 1.0689622859936208,
+    "process_observations": {
+      "samples": 45,
+      "peak_vm_bytes": 2098274304,
+      "peak_rss_bytes": 1504432128,
+      "peak_threads": 3
+    }
+  },
+  "source_repair_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-declared-entrance/BETA_REDUCTION_REPAIR_REVIEW.json",
+    "sha256": "3801f14f46918c7c0ea649ffdb79aaa3feb3a21e346015f9dfefc88132327c6c",
+    "bytes": 3211
+  },
+  "binding_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/beta_reduction_repair/gate/INTEGRATION_SINGLE_BINDING_REVIEW.json",
+    "sha256": "0672db364b7b159047447b58accca16ec6724749c69106605d2468fc1c3a4c9b",
+    "bytes": 4698
+  },
+  "scientific_scope": "Conditional support-local composition of the accepted entry fold and both support segments to the declared Fin1005 value chart. All16 operator equations,both typed traces,actual entry/prefix executor equalities,incoming chart,T0 and declared selected labels remain explicit.",
+  "exclusions": [
+    "Actual typed traces and selected16 action equations",
+    "Actual entry and prefix executor equalities",
+    "Incoming residual chart and initial selected-label facts",
+    "Actual full-prefix label execution-to-labels0,global hstart and physical realization"
+  ],
+  "qualification": "Both actual printed types retain two typed traces, all sixteen selected action equations, actualEntry=runUpdates and incoming residual chart. The declared value corollary additionally retains actualPrefix composition, T0 identity and selected labels. This is support-local and does not establish full-prefix label execution, global hstart or physical executor correspondence. The sole ordinary beta repair is consumed.",
+  "reviewer_compiler_execution": false
+}

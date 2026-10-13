@@ -1,0 +1,438 @@
+{
+  "status": "PASS_INDEPENDENTLY_REVIEWED_CURRENT799_COVERAGE177",
+  "utc": "2026-10-13T10:14:55.872086+00:00",
+  "source_commit": "853818fc9f947b21648be5a6a4930b30c51a5d93",
+  "scope": {
+    "local_modules": 12,
+    "preserved_current": 10,
+    "new_checks": 2,
+    "outside_protected": 24,
+    "historical743_replays": 0
+  },
+  "new_metrics": [
+    {
+      "module": "Current799Nonzero48Data",
+      "admitted_utc": "2026-10-13T10:14:09.434425+00:00",
+      "compiler_started_utc": "2026-10-13T10:14:10.452971+00:00",
+      "compile_seconds": 5.546173337002983,
+      "queue_seconds": 0.0005143790040165186,
+      "samples": 56,
+      "peak_vm_bytes": 2096828416,
+      "peak_rss_bytes": 1514405888,
+      "peak_threads": 3
+    },
+    {
+      "module": "Current799Nonzero48Check",
+      "admitted_utc": "2026-10-13T10:14:20.155463+00:00",
+      "compiler_started_utc": "2026-10-13T10:14:21.137978+00:00",
+      "compile_seconds": 7.836628930992447,
+      "queue_seconds": 0.0004919569764751941,
+      "samples": 78,
+      "peak_vm_bytes": 2232131584,
+      "peak_rss_bytes": 1635504128,
+      "peak_threads": 3
+    }
+  ],
+  "total_new_compile_seconds": 13.38280226799543,
+  "total_new_queue_seconds": 0.0010063359804917127,
+  "peak_new_vm_bytes": 2232131584,
+  "data_scope": {
+    "raw_zero_based_inclusive": [
+      9370,
+      9417
+    ],
+    "new_rows_each": 48,
+    "chunk_lengths": [
+      24,
+      24
+    ],
+    "histogram_each": {
+      "ADD": 28,
+      "SCALE": 4,
+      "relabel": 16
+    },
+    "child_ordinals": [
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      342,
+      343,
+      345,
+      348,
+      351,
+      352
+    ],
+    "directed_key_ranks": [
+      [
+        9,
+        17,
+        1
+      ],
+      [
+        9,
+        18,
+        1
+      ],
+      [
+        9,
+        19,
+        1
+      ],
+      [
+        10,
+        20,
+        1
+      ],
+      [
+        10,
+        21,
+        1
+      ],
+      [
+        10,
+        22,
+        1
+      ],
+      [
+        11,
+        20,
+        1
+      ],
+      [
+        11,
+        23,
+        1
+      ],
+      [
+        11,
+        24,
+        1
+      ],
+      [
+        12,
+        17,
+        1
+      ],
+      [
+        13,
+        21,
+        1
+      ],
+      [
+        13,
+        23,
+        1
+      ],
+      [
+        14,
+        18,
+        1
+      ],
+      [
+        15,
+        19,
+        1
+      ],
+      [
+        16,
+        22,
+        1
+      ],
+      [
+        16,
+        24,
+        1
+      ]
+    ],
+    "directed_descriptors": [
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          38,
+          11
+        ]
+      },
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          51,
+          11
+        ]
+      },
+      {
+        "old": [
+          11
+        ],
+        "new": [
+          21,
+          11
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          45
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          51
+        ]
+      },
+      {
+        "old": [
+          448
+        ],
+        "new": [
+          448,
+          30
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          448,
+          45
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          493,
+          30
+        ]
+      },
+      {
+        "old": [
+          493
+        ],
+        "new": [
+          478,
+          51
+        ]
+      },
+      {
+        "old": [
+          38
+        ],
+        "new": [
+          38,
+          11
+        ]
+      },
+      {
+        "old": [
+          499
+        ],
+        "new": [
+          448,
+          51
+        ]
+      },
+      {
+        "old": [
+          499
+        ],
+        "new": [
+          493,
+          30
+        ]
+      },
+      {
+        "old": [
+          56
+        ],
+        "new": [
+          51,
+          11
+        ]
+      },
+      {
+        "old": [
+          21
+        ],
+        "new": [
+          21,
+          11
+        ]
+      },
+      {
+        "old": [
+          478
+        ],
+        "new": [
+          448,
+          30
+        ]
+      },
+      {
+        "old": [
+          478
+        ],
+        "new": [
+          478,
+          51
+        ]
+      }
+    ],
+    "catalog_prefix_count": 353,
+    "full_catalog_count": 2949,
+    "frame_count": 1005,
+    "label_registers": 736,
+    "checkpoints": [
+      129,
+      153,
+      177
+    ],
+    "supports": {
+      "153": [
+        0,
+        27,
+        224,
+        57
+      ],
+      "177": [
+        225,
+        7,
+        76,
+        87,
+        226,
+        92,
+        227,
+        81,
+        228,
+        232,
+        229,
+        238
+      ]
+    },
+    "updates": {
+      "153": [
+        [
+          0,
+          17
+        ],
+        [
+          27,
+          17
+        ],
+        [
+          224,
+          18
+        ],
+        [
+          57,
+          18
+        ]
+      ],
+      "177": [
+        [
+          225,
+          19
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          76,
+          20
+        ],
+        [
+          87,
+          20
+        ],
+        [
+          226,
+          21
+        ],
+        [
+          92,
+          21
+        ],
+        [
+          227,
+          22
+        ],
+        [
+          81,
+          22
+        ],
+        [
+          228,
+          23
+        ],
+        [
+          232,
+          23
+        ],
+        [
+          229,
+          24
+        ],
+        [
+          238,
+          24
+        ]
+      ]
+    },
+    "unchanged_complements": [
+      732,
+      724
+    ],
+    "composed_histogram_each": {
+      "ADD": 101,
+      "SCALE": 4,
+      "relabel": 72
+    },
+    "next_excluded_raw": 9418,
+    "next_excluded_key": [
+      12,
+      25
+    ]
+  },
+  "excluded_scope": [
+    "Actual entrance/pre-A executor, all731 omitted phase/adapter rows and full-stream coverage.",
+    "Current nonzero-old records330..352 operator or physical realization.",
+    "Full2949 catalog and events from raw9418 onward."
+  ],
+  "qualification": "Exactly48 fresh selected799 rows9370..9417 per direction,28ADD/4SCALE/16relabel with actual nonzero-old directed children330..352. Two24-row checks and full736-coordinate checkpoints129\u2192153\u2192177 consume accepted129 without replay. Full353-key catalog prefix retains original ordinals/directions; all signed denominators, including backward1/-1, are literal. Frame1005 and728 initial labels remain retained. All24 outside outputs remain protected. Raw9418 onward, actual pre-A and these operator/physical actions remain separate.",
+  "timing": {
+    "binding_notification_observed_utc": "2026-10-13T10:13:49Z",
+    "invocation_observed_window_utc": "2026-10-13T10:13:56Z",
+    "post_lock_guard_utc": "2026-10-13T10:14:07.348965+00:00",
+    "per_job_fields": "new_metrics retains actual admitted/compiler start; queue_seconds includes checker queue/guard and is not pure FIFO. No causal attribution or inferred model time."
+  },
+  "terminal_independent_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_NONZERO48_ANALYTIC_TERMINAL_REVIEW.json",
+    "sha256": "1f8efd3cf411b072b7a69f93c4644a14f04985c2f71c2e46517022d3986a4830",
+    "bytes": 15051
+  },
+  "acceptance": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/current799_nonzero48/ACCEPTANCE.json",
+    "sha256": "fea0c5115cbdbfacdfaf8b164a9289bcac29cf209db6dbf97326d8aa27af59e8",
+    "bytes": 94176
+  }
+}

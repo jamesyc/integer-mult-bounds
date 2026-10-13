@@ -1,0 +1,172 @@
+{
+  "status": "PASS_SOURCE_LITERAL_API_REVIEW_UNCOMPILED",
+  "utc": "2026-10-13T10:30:49.410854+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-initial-labels/Current799InitialLabels.lean",
+    "sha256": "9c03b282550e897fe89c7d51096957b0878f646fcfe6abb3a9901852dc4bee22",
+    "bytes": 1530
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-initial-labels/SOURCE_BINDING.json",
+    "sha256": "98915905a296dfcb646cade1f040532808a47c1cacd4494e9cb1ce0258a1d402",
+    "bytes": 5678
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-initial-labels/SOURCE_API_RESOURCE_PROPOSAL.json",
+    "sha256": "85993760a563160f448c9542be6b484b1ecdaabf842210d291f4eac698c416f9",
+    "bytes": 1426
+  },
+  "canonical": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+    "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+    "bytes": 83939
+  },
+  "accepted_bank_data": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/current799-first33/Current799First33CoverageData.lean",
+    "sha256": "6c5efbe2e7dc126cdd168a8e88ee2d3be432d987b2d094ed670ea169e49b9dab",
+    "bytes": 14025
+  },
+  "initializer_api": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/current535_coverage45/CanonicalFrameCoverage.lean",
+    "sha256": "a19727ca30391b7bac0905cb739f30ea0910ccb0b168e3c56d5559ebcf534a27",
+    "bytes": 7771
+  },
+  "support_definition": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-scalar-write-support/ScalarWriteSupport.lean",
+    "sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e",
+    "bytes": 10646
+  },
+  "residual_definition": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-connection/Current799EntryConnection.lean",
+    "sha256": "9038dfe830bfea598a059d3541d331b17b1ecc87fff36f255d432fdb7d56eb66",
+    "bytes": 5254
+  },
+  "selected_values": [
+    {
+      "register": 558,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 559,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 560,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 561,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 570,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 571,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 572,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 573,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 582,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 583,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 584,
+      "raw_start_value": 0,
+      "accepted_literal_value": 0,
+      "declared_label": 0,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 585,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 594,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 595,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 596,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    },
+    {
+      "register": 597,
+      "raw_start_value": 4,
+      "accepted_literal_value": 4,
+      "declared_label": 4,
+      "initialLabels_branch": "index<728, in-bounds array value; no default"
+    }
+  ],
+  "checked": "All728 accepted initial literals match current canonical.start; the16 selected indices are inbounds and have exactly eight0/eight4 labels. No centre/default read can occur. Membership split names all16 support values before substitution and closed kernel projection.",
+  "public_statement": "For each i in selectedSupport, Current799First33CoverageData.labels0 i equals4 on residualRegisters and0 otherwise, at actual Fin1005 labels/Fin736 registers.",
+  "scope": [
+    8,
+    7,
+    1
+  ],
+  "external_pairs": 2213,
+  "probes": 1,
+  "printed_types": 1,
+  "finite_projection_leaves": 16,
+  "remaining": "Only the selected declared hlabels premise is supplied; actual prefix labels,operator/executor/chart/hstart premises remain explicit.",
+  "compiler_invoked": false,
+  "resource_fit": "Sixteen bounded projection branches under unchanged caps; no expanded state or first33 finite predicates. Actual compiler fit unmeasured."
+}

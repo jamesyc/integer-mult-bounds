@@ -1,0 +1,190 @@
+{
+  "status": "PASS_INDEPENDENT_LITERAL_SOURCE_API_RESOURCE_REVIEW_UNCOMPILED",
+  "utc": "2026-10-13T10:29:07.136861+00:00",
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-c-prefix/SOURCE_PROPOSAL.json",
+    "sha256": "659247da20d10d865f1e550cbfdd3ee45fbcbf3bb86c69b86fe9049c68c09b6a",
+    "bytes": 5894
+  },
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-c-prefix/CurrentPR589CPrefixData.lean",
+      "sha256": "c30cd1200b568f98324805eeac3f808b7f622c7e9a74744e616e6c6c48f04d44",
+      "bytes": 9058
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-c-prefix/CurrentPR589CPrefixCheck.lean",
+      "sha256": "537bb1095cb5e4c0aa2758d663adedbde0a9ac6ada885014126609769f53ef6b",
+      "bytes": 10713
+    }
+  ],
+  "raw": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "decoded_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b",
+  "literal_readback": {
+    "exact_prefix_gates": 499,
+    "ordered_operands": 499,
+    "frame": 1,
+    "raw_prefix_equals_reverse_middle": true,
+    "unchanged_C_suffix_equals_frame1_reverse_A": true,
+    "first_middle_last_lengths": [
+      102,
+      499,
+      111
+    ],
+    "middle_source_writes": 483,
+    "middle_helper_writes": {
+      "465": 6,
+      "466": 5,
+      "468": 5
+    }
+  },
+  "api_sources": [
+    {
+      "module": "CurrentPR589BData",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BData.lean",
+        "sha256": "ffc2768ad0168ea764e8aaea0a81b4a97129130dcb60e8764f99ab1804b84b23",
+        "bytes": 15929
+      }
+    },
+    {
+      "module": "CurrentPR589BCheck",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589BCheck.lean",
+        "sha256": "3db82fe5b541e1b85e6cf6ec4e4065f496aafca02b7229653daeb1004da6016f",
+        "bytes": 2974
+      }
+    },
+    {
+      "module": "CurrentPR589PhaseBXor",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_b_20261013/CurrentPR589PhaseBXor.lean",
+        "sha256": "ffd57b2feb3a06289efb2d7fdc2214d275a7fc160d8c828aa375a723c0ff5151",
+        "bytes": 5685
+      }
+    },
+    {
+      "module": "CurrentPR589ACJoin",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/current_pr589_ac_join_20261013/CurrentPR589ACJoin.lean",
+        "sha256": "ec172fa5f6b69db35c7564101157f2dbf1047f006df1228ed152e44a8aa3e994",
+        "bytes": 19243
+      }
+    },
+    {
+      "module": "BitXorTwoLevelCleanup",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_two_level_cleanup_20261012/BitXorTwoLevelCleanup.lean",
+        "sha256": "8ccef0a189360038b140c1a9e0ab1688d2e32baab89b828439be963b798daaf2",
+        "bytes": 4265
+      }
+    },
+    {
+      "module": "BitXorChunkComposition",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_chunk_composition_20261012/BitXorChunkComposition.lean",
+        "sha256": "90054ae1caf1a90ec0a194558bb9194b6e575c90715d9fa2b0b9c397cb82057d",
+        "bytes": 5255
+      }
+    },
+    {
+      "module": "BitXorReversal",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/bit_xor_reversal_20261012/BitXorReversal.lean",
+        "sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+        "bytes": 6073
+      }
+    },
+    {
+      "module": "BitXorTargetTranslation",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/signed_word/selected_bit493_xor/BitXorTargetTranslation.lean",
+        "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+        "bytes": 5194
+      }
+    },
+    {
+      "module": "Init.Data.List.TakeDrop",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/TakeDrop.lean",
+        "sha256": "f96aa008b19859b9525e6e69ca3df971c9f53991ffcd21d08b51c9b0dc1f7c02",
+        "bytes": 16935
+      }
+    },
+    {
+      "module": "Init.Data.List.Sublist",
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/lean-4.21.0-linux/src/lean/Init/Data/List/Sublist.lean",
+        "sha256": "4e2377f31018764040cf8f6552e589ad67a5b210493364b6dcd520e26560947e",
+        "bytes": 51654
+      }
+    }
+  ],
+  "source_expression_binding": {
+    "firstDecoded": "CurrentPR589PhaseBXor.decodedPhaseB.take 102",
+    "middleDecoded": "(CurrentPR589PhaseBXor.decodedPhaseB.drop 102).take 499",
+    "lastDecoded": "(CurrentPR589PhaseBXor.decodedPhaseB.drop 102).drop 499",
+    "decodedCPrefix": "middleDecoded.reverse.map frameOne",
+    "assembledC": "decodedCPrefix ++ CurrentPR589ACJoin.assembledCSuffix"
+  },
+  "proof_findings": [
+    "Accepted band_order and lengths instantiate List.take_left'/drop_left' after map_take/map_drop; no default reads or second B literal table.",
+    "The two take/drop append identities partition the actual decoded B in source order. execute_B_split respects first then middle then last.",
+    "middle_subset transports membership through take then drop. Accepted no_self_reads and decoded_gate_properties supply exact reversal/no-target-read hypotheses, preserving helper writes.",
+    "Fresh C prefix maps only frame metadata to1 and reverses gates, never operand lists; scalarize erases that metadata for the existing reverse-run theorem.",
+    "first_targets/last_targets use the accepted destination bounds and run_off_target to prove the two actual target-only maps. The499 middle is not incorrectly assumed target-only.",
+    "selected_off_target_cleanup applies the two-level theorem to actual A then firstB then middleB then lastB then reverseMiddle then reverseA, restoring every arbitrary original off-target bit.",
+    "selected_target_value uses off-target destinations in both cleanup words; it retains the actual A/B target result and does not identify D parity or a target shear."
+  ],
+  "scope": [
+    361,
+    359,
+    2
+  ],
+  "local_scope": [
+    44,
+    42,
+    2
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentPR589CPrefix.raw_cleanup_binding",
+    "CurrentMain.CurrentPR589CPrefix.ordered_first_binding",
+    "CurrentMain.CurrentPR589CPrefix.ordered_middle_binding",
+    "CurrentMain.CurrentPR589CPrefix.ordered_last_binding",
+    "CurrentMain.CurrentPR589CPrefix.decoded_B_split",
+    "CurrentMain.CurrentPR589CPrefix.execute_B_split",
+    "CurrentMain.CurrentPR589CPrefix.middle_write_counts",
+    "CurrentMain.CurrentPR589CPrefix.middle_no_self_reads",
+    "CurrentMain.CurrentPR589CPrefix.middle_no_target_reads",
+    "CurrentMain.CurrentPR589CPrefix.middle_no_target_writes",
+    "CurrentMain.CurrentPR589CPrefix.first_preserves_off_target",
+    "CurrentMain.CurrentPR589CPrefix.last_preserves_off_target",
+    "CurrentMain.CurrentPR589CPrefix.ordered_C_prefix_binding",
+    "CurrentMain.CurrentPR589CPrefix.prefix_runs_reverse",
+    "CurrentMain.CurrentPR589CPrefix.ordered_C_binding",
+    "CurrentMain.CurrentPR589CPrefix.selected_off_target_cleanup",
+    "CurrentMain.CurrentPR589CPrefix.selected_target_value"
+  ],
+  "new_decisions": 1,
+  "new_generic_inductions": 0,
+  "resource_plan": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "resource_qualification": "New499-element reversal equality and symbolic composed proof fit are unmeasured. Prior128-pair/join timings do not bound its reduction depth or VM. Root-specific first-check admission and one exact current/driver review remain prerequisites.",
+  "remaining": [
+    "D parity equality and target shear identification",
+    "Current Fin662/temp661 COPY/scatter lifecycle",
+    "Frame geometry, physical realization, supplier/recurrence and full kappa theorem"
+  ],
+  "compiler_invoked": false
+}
