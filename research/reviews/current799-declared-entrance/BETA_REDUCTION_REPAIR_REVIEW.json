@@ -1,0 +1,55 @@
+{
+  "status": "PASS_INDEPENDENT_FAILURE_DISPOSITION_AND_EXACT_PROOF_LOCAL_REPAIR",
+  "utc": "2026-10-13T10:16:36.513263+00:00",
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/beta_reduction_repair/SOURCE_REPAIR_PROPOSAL.json",
+    "sha256": "093e53664e083b7f223a88a2045e3740e917ef24d34c353e3eb10e31bd9e1005",
+    "bytes": 2264
+  },
+  "candidate": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/beta_reduction_repair/Current799DeclaredEntrance.lean.pending",
+    "sha256": "e71f8bcd99321ae951f5cb4dabfe63da7237e1311711e5cfa36d3840c6bdff80",
+    "bytes": 3764
+  },
+  "failed_source": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/machine_contracts/current799_declared_entrance/Current799DeclaredEntrance.lean",
+    "sha256": "0c7ec4b95b634c03ec059f215e6acf5e6a38d23f4e44fe590557dfefe7c6864d",
+    "bytes": 3677
+  },
+  "failure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/FIRST_FAILURE_PRESERVATION.json",
+    "sha256": "406312ff6498ef1de4268ee98c0a06fec2e66ada16926f8d6d2085199a83e53c",
+    "bytes": 16501
+  },
+  "exact_inverse": {
+    "old": "  rw [hexecPrefix,\n    folded_prefix_chart",
+    "new": "  rw [hexecPrefix]\n  change physRun rec earlyA (actualEntry (physRun rec pre h)) i = T (labels i) (x i)\n  rw [folded_prefix_chart",
+    "occurrences": 1,
+    "byte_exact_inverse": true
+  },
+  "failure_archives_rehashed": 21,
+  "current_quadruples_rehashed": 6,
+  "protected_quadruples_rehashed": 257,
+  "receipt_metrics": {
+    "status": "FAIL",
+    "compile_seconds": 3.812159483000869,
+    "process_observations": {
+      "samples": 38,
+      "peak_vm_bytes": 2098274304,
+      "peak_rss_bytes": 1502339072,
+      "peak_threads": 3
+    }
+  },
+  "failure_diagnosis": "The single error is a failed rewrite under the applied hexecPrefix lambda. The first diagnostic probe is clean but the entire module is rejected and no object exists; the second probe includes sorryAx.",
+  "source_api_reason": "After rw[hexecPrefix], change beta-reduces only the displayed lambda application. Its resulting target is definitionally identical and matches folded_prefix_chart exactly. The same rewrite then substitutes enteredChart and hlabels. Neither operator equations nor traces nor actual entry/prefix equalities are weakened.",
+  "unchanged": [
+    "All theorem statements and explicit hypotheses",
+    "Both public probes and both printed types",
+    "Imports/options",
+    "Following folded_prefix_chart invocation and case split",
+    "All six accepted inputs and257 protected outputs"
+  ],
+  "source_review_limit": "The earlier independent source readback missed this elaboration-specific beta-redex matching condition. This repair review is source/API evidence, not successful elaboration.",
+  "compiler_invoked": false,
+  "next_boundary": "Await the sole independent failed-prestate binding and existing bounded ordinary retry authority; no automatic second repair."
+}
