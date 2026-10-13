@@ -1,0 +1,144 @@
+{
+  "status": "PASS_INDEPENDENT_TWO_SEPARATE_REMAINING_AC_SOURCE_API_REVIEWS",
+  "review_started_utc": "2026-10-13T09:02:36Z",
+  "completed_utc": "2026-10-13T09:04:13.074939+00:00",
+  "preparation": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_remaining/SOURCE_PREPARATION.json",
+    "sha256": "5ae4cb8f67f8eab5cb1f8995431bb8abbaa21471f54c39077192c22109dd9a27",
+    "bytes": 4545
+  },
+  "packets": [
+    {
+      "binding": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/SOURCE_BINDING.json",
+        "sha256": "8b359ca94a4e47971e0ea4e018d57841d3588dc4c5dde7fc81ea1f41df5e4a3a",
+        "bytes": 3503
+      },
+      "proposal": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/CHECK_PROPOSAL.json",
+        "sha256": "ed1ce2d4226d0efc7e35995a533278b6b276a0518b77caad08d4db3fbc74cb0b",
+        "bytes": 3472
+      },
+      "transform": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/SOURCE_TRANSFORM.json",
+        "sha256": "ae41bf599694e366c11077dd4a0fca92c012964dd4029bdbf7511d0e6b21d545",
+        "bytes": 16321
+      },
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/CurrentPR589AC015Data.lean",
+          "sha256": "51524f69a1ae31c08c836173cc458fc29f7f672859047205ed03ed8c8f07c73c",
+          "bytes": 6207
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tuning128/CurrentPR589AC015Check.lean",
+          "sha256": "6572c5d49e594c048de807f745855e0decc42115381fdf16d91a3141f82cec55",
+          "bytes": 8574
+        }
+      ],
+      "scope": {
+        "pair_ordinal": 15,
+        "A_half_open": [
+          1920,
+          2048
+        ],
+        "C_half_open": [
+          526,
+          654
+        ],
+        "gates_each": 128,
+        "operands_each": 174,
+        "max_arity": 8,
+        "arity_histogram": {
+          "1": 119,
+          "8": 1,
+          "5": 2,
+          "7": 3,
+          "6": 2,
+          "4": 1
+        },
+        "source_operand_occurrences": 12,
+        "helper_operand_occurrences": 162,
+        "helper_destinations": true,
+        "no_target_operands": true,
+        "no_self_reads": true,
+        "exact_frame1_reverse": true
+      },
+      "raw_inverse": true,
+      "proof_suffix_exact_after_namespace_and_documentation": true,
+      "decisions": 7,
+      "probes": 17
+    },
+    {
+      "binding": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/SOURCE_BINDING.json",
+        "sha256": "c1ec20306983bfd1035c7ebf087b5fae48f9c10cc87aff27b0911404e26a1fc3",
+        "bytes": 3433
+      },
+      "proposal": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CHECK_PROPOSAL.json",
+        "sha256": "237ea975c81fd591a8d5ecd47e6013c72a7521b40fce42a2ea5fa47cb8564b68",
+        "bytes": 3405
+      },
+      "transform": {
+        "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/SOURCE_TRANSFORM.json",
+        "sha256": "bc419d1434eb48da8ef34d14663651d237f81e32f192f1a217835956e553e206",
+        "bytes": 11663
+      },
+      "sources": [
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Data.lean",
+          "sha256": "f5e13021583ad55c8f7bd160dc38b78c39e2713e6e18de062ed1ef440f424732",
+          "bytes": 1824
+        },
+        {
+          "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
+          "sha256": "a6663ce7366d51acf512ad9447a667c046d573bec86410397e20cc3d3b1fa4e3",
+          "bytes": 8568
+        }
+      ],
+      "scope": {
+        "pair_ordinal": 16,
+        "A_half_open": [
+          2048,
+          2075
+        ],
+        "C_half_open": [
+          499,
+          526
+        ],
+        "gates_each": 27,
+        "operands_each": 36,
+        "max_arity": 2,
+        "arity_histogram": {
+          "1": 18,
+          "2": 9
+        },
+        "source_operand_occurrences": 0,
+        "helper_operand_occurrences": 36,
+        "helper_destinations": true,
+        "no_target_operands": true,
+        "no_self_reads": true,
+        "exact_frame1_reverse": true
+      },
+      "raw_inverse": true,
+      "proof_suffix_exact_after_namespace_and_documentation": true,
+      "decisions": 7,
+      "probes": 17
+    }
+  ],
+  "mechanism": "Exact ordered operands are retained through bound-carrying Fin661 decoding. Fresh block_shape facts express changed counts/max arity. The entire suffix from raw_domains onward recovers the accepted no-self-read/no-target reversal/conditional-cleanup proof after namespace and documentation normalization; list arity is unrestricted by that generic proof.",
+  "conditional_scope": "Actual intervening B writes helper465/466/468, so the target-only middle premise is not discharged by either isolated window. Whole-list composition, reverse Bmiddle, D compensation and Fin662 lifecycle remain open.",
+  "resource_scope": "Two separate source packets only; actual current inventories and bounded first-check admission remain separate. No combined four-root release inferred.",
+  "compiler_executed": false,
+  "upstream_executed": false,
+  "committed_applicability": {
+    "commit": "f6e597c895b3c287703573d65973ec951d222e53",
+    "binding": {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_remaining/COMMIT_BINDING.json",
+      "sha256": "4fe89e610cd9408cfd51abe86403ccd7f1a90ac94dc8487b6db50f05c4f370b1",
+      "bytes": 2555
+    },
+    "exact_git_bodies": 10
+  }
+}
