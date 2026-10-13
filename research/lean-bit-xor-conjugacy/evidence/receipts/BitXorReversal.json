@@ -1,0 +1,118 @@
+{
+  "module": "BitXorReversal",
+  "output_provenance": "FRESH_CURRENT_EXECUTOR_RUN",
+  "status": "PASS",
+  "started_utc": "2026-10-13T13:13:28.320269+00:00",
+  "finished_utc": "2026-10-13T13:13:28.619657+00:00",
+  "command": [
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/bin/lean",
+    "-s65536",
+    "-j1",
+    "-o",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorReversal.olean",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorReversal.lean"
+  ],
+  "cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources",
+  "environment_overrides": {
+    "LEAN_PATH": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects",
+    "MIMALLOC_ARENA_RESERVE": "64MiB",
+    "LEAN_NUM_THREADS": "1"
+  },
+  "hard_wall_seconds": 60,
+  "rlimit_as_bytes": 4294967296,
+  "review_wall_seconds": 45,
+  "review_vm_peak_bytes": 3758096384,
+  "exit_code": 0,
+  "stop_reason": null,
+  "compile_seconds": 0.29937363200042455,
+  "peak_vm_bytes": 841068544,
+  "peak_rss_bytes": 327819264,
+  "kernel_peak_rss_bytes": 327565312,
+  "peak_threads": 4,
+  "samples": 58,
+  "sample_interval_seconds": 0.005,
+  "user_cpu_seconds": 0.249382,
+  "system_cpu_seconds": 0.048686,
+  "source_bytes": 6073,
+  "source_sha256": "a18488327c2250fdcf0895ae4d0517e5190e97514ec1280b64879c2b70436f0f",
+  "lean_binary_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+  "official_core_manifest_sha256": "2c27354193fc7b11079b61116ab8e9c80485903845bda48ddf3c66057fed2cb1",
+  "official_core_pairs": 317,
+  "official_core_ordered_edges": 1077,
+  "imports": [
+    "BitXorTargetTranslation"
+  ],
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_append",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_scalarize",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.step_involutive",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_reverse_cancel",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_agree_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.cleanup_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.cleanup_target_value",
+      "axioms": [
+        "propext"
+      ]
+    }
+  ],
+  "expected_probes_match": true,
+  "standard_only_axioms": true,
+  "forbidden_axioms_or_sorry": false,
+  "raw_log_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorReversal.raw.log",
+  "raw_log_sha256": "bd9549010e35c816e7d0405aa44131edc63b7342aae4f1f85cf486107035c9b1",
+  "object_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorReversal.olean",
+  "object_bytes": 115832,
+  "object_sha256": "9c6c8332f94924896ff38809bbf0c7ac77b5744c8a8792736d99bd002998fa94",
+  "pre_guard": {
+    "verified_utc": "2026-10-13T13:13:28.317493+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 6,
+    "successful_predecessor_artifacts_checked": 3,
+    "guard_seconds": 0.11954272700040747
+  },
+  "post_guard": {
+    "verified_utc": "2026-10-13T13:13:28.750703+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 6,
+    "successful_predecessor_artifacts_checked": 4,
+    "guard_seconds": 0.13077186000009533
+  },
+  "post_guard_error": null
+}

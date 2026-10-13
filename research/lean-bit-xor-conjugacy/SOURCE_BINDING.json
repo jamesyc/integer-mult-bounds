@@ -1,0 +1,23 @@
+{
+  "bound_before_compilation_utc": "2026-10-13T13:07:01.268183+00:00",
+  "module": "BitXorConjugacy",
+  "file": "BitXorConjugacy.lean",
+  "bytes": 4183,
+  "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d",
+  "transport_text_sha256": "1735cd6c8ac25f24f484dae033b3e822c896b34babee5019f7563700fa492d3e",
+  "transport_entity_decoding_only": {
+    "&gt;": ">",
+    "&lt;": "<"
+  },
+  "source_origin": "signed-owner source/API-reviewed handoff, independently reviewed by bank; proposal supplied in delegated message",
+  "imports": [
+    "BitXorReversal"
+  ],
+  "expected_probe_declarations": [
+    "CurrentMain.BitXorConjugacy.run_xor",
+    "CurrentMain.BitXorConjugacy.conjugated_target_injection"
+  ],
+  "axiom_rule": "complete ordered records; only propext, Classical.choice, Quot.sound permitted",
+  "source_repair_permitted": false,
+  "output_provenance": "fresh compilation required; no retained local output"
+}

@@ -1,0 +1,19 @@
+/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorTargetTranslation.lean:96:0: warning: automatically included section variable(s) unused in theorem 'CurrentMain.BitXor.run_off_target':
+  [DecidablePred target]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidablePred target] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorTargetTranslation.lean:110:0: warning: automatically included section variable(s) unused in theorem 'CurrentMain.BitXor.erase_shift_self':
+  [DecidableEq Reg]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Reg] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorTargetTranslation.lean:127:0: warning: automatically included section variable(s) unused in theorem 'CurrentMain.BitXor.erased_eq_of_agree_off_target':
+  [DecidableEq Reg]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Reg] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'CurrentMain.BitXor.run_shift' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXor.run_off_target' depends on axioms: [propext]
+'CurrentMain.BitXor.target_identity' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXor.erased_eq_of_agree_off_target' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,2 @@
+'CurrentMain.BitXorConjugacy.run_xor' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXorConjugacy.conjugated_target_injection' depends on axioms: [propext, Quot.sound]

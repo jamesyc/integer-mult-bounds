@@ -1,0 +1,130 @@
+{
+  "kind": "fresh-core-only-signed-owner-handoff-verification",
+  "status": "PASS",
+  "stage": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6",
+  "started_utc": "2026-10-13T13:13:27.614312+00:00",
+  "modules_planned": 3,
+  "axiom_records_required": 13,
+  "historical_outputs_retained": 0,
+  "fresh_receipts": [
+    {
+      "module": "BitXorTargetTranslation",
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorTargetTranslation.json",
+      "sha256": "cc2611a9a4e75908ca2896dbd20814bbeca61860c00dc1385b01fbff64a8fdf4",
+      "status": "PASS"
+    },
+    {
+      "module": "BitXorReversal",
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorReversal.json",
+      "sha256": "cd75adee41ddc21e7a3e75f128686a83f1dd026544272f2eca26d339e98c9404",
+      "status": "PASS"
+    },
+    {
+      "module": "BitXorConjugacy",
+      "path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorConjugacy.json",
+      "sha256": "3ada7342bb343c05d515ededed8a59b9cb806aa9224a4c9a1722905dacd0e11b",
+      "status": "PASS"
+    }
+  ],
+  "finished_utc": "2026-10-13T13:13:29.378161+00:00",
+  "modules_successful": 3,
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXor.run_shift",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXor.run_off_target",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXor.target_identity",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXor.erased_eq_of_agree_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_append",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_scalarize",
+      "axioms": []
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.step_involutive",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_reverse_cancel",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.run_agree_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.cleanup_off_target",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorReversal.cleanup_target_value",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorConjugacy.run_xor",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorConjugacy.conjugated_target_injection",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "axiom_records_observed": 13,
+  "final_guard": {
+    "verified_utc": "2026-10-13T13:13:29.375611+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 6,
+    "successful_predecessor_artifacts_checked": 9,
+    "guard_seconds": 0.11986708600034035
+  },
+  "peak_vm_bytes": 841175040,
+  "peak_rss_bytes": 328904704,
+  "compile_seconds": 0.8769267650013717
+}
