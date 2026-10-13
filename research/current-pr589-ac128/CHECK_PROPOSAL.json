@@ -1,0 +1,73 @@
+{
+  "status": "FIRST_BOUNDED_REPRESENTATIVE_PROPOSAL_AFTER_INDEPENDENT_REVIEWS",
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/SOURCE_BINDING.json",
+    "sha256": "9d5a2c2bc72c8f5fcb4d17c2e2f9fa691e03b8c7ac75caa1d6cffc36578a9967",
+    "bytes": 2423
+  },
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+      "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+      "bytes": 5312
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+      "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+      "bytes": 8554
+    }
+  ],
+  "ordered_roots": [
+    "CurrentPR589AC128Data",
+    "CurrentPR589AC128Check"
+  ],
+  "prospective_complete_local_scope": [
+    4,
+    2,
+    2
+  ],
+  "prospective_total_scope": [
+    321,
+    319,
+    2
+  ],
+  "official_core": 317,
+  "retained_local_roots": [
+    "BitXorTargetTranslation",
+    "BitXorReversal"
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentPR589AC128.block_shape",
+    "CurrentMain.CurrentPR589AC128.raw_domains",
+    "CurrentMain.CurrentPR589AC128.raw_cleanup_binding",
+    "CurrentMain.CurrentPR589AC128.no_self_reads",
+    "CurrentMain.CurrentPR589AC128.no_target_reads",
+    "CurrentMain.CurrentPR589AC128.no_target_writes",
+    "CurrentMain.CurrentPR589AC128.helper_only_destinations",
+    "CurrentMain.CurrentPR589AC128.decode_roundtrip",
+    "CurrentMain.CurrentPR589AC128.ordered_A_binding",
+    "CurrentMain.CurrentPR589AC128.ordered_C_binding",
+    "CurrentMain.CurrentPR589AC128.decoded_no_self_reads",
+    "CurrentMain.CurrentPR589AC128.decoded_no_target_reads",
+    "CurrentMain.CurrentPR589AC128.decoded_no_target_writes",
+    "CurrentMain.CurrentPR589AC128.cleanup_runs_reverse",
+    "CurrentMain.CurrentPR589AC128.isolated_block_inverse",
+    "CurrentMain.CurrentPR589AC128.conditional_off_target_cleanup",
+    "CurrentMain.CurrentPR589AC128.conditional_target_value"
+  ],
+  "probe_count": 17,
+  "finite_decisions": 7,
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "protected_prior_roots": 45,
+  "authority": "Root2026-10-13T07:20:58 approves this smallest128-gate A/C source window after independent source/API/binding and established bounded admission.",
+  "scope_limit": "One representative only. No remaining windows, cumulative join or D expansion.",
+  "compiler_jobs": 0
+}

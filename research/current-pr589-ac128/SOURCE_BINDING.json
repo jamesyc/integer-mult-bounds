@@ -1,0 +1,61 @@
+{
+  "status": "SOURCE_ONLY_FRESH_PR589_AC128_UNCHECKED",
+  "utc": "2026-10-13T07:28:42.162295+00:00",
+  "current_main": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "author_checked_context_kappa": "1661634653669567/1000000000000000000",
+  "raw_source": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "decoded_source_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b",
+  "source_applicability": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CURRENT_MAIN_APPLICABILITY.json",
+    "sha256": "0ea3bf3d2f86e23079d9801ee38634aa17e4511c45e6e712017cf4f234ffefca",
+    "bytes": 3921
+  },
+  "A_half_open": [
+    0,
+    128
+  ],
+  "C_half_open": [
+    2446,
+    2574
+  ],
+  "gates_each": 128,
+  "operands_each": 128,
+  "maximum_arity": 1,
+  "registers": 661,
+  "frame_count": 636,
+  "A_destinations": "helpers222..660",
+  "A_operands": "sources0..110",
+  "C_binding": "exact frame1 reverse of this A interval",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Data.lean",
+      "sha256": "38abd5ab06a0813415debfbadb58ea6ee8840b44fc239515099eeddeee85509b",
+      "bytes": 5312
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/CurrentPR589AC128Check.lean",
+      "sha256": "820db7862253e1732591cbe9e87bb4028b2548d6f6917a207973b5c44f224a39",
+      "bytes": 8554
+    }
+  ],
+  "source_transform": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac128/SOURCE_TRANSFORM.json",
+    "sha256": "4ae37cc9996e72019d440472085cf2e012e4ec48ded2462c8de8d5e2e84d07aa",
+    "bytes": 15681
+  },
+  "retained_generic_apis": [
+    "BitXorTargetTranslation",
+    "BitXorReversal"
+  ],
+  "scope": [
+    "Fresh raw tuple domains and Fin661 decoding; no historical Fin720 proof relabelling.",
+    "Isolated inverse for arbitrary state and conditional cleanup/target formula through an off-target-preserving middle map.",
+    "No full selected A/C or actual intervening-map theorem, D parity, geometry or physical transport."
+  ],
+  "compiler_jobs": 0,
+  "upstream_code_executed": false
+}
