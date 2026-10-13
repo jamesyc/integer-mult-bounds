@@ -1,0 +1,32 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_BANK_REVIEW_AND_BINDING",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-initial-labels/Current799InitialLabels.lean",
+    "sha256": "9c03b282550e897fe89c7d51096957b0878f646fcfe6abb3a9901852dc4bee22",
+    "bytes": 1530
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-initial-labels/SOURCE_BINDING.json",
+    "sha256": "98915905a296dfcb646cade1f040532808a47c1cacd4494e9cb1ce0258a1d402",
+    "bytes": 5678
+  },
+  "scope": [
+    8,
+    7,
+    1
+  ],
+  "external_pairs": 2213,
+  "direct_imports": [
+    "Current799EntryConnection",
+    "Current799First33CoverageData"
+  ],
+  "axiom_probes": [
+    "CurrentMain.Current799InitialLabels.selected_initial_labels"
+  ],
+  "printed_types": [
+    "@CurrentMain.Current799InitialLabels.selected_initial_labels"
+  ],
+  "finite_work": "Sixteen closed initial-label projection goals after splitting the selected support membership. No first33 checkRows, scalar execution, whole-table predicate,operator decision or stream induction.",
+  "remaining": "Only hlabels can be discharged. Actual prefix execution-to-labels0 and all operator/executor/chart premises remain explicit.",
+  "resource_fit": "Unmeasured; prospective original60s/4GiB hard and45s/3.5GiB review caps; no compiler without independent reviews/admission."
+}
