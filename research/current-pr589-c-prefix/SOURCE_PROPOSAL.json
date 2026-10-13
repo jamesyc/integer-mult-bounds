@@ -1,0 +1,130 @@
+{
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_API_AND_FIRST_GATE_ADMISSION",
+  "utc": "2026-10-13T10:26:02.741915+00:00",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-c-prefix/CurrentPR589CPrefixData.lean",
+      "sha256": "c30cd1200b568f98324805eeac3f808b7f622c7e9a74744e616e6c6c48f04d44",
+      "bytes": 9058
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-c-prefix/CurrentPR589CPrefixCheck.lean",
+      "sha256": "537bb1095cb5e4c0aa2758d663adedbde0a9ac6ada885014126609769f53ef6b",
+      "bytes": 10713
+    }
+  ],
+  "selected_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "author_checked_kappa": "1661634653669567/1000000000000000000",
+  "raw": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "decoded_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b",
+  "raw_projection": {
+    "C": [
+      0,
+      499
+    ],
+    "B_middle": [
+      102,
+      601
+    ],
+    "gates_each": 499,
+    "operands_each": 499,
+    "maxarity": 1,
+    "source_writes": 483,
+    "helper_writes": {
+      "465": 6,
+      "466": 5,
+      "468": 5
+    },
+    "frame1_reverse_exact": true,
+    "A_suffix_unchanged": true
+  },
+  "source_expression_binding": {
+    "firstDecoded": "CurrentPR589PhaseBXor.decodedPhaseB.take 102",
+    "middleDecoded": "(CurrentPR589PhaseBXor.decodedPhaseB.drop 102).take 499",
+    "lastDecoded": "(CurrentPR589PhaseBXor.decodedPhaseB.drop 102).drop 499",
+    "decodedCPrefix": "middleDecoded.reverse.map frameOne",
+    "assembledC": "decodedCPrefix ++ CurrentPR589ACJoin.assembledCSuffix"
+  },
+  "source_identity_boundary": "External exact tuple/expression readback, separate from kernel acceptance; no supplier execution.",
+  "source_api_plan": [
+    "Use existing map_take/map_drop and accepted band lengths/order for the three exact decoded bands.",
+    "Transport middle subset membership to accepted B no-self/no-target read facts; middle destination fact comes from accepted middle_off_target_band.",
+    "Bind fresh raw C prefix by one equality decision, then apply existing scalarize/reverse-run laws.",
+    "First/last target-only destinations prove their actual off-target preservation; these discharge both generic two-level hypotheses.",
+    "Compose accepted A/reverse-A suffix execution with C prefix to restore all arbitrary original off-target bits through actual A,B,C. Target value remains the value after A then B."
+  ],
+  "public_probes": [
+    "CurrentMain.CurrentPR589CPrefix.raw_cleanup_binding",
+    "CurrentMain.CurrentPR589CPrefix.ordered_first_binding",
+    "CurrentMain.CurrentPR589CPrefix.ordered_middle_binding",
+    "CurrentMain.CurrentPR589CPrefix.ordered_last_binding",
+    "CurrentMain.CurrentPR589CPrefix.decoded_B_split",
+    "CurrentMain.CurrentPR589CPrefix.execute_B_split",
+    "CurrentMain.CurrentPR589CPrefix.middle_write_counts",
+    "CurrentMain.CurrentPR589CPrefix.middle_no_self_reads",
+    "CurrentMain.CurrentPR589CPrefix.middle_no_target_reads",
+    "CurrentMain.CurrentPR589CPrefix.middle_no_target_writes",
+    "CurrentMain.CurrentPR589CPrefix.first_preserves_off_target",
+    "CurrentMain.CurrentPR589CPrefix.last_preserves_off_target",
+    "CurrentMain.CurrentPR589CPrefix.ordered_C_prefix_binding",
+    "CurrentMain.CurrentPR589CPrefix.prefix_runs_reverse",
+    "CurrentMain.CurrentPR589CPrefix.ordered_C_binding",
+    "CurrentMain.CurrentPR589CPrefix.selected_off_target_cleanup",
+    "CurrentMain.CurrentPR589CPrefix.selected_target_value"
+  ],
+  "new_decisions": 1,
+  "new_generic_inductions": 0,
+  "scope": [
+    361,
+    359,
+    2
+  ],
+  "local_scope": [
+    44,
+    42,
+    2
+  ],
+  "official_core": 317,
+  "protected_outputs": 80,
+  "closure": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_c_prefix/SOURCE_ONLY_CLOSURE.json",
+    "sha256": "689714309b912e179b2635f7f6c3990ddde016faf2633cf6fb94904315002467",
+    "bytes": 545388
+  },
+  "retained_terminal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_join/ANALYTIC_TERMINAL_REVIEW.json",
+    "sha256": "acddae6310a861d2d60e69261c509334e49753f2e3eb6f6fcd2610b500a23f83",
+    "bytes": 4109
+  },
+  "baseline": {
+    "cumulative_join_seconds": 1.639638496,
+    "first128_pair_seconds": 3.30305143,
+    "fit": "New499 equality and combined symbolic proof fit unmeasured; no resource extrapolation."
+  },
+  "caps": {
+    "hard_seconds_per_module": 60,
+    "hard_vm_bytes": 4294967296,
+    "review_seconds_per_module": 45,
+    "review_vm_bytes": 3758096384,
+    "serial": true,
+    "stop_on_first_failure_or_review": true,
+    "automatic_retry": false
+  },
+  "root_source_authority": "Root2026-10-13 10:07:59: prepare smallest C-prefix/B-middle join from3a62f0e0 with exact483/16writes and two-level conditions; freeze source/scope/probes/decisions with standard driver and obtain API review before proposing first gate.",
+  "compiler_admission": "Not yet requested for this concrete361/359/2 packet. No dispatch before independent source/API, binding and explicit first-gate admission.",
+  "remaining": [
+    "D parity equality and target shear identification",
+    "Current Fin662/temp661 COPY/scatter lifecycle",
+    "Frame geometry, physical realization, supplier/recurrence and full kappa theorem"
+  ],
+  "preparer": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_c_prefix/prepare_source_boundary.py",
+    "sha256": "e727403f88f381fde78a8dee7f0daf966b38d3d07c94ba34c15d5011e68a0765",
+    "bytes": 6458
+  },
+  "compiler_runs": 0
+}
