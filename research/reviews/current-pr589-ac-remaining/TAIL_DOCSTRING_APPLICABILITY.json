@@ -1,0 +1,27 @@
+{
+  "status": "PASS_EXACT_COMMENT_ONLY_APPLICABILITY",
+  "utc": "2026-10-13T09:19:13.371559+00:00",
+  "amendment": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_remaining/tail_docstring_amendment/AMENDMENT.json",
+    "sha256": "d6bef6892fc5651490e14f0e8019dbbfe627512cd6f4e750253a4668450985ab",
+    "bytes": 3231
+  },
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-ac-tail27/CurrentPR589AC016Check.lean",
+    "sha256": "614afc98eccafc5a8503b90383d36a7924da9226c24928403c368c8ef3d56b5b",
+    "bytes": 8566
+  },
+  "original_science_review": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac-remaining/SCIENTIFIC_SOURCE_REVIEW.json",
+    "sha256": "aee36fa385f1e0b969701703bdd3c949ecb7523319f2bf67cb027c585763f6d4"
+  },
+  "exact_replacement": {
+    "before": "The exact isolated 128+128 scalar word",
+    "after": "The exact isolated 27+27 scalar word",
+    "count": 1
+  },
+  "five_preimages_verified": true,
+  "commit_verified": "74ad3476dade3f7676a256a8100f4ca30a10d430",
+  "statements_proofs_imports_options_literals_probes_unchanged": true,
+  "scope": "Prior aee36fa3 review applies to corrected 27+27 docstring; no new census/compiler or gate admission."
+}
