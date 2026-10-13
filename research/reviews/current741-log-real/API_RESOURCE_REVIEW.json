@@ -1,0 +1,80 @@
+{
+  "status": "PASS_INDEPENDENT_TEMPLATE_API_RESOURCE_SHAPE_REVIEW",
+  "utc": "2026-10-13T07:17:20.622052+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current741-log-real/Current741LogRealEnclosure.lean",
+    "sha256": "e1978cbd3e5c4e5417aaea4da3561a21a28af689979bb8ec2a790d493242db12",
+    "bytes": 8616
+  },
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current741-log-real/SOURCE_BINDING.json",
+    "sha256": "d3d0b7592c45ed4fddb0f4b8557018ec13ac6d19d4c22efb8da98a89661ada7f",
+    "bytes": 9632
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current741-log-real/CHECK_PROPOSAL.json",
+    "sha256": "cc8d52527a94420186fc679ef7687d5f31057468022cbf9ad3f93ffa65758c69",
+    "bytes": 64351
+  },
+  "exact_generic_reference": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-selected-moment-log-unit-enclosure/SelectedMomentLogUnitEnclosure.lean",
+    "sha256": "fc9cb9eed2782dc513783e27a4171906af4881410c06b9cc723bbb9597d5352a",
+    "bytes": 8938
+  },
+  "byte_equal_generic_declarations": [
+    "oddSum",
+    "paired_sum",
+    "log_auxiliary",
+    "cast_power",
+    "cast_term",
+    "cast_block",
+    "cast_block_step",
+    "cast_sum80",
+    "auxiliaryTail",
+    "sourceTail",
+    "cast_auxiliaryTail",
+    "cast_sourceTail",
+    "cast_unitUpper",
+    "unit_from_tail"
+  ],
+  "finite_dependency": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-current741-log-checkpoints/Current741LogCheckpoints.lean",
+    "sha256": "3c8de84bb92bdfebf5960578c10dcd4613a3ddd717e94be3028c3c1892cddb0d",
+    "bytes": 7896
+  },
+  "fresh_formula": "z29/117 yields (1+z)/(1-z)=73/44; existing Log.Deriv signed remainders and80+6 term decomposition yield unitUpper after the one pending tail decision.",
+  "literal_cast_binding": "Exact accepted z29_117_upper numerator/denominator and explicit Rat.cast_div/Rat.cast_ofNat simp retained.",
+  "source_scope": "Two Real bounds only. Neither profile count/rate nor weighted moment or supplier endpoint is established by these theorems. Original7ee context and separate f567 same-unit applicability retained.",
+  "resource_shape": {
+    "local_scope": [
+      3,
+      2,
+      1
+    ],
+    "cached_pairs": 3260,
+    "fresh_kernel_decisions": 1,
+    "new_probes": 2,
+    "import_probes": 8,
+    "preserved_roots": 25,
+    "caps": {
+      "hard_seconds": 60,
+      "hard_vm_bytes": 4294967296,
+      "review_seconds": 40,
+      "review_vm_bytes": 3758096384
+    },
+    "fit": "Unmeasured new root; unchanged generic text is not a fit guarantee."
+  },
+  "separate_reviews": [
+    "Signed owns source formula science.",
+    "Integration owns actual current/runtime/source-object first-match and launcher admission.",
+    "Finite independent terminal must be bound before dispatch."
+  ],
+  "compiler_run": false,
+  "timing": {
+    "observed_review_window_utc": [
+      "2026-10-13T07:15:33Z",
+      "2026-10-13T07:17:20.622306+00:00"
+    ],
+    "qualification": "Mixed source/API inspection and validation tools; inference time unknown."
+  }
+}

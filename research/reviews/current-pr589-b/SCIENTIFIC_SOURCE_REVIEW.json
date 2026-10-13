@@ -1,0 +1,96 @@
+{
+  "status": "PASS_INDEPENDENT_LITERAL_SOURCE_API_REVIEW_COMPILER_PENDING",
+  "sealed_utc": "2026-10-13T07:07:15.153077+00:00",
+  "source_commit": "5f2ea9045c061100fca6f599ee808e3ea24dff05",
+  "sources": [
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CurrentPR589BData.lean",
+      "sha256": "ffc2768ad0168ea764e8aaea0a81b4a97129130dcb60e8764f99ab1804b84b23",
+      "bytes": 15929
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CurrentPR589BCheck.lean",
+      "sha256": "3db82fe5b541e1b85e6cf6ec4e4065f496aafca02b7229653daeb1004da6016f",
+      "bytes": 2974
+    },
+    {
+      "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CurrentPR589PhaseBXor.lean",
+      "sha256": "ffd57b2feb3a06289efb2d7fdc2214d275a7fc160d8c828aa375a723c0ff5151",
+      "bytes": 5685
+    }
+  ],
+  "binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/SOURCE_BINDING.json",
+    "sha256": "815c879830b5f480c0ab00fe4d7e45ead23c68d0530450d87d476bd15ac2213c",
+    "bytes": 5390
+  },
+  "proposal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CHECK_PROPOSAL.json",
+    "sha256": "f5069320231df314f276176ee3c4dfb308a7f9dc5f2d97933bf6b34679ecb79e",
+    "bytes": 3501
+  },
+  "current_applicability": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/current-pr589-b-interfaces/CURRENT_MAIN_APPLICABILITY.json",
+    "sha256": "0ea3bf3d2f86e23079d9801ee38634aa17e4511c45e6e712017cf4f234ffefca",
+    "bytes": 3921
+  },
+  "current_gzip": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "bytes": 42353
+  },
+  "generic_api": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/signed/research/selected-bit-xor-interpretation/BitXorTargetTranslation.lean",
+    "sha256": "149a88cfbb2a76a755b1cb697f1c27ab7cc8d61b1cdb190f8affdb5c5f758873",
+    "bytes": 5194
+  },
+  "literal_readback": {
+    "gates": 712,
+    "operands": 934,
+    "band_lengths": [
+      102,
+      499,
+      111
+    ],
+    "arities": [
+      1,
+      1,
+      3
+    ],
+    "middle_source_writes": 483,
+    "middle_helper_writes": 16,
+    "helper_exceptions": [
+      465,
+      466,
+      468
+    ],
+    "no_target_operands": true,
+    "no_self_reads": true,
+    "dimensions": [
+      111,
+      439,
+      661,
+      636
+    ],
+    "exact_ordered_all_occurrences": true
+  },
+  "semantic_review": [
+    "Bound-carrying attach/map decoder preserves every ordered operand and frameID; encode/decode and whole-word identities reuse accepted proof form.",
+    "write_region disjunction is right-associated and all four cases exclude any helper at least222 distinct from465/466/468. run_off_target is applied to exactly this write region.",
+    "No-target operand property remains sufficient for target translation even though some helpers are modified; target_identity uses a target-erased comparison state and no clean-input premise.",
+    "contribution_independent_of_targets requires agreement on all non-target coordinates, including the three mutable helpers.",
+    "No full frame geometry, start/final, A/C/D, scatter, actual operator or physical executor conclusion."
+  ],
+  "finite_probes": 12,
+  "semantic_probes": 7,
+  "finite_decisions": 11,
+  "runtime_review": "Separate integration/frame owner; none performed here.",
+  "timing": {
+    "observed_source_review_wall_utc": [
+      "2026-10-13T07:05:24Z",
+      "2026-10-13T07:07:15.153366+00:00"
+    ],
+    "validation_tool_seconds": 0.027950554998824373,
+    "qualification": "Mixed source/API reasoning and tool inspection; inference time unknown."
+  }
+}

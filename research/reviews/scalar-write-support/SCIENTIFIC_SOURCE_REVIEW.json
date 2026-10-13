@@ -1,0 +1,90 @@
+{
+  "status": "PASS_GENERIC_SUPPORT_AND_HISTORICAL_SOURCE_PROJECTION_REVIEW",
+  "received_utc": "2026-10-13T06:40:57+00:00",
+  "completed_utc": "2026-10-13T06:42:49.085231+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-scalar-write-support/ScalarWriteSupport.lean",
+    "sha256": "93cf6db10a3ffff6b77050a62fec659847aa819b369ed34d7ec28444c7f86e9e",
+    "bytes": 10646
+  },
+  "source_inventory": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/scalar_write_support_proposal/PRE_A_SOURCE_CONTRACT_INVENTORY.json",
+    "sha256": "0a1589a1b2a124ecb0ac255701cca9e257759cf03d7481255541d6a4a088f18d",
+    "bytes": 16127
+  },
+  "pr516": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/bank_routing/external_reuse/PR516Realize.lean",
+    "sha256": "39d6a1031f29b35c59b581ef5ed939aaa4b80b272df39dafc5608c76d2cf4d3f",
+    "bytes": 8106
+  },
+  "pr509": {
+    "path": "/workspace/scratch/c569c316cd54/integer_mult_research/research/current_main_lean_team_20261009/frame_transport/external_reuse/PR509Stream.lean",
+    "sha256": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+    "bytes": 15263
+  },
+  "exact_projection": {
+    "raw_indices_inclusive": [
+      1,
+      9168
+    ],
+    "orientation": "forward",
+    "events": 9168,
+    "SCALE": 56,
+    "ADD": 9112,
+    "target_runs": 224,
+    "target_range_inclusive": [
+      112,
+      223
+    ],
+    "first33_support": [
+      558,
+      559,
+      560,
+      561,
+      570,
+      571,
+      572,
+      573,
+      582,
+      583,
+      584,
+      585,
+      594,
+      595,
+      596,
+      597
+    ],
+    "entry_adapters_outside_theorem": 16
+  },
+  "proof_api_readback": [
+    "physRun_unchanged uses induction only on the supplied event list, preserving arbitrary payloads with the accepted one-step phys_ne and exact destination exclusion. No realization/conjugation proof is duplicated.",
+    "scalRun_unchanged is direct specialization to the identity relabel interpreter.",
+    "expandTargets uses retained order and literal multiplicities; membership in replicate gives target112+Fin112.val and the strict224 bound. Installed List.mem_flatMap/eq_of_mem_replicate names and equality direction verify.",
+    "Historical forward_support_preserved explicitly requires HasSourceWriteTrace es; list membership transports through the supplied destination-trace equality. It proves scalar support preservation only, with no actual prefix decoding/executor claim.",
+    "All224 Lean target/count pairs independently invert to exact raw1..9168. Source annotations0 and56SCALE/9112ADD match, but coefficient meanings are not certified by this trace.",
+    "The16-register support is the exact source operand/destination/relabel support of the accepted first33 slice. Eight ordinary and eight residual entry adapters remain outside this theorem."
+  ],
+  "new_public_probes": [
+    "CurrentMain.ScalarWriteSupport.physRun_unchanged",
+    "CurrentMain.ScalarWriteSupport.scalRun_unchanged",
+    "CurrentMain.ScalarWriteSupport.expanded_target_lt",
+    "CurrentMain.ScalarWriteSupport.Historical596.encoded_event_count",
+    "CurrentMain.ScalarWriteSupport.Historical596.support_above_targets",
+    "CurrentMain.ScalarWriteSupport.Historical596.forward_support_preserved"
+  ],
+  "printed_type_requirement": "The actual forward_support_preserved type must retain htrace: HasSourceWriteTrace es.",
+  "resource_note": "Two closed kernel decisions plus224 small Fin bound proofs; actual fit is unmeasured. The support decision quantifies over Fin736. Runtime/import/admission review remains independent.",
+  "scope_qualification": "Generic theorem reusable; concrete trace remains historical5996. No new7ee02b7 domain/source match, backward-prefix theorem, coefficient/label certificate, adapter execution or physical endpoint inferred.",
+  "compiler_executed_by_reviewer": false,
+  "timing": {
+    "review_wall_window": [
+      "2026-10-13T06:40:57+00:00",
+      "2026-10-13T06:42:49+00:00"
+    ],
+    "window_seconds": 112,
+    "classification": "Independent scientific/API review, including source reading and literal-check preparation. Pure mathematical reasoning was not separately instrumented within this review window.",
+    "tool_validation_wall_seconds": 0.159672177,
+    "actual_inference_minutes": "unknown",
+    "qualification": "Do not treat112 seconds as inference usage or standalone proof-development time. No work is inferred during prior quota/dependency waits."
+  }
+}
