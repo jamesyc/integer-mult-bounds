@@ -1,0 +1,82 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_API_RESOURCE_READBACK_UNCOMPILED",
+  "utc": "2026-10-13T10:04:51.512288+00:00",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/analytic/research/lean-profile-potential-transfer/ProfilePotentialTransfer.lean",
+    "sha256": "91682e1019fef8398a78757370a04f0ecf358360133b057856b7271c7ea324bc",
+    "bytes": 2811
+  },
+  "proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/profile_potential_transfer/SOURCE_PROPOSAL.json",
+    "sha256": "f17a9adf2353d68d9d256538902c3a769a1a8d7a0d6cfec26ba4470a9e953e45",
+    "bytes": 121556
+  },
+  "installed_api_sources": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+      "sha256": "425edb3f9ec427ffd7c1a4f9c474077c8f2390c2fb8798a34cbc813593cb395a",
+      "bytes": 23316
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Analysis/SpecialFunctions/Exp.lean",
+      "sha256": "673508b7ab14e4a695dd5a288b07bee10458933518b6e4fc51986f63c20fdfcf",
+      "bytes": 20583
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/Order/Field/Basic.lean",
+      "sha256": "bc481197f071f9b440f2fa01cd3fe4e88b0d609015bf5ac823c18f69e19d2add",
+      "bytes": 32155
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Algebra/BigOperators/Ring/Finset.lean",
+      "sha256": "fea44f33f9a9e2c465d43addf78cbe7482f901438d296274fc0bb80e54333f3a",
+      "bytes": 15958
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/integer_mult_research/runtime/current_main_mathlib/mathlib4/Mathlib/Tactic/Ring.lean",
+      "sha256": "8c21415c464a2600d93fe33828a67037c80d8aa5fc833fd91895c240f0ef884d",
+      "bytes": 304
+    }
+  ],
+  "parent_runtime_map": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/selected_real_enclosure/INSTALLED_LOG_DERIV_IMPORT_MAP.json",
+    "sha256": "ad8bea5df738b2d1a611c6a8bb8e5186ffebe221da8b598374dcca79c28b3f61",
+    "bytes": 2583852
+  },
+  "scope": {
+    "local": 1,
+    "retained": 0,
+    "fresh": 1,
+    "cached_pairs": 3090,
+    "public_probes": 3,
+    "numeric_decisions": 0
+  },
+  "closure": {
+    "cached_nodes": 3090,
+    "edges": 12160,
+    "object_bytes": 1972271336,
+    "ordered_dependency_recomputed": true,
+    "full_runtime_current_hash_guard": "Separate final binding obligation"
+  },
+  "probes": [
+    "CurrentMain.ProfilePotentialTransfer.logPotential_scale",
+    "CurrentMain.ProfilePotentialTransfer.weighted_logPotential_factorization",
+    "CurrentMain.ProfilePotentialTransfer.normalized_moment_strict_contraction"
+  ],
+  "api_findings": [
+    "log_mul and log_div require nonzero inputs supplied by hq.ne'/ht.ne' and one_ne_zero; exp_log uses the positive hq.",
+    "Two exp_add rewrites recover the left-associated q*exp(b*log(1/q))*potential product; ring proves only commutative real polynomial identities.",
+    "Finite sum factorization uses sum_mul and sum_congr under each hq i hi. No infinite-sum, integrability, coefficient-sign or monotonic-exponent assumption is hidden.",
+    "Normalization rewrites division as multiplication by inverse, factors the finite sum, then uses div_lt_one hL and multiplication by strictly positive exp. It is valid for all real b,c with explicit q,L,t positivity.",
+    "logPotential unfolds definitionally at the final exp_pos proof; exact actual theorem elaboration remains unmeasured."
+  ],
+  "caps": {
+    "review_seconds": 40,
+    "review_vm_bytes": 3758096384,
+    "hard_seconds": 60,
+    "hard_vm_bytes": 4294967296
+  },
+  "resource_assessment": "One fresh structural root; no numeric decisions or imported-root replay. Cached object bytes are footprint, not a peak-VM prediction; compiler fit remains unmeasured under40-second/3.5GiB review and60-second/4GiB hard caps.",
+  "scientific_scope": "Conditional homogeneous potential contraction at every positive real scale. Concrete normalized moments, integer rounding, recurrence/additive work, supplier correctness and all-size multiplication remain outside. Separate signed formula review and final binding/admission required.",
+  "compiler_invoked": false
+}
