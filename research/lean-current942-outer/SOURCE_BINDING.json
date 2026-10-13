@@ -1,0 +1,125 @@
+{
+  "schema": "current942-outer-source-binding-v1",
+  "status": "SOURCE_PREPARATION_UNCOMPILED",
+  "selected_main": "4ae5c82b933e96a62427c69335d71c1d5bdb87c5",
+  "audited_source": "1960cfa919a0945d0ca4cb14ea96237000037903",
+  "author_checked_kappa": "1661960547713947/1000000000000000000",
+  "source": {
+    "module": "Current942OuterClosure",
+    "bytes": 107120,
+    "sha256": "26209f2a42d8d7ae4a252b466ebe98f04d793268dba429e24fd06e2fac69840f",
+    "generator_sha256": "c26f851f85d414543f45f3a92df720c44ee8f973389db9b407eaef8bb305cec8"
+  },
+  "raw_inputs": [
+    {
+      "path": "certificates/selected-result.json",
+      "git_blob": "3d7529d77a5f22d8c6f64f98bd5a0e71b8eee892",
+      "sha256": "1d35283cb0ce3f8db1f285683933517f9e87475d295e2b6316399ad9928c81c3",
+      "bytes": 8988
+    },
+    {
+      "path": "research/community-frontier942-audit/SELECTED-SOURCE.json",
+      "git_blob": "7bb22cec9e1150f81c2d695c73d9f5fe4c847f84",
+      "sha256": "1cd8dfde15919d1c3df9796b262e67898143d9793d2b86ee7b0a47fc903654c9",
+      "bytes": 139619
+    },
+    {
+      "path": "research/community-frontier942-audit/ASSEMBLY.json",
+      "git_blob": "9e71e9c1a1c1cbd1979f0c7bac87495322cbfad0",
+      "sha256": "4b2894956e594e408e111d806c842f2ed2c32aefcadff93fad69ff0b46f1991a",
+      "bytes": 85734
+    },
+    {
+      "path": "research/complex-t37-owners/CLAIM.json",
+      "git_blob": "609cfc6a7311310ee3a311faf70699172d79a55a",
+      "sha256": "a383da34ee22da831fa436ad3483568ae1fcd62cd76581f2c2dd2b6473b346fb",
+      "bytes": 992
+    },
+    {
+      "path": "research/complex-t37-owners/prepare.py",
+      "git_blob": "6f1de4128ef5b6acdcffcecac09c5db9e16bf83c",
+      "sha256": "8414859fc69885e5698fb3dbe0f7d9ee20d9782102e0abf7da991c904920fe47",
+      "bytes": 4850
+    },
+    {
+      "path": "research/complex-t21-owners/data/ADAPTER-EDITS.json",
+      "git_blob": "0ecdc5c06a98931867df6b102d277ec546ad63e2",
+      "sha256": "507e45b14439c8a19e269ee3c92fe9f28c80bf93375696b51e6618494de2c46a",
+      "bytes": 3316
+    },
+    {
+      "path": "research/complex-t21-owners/vendor/pr870/code/assemble.py",
+      "git_blob": "581dd9cb29a45bd68cc651538311b63f6966ad68",
+      "sha256": "15f6986a476bac76bcdc0bfcf51da115389b46f1950d2766b6822f757888b13a",
+      "bytes": 20940
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "bytes": 1742
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/engines/outer.py",
+      "git_blob": "43007488ad2c43187c77cc6798beff8b1cd76ad2",
+      "sha256": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c",
+      "bytes": 3535
+    }
+  ],
+  "derived_caller": {
+    "source": "research/complex-t21-owners/vendor/pr870/code/assemble.py",
+    "recipe": "research/complex-t37-owners/prepare.py",
+    "edits": "research/complex-t21-owners/data/ADAPTER-EDITS.json",
+    "sha256": "d89ed7a68f19e6d0dbb9d1bd75805433b1dc000bd89649fb598ef381c3887925",
+    "method": "Read-only exact reconstruction of declared fixed string edits; no upstream supplier or assembler execution",
+    "native_call": "check_moment('complex',H,73,owner['live'],b,11840,False)",
+    "bit_unchanged": true
+  },
+  "scope": {
+    "local": 5,
+    "retained": 4,
+    "fresh": 1,
+    "cached_pairs": 319,
+    "reachable_nodes": 324,
+    "ordered_edges": 1090,
+    "decisions": 68,
+    "new_probes": 11,
+    "reachable_probes": 38
+  },
+  "predecessor": {
+    "module": "Current942BootstrapCertificate",
+    "commit": "bc5b54e67a977a3d763722423e53361c1389500d",
+    "source_sha256": "3f850bde24a238ce61bd36741a791c4419e17dde7c9b26c550a8bd6cb6ff07d9",
+    "object_sha256": "482b05d76a94ad26c2c330795b4e0f97151e19cd78f35a6064fa9aa1ed233d46",
+    "raw_log_sha256": "e16be3bd07ec2466550eb42ca4495578d74a58baa21bf57838ffac665e167cfd",
+    "receipt_sha256": "4ae7d59d475409ae61b8518e993dffda0be7889bb9ec75ac5a3f3ffef9e29c03",
+    "terminal_sha256": "2ff58388ddcfae496d8e8211a30c2d7732dd17a74fb4322a5e46191cc9d9dd44"
+  },
+  "target": {
+    "value_bindings": 73,
+    "strict_slacks": 47,
+    "margins": 7,
+    "balanced_identities": 3,
+    "row_allowance": 20161,
+    "literal_scalar_gap": "1",
+    "row_product_gap": "23971789/25",
+    "eta": "1/1000000000000000000000000",
+    "beta": "1/1000000000000000000000000",
+    "strict_grid": "kappa < sourceMarginMinimum <= kappa + 1/10^18",
+    "kernel_checked": false
+  },
+  "method": "Recompute rational outer definitions from the accepted seven-update endpoint; preserve all proof bodies after namespace and128 checked literal-site substitutions. Of128 sites,103 actually change. Source template at7ff7d5c2 has SHA98c7b61a95b0ef169edce59defbe60fd20191c7e1ba166f5e0c7915f9e2c0bdc. All47 slacks exactly match current ASSEMBLY. No supplier code executes.",
+  "assumptions_excluded": [
+    "Native, bit and initial saving validity",
+    "Physical meaning of supplied row allowance20161 and literal scalar gap1",
+    "Provider/profile/operator realization and algorithmic recurrence",
+    "Real enclosures, precision/tape and all-size multiplication",
+    "Complete selected-kappa theorem"
+  ],
+  "reuse_comparison": {
+    "pr1052_head": "e7f0319b7a7b4e8e1958ae523affdc123e3ea597",
+    "method": "Read-only independent Python47-slack transcription compared with actual retained outer.py; no audit execution or Lean duplication inferred",
+    "pr1051_head": "3b8fab9b48d54160d0765c316eed45078f32aa5e",
+    "pr1051_scope": "Binding margin, without all47 slacks"
+  }
+}

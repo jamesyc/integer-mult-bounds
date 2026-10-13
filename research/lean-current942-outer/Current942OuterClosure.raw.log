@@ -1,0 +1,15 @@
+'CurrentMain.Current942OuterClosure.strict_constraints_match_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current942OuterClosure.strict_constraint_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.strict_constraints_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CurrentMain.Current942OuterClosure.seven_margins_match' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.seven_margin_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.seven_margin_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.all_margins_above_kappa' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.balanced_prefix_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.gamma_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.geometry_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurrentMain.Current942OuterClosure.selected_kappa_grid' depends on axioms: [propext, Classical.choice, Quot.sound]

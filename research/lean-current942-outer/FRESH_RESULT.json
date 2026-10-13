@@ -1,0 +1,826 @@
+{
+  "status": "PASS",
+  "module": "Current942OuterClosure",
+  "command": [
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/bin/lean",
+    "-j1",
+    "-s65536",
+    "-o",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-outer-5rvj0q4v/metadata/execution/objects/Current942OuterClosure.olean",
+    "Current942OuterClosure.lean"
+  ],
+  "cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-outer-5rvj0q4v/output",
+  "environment": {
+    "LEAN_PATH": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-outer-5rvj0q4v/metadata/execution/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-bootstrap-l_8h4ef6/execution/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-canonical-lf8hsmjx/execution/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/batteries-pilot-20261013T132458Z-32myp4ed/objects:/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/lib/lean",
+    "LEAN_NUM_THREADS": "1",
+    "MIMALLOC_ARENA_RESERVE": "64MiB"
+  },
+  "limits": {
+    "review_seconds_each": 40,
+    "review_vm_bytes": 3758096384,
+    "hard_seconds_each": 60,
+    "rlimit_as_bytes": 4294967296,
+    "aggregate_hard_seconds": 60,
+    "serial": true,
+    "retry": false
+  },
+  "started_utc": "2026-10-13T18:22:40.724951+00:00",
+  "finished_utc": "2026-10-13T18:22:42.340985+00:00",
+  "exit_code": 0,
+  "stop_reason": null,
+  "compiler_seconds": 1.6160219739977038,
+  "peak_vm_bytes": 909168640,
+  "peak_rss_bytes": 351756288,
+  "source_sha256": "26209f2a42d8d7ae4a252b466ebe98f04d793268dba429e24fd06e2fac69840f",
+  "object_sha256": "d0f9a50ddf9de4361990489a75e808baa25c5327f257ea077b86fa3acd89e083",
+  "object_bytes": 731008,
+  "raw_log_sha256": "34ac914a89cfad87e7f6c3b5f6992f38b1518186911c8b040df419879ea5a69a",
+  "complete_ordered_probes": [
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.strict_constraints_match_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.strict_constraint_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.strict_constraints_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.seven_margins_match",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.seven_margin_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.seven_margin_minimum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.all_margins_above_kappa",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.balanced_prefix_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.gamma_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.geometry_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.Current942OuterClosure.selected_kappa_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "before_guard": {
+    "status": "PASS_COMPILER_FREE_GUARD",
+    "verified_utc": "2026-10-13T18:22:40.723883+00:00",
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 324,
+    "reachable_edges": 1090,
+    "retained_roots": 4,
+    "retained_probes": [
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.current_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.upper_matches_current_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.current_upper_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.saving_minimum_is_native",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.shrink_matches_literal",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.supplied_input_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage1_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage2_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage3_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage4_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage5_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage6_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage7_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.bootstrap_endpoint_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "new_probes": [
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.strict_constraints_match_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.strict_constraint_count",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.strict_constraints_positive",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.seven_margins_match",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.seven_margin_count",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.seven_margin_minimum",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.all_margins_above_kappa",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.balanced_prefix_gap",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.gamma_identity",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.geometry_identity",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.selected_kappa_grid",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "first_matches_checked": 323,
+    "local_first_matches": [
+      {
+        "module": "SelectedMomentLogCheckpoints",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentLogCheckpoints.olean",
+        "sha256": "45410e51c7245c94df6116cf6cbc3898f52e1a2a43b575ff1a2b8929a012a79d"
+      },
+      {
+        "module": "SelectedMomentUpperAggregate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentUpperAggregate.olean",
+        "sha256": "514b4159d5e93a3614f3ac8102ca04a9412ef97f3c0184990a1e441afdaf0c78"
+      },
+      {
+        "module": "Current942NativeUpperAggregate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-canonical-lf8hsmjx/execution/objects/Current942NativeUpperAggregate.olean",
+        "sha256": "0a27464ccde1b0dc05447c9bd3d6968443f496df1ea63c3bc4ea6fe00229284e"
+      },
+      {
+        "module": "Current942BootstrapCertificate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-bootstrap-l_8h4ef6/execution/objects/Current942BootstrapCertificate.olean",
+        "sha256": "482b05d76a94ad26c2c330795b4e0f97151e19cd78f35a6064fa9aa1ed233d46"
+      }
+    ],
+    "raw_inputs_checked": 9,
+    "protected_files_checked": 1698,
+    "worktree_heads_statuses_checked": 8,
+    "execution_directory_absent": false,
+    "fresh_object_absent": true,
+    "core_guard": {
+      "verified_utc": "2026-10-13T18:22:40.418557+00:00",
+      "pairs_checked": 317,
+      "ordered_edges_checked": 1077,
+      "actual_source_import_order_matches": true,
+      "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "protected_metadata_count": 1703,
+      "successful_predecessor_artifacts_checked": 9,
+      "guard_seconds": 0.18927956799961976
+    },
+    "guard_seconds": 0.4948148659968865
+  },
+  "after_guard": {
+    "status": "PASS_COMPILER_FREE_GUARD",
+    "verified_utc": "2026-10-13T18:22:42.812780+00:00",
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 324,
+    "reachable_edges": 1090,
+    "retained_roots": 4,
+    "retained_probes": [
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z1_3_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z9_137_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z25_121_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z33_113_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentLogCheckpoints.z17_129_upper",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.source_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.fallback_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.SelectedMomentUpperAggregate.upper_aggregate_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.profile_totals",
+        "axioms": []
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.current_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.ordinary_rounded_exact",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.upper_matches_current_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942NativeUpperAggregate.current_upper_strict",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.saving_minimum_is_native",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.shrink_matches_literal",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.supplied_input_domains",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage1_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage2_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage3_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage4_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage5_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage6_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.stage7_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942BootstrapCertificate.bootstrap_endpoint_matches_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "new_probes": [
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.strict_constraints_match_certificate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.strict_constraint_count",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.strict_constraints_positive",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.seven_margins_match",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.seven_margin_count",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.seven_margin_minimum",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.all_margins_above_kappa",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.balanced_prefix_gap",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.gamma_identity",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.geometry_identity",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "CurrentMain.Current942OuterClosure.selected_kappa_grid",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "first_matches_checked": 323,
+    "local_first_matches": [
+      {
+        "module": "SelectedMomentLogCheckpoints",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentLogCheckpoints.olean",
+        "sha256": "45410e51c7245c94df6116cf6cbc3898f52e1a2a43b575ff1a2b8929a012a79d"
+      },
+      {
+        "module": "SelectedMomentUpperAggregate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/finite-seven-20261013T134924Z-bdtke6sg/objects/SelectedMomentUpperAggregate.olean",
+        "sha256": "514b4159d5e93a3614f3ac8102ca04a9412ef97f3c0184990a1e441afdaf0c78"
+      },
+      {
+        "module": "Current942NativeUpperAggregate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-canonical-lf8hsmjx/execution/objects/Current942NativeUpperAggregate.olean",
+        "sha256": "0a27464ccde1b0dc05447c9bd3d6968443f496df1ea63c3bc4ea6fe00229284e"
+      },
+      {
+        "module": "Current942BootstrapCertificate",
+        "first_match_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/current942-bootstrap-l_8h4ef6/execution/objects/Current942BootstrapCertificate.olean",
+        "sha256": "482b05d76a94ad26c2c330795b4e0f97151e19cd78f35a6064fa9aa1ed233d46"
+      }
+    ],
+    "raw_inputs_checked": 9,
+    "protected_files_checked": 1698,
+    "worktree_heads_statuses_checked": 8,
+    "execution_directory_absent": false,
+    "fresh_object_absent": false,
+    "core_guard": {
+      "verified_utc": "2026-10-13T18:22:42.521942+00:00",
+      "pairs_checked": 317,
+      "ordered_edges_checked": 1077,
+      "actual_source_import_order_matches": true,
+      "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+      "protected_metadata_count": 1703,
+      "successful_predecessor_artifacts_checked": 10,
+      "guard_seconds": 0.180148597999505
+    },
+    "guard_seconds": 0.47123123799974564
+  },
+  "preservation_error": null,
+  "historical_expected_object_hash": null
+}

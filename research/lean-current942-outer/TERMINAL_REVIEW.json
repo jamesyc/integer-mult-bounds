@@ -1,0 +1,83 @@
+{
+  "schema": "current942-outer-independent-terminal-v1",
+  "status": "PASS",
+  "reviewer": "analytic",
+  "closed_utc": "2026-10-13T18:31:44Z",
+  "original_compile_turn": "01a13680-35f5-7242-b692-0e3a11cc042a",
+  "read_only_recovery_turn": "01a13683-8603-7314-ab0a-6d559ac6337d",
+  "actual_result_message": "msg_00854d979964dd50016ace787116188190a2fc2187f44e030b",
+  "scientific_pin": "4ae5c82b933e96a62427c69335d71c1d5bdb87c5",
+  "author_checked_historical_kappa": "1661960547713947/1000000000000000000",
+  "source": {
+    "bytes": 107120,
+    "sha256": "26209f2a42d8d7ae4a252b466ebe98f04d793268dba429e24fd06e2fac69840f",
+    "reviewed_decisions": 68
+  },
+  "object": {
+    "bytes": 731008,
+    "sha256": "d0f9a50ddf9de4361990489a75e808baa25c5327f257ea077b86fa3acd89e083",
+    "verification": "Actual supervisor receipt, successful post-guard and read-only recovery. Binary object was not independently downloaded."
+  },
+  "receipt_and_result": {
+    "bytes": 24391,
+    "sha256": "6afe9120639dd4becdeb74253b6ac56701ef8e709170fc59cc0b38b7a5a17cb9",
+    "independently_hashed_literal": true,
+    "three_literal_chunks_verified": true
+  },
+  "raw_log": {
+    "bytes": 1306,
+    "sha256": "34ac914a89cfad87e7f6c3b5f6992f38b1518186911c8b040df419879ea5a69a",
+    "independently_hashed_literal": true,
+    "exact_ordered_probe_match": true,
+    "observed_probes": 11,
+    "standard_axioms_only": true
+  },
+  "current_guards": {
+    "before_sha256": "523da5d5028cc3c93c84ff1675831ddd80cde101479f137c41939d11a725163b",
+    "after_sha256": "ede82c23fad2fa9bb2db26f9e4f034054f6c06ed2cf7492d33b6a1b7f6fe0d64",
+    "independently_reconstructed_from_literal_receipt": true,
+    "runtime_pairs": 319,
+    "runtime_edges": 1080,
+    "reachable_nodes": 324,
+    "reachable_edges": 1090,
+    "retained_roots": 4,
+    "retained_probes": 27,
+    "retained_first_matches": 323,
+    "scientific_git_inputs": 9,
+    "protected_files": 1698,
+    "worktree_heads_and_statuses": 8,
+    "fresh_absent_before": true,
+    "fresh_present_after": true,
+    "retained_object_origins_exact": true,
+    "preservation_error": null
+  },
+  "binding": {
+    "wrapper_sha256": "dd7a042556e50af11ea9416246393f79f8eff37fd637f5381e9e15ba508727c9",
+    "manifest_sha256": "58acebb89e1d9f9bf8988aea49a66dee832ab81c0ea4791beccd446d5a1abcf3",
+    "complete_binding_review_sha256": "22ec8bb48d21d2857f61c13c90de97b70b0a4552eaf47a677735dd3b6a9aa110",
+    "retained_bootstrap_terminal_sha256": "2ff58388ddcfae496d8e8211a30c2d7732dd17a74fb4322a5e46191cc9d9dd44",
+    "command_cwd_environment_limits_match": true
+  },
+  "actual": {
+    "started_utc": "2026-10-13T18:22:40.724951+00:00",
+    "finished_utc": "2026-10-13T18:22:42.340985+00:00",
+    "exit_code": 0,
+    "stop_reason": null,
+    "compiler_seconds": 1.6160219739977038,
+    "before_guard_seconds": 0.4948148659968865,
+    "after_guard_seconds": 0.47123123799974564,
+    "wrapper_seconds": null,
+    "wrapper_time_qualification": "No whole-wrapper duration is present in the returned saved receipt; no inference or estimate is substituted.",
+    "peak_vm_bytes": 909168640,
+    "peak_rss_bytes": 351756288,
+    "below_review_limits": true
+  },
+  "coverage": {
+    "finite": "All47 exact source-ordered strict slacks, seven margins and their minimum, three balanced identities, and the strict next-tick kappa bracket.",
+    "conditional": "Row allowance20161 and scalar gap1 are supplied constants. The accepted T37 bootstrap has complex charged coefficient1024; the bit coefficient remains512.",
+    "open": "Real saving enclosures and supplier validity, recurrence interpretation, provider/operator/profile or physical realization, precision/tape, integer rounding, all-size transfer and the complete multiplication theorem.",
+    "current_frontier": "This result retains historical T37 source4ae5c82b; it does not establish the later PR1042 T16 endpoint or kappa."
+  },
+  "review_basis": "Complete actual saved receipt and raw-log literals were independently hashed and compared with exact source/probe expectations and the independent launcher seal. Raw Git/runtime/source-object preservation is reported by the guarded executor and subsequent read-only reconciliation; this reviewer did not access the cloud filesystem.",
+  "duplicate_compile_performed": false
+}
