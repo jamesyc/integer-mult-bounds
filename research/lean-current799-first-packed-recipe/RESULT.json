@@ -1,0 +1,59 @@
+{
+  "status": "PASS_CURRENT_KERNEL_AND_INDEPENDENT_TERMINAL_REVIEW",
+  "source_commit": "0c4e654434cfb05834821f83b5893a383e2f71f6",
+  "source_sha256": "94d8abd6c3d6fa576acf146340dd36a5d69dd587f7af7107284f5b0fdb8eb647",
+  "object_sha256": "cd9838b88694012e89db5d21b4aca0c5cd4797dfa16148e14aa26e0b167e128f",
+  "receipt_sha256": "9b0bbc984fc342ce86b26f8c9dcfdcc166c38deb626700c0d2499b501cd469c8",
+  "log_sha256": "c36a0278100be743fbae5417e9d2772ff3ab0a4cf8a48cc05e4370361a4d0143",
+  "acceptance_sha256": "df77f977dabb2c4b75080e4118c334498e4e545f3daac82187a7355dd2c4d219",
+  "independent_terminal_review_sha256": "48e546b8450ca9290d2b72da2aa8c2131efbf9d5c2fc05b1fcb852ab46c4471a",
+  "selected_heads": [
+    "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+    "f567884aeb8851b6e794af1184119a3bfbe1e631"
+  ],
+  "record_key": [
+    0,
+    4,
+    1
+  ],
+  "ordered_descriptors": [
+    [],
+    [
+      459
+    ]
+  ],
+  "current_import_closure": 21,
+  "external_pairs": 2663,
+  "axiom_probes": [
+    {
+      "name": "CurrentMain.Current799FirstPackedRecipe.key_and_descriptors",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current799FirstPackedRecipe.left_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current799FirstPackedRecipe.right_fields",
+      "axioms": []
+    },
+    {
+      "name": "CurrentMain.Current799FirstPackedRecipe.packed_canonical_child",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "compiler_seconds": 5.780149803002132,
+  "peak_vm_bytes": 2483539968,
+  "fifo_seconds": 0.0010102270025527105,
+  "failure": "Original one-name resolution failure retained; three partial literal probes never treated as a module pass.",
+  "claim": "Exact source-record all-field and ordered-descriptor reuse of the accepted full-phase packed459 identity, with explicit new label4.",
+  "remaining": [
+    "Current Fin1005 decoded-event and chart/entry execution suppliers",
+    "Expanded physical-work and full-construction correctness"
+  ],
+  "publication": "No publication of this current wrapper authorized or performed."
+}
