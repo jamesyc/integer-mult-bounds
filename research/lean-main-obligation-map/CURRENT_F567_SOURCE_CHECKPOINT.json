@@ -1,0 +1,55 @@
+{
+  "status": "READ_ONLY_EXACT_SOURCE_CHECKPOINT",
+  "utc": "2026-10-13T07:04:33.699822+00:00",
+  "verified_selected_main": {
+    "utc": "2026-10-13T06:56:18.134105+00:00",
+    "head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "kappa": "1661634653669567/1000000000000000000",
+    "selected_result_sha256": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+    "manifest": "research/community-frontier799-audit/SELECTED-SOURCE.json",
+    "manifest_sha256": "839f686bf192a7654370d947bb8dd5c1343c89d3947fbb8a8be0956b482182ca",
+    "selected_files": 786,
+    "all_selected_hashes_match": true,
+    "assembly": "research/community-frontier799-audit/ASSEMBLY.json",
+    "assembly_sha256": "65c7648a8edaeaf4e0b8de3e21eeda94fba124d0935010d45ac9f76375b72cec",
+    "package_roots": [
+      "research/complex-sw4-frame8",
+      "research/e8-bit-p111-tuned",
+      "research/e8-bit-carrier-skeleton",
+      "research/direct-delivery504-global",
+      "research/gauge44-frames-x"
+    ],
+    "same_path_same_hash_count": 653,
+    "same_path_changed": [],
+    "bit_and_carrier_selected_rows_unchanged": true
+  },
+  "previous_source": "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+  "previous_selected_files": 653,
+  "previous_selected_files_byte_identical": true,
+  "remaining_133_files": "research/gauge44-frames-x",
+  "prior_verified_kappa": "1661202643272239/1000000000000000000",
+  "historical_completed_public_chunk": {
+    "head": "deb26103657d3190e3a655c5f6a332982fdecfc3",
+    "base": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+    "source": "5996f9043c27bafa90b23e1c937de92a738f1a76",
+    "author_kappa": "16127213726553/10000000000000000",
+    "scope": "Four fresh native rational/Real/bootstrap/outer roots plus five exact PR585/PR605 retained helpers. Publication pending."
+  },
+  "recovered_prior_selected_artifacts": {
+    "source": "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+    "receipt_sha256": "d9061100cf0dbbfac47b12d5a8a07731ebd311c583163f24f1466a8b0f483eee",
+    "qualification": "Archive identity readback only; later f567 generated identities require their own binding."
+  },
+  "scope_limits": [
+    "No blind whole rebuild",
+    "No automatic concrete literal or typed-domain transfer",
+    "No selected aggregate acceptance inferred from reused rank44 log unit",
+    "No full physical/all-size theorem at either contextual kappa"
+  ],
+  "evidence_files": {
+    "new_main_7ee02b7_transfer/GIT_IMPORT.json": "62cda11872d08636e56bac66d023e450efc9c98a737f2c0aeca1052b6c0bac1b",
+    "new_main_7ee02b7_transfer/SELECTED_SOURCE_VERIFICATION.json": "820613d8920d3b0ad5ce059d10d78dceab0081cffdbc633d57d4b3930636d5ce",
+    "new_main_f567884_transfer/GIT_IMPORT.json": "e70fdfe6b2ccabb84016280ed8b121f63748c257e19c37680aedebac22c9c093",
+    "new_main_f567884_transfer/SELECTED_SOURCE_VERIFICATION.json": "536af770e8318a889717d74a391de98cfb51a49439125d5cd9d140cb752604d8"
+  }
+}

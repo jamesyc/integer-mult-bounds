@@ -1,0 +1,47 @@
+{
+  "recorded_utc": "2026-10-13T06:47:13.447077+00:00",
+  "evidence_attribution": "Root exact-head workflow readbacks reported 2026-10-13 06:33\u201306:34 UTC; counts below are reported observations, not a new integration CI poll",
+  "observations": [
+    {
+      "pr": 612,
+      "head": "ce37f3ce35ba8891771e01492b3a21978763bebb",
+      "fork": {
+        "success": 5,
+        "total": 5,
+        "research_run": 38291454546
+      },
+      "upstream": {
+        "success": 5,
+        "total": 5,
+        "research_run": 38291546210
+      }
+    },
+    {
+      "pr": 605,
+      "head": "d676cf35234943613d7208719e7d96f7500fdfcf",
+      "fork": {
+        "success": 14,
+        "total": 14
+      },
+      "upstream": {
+        "success": 5,
+        "total": 5
+      }
+    },
+    {
+      "main": "7ee02b7c96d85f22b38d28bd7ed49bb8c1aeb261",
+      "upstream": {
+        "success": 5,
+        "total": 5,
+        "runs": [
+          38355355048,
+          38355355043,
+          38355355064,
+          38355355055,
+          38355355060
+        ]
+      },
+      "checked_utc": "2026-10-13T06:34:00Z"
+    }
+  ]
+}
