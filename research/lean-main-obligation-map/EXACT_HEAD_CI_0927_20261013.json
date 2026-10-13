@@ -1,0 +1,14 @@
+{
+  "observed_utc": "2026-10-13T09:27:30Z",
+  "reported_by": "root exact-head GitHub check",
+  "pr872": {
+    "head": "5bbf44624fc3902dc7c53a2f06df90ee73928532",
+    "fork_success": 5,
+    "fork_total": 5,
+    "upstream_success": 5,
+    "upstream_total": 5,
+    "research_fork_run": 38371580674,
+    "monitoring_complete": true
+  },
+  "main": "f567884aeb8851b6e794af1184119a3bfbe1e631"
+}

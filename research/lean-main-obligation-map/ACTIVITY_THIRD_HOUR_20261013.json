@@ -1,0 +1,1194 @@
+{
+  "status": "CLOSED_RECORDED_FOCUS_WALL_WINDOW_WITH_UNALLOCATED_GAPS",
+  "window_start_utc": "2026-10-13T08:32:05+00:00",
+  "window_end_utc": "2026-10-13T09:32:05+00:00",
+  "closed_utc": "2026-10-13T09:41:00.096810+00:00",
+  "actual_model_inference_seconds": null,
+  "qualification": "Observed task-focus wall, often mixed with small tools. No model-inference estimate. Machine unclosed pre-disconnection focus is not carried forward; signed sparse records contribute only bounded observed intervals. Integration unrecorded post-window transitions stay unknown. Raw source snapshots and exact gap segments are retained.",
+  "owners": {
+    "integration": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "10b0c11fb26260c4f99352651a2866cb464b089c486232d5a6c860101b4571d2",
+        "bytes": 4092
+      },
+      "category_seconds": {
+        "unknown": 2355.62654,
+        "administrative_package_or_coordination": 1244.37346
+      },
+      "category_minutes": {
+        "unknown": 39.26044233333334,
+        "administrative_package_or_coordination": 20.739557666666666
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T08:32:05+00:00",
+          "end": "2026-10-13T09:11:20.626540+00:00",
+          "seconds": 2355.62654,
+          "category": "unknown",
+          "recorded_focus": [
+            "Earlier observation window ended; intervening focus transitions were not recorded. Task receipts remain evidence but do not reconstruct continuous focus."
+          ],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:11:20.626540+00:00",
+          "end": "2026-10-13T09:32:05+00:00",
+          "seconds": 1244.37346,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "PR589 B measured public result, completion delta, candidate and publication handoff; unrecorded earlier transitions remain unknown"
+          ],
+          "qualifications": []
+        }
+      ]
+    },
+    "analytic": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "8ed609975163acb97e111322fa74cc3e176a9b1d42b9c8b6fb0e38f5e19bf4ce",
+        "bytes": 6860
+      },
+      "category_seconds": {
+        "administrative_package_or_coordination": 221.11224,
+        "waiting": 374.362392,
+        "tools_compiler_mixed_focus": 1820.069633,
+        "tools_implementation": 268.427163,
+        "mathematical_preparation": 660.355703,
+        "mixed_observed_focus": 255.672869
+      },
+      "category_minutes": {
+        "administrative_package_or_coordination": 3.685204,
+        "waiting": 6.2393732,
+        "tools_compiler_mixed_focus": 30.334493883333334,
+        "tools_implementation": 4.47378605,
+        "mathematical_preparation": 11.005928383333332,
+        "mixed_observed_focus": 4.261214483333333
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T08:32:05+00:00",
+          "end": "2026-10-13T08:35:46.112240+00:00",
+          "seconds": 221.11224,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Independent packed bridge candidate Git ancestry/bytes and scoped prior scientific result transport review"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:35:46.112240+00:00",
+          "end": "2026-10-13T08:42:00.474632+00:00",
+          "seconds": 374.362392,
+          "category": "waiting",
+          "recorded_focus": [
+            "Preserved PR589 Real-unit sole binding review; weighted Real science and publication sequencing remain independently active"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:42:00.474632+00:00",
+          "end": "2026-10-13T08:56:11.017586+00:00",
+          "seconds": 850.542954,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Dispatch unchanged preserved two-unit Real source with reviewed PR589 current applicability"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:56:11.017586+00:00",
+          "end": "2026-10-13T09:00:39.444749+00:00",
+          "seconds": 268.427163,
+          "category": "tools_implementation",
+          "recorded_focus": [
+            "Bounded V2 evidence-envelope implementation and receipt-link review; synthetic tests only"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:00:39.444749+00:00",
+          "end": "2026-10-13T09:05:55.130756+00:00",
+          "seconds": 315.686007,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Dispatch reviewed PR589 weighted Real join,11/10/1 with actual unit terminal"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:05:55.130756+00:00",
+          "end": "2026-10-13T09:16:55.486459+00:00",
+          "seconds": 660.355703,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Freeze current799 seven-update bootstrap with exact accepted source body and latest protected outputs"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:16:55.486459+00:00",
+          "end": "2026-10-13T09:27:49.327131+00:00",
+          "seconds": 653.840672,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Dispatch current799 seven-update bootstrap; exact5/4/1 retained guard"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:27:49.327131+00:00",
+          "end": "2026-10-13T09:32:05+00:00",
+          "seconds": 255.672869,
+          "category": "mixed_observed_focus",
+          "recorded_focus": [
+            "Current799 outer API/final binding and independent native public checker; all owner packets prepared"
+          ],
+          "qualifications": [
+            "Transition recorded late: this wall interval includes the received tail terminal review and tools, so do not count its whole duration as waiting or inference."
+          ]
+        }
+      ]
+    },
+    "machine": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "ec776ce25a33f2e74d373b7c0ab6809b2cbe0a2bdb8b0e664d39ba8370f16b58",
+        "bytes": 2937
+      },
+      "category_seconds": {
+        "unknown": 3600.0
+      },
+      "category_minutes": {
+        "unknown": 60.0
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T08:32:05+00:00",
+          "end": "2026-10-13T09:32:05+00:00",
+          "seconds": 3600.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        }
+      ]
+    },
+    "frame": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "0dc4cdc3849f321df99d8fcf9d6735ba65e99fd5d8cfd5c1e3deec53c578dadd",
+        "bytes": 10712
+      },
+      "category_seconds": {
+        "tools_compiler_mixed_focus": 974.402441,
+        "administrative_package_or_coordination": 718.5938150000001,
+        "administrative_binding_review_with_tools": 175.147276,
+        "tools_implementation": 469.309891,
+        "mathematical_preparation": 281.221949,
+        "mixed_observed_focus": 933.162653,
+        "waiting": 48.161975
+      },
+      "category_minutes": {
+        "tools_compiler_mixed_focus": 16.240040683333334,
+        "administrative_package_or_coordination": 11.976563583333334,
+        "administrative_binding_review_with_tools": 2.9191212666666666,
+        "tools_implementation": 7.821831516666666,
+        "mathematical_preparation": 4.687032483333334,
+        "mixed_observed_focus": 15.552710883333333,
+        "waiting": 0.8026995833333334
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T08:32:05+00:00",
+          "end": "2026-10-13T08:34:06.448121+00:00",
+          "seconds": 121.448121,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Dispatch sole admitted record3 literal split, retaining original allocation baseline and all accepted roots."
+          ],
+          "qualifications": [
+            "Mixed observed interval: admitted compiler, final external-body author readback, and literal owner evidence sealing; actual compiler seconds separately recorded."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:34:06.448121+00:00",
+          "end": "2026-10-13T08:42:15.145386+00:00",
+          "seconds": 488.697265,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Prepare record3 validity-stage bindings from actual accepted literal output, awaiting its independent terminal."
+          ],
+          "qualifications": [
+            "Includes context reconciliation; not a claim of continuous inference or mathematical work."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:42:15.145386+00:00",
+          "end": "2026-10-13T08:45:10.292662+00:00",
+          "seconds": 175.147276,
+          "category": "administrative_binding_review_with_tools",
+          "recorded_focus": [
+            "Review signed PR589 A/C 28-root serial batch declarative inverse, exact current pins, output isolation and retained-lock guard."
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:45:10.292662+00:00",
+          "end": "2026-10-13T08:48:38.120128+00:00",
+          "seconds": 207.827466,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Dispatch sole reviewed record3 validity stage, retaining literal success and original failed allocation baseline."
+          ],
+          "qualifications": [
+            "Compiler and failure preservation followed by read-only symbolic validity diagnosis; actual compiler time recorded separately."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:48:38.120128+00:00",
+          "end": "2026-10-13T08:53:11.964282+00:00",
+          "seconds": 273.844154,
+          "category": "tools_implementation",
+          "recorded_focus": [
+            "Audit PR589 B public checker declaration delta, runtime, candidate/current inputs and proposed retained-evidence envelope."
+          ],
+          "qualifications": [
+            "Candidate checker audit complete; final envelope/author pins pending. Brief source API lookup also occurred."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:53:11.964282+00:00",
+          "end": "2026-10-13T08:57:18.606981+00:00",
+          "seconds": 246.642699,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Write symbolic generic Gate.ok lemmas using list induction and accepted matrix/coordinate correspondence, avoiding 512-address decisions."
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:57:18.606981+00:00",
+          "end": "2026-10-13T09:00:34.072718+00:00",
+          "seconds": 195.465737,
+          "category": "tools_implementation",
+          "recorded_focus": [
+            "Read exact retained-evidence envelope applicability and author pin, then complete PR589 B checker/runtime seal."
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:00:34.072718+00:00",
+          "end": "2026-10-13T09:16:07.235371+00:00",
+          "seconds": 933.162653,
+          "category": "mixed_observed_focus",
+          "recorded_focus": [
+            "Prepare concrete record3 symbolic inverse actions and compositional validity using the source-only generic gate validity proposal."
+          ],
+          "qualifications": [
+            "Observed interval includes concrete inverse source completion, current [11] source comparison, generic gate preparation, and separately assigned public terminal/static/envelope plus analytic bootstrap binding reviews. This entire wall interval is not counted as math or inference time."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:16:07.235371+00:00",
+          "end": "2026-10-13T09:18:15.077364+00:00",
+          "seconds": 127.841993,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Reconcile preserved work and prepare serial generic-validity dispatch metadata while its independent binding review is pending."
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:18:15.077364+00:00",
+          "end": "2026-10-13T09:19:03.239339+00:00",
+          "seconds": 48.161975,
+          "category": "waiting",
+          "recorded_focus": [
+            "Await sole bank generic-validity binding and machine residual source review; all admitted dispatch preparation is ready."
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:19:03.239339+00:00",
+          "end": "2026-10-13T09:20:45.293896+00:00",
+          "seconds": 102.054557,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Review current799 native owner package and unchanged runtime reference while generic gate binding is pending."
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:20:45.293896+00:00",
+          "end": "2026-10-13T09:31:30.420750+00:00",
+          "seconds": 645.126854,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Dispatch reviewed generic symbolic gate validity; finish independent native package inventory during its bounded check."
+          ],
+          "qualifications": [
+            "Generic compiler took5.649seconds; observed wall interval also contains independent owner/public checker audit and binding preparation. Not pure mathematical or inference time."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:31:30.420750+00:00",
+          "end": "2026-10-13T09:32:05+00:00",
+          "seconds": 34.57925,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Inspect next packed equality reduction using actual record3 gate lists while concrete symbolic-validity binding is independently reviewed."
+          ],
+          "qualifications": [
+            "Read actual packed gate/check source and closure implications, then committed generic result evidence; this is observed mixed source/administrative wall time, not inference minutes."
+          ]
+        }
+      ]
+    },
+    "bank": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "22ca006c94c17657345d6c5946d51e485dcce06a9c554bb3f18c54db0f4f308f",
+        "bytes": 12162
+      },
+      "category_seconds": {
+        "independent_mathematical_review": 688.0,
+        "unknown": 581.329739,
+        "administrative_package_or_coordination": 830.0,
+        "mathematical_preparation": 509.0,
+        "administrative_binding_review_with_tools": 586.0,
+        "tools_compiler_mixed_focus": 256.0,
+        "waiting": 149.67026099999998
+      },
+      "category_minutes": {
+        "independent_mathematical_review": 11.466666666666667,
+        "unknown": 9.688828983333334,
+        "administrative_package_or_coordination": 13.833333333333334,
+        "mathematical_preparation": 8.483333333333333,
+        "administrative_binding_review_with_tools": 9.766666666666667,
+        "tools_compiler_mixed_focus": 4.266666666666667,
+        "waiting": 2.4945043499999997
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T08:32:05+00:00",
+          "end": "2026-10-13T08:32:54+00:00",
+          "seconds": 49.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Weighted PR589 Real source/template plus next16 result commit"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:32:54+00:00",
+          "end": "2026-10-13T08:33:07+00:00",
+          "seconds": 13.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:33:07+00:00",
+          "end": "2026-10-13T08:34:23+00:00",
+          "seconds": 76.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Emitted fourteen-pair source applicability and delivery"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:34:23+00:00",
+          "end": "2026-10-13T08:34:34+00:00",
+          "seconds": 11.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:34:34+00:00",
+          "end": "2026-10-13T08:35:44+00:00",
+          "seconds": 70.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Frame literal split terminal readback"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:35:44+00:00",
+          "end": "2026-10-13T08:35:56+00:00",
+          "seconds": 12.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:35:56+00:00",
+          "end": "2026-10-13T08:38:34+00:00",
+          "seconds": 158.0,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Exact next48 rows, multivalue checkpoints and source proposal"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:38:34+00:00",
+          "end": "2026-10-13T08:41:27+00:00",
+          "seconds": 173.0,
+          "category": "administrative_binding_review_with_tools",
+          "recorded_focus": [
+            "Preserved-unit Real16-replacement/current/fresh guard; next48 commit overlaps"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:41:27+00:00",
+          "end": "2026-10-13T08:42:17+00:00",
+          "seconds": 50.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Deliver next48 science request and prior binding"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:42:17+00:00",
+          "end": "2026-10-13T08:44:06+00:00",
+          "seconds": 109.0,
+          "category": "administrative_binding_review_with_tools",
+          "recorded_focus": [
+            "Frame validity-stage current/guard"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:44:06+00:00",
+          "end": "2026-10-13T08:46:16+00:00",
+          "seconds": 130.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Generic entry-update fold and exact728 source order"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:46:16+00:00",
+          "end": "2026-10-13T08:46:33+00:00",
+          "seconds": 17.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:46:33+00:00",
+          "end": "2026-10-13T08:48:20+00:00",
+          "seconds": 107.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Preserve validity allocation failure and accepted literal"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:48:20+00:00",
+          "end": "2026-10-13T08:48:52+00:00",
+          "seconds": 32.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:48:52+00:00",
+          "end": "2026-10-13T08:50:50+00:00",
+          "seconds": 118.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Freeze next48 exact closure and declarative driver; dry guard"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:50:50+00:00",
+          "end": "2026-10-13T08:52:40+00:00",
+          "seconds": 110.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Preserved two-unit Real terminal"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:52:40+00:00",
+          "end": "2026-10-13T08:54:41+00:00",
+          "seconds": 121.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Current799 bootstrap exact accepted-proof inverse"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:54:41+00:00",
+          "end": "2026-10-13T08:56:50+00:00",
+          "seconds": 129.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Fourteen-pair A/C receipts/probes/current and checkpoints"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:56:50+00:00",
+          "end": "2026-10-13T08:58:08+00:00",
+          "seconds": 78.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Batch review receipts and prepare next48 acceptance sealer while exact binding pending"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:58:08+00:00",
+          "end": "2026-10-13T08:59:54+00:00",
+          "seconds": 106.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Observe next48 binding, sole two-root dispatch, results and owner acceptance; compiler actual timestamps retained in receipt"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:59:54+00:00",
+          "end": "2026-10-13T09:00:00+00:00",
+          "seconds": 6.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:00:00+00:00",
+          "end": "2026-10-13T09:00:54+00:00",
+          "seconds": 54.0,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Bounded32-row natural entrance lookahead and source-only proposal"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:00:54+00:00",
+          "end": "2026-10-13T09:01:20.977565+00:00",
+          "seconds": 26.977565,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:01:20.977565+00:00",
+          "end": "2026-10-13T09:02:36+00:00",
+          "seconds": 75.022435,
+          "category": "waiting",
+          "recorded_focus": [
+            "Await independent next48 terminal or new assigned review; no owner compiler active"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:02:36+00:00",
+          "end": "2026-10-13T09:05:04+00:00",
+          "seconds": 148.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Two remaining PR589 A/C windows: raw literal inversion, arity/generic suffix and committed applicability"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:05:04+00:00",
+          "end": "2026-10-13T09:05:34.352174+00:00",
+          "seconds": 30.352174,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:05:34.352174+00:00",
+          "end": "2026-10-13T09:06:49+00:00",
+          "seconds": 74.647826,
+          "category": "waiting",
+          "recorded_focus": [
+            "Await own next48 independent terminal or new scoped assignment; no active owner compiler"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:06:49+00:00",
+          "end": "2026-10-13T09:08:21+00:00",
+          "seconds": 92.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "CurrentPR589 weighted Real current quadruples/probes/cache first matches"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:08:21+00:00",
+          "end": "2026-10-13T09:15:12+00:00",
+          "seconds": 411.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:15:12+00:00",
+          "end": "2026-10-13T09:19:37+00:00",
+          "seconds": 265.0,
+          "category": "administrative_binding_review_with_tools",
+          "recorded_focus": [
+            "Recover owner state; entry-fold and generic validity exact binding/dry guards, tail comment inverse, current97 result record"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:19:37+00:00",
+          "end": "2026-10-13T09:24:34+00:00",
+          "seconds": 297.0,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Current799 next32 literal/checkpoint preparation and standalone Data pilot envelope"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:24:34+00:00",
+          "end": "2026-10-13T09:28:34+00:00",
+          "seconds": 240.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Entry-fold explicit projection inverse; current799 outer accepted-template/API; generic validity terminal"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:28:34+00:00",
+          "end": "2026-10-13T09:28:52+00:00",
+          "seconds": 18.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:28:52+00:00",
+          "end": "2026-10-13T09:31:22+00:00",
+          "seconds": 150.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Admitted sole next32 Data pilot, exact source review pin, actual receipt and provisional owner result; compiler interval separately recorded"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:31:22+00:00",
+          "end": "2026-10-13T09:31:26+00:00",
+          "seconds": 4.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:31:26+00:00",
+          "end": "2026-10-13T09:32:05+00:00",
+          "seconds": 39.0,
+          "category": "administrative_binding_review_with_tools",
+          "recorded_focus": [
+            "Concrete record3 symbolic validity failed-prestate binding and fresh guard"
+          ],
+          "qualifications": []
+        }
+      ]
+    },
+    "signed": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/resume_20261013/FOCUS_TRANSITIONS.jsonl",
+        "sha256": "167029449148402b9128c795ca7e6bda6d50454e825870045ead224d24bc3e67",
+        "bytes": 9478
+      },
+      "category_seconds": {
+        "tools_implementation": 152.0,
+        "unknown": 1440.605462,
+        "independent_mathematical_review": 574.394538,
+        "mixed_observed_focus": 180.0,
+        "administrative_package_or_coordination": 283.0,
+        "tools_compiler_mixed_focus": 734.0,
+        "mathematical_preparation": 236.0
+      },
+      "category_minutes": {
+        "tools_implementation": 2.533333333333333,
+        "unknown": 24.01009103333333,
+        "independent_mathematical_review": 9.5732423,
+        "mixed_observed_focus": 3.0,
+        "administrative_package_or_coordination": 4.716666666666667,
+        "tools_compiler_mixed_focus": 12.233333333333333,
+        "mathematical_preparation": 3.933333333333333
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T08:32:05+00:00",
+          "end": "2026-10-13T08:34:37+00:00",
+          "seconds": 152.0,
+          "category": "tools_implementation",
+          "recorded_focus": [
+            "Exact source emission and driver preparation tools; text-bounded observation"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:34:37+00:00",
+          "end": "2026-10-13T08:34:57.605462+00:00",
+          "seconds": 20.605462,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:34:57.605462+00:00",
+          "end": "2026-10-13T08:36:44+00:00",
+          "seconds": 106.394538,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Weighted Real formula review; end explicitly recorded in next report"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:36:44+00:00",
+          "end": "2026-10-13T08:37:00+00:00",
+          "seconds": 16.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:37:00+00:00",
+          "end": "2026-10-13T08:40:00+00:00",
+          "seconds": 180.0,
+          "category": "mixed_observed_focus",
+          "recorded_focus": [
+            "Evidence checkpoint preparation and generic composition lookup; no suballocation"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:40:00+00:00",
+          "end": "2026-10-13T08:42:15+00:00",
+          "seconds": 135.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:42:15+00:00",
+          "end": "2026-10-13T08:44:48+00:00",
+          "seconds": 153.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Next48 source/API review with tools; exact recorded interval"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:44:48+00:00",
+          "end": "2026-10-13T08:46:36+00:00",
+          "seconds": 108.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:46:36+00:00",
+          "end": "2026-10-13T08:48:30+00:00",
+          "seconds": 114.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Current799 seven-update formula readback including tools"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:48:30+00:00",
+          "end": "2026-10-13T08:48:44+00:00",
+          "seconds": 14.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:48:44+00:00",
+          "end": "2026-10-13T08:49:51+00:00",
+          "seconds": 67.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "PR589 B offline appendix author readback"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:49:51+00:00",
+          "end": "2026-10-13T08:50:02+00:00",
+          "seconds": 11.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:50:02+00:00",
+          "end": "2026-10-13T08:50:57+00:00",
+          "seconds": 55.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Weighted PR589 Real committed metadata applicability"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:50:57+00:00",
+          "end": "2026-10-13T08:53:59+00:00",
+          "seconds": 182.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:53:59+00:00",
+          "end": "2026-10-13T08:57:32+00:00",
+          "seconds": 213.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Independent bank next48 binding, exact inverse, locked dry guard and first-match validation; no compiler"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:57:32+00:00",
+          "end": "2026-10-13T08:57:51+00:00",
+          "seconds": 19.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:57:51+00:00",
+          "end": "2026-10-13T08:59:49+00:00",
+          "seconds": 118.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Independent weighted Real binding and guarded cache readback; no compiler"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T08:59:49+00:00",
+          "end": "2026-10-13T09:00:19+00:00",
+          "seconds": 30.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:00:19+00:00",
+          "end": "2026-10-13T09:03:03+00:00",
+          "seconds": 164.0,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Source-specific tuning/tail finite predicates and exact accepted proof-template adaptations"
+          ],
+          "qualifications": [
+            "Task-focus wall includes authoring and local verification tools; actual inference time unavailable"
+          ]
+        },
+        {
+          "start": "2026-10-13T09:03:03+00:00",
+          "end": "2026-10-13T09:09:11+00:00",
+          "seconds": 368.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:09:11+00:00",
+          "end": "2026-10-13T09:10:16+00:00",
+          "seconds": 65.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Independent next48 terminal hash/current/probe readback; no compiler"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:10:16+00:00",
+          "end": "2026-10-13T09:10:36+00:00",
+          "seconds": 20.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:10:36+00:00",
+          "end": "2026-10-13T09:11:31+00:00",
+          "seconds": 55.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Bootstrap committed source and exact three-field metadata applicability"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:11:31+00:00",
+          "end": "2026-10-13T09:11:47+00:00",
+          "seconds": 16.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:11:47+00:00",
+          "end": "2026-10-13T09:12:49+00:00",
+          "seconds": 62.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "B final author result and measured body paragraph"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:12:49+00:00",
+          "end": "2026-10-13T09:16:43+00:00",
+          "seconds": 234.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:16:43+00:00",
+          "end": "2026-10-13T09:18:21+00:00",
+          "seconds": 98.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Current799 outer formula/source readback"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:18:21+00:00",
+          "end": "2026-10-13T09:18:45+00:00",
+          "seconds": 24.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:18:45+00:00",
+          "end": "2026-10-13T09:19:29+00:00",
+          "seconds": 44.0,
+          "category": "administrative_package_or_coordination",
+          "recorded_focus": [
+            "Final B external body qualified transport"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:19:29+00:00",
+          "end": "2026-10-13T09:20:23+00:00",
+          "seconds": 54.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:20:23+00:00",
+          "end": "2026-10-13T09:22:48+00:00",
+          "seconds": 145.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Tail and tuning launcher/inventory preparation"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:22:48+00:00",
+          "end": "2026-10-13T09:23:10+00:00",
+          "seconds": 22.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:23:10+00:00",
+          "end": "2026-10-13T09:25:02+00:00",
+          "seconds": 112.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Bootstrap terminal, outer committed applicability and tuning prep"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:25:02+00:00",
+          "end": "2026-10-13T09:25:25+00:00",
+          "seconds": 23.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:25:25+00:00",
+          "end": "2026-10-13T09:27:08+00:00",
+          "seconds": 103.0,
+          "category": "independent_mathematical_review",
+          "recorded_focus": [
+            "Next32 literal/API readback"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:27:08+00:00",
+          "end": "2026-10-13T09:28:20+00:00",
+          "seconds": 72.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:28:20+00:00",
+          "end": "2026-10-13T09:29:32+00:00",
+          "seconds": 72.0,
+          "category": "mathematical_preparation",
+          "recorded_focus": [
+            "Cumulative append/reversal contracts and raw partition"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:29:32+00:00",
+          "end": "2026-10-13T09:29:57+00:00",
+          "seconds": 25.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        },
+        {
+          "start": "2026-10-13T09:29:57+00:00",
+          "end": "2026-10-13T09:31:18+00:00",
+          "seconds": 81.0,
+          "category": "tools_compiler_mixed_focus",
+          "recorded_focus": [
+            "Outer binding/current guard and tuning retained-output refresh"
+          ],
+          "qualifications": []
+        },
+        {
+          "start": "2026-10-13T09:31:18+00:00",
+          "end": "2026-10-13T09:32:05+00:00",
+          "seconds": 47.0,
+          "category": "unknown",
+          "recorded_focus": [],
+          "qualifications": [
+            "Unrecorded or conflicting focus interval; no retrospective allocation."
+          ]
+        }
+      ]
+    }
+  },
+  "category_seconds": {
+    "unknown": 7977.5617409999995,
+    "administrative_package_or_coordination": 3297.079515,
+    "waiting": 572.194628,
+    "tools_compiler_mixed_focus": 3784.4720740000002,
+    "tools_implementation": 889.737054,
+    "mathematical_preparation": 1686.577652,
+    "mixed_observed_focus": 1368.8355219999999,
+    "administrative_binding_review_with_tools": 761.147276,
+    "independent_mathematical_review": 1262.394538
+  },
+  "category_minutes": {
+    "unknown": 132.95936235,
+    "administrative_package_or_coordination": 54.95132525,
+    "waiting": 9.536577133333333,
+    "tools_compiler_mixed_focus": 63.07453456666667,
+    "tools_implementation": 14.828950899999999,
+    "mathematical_preparation": 28.10962753333333,
+    "mixed_observed_focus": 22.813925366666663,
+    "administrative_binding_review_with_tools": 12.685787933333334,
+    "independent_mathematical_review": 21.039908966666665
+  },
+  "total_owner_seconds": 21600,
+  "previous_second_window_unknown_minutes": 53.2987166333,
+  "mathematical_seconds_combined": 2948.97219,
+  "machine_operational_qualification": "Intermittent failed streams and bounded successful turns were observed during this hour, but exact focus/downtime interval ends are absent from this owner file. Time remains unknown rather than inferred mathematical work."
+}

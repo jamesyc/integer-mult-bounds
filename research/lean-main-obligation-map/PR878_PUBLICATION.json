@@ -1,0 +1,37 @@
+{
+  "status": "PUBLISHED_ROOT_AND_EXISTING_MAC_VERIFIED",
+  "reported_by": "Root with GitHub readback and existing Mac publisher verification",
+  "recorded_utc": "2026-10-13T09:30:34.349558+00:00",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/878",
+  "created_utc": "2026-10-13T09:25:59Z",
+  "head": "7b3241566ddfd50548e6b113ede9333826b86313",
+  "base": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "draft": true,
+  "maintainer_can_modify": false,
+  "files": 19,
+  "body_bytes": 6078,
+  "body_sha256": "518afb0feca0af6e47b97bbc13d0ff230c23458d6596fcf74ed4e231606555d0",
+  "seven_normal_backup_refs_verified": true,
+  "replay_finished_utc": "2026-10-13T08:58:57.618815+00:00",
+  "replay_finish_to_publication_seconds": 1621.381185,
+  "packed_PR872_seconds": 1622.337669,
+  "PR842_seconds": 1454.434601,
+  "comparison": "No measured publication improvement claimed. Different proof/package scopes; actual inference time unavailable.",
+  "ci_point_in_time": {
+    "observed_utc": "2026-10-13T09:27:30Z",
+    "upstream_success": 1,
+    "upstream_running": 4,
+    "fork_queued": 5,
+    "monitor_owner": "root"
+  },
+  "handoff_sha256": "7bddaeda75d2f644d434aefdf08134f72a0a352e45443a3727f390d466ec1e2e",
+  "timeline": {
+    "owner_sealed_utc": "2026-10-13T09:07:25.372071+00:00",
+    "candidate_frozen_utc": "2026-10-13T09:15:07.730870+00:00",
+    "bundle_frozen_utc": "2026-10-13T09:16:20.589774+00:00",
+    "mac_import_started_utc": "2026-10-13T09:18:49Z",
+    "mac_import_verified_utc": "2026-10-13T09:20:29Z",
+    "handoff_utc": "2026-10-13T09:20:28.764545+00:00",
+    "publisher_started_utc": "2026-10-13T09:21:14Z"
+  }
+}

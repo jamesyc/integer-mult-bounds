@@ -1,0 +1,77 @@
+{
+  "window_start_utc": "2026-10-13T08:32:05+00:00",
+  "window_end_utc": "2026-10-13T09:32:05+00:00",
+  "independently_accepted_research_chunks": 8,
+  "fresh_roots_accepted": 37,
+  "terminal_rows": [
+    {
+      "chunk": "record3 literals",
+      "fresh_roots": 1,
+      "terminal": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT799_RECORD3_LITERALS_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "ee494a83c6526cadccfdc124bed4c88ad2dc2f34abc8cb19f1149e12ba8ae03a",
+      "terminal_utc": "2026-10-13T08:35:32.082778+00:00"
+    },
+    {
+      "chunk": "preserved PR543 Real units with PR589 applicability",
+      "fresh_roots": 1,
+      "terminal": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT589_PRESERVED_REAL_UNITS_TERMINAL_REVIEW.json",
+      "sha256": "c84ff943880083910eef84392b5a3b1684478a70077573e4e02189cdcd2713b7",
+      "terminal_utc": "2026-10-13T08:52:05.288855+00:00"
+    },
+    {
+      "chunk": "fourteen A/C unary pairs",
+      "fresh_roots": 28,
+      "terminal": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current-pr589-ac128/FOURTEEN_PAIR_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "a26c0ce0d3be02ae57a1964c30c9d1aaffdc6b207999797e7ceef7aaa204796a",
+      "terminal_utc": "2026-10-13T08:56:31.068337+00:00"
+    },
+    {
+      "chunk": "next48 label rows",
+      "fresh_roots": 2,
+      "terminal": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/bank-current799-next48/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "e531e0eaa6167769809a7c191016acc069b6c99beed60ce80fb4421a2b6383a8",
+      "terminal_utc": "2026-10-13T09:10:02.326782+00:00"
+    },
+    {
+      "chunk": "weighted PR589 Real moment",
+      "fresh_roots": 1,
+      "terminal": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/CURRENT589_WEIGHTED_REAL_TERMINAL_REVIEW.json",
+      "sha256": "f322eb9ab345c89bd5c2d1cd30defcec58faa103b020fde1b9c19f4b6724aeff",
+      "terminal_utc": "2026-10-13T09:07:36.980869+00:00"
+    },
+    {
+      "chunk": "current799 bootstrap",
+      "fresh_roots": 1,
+      "terminal": "/workspace/shared/integer-mult-git/worktrees/signed/research/reviews/analytic-current799-bootstrap/TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "8732106bbe5dada50fa9d19fefbb6ceac94e880e464ddecf6399045755a0e1db",
+      "terminal_utc": "2026-10-13T09:24:29.820983+00:00"
+    },
+    {
+      "chunk": "generic packed validity",
+      "fresh_roots": 1,
+      "terminal": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/PACKED_GATE_VALIDITY_TERMINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "1063598dc4b31bba5fb9b24a974ab7fd9deeecb35f9ede2f8365eaa9274b70e5",
+      "terminal_utc": "2026-10-13T09:28:37.079414+00:00"
+    },
+    {
+      "chunk": "A/C tail27",
+      "fresh_roots": 2,
+      "terminal": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/current_pr589_ac_tail27/ANALYTIC_TERMINAL_REVIEW.json",
+      "sha256": "3fb43f4892e83c2771c3b10a07bb1a4276b9e0fb5ca3a08a5fc2c49f31e670fb",
+      "terminal_utc": "2026-10-13T09:31:36.022411+00:00"
+    }
+  ],
+  "qualification": "Counts use independent terminal seal time. Record3 literal compiler ran before this window; its independent acceptance falls inside. Finite/operator/source scopes remain those of each terminal.",
+  "publications": [
+    {
+      "pr": 872,
+      "created_utc": "2026-10-13T08:47:25Z"
+    },
+    {
+      "pr": 878,
+      "created_utc": "2026-10-13T09:25:59Z"
+    }
+  ],
+  "public_reproduction": "PR589 B three fresh checks independently accepted in window. Native799 four fresh checks finished09:32:04.042337 but independent terminal sealed after the cutoff. These are rechecks of prior proofs, not new proof-root counts.",
+  "owner_only_at_cutoff": "Next32 Data author elaboration passed with zero probes; independent terminal came later. It is not a finite label check."
+}
