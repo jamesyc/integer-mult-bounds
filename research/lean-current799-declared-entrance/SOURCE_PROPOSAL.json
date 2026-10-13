@@ -1,0 +1,40 @@
+{
+  "status": "SOURCE_API_REVIEWED_PENDING_BINDING_ADMISSION",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-declared-entrance/Current799DeclaredEntrance.lean",
+    "sha256": "0c7ec4b95b634c03ec059f215e6acf5e6a38d23f4e44fe590557dfefe7c6864d",
+    "bytes": 3677
+  },
+  "source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-declared-entrance/SOURCE_BINDING.json",
+    "sha256": "ddfceac0eea7fe2a6b294f1bcccada1578aad904a3150690595ee36b947b05c9",
+    "bytes": 2841
+  },
+  "preparation_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/SOURCE_THEOREM_PROPOSAL.json",
+    "sha256": "066493c480103ec3576da5d2bba6f157f406f1aca23f309d1396172f1f596be8",
+    "bytes": 28931
+  },
+  "independent_source_review": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/CURRENT799_DECLARED_ENTRANCE_SOURCE_API_REVIEW.json",
+    "sha256": "81ad801ade6ca5d348a41a2cbf5d3288d3de8819a0477df22d1b73d07760e36f",
+    "bytes": 12162
+  },
+  "scope": [
+    7,
+    6,
+    1
+  ],
+  "external_pairs": 2213,
+  "public_probes": [
+    "CurrentMain.Current799DeclaredEntrance.folded_prefix_chart",
+    "CurrentMain.Current799DeclaredEntrance.selected_declared_entrance"
+  ],
+  "required_printed_types": [
+    "@CurrentMain.Current799DeclaredEntrance.folded_prefix_chart",
+    "@CurrentMain.Current799DeclaredEntrance.selected_declared_entrance"
+  ],
+  "fresh_finite_decisions": 0,
+  "new_stream_inductions": 0,
+  "remaining": "Both trace predicates,16 action equations,actualEntry and actualPrefix equalities,incoming residual chart,T0 and selected declared labels. No actual execution-to-labels0 or whole-state hstart."
+}

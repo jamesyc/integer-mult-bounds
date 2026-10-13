@@ -1,0 +1,1 @@
+Apache-2.0. Prepared with OpenAI assistance. Reuses unchanged PR509 stream (DreamingOfClouds, Claude-assisted), PR516 realization, and the accepted scalar support and entry-fold interfaces. Current source attribution is pinned to f567884aeb8851b6e794af1184119a3bfbe1e631, PR799 gauge44-frames-x. No research bound or publication is claimed by this conditional composition package.

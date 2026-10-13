@@ -1,0 +1,52 @@
+{
+  "status": "CURRENT799_CONDITIONAL_COMPOSITION_SOURCE_BOUNDARY",
+  "selected_head": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "source": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-declared-entrance/Current799DeclaredEntrance.lean",
+    "sha256": "0c7ec4b95b634c03ec059f215e6acf5e6a38d23f4e44fe590557dfefe7c6864d",
+    "bytes": 3677
+  },
+  "accepted_fold_owner": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_entry_fold_proposal/projection_type_repair/gate/ACCEPTANCE.json",
+    "sha256": "9ab629183baa4fcb5344bc4a414cca90a2e50dee71bb23cd7f7bf12b1f0b5cb2",
+    "bytes": 23026
+  },
+  "accepted_fold_terminal": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/bank/research/reviews/current799-entry-fold/TERMINAL_INDEPENDENT_REVIEW.json",
+    "sha256": "ab19c6ed98afb7ccb2efc4b076b1dee478be30af9ff31a0fa6cc79381671a14b",
+    "bytes": 20590
+  },
+  "accepted_fold_source_binding": {
+    "path": "/workspace/shared/integer-mult-git/worktrees/machine/research/lean-current799-entry-fold/SOURCE_BINDING.json",
+    "sha256": "8409167e7d014c9a09621209fd059696fbb58167725f9591e82ef1b755b83f38",
+    "bytes": 77851
+  },
+  "original_theorem_proposal": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/current799_declared_entrance_proposal/SOURCE_THEOREM_PROPOSAL.json",
+    "sha256": "066493c480103ec3576da5d2bba6f157f406f1aca23f309d1396172f1f596be8",
+    "bytes": 28931
+  },
+  "shared_verified_artifacts": {
+    "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/VERIFIED_ARTIFACTS.json",
+    "sha256": "0e498fe39219d8acda87542ed801e44a825f5722d714388759c48f4f72f3274b",
+    "bytes": 21245
+  },
+  "source_emitter": {
+    "path": "/workspace/shared/integer-mult-git/checks/main-f567884-readback/research/complex-sw4-frame8/vendor/pr635/research/complex-571-cold14-st2/code/hpe_emit_local.py",
+    "sha256": "7e4a6fbc38c8228157b6311457d1496bf460291393043932d2c365f004f77805",
+    "bytes": 8821
+  },
+  "raw_inputs": [
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/CANONICAL-WORD.json.gz",
+      "sha256": "f1c2ede9276d4447c5857d0e9d32adb52f987b8adb643b45bde2c172d88c6ee9",
+      "bytes": 83939
+    },
+    {
+      "path": "/workspace/scratch/c569c316cd54/recovery_20261011/new_main_f567884_artifacts/extracted/native/local/LOCAL-PROGRAMS.json.gz",
+      "sha256": "ce194f8465079db575a9ce17ccee1396fa4de0210e2817da2525f95f4f93ebde",
+      "bytes": 208661
+    }
+  ],
+  "scope": "Conditional support-local entrance value equation. Typed traces,16 actions,executor equalities,incoming chart and selected label values remain supplied. Pending residual root is not imported."
+}
