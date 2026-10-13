@@ -1,0 +1,1158 @@
+{
+  "status": "CLOSED_PROSPECTIVE_FOCUS_WALL_WINDOW",
+  "window_start_utc": "2026-10-13T07:32:05+00:00",
+  "window_end_utc": "2026-10-13T08:32:05+00:00",
+  "closed_utc": "2026-10-13T08:34:28.692063+00:00",
+  "actual_model_inference_seconds": null,
+  "qualification": "Task-focus wall intervals, often containing small tools or mixed activity. Not model inference time and not process CPU utilization. Explicit gaps or inconsistent transitions stay unknown; active observed focus is clipped at window end. Actual compiler metrics are separately recorded in per-root receipts.",
+  "owners": {
+    "integration": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/integration/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "d307e4c168d8e88addd2e1ff1a9f0d7617456e3ed9d10b93860f9a7bbdf4312f",
+        "bytes": 3488
+      },
+      "category_seconds": {
+        "unknown": 202.0,
+        "administrative_binding_review_with_tools": 303.783576,
+        "administrative_package_or_coordination": 1173.583329,
+        "independent_mathematical_review": 268.633095,
+        "tools_implementation": 1434.00882,
+        "tools_compiler_mixed_focus": 217.99118
+      },
+      "category_minutes": {
+        "unknown": 3.3666666666666667,
+        "administrative_binding_review_with_tools": 5.0630596,
+        "administrative_package_or_coordination": 19.559722150000002,
+        "independent_mathematical_review": 4.477218250000001,
+        "tools_implementation": 23.900147,
+        "tools_compiler_mixed_focus": 3.6331863333333336
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T07:32:05+00:00",
+          "end": "2026-10-13T07:35:27+00:00",
+          "seconds": 202.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:35:27+00:00",
+          "end": "2026-10-13T07:37:10.108764+00:00",
+          "seconds": 103.108764,
+          "category": "administrative_binding_review_with_tools",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 native finite exact declarative/current binding review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:37:10.108764+00:00",
+          "end": "2026-10-13T07:39:19.795729+00:00",
+          "seconds": 129.686965,
+          "category": "administrative_binding_review_with_tools",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 packed wrapper first ordinary repair binding and failed-prestate review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:39:19.795729+00:00",
+          "end": "2026-10-13T07:45:54.831054+00:00",
+          "seconds": 395.035325,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Commit exact PR842 publication, point-in-time CI and closed activity summary"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:45:54.831054+00:00",
+          "end": "2026-10-13T07:47:41.379058+00:00",
+          "seconds": 106.548004,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Source-keyed binding evidence proposal and completed publication queue coordination"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:47:41.379058+00:00",
+          "end": "2026-10-13T07:48:52.366905+00:00",
+          "seconds": 70.987847,
+          "category": "administrative_binding_review_with_tools",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 first33 decoded-key exact declarative/current binding"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:48:52.366905+00:00",
+          "end": "2026-10-13T07:51:59.071481+00:00",
+          "seconds": 186.704576,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 scalar support terminal raw probes and explicit typed-premise verification"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:51:59.071481+00:00",
+          "end": "2026-10-13T07:53:21+00:00",
+          "seconds": 81.928519,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 decoded-key terminal verification"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:53:21+00:00",
+          "end": "2026-10-13T08:02:15.140429+00:00",
+          "seconds": 534.140429,
+          "category": "tools_implementation",
+          "qualification": null,
+          "recorded_focus": [
+            "Build exact historical packed13-fresh7-retained public checker and guard preflight"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:02:15.140429+00:00",
+          "end": "2026-10-13T08:10:39+00:00",
+          "seconds": 503.859571,
+          "category": "tools_implementation",
+          "qualification": null,
+          "recorded_focus": [
+            "Implement independently reviewed evidence-only metadata envelope while owner publication prose is pending"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:10:39+00:00",
+          "end": "2026-10-13T08:14:50+00:00",
+          "seconds": 251.0,
+          "category": "tools_implementation",
+          "qualification": null,
+          "recorded_focus": [
+            "Reconcile committed packed owner package, freeze final public launch and route appendix/current reviews"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:14:50+00:00",
+          "end": "2026-10-13T08:17:15.008820+00:00",
+          "seconds": 145.00882,
+          "category": "tools_implementation",
+          "qualification": null,
+          "recorded_focus": [
+            "Run evidence-envelope synthetic regressions during independent packed final reviews"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:17:15.008820+00:00",
+          "end": "2026-10-13T08:20:53+00:00",
+          "seconds": 217.99118,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Run approved packed public replay and prepare its exact terminal readback; no other compiler in this owner lane"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:20:53+00:00",
+          "end": "2026-10-13T08:31:25+00:00",
+          "seconds": 632.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Finalize measured packed status/checksum delta, candidate, bundle and scoped publication handoff"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:31:25+00:00",
+          "end": "2026-10-13T08:32:05+00:00",
+          "seconds": 40.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Read prospective focus events and close second observation window while candidate reviews and Mac import progress"
+          ]
+        }
+      ]
+    },
+    "analytic": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/analytic/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "1ca4b3b0524344daf57d61ec469982093ca4dd41ee45c13c1c481675a4409a42",
+        "bytes": 4329
+      },
+      "category_seconds": {
+        "unknown": 197.439978,
+        "mathematical_preparation": 415.933858,
+        "tools_compiler_mixed_focus": 1939.0369150000001,
+        "waiting": 309.884108,
+        "administrative_package_or_coordination": 318.53587,
+        "independent_mathematical_review": 419.169271
+      },
+      "category_minutes": {
+        "unknown": 3.2906663,
+        "mathematical_preparation": 6.932230966666666,
+        "tools_compiler_mixed_focus": 32.317281916666666,
+        "waiting": 5.164735133333334,
+        "administrative_package_or_coordination": 5.3089311666666665,
+        "independent_mathematical_review": 6.986154516666667
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T07:32:05+00:00",
+          "end": "2026-10-13T07:35:22.439978+00:00",
+          "seconds": 197.439978,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:35:22.439978+00:00",
+          "end": "2026-10-13T07:37:18.978112+00:00",
+          "seconds": 116.538134,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Reuse-first PR589 eight-profile finite aggregate and preserved two-unit Real source applicability"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:37:18.978112+00:00",
+          "end": "2026-10-13T07:44:09.503682+00:00",
+          "seconds": 410.52557,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch and retain current799 finite native gate through fresh guards and measured result"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:44:09.503682+00:00",
+          "end": "2026-10-13T07:45:19.145944+00:00",
+          "seconds": 69.642262,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Bind current PR589 eight-profile bit arithmetic and exact independent fallback rounding to preserved rational APIs"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:45:19.145944+00:00",
+          "end": "2026-10-13T07:47:06.760579+00:00",
+          "seconds": 107.614635,
+          "category": "waiting",
+          "qualification": null,
+          "recorded_focus": [
+            "Independent current799 Real science/API reviews and final binding; no active compiler"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:47:06.760579+00:00",
+          "end": "2026-10-13T07:50:36.629719+00:00",
+          "seconds": 209.86914,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Independent metadata-only reusable binding-envelope key/invalidation proposal review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:50:36.629719+00:00",
+          "end": "2026-10-13T07:56:27.686811+00:00",
+          "seconds": 351.057092,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch exact current799 native Real gate after independent reviews"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:56:27.686811+00:00",
+          "end": "2026-10-13T07:58:30.103073+00:00",
+          "seconds": 122.416262,
+          "category": "waiting",
+          "qualification": null,
+          "recorded_focus": [
+            "Sole current799 native Real ordinary-repair failure-aware binding seal; source and dry guard complete"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:58:30.103073+00:00",
+          "end": "2026-10-13T07:58:56.447940+00:00",
+          "seconds": 26.344867,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Source-only current799 seven-update minimum/cutoff and strict-grid continuation map"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:58:56.447940+00:00",
+          "end": "2026-10-13T08:09:27.528110+00:00",
+          "seconds": 631.08017,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch sole reviewed current799 Real Nat.cast_one ordinary retry"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:09:27.528110+00:00",
+          "end": "2026-10-13T08:12:33.742743+00:00",
+          "seconds": 186.214633,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Freeze unchanged PR589 finite source and current spectator/commit bindings for independent admission"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:12:33.742743+00:00",
+          "end": "2026-10-13T08:19:32.912014+00:00",
+          "seconds": 419.169271,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Review frame record3 split and complete zero-action symbolic normalization against accepted PR593 APIs"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:19:32.912014+00:00",
+          "end": "2026-10-13T08:25:33.071464+00:00",
+          "seconds": 360.15945,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch sole PR589 finite bit upper after independent source/API/current binding"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:25:33.071464+00:00",
+          "end": "2026-10-13T08:28:56.480059+00:00",
+          "seconds": 203.408595,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Prepare current PR589 weighted Real bit join with generic dimension64 log reduction and independently rounded fallback"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:28:56.480059+00:00",
+          "end": "2026-10-13T08:30:16.333270+00:00",
+          "seconds": 79.853211,
+          "category": "waiting",
+          "qualification": null,
+          "recorded_focus": [
+            "PR589 finite independent terminal and preserved Real-unit committed applicability/binding; weighted Real source is with independent reviewers"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:30:16.333270+00:00",
+          "end": "2026-10-13T08:32:05+00:00",
+          "seconds": 108.66673,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Independent packed bridge candidate Git ancestry/bytes and scoped prior scientific result transport review"
+          ]
+        }
+      ]
+    },
+    "machine": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/machine/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "ec776ce25a33f2e74d373b7c0ab6809b2cbe0a2bdb8b0e664d39ba8370f16b58",
+        "bytes": 2937
+      },
+      "category_seconds": {
+        "unknown": 356.348094,
+        "mathematical_preparation": 718.3928060000001,
+        "independent_mathematical_review": 1064.169139,
+        "tools_compiler_mixed_focus": 871.8006359999999,
+        "administrative_package_or_coordination": 364.289325,
+        "operational_interruption": 225.0
+      },
+      "category_minutes": {
+        "unknown": 5.9391349,
+        "mathematical_preparation": 11.973213433333335,
+        "independent_mathematical_review": 17.73615231666667,
+        "tools_compiler_mixed_focus": 14.530010599999999,
+        "administrative_package_or_coordination": 6.07148875,
+        "operational_interruption": 3.75
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T07:32:05+00:00",
+          "end": "2026-10-13T07:35:46.728857+00:00",
+          "seconds": 221.728857,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:35:46.728857+00:00",
+          "end": "2026-10-13T07:39:09.103937+00:00",
+          "seconds": 202.37508,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 entry-wrapper state connection with explicit two scalar traces and residual frame4 premises"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:39:09.103937+00:00",
+          "end": "2026-10-13T07:41:36.975174+00:00",
+          "seconds": 147.871237,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 finite accepted-root terminal readback"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:41:36.975174+00:00",
+          "end": "2026-10-13T07:43:31.222677+00:00",
+          "seconds": 114.247503,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 support sole released dispatch and fresh built-in guard"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:43:31.222677+00:00",
+          "end": "2026-10-13T07:49:06.973344+00:00",
+          "seconds": 335.750667,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 entry-wrapper connection candidate"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:49:06.973344+00:00",
+          "end": "2026-10-13T07:59:53.266569+00:00",
+          "seconds": 646.293225,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 native Real exact final binding and locked current guard"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:59:53.266569+00:00",
+          "end": "2026-10-13T08:12:30.819702+00:00",
+          "seconds": 757.553133,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 entry connection sole dispatch and fresh guard"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:12:30.819702+00:00",
+          "end": "2026-10-13T08:18:35.109027+00:00",
+          "seconds": 364.289325,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Historical packed Clifford public checker final source/runtime and launch-plan review"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:18:35.109027+00:00",
+          "end": "2026-10-13T08:21:35.376086+00:00",
+          "seconds": 180.267059,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Minimal selected entry-executor formal interface inventory after accepted entry connection; no new compiler or source mutation"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:21:35.376086+00:00",
+          "end": "2026-10-13T08:26:05.380763+00:00",
+          "seconds": 270.004677,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Completed historical packed public replay terminal, measured source/object/log/probe evidence"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:26:05.380763+00:00",
+          "end": "2026-10-13T08:28:20+00:00",
+          "seconds": 134.619237,
+          "category": "unknown",
+          "qualification": "Last unclosed focus followed by operational disconnection; exact onset unknown.",
+          "recorded_focus": [
+            "Generic independent-entry-update fold and exact current799 entry-list application source"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:28:20+00:00",
+          "end": "2026-10-13T08:32:05+00:00",
+          "seconds": 225.0,
+          "category": "operational_interruption",
+          "qualification": "Observed report time, not claimed exact error onset.",
+          "recorded_focus": [
+            "Root reported repeated stream disconnections; no compiler or new candidate review started."
+          ]
+        }
+      ]
+    },
+    "frame": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/frame/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "71b5d4caa1506319942f5b39a03a2da963cb528d6fd87563a1b095ba0e228f90",
+        "bytes": 4690
+      },
+      "category_seconds": {
+        "unknown": 214.621624,
+        "administrative_package_or_coordination": 1770.0426699999998,
+        "waiting": 101.456655,
+        "tools_compiler_mixed_focus": 484.84898699999997,
+        "mathematical_preparation": 562.01076,
+        "administrative_binding_review_with_tools": 467.019304
+      },
+      "category_minutes": {
+        "unknown": 3.5770270666666666,
+        "administrative_package_or_coordination": 29.500711166666665,
+        "waiting": 1.69094425,
+        "tools_compiler_mixed_focus": 8.080816449999999,
+        "mathematical_preparation": 9.366846,
+        "administrative_binding_review_with_tools": 7.783655066666666
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T07:32:05+00:00",
+          "end": "2026-10-13T07:35:39.621624+00:00",
+          "seconds": 214.621624,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:35:39.621624+00:00",
+          "end": "2026-10-13T07:36:41.603859+00:00",
+          "seconds": 61.982235,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Freeze the independently reviewed one-name wrapper retry driver and failed-prestate guard."
+          ]
+        },
+        {
+          "start": "2026-10-13T07:36:41.603859+00:00",
+          "end": "2026-10-13T07:38:23.060514+00:00",
+          "seconds": 101.456655,
+          "category": "waiting",
+          "qualification": null,
+          "recorded_focus": [
+            "Await either released record3 or reviewed wrapper-retry binding seal; no compiler active."
+          ]
+        },
+        {
+          "start": "2026-10-13T07:38:23.060514+00:00",
+          "end": "2026-10-13T07:42:08.157799+00:00",
+          "seconds": 225.097285,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch the single reviewed Gaussian-name wrapper retry and inspect its actual result. Also seal result and inspect residual entrance fields."
+          ]
+        },
+        {
+          "start": "2026-10-13T07:42:08.157799+00:00",
+          "end": "2026-10-13T07:43:11.571381+00:00",
+          "seconds": 63.413582,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Check the concrete residual matrix involution and define the smallest conditional monomial supplier boundary; no finite evaluator or compiler."
+          ]
+        },
+        {
+          "start": "2026-10-13T07:43:11.571381+00:00",
+          "end": "2026-10-13T07:45:58.333474+00:00",
+          "seconds": 166.762093,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch the sole independently reviewed current record3 packed-certificate experiment."
+          ]
+        },
+        {
+          "start": "2026-10-13T07:45:58.333474+00:00",
+          "end": "2026-10-13T08:06:59.763315+00:00",
+          "seconds": 1261.429841,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Normalize the released completed historical packed bridge source/dependency inventory and author scope; no current record3 replay."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:06:59.763315+00:00",
+          "end": "2026-10-13T08:13:22.163437+00:00",
+          "seconds": 382.400122,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Read-only record3 decision-shape diagnosis and a bounded split/symbolic redesign proposal; preserve allocation stop."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:13:22.163437+00:00",
+          "end": "2026-10-13T08:16:02.975292+00:00",
+          "seconds": 160.811855,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Verify exact owner package cleanliness and await central reproduction appendix for author readback; record3 redesign is with independent reviewer."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:16:02.975292+00:00",
+          "end": "2026-10-13T08:23:49.994596+00:00",
+          "seconds": 467.019304,
+          "category": "administrative_binding_review_with_tools",
+          "qualification": null,
+          "recorded_focus": [
+            "Review analytic PR589 finite declarative driver inverse, protected/current inputs and fresh compiler-free retained-lock guard."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:23:49.994596+00:00",
+          "end": "2026-10-13T08:28:35.813335+00:00",
+          "seconds": 285.818739,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Read exact measured reproduction and final four-path completion for historical packed bridge."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:28:35.813335+00:00",
+          "end": "2026-10-13T08:30:32.010391+00:00",
+          "seconds": 116.197056,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Prepare the authorized symbolic residual right-monomial instance, using the accepted packed bridge and nine-coordinate shear/inverse identity."
+          ]
+        },
+        {
+          "start": "2026-10-13T08:30:32.010391+00:00",
+          "end": "2026-10-13T08:32:05+00:00",
+          "seconds": 92.989609,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Dispatch sole admitted record3 literal split, retaining original allocation baseline and all accepted roots."
+          ]
+        }
+      ]
+    },
+    "bank": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/bank/resume_20261013/FOCUS_TRANSITIONS.json",
+        "sha256": "dbde68510f649bc4de524855b8b65ad9fd67aa644f9c605213dcadc37f849246",
+        "bytes": 6381
+      },
+      "category_seconds": {
+        "unknown": 1040.15129,
+        "administrative_package_or_coordination": 1089.166275,
+        "independent_mathematical_review": 839.619173,
+        "tools_compiler_mixed_focus": 241.36443,
+        "mathematical_preparation": 225.0,
+        "waiting": 23.698832,
+        "administrative_binding_review_with_tools": 141.0
+      },
+      "category_minutes": {
+        "unknown": 17.335854833333332,
+        "administrative_package_or_coordination": 18.15277125,
+        "independent_mathematical_review": 13.993652883333334,
+        "tools_compiler_mixed_focus": 4.0227405,
+        "mathematical_preparation": 3.75,
+        "waiting": 0.39498053333333333,
+        "administrative_binding_review_with_tools": 2.35
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T07:32:05+00:00",
+          "end": "2026-10-13T07:39:10+00:00",
+          "seconds": 425.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:39:10+00:00",
+          "end": "2026-10-13T07:42:27+00:00",
+          "seconds": 197.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Record3 exact binding rehash and fresh locked dry guard"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:42:27+00:00",
+          "end": "2026-10-13T07:45:57.983603+00:00",
+          "seconds": 210.983603,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 native Real template/API source review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:45:57.983603+00:00",
+          "end": "2026-10-13T07:46:38+00:00",
+          "seconds": 40.016397,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Freeze current799 decoded-key source/current bindings and owner dry guard"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:46:38+00:00",
+          "end": "2026-10-13T07:46:49+00:00",
+          "seconds": 11.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:46:49+00:00",
+          "end": "2026-10-13T07:48:53.635570+00:00",
+          "seconds": 124.63557,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Preserved PR543 Real units, current PR589 API/application review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:48:53.635570+00:00",
+          "end": "2026-10-13T07:50:49+00:00",
+          "seconds": 115.36443,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Released current799 four-key root dispatch and terminal observation; other reviews may overlap"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:50:49+00:00",
+          "end": "2026-10-13T07:52:55+00:00",
+          "seconds": 126.0,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 entry value/source/API review with strict source-index and record checks"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:52:55+00:00",
+          "end": "2026-10-13T07:54:18.151290+00:00",
+          "seconds": 83.15129,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:54:18.151290+00:00",
+          "end": "2026-10-13T07:55:42+00:00",
+          "seconds": 83.84871,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Commit independent seals and accepted decoded-key result; prepare requested repair review when frozen"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:55:42+00:00",
+          "end": "2026-10-13T07:58:42+00:00",
+          "seconds": 180.0,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Next16 exact projection, sparse full checkpoint and append proof preparation; own source emission/advisory/commit"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:58:42+00:00",
+          "end": "2026-10-13T07:59:23+00:00",
+          "seconds": 41.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:59:23+00:00",
+          "end": "2026-10-13T08:04:24+00:00",
+          "seconds": 301.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "PR589 A/C128 independent declarative/current binding review"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:04:24+00:00",
+          "end": "2026-10-13T08:07:08+00:00",
+          "seconds": 164.0,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "PR589 finite template/API and resource shape; source/pin validation tools mixed with review"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:07:08+00:00",
+          "end": "2026-10-13T08:07:37+00:00",
+          "seconds": 29.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T08:07:37+00:00",
+          "end": "2026-10-13T08:09:40+00:00",
+          "seconds": 123.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Freeze next16 exact closure, declarative driver and owner dry guard; commit handoff"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:09:40+00:00",
+          "end": "2026-10-13T08:10:57+00:00",
+          "seconds": 77.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "PR589 A/C128 raw receipt/probe and preservation readback"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:10:57+00:00",
+          "end": "2026-10-13T08:11:37+00:00",
+          "seconds": 40.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T08:11:37+00:00",
+          "end": "2026-10-13T08:14:10.301168+00:00",
+          "seconds": 153.301168,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 native Real accepted-source/probe/closure and failed-archive readback"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:14:10.301168+00:00",
+          "end": "2026-10-13T08:14:34+00:00",
+          "seconds": 23.698832,
+          "category": "waiting",
+          "qualification": null,
+          "recorded_focus": [
+            "Await sole next16 binding seal; all assigned independent review packets delivered"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:14:34+00:00",
+          "end": "2026-10-13T08:15:47+00:00",
+          "seconds": 73.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 entry-value raw probes/types, hashes and import first matches; next16 client dispatch overlaps last17seconds"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:15:47+00:00",
+          "end": "2026-10-13T08:16:14+00:00",
+          "seconds": 27.0,
+          "category": "unknown",
+          "qualification": "Conflicting recorded intervals; counted unknown.",
+          "recorded_focus": [
+            "Current799 entry-value raw probes/types, hashes and import first matches; next16 client dispatch overlaps last17seconds",
+            "Sole released next16 serial Data/Check client, output preservation and receipt readback"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:16:14+00:00",
+          "end": "2026-10-13T08:18:20+00:00",
+          "seconds": 126.0,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Sole released next16 serial Data/Check client, output preservation and receipt readback"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:18:20+00:00",
+          "end": "2026-10-13T08:18:35+00:00",
+          "seconds": 15.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T08:18:35+00:00",
+          "end": "2026-10-13T08:19:20+00:00",
+          "seconds": 45.0,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Bounded next48 multi-key source lookahead; no source emission"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:19:20+00:00",
+          "end": "2026-10-13T08:19:50+00:00",
+          "seconds": 30.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T08:19:50+00:00",
+          "end": "2026-10-13T08:21:00+00:00",
+          "seconds": 70.0,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Reconstruct fourteen prospective A/C source pairs in memory; no emission"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:21:00+00:00",
+          "end": "2026-10-13T08:26:28+00:00",
+          "seconds": 328.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T08:26:28+00:00",
+          "end": "2026-10-13T08:27:09+00:00",
+          "seconds": 41.0,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Deliver completed plan review and accepted next16 result; reconcile new packet"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:27:09+00:00",
+          "end": "2026-10-13T08:29:30+00:00",
+          "seconds": 141.0,
+          "category": "administrative_binding_review_with_tools",
+          "qualification": null,
+          "recorded_focus": [
+            "Frame split literal stage inverse/current first matches and fresh locked dry guard"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:29:30+00:00",
+          "end": "2026-10-13T08:29:41+00:00",
+          "seconds": 11.0,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T08:29:41+00:00",
+          "end": "2026-10-13T08:32:05+00:00",
+          "seconds": 144.0,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Weighted PR589 Real template/source/API review; small next16 result bookkeeping overlaps"
+          ]
+        }
+      ]
+    },
+    "signed": {
+      "source": {
+        "path": "/workspace/scratch/c569c316cd54/recovery_20261011/post114_reconstruction/signed/resume_20261013/FOCUS_TRANSITIONS.jsonl",
+        "sha256": "fe4517cedd82b755e9a30eda522037162166218c374fd5a14aaab18d62390183",
+        "bytes": 3741
+      },
+      "category_seconds": {
+        "unknown": 1187.362012,
+        "independent_mathematical_review": 773.9944620000001,
+        "administrative_package_or_coordination": 510.27526,
+        "mathematical_preparation": 952.6644709999999,
+        "waiting": 59.397579,
+        "tools_compiler_mixed_focus": 116.306216
+      },
+      "category_minutes": {
+        "unknown": 19.78936686666667,
+        "independent_mathematical_review": 12.899907700000002,
+        "administrative_package_or_coordination": 8.504587666666668,
+        "mathematical_preparation": 15.877741183333333,
+        "waiting": 0.98995965,
+        "tools_compiler_mixed_focus": 1.9384369333333333
+      },
+      "segments": [
+        {
+          "start": "2026-10-13T07:32:05+00:00",
+          "end": "2026-10-13T07:41:24.958267+00:00",
+          "seconds": 559.958267,
+          "category": "unknown",
+          "qualification": "No prospective observation for this gap.",
+          "recorded_focus": []
+        },
+        {
+          "start": "2026-10-13T07:41:24.958267+00:00",
+          "end": "2026-10-13T07:43:19.722670+00:00",
+          "seconds": 114.764403,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 first33 decoded-key source/API review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:43:19.722670+00:00",
+          "end": "2026-10-13T07:45:34.507706+00:00",
+          "seconds": 134.785036,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 native Real formula/source review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:45:34.507706+00:00",
+          "end": "2026-10-13T07:51:57.487092+00:00",
+          "seconds": 382.979386,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Normalize completed PR589 B owner packet"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:51:57.487092+00:00",
+          "end": "2026-10-13T07:57:22.062038+00:00",
+          "seconds": 324.574946,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "PR589 finite bit weighted aggregate formula review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:57:22.062038+00:00",
+          "end": "2026-10-13T07:59:29.357912+00:00",
+          "seconds": 127.295874,
+          "category": "administrative_package_or_coordination",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 entry exact successor binding review"
+          ]
+        },
+        {
+          "start": "2026-10-13T07:59:29.357912+00:00",
+          "end": "2026-10-13T08:02:49.227989+00:00",
+          "seconds": 199.870077,
+          "category": "independent_mathematical_review",
+          "qualification": null,
+          "recorded_focus": [
+            "Current799 next16 literal/source/API review"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:02:49.227989+00:00",
+          "end": "2026-10-13T08:04:05.190087+00:00",
+          "seconds": 75.962098,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Read-only remaining PR589 A/C partition and whole-list identity plan"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:04:05.190087+00:00",
+          "end": "2026-10-13T08:05:04.587666+00:00",
+          "seconds": 59.397579,
+          "category": "waiting",
+          "qualification": null,
+          "recorded_focus": [
+            "Await bank exact A/C128 binding seal; no own compiler yet"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:05:04.587666+00:00",
+          "end": "2026-10-13T08:07:00.893882+00:00",
+          "seconds": 116.306216,
+          "category": "tools_compiler_mixed_focus",
+          "qualification": null,
+          "recorded_focus": [
+            "Sole admitted A/C128 Data then Check"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:07:00.893882+00:00",
+          "end": "2026-10-13T08:17:28.297627+00:00",
+          "seconds": 627.403745,
+          "category": "unknown",
+          "qualification": "Next event names a different previous category; missing intervening transition is not reconstructed.",
+          "recorded_focus": [
+            "Independent A/C128 terminal before preparing14-pair admission plan; publication checker also pending"
+          ]
+        },
+        {
+          "start": "2026-10-13T08:17:28.297627+00:00",
+          "end": "2026-10-13T08:32:05+00:00",
+          "seconds": 876.702373,
+          "category": "mathematical_preparation",
+          "qualification": null,
+          "recorded_focus": [
+            "Concrete14-unary-pair bounded source/hash/admission plan"
+          ]
+        }
+      ]
+    }
+  },
+  "total_owner_seconds": 21600,
+  "category_seconds": {
+    "unknown": 3197.922998,
+    "administrative_binding_review_with_tools": 911.80288,
+    "administrative_package_or_coordination": 5225.892729,
+    "independent_mathematical_review": 3365.58514,
+    "tools_implementation": 1434.00882,
+    "tools_compiler_mixed_focus": 3871.348364,
+    "mathematical_preparation": 2874.0018950000003,
+    "waiting": 494.437174,
+    "operational_interruption": 225.0
+  },
+  "category_minutes": {
+    "unknown": 53.298716633333335,
+    "administrative_binding_review_with_tools": 15.196714666666667,
+    "administrative_package_or_coordination": 87.09821215000001,
+    "independent_mathematical_review": 56.09308566666667,
+    "tools_implementation": 23.900147,
+    "tools_compiler_mixed_focus": 64.52247273333333,
+    "mathematical_preparation": 47.90003158333334,
+    "waiting": 8.240619566666668,
+    "operational_interruption": 3.75
+  },
+  "previous_window_unknown_owner_minutes": 247.7937587833333,
+  "mathematical_seconds_combined": 6239.5870350000005
+}

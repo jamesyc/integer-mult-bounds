@@ -1,0 +1,30 @@
+{
+  "status": "PUBLISHED_ROOT_AND_EXISTING_MAC_VERIFIED",
+  "reported_by": "root with independent GitHub readback and publisher verification",
+  "recorded_utc": "2026-10-13T09:13:29.632109+00:00",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/872",
+  "created_utc": "2026-10-13T08:47:25Z",
+  "head": "5bbf44624fc3902dc7c53a2f06df90ee73928532",
+  "base": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "draft": true,
+  "maintainer_can_modify": false,
+  "files": 31,
+  "body_bytes": 3051,
+  "body_sha256": "3fe2679764a0cf469525eaff474683c8d9b77407b8fb9295cb3da45a16e94221",
+  "seven_normal_backup_refs_verified": true,
+  "replay_finished_utc": "2026-10-13T08:20:22.662331+00:00",
+  "replay_finish_to_publication_seconds": 1622.337669,
+  "prior_PR842_seconds": 1454.434601,
+  "comparison": "Slower elapsed publication interval; scope differs. No speedup or model-inference timing inferred.",
+  "ci_point_in_time": {
+    "observed_utc": "2026-10-13T09:09:00Z",
+    "upstream_success": 5,
+    "upstream_total": 5,
+    "fork_success": 4,
+    "fork_total": 5,
+    "fork_research_run": 38371580674,
+    "fork_research_status": "queued",
+    "monitor_owner": "root"
+  },
+  "handoff_sha256": "cfb94e06d30719bb409ccd22228ce2f39eac27d51f98290f4b67391f830a2cc9"
+}
