@@ -1,0 +1,39 @@
+{
+  "format": "xor-conjugacy-publication-provenance-v1",
+  "source_checkpoint_commit": "273044c3d779e533f0afa64ca8e42b34e865babb",
+  "source": {
+    "path": "BitXorConjugacy.lean",
+    "bytes": 4183,
+    "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d"
+  },
+  "publication_context": {
+    "head": "47481c89fd30a43f8f882eb4b391e89c29273fd0",
+    "kappa": "1661957774647029/1000000000000000000",
+    "decimal": "0.001661957774647029",
+    "selected_result": "certificates/selected-result.json",
+    "selected_result_git_blob": "5dbfac5424703adbb97f38edbdcaea4627215132",
+    "assembly": "research/community-frontier890-audit/ASSEMBLY.json",
+    "assembly_git_blob": "e78b030732caa69d7528491bfa40ba24d36383cc",
+    "assembly_sha256": "190110b509dc87d38b72ad37c3290efcc245ce26df4cae3d7e2d6dcf0bac2c43",
+    "author_checked_by": "signed",
+    "role": "Publication context only; not a premise or consequence of the generic theorem."
+  },
+  "source_binding": {
+    "path": "SOURCE_BINDING.json",
+    "sha256": "df51716135828c31ebb329fbc0398160a6670c8d76af3dbcf7ba8d08eeadb1f9"
+  },
+  "fresh_result": {
+    "path": "FRESH_RESULT.json",
+    "sha256": "d27c108ed1503a22407693a3926d37852e4d5934b7b340a05286dab172853660"
+  },
+  "independent_terminal": {
+    "path": "evidence/TERMINAL_REVIEW.json",
+    "bytes": 6422,
+    "sha256": "54e04f7386b912520cb4744c86c8d5170581b8ef8d725a2f03e9ea413f6cd49d"
+  },
+  "current_summary": "REPLAY_SUMMARY.json",
+  "historical_checkpoint_manifest": "MANIFEST.json",
+  "original_source_and_evidence_bytes_preserved": true,
+  "new_executable_checker": false,
+  "full_multiplication_theorem": false
+}
