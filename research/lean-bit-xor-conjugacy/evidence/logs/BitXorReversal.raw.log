@@ -1,0 +1,12 @@
+/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorReversal.lean:82:8: warning: automatically included section variable(s) unused in theorem '_private.BitXorReversal.0.CurrentMain.BitXorReversal.shifted_comparison':
+  [DecidableEq Reg]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Reg] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'CurrentMain.BitXorReversal.run_append' does not depend on any axioms
+'CurrentMain.BitXorReversal.run_scalarize' does not depend on any axioms
+'CurrentMain.BitXorReversal.step_involutive' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXorReversal.run_reverse_cancel' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXorReversal.run_agree_off_target' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXorReversal.cleanup_off_target' depends on axioms: [propext, Quot.sound]
+'CurrentMain.BitXorReversal.cleanup_target_value' depends on axioms: [propext]

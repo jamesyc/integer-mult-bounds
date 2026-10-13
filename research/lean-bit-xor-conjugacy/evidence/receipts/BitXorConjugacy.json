@@ -1,0 +1,90 @@
+{
+  "module": "BitXorConjugacy",
+  "output_provenance": "FRESH_CURRENT_EXECUTOR_RUN",
+  "status": "PASS",
+  "started_utc": "2026-10-13T13:13:28.882186+00:00",
+  "finished_utc": "2026-10-13T13:13:29.128887+00:00",
+  "command": [
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/runtime/lean-4.21.0-linux/bin/lean",
+    "-s65536",
+    "-j1",
+    "-o",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorConjugacy.olean",
+    "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorConjugacy.lean"
+  ],
+  "cwd": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources",
+  "environment_overrides": {
+    "LEAN_PATH": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects",
+    "MIMALLOC_ARENA_RESERVE": "64MiB",
+    "LEAN_NUM_THREADS": "1"
+  },
+  "hard_wall_seconds": 60,
+  "rlimit_as_bytes": 4294967296,
+  "review_wall_seconds": 45,
+  "review_vm_peak_bytes": 3758096384,
+  "exit_code": 0,
+  "stop_reason": null,
+  "compile_seconds": 0.24668880900026124,
+  "peak_vm_bytes": 841175040,
+  "peak_rss_bytes": 322666496,
+  "kernel_peak_rss_bytes": 322486272,
+  "peak_threads": 4,
+  "samples": 48,
+  "sample_interval_seconds": 0.005,
+  "user_cpu_seconds": 0.211772,
+  "system_cpu_seconds": 0.027866,
+  "source_bytes": 4183,
+  "source_sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d",
+  "lean_binary_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+  "official_core_manifest_sha256": "2c27354193fc7b11079b61116ab8e9c80485903845bda48ddf3c66057fed2cb1",
+  "official_core_pairs": 317,
+  "official_core_ordered_edges": 1077,
+  "imports": [
+    "BitXorReversal"
+  ],
+  "complete_ordered_axiom_records": [
+    {
+      "declaration": "CurrentMain.BitXorConjugacy.run_xor",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CurrentMain.BitXorConjugacy.conjugated_target_injection",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "expected_probes_match": true,
+  "standard_only_axioms": true,
+  "forbidden_axioms_or_sorry": false,
+  "raw_log_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorConjugacy.raw.log",
+  "raw_log_sha256": "f1b456ab763ce3420747edc9c15979963b1ab86a646a3ca031b6dee10ff7a88e",
+  "object_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/objects/BitXorConjugacy.olean",
+  "object_bytes": 91816,
+  "object_sha256": "abd10b97981ef8e97a33f226f65960cf924b355aadef3cc969170d152bf16528",
+  "pre_guard": {
+    "verified_utc": "2026-10-13T13:13:28.879617+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 6,
+    "successful_predecessor_artifacts_checked": 6,
+    "guard_seconds": 0.12539682300030108
+  },
+  "post_guard": {
+    "verified_utc": "2026-10-13T13:13:29.252396+00:00",
+    "pairs_checked": 317,
+    "ordered_edges_checked": 1077,
+    "actual_source_import_order_matches": true,
+    "runtime_sha256": "cbf5fd536e142ef1beaccf33f788fd8a7f3f29fb214e75c11319a8d8677b4b2b",
+    "protected_metadata_count": 6,
+    "successful_predecessor_artifacts_checked": 7,
+    "guard_seconds": 0.12322464699991542
+  },
+  "post_guard_error": null
+}

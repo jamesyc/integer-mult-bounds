@@ -1,0 +1,83 @@
+{
+  "format": "small-source-and-fresh-execution-evidence-checkpoint-v1",
+  "status": "FRESH_EXECUTION_EVIDENCE_INDEPENDENT_ARTIFACT_REVIEW_PENDING",
+  "checkpointed_utc": "2026-10-13T13:44:42.866160+00:00",
+  "owner": "existing signed research owner",
+  "signed_parent_commit": "7c566a5218793a5596b825ef59d645f73dd3be3b",
+  "source_attribution": "BitXorConjugacy source preserved verbatim, including Gareth Davidson/bitplane PR915 and PR794/713/716/686 lineage, PR590/597 reuse, Apache-2.0 and OpenAI-assistance disclosure",
+  "scope": "Generic Boolean XOR-linearity and restored-basis injection with explicit premises. Source/evidence backup only; not a final public package or full multiplication theorem.",
+  "independent_artifact_review": "pending",
+  "publication_authority": "root only; no PR or publication authorized by this checkpoint",
+  "original_receipt_paths_preserved": true,
+  "retained_historical_outputs_copied": false,
+  "predecessor_sources_or_objects_copied": false,
+  "recompiled": false,
+  "archive_created": false,
+  "copied_file_count": 9,
+  "copied_bytes": 23765,
+  "files": [
+    {
+      "path": "BitXorConjugacy.lean",
+      "bytes": 4183,
+      "sha256": "596ea506d9b2dca81d8762617511227d7670f3ff755b2fa35e507bc9ffef9d2d",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/sources/BitXorConjugacy.lean",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "bytes": 940,
+      "sha256": "df51716135828c31ebb329fbc0398160a6670c8d76af3dbcf7ba8d08eeadb1f9",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/metadata/BitXorConjugacy-source-binding.json",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "FRESH_RESULT.json",
+      "bytes": 3700,
+      "sha256": "d27c108ed1503a22407693a3926d37852e4d5934b7b340a05286dab172853660",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/FRESH_RESULT.json",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "evidence/logs/BitXorTargetTranslation.raw.log",
+      "bytes": 1860,
+      "sha256": "15d76d8d3e47ca89b71aabb20aec1c7f9febf841a2e909b3b879511afaf9d6dd",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorTargetTranslation.raw.log",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "evidence/logs/BitXorReversal.raw.log",
+      "bytes": 1114,
+      "sha256": "bd9549010e35c816e7d0405aa44131edc63b7342aae4f1f85cf486107035c9b1",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorReversal.raw.log",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "evidence/logs/BitXorConjugacy.raw.log",
+      "bytes": 178,
+      "sha256": "f1b456ab763ce3420747edc9c15979963b1ab86a646a3ca031b6dee10ff7a88e",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/logs/BitXorConjugacy.raw.log",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "evidence/receipts/BitXorTargetTranslation.json",
+      "bytes": 3902,
+      "sha256": "cc2611a9a4e75908ca2896dbd20814bbeca61860c00dc1385b01fbff64a8fdf4",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorTargetTranslation.json",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "evidence/receipts/BitXorReversal.json",
+      "bytes": 4255,
+      "sha256": "cd75adee41ddc21e7a3e75f128686a83f1dd026544272f2eca26d339e98c9404",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorReversal.json",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    },
+    {
+      "path": "evidence/receipts/BitXorConjugacy.json",
+      "bytes": 3633,
+      "sha256": "3ada7342bb343c05d515ededed8a59b9cb806aa9224a4c9a1722905dacd0e11b",
+      "original_path": "/workspace/shared/runtime-recovery-20261013T123242Z-5l7fg8u7/core-bitxor-20261013T130621Z-b7emt5b6/receipts/BitXorConjugacy.json",
+      "provenance": "unchanged bytes from the completed fresh core-only execution; no rerun"
+    }
+  ]
+}
