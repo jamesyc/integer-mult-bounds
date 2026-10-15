@@ -1,0 +1,312 @@
+{
+  "schema": "public-source-bound-acceptance-v1",
+  "lean_version": "4.21.0",
+  "mathlib_commit": "308445d7985027f538e281e18df29ca16ede2ba3",
+  "author_checked_context": {
+    "kappa": "836330098538459/500000000000000000",
+    "decimal": "0.001672660197076918",
+    "author_checked": true,
+    "source_context_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+    "meaning": "Context of selected main only. These finite reference results do not prove this exponent saving or the multiplication theorem."
+  },
+  "summary": "Four exact independently accepted sources; 30 standard-only axiom probes and six complete printed types. No publication replay.",
+  "modules": [
+    {
+      "module": "Current1094Rows12DyadicReference",
+      "source_sha256": "1198376aad53364cbcfcb9b576080ad06639dd016be8461082bdda16a4d859e0",
+      "source_bytes": 9198,
+      "independent_reviewer": "prove_main_machine_contracts",
+      "result": "PASS",
+      "probes": [
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.run_core",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_length",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_prefix_decodes",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_cell",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_outside_cell",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_cell_value",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_cell_budget",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.rows12_uniform_cell_budget",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12DyadicReference.selected_rows12_cell",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "printed_full_types": "CurrentMain.Current1094Rows12DyadicReference.rows12_uniform_cell_budget : \u2200 (n target source : \u2115),\n  source \u2260 target \u2192\n    \u2200 (s : CurrentMain.Current1094Row1DyadicReference.EncodedState)\n      (slot : CurrentMain.ComponentStoreFoldRefinement.Slot (Fin n)) (b P : \u2115),\n      (s.memory (CurrentMain.Current1094Row2AddReference.address n target slot)).numerator.natAbs < 2 ^ b \u2192\n        (s.memory (CurrentMain.Current1094Row2AddReference.address n source slot)).numerator.natAbs < 2 ^ b \u2192\n          (s.memory (CurrentMain.Current1094Row2AddReference.address n target slot)).fractionalBits \u2264 P \u2192\n            (s.memory (CurrentMain.Current1094Row2AddReference.address n source slot)).fractionalBits \u2264 P \u2192\n              ((CurrentMain.Current1094Row2DyadicReference.runAdd\n                          (CurrentMain.Current1094Rows12DyadicReference.rows12Program n target source) s).memory\n                      (CurrentMain.Current1094Row2AddReference.address n target slot)).fractionalBits \u2264\n                  P + 1 \u2227\n                ((CurrentMain.Current1094Row2DyadicReference.runAdd\n                            (CurrentMain.Current1094Rows12DyadicReference.rows12Program n target source) s).memory\n                        (CurrentMain.Current1094Row2AddReference.address n target slot)).numerator.natAbs <\n                  2 ^ (b + P + 1)",
+      "printed_type_count": 1,
+      "warnings": [],
+      "errors": [],
+      "scope": "Composes the existing SCALE and ADD reference tapes in actual order (16*n instructions), with every-prefix full-state real decoding, source/outside-cell preservation, and exact raw target addCell(minusHalfCell t,halfCell u). The two original numerator/exponent bounds yield exponent <= P+1 and magnitude < 2^(b+P+1)."
+    },
+    {
+      "module": "Current1094Rows12PrefixBitBudget",
+      "source_sha256": "92adbaf36b2cad6117e78aa5a8dc1ab473e68d9cab3474c9cf34e88bc918d88d",
+      "source_bytes": 14828,
+      "independent_reviewer": "prove_main_machine_contracts",
+      "result": "PASS",
+      "probes": [
+        {
+          "declaration": "CurrentMain.Current1094Rows12PrefixBitBudget.scale_component_prefix",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12PrefixBitBudget.add_component_prefix",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12PrefixBitBudget.rows12_all_prefixes",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.Current1094Rows12PrefixBitBudget.selected_all_prefixes",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "printed_full_types": "CurrentMain.Current1094Rows12PrefixBitBudget.rows12_all_prefixes : \u2200 (n target source b P : \u2115),\n  source \u2260 target \u2192\n    \u2200 (s : CurrentMain.Current1094Row1DyadicReference.EncodedState),\n      CurrentMain.Current1094Rows12PrefixBitBudget.StateBudget\n          (CurrentMain.Current1094Rows12PrefixBitBudget.footprint n target source) b P s \u2192\n        \u2200 (k : \u2115),\n          CurrentMain.Current1094Rows12PrefixBitBudget.StateBudget\n            (CurrentMain.Current1094Rows12PrefixBitBudget.footprint n target source) (b + P + 1) (P + 1)\n            (CurrentMain.Current1094Row2DyadicReference.runAdd\n              (List.take k (CurrentMain.Current1094Rows12DyadicReference.rows12Program n target source)) s)",
+      "printed_type_count": 1,
+      "warnings": [],
+      "errors": [],
+      "scope": "Bounds every instruction prefix on the two finite active blocks and the initially dirty accumulator: StateBudget(b,P) gives StateBudget(b+P+1,P+1), independent of n and prefix k. Unrelated memory is unrestricted."
+    },
+    {
+      "module": "FixedGridReference",
+      "source_sha256": "8d6c605c426f586c60f01d40d087deaa505d305a75283eea451e0d178e1b585f",
+      "source_bytes": 8611,
+      "independent_reviewer": "prove_main_machine_contracts",
+      "result": "PASS",
+      "probes": [
+        {
+          "declaration": "CurrentMain.FixedGridReference.half_factor",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.half_even",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.half_exact",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.add_exact",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.step_encode",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.run_encode",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.selected_prefix",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.FixedGridReference.selected_prefix_values",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "printed_full_types": "CurrentMain.FixedGridReference.step_encode : \u2200 (Q : \u2115) (op : CurrentMain.FixedGridReference.Instruction)\n  (s : CurrentMain.Current1094Row1DyadicReference.EncodedState),\n  (CurrentMain.Current1094Row2DyadicReference.stepAdd op s).accumulator.fractionalBits \u2264 Q \u2192\n    CurrentMain.FixedGridReference.step op (CurrentMain.FixedGridReference.encode Q s) =\n      CurrentMain.FixedGridReference.encode Q (CurrentMain.Current1094Row2DyadicReference.stepAdd op s)\nCurrentMain.FixedGridReference.selected_prefix_values : \u2200 (n b P : \u2115)\n  (s : CurrentMain.Current1094Row1DyadicReference.EncodedState),\n  CurrentMain.Current1094Rows12PrefixBitBudget.StateBudget\n      (CurrentMain.Current1094Rows12PrefixBitBudget.footprint n\n        CurrentMain.Current1094Row2AddReference.selectedTargetFamily\n        CurrentMain.Current1094Row2AddReference.selectedSourceFamily)\n      b P s \u2192\n    \u2200 (k : \u2115),\n      (\u2200\n          a \u2208\n            CurrentMain.Current1094Rows12PrefixBitBudget.footprint n\n              CurrentMain.Current1094Row2AddReference.selectedTargetFamily\n              CurrentMain.Current1094Row2AddReference.selectedSourceFamily,\n          \u2191((CurrentMain.FixedGridReference.run\n                      (List.take k (CurrentMain.Current1094Rows12DyadicReference.selectedRows12Program n))\n                      (CurrentMain.FixedGridReference.encode (P + 1) s)).memory\n                  a) /\n              2 ^ (P + 1) =\n            CurrentMain.Current1094Row1DyadicReference.value\n              ((CurrentMain.Current1094Row2DyadicReference.runAdd\n                    (List.take k (CurrentMain.Current1094Rows12DyadicReference.selectedRows12Program n)) s).memory\n                a)) \u2227\n        \u2191(CurrentMain.FixedGridReference.run\n                  (List.take k (CurrentMain.Current1094Rows12DyadicReference.selectedRows12Program n))\n                  (CurrentMain.FixedGridReference.encode (P + 1) s)).accumulator /\n            2 ^ (P + 1) =\n          CurrentMain.Current1094Row1DyadicReference.value\n            (CurrentMain.Current1094Row2DyadicReference.runAdd\n                (List.take k (CurrentMain.Current1094Rows12DyadicReference.selectedRows12Program n)) s).accumulator",
+      "printed_type_count": 2,
+      "warnings": [],
+      "errors": [],
+      "scope": "Defines a fixed-denominator integer interpreter and proves its per-step and prefix simulation under post-step exponent bounds. HALVE parity is derived, not assumed. At selected rows1-2, Q=P+1 follows from the previous finite-footprint budget; decoding includes visible accumulator."
+    },
+    {
+      "module": "SelectedFirstButterflyReference",
+      "source_sha256": "8db6ac462c20d6030177478fdcea71b99fed783ab349b316ae7c9ebf03f78f17",
+      "source_bytes": 17439,
+      "independent_reviewer": "prove_main_machine_contracts",
+      "result": "PASS",
+      "probes": [
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.row3_state",
+          "axioms": [
+            "propext"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.program_length",
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.endpoint_cells",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.outside_cell",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.signed_H0_orientation",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.prefix_decodes",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.all_prefix_exponents",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.fixed_grid_prefix_values",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "CurrentMain.SelectedFirstButterflyReference.selected_endpoint_values",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "printed_full_types": "CurrentMain.SelectedFirstButterflyReference.fixed_grid_prefix_values : \u2200 (n target source b P k : \u2115),\n  source \u2260 target \u2192\n    \u2200 (s : CurrentMain.Current1094Row1DyadicReference.EncodedState),\n      CurrentMain.Current1094Rows12PrefixBitBudget.StateBudget\n          (CurrentMain.Current1094Rows12PrefixBitBudget.footprint n target source) b P s \u2192\n        (\u2200 a \u2208 CurrentMain.Current1094Rows12PrefixBitBudget.footprint n target source,\n            \u2191((CurrentMain.FixedGridReference.run\n                        (List.take k (CurrentMain.SelectedFirstButterflyReference.program n target source))\n                        (CurrentMain.FixedGridReference.encode (P + 1) s)).memory\n                    a) /\n                2 ^ (P + 1) =\n              CurrentMain.Current1094Row1DyadicReference.value\n                ((CurrentMain.Current1094Row2DyadicReference.runAdd\n                      (List.take k (CurrentMain.SelectedFirstButterflyReference.program n target source)) s).memory\n                  a)) \u2227\n          \u2191(CurrentMain.FixedGridReference.run\n                    (List.take k (CurrentMain.SelectedFirstButterflyReference.program n target source))\n                    (CurrentMain.FixedGridReference.encode (P + 1) s)).accumulator /\n              2 ^ (P + 1) =\n            CurrentMain.Current1094Row1DyadicReference.value\n              (CurrentMain.Current1094Row2DyadicReference.runAdd\n                  (List.take k (CurrentMain.SelectedFirstButterflyReference.program n target source)) s).accumulator\nCurrentMain.SelectedFirstButterflyReference.selected_endpoint_values : \u2200 (n : \u2115)\n  (s : CurrentMain.Current1094Row1DyadicReference.EncodedState)\n  (slot : CurrentMain.ComponentStoreFoldRefinement.Slot (Fin n)),\n  CurrentMain.Current1094Row1DyadicReference.value\n        ((CurrentMain.Current1094Row2DyadicReference.runAdd\n              (CurrentMain.SelectedFirstButterflyReference.selectedProgram n) s).memory\n          (CurrentMain.Current1094Row2AddReference.address n 119 slot)) =\n      (CurrentMain.Current1094Row1DyadicReference.value\n            (s.memory (CurrentMain.Current1094Row2AddReference.address n 169 slot)) -\n          CurrentMain.Current1094Row1DyadicReference.value\n            (s.memory (CurrentMain.Current1094Row2AddReference.address n 119 slot))) /\n        2 \u2227\n    CurrentMain.Current1094Row1DyadicReference.value\n        ((CurrentMain.Current1094Row2DyadicReference.runAdd\n              (CurrentMain.SelectedFirstButterflyReference.selectedProgram n) s).memory\n          (CurrentMain.Current1094Row2AddReference.address n 169 slot)) =\n      (CurrentMain.Current1094Row1DyadicReference.value\n            (s.memory (CurrentMain.Current1094Row2AddReference.address n 169 slot)) +\n          CurrentMain.Current1094Row1DyadicReference.value\n            (s.memory (CurrentMain.Current1094Row2AddReference.address n 119 slot))) /\n        2",
+      "printed_type_count": 2,
+      "warnings": [],
+      "errors": [],
+      "scope": "Adds the actual third raw ADD row to the first two, counts 24*n reference instructions, derives both raw Cell endpoints ((u-t)/2,(u+t)/2), preserves outside memory, and proves Q=P+1 refinement for every prefix. The signed H0 orientation is explicit; this is the original three-row subroutine, not the complete selected transform."
+    }
+  ],
+  "total_probes": 30,
+  "total_printed_types": 6,
+  "limits": [
+    "All arithmetic is unbounded Int/Nat/Real reference semantics. The 16*n and 24*n lengths count reference instructions, not primitive bit operations.",
+    "Initial finite-footprint and visible-accumulator magnitude/exponent bounds remain hypotheses. Unrelated memory is unrestricted; real decoding is asserted only where the exponent bound holds.",
+    "Fixed-Q initial scaling is a mathematical representation equation, not paid physical initialization or a global precision selection. Integer halving is exact because parity follows from the stated exponent bound.",
+    "The exact first-three-row endpoint has a signed H0 output orientation. Full selected-layer layout/order, recursive child endpoints and final computed-round arrays remain separate.",
+    "No physical finite-word controller, Program/Host simulation, stack cleanup, output packing, global recurrence coefficient or full multiplication theorem is supplied by this package."
+  ],
+  "publication_evidence": "Original failures, exact proof-only repair histories and independent source/terminal receipts are retained by the authors. This summary binds public source hashes, theorem probes and complete types; it exports no private runtime paths or telemetry."
+}
